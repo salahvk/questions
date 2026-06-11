@@ -1,0 +1,59 @@
+Upload these JSON files to your GitHub raw API folder:
+https://raw.githubusercontent.com/salahvk/donation/refs/heads/main/
+
+STANDARD CATEGORIES (1 question file each)
+==========================================
+#  Malayalam (UI)                    English (internal)              JSON file name
+1.  കേരളം - ജില്ലകളിലൂടെ              Kerala Through Its Districts    kerala_through_districts.json
+2.  കേരള നവോത്ഥാനം                    Kerala Renaissance              kerala_renaissance.json
+3.  കേരള ചരിത്രം                      History of Kerala               history_of_kerala.json
+4.  കേരള ചരിത്രസ്മാരകങ്ങൾ            Historical Monuments of Kerala  historical_monuments_of_kerala.json
+5.  കേരള രാഷ്ട്രീയം                   Politics of Kerala              politics_of_kerala.json
+6.  സ്ഥാപനങ്ങളിലൂടെ                   Important Institutions          important_institutions.json
+7.  ഇന്ത്യൻ ചരിത്രം                   Indian History                  indian_history.json
+8.  ആധുനിക ഇന്ത്യ                      Modern India                    modern_india.json
+9.  ഇന്ത്യൻ വ്യവസായം                   Indian Industries               indian_industries.json
+10. ഇന്ത്യൻ ഭരണഘടന                    Constitution of India           constitution_of_india.json
+11. സാമൂഹ്യക്ഷേമ പദ്ധതികൾ             Social Welfare Schemes          social_welfare_schemes.json
+12. ദേശീയ പദ്ധതികൾ                    National Schemes                national_schemes.json
+13. സാമ്പത്തിക ശാസ്ത്രം                Economics                       economics.json
+14. ഭൗതിക ശാസ്ത്രം                    Physics                         physics.json
+15. രസതന്ത്രം                         Chemistry                       chemistry.json
+16. ജീവശാസ്ത്രം                       Biology                         biology.json
+17. ലോകചരിത്രം                        World History                   world_history.json
+18. ഭൂമിശാസ്ത്രം                      Geography                       geography.json
+19. ജ്യോതിശാസ്ത്രം                     Astronomy                       astronomy.json
+20. വൻകരകളിലൂടെ                       Continents of the World         continents_of_the_world.json
+21. അന്താരാഷ്ട്ര സംഘടനകൾ              International Organizations     international_organizations.json
+22. ഇൻഫർമേഷൻ ടെക്നോളജി                Information Technology          information_technology.json
+23. അടിസ്ഥാന പൊതുവിജ്ഞാനം             Basic General Knowledge         basic_general_knowledge.json
+24. മലയാളം                            Malayalam                       malayalam.json
+25. English                           English Language                english_language.json
+26. ഗണിതശാസ്ത്രം                      Mathematics                     mathematics.json
+27. പ്രകൃതിശാസ്ത്രം                   Natural Science                 natural_science.json
+28. തത്വശാസ്ത്രം                      Philosophy                      philosophy.json
+29. വാർത്താവിനിമയം                    Communication / Journalism      communication_journalism.json
+30. വിദ്യാഭാസം                        Education                       education.json
+31. കല                               Arts                            arts.json
+32. സാഹിത്യം                          Literature                      literature.json
+33. സിനിമ                             Cinema                          cinema.json
+34. സ്പോർട്സ് & കറന്റ് അഫയേഴ്സ്       Sports & Current Affairs        sports_and_current_affairs.json
+35. അവാർഡ്സ് & കറന്റ് അഫയേഴ്സ്         Awards & Current Affairs        awards_and_current_affairs.json
+
+CURRENT AFFAIRS — MONTHLY EDITIONS (category 36)
+================================================
+36. ആനുകാലികം / Current Affairs
+
+Required manifest (lists all uploaded months):
+  current_affairs_manifest.json
+
+One file per month (add a new entry to the manifest for each):
+  current_affairs_2026_04.json   → April 2026
+  current_affairs_2026_06.json   → June 2026
+  current_affairs_2026_07.json   → July 2026
+  ...pattern: current_affairs_YYYY_MM.json
+
+When you upload a new month:
+1. Create current_affairs_YYYY_MM.json with questions
+2. Add an edition entry to current_affairs_manifest.json
+3. The app will show that month in the picker automatically

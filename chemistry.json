@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "che_001",
+      "question": "ജലത്തിന്റെ രാസ സൂത്രം ഏതാണ്?",
+      "options": [
+        "H₂O",
+        "CO₂",
+        "NaCl",
+        "O₂"
+      ],
+      "answer": "H₂O",
+      "difficulty": "easy"
+    }
+  ]
+}
