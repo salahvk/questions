@@ -11915,6 +11915,690 @@
       ],
       "answer": "ക്യാഷ് മെഷീൻ മാനദണ്ഡം",
       "difficulty": "medium"
+    },
+    {
+      "id": "eco_1051",
+      "question": "GDP എന്നാൽ എന്ത്?",
+      "options": [
+        "സർക്കാർ ചെലവ്",
+        "വ്യക്തിഗത വരുമാനം",
+        "സ്ഥിര വിലയിൽ ഉൽപ്പന്നങ്ങളുടെ മൊത്തം മൂല്യം",
+        "വിദേശ നിക്ഷേപം"
+      ],
+      "answer": "സ്ഥിര വിലയിൽ ഉൽപ്പന്നങ്ങളുടെ മൊത്തം മൂല്യം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1052",
+      "question": "ഇൻഫ്ലേഷൻ എന്നാൽ എന്ത്?",
+      "options": [
+        "വിലനിലവാരത്തിലെ സ്ഥിരമായ വർദ്ധനവ്",
+        "നിരക്ക് കുറവ്",
+        "നിക്ഷേപ കുറവ്",
+        "വരുമാന കുറവ്"
+      ],
+      "answer": "വിലനിലവാരത്തിലെ സ്ഥിരമായ വർദ്ധനവ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1053",
+      "question": "ഡിഫ്ലേഷൻ എന്നാൽ എന്ത്?",
+      "options": [
+        "വില വർദ്ധനവ്",
+        "നിക്ഷേപ വർദ്ധനവ്",
+        "വിലനിലവാരത്തിലെ കുറവ്",
+        "വരുമാന വർദ്ധനവ്"
+      ],
+      "answer": "വിലനിലവാരത്തിലെ കുറവ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1054",
+      "question": "മോണിറ്ററി പോളിസി നടപ്പാക്കുന്നത്?",
+      "options": [
+        "വാണിജ്യ മന്ത്രാലയം",
+        "കേന്ദ്ര ബാങ്ക്",
+        "നീതിപീഠം",
+        "ധനകാര്യ മന്ത്രാലയം"
+      ],
+      "answer": "കേന്ദ്ര ബാങ്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1055",
+      "question": "ഫിസ്കൽ പോളിസി നടപ്പാക്കുന്നത്?",
+      "options": [
+        "SEBI",
+        "സർക്കാർ",
+        "RBI",
+        "കേന്ദ്ര ബാങ്ക്"
+      ],
+      "answer": "സർക്കാർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1056",
+      "question": "SEBI ഏത് മേഖലയെ നിയന്ത്രിക്കുന്നു?",
+      "options": [
+        "ബാങ്കിംഗ്",
+        "ഇൻഷുറൻസ്",
+        "കമോഡിറ്റി",
+        "ശേയ়ർ വിപണി"
+      ],
+      "answer": "ശേയ়ർ വിപണി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1057",
+      "question": "GST പൂർണ്ണ രൂപം?",
+      "options": [
+        "General Sales Tax",
+        "Government Service Tax",
+        "Goods and Services Tax",
+        "Gross State Tax"
+      ],
+      "answer": "Goods and Services Tax",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1058",
+      "question": "ഇന്ത്യയിൽ GST നിലവിൽ വന്ന വർഷം?",
+      "options": [
+        "2017",
+        "2016",
+        "2015",
+        "2018"
+      ],
+      "answer": "2017",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1059",
+      "question": "ആദായ നികുതി നൽകുന്നത് ആർക്ക്?",
+      "options": [
+        "കമ്പനികൾ മാത്രം",
+        "വരുമാനമുള്ള വ്യക്തികൾ",
+        "വിദേശ നിക്ഷേപകർ",
+        "സർക്കാർ"
+      ],
+      "answer": "വരുമാനമുള്ള വ്യക്തികൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1060",
+      "question": "കേന്ദ്ര ബജറ്റ് സാധാരണയായി ഏത് മാസത്തിലാണ്?",
+      "options": [
+        "ഫെബ്രുവരി",
+        "ജനുവരി",
+        "ഏപ്രിൽ",
+        "മാർച്ച്"
+      ],
+      "answer": "ഫെബ്രുവരി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1061",
+      "question": "ഫിഷർ ഇഫക്റ്റ് ഏത് സിദ്ധാന്തവുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "വിനിമയ നിരക്ക്",
+        "വളർച്ച",
+        "വിലനിലവാരം",
+        "തൊഴിൽ"
+      ],
+      "answer": "വിനിമയ നിരക്ക്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1062",
+      "question": "ലാഫർ കർവ് ഏത് സിദ്ധാന്തവുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "വിലനിലവാരം",
+        "വ്യാപാരം",
+        "നികുതി",
+        "വിനിമയ നിരക്കും വ്യാപാരവും"
+      ],
+      "answer": "വിനിമയ നിരക്കും വ്യാപാരവും",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1063",
+      "question": "ഫ്രീ ട്രേഡ് സോൺ എന്നാൽ?",
+      "options": [
+        "സബ്സിഡി മേഖല",
+        "കസ്റ്റംസ് മേഖല",
+        "നികുതി മേഖല",
+        "നികുതിയില്ലാത്ത വ്യാപാര മേഖല"
+      ],
+      "answer": "നികുതിയില്ലാത്ത വ്യാപാര മേഖല",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1064",
+      "question": "ബാങ്ക് റേറ്റ് കുറയ്ക്കുമ്പോൾ?",
+      "options": [
+        "വിനിമയ നിരക്ക് കുറയും",
+        "വായ്പ ചെലവ് കുറയും",
+        "നിക്ഷേപ നിരക്ക് കൂടും",
+        "വായ്പ ചെലവ് കൂടും"
+      ],
+      "answer": "വായ്പ ചെലവ് കുറയും",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1065",
+      "question": "റിപ്പോ നിരക്ക് നിശ്ചയിക്കുന്നത്?",
+      "options": [
+        "RBI",
+        "SBI",
+        "IRDA",
+        "SEBI"
+      ],
+      "answer": "RBI",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1066",
+      "question": "CIBIL സ്കോർ ഏതുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "വരുമാനം",
+        "നിക്ഷേപം",
+        "ക്രെഡിറ്റ് ചരിത്രം",
+        "നികുതി"
+      ],
+      "answer": "ക്രെഡിറ്റ് ചരിത്രം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1067",
+      "question": "ഫിഡലിറ്റി ബോണസ് ഏത് പദ്ധതിയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "NPS",
+        "EPF",
+        "SSY",
+        "PPF"
+      ],
+      "answer": "EPF",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1068",
+      "question": "PM-KISAN പദ്ധതിയുടെ ലക്ഷ്യം?",
+      "options": [
+        "വിദ്യാർത്ഥികൾ",
+        "വ്യാപാരികൾ",
+        "കർഷകർക്ക് നേരിട്ട് സഹായം",
+        "തൊഴിലാളികൾ"
+      ],
+      "answer": "കർഷകർക്ക് നേരിട്ട് സഹായം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1069",
+      "question": "MGNREGA പൂർണ്ണ രൂപം?",
+      "options": [
+        "Mahatma Gandhi New Rural Act",
+        "Mahatma Gandhi National Rural Employment Guarantee Act",
+        "Major Growth National Act",
+        "Modern Growth National Rural Act"
+      ],
+      "answer": "Mahatma Gandhi National Rural Employment Guarantee Act",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1070",
+      "question": "ആയുഷ്മാൻ ഭാരത് പദ്ധതി?",
+      "options": [
+        "വിദ്യാഭ്യാസ സഹായം",
+        "വീട് നിർമ്മാണം",
+        "ആരോഗ്യ ഇൻഷുറൻസ്",
+        "കാർഷിക സബ്സിഡി"
+      ],
+      "answer": "ആരോഗ്യ ഇൻഷുറൻസ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1071",
+      "question": "ഇന്ത്യയുടെ വാണിജ്യ മന്ത്രാലയത്തിന്റെ പങ്ക്?",
+      "options": [
+        "നികുതി ശേഖരണം",
+        "ബജറ്റ് തയ്യാറാക്കൽ",
+        "നാണയ നയം",
+        "വ്യാപാര നയം"
+      ],
+      "answer": "വ്യാപാര നയം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1072",
+      "question": "FDI എന്നാൽ?",
+      "options": [
+        "Foreign Direct Investment",
+        "Foreign Debt Instrument",
+        "Fixed Deposit Interest",
+        "Financial Development Index"
+      ],
+      "answer": "Foreign Direct Investment",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1073",
+      "question": "FII എന്നാൽ?",
+      "options": [
+        "Foreign Institutional Investor",
+        "Fixed Income Investment",
+        "Foreign Internal Investment",
+        "Federal Insurance Index"
+      ],
+      "answer": "Foreign Institutional Investor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1074",
+      "question": "ബാങ്ക് ഓഫ് ബറോഡയുടെ ആസ്ഥാനം?",
+      "options": [
+        "വദോദര",
+        "പുണെ",
+        "അഹമദാബാദ്",
+        "മുംബൈ"
+      ],
+      "answer": "വദോദര",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1075",
+      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ സ്വകാര്യ ബാങ്ക്?",
+      "options": [
+        "HDFC ബാങ്ക്",
+        "Yes ബാങ്ക്",
+        "Axis ബാങ്ക്",
+        "ICICI ബാങ്ക്"
+      ],
+      "answer": "ICICI ബാങ്ക്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1076",
+      "question": "നാണയ നോട്ട് അച്ചടിക്കുന്നത്?",
+      "options": [
+        "SBI",
+        "ഫിനാൻസ് മന്ത്രാലയം",
+        "SEBI",
+        "RBI"
+      ],
+      "answer": "RBI",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1077",
+      "question": "ഇന്ത്യയുടെ നിലവിലെ GST സ്ലാബുകളിൽ ഏറ്റവും കുറഞ്ഞത്?",
+      "options": [
+        "18%",
+        "12%",
+        "28%",
+        "5%"
+      ],
+      "answer": "5%",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1078",
+      "question": "പെട്രോൾ, ഡീസൽ വില നിശ്ചയിക്കുന്നത്?",
+      "options": [
+        "RBI",
+        "സർക്കാർ മാത്രം",
+        "SEBI",
+        "ഓയിൽ മാർക്കറ്റിംഗ് കമ്പനികൾ"
+      ],
+      "answer": "ഓയിൽ മാർക്കറ്റിംഗ് കമ്പനികൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1079",
+      "question": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ പൊതു മേഖലാ ബാങ്ക്?",
+      "options": [
+        "SBI",
+        "Canara",
+        "BOB",
+        "PNB"
+      ],
+      "answer": "SBI",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1080",
+      "question": "ബജറ്റ് ഭാഷണം നടത്തുന്നത്?",
+      "options": [
+        "RBI ഗവർണർ",
+        "വാണിജ്യ മന്ത്രി",
+        "ധനകാര്യ മന്ത്രി",
+        "പ്രധാനമന്ത്രി"
+      ],
+      "answer": "ധനകാര്യ മന്ത്രി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1081",
+      "question": "ഫ്രഞ്ച് ഇക്കോണമിസ്റ്റ് ജീൻ ബാപ്റ്റിസ്റ്റ് സെയ് ഏത് നിയമവുമായി ബന്ധപ്പെട്ടവനാണ്?",
+      "options": [
+        "Comparative advantage",
+        "Demand creates supply",
+        "Invisible hand",
+        "Supply creates its own demand"
+      ],
+      "answer": "Supply creates its own demand",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1082",
+      "question": "കേംബ്രിഡ്ജ് സ്കൂൾ ഏത് സിദ്ധാന്തവുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "മാർക്സിസം",
+        "കേയ്ൻസിയൻ സിദ്ധാന്തം",
+        "മോണിറ്ററിസം",
+        "ക്ലാസിക്കൽ സിദ്ധാന്തം"
+      ],
+      "answer": "കേയ്ൻസിയൻ സിദ്ധാന്തം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1083",
+      "question": "ഓപ്പൺ മാർക്കറ്റ് ഓപ്പറേഷൻസ് നടത്തുന്നത്?",
+      "options": [
+        "SIDBI",
+        "NABARD",
+        "SEBI",
+        "RBI"
+      ],
+      "answer": "RBI",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1084",
+      "question": "NABARD ഏത് മേഖലയ്ക്ക് സഹായം നൽകുന്നു?",
+      "options": [
+        "വ്യാവസായിക",
+        "സേവന",
+        "കാർഷികവും ഗ്രാമീണവും",
+        "വിദേശ"
+      ],
+      "answer": "കാർഷികവും ഗ്രാമീണവും",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1085",
+      "question": "SIDBI ഏത് മേഖലയ്ക്ക് സഹായം നൽകുന്നു?",
+      "options": [
+        "ചെറുകിട വ്യവസായങ്ങൾ",
+        "കാർഷികം",
+        "ബാങ്കിംഗ്",
+        "വിദേശ വ്യാപാരം"
+      ],
+      "answer": "ചെറുകിട വ്യവസായങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1086",
+      "question": "ഇന്ത്യയിലെ ഷെയർ മാർക്കറ്റ് നിയന്ത്രിക്കുന്നത്?",
+      "options": [
+        "IRDA",
+        "SEBI",
+        "PFRDA",
+        "RBI"
+      ],
+      "answer": "SEBI",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1087",
+      "question": "IRDA ഏത് മേഖലയെ നിയന്ത്രിക്കുന്നു?",
+      "options": [
+        "കമോഡിറ്റി",
+        "ഷെയർ",
+        "ബാങ്കിംഗ്",
+        "ഇൻഷുറൻസ്"
+      ],
+      "answer": "ഇൻഷുറൻസ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1088",
+      "question": "PFRDA ഏത് പദ്ധതിയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "PM-KISAN",
+        "EPF",
+        "NPS",
+        "PPF"
+      ],
+      "answer": "NPS",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1089",
+      "question": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ കമോഡിറ്റി എക്സ്ചേഞ്ച്?",
+      "options": [
+        "NCDEX",
+        "NSE",
+        "MCX",
+        "BSE"
+      ],
+      "answer": "MCX",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1090",
+      "question": "BSE ആസ്ഥാനം?",
+      "options": [
+        "മുംബൈ",
+        "കൊൽക്കത്ത",
+        "ദില്ലി",
+        "ചെന്നൈ"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1091",
+      "question": "NSE ആസ്ഥാനം?",
+      "options": [
+        "ബെംഗളൂരു",
+        "ദില്ലി",
+        "മുംബൈ",
+        "ഹൈദരാബാദ്"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1092",
+      "question": "സെൻസെക്സ് ഏത് എക്സ്ചേഞ്ചുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "NSE",
+        "NCDEX",
+        "BSE",
+        "MCX"
+      ],
+      "answer": "BSE",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1093",
+      "question": "നിഫ്റ്റി ഏത് എക്സ്ചേഞ്ചുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "NCDEX",
+        "MCX",
+        "NSE",
+        "BSE"
+      ],
+      "answer": "NSE",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1094",
+      "question": "ഇന്ത്യയിലെ ഏറ്റവും പഴയ സ്റ്റോക്ക് എക്സ്ചേഞ്ച്?",
+      "options": [
+        "NSE",
+        "MCX",
+        "NCDEX",
+        "BSE"
+      ],
+      "answer": "BSE",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1095",
+      "question": "റുപ്പിയുടെ ചിഹ്നം രൂപകല്പന ചെയ്തത്?",
+      "options": [
+        "രഘുരാം രാജൻ",
+        "ധനന്ത്",
+        "മന്മോഹൻ സിംഗ്",
+        "അമർത്യ സെൻ"
+      ],
+      "answer": "ധനന്ത്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1096",
+      "question": "ഇന്ത്യയിൽ ഡിമോണിറ്റൈസേഷൻ നടന്ന വർഷം?",
+      "options": [
+        "2016",
+        "2015",
+        "2014",
+        "2017"
+      ],
+      "answer": "2016",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1097",
+      "question": "GST കൗൺസിൽ അധ്യക്ഷൻ?",
+      "options": [
+        "വാണിജ്യ മന്ത്രി",
+        "RBI ഗവർണർ",
+        "ധനകാര്യ മന്ത്രി",
+        "പ്രധാനമന്ത്രി"
+      ],
+      "answer": "ധനകാര്യ മന്ത്രി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1098",
+      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ ധനകാര്യ മന്ത്രി?",
+      "options": [
+        "ആർ.കെ. ഷണ്മുഖം ചെട്ടി",
+        "ജവഹർലാൽ നെഹ്റു",
+        "പി. ചിദംബരം",
+        "മന്മോഹൻ സിംഗ്"
+      ],
+      "answer": "ആർ.കെ. ഷണ്മുഖം ചെട്ടി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1099",
+      "question": "ഇക്കണോമിക് സർവേ ഏത് വകുപ്പ് പ്രസിദ്ധീകരിക്കുന്നു?",
+      "options": [
+        "NITI Aayog",
+        "ധനകാര്യ മന്ത്രാലയം",
+        "വാണിജ്യ മന്ത്രാലയം",
+        "RBI"
+      ],
+      "answer": "ധനകാര്യ മന്ത്രാലയം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1100",
+      "question": "NITI Aayog രൂപീകരിച്ച വർഷം?",
+      "options": [
+        "2014",
+        "2017",
+        "2015",
+        "2016"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1101",
+      "question": "പ്ലാനിംഗ് കമ്മീഷൻ പകരം വന്ന സ്ഥാപനം?",
+      "options": [
+        "SEBI",
+        "NITI Aayog",
+        "Finance Commission",
+        "RBI"
+      ],
+      "answer": "NITI Aayog",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1102",
+      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ അഞ്ച് വർഷ പദ്ധതി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "1950",
+        "1955",
+        "1947",
+        "1951"
+      ],
+      "answer": "1951",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1103",
+      "question": "ഗ്രീൻ റിവലൂഷൻ ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "വിദേശ",
+        "കാർഷികം",
+        "സേവനം",
+        "വ്യവസായം"
+      ],
+      "answer": "കാർഷികം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eco_1104",
+      "question": "വൈറ്റ് റിവലൂഷൻ ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "പഞ്ചസാര",
+        "പാൽ ഉൽപ്പാദനം",
+        "ഗോതമ്പ്",
+        "അരി"
+      ],
+      "answer": "പാൽ ഉൽപ്പാദനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1105",
+      "question": "ബ്ലൂ റിവലൂഷൻ ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "മത്സ്യബന്ധനം",
+        "സേവനം",
+        "കാർഷികം",
+        "വ്യവസായം"
+      ],
+      "answer": "മത്സ്യബന്ധനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eco_1106",
+      "question": "പിങ്ക് റിവലൂഷൻ ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "വ്യവസായം",
+        "സേവനം",
+        "ഔഷധ ഉൽപ്പാദനം",
+        "കാർഷികം"
+      ],
+      "answer": "ഔഷധ ഉൽപ്പാദനം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eco_1107",
+      "question": "യെല്ലോ റിവലൂഷൻ ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "വ്യവസായം",
+        "സേവനം",
+        "പെട്രോളിയം",
+        "കാർഷികം"
+      ],
+      "answer": "പെട്രോളിയം",
+      "difficulty": "medium"
     }
   ]
 }

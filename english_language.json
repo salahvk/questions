@@ -863,6 +863,342 @@
       ],
       "answer": "Teacher",
       "difficulty": "easy"
+    },
+    {
+      "id": "eng_101",
+      "question": "Choose the synonym of 'Rapid'.",
+      "options": [
+        "Slow",
+        "Swift",
+        "Weak",
+        "Lazy"
+      ],
+      "answer": "Swift",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_102",
+      "question": "Choose the antonym of 'Generous'.",
+      "options": [
+        "Stingy",
+        "Noble",
+        "Brave",
+        "Kind"
+      ],
+      "answer": "Stingy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_103",
+      "question": "Fill in: They ___ playing football now.",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "am"
+      ],
+      "answer": "are",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_104",
+      "question": "Fill in: I have ___ my homework.",
+      "options": [
+        "doing",
+        "do",
+        "done",
+        "did"
+      ],
+      "answer": "done",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_105",
+      "question": "Choose the correct plural of 'child'.",
+      "options": [
+        "children",
+        "childs",
+        "childrens",
+        "childes"
+      ],
+      "answer": "children",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_106",
+      "question": "Fill in: She speaks English ___.",
+      "options": [
+        "fluency",
+        "fluent",
+        "fluently",
+        "fluents"
+      ],
+      "answer": "fluently",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_107",
+      "question": "Fill in: He ___ to the market yesterday.",
+      "options": [
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "answer": "went",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_108",
+      "question": "Which is the correct spelling?",
+      "options": [
+        "Accommodate",
+        "Accomodate",
+        "Acommodate",
+        "Acomodate"
+      ],
+      "answer": "Accommodate",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_109",
+      "question": "Choose the correct form: Neither of them ___ ready.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_110",
+      "question": "Synonym of 'Fragile' is?",
+      "options": [
+        "Delicate",
+        "Strong",
+        "Hard",
+        "Tough"
+      ],
+      "answer": "Delicate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_111",
+      "question": "Fill in: If it rains, we ___ stay home.",
+      "options": [
+        "had",
+        "will",
+        "would",
+        "have"
+      ],
+      "answer": "will",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_112",
+      "question": "Which sentence uses the correct article?",
+      "options": [
+        "The honest man",
+        "An honest man",
+        "A honest man",
+        "Honest a man"
+      ],
+      "answer": "An honest man",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_113",
+      "question": "Past participle of 'write' is?",
+      "options": [
+        "writing",
+        "wrote",
+        "written",
+        "writed"
+      ],
+      "answer": "written",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_114",
+      "question": "Synonym of 'Diligent' is?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Idle",
+        "Slow"
+      ],
+      "answer": "Hardworking",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_115",
+      "question": "Antonym of 'Temporary' is?",
+      "options": [
+        "Fleeting",
+        "Short",
+        "Permanent",
+        "Brief"
+      ],
+      "answer": "Permanent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_116",
+      "question": "Fill in: She is good ___ mathematics.",
+      "options": [
+        "on",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "at",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_117",
+      "question": "Choose the correct indirect speech: He said, 'I am tired.'",
+      "options": [
+        "He said he is tired.",
+        "He says he was tired.",
+        "He said that he was tired.",
+        "He said that I am tired."
+      ],
+      "answer": "He said that he was tired.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_118",
+      "question": "Synonym of 'Obsolete' is?",
+      "options": [
+        "Outdated",
+        "Modern",
+        "New",
+        "Current"
+      ],
+      "answer": "Outdated",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_119",
+      "question": "Fill in: The book ___ on the table.",
+      "options": [
+        "have",
+        "are",
+        "is",
+        "were"
+      ],
+      "answer": "is",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_120",
+      "question": "Choose the correct homophone: I can ___ the bell.",
+      "options": [
+        "here",
+        "hair",
+        "hare",
+        "hear"
+      ],
+      "answer": "hear",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_121",
+      "question": "Synonym of 'Benevolent' is?",
+      "options": [
+        "Mean",
+        "Cruel",
+        "Harsh",
+        "Kind"
+      ],
+      "answer": "Kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_122",
+      "question": "Antonym of 'Scarce' is?",
+      "options": [
+        "Few",
+        "Abundant",
+        "Limited",
+        "Rare"
+      ],
+      "answer": "Abundant",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_123",
+      "question": "Fill in: He has been working here ___ 2010.",
+      "options": [
+        "by",
+        "from",
+        "for",
+        "since"
+      ],
+      "answer": "since",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_124",
+      "question": "Which is a compound word?",
+      "options": [
+        "Sun",
+        "Sunflower",
+        "Flower",
+        "Light"
+      ],
+      "answer": "Sunflower",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_125",
+      "question": "Synonym of 'Courageous' is?",
+      "options": [
+        "Timid",
+        "Fearful",
+        "Cowardly",
+        "Brave"
+      ],
+      "answer": "Brave",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_126",
+      "question": "Antonym of 'Ancient' is?",
+      "options": [
+        "Historic",
+        "Aged",
+        "Old",
+        "Modern"
+      ],
+      "answer": "Modern",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_127",
+      "question": "Fill in: Neither the students nor the teacher ___ present.",
+      "options": [
+        "have",
+        "are",
+        "were",
+        "was"
+      ],
+      "answer": "was",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_128",
+      "question": "Choose the correct preposition: He is allergic ___ dust.",
+      "options": [
+        "to",
+        "of",
+        "with",
+        "from"
+      ],
+      "answer": "to",
+      "difficulty": "medium"
     }
   ]
 }
