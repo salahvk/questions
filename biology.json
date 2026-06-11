@@ -11,7 +11,7 @@
       ],
       "answer": "പ്രകാശസംശ്ലേഷണം",
       "difficulty": "easy",
-      "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg"
     },
     {
       "id": "bio_002",
@@ -23,18 +23,6 @@
         "ഹീമോഗ്ലോബിൻ"
       ],
       "answer": "ഹരിതകം (Chlorophyll)",
-      "difficulty": "easy"
-    },
-    {
-      "id": "bio_003",
-      "question": "മനുഷ്യ ശരീരത്തിലെ ഏറ്റവും വലിയ അവയവം ഏതാണ്?",
-      "options": [
-        "കരൾ",
-        "ത്വക്ക്",
-        "ഹൃദയം",
-        "മസ്തിഷ്കം"
-      ],
-      "answer": "ത്വക്ക്",
       "difficulty": "easy"
     },
     {
@@ -215,18 +203,6 @@
         "അന്ധത / മാലക്കണ്ണ്"
       ],
       "answer": "അന്ധത / മാലക്കണ്ണ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "bio_019",
-      "question": "മനുഷ്യ ശരീരത്തിലെ ഏറ്റവും ചെറിയ അസ്ഥി ഏതാണ്?",
-      "options": [
-        "ഫീമർ",
-        "സ്റ്റേപിസ്",
-        "പറ്റെല്ല",
-        "റേഡിയസ്"
-      ],
-      "answer": "സ്റ്റേപിസ്",
       "difficulty": "easy"
     },
     {

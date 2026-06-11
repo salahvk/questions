@@ -11,7 +11,7 @@
       ],
       "answer": "H₂O",
       "difficulty": "easy",
-      "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Water_drop_001.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Water_drop_001.jpg"
     },
     {
       "id": "che_002",
@@ -278,18 +278,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "che_024",
-      "question": "രക്തം കട്ടപിടിക്കാൻ സഹായിക്കുന്ന വിറ്റാമിൻ ഏതാണ്?",
-      "options": [
-        "വിറ്റാമിൻ A",
-        "വിറ്റാമിൻ B",
-        "വിറ്റാമിൻ E",
-        "വിറ്റാമിൻ K"
-      ],
-      "answer": "വിറ്റാമിൻ K",
-      "difficulty": "easy"
-    },
-    {
       "id": "che_025",
       "question": "ചെമ്പും ടിന്നും (ഈയം) ചേർന്ന സങ്കരലോഹം ഏതാണ്?",
       "options": [
@@ -431,18 +419,6 @@
         "ഹൈഡ്രജൻ"
       ],
       "answer": "കാർബൺ ഡയോക്സൈഡ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "che_037",
-      "question": "പാലിൽ അടങ്ങിയിരിക്കുന്ന ആസിഡ് ഏതാണ്?",
-      "options": [
-        "മാലിക് ആസിഡ്",
-        "സിട്രിക് ആസിഡ്",
-        "ലാക്റ്റിക് ആസിഡ്",
-        "ഓക്സാലിക് ആസിഡ്"
-      ],
-      "answer": "ലാക്റ്റിക് ആസിഡ്",
       "difficulty": "easy"
     },
     {
