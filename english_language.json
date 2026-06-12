@@ -1199,6 +1199,4806 @@
       ],
       "answer": "to",
       "difficulty": "medium"
+    },
+    {
+      "id": "eng_129",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "T. S. Eliot",
+        "John Keats",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "The Waste Land"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_130",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "able to recover quickly",
+        "examine closely",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "calm"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_131",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Charlotte Bronte",
+        "Emily Bronte",
+        "Jane Eyre"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_132",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "not transparent",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "practical",
+        "attractively old-fashioned"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_133",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind",
+        "honest"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_134",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "Samuel Taylor Coleridge",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Daffodils",
+        "Kubla Khan"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_135",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "സമാന അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_136",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "calm",
+        "William Shakespeare",
+        "bright and clear",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_137",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "bright and clear",
+        "calm",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "examine closely"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_138",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?",
+      "options": [
+        "Jane Austen",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Pride and Prejudice",
+        "Paradise Lost"
+      ],
+      "answer": "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_139",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind",
+        "honest"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_140",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Oliver Twist",
+        "Pride and Prejudice",
+        "Charles Dickens",
+        "Noun ന് പകരം വരുന്ന വാക്ക്"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_141",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "not transparent",
+        "practical",
+        "longing for the past"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_142",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "William Wordsworth",
+        "Ode to a Nightingale",
+        "John Keats"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_143",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "very joyful",
+        "eager",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "perfectly clean"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_144",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "attractively old-fashioned",
+        "practical",
+        "not transparent",
+        "Noun ന് പകരം വരുന്ന വാക്ക്"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_145",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Samuel Taylor Coleridge",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "Jonathan Swift",
+        "Kubla Khan"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_146",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "eager",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "sluggish",
+        "very joyful"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_147",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "The Rime of the Ancient Mariner"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_148",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Pronoun എന്നത് എന്താണ്?",
+      "options": [
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "Noun ന് പകരം വരുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_149",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "Charlotte Bronte",
+        "Jane Eyre",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Emily Bronte"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_150",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "practical",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "not transparent",
+        "longing for the past"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_151",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "Samuel Taylor Coleridge",
+        "Kubla Khan",
+        "Jonathan Swift",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_152",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "George Orwell",
+        "1984",
+        "Animal Farm"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_153",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "William Wordsworth",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "John Keats",
+        "Ode to a Nightingale"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_154",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "William Wordsworth",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Ode to a Nightingale",
+        "John Keats"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_155",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "have/has + past participle ഘടന",
+        "had + past participle ഘടന",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_156",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "easily broken",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "authentic",
+        "fluent and persuasive"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_157",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "fluent and persuasive",
+        "honest",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "hardworking"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_158",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb എന്നത് എന്താണ്?",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_159",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "examine closely",
+        "able to recover quickly",
+        "calm",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_160",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Kubla Khan",
+        "Gulliver's Travels",
+        "Jonathan Swift",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_161",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "Samuel Taylor Coleridge",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Kubla Khan",
+        "Daffodils"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_162",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "James Joyce",
+        "Ulysses",
+        "The Merchant of Venice"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_163",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Oliver Twist",
+        "Great Expectations",
+        "Charlotte Bronte"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_164",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Animal Farm",
+        "1984",
+        "The Tempest"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_165",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "longing for the past",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "very careful",
+        "not transparent"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_166",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "William Shakespeare",
+        "Hamlet",
+        "Macbeth"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_167",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "George Orwell",
+        "The Old Man and the Sea",
+        "Ernest Hemingway",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_168",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adjective എന്നത് എന്താണ്?",
+      "options": [
+        "Oliver Twist",
+        "Charles Dickens",
+        "Pride and Prejudice",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_169",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_170",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "not transparent",
+        "practical",
+        "longing for the past"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_171",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "easily broken",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "authentic",
+        "fluent and persuasive"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_172",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "Ulysses",
+        "James Joyce",
+        "The Merchant of Venice",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_173",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "able to recover quickly",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "calm",
+        "examine closely"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_174",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "have/has + past participle ഘടന"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_175",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Daffodils",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Kubla Khan",
+        "Samuel Taylor Coleridge"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_176",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "bright and clear",
+        "examine closely",
+        "calm",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_177",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_178",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Adverb എന്നത് എന്താണ്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_179",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "1984",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "The Tempest",
+        "Animal Farm"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_180",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "Ulysses",
+        "The Merchant of Venice",
+        "James Joyce"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_181",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "Ulysses",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "James Joyce",
+        "T. S. Eliot"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_182",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "Ulysses",
+        "James Joyce",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "T. S. Eliot"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_183",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "able to recover quickly",
+        "practical",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "attractively old-fashioned"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_184",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "Macbeth",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "Paradise Lost",
+        "John Milton"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_185",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Charles Dickens",
+        "Pride and Prejudice",
+        "Oliver Twist",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_186",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "sluggish",
+        "eager",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "very joyful"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_187",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_188",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Preposition എന്നത് എന്താണ്?",
+      "options": [
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_189",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "Kubla Khan",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "Gulliver's Travels",
+        "Jonathan Swift"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_190",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Jonathan Swift",
+        "Kubla Khan",
+        "Gulliver's Travels",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_191",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_192",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "John Keats",
+        "The Waste Land",
+        "Ode to a Nightingale"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_193",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "1984",
+        "Animal Farm",
+        "George Orwell"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_194",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_195",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "very joyful",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "perfectly clean",
+        "eager"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_196",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_197",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "Jane Eyre",
+        "Great Expectations",
+        "Charlotte Bronte",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_198",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Conjunction എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "Jane Eyre",
+        "Wuthering Heights",
+        "Emily Bronte"
+      ],
+      "answer": "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_199",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "authentic",
+        "perfectly clean",
+        "obstruct"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_200",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "very joyful",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "eager",
+        "perfectly clean"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_201",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "fluent and persuasive",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "authentic",
+        "easily broken"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_202",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "hardworking",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "fluent and persuasive",
+        "easily broken"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_203",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "Wuthering Heights",
+        "Jane Eyre",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "Emily Bronte"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_204",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "practical",
+        "longing for the past",
+        "not transparent"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_205",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "authentic",
+        "perfectly clean",
+        "obstruct",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_206",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "Charlotte Bronte",
+        "Jane Eyre",
+        "Great Expectations"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_207",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "Jonathan Swift",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "Samuel Taylor Coleridge",
+        "Kubla Khan"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_208",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Interjection എന്നത് എന്താണ്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "James Joyce",
+        "The Merchant of Venice",
+        "Ulysses"
+      ],
+      "answer": "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_209",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "Ulysses",
+        "The Waste Land",
+        "T. S. Eliot"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_210",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "eager",
+        "perfectly clean",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "very joyful"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_211",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_212",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "William Wordsworth",
+        "Daffodils",
+        "Samuel Taylor Coleridge",
+        "a, an, the പോലുള്ള വാക്കുകൾ"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_213",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "The Tempest",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "The Merchant of Venice",
+        "James Joyce"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_214",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "Ernest Hemingway",
+        "Wuthering Heights",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "Emily Bronte"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_215",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "hardworking",
+        "fluent and persuasive",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "honest"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_216",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_217",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_218",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Article എന്നത് എന്താണ്?",
+      "options": [
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം"
+      ],
+      "answer": "a, an, the പോലുള്ള വാക്കുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_219",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "easily broken",
+        "obstruct",
+        "authentic"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_220",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_221",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Charles Dickens",
+        "Jane Austen",
+        "Pride and Prejudice"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_222",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "John Milton",
+        "Macbeth",
+        "Hamlet"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_223",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "Hamlet",
+        "William Shakespeare",
+        "bright and clear",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_224",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_225",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "attractively old-fashioned",
+        "not transparent",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "practical"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_226",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "Ernest Hemingway",
+        "Emily Bronte",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Wuthering Heights"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_227",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "The Waste Land",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Ode to a Nightingale",
+        "John Keats"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_228",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Subject എന്നത് എന്താണ്?",
+      "options": [
+        "The Old Man and the Sea",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Wuthering Heights",
+        "Ernest Hemingway"
+      ],
+      "answer": "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_229",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "Wuthering Heights",
+        "Jane Eyre",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "Emily Bronte"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_230",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "The Merchant of Venice",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "James Joyce",
+        "The Tempest"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_231",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "George Orwell",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "Animal Farm",
+        "1984"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_232",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "The Merchant of Venice",
+        "James Joyce",
+        "The Tempest"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_233",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "Ernest Hemingway",
+        "Wuthering Heights",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "Emily Bronte"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_234",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "very careful",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "sluggish",
+        "eager"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_235",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "1984",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "Animal Farm",
+        "George Orwell"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_236",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "Emily Bronte",
+        "Charlotte Bronte",
+        "Jane Eyre",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_237",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "Macbeth",
+        "John Milton",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "Hamlet"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_238",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Predicate എന്നത് എന്താണ്?",
+      "options": [
+        "kind",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_239",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "authentic",
+        "obstruct",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "easily broken"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_240",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "Great Expectations",
+        "Oliver Twist",
+        "Charles Dickens"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_241",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "William Shakespeare",
+        "Hamlet",
+        "bright and clear"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_242",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "kind",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_243",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "Emily Bronte",
+        "Ernest Hemingway",
+        "Wuthering Heights"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_244",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_245",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "George Orwell",
+        "Animal Farm",
+        "1984"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_246",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_247",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "Charlotte Bronte",
+        "Oliver Twist",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "Great Expectations"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_248",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Tense എന്നത് എന്താണ്?",
+      "options": [
+        "fluent and persuasive",
+        "authentic",
+        "easily broken",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_249",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "have/has + past participle ഘടന",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_250",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "Ernest Hemingway",
+        "George Orwell",
+        "The Old Man and the Sea"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_251",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_252",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "very joyful",
+        "have/has + past participle ഘടന",
+        "obstruct",
+        "perfectly clean"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_253",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "eager",
+        "have/has + past participle ഘടന",
+        "perfectly clean",
+        "very joyful"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_254",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "William Shakespeare",
+        "Hamlet",
+        "Macbeth",
+        "have/has + past participle ഘടന"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_255",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "not transparent",
+        "longing for the past",
+        "practical",
+        "have/has + past participle ഘടന"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_256",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "John Milton",
+        "have/has + past participle ഘടന",
+        "Paradise Lost",
+        "Macbeth"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_257",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Charles Dickens",
+        "have/has + past participle ഘടന",
+        "Great Expectations",
+        "Oliver Twist"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_258",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Present Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "easily broken",
+        "hardworking",
+        "fluent and persuasive"
+      ],
+      "answer": "have/has + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_259",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "had + past participle ഘടന"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_260",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "hardworking",
+        "fluent and persuasive",
+        "had + past participle ഘടന",
+        "honest"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_261",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "had + past participle ഘടന",
+        "attractively old-fashioned",
+        "practical",
+        "not transparent"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_262",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "very joyful",
+        "had + past participle ഘടന",
+        "eager",
+        "sluggish"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_263",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "The Old Man and the Sea",
+        "George Orwell",
+        "1984",
+        "had + past participle ഘടന"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_264",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Hamlet",
+        "had + past participle ഘടന",
+        "John Milton",
+        "Macbeth"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_265",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Ernest Hemingway",
+        "Wuthering Heights",
+        "The Old Man and the Sea",
+        "had + past participle ഘടന"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_266",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Kubla Khan",
+        "had + past participle ഘടന",
+        "Samuel Taylor Coleridge",
+        "Jonathan Swift"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_267",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "have/has + past participle ഘടന"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_268",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Past Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Jane Eyre",
+        "Wuthering Heights",
+        "had + past participle ഘടന",
+        "Emily Bronte"
+      ],
+      "answer": "had + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_269",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Kubla Khan",
+        "Jonathan Swift",
+        "Samuel Taylor Coleridge",
+        "will have + past participle ഘടന"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_270",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "obstruct",
+        "authentic",
+        "will have + past participle ഘടന",
+        "easily broken"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_271",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "Jonathan Swift",
+        "Kubla Khan",
+        "Samuel Taylor Coleridge",
+        "will have + past participle ഘടന"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_272",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "The Rime of the Ancient Mariner",
+        "Gulliver's Travels",
+        "will have + past participle ഘടന",
+        "Jonathan Swift"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_273",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "will have + past participle ഘടന",
+        "eager",
+        "very careful",
+        "sluggish"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_274",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "will have + past participle ഘടന",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_275",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Animal Farm",
+        "1984",
+        "George Orwell",
+        "will have + past participle ഘടന"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_276",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "will have + past participle ഘടന",
+        "perfectly clean",
+        "eager",
+        "very joyful"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_277",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "will have + past participle ഘടന",
+        "a, an, the പോലുള്ള വാക്കുകൾ"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_278",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Future Perfect എന്നത് എന്താണ്?",
+      "options": [
+        "George Orwell",
+        "Animal Farm",
+        "will have + past participle ഘടന",
+        "1984"
+      ],
+      "answer": "will have + past participle ഘടന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_279",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Great Expectations",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "Oliver Twist",
+        "Charles Dickens"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_280",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "William Shakespeare",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "Macbeth",
+        "Hamlet"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_281",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Oliver Twist",
+        "Charles Dickens",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "Great Expectations"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_282",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_283",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "Pride and Prejudice",
+        "Oliver Twist",
+        "Charles Dickens"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_284",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "have/has + past participle ഘടന",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_285",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "The Waste Land",
+        "T. S. Eliot",
+        "Ulysses"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_286",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind",
+        "honest"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_287",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Jane Eyre",
+        "Emily Bronte",
+        "Charlotte Bronte",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_288",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Active Voice എന്നത് എന്താണ്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_289",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "Oliver Twist",
+        "Great Expectations",
+        "Charlotte Bronte"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_290",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Jonathan Swift",
+        "Kubla Khan",
+        "Gulliver's Travels",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_291",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Wuthering Heights",
+        "Ernest Hemingway",
+        "The Old Man and the Sea",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_292",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "honest",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_293",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "John Keats",
+        "T. S. Eliot",
+        "The Waste Land",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_294",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_295",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Animal Farm",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "The Tempest",
+        "1984"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_296",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "Jonathan Swift",
+        "The Rime of the Ancient Mariner",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "Gulliver's Travels"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_297",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "have/has + past participle ഘടന",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_298",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Passive Voice എന്നത് എന്താണ്?",
+      "options": [
+        "John Keats",
+        "Ode to a Nightingale",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "William Wordsworth"
+      ],
+      "answer": "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_299",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_300",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "The Old Man and the Sea",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Wuthering Heights",
+        "Ernest Hemingway"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_301",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "Hamlet",
+        "William Shakespeare",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "bright and clear"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_302",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "examine closely",
+        "calm",
+        "able to recover quickly"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_303",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "had + past participle ഘടന",
+        "will have + past participle ഘടന",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "have/has + past participle ഘടന"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_304",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "had + past participle ഘടന",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "have/has + past participle ഘടന",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_305",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Hamlet",
+        "Macbeth",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "William Shakespeare"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_306",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "fluent and persuasive",
+        "easily broken",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "authentic"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_307",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "Daffodils",
+        "William Wordsworth",
+        "Ode to a Nightingale",
+        "സമാന അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_308",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Synonym എന്നത് എന്താണ്?",
+      "options": [
+        "1984",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Animal Farm",
+        "The Tempest"
+      ],
+      "answer": "സമാന അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_309",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "The Rime of the Ancient Mariner",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "Gulliver's Travels",
+        "Jonathan Swift"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_310",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "not transparent",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "attractively old-fashioned",
+        "practical"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_311",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "very careful",
+        "longing for the past",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "sluggish"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_312",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "very careful",
+        "sluggish",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "longing for the past"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_313",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "longing for the past",
+        "very careful",
+        "not transparent"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_314",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "longing for the past",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "not transparent",
+        "very careful"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_315",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "Pride and Prejudice",
+        "Charles Dickens",
+        "Jane Austen"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_316",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "honest",
+        "kind",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_317",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_318",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Antonym എന്നത് എന്താണ്?",
+      "options": [
+        "Kubla Khan",
+        "Gulliver's Travels",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "Jonathan Swift"
+      ],
+      "answer": "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_319",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "kind",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "honest",
+        "hardworking"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_320",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Charles Dickens",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "Jane Austen",
+        "Pride and Prejudice"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_321",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "Animal Farm",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "The Tempest",
+        "1984"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_322",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "James Joyce",
+        "The Merchant of Venice",
+        "Ulysses"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_323",
+      "question": "വസ്തുത അറിയുക: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "Ernest Hemingway",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "Emily Bronte",
+        "Wuthering Heights"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_324",
+      "question": "GK ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "The Old Man and the Sea",
+        "George Orwell",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "Ernest Hemingway"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_325",
+      "question": "ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_326",
+      "question": "പരീക്ഷാ ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "sluggish",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "eager",
+        "very joyful"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_327",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "fluent and persuasive",
+        "easily broken",
+        "authentic"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_328",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Homophone എന്നത് എന്താണ്?",
+      "options": [
+        "attractively old-fashioned",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "able to recover quickly",
+        "examine closely"
+      ],
+      "answer": "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_329",
+      "question": "English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very careful",
+        "kind",
+        "sluggish",
+        "eager"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_330",
+      "question": "English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Pride and Prejudice",
+        "Paradise Lost",
+        "Jane Austen",
+        "kind"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_331",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "longing for the past",
+        "sluggish",
+        "very careful",
+        "kind"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_332",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Ode to a Nightingale",
+        "kind",
+        "William Wordsworth",
+        "John Keats"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_333",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Hamlet",
+        "kind",
+        "John Milton",
+        "Macbeth"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_334",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "kind",
+        "The Merchant of Venice",
+        "James Joyce",
+        "The Tempest"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_335",
+      "question": "English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "kind",
+        "The Rime of the Ancient Mariner"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_336",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Emily Bronte",
+        "Jane Eyre",
+        "kind",
+        "Charlotte Bronte"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_337",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "1984",
+        "The Tempest",
+        "kind",
+        "Animal Farm"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_338",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Benevolent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "James Joyce",
+        "Ulysses",
+        "The Merchant of Venice",
+        "kind"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_339",
+      "question": "English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "eager",
+        "very careful",
+        "sluggish",
+        "honest"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_340",
+      "question": "English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "honest",
+        "Pride and Prejudice",
+        "Charles Dickens",
+        "Oliver Twist"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_341",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "William Wordsworth",
+        "honest",
+        "Daffodils",
+        "Samuel Taylor Coleridge"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_342",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "sluggish",
+        "longing for the past",
+        "honest",
+        "very careful"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_343",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "authentic",
+        "perfectly clean",
+        "honest",
+        "obstruct"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_344",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "honest",
+        "Samuel Taylor Coleridge",
+        "Daffodils",
+        "Kubla Khan"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_345",
+      "question": "English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Ernest Hemingway",
+        "The Old Man and the Sea",
+        "honest",
+        "George Orwell"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_346",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "honest",
+        "very careful",
+        "eager",
+        "sluggish"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_347",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "practical",
+        "honest",
+        "able to recover quickly",
+        "attractively old-fashioned"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_348",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Candid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "eager",
+        "honest",
+        "very joyful",
+        "perfectly clean"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_349",
+      "question": "English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "hardworking",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_350",
+      "question": "English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Ode to a Nightingale",
+        "John Keats",
+        "The Waste Land",
+        "hardworking"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_351",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "William Shakespeare",
+        "bright and clear",
+        "hardworking",
+        "calm"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_352",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "hardworking",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_353",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "eager",
+        "very joyful",
+        "perfectly clean",
+        "hardworking"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_354",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "hardworking",
+        "Charles Dickens",
+        "Jane Austen",
+        "Pride and Prejudice"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_355",
+      "question": "English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "hardworking",
+        "John Keats",
+        "William Wordsworth",
+        "Ode to a Nightingale"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_356",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Ode to a Nightingale",
+        "William Wordsworth",
+        "hardworking",
+        "Daffodils"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_357",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very joyful",
+        "hardworking",
+        "perfectly clean",
+        "obstruct"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_358",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Diligent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "hardworking"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_359",
+      "question": "English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Emily Bronte",
+        "fluent and persuasive",
+        "Jane Eyre",
+        "Wuthering Heights"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_360",
+      "question": "English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "fluent and persuasive",
+        "സമാന അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_361",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "fluent and persuasive",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_362",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "perfectly clean",
+        "obstruct",
+        "very joyful",
+        "fluent and persuasive"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_363",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "will have + past participle ഘടന",
+        "have/has + past participle ഘടന",
+        "fluent and persuasive",
+        "had + past participle ഘടന"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_364",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "fluent and persuasive",
+        "hardworking",
+        "kind",
+        "honest"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_365",
+      "question": "English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Gulliver's Travels",
+        "The Rime of the Ancient Mariner",
+        "fluent and persuasive",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_366",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "fluent and persuasive",
+        "able to recover quickly",
+        "attractively old-fashioned"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_367",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "T. S. Eliot",
+        "Ulysses",
+        "fluent and persuasive",
+        "James Joyce"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_368",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Eloquent' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Charlotte Bronte",
+        "fluent and persuasive",
+        "Emily Bronte",
+        "Jane Eyre"
+      ],
+      "answer": "fluent and persuasive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_369",
+      "question": "English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "honest",
+        "hardworking",
+        "kind",
+        "easily broken"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_370",
+      "question": "English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Jonathan Swift",
+        "easily broken",
+        "The Rime of the Ancient Mariner",
+        "Gulliver's Travels"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_371",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Old Man and the Sea",
+        "1984",
+        "easily broken",
+        "George Orwell"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_372",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "obstruct",
+        "easily broken",
+        "fluent and persuasive",
+        "authentic"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_373",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Waste Land",
+        "easily broken",
+        "T. S. Eliot",
+        "Ulysses"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_374",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "easily broken",
+        "സമാന അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_375",
+      "question": "English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "easily broken",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_376",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "The Rime of the Ancient Mariner",
+        "easily broken",
+        "Gulliver's Travels"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_377",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Eyre",
+        "Charlotte Bronte",
+        "easily broken",
+        "Emily Bronte"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_378",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Fragile' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Eyre",
+        "Charlotte Bronte",
+        "easily broken",
+        "Great Expectations"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_379",
+      "question": "English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Emily Bronte",
+        "Charlotte Bronte",
+        "Jane Eyre",
+        "authentic"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_380",
+      "question": "English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Jonathan Swift",
+        "The Rime of the Ancient Mariner",
+        "authentic",
+        "Gulliver's Travels"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_381",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "easily broken",
+        "fluent and persuasive",
+        "authentic",
+        "hardworking"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_382",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "authentic",
+        "very joyful",
+        "perfectly clean",
+        "eager"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_383",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Samuel Taylor Coleridge",
+        "Kubla Khan",
+        "authentic",
+        "Jonathan Swift"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_384",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Austen",
+        "Charles Dickens",
+        "authentic",
+        "Pride and Prejudice"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_385",
+      "question": "English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "have/has + past participle ഘടന",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "authentic",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_386",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jonathan Swift",
+        "authentic",
+        "Kubla Khan",
+        "Gulliver's Travels"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_387",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "1984",
+        "Animal Farm",
+        "George Orwell",
+        "authentic"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_388",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Genuine' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Hamlet",
+        "bright and clear",
+        "William Shakespeare",
+        "authentic"
+      ],
+      "answer": "authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_389",
+      "question": "English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "bright and clear",
+        "calm",
+        "William Shakespeare",
+        "obstruct"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_390",
+      "question": "English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Ode to a Nightingale",
+        "William Wordsworth",
+        "John Keats",
+        "obstruct"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_391",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Eyre",
+        "Charlotte Bronte",
+        "obstruct",
+        "Great Expectations"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_392",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "obstruct",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_393",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Merchant of Venice",
+        "James Joyce",
+        "obstruct",
+        "Ulysses"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_394",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very careful",
+        "eager",
+        "sluggish",
+        "obstruct"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_395",
+      "question": "English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "easily broken",
+        "fluent and persuasive",
+        "obstruct",
+        "authentic"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_396",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Oliver Twist",
+        "Charles Dickens",
+        "obstruct",
+        "Pride and Prejudice"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_397",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Waste Land",
+        "obstruct",
+        "John Keats",
+        "Ode to a Nightingale"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_398",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Hinder' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "hardworking",
+        "obstruct",
+        "kind",
+        "honest"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_399",
+      "question": "English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "perfectly clean",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_400",
+      "question": "English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "John Keats",
+        "Ode to a Nightingale",
+        "William Wordsworth",
+        "perfectly clean"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_401",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Ulysses",
+        "The Waste Land",
+        "T. S. Eliot",
+        "perfectly clean"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_402",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Macbeth",
+        "Hamlet",
+        "William Shakespeare",
+        "perfectly clean"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_403",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "perfectly clean"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_404",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "perfectly clean",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "a, an, the പോലുള്ള വാക്കുകൾ"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_405",
+      "question": "English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "perfectly clean",
+        "calm",
+        "able to recover quickly",
+        "examine closely"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_406",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "perfectly clean",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "kind"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_407",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "perfectly clean",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "have/has + past participle ഘടന"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_408",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Immaculate' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Ernest Hemingway",
+        "The Old Man and the Sea",
+        "perfectly clean",
+        "Wuthering Heights"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_409",
+      "question": "English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Charlotte Bronte",
+        "very joyful",
+        "Emily Bronte",
+        "Jane Eyre"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_410",
+      "question": "English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "very joyful",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_411",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "able to recover quickly",
+        "very joyful",
+        "calm"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_412",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very joyful",
+        "hardworking",
+        "honest",
+        "fluent and persuasive"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_413",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very joyful",
+        "William Wordsworth",
+        "John Keats",
+        "Ode to a Nightingale"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_414",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "kind",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "very joyful"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_415",
+      "question": "English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Daffodils",
+        "Samuel Taylor Coleridge",
+        "very joyful",
+        "William Wordsworth"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_416",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "calm",
+        "able to recover quickly",
+        "very joyful"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_417",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "John Milton",
+        "very joyful",
+        "Macbeth",
+        "Paradise Lost"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_418",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Jubilant' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very joyful",
+        "The Waste Land",
+        "Ode to a Nightingale",
+        "John Keats"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_419",
+      "question": "English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Emily Bronte",
+        "Jane Eyre",
+        "eager",
+        "Wuthering Heights"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_420",
+      "question": "English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Paradise Lost",
+        "eager",
+        "John Milton",
+        "Jane Austen"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_421",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "eager",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_422",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "George Orwell",
+        "The Old Man and the Sea",
+        "eager",
+        "Ernest Hemingway"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_423",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "not transparent",
+        "attractively old-fashioned",
+        "practical",
+        "eager"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_424",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "eager",
+        "perfectly clean",
+        "sluggish",
+        "very joyful"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_425",
+      "question": "English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "practical",
+        "eager",
+        "attractively old-fashioned",
+        "able to recover quickly"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_426",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Hamlet",
+        "Macbeth",
+        "eager",
+        "John Milton"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_427",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "eager"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_428",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Keen' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "eager",
+        "able to recover quickly",
+        "attractively old-fashioned"
+      ],
+      "answer": "eager",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_429",
+      "question": "English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Macbeth",
+        "William Shakespeare",
+        "sluggish",
+        "Hamlet"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_430",
+      "question": "English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Kubla Khan",
+        "Gulliver's Travels",
+        "sluggish",
+        "Jonathan Swift"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_431",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "not transparent",
+        "longing for the past",
+        "practical",
+        "sluggish"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_432",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "John Keats",
+        "Ode to a Nightingale",
+        "The Waste Land",
+        "sluggish"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_433",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "honest",
+        "fluent and persuasive",
+        "sluggish",
+        "hardworking"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_434",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "sluggish",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_435",
+      "question": "English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Charlotte Bronte",
+        "Great Expectations",
+        "Oliver Twist",
+        "sluggish"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_436",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Paradise Lost",
+        "Pride and Prejudice",
+        "Jane Austen",
+        "sluggish"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_437",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "sluggish"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_438",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Lethargic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "sluggish",
+        "William Wordsworth",
+        "Ode to a Nightingale",
+        "John Keats"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_439",
+      "question": "English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Animal Farm",
+        "The Tempest",
+        "very careful",
+        "The Merchant of Venice"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_440",
+      "question": "English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "examine closely",
+        "very careful",
+        "able to recover quickly",
+        "calm"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_441",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very careful",
+        "practical",
+        "longing for the past",
+        "not transparent"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_442",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Tempest",
+        "The Merchant of Venice",
+        "Animal Farm",
+        "very careful"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_443",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "very careful",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_444",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "very careful",
+        "had + past participle ഘടന",
+        "will have + past participle ഘടന"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_445",
+      "question": "English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "The Waste Land",
+        "T. S. Eliot",
+        "John Keats",
+        "very careful"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_446",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "had + past participle ഘടന",
+        "very careful"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_447",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very careful",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_448",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Meticulous' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very careful",
+        "attractively old-fashioned",
+        "able to recover quickly",
+        "examine closely"
+      ],
+      "answer": "very careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_449",
+      "question": "English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "bright and clear",
+        "calm",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_450",
+      "question": "English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "have/has + past participle ഘടന",
+        "had + past participle ഘടന",
+        "longing for the past",
+        "will have + past participle ഘടന"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_451",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Animal Farm",
+        "The Tempest",
+        "1984",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_452",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "കാലം സൂചിപ്പിക്കുന്ന വ്യാകരണ സംവിധാനം",
+        "have/has + past participle ഘടന",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_453",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Ernest Hemingway",
+        "Emily Bronte",
+        "Wuthering Heights",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_454",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_455",
+      "question": "English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_456",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "longing for the past",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_457",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Paradise Lost",
+        "Macbeth",
+        "John Milton",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_458",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Nostalgia' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "longing for the past",
+        "Samuel Taylor Coleridge",
+        "Kubla Khan",
+        "Jonathan Swift"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_459",
+      "question": "English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Austen",
+        "Charles Dickens",
+        "Pride and Prejudice",
+        "not transparent"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_460",
+      "question": "English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "not transparent",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_461",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "eager",
+        "not transparent",
+        "sluggish",
+        "very careful"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_462",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Samuel Taylor Coleridge",
+        "not transparent",
+        "Daffodils",
+        "William Wordsworth"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_463",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "attractively old-fashioned",
+        "not transparent",
+        "able to recover quickly",
+        "examine closely"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_464",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "William Shakespeare",
+        "bright and clear",
+        "Hamlet",
+        "not transparent"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_465",
+      "question": "English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "not transparent",
+        "T. S. Eliot",
+        "James Joyce",
+        "Ulysses"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_466",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "not transparent"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_467",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very joyful",
+        "not transparent",
+        "obstruct",
+        "perfectly clean"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_468",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Opaque' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Old Man and the Sea",
+        "not transparent",
+        "George Orwell",
+        "1984"
+      ],
+      "answer": "not transparent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_469",
+      "question": "English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "The Rime of the Ancient Mariner",
+        "Gulliver's Travels",
+        "practical"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_470",
+      "question": "English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "practical",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "a, an, the പോലുള്ള വാക്കുകൾ"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_471",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Oliver Twist",
+        "practical",
+        "Great Expectations",
+        "Charlotte Bronte"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_472",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "practical",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_473",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "easily broken",
+        "obstruct",
+        "authentic",
+        "practical"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_474",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "practical",
+        "obstruct",
+        "perfectly clean",
+        "very joyful"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_475",
+      "question": "English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Charles Dickens",
+        "practical",
+        "Pride and Prejudice",
+        "Oliver Twist"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_476",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "practical",
+        "a, an, the പോലുള്ള വാക്കുകൾ"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_477",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Charles Dickens",
+        "practical",
+        "Pride and Prejudice",
+        "Oliver Twist"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_478",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Pragmatic' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "very joyful",
+        "perfectly clean",
+        "practical",
+        "eager"
+      ],
+      "answer": "practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_479",
+      "question": "English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന",
+        "attractively old-fashioned"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_480",
+      "question": "English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "attractively old-fashioned",
+        "The Waste Land",
+        "John Keats",
+        "Ode to a Nightingale"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_481",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Austen",
+        "Pride and Prejudice",
+        "attractively old-fashioned",
+        "Paradise Lost"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_482",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "attractively old-fashioned",
+        "honest",
+        "hardworking",
+        "kind"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_483",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "attractively old-fashioned",
+        "kind"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_484",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "obstruct",
+        "attractively old-fashioned",
+        "easily broken",
+        "authentic"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_485",
+      "question": "English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം",
+        "attractively old-fashioned",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_486",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "attractively old-fashioned",
+        "Emily Bronte",
+        "Wuthering Heights",
+        "Ernest Hemingway"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_487",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "honest",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "attractively old-fashioned",
+        "kind"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_488",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Quaint' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "obstruct",
+        "attractively old-fashioned",
+        "authentic",
+        "easily broken"
+      ],
+      "answer": "attractively old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_489",
+      "question": "English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "able to recover quickly",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "will have + past participle ഘടന",
+        "had + past participle ഘടന"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_490",
+      "question": "English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "perfectly clean",
+        "able to recover quickly",
+        "eager",
+        "very joyful"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_491",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "able to recover quickly"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_492",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "practical",
+        "attractively old-fashioned",
+        "not transparent",
+        "able to recover quickly"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_493",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "able to recover quickly",
+        "very careful",
+        "longing for the past",
+        "sluggish"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_494",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Tempest",
+        "James Joyce",
+        "The Merchant of Venice",
+        "able to recover quickly"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_495",
+      "question": "English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "able to recover quickly",
+        "Gulliver's Travels",
+        "The Rime of the Ancient Mariner",
+        "പേര് സൂചിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_496",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "able to recover quickly",
+        "fluent and persuasive",
+        "easily broken",
+        "authentic"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_497",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "James Joyce",
+        "T. S. Eliot",
+        "Ulysses",
+        "able to recover quickly"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_498",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Resilient' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "attractively old-fashioned",
+        "calm",
+        "able to recover quickly"
+      ],
+      "answer": "able to recover quickly",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_499",
+      "question": "English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "examine closely",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_500",
+      "question": "English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "examine closely",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം",
+        "സമാന അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_501",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "examine closely",
+        "kind",
+        "വിപരീത അർത്ഥമുള്ള വാക്ക്"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_502",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "Hamlet",
+        "bright and clear",
+        "William Shakespeare"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_503",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "examine closely",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_504",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "sluggish",
+        "very joyful",
+        "eager"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_505",
+      "question": "English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Emily Bronte",
+        "Ernest Hemingway",
+        "Wuthering Heights",
+        "examine closely"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_506",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "William Shakespeare",
+        "calm",
+        "examine closely",
+        "bright and clear"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_507",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "examine closely",
+        "The Rime of the Ancient Mariner",
+        "Jonathan Swift",
+        "Gulliver's Travels"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_508",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Scrutinize' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Merchant of Venice",
+        "Ulysses",
+        "examine closely",
+        "James Joyce"
+      ],
+      "answer": "examine closely",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_509",
+      "question": "English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "calm",
+        "Paradise Lost",
+        "John Milton",
+        "Macbeth"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_510",
+      "question": "English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "attractively old-fashioned",
+        "able to recover quickly",
+        "practical",
+        "calm"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_511",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "The Old Man and the Sea",
+        "calm",
+        "Wuthering Heights",
+        "Ernest Hemingway"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_512",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Subject പ്രവർത്തനം ഏറ്റുവാങ്ങുന്ന രൂപം",
+        "സമാന അർത്ഥമുള്ള വാക്ക്",
+        "calm",
+        "Subject പ്രവർത്തനം ചെയ്യുന്ന രൂപം"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_513",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "calm",
+        "Daffodils",
+        "William Wordsworth",
+        "Samuel Taylor Coleridge"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_514",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "sluggish",
+        "very joyful",
+        "calm",
+        "eager"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_515",
+      "question": "English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "Noun ന് പകരം വരുന്ന വാക്ക്",
+        "calm",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_516",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "attractively old-fashioned",
+        "not transparent",
+        "calm",
+        "practical"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_517",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Ulysses",
+        "James Joyce",
+        "The Merchant of Venice",
+        "calm"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_518",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Tranquil' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "calm",
+        "ക്രിയ സൂചിപ്പിക്കുന്ന വാക്ക്",
+        "Noun നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_519",
+      "question": "English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വാക്യത്തിലെ പ്രവർത്തക ഘടകം",
+        "bright and clear",
+        "a, an, the പോലുള്ള വാക്കുകൾ",
+        "Subjectയെക്കുറിച്ചുള്ള വിവരഭാഗം"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_520",
+      "question": "English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "options": [
+        "bright and clear",
+        "ആശ്ചര്യ/ഭാവപ്രകടനം ചെയ്യുന്ന വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_521",
+      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "William Wordsworth",
+        "Samuel Taylor Coleridge",
+        "Daffodils",
+        "bright and clear"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_522",
+      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Jane Austen",
+        "Paradise Lost",
+        "Pride and Prejudice",
+        "bright and clear"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_523",
+      "question": "വസ്തുത അറിയുക: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "bright and clear",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_524",
+      "question": "GK ചോദ്യം: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "bright and clear",
+        "വാക്കുകളുടെ ബന്ധം കാണിക്കുന്ന വാക്ക്",
+        "Verb/Adjective നെ വിശേഷിപ്പിക്കുന്ന വാക്ക്",
+        "വാക്യഘടകങ്ങൾ ബന്ധിപ്പിക്കുന്ന വാക്ക്"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_525",
+      "question": "English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്? (സരിയായ ഉത്തരമോ?)",
+      "options": [
+        "bright and clear",
+        "honest",
+        "kind",
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_526",
+      "question": "പരീക്ഷാ ചോദ്യം: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "ഒരേ ശബ്‌ദം, വ്യത്യസ്ത അർത്ഥം",
+        "kind",
+        "bright and clear",
+        "honest"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_527",
+      "question": "ഒരു മാർക്ക് ചോദ്യം: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "bright and clear",
+        "Emily Bronte",
+        "Ernest Hemingway",
+        "Wuthering Heights"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_528",
+      "question": "പൊതുവിജ്ഞാന പരിശോധന: English വാക്കായ 'Vivid' ന്റെ അർത്ഥം എന്ത്?",
+      "options": [
+        "Macbeth",
+        "bright and clear",
+        "John Milton",
+        "Hamlet"
+      ],
+      "answer": "bright and clear",
+      "difficulty": "medium"
     }
   ]
 }
