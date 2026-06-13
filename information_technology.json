@@ -1,6004 +1,1324 @@
 {
   "questions": [
     {
-      "id": "it_001",
-      "question": "കമ്പ്യൂട്ടറിന്റെ മൂല ഘടകമായ സെൻട്രൽ പ്രോസസ്സിംഗ് യൂണിറ്റിന്റെ ചുരുക്കെഴുത്ത് ഏതാണ്?",
-      "options": [
-        "CPU",
-        "RAM",
-        "GPU",
-        "ROM"
-      ],
-      "answer": "CPU",
-      "difficulty": "easy"
-    },
-    {
-      "id": "it_002",
       "question": "C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "RNN",
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
+        "ലാറി വാൾ",
+        "JetBrains",
+        "Apple",
+        "ഡെന്നിസ് റിച്ചി"
       ],
       "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_001"
     },
     {
-      "id": "it_003",
-      "question": "C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Command Line Interface",
-        "ഡെന്നിസ് റിച്ചി",
-        "GUI",
-        "Graphical User Interface"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_004",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "ഡെന്നിസ് റിച്ചി",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_005",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1987",
-        "ഡെന്നിസ് റിച്ചി",
-        "ഹ്‌സിൻചു",
-        "1982"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_006",
-      "question": "വസ്തുത അറിയുക: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "ഡെന്നിസ് റിച്ചി",
-        "SQL",
-        "Ruby"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_007",
-      "question": "GK ചോദ്യം: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "SQL",
-        "Ruby"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_008",
-      "question": "C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "Domain Name System",
-        "IP",
-        "Internet Protocol"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_009",
-      "question": "പരീക്ഷാ ചോദ്യം: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1993",
-        "ഓസ്റ്റിൻ",
-        "ഡെന്നിസ് റിച്ചി",
-        "1977"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_010",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "HDD",
-        "ഡെന്നിസ് റിച്ചി",
-        "Hard Disk Drive",
-        "SSD"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_011",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "HTTP",
-        "HTTPS",
-        "HyperText Transfer Protocol Secure"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_012",
       "question": "ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
+        "Pascal",
         "C",
-        "Wide Area Network",
-        "WAN",
-        "Virtual Private Network"
+        "SQL",
+        "C++"
       ],
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_002"
     },
     {
-      "id": "it_013",
-      "question": "ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "RAM",
-        "Random Access Memory",
-        "GPU",
-        "C"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_014",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Virtual Private Network",
-        "VPN",
-        "C",
-        "Artificial Intelligence"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_015",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HTTP",
-        "HTTPS",
-        "HyperText Transfer Protocol Secure",
-        "C"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_016",
-      "question": "വസ്തുത അറിയുക: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C",
-        "NLP",
-        "Application Programming Interface",
-        "Natural Language Processing"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_017",
-      "question": "GK ചോദ്യം: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C",
-        "Read Only Memory",
-        "ROM",
-        "Solid State Drive"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_018",
-      "question": "ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "2004",
-        "1911",
-        "മെൻലോ പാർക്ക്",
-        "C"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_019",
-      "question": "പരീക്ഷാ ചോദ്യം: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Uniform Resource Locator",
-        "C",
-        "Central Processing Unit",
-        "URL"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_020",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Go",
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "C"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_021",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1977",
-        "1993",
-        "ഓസ്റ്റിൻ",
-        "C"
-      ],
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_022",
       "question": "C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "JetBrains",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "ലാറി വാൾ",
-        "Perl"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_023",
-      "question": "C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Go"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_024",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "സാൻ ജോസ്",
-        "1982",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "ഹ്‌സിൻചു"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_025",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Kotlin",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "JetBrains",
-        "Apple"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_026",
-      "question": "വസ്തുത അറിയുക: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "2015",
-        "വാൽഡോർഫ്",
-        "സാൻ ഫ്രാൻസിസ്കോ"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_027",
-      "question": "GK ചോദ്യം: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Swift",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
         "Apple",
+        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
         "Microsoft"
       ],
       "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_003"
     },
     {
-      "id": "it_028",
-      "question": "C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "JavaScript",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_029",
-      "question": "പരീക്ഷാ ചോദ്യം: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "GPU",
-        "Graphics Processing Unit",
-        "CPU",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_030",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "C",
-        "C++"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_031",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "Graphical User Interface",
-        "API",
-        "Application Programming Interface"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_032",
       "question": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "C++",
-        "വളരെ ഉയർന്നത്",
-        "Attention Is All You Need",
-        "RNN"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_033",
-      "question": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "C++",
-        "1976",
-        "1994",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_034",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "Command Line Interface",
-        "CLI",
-        "GUI"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_035",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1968",
-        "സാന്റാ ക്ലാര",
-        "C++",
-        "1977"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_036",
-      "question": "വസ്തുത അറിയുക: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "C++",
-        "Go"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_037",
-      "question": "GK ചോദ്യം: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "സുവോൺ",
-        "C++",
-        "1969",
-        "1993"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_038",
-      "question": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "C++",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "2015",
-        "ആലൻ ട്യൂറിംഗ്"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_039",
-      "question": "പരീക്ഷാ ചോദ്യം: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "VPN",
-        "WAN",
-        "Virtual Private Network"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_040",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "Python",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_041",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "LAN",
-        "Wide Area Network",
-        "WAN"
-      ],
-      "answer": "C++",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_042",
-      "question": "Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "WAN",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Virtual Private Network",
-        "Wide Area Network"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_043",
-      "question": "Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "RNN",
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_044",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Hard Disk Drive",
-        "Local Area Network",
-        "HDD"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_045",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Graphics Processing Unit",
-        "CPU",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "GPU"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_046",
-      "question": "വസ്തുത അറിയുക: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "സാന്റാ ക്ലാര",
-        "1968",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "1977"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_047",
-      "question": "GK ചോദ്യം: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "WAN",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Virtual Private Network",
-        "Wide Area Network"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_048",
-      "question": "Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "RAM",
-        "Read Only Memory",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Random Access Memory"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_049",
-      "question": "പരീക്ഷാ ചോദ്യം: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "2015",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_050",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Natural Language Processing",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Application Programming Interface",
-        "NLP"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_051",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "C++",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Java",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_052",
-      "question": "ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Read Only Memory",
-        "ROM",
-        "RAM",
-        "Java"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_053",
-      "question": "ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Graphical User Interface",
-        "Java",
-        "GUI",
-        "Command Line Interface"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_054",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "റെഡ്‌മണ്ട്",
-        "1976",
-        "Java",
-        "1975"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_055",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "HTTPS",
-        "Java",
-        "HTTP"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_056",
-      "question": "വസ്തുത അറിയുക: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Solid State Drive",
-        "Java",
-        "Hard Disk Drive",
-        "SSD"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_057",
-      "question": "GK ചോദ്യം: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1969",
-        "1987",
-        "സുവോൺ",
-        "Java"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_058",
-      "question": "ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ROM",
-        "Java",
-        "RAM",
-        "Read Only Memory"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_059",
-      "question": "പരീക്ഷാ ചോദ്യം: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Java",
-        "Application Programming Interface",
-        "Natural Language Processing",
-        "NLP"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_060",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HyperText Transfer Protocol",
-        "Pascal",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "Java"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_061",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "NLP",
-        "API",
-        "Application Programming Interface",
-        "Java"
-      ],
-      "answer": "Java",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_062",
-      "question": "Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1993",
-        "ഓസ്റ്റിൻ",
-        "1969",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_063",
-      "question": "Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Python",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "JavaScript",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_064",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "റിവാർഡ് സിഗ്നൽ",
-        "K-Means",
-        "ഡെന്നിസ് റിച്ചി"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_065",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "JavaScript",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_066",
-      "question": "വസ്തുത അറിയുക: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Central Processing Unit",
-        "URL",
-        "Uniform Resource Locator"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_067",
-      "question": "GK ചോദ്യം: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Hard Disk Drive",
-        "SSD",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "HDD"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_068",
-      "question": "Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Natural Language Processing",
-        "NLP",
-        "ML"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_069",
-      "question": "പരീക്ഷാ ചോദ്യം: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "IP",
-        "HTTPS",
-        "Internet Protocol",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_070",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഓസ്റ്റിൻ",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "1977",
-        "സാന്റാ ക്ലാര"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_071",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Central Processing Unit",
-        "Graphics Processing Unit",
-        "CPU",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_072",
-      "question": "ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Python",
-        "Java",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_073",
-      "question": "ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "സുവോൺ",
-        "Python",
-        "ഹ്‌സിൻചു",
-        "1987"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_074",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Python",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "ആലൻ ട്യൂറിംഗ്",
-        "സാൻ ഫ്രാൻസിസ്കോ"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_075",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Python",
-        "Wide Area Network",
-        "Local Area Network",
-        "LAN"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_076",
-      "question": "വസ്തുത അറിയുക: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "API",
-        "Python",
-        "Application Programming Interface",
-        "Graphical User Interface"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_077",
-      "question": "GK ചോദ്യം: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HTTP",
-        "HyperText Transfer Protocol",
-        "Python",
-        "HyperText Transfer Protocol Secure"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_078",
-      "question": "ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Python",
-        "Apple",
-        "Microsoft",
-        "Swift"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_079",
-      "question": "പരീക്ഷാ ചോദ്യം: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "സിയാറ്റിൽ",
-        "1994",
-        "2004",
-        "Python"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_080",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Python",
-        "റിവാർഡ് സിഗ്നൽ",
-        "K-Means",
-        "ലേബൽ ചെയ്ത ഡാറ്റ"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_081",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java",
-        "Python",
-        "C++"
-      ],
-      "answer": "Python",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_082",
-      "question": "JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
         "Ruby",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "യുകിഹിറോ മാത്സുമോട്ടോ"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_083",
-      "question": "JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "സിയാറ്റിൽ",
-        "ക്യൂപ്പർട്ടിനോ",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "1994"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_084",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഓസ്റ്റിൻ",
-        "1993",
-        "1969",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_085",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Java",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
         "C++",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_086",
-      "question": "വസ്തുത അറിയുക: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "റെഡ്‌മണ്ട്",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "1976"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_087",
-      "question": "GK ചോദ്യം: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Python",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "JavaScript",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_088",
-      "question": "JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "GUI",
-        "API",
-        "Graphical User Interface"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_089",
-      "question": "പരീക്ഷാ ചോദ്യം: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "മൗണ്ടൻ വ്യൂ",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "1998",
-        "1975"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_090",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Microsoft",
-        "TypeScript",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_091",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "മൗണ്ടൻ വ്യൂ",
-        "1998",
-        "CLI"
-      ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_092",
-      "question": "ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "JavaScript",
-        "Python",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_093",
-      "question": "ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "C++",
-        "Java",
-        "JavaScript"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_094",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "DNS",
-        "Uniform Resource Locator",
-        "Domain Name System",
-        "JavaScript"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_095",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഹ്‌സിൻചു",
-        "1987",
-        "JavaScript",
-        "1982"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_096",
-      "question": "വസ്തുത അറിയുക: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Virtual Private Network",
-        "VPN",
-        "JavaScript",
-        "Artificial Intelligence"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_097",
-      "question": "GK ചോദ്യം: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "JavaScript",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_098",
-      "question": "ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Application Programming Interface",
-        "Natural Language Processing",
-        "NLP",
-        "JavaScript"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_099",
-      "question": "പരീക്ഷാ ചോദ്യം: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "WAN",
-        "LAN",
-        "JavaScript",
-        "Wide Area Network"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_100",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "JavaScript",
         "SQL",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_101",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "C",
-        "JavaScript",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_102",
-      "question": "Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "വളരെ ഉയർന്നത്",
-        "Attention Is All You Need",
-        "RNN"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_103",
-      "question": "Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "GPU",
-        "Graphics Processing Unit",
-        "CPU"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_104",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Apple",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "JetBrains",
-        "Kotlin"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_105",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Uniform Resource Locator",
-        "URL",
-        "DNS",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_106",
-      "question": "വസ്തുത അറിയുക: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "C++",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_107",
-      "question": "GK ചോദ്യം: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ROM",
-        "Solid State Drive",
-        "Read Only Memory",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_108",
-      "question": "Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ആർമോങ്ക്",
-        "1911",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "മെൻലോ പാർക്ക്"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_109",
-      "question": "പരീക്ഷാ ചോദ്യം: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "1972",
-        "വാൽഡോർഫ്",
-        "2015"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_110",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Java",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Python",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_111",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Hard Disk Drive",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Solid State Drive",
-        "SSD"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_112",
-      "question": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Go",
         "TypeScript"
       ],
-      "answer": "Go",
-      "difficulty": "medium"
+      "answer": "C++",
+      "difficulty": "medium",
+      "id": "it_004"
     },
     {
-      "id": "it_113",
-      "question": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "question": "Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "Go",
-        "Random Access Memory",
-        "RAM",
-        "GPU"
-      ],
-      "answer": "Go",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_114",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Go",
-        "Central Processing Unit",
-        "Uniform Resource Locator",
-        "URL"
-      ],
-      "answer": "Go",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_115",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C",
-        "Go",
-        "ഡെന്നിസ് റിച്ചി",
-        "റിവാർഡ് സിഗ്നൽ"
-      ],
-      "answer": "Go",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_116",
-      "question": "വസ്തുത അറിയുക: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "Go",
-        "HTTP",
-        "HTTPS"
-      ],
-      "answer": "Go",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_117",
-      "question": "GK ചോദ്യം: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1968",
-        "ആർമോങ്ക്",
-        "1911",
-        "Go"
-      ],
-      "answer": "Go",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_118",
-      "question": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
+        "റാസ്മസ് ലെർഡോർഫ്",
+        "JetBrains",
         "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java",
-        "Go"
+        "ലാറി വാൾ"
       ],
-      "answer": "Go",
-      "difficulty": "medium"
+      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
+      "difficulty": "medium",
+      "id": "it_005"
     },
     {
-      "id": "it_119",
-      "question": "പരീക്ഷാ ചോദ്യം: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "ഓസ്റ്റിൻ",
+        "Python",
         "Go",
-        "1993",
-        "1969"
+        "JavaScript",
+        "Java"
       ],
-      "answer": "Go",
-      "difficulty": "medium"
+      "answer": "Java",
+      "difficulty": "medium",
+      "id": "it_006"
     },
     {
-      "id": "it_120",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "Go",
-        "സിയാറ്റിൽ",
-        "2004",
-        "1994"
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+        "ഗ്വീഡോ വാൻ റോസം",
+        "ജെയിംസ് ഗോസ്ലിംഗ്"
       ],
-      "answer": "Go",
-      "difficulty": "medium"
+      "answer": "ഗ്വീഡോ വാൻ റോസം",
+      "difficulty": "medium",
+      "id": "it_007"
     },
     {
-      "id": "it_121",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Go",
-        "Ruby",
-        "SQL",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്"
-      ],
-      "answer": "Go",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_122",
-      "question": "Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ROM",
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "RAM",
-        "Read Only Memory"
-      ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_123",
-      "question": "Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "RNN",
-        "CNN",
-        "Attention Is All You Need"
-      ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_124",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "API",
-        "NLP",
-        "Application Programming Interface",
-        "ഗ്രേയ്ഡൺ ഹോർ"
-      ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_125",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "C++",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "C"
+        "JavaScript",
+        "Python",
+        "Java"
       ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
+      "answer": "Python",
+      "difficulty": "medium",
+      "id": "it_008"
     },
     {
-      "id": "it_126",
-      "question": "വസ്തുത അറിയുക: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "Random Access Memory",
-        "Read Only Memory",
-        "RAM"
+        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
+        "ഡെന്നിസ് റിച്ചി",
+        "നിക്ക്ലൗസ് വിർത്ത്",
+        "ബ്രെൻഡൻ ഐക്ക്"
       ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
+      "answer": "ബ്രെൻഡൻ ഐക്ക്",
+      "difficulty": "medium",
+      "id": "it_009"
     },
     {
-      "id": "it_127",
-      "question": "GK ചോദ്യം: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "മൗണ്ടൻ വ്യൂ",
-        "റെഡ്‌മണ്ട്",
-        "1975",
-        "ഗ്രേയ്ഡൺ ഹോർ"
+        "Java",
+        "Python",
+        "JavaScript",
+        "C++"
       ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
+      "answer": "JavaScript",
+      "difficulty": "medium",
+      "id": "it_010"
     },
     {
-      "id": "it_128",
-      "question": "Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
+      "question": "Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "Rust",
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
         "ഗ്രേയ്ഡൺ ഹോർ",
-        "PHP",
         "റാസ്മസ് ലെർഡോർഫ്"
       ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
+      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
+      "difficulty": "medium",
+      "id": "it_011"
     },
     {
-      "id": "it_129",
-      "question": "പരീക്ഷാ ചോദ്യം: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "API",
-        "Application Programming Interface",
-        "NLP",
-        "ഗ്രേയ്ഡൺ ഹോർ"
-      ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_130",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "ഗ്രേയ്ഡൺ ഹോർ",
+        "C",
+        "Pascal",
         "Go",
-        "Rust"
+        "C++"
       ],
-      "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
+      "answer": "Go",
+      "difficulty": "medium",
+      "id": "it_012"
     },
     {
-      "id": "it_131",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
+        "ഗ്രേയ്ഡൺ ഹോർ",
         "Apple",
-        "Swift",
-        "Kotlin",
-        "ഗ്രേയ്ഡൺ ഹോർ"
+        "Microsoft",
+        "യുകിഹിറോ മാത്സുമോട്ടോ"
       ],
       "answer": "ഗ്രേയ്ഡൺ ഹോർ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_013"
     },
     {
-      "id": "it_132",
       "question": "ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "1987",
-        "സുവോൺ",
+        "Pascal",
+        "C++",
         "Rust",
-        "ഹ്‌സിൻചു"
+        "C"
       ],
       "answer": "Rust",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_014"
     },
     {
-      "id": "it_133",
-      "question": "ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "CLI",
-        "Rust",
-        "1998",
-        "മൗണ്ടൻ വ്യൂ"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_134",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "JavaScript",
-        "Rust",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Go"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_135",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "CPU",
-        "Graphics Processing Unit",
-        "Rust",
-        "Central Processing Unit"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_136",
-      "question": "വസ്തുത അറിയുക: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Microsoft",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "TypeScript",
-        "Rust"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_137",
-      "question": "GK ചോദ്യം: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Artificial Intelligence",
-        "AI",
-        "Machine Learning",
-        "Rust"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_138",
-      "question": "ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Rust",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "K-Means",
-        "മെഷീൻ ലേണിംഗ്"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_139",
-      "question": "പരീക്ഷാ ചോദ്യം: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "CPU",
-        "Rust",
-        "Central Processing Unit",
-        "URL"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_140",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HTTP",
-        "Rust",
-        "HyperText Transfer Protocol Secure",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_141",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Solid State Drive",
-        "SSD",
-        "Rust",
-        "ROM"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_142",
       "question": "PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "മൗണ്ടൻ വ്യൂ",
+        "ലാറി വാൾ",
         "റാസ്മസ് ലെർഡോർഫ്",
-        "1998",
-        "CLI"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_143",
-      "question": "PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "സാൻ ജോസ്",
-        "1984",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "1972"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_144",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Ruby",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "റാസ്മസ് ലെർഡോർഫ്"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_145",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "Central Processing Unit",
-        "URL",
-        "Uniform Resource Locator"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_146",
-      "question": "വസ്തുത അറിയുക: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "Go",
-        "JavaScript",
+        "ഗ്രേയ്ഡൺ ഹോർ",
         "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
       ],
       "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_015"
     },
     {
-      "id": "it_147",
-      "question": "GK ചോദ്യം: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "C",
-        "റിവാർഡ് സിഗ്നൽ",
-        "റാസ്മസ് ലെർഡോർഫ്"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_148",
-      "question": "PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "1976",
-        "1975",
-        "റെഡ്‌മണ്ട്"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_149",
-      "question": "പരീക്ഷാ ചോദ്യം: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "C",
-        "ഡെന്നിസ് റിച്ചി",
-        "റാസ്മസ് ലെർഡോർഫ്"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_150",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Local Area Network",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "Hard Disk Drive",
-        "HDD"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_151",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Command Line Interface",
-        "GUI",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "CLI"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_152",
       "question": "റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "PHP",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "RNN",
-        "CNN"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_153",
-      "question": "റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "Pascal",
-        "HyperText Transfer Protocol",
-        "PHP"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_154",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "PHP",
-        "റിവാർഡ് സിഗ്നൽ",
-        "K-Means"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_155",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "PHP",
-        "1968",
-        "സാന്റാ ക്ലാര",
-        "1977"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_156",
-      "question": "വസ്തുത അറിയുക: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
         "Ruby",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "PHP"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_157",
-      "question": "GK ചോദ്യം: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ആലൻ ട്യൂറിംഗ്",
-        "സാൻ ഫ്രാൻസിസ്കോ",
         "PHP",
-        "2015"
+        "SQL",
+        "Pascal"
       ],
       "answer": "PHP",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_016"
     },
     {
-      "id": "it_158",
-      "question": "റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "PHP",
-        "C",
-        "C++",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_159",
-      "question": "പരീക്ഷാ ചോദ്യം: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Virtual Private Network",
-        "PHP",
-        "VPN",
-        "Artificial Intelligence"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_160",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "PHP",
-        "2015",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "ആലൻ ട്യൂറിംഗ്"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_161",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1975",
-        "1976",
-        "റെഡ്‌മണ്ട്",
-        "PHP"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_162",
       "question": "Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "Command Line Interface",
-        "ലാറി വാൾ",
-        "GUI",
-        "Graphical User Interface"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_163",
-      "question": "Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ലാറി വാൾ",
-        "URL",
-        "Uniform Resource Locator",
-        "Central Processing Unit"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_164",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Local Area Network",
-        "Wide Area Network",
-        "ലാറി വാൾ",
-        "LAN"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_165",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1982",
-        "1987",
-        "ലാറി വാൾ",
-        "ഹ്‌സിൻചു"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_166",
-      "question": "വസ്തുത അറിയുക: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ലാറി വാൾ",
-        "വളരെ ഉയർന്നത്",
-        "RNN",
-        "Attention Is All You Need"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_167",
-      "question": "GK ചോദ്യം: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "HTTP",
-        "Pascal",
-        "ലാറി വാൾ",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_168",
-      "question": "Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Solid State Drive",
-        "ലാറി വാൾ",
-        "Hard Disk Drive",
-        "SSD"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_169",
-      "question": "പരീക്ഷാ ചോദ്യം: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "DNS",
-        "Domain Name System",
-        "ലാറി വാൾ",
-        "Uniform Resource Locator"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_170",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "GUI",
-        "ലാറി വാൾ",
-        "Command Line Interface",
-        "Graphical User Interface"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_171",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "HTTPS",
-        "Internet Protocol",
-        "HyperText Transfer Protocol Secure",
+        "Apple",
+        "റാസ്മസ് ലെർഡോർഫ്",
+        "JetBrains",
         "ലാറി വാൾ"
       ],
       "answer": "ലാറി വാൾ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_017"
     },
     {
-      "id": "it_172",
       "question": "ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Internet Protocol",
+        "Java",
+        "Python",
         "Perl",
-        "IP",
-        "HTTPS"
+        "JavaScript"
       ],
       "answer": "Perl",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_018"
     },
     {
-      "id": "it_173",
-      "question": "ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "AI",
-        "VPN",
-        "Perl",
-        "Artificial Intelligence"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_174",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Perl",
-        "1998",
-        "CLI",
-        "Command Line Interface"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_175",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1972",
-        "സാൻ ജോസ്",
-        "1984",
-        "Perl"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_176",
-      "question": "വസ്തുത അറിയുക: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1975",
-        "Perl",
-        "മൗണ്ടൻ വ്യൂ",
-        "1998"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_177",
-      "question": "GK ചോദ്യം: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Perl",
-        "Graphical User Interface",
-        "GUI",
-        "Command Line Interface"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_178",
-      "question": "ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ഹ്‌സിൻചു",
-        "സുവോൺ",
-        "1987",
-        "Perl"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_179",
-      "question": "പരീക്ഷാ ചോദ്യം: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Central Processing Unit",
-        "CPU",
-        "Perl",
-        "Graphics Processing Unit"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_180",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Graphical User Interface",
-        "API",
-        "Perl",
-        "GUI"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_181",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "വളരെ ഉയർന്നത്",
-        "Attention Is All You Need",
-        "Perl",
-        "RNN"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_182",
       "question": "Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
         "JetBrains",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "SQL"
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "ഗ്വീഡോ വാൻ റോസം",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
       ],
       "answer": "JetBrains",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_019"
     },
     {
-      "id": "it_183",
-      "question": "Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "മെൻലോ പാർക്ക്",
-        "1911",
-        "JetBrains",
-        "2004"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_184",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "JetBrains",
-        "Local Area Network",
-        "LAN",
-        "Wide Area Network"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_185",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "JetBrains",
-        "Solid State Drive",
-        "ROM",
-        "Read Only Memory"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_186",
-      "question": "വസ്തുത അറിയുക: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Internet Protocol",
-        "HyperText Transfer Protocol Secure",
-        "HTTPS",
-        "JetBrains"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_187",
-      "question": "GK ചോദ്യം: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "LAN",
-        "HDD",
-        "Local Area Network",
-        "JetBrains"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_188",
-      "question": "Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "2015",
-        "JetBrains",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "വാൽഡോർഫ്"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_189",
-      "question": "പരീക്ഷാ ചോദ്യം: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റിവാർഡ് സിഗ്നൽ",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "JetBrains",
-        "K-Means"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_190",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Read Only Memory",
-        "Random Access Memory",
-        "RAM",
-        "JetBrains"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_191",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "SQL",
-        "JetBrains",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "JetBrains",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_192",
       "question": "JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Internet Protocol",
+        "JavaScript",
         "Kotlin",
-        "IP",
-        "HTTPS"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_193",
-      "question": "JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "RNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "Kotlin",
-        "CNN"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_194",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "VPN",
-        "Virtual Private Network",
-        "Artificial Intelligence",
-        "Kotlin"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_195",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "SQL",
-        "Ruby",
-        "Kotlin",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_196",
-      "question": "വസ്തുത അറിയുക: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Kotlin",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_197",
-      "question": "GK ചോദ്യം: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "NLP",
-        "ML",
-        "Kotlin",
-        "Natural Language Processing"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_198",
-      "question": "JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "റിവാർഡ് സിഗ്നൽ",
-        "Kotlin",
-        "ഡെന്നിസ് റിച്ചി",
-        "K-Means"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_199",
-      "question": "പരീക്ഷാ ചോദ്യം: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Graphics Processing Unit",
-        "Random Access Memory",
-        "GPU",
-        "Kotlin"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_200",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Kotlin",
-        "LAN",
-        "Wide Area Network",
-        "Local Area Network"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_201",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Kotlin",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "ഗ്രേയ്ഡൺ ഹോർ",
+        "Python",
         "Go"
       ],
       "answer": "Kotlin",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_020"
     },
     {
-      "id": "it_202",
       "question": "Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "മെൻലോ പാർക്ക്",
         "Apple",
-        "സിയാറ്റിൽ",
-        "2004"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_203",
-      "question": "Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Apple",
-        "TypeScript",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Ruby"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_204",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "1994",
-        "1976",
-        "Apple"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_205",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "മൗണ്ടൻ വ്യൂ",
-        "CLI",
-        "1998",
-        "Apple"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_206",
-      "question": "വസ്തുത അറിയുക: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Perl",
-        "Kotlin",
-        "JetBrains",
-        "Apple"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_207",
-      "question": "GK ചോദ്യം: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Java",
-        "C++",
-        "Apple",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_208",
-      "question": "Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "Go",
-        "Apple",
-        "Rust"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_209",
-      "question": "പരീക്ഷാ ചോദ്യം: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1982",
-        "1984",
-        "Apple",
-        "സാൻ ജോസ്"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_210",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "C++",
-        "Apple"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_211",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഓസ്റ്റിൻ",
-        "സാന്റാ ക്ലാര",
-        "Apple",
-        "1977"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_212",
-      "question": "Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "1994",
-        "Swift",
-        "1976"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_213",
-      "question": "Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Swift",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "TypeScript",
-        "Ruby"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_214",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Attention Is All You Need",
-        "മെഷീൻ ലേണിംഗ്",
-        "Swift",
-        "വളരെ ഉയർന്നത്"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_215",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "RNN",
-        "Attention Is All You Need",
-        "Swift",
-        "വളരെ ഉയർന്നത്"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_216",
-      "question": "വസ്തുത അറിയുക: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Swift",
-        "മെഷീൻ ലേണിംഗ്",
-        "വളരെ ഉയർന്നത്",
-        "ലേബൽ ചെയ്ത ഡാറ്റ"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_217",
-      "question": "GK ചോദ്യം: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "Swift",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "2015"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_218",
-      "question": "Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "റെഡ്‌മണ്ട്",
-        "1976",
-        "Swift",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_219",
-      "question": "പരീക്ഷാ ചോദ്യം: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "സാന്റാ ക്ലാര",
-        "ആർമോങ്ക്",
-        "Swift",
-        "1968"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_220",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "സിയാറ്റിൽ",
-        "2004",
-        "1994",
-        "Swift"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_221",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Local Area Network",
-        "HDD",
-        "Swift",
-        "Hard Disk Drive"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_222",
-      "question": "TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "2015",
-        "Microsoft",
-        "1972"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_223",
-      "question": "TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Microsoft",
-        "Read Only Memory",
-        "RAM",
-        "ROM"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_224",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "2015",
-        "1972",
-        "Microsoft"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_225",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "സുവോൺ",
-        "Microsoft",
-        "1987",
-        "1969"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_226",
-      "question": "വസ്തുത അറിയുക: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "2015",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "ആലൻ ട്യൂറിംഗ്",
-        "Microsoft"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_227",
-      "question": "GK ചോദ്യം: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Microsoft",
         "ബ്രെൻഡൻ ഐക്ക്",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Python"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_228",
-      "question": "TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "C++",
-        "Microsoft",
-        "Java",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_229",
-      "question": "പരീക്ഷാ ചോദ്യം: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1968",
-        "1911",
-        "Microsoft",
-        "ആർമോങ്ക്"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_230",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Domain Name System",
-        "DNS",
-        "Microsoft",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_231",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
         "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Go",
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "Microsoft"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_232",
-      "question": "Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "TypeScript",
-        "ആലൻ ട്യൂറിംഗ്",
-        "2015",
-        "സാൻ ഫ്രാൻസിസ്കോ"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_233",
-      "question": "Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "SSD",
-        "Hard Disk Drive",
-        "Solid State Drive",
-        "TypeScript"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_234",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "TypeScript",
-        "Read Only Memory",
-        "ROM",
-        "RAM"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_235",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "HDD",
-        "TypeScript",
-        "Local Area Network",
-        "LAN"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_236",
-      "question": "വസ്തുത അറിയുക: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "2015",
-        "വാൽഡോർഫ്",
-        "TypeScript",
-        "1972"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_237",
-      "question": "GK ചോദ്യം: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "RNN",
-        "TypeScript",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "CNN"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_238",
-      "question": "Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "1976",
-        "1994",
-        "TypeScript",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_239",
-      "question": "പരീക്ഷാ ചോദ്യം: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Uniform Resource Locator",
-        "Domain Name System",
-        "DNS",
-        "TypeScript"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_240",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "URL",
-        "TypeScript",
-        "DNS",
-        "Uniform Resource Locator"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_241",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "TypeScript",
-        "Apple",
-        "Swift",
-        "Microsoft"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_242",
-      "question": "Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Ruby",
-        "TypeScript",
-        "Microsoft",
-        "യുകിഹിറോ മാത്സുമോട്ടോ"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_243",
-      "question": "Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "AI"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_244",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "C++",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_245",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "CPU",
-        "Graphics Processing Unit",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "GPU"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_246",
-      "question": "വസ്തുത അറിയുക: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Artificial Intelligence",
-        "VPN",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Virtual Private Network"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_247",
-      "question": "GK ചോദ്യം: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഹ്‌സിൻചു",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "1987",
-        "സുവോൺ"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_248",
-      "question": "Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "ഹ്‌സിൻചു",
-        "സുവോൺ",
-        "1987"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_249",
-      "question": "പരീക്ഷാ ചോദ്യം: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "C++"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_250",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java",
-        "C++"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_251",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "CLI",
-        "1998",
-        "മൗണ്ടൻ വ്യൂ",
-        "യുകിഹിറോ മാത്സുമോട്ടോ"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_252",
-      "question": "യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "Ruby",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "2015"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_253",
-      "question": "യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Ruby",
-        "ML",
-        "AI",
-        "Machine Learning"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_254",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "സുവോൺ",
-        "1969",
-        "1993"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_255",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "Microsoft",
-        "Apple",
-        "Swift"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_256",
-      "question": "വസ്തുത അറിയുക: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "Ruby",
-        "C",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_257",
-      "question": "GK ചോദ്യം: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "VPN",
-        "Artificial Intelligence",
-        "Ruby",
-        "Virtual Private Network"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_258",
-      "question": "യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Ruby",
-        "LAN",
-        "HDD",
-        "Local Area Network"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_259",
-      "question": "പരീക്ഷാ ചോദ്യം: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Attention Is All You Need",
-        "വളരെ ഉയർന്നത്",
-        "മെഷീൻ ലേണിംഗ്",
-        "Ruby"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_260",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "WAN",
-        "Ruby",
-        "LAN",
-        "Wide Area Network"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_261",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Random Access Memory",
-        "Ruby",
-        "RAM",
-        "Read Only Memory"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_262",
-      "question": "SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "Uniform Resource Locator",
-        "URL",
-        "DNS"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_263",
-      "question": "SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "1994",
-        "സിയാറ്റിൽ",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_264",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "HyperText Transfer Protocol",
-        "Pascal",
-        "HTTP"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_265",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "HDD",
-        "Local Area Network",
-        "Hard Disk Drive",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_266",
-      "question": "വസ്തുത അറിയുക: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "SSD",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "Solid State Drive",
-        "Hard Disk Drive"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_267",
-      "question": "GK ചോദ്യം: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1994",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "ക്യൂപ്പർട്ടിനോ",
-        "സിയാറ്റിൽ"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_268",
-      "question": "SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Read Only Memory",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "Random Access Memory",
-        "RAM"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_269",
-      "question": "പരീക്ഷാ ചോദ്യം: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Command Line Interface",
-        "GUI",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "CLI"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_270",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "1994",
-        "1976",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_271",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1976",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "ക്യൂപ്പർട്ടിനോ",
-        "1994"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_272",
-      "question": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "ഓസ്റ്റിൻ",
-        "1977",
-        "സാന്റാ ക്ലാര",
-        "SQL"
-      ],
-      "answer": "SQL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_273",
-      "question": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "മെഷീൻ ലേണിംഗ്",
-        "K-Means",
-        "SQL"
-      ],
-      "answer": "SQL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_274",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "SQL",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "Rust",
         "ഗ്രേയ്ഡൺ ഹോർ"
       ],
-      "answer": "SQL",
-      "difficulty": "medium"
+      "answer": "Apple",
+      "difficulty": "medium",
+      "id": "it_021"
     },
     {
-      "id": "it_275",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Domain Name System",
-        "SQL",
-        "IP",
-        "Internet Protocol"
+        "Swift",
+        "C",
+        "Pascal",
+        "C++"
       ],
-      "answer": "SQL",
-      "difficulty": "medium"
+      "answer": "Swift",
+      "difficulty": "medium",
+      "id": "it_022"
     },
     {
-      "id": "it_276",
-      "question": "വസ്തുത അറിയുക: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
+        "ഡെന്നിസ് റിച്ചി",
+        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+        "ജെയിംസ് ഗോസ്ലിംഗ്",
+        "Microsoft"
+      ],
+      "answer": "Microsoft",
+      "difficulty": "medium",
+      "id": "it_023"
+    },
+    {
+      "question": "Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "JavaScript",
         "Python",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "SQL"
+        "Go",
+        "TypeScript"
       ],
-      "answer": "SQL",
-      "difficulty": "medium"
+      "answer": "TypeScript",
+      "difficulty": "medium",
+      "id": "it_024"
     },
     {
-      "id": "it_277",
-      "question": "GK ചോദ്യം: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "SQL",
-        "Internet Protocol",
-        "Domain Name System",
-        "IP"
+        "ഗ്രേയ്ഡൺ ഹോർ",
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
       ],
-      "answer": "SQL",
-      "difficulty": "medium"
+      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
+      "difficulty": "medium",
+      "id": "it_025"
     },
     {
-      "id": "it_278",
-      "question": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
+      "question": "യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Ruby",
+        "Swift",
+        "Perl",
+        "Kotlin"
+      ],
+      "answer": "Ruby",
+      "difficulty": "medium",
+      "id": "it_026"
+    },
+    {
+      "question": "SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "Microsoft",
+        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
+        "Apple"
+      ],
+      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
+      "difficulty": "medium",
+      "id": "it_027"
+    },
+    {
+      "question": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Pascal",
-        "HyperText Transfer Protocol",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "SQL"
-      ],
-      "answer": "SQL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_279",
-      "question": "പരീക്ഷാ ചോദ്യം: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "SQL",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "Python",
-        "JavaScript"
-      ],
-      "answer": "SQL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_280",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "1976",
-        "ക്യൂപ്പർട്ടിനോ",
-        "1994",
-        "SQL"
-      ],
-      "answer": "SQL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_281",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
         "SQL",
         "Ruby",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "നിക്ക്ലൗസ് വിർത്ത്"
+        "C"
       ],
       "answer": "SQL",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_028"
     },
     {
-      "id": "it_282",
       "question": "Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
-        "മൗണ്ടൻ വ്യൂ",
-        "റെഡ്‌മണ്ട്",
-        "1975",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_283",
-      "question": "Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "2015",
-        "വാൽഡോർഫ്",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_284",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "1972",
-        "2015",
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "Microsoft",
         "നിക്ക്ലൗസ് വിർത്ത്",
-        "വാൽഡോർഫ്"
+        "Apple"
       ],
       "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_029"
     },
     {
-      "id": "it_285",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "HyperText Transfer Protocol",
-        "SQL",
-        "Pascal",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_286",
-      "question": "വസ്തുത അറിയുക: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "CPU",
-        "URL",
-        "Central Processing Unit"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_287",
-      "question": "GK ചോദ്യം: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "വളരെ ഉയർന്നത്",
-        "മെഷീൻ ലേണിംഗ്",
-        "Attention Is All You Need"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_288",
-      "question": "Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "മൗണ്ടൻ വ്യൂ",
-        "1998",
-        "CLI"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_289",
-      "question": "പരീക്ഷാ ചോദ്യം: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "HTTP",
-        "HyperText Transfer Protocol Secure",
-        "HTTPS"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_290",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Perl",
-        "JetBrains",
-        "Kotlin",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_291",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "2015",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "ആലൻ ട്യൂറിംഗ്"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_292",
       "question": "നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
+        "Ruby",
         "Pascal",
-        "RAM",
-        "Random Access Memory",
-        "Read Only Memory"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_293",
-      "question": "നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "ML",
-        "Natural Language Processing",
-        "Machine Learning",
-        "Pascal"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_294",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
         "TypeScript",
-        "Microsoft",
-        "Pascal",
-        "Swift"
+        "SQL"
       ],
       "answer": "Pascal",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_030"
     },
     {
-      "id": "it_295",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "JetBrains",
-        "Perl",
-        "ലാറി വാൾ",
-        "Pascal"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_296",
-      "question": "വസ്തുത അറിയുക: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "API",
-        "Application Programming Interface",
-        "Graphical User Interface",
-        "Pascal"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_297",
-      "question": "GK ചോദ്യം: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Pascal",
-        "സിയാറ്റിൽ",
-        "1994",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_298",
-      "question": "നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "1982",
-        "ഹ്‌സിൻചു",
-        "Pascal",
-        "1987"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_299",
-      "question": "പരീക്ഷാ ചോദ്യം: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Pascal",
-        "1982",
-        "ഹ്‌സിൻചു",
-        "സാൻ ജോസ്"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_300",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Pascal",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "2015",
-        "വാൽഡോർഫ്"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_301",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Pascal",
-        "Java",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Python"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_302",
       "question": "HTTP എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "HyperText Transfer Protocol",
-        "RNN",
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_303",
-      "question": "HTTP എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
         "Virtual Private Network",
+        "Wide Area Network",
         "HyperText Transfer Protocol",
-        "VPN",
         "Artificial Intelligence"
       ],
       "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_031"
     },
     {
-      "id": "it_304",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "K-Means",
-        "റിവാർഡ് സിഗ്നൽ",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_305",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Apple",
-        "Microsoft",
-        "Swift",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_306",
-      "question": "വസ്തുത അറിയുക: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "സുവോൺ",
-        "HyperText Transfer Protocol",
-        "1993",
-        "1969"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_307",
-      "question": "GK ചോദ്യം: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "ആലൻ ട്യൂറിംഗ്",
-        "HyperText Transfer Protocol",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_308",
-      "question": "HTTP എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ആലൻ ട്യൂറിംഗ്",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "HyperText Transfer Protocol",
-        "സാൻ ഫ്രാൻസിസ്കോ"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_309",
-      "question": "പരീക്ഷാ ചോദ്യം: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "HyperText Transfer Protocol",
-        "1982",
-        "സാൻ ജോസ്",
-        "ഹ്‌സിൻചു"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_310",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "1987",
-        "1969",
-        "സുവോൺ",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_311",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "GPU",
-        "Random Access Memory",
-        "Graphics Processing Unit",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_312",
       "question": "HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "HTTP",
-        "Pascal",
-        "HyperText Transfer Protocol",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_313",
-      "question": "HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "HTTP",
-        "2015",
-        "വാൽഡോർഫ്",
-        "1972"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_314",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Wide Area Network",
-        "HTTP",
-        "LAN",
-        "WAN"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_315",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "HyperText Transfer Protocol",
-        "HyperText Transfer Protocol Secure",
-        "Pascal",
+        "SSD",
+        "ROM",
+        "HDD",
         "HTTP"
       ],
       "answer": "HTTP",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_032"
     },
     {
-      "id": "it_316",
-      "question": "വസ്തുത അറിയുക: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ML",
-        "Machine Learning",
-        "Natural Language Processing",
-        "HTTP"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_317",
-      "question": "GK ചോദ്യം: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "HTTP",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "മെഷീൻ ലേണിംഗ്",
-        "വളരെ ഉയർന്നത്"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_318",
-      "question": "HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "HTTP",
-        "GPU",
-        "RAM",
-        "Random Access Memory"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_319",
-      "question": "പരീക്ഷാ ചോദ്യം: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "2015",
-        "HTTP",
-        "1972"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_320",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "DNS",
-        "Uniform Resource Locator",
-        "URL",
-        "HTTP"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_321",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Domain Name System",
-        "HTTP",
-        "DNS",
-        "Uniform Resource Locator"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_322",
       "question": "HTTPS എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "HyperText Transfer Protocol Secure",
-        "ആർമോങ്ക്",
-        "1968",
-        "1911"
+        "Read Only Memory",
+        "Solid State Drive",
+        "Hard Disk Drive"
       ],
       "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_033"
     },
     {
-      "id": "it_323",
-      "question": "HTTPS എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "മൗണ്ടൻ വ്യൂ",
-        "1998",
-        "1975"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_324",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "Go",
-        "JavaScript",
-        "HyperText Transfer Protocol Secure"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_325",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "K-Means",
-        "HyperText Transfer Protocol Secure",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "മെഷീൻ ലേണിംഗ്"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_326",
-      "question": "വസ്തുത അറിയുക: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "HyperText Transfer Protocol Secure",
-        "ആലൻ ട്യൂറിംഗ്",
-        "സാൻ ഫ്രാൻസിസ്കോ"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_327",
-      "question": "GK ചോദ്യം: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "DNS",
-        "Domain Name System",
-        "HyperText Transfer Protocol Secure",
-        "Uniform Resource Locator"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_328",
-      "question": "HTTPS എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "ML",
-        "AI",
-        "Machine Learning"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_329",
-      "question": "പരീക്ഷാ ചോദ്യം: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "VPN",
-        "WAN",
-        "Virtual Private Network",
-        "HyperText Transfer Protocol Secure"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_330",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Rust",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "PHP",
-        "HyperText Transfer Protocol Secure"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_331",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "WAN",
-        "Virtual Private Network",
-        "Wide Area Network"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_332",
       "question": "HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "ഹ്‌സിൻചു",
-        "1982",
         "HTTPS",
-        "1987"
+        "NLP",
+        "API",
+        "ML"
       ],
       "answer": "HTTPS",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_034"
     },
     {
-      "id": "it_333",
-      "question": "HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "HTTPS",
-        "വളരെ ഉയർന്നത്",
-        "Attention Is All You Need",
-        "മെഷീൻ ലേണിംഗ്"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_334",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "HTTPS",
-        "IP",
-        "HyperText Transfer Protocol Secure",
-        "Internet Protocol"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_335",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ആർമോങ്ക്",
-        "HTTPS",
-        "1968",
-        "1911"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_336",
-      "question": "വസ്തുത അറിയുക: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "2015",
-        "HTTPS"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_337",
-      "question": "GK ചോദ്യം: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Java",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "HTTPS",
-        "C++"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_338",
-      "question": "HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "TypeScript",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "HTTPS",
-        "Ruby"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_339",
-      "question": "പരീക്ഷാ ചോദ്യം: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "റിവാർഡ് സിഗ്നൽ",
-        "HTTPS",
-        "C"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_340",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "സിയാറ്റിൽ",
-        "2004",
-        "HTTPS",
-        "മെൻലോ പാർക്ക്"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_341",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "HTTPS",
-        "1968",
-        "ആർമോങ്ക്",
-        "1911"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_342",
       "question": "IP എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "1984",
-        "1982",
-        "സാൻ ജോസ്",
-        "Internet Protocol"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_343",
-      "question": "IP എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Rust",
-        "റാസ്മസ് ലെർഡോർഫ്",
         "Internet Protocol",
-        "ഗ്രേയ്ഡൺ ഹോർ"
+        "Read Only Memory",
+        "Hard Disk Drive",
+        "Solid State Drive"
       ],
       "answer": "Internet Protocol",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_035"
     },
     {
-      "id": "it_344",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Internet Protocol",
-        "വാൽഡോർഫ്",
-        "1972",
-        "1984"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_345",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Application Programming Interface",
-        "NLP",
-        "Internet Protocol",
-        "Natural Language Processing"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_346",
-      "question": "വസ്തുത അറിയുക: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "1993",
-        "Internet Protocol",
-        "1969",
-        "സുവോൺ"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_347",
-      "question": "GK ചോദ്യം: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "Python",
-        "Internet Protocol",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_348",
-      "question": "IP എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Microsoft",
-        "TypeScript",
-        "Internet Protocol",
-        "യുകിഹിറോ മാത്സുമോട്ടോ"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_349",
-      "question": "പരീക്ഷാ ചോദ്യം: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Internet Protocol",
-        "1969",
-        "1993",
-        "ഓസ്റ്റിൻ"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_350",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Internet Protocol",
-        "Graphical User Interface",
-        "API",
-        "GUI"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_351",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Internet Protocol",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "SQL",
-        "നിക്ക്ലൗസ് വിർത്ത്"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_352",
       "question": "Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "2015",
-        "വാൽഡോർഫ്",
-        "1972",
+        "CLI",
+        "HTTPS",
+        "HTTP",
         "IP"
       ],
       "answer": "IP",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_036"
     },
     {
-      "id": "it_353",
-      "question": "Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "IP",
-        "PHP",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "Rust"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_354",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "IP",
-        "Virtual Private Network",
-        "WAN",
-        "VPN"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_355",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Wide Area Network",
-        "LAN",
-        "WAN",
-        "IP"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_356",
-      "question": "വസ്തുത അറിയുക: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "സാൻ ജോസ്",
-        "1982",
-        "ഹ്‌സിൻചു",
-        "IP"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_357",
-      "question": "GK ചോദ്യം: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "IP",
-        "HyperText Transfer Protocol Secure",
-        "Internet Protocol",
-        "HTTPS"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_358",
-      "question": "Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "IP",
-        "C",
-        "റിവാർഡ് സിഗ്നൽ",
-        "ഡെന്നിസ് റിച്ചി"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_359",
-      "question": "പരീക്ഷാ ചോദ്യം: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "IP",
-        "1994",
-        "1976"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_360",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "IP",
-        "2004",
-        "1994",
-        "സിയാറ്റിൽ"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_361",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "1911",
-        "ആർമോങ്ക്",
-        "1968",
-        "IP"
-      ],
-      "answer": "IP",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_362",
       "question": "DNS എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Pascal",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "HyperText Transfer Protocol",
+        "Graphical User Interface",
+        "Application Programming Interface",
+        "Command Line Interface",
         "Domain Name System"
       ],
       "answer": "Domain Name System",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_037"
     },
     {
-      "id": "it_363",
-      "question": "DNS എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "മെൻലോ പാർക്ക്",
-        "സിയാറ്റിൽ",
-        "2004",
-        "Domain Name System"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_364",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: DNS എന്നതിന്റെ full form എന്താണ്?",
+      "question": "Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
         "CPU",
         "URL",
-        "Domain Name System",
-        "Central Processing Unit"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_365",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "2004",
-        "മെൻലോ പാർക്ക്",
-        "സിയാറ്റിൽ",
-        "Domain Name System"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_366",
-      "question": "വസ്തുത അറിയുക: DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "2004",
-        "Domain Name System",
-        "സിയാറ്റിൽ",
-        "1994"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_367",
-      "question": "GK ചോദ്യം: DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Domain Name System",
-        "Artificial Intelligence",
-        "VPN",
-        "AI"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_368",
-      "question": "DNS എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
         "IP",
-        "HTTPS",
-        "Internet Protocol",
-        "Domain Name System"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_369",
-      "question": "പരീക്ഷാ ചോദ്യം: DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "RAM",
-        "Domain Name System",
-        "Random Access Memory",
-        "GPU"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_370",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Domain Name System",
-        "ആലൻ ട്യൂറിംഗ്",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_371",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Domain Name System",
-        "Graphical User Interface",
-        "Application Programming Interface",
-        "API"
-      ],
-      "answer": "Domain Name System",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_372",
-      "question": "Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "DNS",
-        "Graphics Processing Unit",
-        "CPU",
-        "GPU"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_373",
-      "question": "Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "HyperText Transfer Protocol",
-        "DNS",
-        "Pascal",
-        "HTTP"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_374",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "1911",
-        "DNS",
-        "ആർമോങ്ക്",
-        "മെൻലോ പാർക്ക്"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_375",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "HyperText Transfer Protocol",
-        "Pascal",
         "DNS"
       ],
       "answer": "DNS",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_038"
     },
     {
-      "id": "it_376",
-      "question": "വസ്തുത അറിയുക: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "GPU",
-        "Random Access Memory",
-        "DNS",
-        "Graphics Processing Unit"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_377",
-      "question": "GK ചോദ്യം: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Local Area Network",
-        "DNS",
-        "HDD",
-        "LAN"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_378",
-      "question": "Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ആലൻ ട്യൂറിംഗ്",
-        "DNS",
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_379",
-      "question": "പരീക്ഷാ ചോദ്യം: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "DNS",
-        "Microsoft",
-        "TypeScript"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_380",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "LAN",
-        "HDD",
-        "Local Area Network",
-        "DNS"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_381",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Java",
-        "C++",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "DNS"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_382",
       "question": "URL എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "Uniform Resource Locator",
-        "1994",
-        "സിയാറ്റിൽ"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_383",
-      "question": "URL എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "RNN",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_384",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Java",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_385",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "VPN",
-        "AI",
-        "Artificial Intelligence",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_386",
-      "question": "വസ്തുത അറിയുക: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ROM",
-        "Uniform Resource Locator",
-        "Solid State Drive",
-        "Read Only Memory"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_387",
-      "question": "GK ചോദ്യം: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Swift",
-        "TypeScript",
-        "Microsoft",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_388",
-      "question": "URL എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ലാറി വാൾ",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "Uniform Resource Locator",
-        "PHP"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_389",
-      "question": "പരീക്ഷാ ചോദ്യം: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ലാറി വാൾ",
-        "JetBrains",
-        "Perl",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_390",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Uniform Resource Locator",
-        "1998",
-        "CLI",
-        "മൗണ്ടൻ വ്യൂ"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_391",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
         "Graphical User Interface",
-        "Uniform Resource Locator",
-        "GUI",
-        "API"
+        "HyperText Transfer Protocol",
+        "Command Line Interface",
+        "Uniform Resource Locator"
       ],
       "answer": "Uniform Resource Locator",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_039"
     },
     {
-      "id": "it_392",
       "question": "Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
         "URL",
-        "Pascal",
-        "HTTP",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_393",
-      "question": "Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Apple",
-        "Kotlin",
-        "URL",
-        "Swift"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_394",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "URL",
-        "Uniform Resource Locator",
-        "Central Processing Unit",
-        "DNS"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_395",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Kotlin",
-        "URL",
-        "Swift",
-        "Apple"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_396",
-      "question": "വസ്തുത അറിയുക: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Python",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Java",
-        "URL"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_397",
-      "question": "GK ചോദ്യം: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "URL",
+        "HDD",
         "LAN",
-        "Local Area Network",
-        "HDD"
+        "WAN"
       ],
       "answer": "URL",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_040"
     },
     {
-      "id": "it_398",
-      "question": "Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "ആലൻ ട്യൂറിംഗ്",
-        "URL"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_399",
-      "question": "പരീക്ഷാ ചോദ്യം: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "റെഡ്‌മണ്ട്",
-        "മൗണ്ടൻ വ്യൂ",
-        "URL",
-        "1975"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_400",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "IP",
-        "URL",
-        "Internet Protocol",
-        "HTTPS"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_401",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "URL",
-        "Python",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "URL",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_402",
       "question": "CPU എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "1998",
-        "Central Processing Unit",
-        "CLI",
-        "Command Line Interface"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_403",
-      "question": "CPU എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "LAN",
-        "HDD",
-        "Central Processing Unit",
-        "Local Area Network"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_404",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "മെൻലോ പാർക്ക്",
-        "Central Processing Unit",
-        "2004",
-        "സിയാറ്റിൽ"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_405",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Central Processing Unit"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_406",
-      "question": "വസ്തുത അറിയുക: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "1975",
-        "Central Processing Unit",
-        "1998",
-        "മൗണ്ടൻ വ്യൂ"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_407",
-      "question": "GK ചോദ്യം: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "AI",
+        "Natural Language Processing",
         "Artificial Intelligence",
-        "Machine Learning",
-        "Central Processing Unit"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_408",
-      "question": "CPU എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "HDD",
         "Central Processing Unit",
-        "SSD",
-        "Hard Disk Drive"
+        "Machine Learning"
       ],
       "answer": "Central Processing Unit",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_041"
     },
     {
-      "id": "it_409",
-      "question": "പരീക്ഷാ ചോദ്യം: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "Central Processing Unit",
-        "1972",
-        "2015"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_410",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Central Processing Unit",
-        "Graphics Processing Unit",
-        "Random Access Memory",
-        "GPU"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_411",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "1984",
-        "1972",
-        "വാൽഡോർഫ്",
-        "Central Processing Unit"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_412",
       "question": "Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "ലാറി വാൾ",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "CPU",
-        "PHP"
+        "URL",
+        "IP",
+        "DNS",
+        "CPU"
       ],
       "answer": "CPU",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": "it_042"
     },
     {
-      "id": "it_413",
-      "question": "Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "question": "GPU എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "WAN",
-        "Wide Area Network",
+        "Graphical User Interface",
+        "Graphics Processing Unit",
+        "Application Programming Interface",
+        "Command Line Interface"
+      ],
+      "answer": "Graphics Processing Unit",
+      "difficulty": "medium",
+      "id": "it_043"
+    },
+    {
+      "question": "Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
         "LAN",
-        "CPU"
+        "WAN",
+        "HDD",
+        "GPU"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "GPU",
+      "difficulty": "medium",
+      "id": "it_044"
     },
     {
-      "id": "it_414",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "RAM എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "Ruby",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "CPU"
+        "Local Area Network",
+        "Hard Disk Drive",
+        "Random Access Memory",
+        "Wide Area Network"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "Random Access Memory",
+      "difficulty": "medium",
+      "id": "it_045"
     },
     {
-      "id": "it_415",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "1968",
-        "CPU",
-        "ആർമോങ്ക്",
-        "സാന്റാ ക്ലാര"
+        "RAM",
+        "NLP",
+        "ML",
+        "AI"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "RAM",
+      "difficulty": "medium",
+      "id": "it_046"
     },
     {
-      "id": "it_416",
-      "question": "വസ്തുത അറിയുക: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "ROM എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "HyperText Transfer Protocol",
-        "Pascal",
-        "HTTP",
-        "CPU"
+        "Domain Name System",
+        "Read Only Memory",
+        "HyperText Transfer Protocol Secure",
+        "Internet Protocol"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "Read Only Memory",
+      "difficulty": "medium",
+      "id": "it_047"
     },
     {
-      "id": "it_417",
-      "question": "GK ചോദ്യം: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "HTTPS",
+        "NLP",
+        "AI",
+        "ML",
+        "ROM"
+      ],
+      "answer": "ROM",
+      "difficulty": "medium",
+      "id": "it_048"
+    },
+    {
+      "question": "SSD എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
         "HyperText Transfer Protocol Secure",
         "Internet Protocol",
-        "CPU"
+        "Solid State Drive",
+        "HyperText Transfer Protocol"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "Solid State Drive",
+      "difficulty": "medium",
+      "id": "it_049"
     },
     {
-      "id": "it_418",
-      "question": "Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
+      "question": "Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "സാൻ ജോസ്",
-        "1984",
+        "WAN",
+        "AI",
+        "SSD",
+        "VPN"
+      ],
+      "answer": "SSD",
+      "difficulty": "medium",
+      "id": "it_050"
+    },
+    {
+      "question": "HDD എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Hard Disk Drive",
+        "Read Only Memory",
+        "Random Access Memory",
+        "Graphics Processing Unit"
+      ],
+      "answer": "Hard Disk Drive",
+      "difficulty": "medium",
+      "id": "it_051"
+    },
+    {
+      "question": "Hard Disk Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "AI",
+        "ML",
+        "HDD",
+        "VPN"
+      ],
+      "answer": "HDD",
+      "difficulty": "medium",
+      "id": "it_052"
+    },
+    {
+      "question": "LAN എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Wide Area Network",
+        "Virtual Private Network",
+        "Local Area Network",
+        "Hard Disk Drive"
+      ],
+      "answer": "Local Area Network",
+      "difficulty": "medium",
+      "id": "it_053"
+    },
+    {
+      "question": "Local Area Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "RAM",
+        "ROM",
+        "LAN",
+        "SSD"
+      ],
+      "answer": "LAN",
+      "difficulty": "medium",
+      "id": "it_054"
+    },
+    {
+      "question": "WAN എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Internet Protocol",
+        "Uniform Resource Locator",
+        "Domain Name System",
+        "Wide Area Network"
+      ],
+      "answer": "Wide Area Network",
+      "difficulty": "medium",
+      "id": "it_055"
+    },
+    {
+      "question": "Wide Area Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "ROM",
+        "WAN",
+        "SSD",
+        "RAM"
+      ],
+      "answer": "WAN",
+      "difficulty": "medium",
+      "id": "it_056"
+    },
+    {
+      "question": "VPN എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Virtual Private Network",
+        "Domain Name System",
+        "Uniform Resource Locator",
+        "Central Processing Unit"
+      ],
+      "answer": "Virtual Private Network",
+      "difficulty": "medium",
+      "id": "it_057"
+    },
+    {
+      "question": "Virtual Private Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "AI",
+        "LAN",
+        "VPN",
+        "WAN"
+      ],
+      "answer": "VPN",
+      "difficulty": "medium",
+      "id": "it_058"
+    },
+    {
+      "question": "AI എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Artificial Intelligence",
+        "Domain Name System",
+        "Central Processing Unit",
+        "Uniform Resource Locator"
+      ],
+      "answer": "Artificial Intelligence",
+      "difficulty": "medium",
+      "id": "it_059"
+    },
+    {
+      "question": "Artificial Intelligence എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "DNS",
+        "AI",
         "CPU",
+        "URL"
+      ],
+      "answer": "AI",
+      "difficulty": "medium",
+      "id": "it_060"
+    },
+    {
+      "question": "ML എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Read Only Memory",
+        "Solid State Drive",
+        "Machine Learning",
+        "Random Access Memory"
+      ],
+      "answer": "Machine Learning",
+      "difficulty": "medium",
+      "id": "it_061"
+    },
+    {
+      "question": "Machine Learning എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "WAN",
+        "ML",
+        "HDD",
+        "LAN"
+      ],
+      "answer": "ML",
+      "difficulty": "medium",
+      "id": "it_062"
+    },
+    {
+      "question": "NLP എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Solid State Drive",
+        "Hard Disk Drive",
+        "Local Area Network",
+        "Natural Language Processing"
+      ],
+      "answer": "Natural Language Processing",
+      "difficulty": "medium",
+      "id": "it_063"
+    },
+    {
+      "question": "Natural Language Processing എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "WAN",
+        "NLP",
+        "LAN",
+        "HDD"
+      ],
+      "answer": "NLP",
+      "difficulty": "medium",
+      "id": "it_064"
+    },
+    {
+      "question": "API എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Machine Learning",
+        "Application Programming Interface",
+        "Artificial Intelligence",
+        "Natural Language Processing"
+      ],
+      "answer": "Application Programming Interface",
+      "difficulty": "medium",
+      "id": "it_065"
+    },
+    {
+      "question": "Application Programming Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "API",
+        "HTTPS",
+        "DNS",
+        "IP"
+      ],
+      "answer": "API",
+      "difficulty": "medium",
+      "id": "it_066"
+    },
+    {
+      "question": "GUI എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Hard Disk Drive",
+        "Local Area Network",
+        "Graphical User Interface",
+        "Solid State Drive"
+      ],
+      "answer": "Graphical User Interface",
+      "difficulty": "medium",
+      "id": "it_067"
+    },
+    {
+      "question": "Graphical User Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "SSD",
+        "LAN",
+        "GUI",
+        "HDD"
+      ],
+      "answer": "GUI",
+      "difficulty": "medium",
+      "id": "it_068"
+    },
+    {
+      "question": "CLI എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Virtual Private Network",
+        "Local Area Network",
+        "Command Line Interface",
+        "Wide Area Network"
+      ],
+      "answer": "Command Line Interface",
+      "difficulty": "medium",
+      "id": "it_069"
+    },
+    {
+      "question": "Command Line Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "GUI",
+        "HTTP",
+        "HTTPS",
+        "CLI"
+      ],
+      "answer": "CLI",
+      "difficulty": "medium",
+      "id": "it_070"
+    },
+    {
+      "question": "Google സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1977",
+        "1968",
+        "1998"
+      ],
+      "answer": "1998",
+      "difficulty": "medium",
+      "id": "it_071"
+    },
+    {
+      "question": "Googleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഹ്‌സിൻചു",
+        "വാൽഡോർഫ്",
+        "സാൻ ജോസ്",
+        "മൗണ്ടൻ വ്യൂ"
+      ],
+      "answer": "മൗണ്ടൻ വ്യൂ",
+      "difficulty": "medium",
+      "id": "it_072"
+    },
+    {
+      "question": "Microsoft സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1975",
+        "2004",
+        "1994"
+      ],
+      "answer": "1975",
+      "difficulty": "medium",
+      "id": "it_073"
+    },
+    {
+      "question": "Microsoftയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "റെഡ്‌മണ്ട്",
+        "സാൻ ഫ്രാൻസിസ്കോ",
+        "സാൻ ജോസ്",
+        "വാൽഡോർഫ്"
+      ],
+      "answer": "റെഡ്‌മണ്ട്",
+      "difficulty": "medium",
+      "id": "it_074"
+    },
+    {
+      "question": "Apple സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1982",
+        "1987",
+        "1976",
+        "1969"
+      ],
+      "answer": "1976",
+      "difficulty": "medium",
+      "id": "it_075"
+    },
+    {
+      "question": "Appleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ക്യൂപ്പർട്ടിനോ",
+        "സാന്റാ ക്ലാര",
+        "മെൻലോ പാർക്ക്",
+        "ആർമോങ്ക്"
+      ],
+      "answer": "ക്യൂപ്പർട്ടിനോ",
+      "difficulty": "medium",
+      "id": "it_076"
+    },
+    {
+      "question": "Amazon സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1984",
+        "2015",
+        "1994",
         "1972"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "1994",
+      "difficulty": "medium",
+      "id": "it_077"
     },
     {
-      "id": "it_419",
-      "question": "പരീക്ഷാ ചോദ്യം: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "Amazonയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "മൗണ്ടൻ വ്യൂ",
+        "ക്യൂപ്പർട്ടിനോ",
+        "സിയാറ്റിൽ",
+        "റെഡ്‌മണ്ട്"
+      ],
+      "answer": "സിയാറ്റിൽ",
+      "difficulty": "medium",
+      "id": "it_078"
+    },
+    {
+      "question": "Meta സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1976",
+        "2004",
+        "1994"
+      ],
+      "answer": "2004",
+      "difficulty": "medium",
+      "id": "it_079"
+    },
+    {
+      "question": "Metaയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "മെൻലോ പാർക്ക്",
+        "ആർമോങ്ക്",
+        "സിയാറ്റിൽ",
+        "സാന്റാ ക്ലാര"
+      ],
+      "answer": "മെൻലോ പാർക്ക്",
+      "difficulty": "medium",
+      "id": "it_080"
+    },
+    {
+      "question": "IBM സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1994",
+        "1976",
+        "2004"
+      ],
+      "answer": "1911",
+      "difficulty": "medium",
+      "id": "it_081"
+    },
+    {
+      "question": "IBMയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "സാൻ ഫ്രാൻസിസ്കോ",
+        "വാൽഡോർഫ്",
+        "സാൻ ജോസ്",
+        "ആർമോങ്ക്"
+      ],
+      "answer": "ആർമോങ്ക്",
+      "difficulty": "medium",
+      "id": "it_082"
+    },
+    {
+      "question": "Intel സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1972",
+        "1998",
+        "2015",
+        "1968"
+      ],
+      "answer": "1968",
+      "difficulty": "medium",
+      "id": "it_083"
+    },
+    {
+      "question": "Intelയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ക്യൂപ്പർട്ടിനോ",
+        "സാന്റാ ക്ലാര",
+        "സിയാറ്റിൽ",
+        "മെൻലോ പാർക്ക്"
+      ],
+      "answer": "സാന്റാ ക്ലാര",
+      "difficulty": "medium",
+      "id": "it_084"
+    },
+    {
+      "question": "Oracle സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1976",
+        "1994",
+        "1977",
+        "1975"
+      ],
+      "answer": "1977",
+      "difficulty": "medium",
+      "id": "it_085"
+    },
+    {
+      "question": "Oracleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "സുവോൺ",
+        "ഓസ്റ്റിൻ",
+        "സാന്റാ ക്ലാര",
+        "ഹ്‌സിൻചു"
+      ],
+      "answer": "ഓസ്റ്റിൻ",
+      "difficulty": "medium",
+      "id": "it_086"
+    },
+    {
+      "question": "NVIDIA സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1987",
+        "1993",
+        "1982",
+        "1984"
+      ],
+      "answer": "1993",
+      "difficulty": "medium",
+      "id": "it_087"
+    },
+    {
+      "question": "NVIDIAയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "സാന്റാ ക്ലാര",
+        "ക്യൂപ്പർട്ടിനോ",
+        "മൗണ്ടൻ വ്യൂ",
+        "റെഡ്‌മണ്ട്"
+      ],
+      "answer": "സാന്റാ ക്ലാര",
+      "difficulty": "medium",
+      "id": "it_088"
+    },
+    {
+      "question": "Samsung Electronics സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1993",
+        "1969",
+        "1968",
+        "1977"
+      ],
+      "answer": "1969",
+      "difficulty": "medium",
+      "id": "it_089"
+    },
+    {
+      "question": "Samsung Electronicsയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ആർമോങ്ക്",
+        "സുവോൺ",
+        "സിയാറ്റിൽ",
+        "മെൻലോ പാർക്ക്"
+      ],
+      "answer": "സുവോൺ",
+      "difficulty": "medium",
+      "id": "it_090"
+    },
+    {
+      "question": "TSMC സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1987",
+        "2004",
+        "1968"
+      ],
+      "answer": "1987",
+      "difficulty": "medium",
+      "id": "it_091"
+    },
+    {
+      "question": "TSMCയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഹ്‌സിൻചു",
+        "റെഡ്‌മണ്ട്",
+        "മൗണ്ടൻ വ്യൂ",
+        "സാൻ ഫ്രാൻസിസ്കോ"
+      ],
+      "answer": "ഹ്‌സിൻചു",
+      "difficulty": "medium",
+      "id": "it_092"
+    },
+    {
+      "question": "Adobe സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "2015",
+        "1982",
+        "1998",
+        "1972"
+      ],
+      "answer": "1982",
+      "difficulty": "medium",
+      "id": "it_093"
+    },
+    {
+      "question": "Adobeയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഹ്‌സിൻചു",
+        "സാൻ ജോസ്",
+        "സുവോൺ",
+        "ഓസ്റ്റിൻ"
+      ],
+      "answer": "സാൻ ജോസ്",
+      "difficulty": "medium",
+      "id": "it_094"
+    },
+    {
+      "question": "Cisco സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1994",
+        "1976",
+        "2004",
+        "1984"
+      ],
+      "answer": "1984",
+      "difficulty": "medium",
+      "id": "it_095"
+    },
+    {
+      "question": "Ciscoയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഓസ്റ്റിൻ",
+        "ഹ്‌സിൻചു",
+        "സാൻ ജോസ്",
+        "സുവോൺ"
+      ],
+      "answer": "സാൻ ജോസ്",
+      "difficulty": "medium",
+      "id": "it_096"
+    },
+    {
+      "question": "SAP സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1987",
+        "1984",
+        "1982",
+        "1972"
+      ],
+      "answer": "1972",
+      "difficulty": "medium",
+      "id": "it_097"
+    },
+    {
+      "question": "SAPയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "വാൽഡോർഫ്",
+        "ക്യൂപ്പർട്ടിനോ",
+        "മെൻലോ പാർക്ക്",
+        "സിയാറ്റിൽ"
+      ],
+      "answer": "വാൽഡോർഫ്",
+      "difficulty": "medium",
+      "id": "it_098"
+    },
+    {
+      "question": "OpenAI സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1969",
         "1987",
-        "സുവോൺ",
-        "CPU"
+        "1993",
+        "2015"
       ],
-      "answer": "CPU",
-      "difficulty": "medium"
+      "answer": "2015",
+      "difficulty": "medium",
+      "id": "it_099"
     },
     {
-      "id": "it_420",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "OpenAIയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
       "options": [
-        "Perl",
-        "CPU",
-        "Kotlin",
-        "JetBrains"
-      ],
-      "answer": "CPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_421",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "CPU",
-        "ആർമോങ്ക്",
-        "സാന്റാ ക്ലാര",
-        "1968"
-      ],
-      "answer": "CPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_422",
-      "question": "GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "CLI",
-        "Graphics Processing Unit",
-        "മൗണ്ടൻ വ്യൂ",
-        "1998"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_423",
-      "question": "GPU എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "1982",
-        "സാൻ ജോസ്",
-        "1984",
-        "Graphics Processing Unit"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_424",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ആർമോങ്ക്",
-        "സാന്റാ ക്ലാര",
-        "Graphics Processing Unit",
-        "1968"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_425",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "മെൻലോ പാർക്ക്",
-        "2004",
-        "Graphics Processing Unit",
-        "1911"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_426",
-      "question": "വസ്തുത അറിയുക: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Graphics Processing Unit",
-        "1911",
-        "ആർമോങ്ക്",
-        "മെൻലോ പാർക്ക്"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_427",
-      "question": "GK ചോദ്യം: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Graphics Processing Unit",
-        "2004",
-        "മെൻലോ പാർക്ക്",
-        "സിയാറ്റിൽ"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_428",
-      "question": "GPU എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "LAN",
-        "Graphics Processing Unit",
-        "Wide Area Network",
-        "Local Area Network"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_429",
-      "question": "പരീക്ഷാ ചോദ്യം: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "RNN",
-        "Graphics Processing Unit"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_430",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Graphics Processing Unit",
-        "Ruby",
-        "TypeScript"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_431",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Graphics Processing Unit",
-        "സാൻ ജോസ്",
-        "1982",
-        "1984"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_432",
-      "question": "Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "GUI",
-        "GPU",
-        "Graphical User Interface",
-        "API"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_433",
-      "question": "Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "GPU",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
+        "റെഡ്‌മണ്ട്",
+        "സിയാറ്റിൽ",
         "സാൻ ഫ്രാൻസിസ്കോ",
-        "ആലൻ ട്യൂറിംഗ്"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_434",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "1911",
-        "ആർമോങ്ക്",
-        "GPU",
-        "1968"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_435",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "RNN",
-        "Attention Is All You Need",
-        "CNN",
-        "GPU"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_436",
-      "question": "വസ്തുത അറിയുക: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "GPU",
-        "API",
-        "Graphical User Interface",
-        "GUI"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_437",
-      "question": "GK ചോദ്യം: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Java",
-        "GPU",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_438",
-      "question": "Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "1976",
-        "GPU",
-        "1994",
         "ക്യൂപ്പർട്ടിനോ"
       ],
-      "answer": "GPU",
-      "difficulty": "medium"
+      "answer": "സാൻ ഫ്രാൻസിസ്കോ",
+      "difficulty": "medium",
+      "id": "it_100"
     },
     {
-      "id": "it_439",
-      "question": "പരീക്ഷാ ചോദ്യം: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "ട്യൂറിംഗ് ടെസ്റ്റ് നിർദ്ദേശിച്ചത് ഏതാണ്?",
       "options": [
-        "വാൽഡോർഫ്",
-        "GPU",
-        "2015",
-        "സാൻ ഫ്രാൻസിസ്കോ"
+        "ആലൻ ട്യൂറിംഗ്",
+        "CNN",
+        "റിവാർഡ് സിഗ്നൽ",
+        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
       ],
-      "answer": "GPU",
-      "difficulty": "medium"
+      "answer": "ആലൻ ട്യൂറിംഗ്",
+      "difficulty": "medium",
+      "id": "it_101"
     },
     {
-      "id": "it_440",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "ഡീപ് ലേണിങ്ങിൽ സാധാരണ ഉപയോഗിക്കുന്ന ന്യൂറൽ നെറ്റ്‌വർക്ക് ഏതാണ്?",
       "options": [
-        "Graphics Processing Unit",
-        "Central Processing Unit",
-        "GPU",
-        "CPU"
+        "ആലൻ ട്യൂറിംഗ്",
+        "റിവാർഡ് സിഗ്നൽ",
+        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
+        "K-Means"
       ],
-      "answer": "GPU",
-      "difficulty": "medium"
+      "answer": "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
+      "difficulty": "medium",
+      "id": "it_102"
     },
     {
-      "id": "it_441",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "1911",
-        "GPU",
-        "1968",
-        "ആർമോങ്ക്"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_442",
-      "question": "RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "HDD",
-        "Random Access Memory",
-        "SSD",
-        "Hard Disk Drive"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_443",
-      "question": "RAM എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "SQL",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "Random Access Memory"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_444",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Random Access Memory",
-        "1984",
-        "1982",
-        "സാൻ ജോസ്"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_445",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "DNS",
-        "Random Access Memory",
-        "Domain Name System",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_446",
-      "question": "വസ്തുത അറിയുക: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Apple",
-        "Random Access Memory",
-        "Swift",
-        "Microsoft"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_447",
-      "question": "GK ചോദ്യം: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Random Access Memory",
-        "C",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "C++"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_448",
-      "question": "RAM എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Perl",
-        "Random Access Memory",
-        "Kotlin",
-        "JetBrains"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_449",
-      "question": "പരീക്ഷാ ചോദ്യം: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "സാൻ ജോസ്",
-        "ഹ്‌സിൻചു",
-        "1982",
-        "Random Access Memory"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_450",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Random Access Memory",
-        "VPN",
-        "Virtual Private Network",
-        "Artificial Intelligence"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_451",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Rust",
-        "Random Access Memory",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "PHP"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_452",
-      "question": "Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "JavaScript",
-        "Go",
-        "RAM"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_453",
-      "question": "Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "TypeScript",
-        "RAM",
-        "Swift",
-        "Microsoft"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_454",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "സാന്റാ ക്ലാര",
-        "1968",
-        "1977",
-        "RAM"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_455",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "മെഷീൻ ലേണിംഗ്",
-        "RAM",
-        "K-Means",
-        "ലേബൽ ചെയ്ത ഡാറ്റ"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_456",
-      "question": "വസ്തുത അറിയുക: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "RAM",
-        "GPU",
-        "Graphics Processing Unit",
-        "Random Access Memory"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_457",
-      "question": "GK ചോദ്യം: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "1911",
-        "ആർമോങ്ക്",
-        "1968",
-        "RAM"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_458",
-      "question": "Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
+      "question": "കമ്പ്യൂട്ടർ വിഷനിൽ ചിത്രങ്ങളെ തിരിച്ചറിയാൻ പ്രചാരം നേടിയ മോഡൽ ഏതാണ്?",
       "options": [
         "CNN",
+        "K-Means",
+        "ലേബൽ ചെയ്ത ഡാറ്റ",
+        "മെഷീൻ ലേണിംഗ്"
+      ],
+      "answer": "CNN",
+      "difficulty": "medium",
+      "id": "it_103"
+    },
+    {
+      "question": "സീക്വൻസ് ഡാറ്റയ്ക്കായി പ്രാരംഭമായി ഉപയോഗിച്ച മോഡൽ ഏതാണ്?",
+      "options": [
         "RNN",
+        "ലേബൽ ചെയ്ത ഡാറ്റ",
+        "വളരെ ഉയർന്നത്",
+        "മെഷീൻ ലേണിംഗ്"
+      ],
+      "answer": "RNN",
+      "difficulty": "medium",
+      "id": "it_104"
+    },
+    {
+      "question": "ട്രാൻസ്ഫോർമർ ആശയം പ്രസിദ്ധമാക്കിയ പ്രബന്ധം ഏതാണ്?",
+      "options": [
         "Attention Is All You Need",
-        "RAM"
+        "CNN",
+        "RNN",
+        "വളരെ ഉയർന്നത്"
       ],
-      "answer": "RAM",
-      "difficulty": "medium"
+      "answer": "Attention Is All You Need",
+      "difficulty": "medium",
+      "id": "it_105"
     },
     {
-      "id": "it_459",
-      "question": "പരീക്ഷാ ചോദ്യം: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "AIയിൽ പരിശീലന ഡാറ്റയുടെ ഗുണമേന്മയുടെ പ്രാധാന്യം ഏതാണ്?",
       "options": [
-        "RAM",
-        "ലാറി വാൾ",
-        "Perl",
-        "PHP"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_460",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "RAM",
-        "ഓസ്റ്റിൻ",
-        "1977",
-        "സാന്റാ ക്ലാര"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_461",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "RAM",
-        "ലാറി വാൾ",
-        "Perl",
-        "PHP"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_462",
-      "question": "ROM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "2015",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "Read Only Memory",
+        "K-Means",
+        "റിവാർഡ് സിഗ്നൽ",
+        "വളരെ ഉയർന്നത്",
         "ആലൻ ട്യൂറിംഗ്"
       ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
+      "answer": "വളരെ ഉയർന്നത്",
+      "difficulty": "medium",
+      "id": "it_106"
     },
     {
-      "id": "it_463",
-      "question": "ROM എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
+      "question": "സ്വയം പഠിക്കുന്ന ആൽഗോരിതം എന്നതിന് പൊതുവായ പേര് ഏതാണ്?",
       "options": [
-        "സാന്റാ ക്ലാര",
-        "Read Only Memory",
-        "ആർമോങ്ക്",
-        "1968"
+        "റിവാർഡ് സിഗ്നൽ",
+        "K-Means",
+        "മെഷീൻ ലേണിംഗ്",
+        "ആലൻ ട്യൂറിംഗ്"
       ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
+      "answer": "മെഷീൻ ലേണിംഗ്",
+      "difficulty": "medium",
+      "id": "it_107"
     },
     {
-      "id": "it_464",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: ROM എന്നതിന്റെ full form എന്താണ്?",
+      "question": "സൂപ്പർവൈസ്ഡ് ലേണിങ്ങിന്റെ പ്രധാന ആവശ്യകത ഏതാണ്?",
       "options": [
-        "Read Only Memory",
-        "Random Access Memory",
-        "Graphics Processing Unit",
-        "GPU"
+        "ആലൻ ട്യൂറിംഗ്",
+        "ലേബൽ ചെയ്ത ഡാറ്റ",
+        "റിവാർഡ് സിഗ്നൽ",
+        "K-Means"
       ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
+      "answer": "ലേബൽ ചെയ്ത ഡാറ്റ",
+      "difficulty": "medium",
+      "id": "it_108"
     },
     {
-      "id": "it_465",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: ROM എന്നതിന്റെ full form എന്താണ്?",
+      "question": "അൺസൂപ്പർവൈസ്ഡ് ലേണിങ്ങിൽ ഡാറ്റ ക്ലസ്റ്ററിംഗ് ഉദാഹരണം ഏതാണ്?",
       "options": [
-        "Read Only Memory",
-        "RNN",
+        "ആലൻ ട്യൂറിംഗ്",
+        "K-Means",
         "CNN",
         "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
       ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
+      "answer": "K-Means",
+      "difficulty": "medium",
+      "id": "it_109"
     },
     {
-      "id": "it_466",
-      "question": "വസ്തുത അറിയുക: ROM എന്നതിന്റെ full form എന്താണ്?",
+      "question": "റീഇൻഫോഴ്‌സ്‌മെന്റ് ലേണിങ്ങിന്റെ അടിസ്ഥാന ഘടകം ഏതാണ്?",
       "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "Read Only Memory",
-        "1976",
-        "റെഡ്‌മണ്ട്"
+        "Attention Is All You Need",
+        "RNN",
+        "റിവാർഡ് സിഗ്നൽ",
+        "വളരെ ഉയർന്നത്"
       ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_467",
-      "question": "GK ചോദ്യം: ROM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Kotlin",
-        "Apple",
-        "Read Only Memory",
-        "Swift"
-      ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_468",
-      "question": "ROM എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Read Only Memory",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java",
-        "ഗ്വീഡോ വാൻ റോസം"
-      ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_469",
-      "question": "പരീക്ഷാ ചോദ്യം: ROM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Read Only Memory",
-        "1984",
-        "വാൽഡോർഫ്",
-        "1972"
-      ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_470",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: ROM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java",
-        "C++",
-        "Read Only Memory"
-      ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_471",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: ROM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "AI",
-        "Artificial Intelligence",
-        "VPN",
-        "Read Only Memory"
-      ],
-      "answer": "Read Only Memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_472",
-      "question": "Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "സുവോൺ",
-        "ROM",
-        "1969",
-        "1993"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_473",
-      "question": "Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Python",
-        "ROM",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Java"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_474",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "HyperText Transfer Protocol",
-        "HTTP",
-        "ROM"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_475",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Kotlin",
-        "Perl",
-        "JetBrains",
-        "ROM"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_476",
-      "question": "വസ്തുത അറിയുക: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "1969",
-        "സുവോൺ",
-        "ROM",
-        "1987"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_477",
-      "question": "GK ചോദ്യം: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Artificial Intelligence",
-        "ROM",
-        "VPN",
-        "AI"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_478",
-      "question": "Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "ROM",
-        "ആർമോങ്ക്",
-        "1968",
-        "1911"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_479",
-      "question": "പരീക്ഷാ ചോദ്യം: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Python",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "ROM"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_480",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ML",
-        "Machine Learning",
-        "AI",
-        "ROM"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_481",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Ruby",
-        "SQL",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "ROM"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_482",
-      "question": "SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "JavaScript",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "Python",
-        "Solid State Drive"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_483",
-      "question": "SSD എന്നതിന്റെ full form എന്താണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Graphics Processing Unit",
-        "Random Access Memory",
-        "Solid State Drive",
-        "GPU"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_484",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "WAN",
-        "Solid State Drive",
-        "Virtual Private Network",
-        "VPN"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_485",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Solid State Drive",
-        "റെഡ്‌മണ്ട്",
-        "1976",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_486",
-      "question": "വസ്തുത അറിയുക: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "1976",
-        "1994",
-        "Solid State Drive",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_487",
-      "question": "GK ചോദ്യം: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Solid State Drive",
-        "C++",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Java"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_488",
-      "question": "SSD എന്നതിന്റെ full form എന്താണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "VPN",
-        "Artificial Intelligence",
-        "Virtual Private Network",
-        "Solid State Drive"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_489",
-      "question": "പരീക്ഷാ ചോദ്യം: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "സാൻ ജോസ്",
-        "1982",
-        "Solid State Drive",
-        "1984"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_490",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "GPU",
-        "Graphics Processing Unit",
-        "Random Access Memory",
-        "Solid State Drive"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_491",
-      "question": "പൊതുവിജ്ഞാന പരിശോധന: SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Solid State Drive",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "C++",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്"
-      ],
-      "answer": "Solid State Drive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_492",
-      "question": "Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Ruby",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "TypeScript",
-        "SSD"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_493",
-      "question": "Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-      "options": [
-        "Uniform Resource Locator",
-        "SSD",
-        "Domain Name System",
-        "DNS"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_494",
-      "question": "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "Microsoft",
-        "Apple",
-        "SSD",
-        "Swift"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_495",
-      "question": "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "SSD",
-        "ഡെന്നിസ് റിച്ചി",
-        "C",
-        "റിവാർഡ് സിഗ്നൽ"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_496",
-      "question": "വസ്തുത അറിയുക: Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
-        "ആലൻ ട്യൂറിംഗ്",
-        "CNN",
-        "SSD"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_497",
-      "question": "GK ചോദ്യം: Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "K-Means",
-        "മെഷീൻ ലേണിംഗ്",
-        "SSD"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_498",
-      "question": "Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്? (സരിയായ ഉത്തരമോ?)",
-      "options": [
-        "Application Programming Interface",
-        "NLP",
-        "SSD",
-        "Natural Language Processing"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_499",
-      "question": "പരീക്ഷാ ചോദ്യം: Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "SSD",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "Python",
-        "ബ്രെൻഡൻ ഐക്ക്"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
-    },
-    {
-      "id": "it_500",
-      "question": "ഒരു മാർക്ക് ചോദ്യം: Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "TypeScript",
-        "Ruby",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "SSD"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium"
+      "answer": "റിവാർഡ് സിഗ്നൽ",
+      "difficulty": "medium",
+      "id": "it_110"
     }
   ]
 }

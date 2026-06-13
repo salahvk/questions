@@ -67,23 +67,7 @@ def _expand_facts(
                 return questions
 
     if len(questions) < min_count:
-        # Secondary expansion: use indexed variants for uniqueness when needed.
-        variant = 1
-        while len(questions) < min_count:
-            for t_index, template in enumerate(templates):
-                difficulty = _difficulty_for_template(t_index, len(templates))
-                for fact in facts:
-                    question = f"{template(fact).strip()} (വേരിയന്റ് {variant})"
-                    if question in seen_questions:
-                        continue
-                    seen_questions.add(question)
-                    answer = fact["answer"]
-                    distractors = _pick_distractors(answer, pools[fact["tag"]], salt)
-                    questions.append((question, answer, distractors, difficulty))
-                    salt += 11
-                    if len(questions) >= min_count:
-                        return questions
-            variant += 1
+        return questions
 
     return questions
 
@@ -128,20 +112,9 @@ def facts_kerala_districts() -> List[QuestionTuple]:
         facts.append({"tag": "landmark", "answer": row["landmark"], "clue": f"{row['district']} ജില്ലയിലെ പ്രധാന ലാൻഡ്മാർക്ക്"})
         facts.append({"tag": "river", "answer": row["river"], "clue": f"{row['district']} ജില്ലയുമായി ബന്ധപ്പെട്ട പ്രധാന നദി"})
 
-    templates = [
-        lambda f: f"{f['clue']} ഏത്?",
-        lambda f: f"{f['clue']} എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം എന്ത്?",
-        lambda f: f"കേരളത്തെക്കുറിച്ചുള്ള പൊതുവിജ്ഞാനത്തിൽ {f['clue']} ആയി അറിയപ്പെടുന്നത് എന്ത്?",
-        lambda f: f"{f['clue']} തിരിച്ചറിയുക.",
-        lambda f: f"{f['clue']} എന്നത് താഴെ പറയുന്നവയിൽ ഏതാണ്?",
-        lambda f: f"ജില്ലാ വിവരങ്ങളിൽ {f['clue']} ആയി രേഖപ്പെടുത്തുന്നത് എന്ത്?",
-        lambda f: f"{f['clue']} എന്ന വിജ്ഞാനബിന്ദുവിന് യോജിച്ച ഉത്തരമാരാണ്/എതാണ്?",
-        lambda f: f"{f['clue']} എന്ന് പറയുമ്പോൾ ഏത് പേര് വരും?",
-        lambda f: f"{f['clue']} എന്ന നിലയിൽ ശരിയായ തിരഞ്ഞെടുപ്പ് ഏത്?",
-        lambda f: f"{f['clue']} കണ്ടെത്തുക.",
-    ]
+    templates = [lambda f: f"{f['clue']} ഏത്?"]
 
-    return _expand_facts(facts, templates, min_count=560)
+    return _expand_facts(facts, templates, min_count=len(facts))
 
 
 def facts_kerala_renaissance() -> List[QuestionTuple]:
@@ -218,18 +191,9 @@ def facts_kerala_renaissance() -> List[QuestionTuple]:
         {"tag": "place", "clue": "ശ്രീ നാരായണ ഗുരുവിന്റെ പ്രതിഷ്ഠാ പ്രസ്ഥാനത്തിന്റെ ചരിത്രപ്രസിദ്ധ കേന്ദ്രം", "answer": "അറുവിപ്പുറം"},
     ]
 
-    templates = [
-        lambda f: f"{f['clue']} ആരാണ്/എതാണ്?",
-        lambda f: f"{f['clue']} എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-        lambda f: f"കേരള നവോത്ഥാന പഠനത്തിൽ {f['clue']} ആയി രേഖപ്പെടുന്നത് എന്ത്?",
-        lambda f: f"{f['clue']} തിരിച്ചറിയുക.",
-        lambda f: f"{f['clue']} എന്നതിൽ യോജിച്ച തിരഞ്ഞെടുപ്പ് ഏത്?",
-        lambda f: f"ചരിത്രകുറിപ്പിൽ {f['clue']} എന്ന് കാണുമ്പോൾ ഉത്തരം എന്ത്?",
-        lambda f: f"{f['clue']} സംബന്ധിച്ച ശരിയായ ഓപ്ഷൻ ഏത്?",
-        lambda f: f"{f['clue']} പറയുക.",
-    ]
+    templates = [lambda f: f"{f['clue']} ആരാണ്/എതാണ്?"]
 
-    return _expand_facts(facts, templates, min_count=560)
+    return _expand_facts(facts, templates, min_count=len(facts))
 
 
 def facts_history_of_kerala() -> List[QuestionTuple]:
@@ -280,15 +244,9 @@ def facts_history_of_kerala() -> List[QuestionTuple]:
         {"tag": "event", "clue": "ബ്രിട്ടീഷ് ഭരണകാലത്ത് മലബാർ ജില്ല രൂപീകരണവുമായി ബന്ധപ്പെട്ട ഭരണക്രമം", "answer": "മദ്രാസ് പ്രസിഡൻസി ജില്ലാഭരണം"},
     ]
 
-    templates = [
-        lambda f: f"{f['clue']} ഏത്?",
-        lambda f: f"{f['clue']} എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം എന്ത്?",
-        lambda f: f"കേരളചരിത്ര പഠനത്തിൽ {f['clue']} ആയി അറിയപ്പെടുന്നത് ഏത്?",
-        lambda f: f"{f['clue']} തിരിച്ചറിയുക.",
-        lambda f: f"{f['clue']} സംബന്ധിച്ച യോജിച്ച ഉത്തരം തിരഞ്ഞെടുക്കുക.",
-    ]
+    templates = [lambda f: f"{f['clue']} ഏത്?"]
 
-    return _expand_facts(facts, templates, min_count=220)
+    return _expand_facts(facts, templates, min_count=len(facts))
 
 
 def facts_politics_of_kerala() -> List[QuestionTuple]:
@@ -356,19 +314,9 @@ def facts_politics_of_kerala() -> List[QuestionTuple]:
         {"tag": "person", "clue": "കേരള മുഖ്യമന്ത്രിപദം വഹിച്ച കോൺഗ്രസ് നേതാക്കളിൽ ശ്രദ്ധേയൻ", "answer": "ഉമ്മൻ ചാണ്ടി"},
     ]
 
-    templates = [
-        lambda f: f"{f['clue']} ഏത്?",
-        lambda f: f"{f['clue']} എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം എന്ത്?",
-        lambda f: f"കേരള രാഷ്ട്രീയ പൊതുവിജ്ഞാനത്തിൽ {f['clue']} ആയി അറിയപ്പെടുന്നത് ഏത്?",
-        lambda f: f"{f['clue']} തിരിച്ചറിയുക.",
-        lambda f: f"{f['clue']} സംബന്ധിച്ച ശരിയായ തിരഞ്ഞെടുപ്പ് ഏത്?",
-        lambda f: f"സംസ്ഥാന രാഷ്ട്രീയ പഠനത്തിൽ {f['clue']} എന്ന് പറയുമ്പോൾ ഉത്തരം എന്ത്?",
-        lambda f: f"{f['clue']} കണ്ടെത്തുക.",
-        lambda f: f"{f['clue']} പറയുക.",
-        lambda f: f"{f['clue']} എന്ന വിജ്ഞാനബിന്ദുവിന് യോജിച്ച ഉത്തരം ഏത്?",
-    ]
+    templates = [lambda f: f"{f['clue']} ഏത്?"]
 
-    return _expand_facts(facts, templates, min_count=540)
+    return _expand_facts(facts, templates, min_count=len(facts))
 
 
 def facts_important_institutions() -> List[QuestionTuple]:
@@ -436,19 +384,9 @@ def facts_important_institutions() -> List[QuestionTuple]:
         {"tag": "education", "clue": "ഗവൺമെന്റ് എൻജിനീയറിംഗ് കോളേജ്, തൃശ്ശൂർ സ്ഥിതി ചെയ്യുന്ന നഗരം", "answer": "തൃശ്ശൂർ"},
     ]
 
-    templates = [
-        lambda f: f"{f['clue']} ഏത്?",
-        lambda f: f"{f['clue']} എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം എന്ത്?",
-        lambda f: f"കേരളത്തിലെ പ്രധാന സ്ഥാപനങ്ങളെക്കുറിച്ചുള്ള പഠനത്തിൽ {f['clue']} ആയി അറിയപ്പെടുന്നത് ഏത്?",
-        lambda f: f"{f['clue']} തിരിച്ചറിയുക.",
-        lambda f: f"{f['clue']} സംബന്ധിച്ച യോജിച്ച തിരഞ്ഞെടുപ്പ് ഏത്?",
-        lambda f: f"സ്ഥാപന വിവരങ്ങളിൽ {f['clue']} എന്ന് രേഖപ്പെടുത്തുന്നത് എന്ത്?",
-        lambda f: f"{f['clue']} കണ്ടെത്തുക.",
-        lambda f: f"{f['clue']} പറയുക.",
-        lambda f: f"{f['clue']} എന്ന വിജ്ഞാനബിന്ദുവിന് യോജിച്ച ഉത്തരം ഏത്?",
-    ]
+    templates = [lambda f: f"{f['clue']} ഏത്?"]
 
-    return _expand_facts(facts, templates, min_count=540)
+    return _expand_facts(facts, templates, min_count=len(facts))
 
 
 __all__ = [

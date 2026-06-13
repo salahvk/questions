@@ -46,18 +46,7 @@ def _load_json_questions(file_name: str) -> List[FactTuple]:
 
 
 def _question_variants(question: str, round_no: int) -> str:
-    prefixes = [
-        "",
-        "ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക: ",
-        "താഴെക്കൊടുത്ത ചോദ്യത്തിന് ഉചിതമായ ഉത്തരമേത്? ",
-        "വസ്തുത അധിഷ്ഠിത ചോദ്യം: ",
-        "MCQ രൂപത്തിൽ: ",
-        "ശാസ്ത്രീയ അറിവ് പരിശോധന: ",
-    ]
-    prefix = prefixes[round_no % len(prefixes)]
-    if round_no < len(prefixes):
-        return f"{prefix}{question}".strip()
-    return f"{prefix}{question} (രൂപം {round_no + 1})".strip()
+    return question.strip()
 
 
 def _expand_to_minimum(seed: Iterable[FactTuple], minimum: int) -> List[FactTuple]:
@@ -68,12 +57,16 @@ def _expand_to_minimum(seed: Iterable[FactTuple], minimum: int) -> List[FactTupl
     by_question: Dict[str, FactTuple] = {}
     round_no = 0
     while len(by_question) < minimum:
+        added = 0
         for q, a, ds, d in seed_list:
             nq = _question_variants(q, round_no)
             if nq not in by_question:
                 by_question[nq] = (nq, a, ds[:3], d)
+                added += 1
                 if len(by_question) >= minimum:
                     break
+        if added == 0:
+            break
         round_no += 1
     return list(by_question.values())
 
@@ -347,17 +340,14 @@ def _natural_science_seed() -> List[FactTuple]:
     env_answers = [a for _, a in environment]
     for q, a in environment:
         seeds.append((f"{q} ഏതാണ്?", a, [x for x in env_answers if x != a][:3], "ലഘു"))
-        seeds.append((f"ശരിയായ പരിഹാരം: {q} ?", a, [x for x in env_answers if x != a][:3], "ഇടത്തരം"))
 
     weather_answers = [a for _, a in weather]
     for q, a in weather:
         seeds.append((f"{q} എന്താണ്?", a, [x for x in weather_answers if x != a][:3], "ഇടത്തരം"))
-        seeds.append((f"കാലാവസ്ഥ വിജ്ഞാനം: {q} ഏത്?", a, [x for x in weather_answers if x != a][:3], "ഇടത്തരം"))
 
     ph_answers = [a for _, a in phenomena]
     for q, a in phenomena:
         seeds.append((f"{q} എന്താണ്?", a, [x for x in ph_answers if x != a][:3], "ഇടത്തരം"))
-        seeds.append((f"പ്രകൃതി ശാസ്ത്ര ചോദ്യം: {q} ഏതാണ്?", a, [x for x in ph_answers if x != a][:3], "കഠിനം"))
 
     return seeds
 
@@ -415,41 +405,54 @@ def _chemistry_extra_seed() -> List[FactTuple]:
     sym_pool = [s for _, s, _ in elements]
     num_pool = [n for _, _, n in elements]
     name_pool = [n for n, _, _ in elements]
+    sym_questions: List[FactTuple] = []
+    rev_questions: List[FactTuple] = []
+    num_questions: List[FactTuple] = []
     for name, sym, num in elements:
-        seeds.append((f"തനിമ '{name}'യുടെ രാസ ചിഹ്നം ഏതാണ്?", sym,
-                      [x for x in sym_pool if x != sym][:3], "ലഘു"))
-        seeds.append((f"രാസ ചിഹ്നം '{sym}' ഏത് തനിമയെ സൂചിപ്പിക്കുന്നു?", name,
-                      [x for x in name_pool if x != name][:3], "ഇടത്തരം"))
-        seeds.append((f"തനിമ '{name}'യുടെ അണുസംഖ്യ എത്ര?", num,
-                      [x for x in num_pool if x != num][:3], "ഇടത്തരം"))
+        sym_questions.append((f"തനിമ '{name}'യുടെ രാസ ചിഹ്നം ഏതാണ്?", sym,
+                              [x for x in sym_pool if x != sym][:3], "ലഘു"))
+        rev_questions.append((f"രാസ ചിഹ്നം '{sym}' ഏത് തനിമയെ സൂചിപ്പിക്കുന്നു?", name,
+                              [x for x in name_pool if x != name][:3], "ഇടത്തരം"))
+        num_questions.append((f"തനിമ '{name}'യുടെ അണുസംഖ്യ എത്ര?", num,
+                              [x for x in num_pool if x != num][:3], "ഇടത്തരം"))
+    for sym_q, num_q in zip(sym_questions, num_questions):
+        seeds.append(sym_q)
+        seeds.append(num_q)
+    seeds.extend(rev_questions)
+
     formula_pool = [f for _, f in compounds]
     compound_pool = [c for c, _ in compounds]
+    compound_forward: List[FactTuple] = []
+    compound_reverse: List[FactTuple] = []
     for compound, formula in compounds:
-        seeds.append((f"'{compound}'യുടെ രാസ സൂത്രം ഏതാണ്?", formula,
-                      [x for x in formula_pool if x != formula][:3], "ഇടത്തരം"))
-        seeds.append((f"രാസ സൂത്രം '{formula}' ഏത് പദാർത്ഥമാണ്?", compound,
-                      [x for x in compound_pool if x != compound][:3], "കഠിനം"))
+        compound_forward.append((f"'{compound}'യുടെ രാസ സൂത്രം ഏതാണ്?", formula,
+                                 [x for x in formula_pool if x != formula][:3], "ഇടത്തരം"))
+        compound_reverse.append((f"രാസ സൂത്രം '{formula}' ഏത് പദാർത്ഥമാണ്?", compound,
+                                 [x for x in compound_pool if x != compound][:3], "കഠിനം"))
+    seeds.extend(compound_forward)
+    seeds.extend(compound_reverse)
     return seeds
 
 
 def _biology_extra_seed() -> List[FactTuple]:
     organs = [
-        ("ഹൃദയം", "രക്തം Pumping"), ("ശ്വാസകോശം", "ശ്വസനം"),
-        ("കരൾ", "രക്തം filter"), ("മസ്തിഷ്കം", "ചിന്തയും നിയന്ത്രണവും"),
-        ("അഗ্ন്യാശയം", "ഇൻsulin"), ("പitt", "ജീർണക രസം"),
-        ("അണ്ണാശയം", "ഹോormones"), ("മൂത്രാശയം", "മൂത്രം"),
+        ("ഹൃദയം", "രക്തപംപ്പ്"), ("ശ്വാസകോശം", "ശ്വസനം"),
+        ("കരൾ", "രക്തം ശുദ്ധീകരണം"), ("മസ്തിഷ്കം", "ചിന്തയും നിയന്ത്രണവും"),
+        ("അഗ্ন്യാശയം", "ഇൻസുലിൻ ഉൽപാദനം"), ("വയിർ", "ജീർണക രസം"),
+        ("അണ്ണാശയം", "ഹോർമോൺ ഉൽപാദനം"), ("മൂത്രാശയം", "മൂത്രം"),
         ("ചെവി", "ശ്രവണം"), ("കണ്ണ്", "ദർശനം"), ("ചർമ്മം", "രക്ഷ"),
-        ("പancreas", "digestive enzymes"), ("spleen", "രക്ത കോശങ്ങൾ"),
-        ("thyroid", "metabolism"), ("spinal cord", "nerve signals"),
+        ("അഗ്ന്യാശയം", "ജീർണക എൻസൈമുകളുടെ ഉൽപാദനം"), ("പ്ലീഹ", "രക്ത കോശങ്ങൾ"),
+        ("തൈറോയ്ഡ് ഗ്രന്ഥി", "ദഹനമൂല്യ നിയന്ത്രണം"), ("മേരുദണ്ടം", "നാഡീ സഞ്ചാരം"),
     ]
     diseases = [
-        ("മലേറിയ", "Anopheles mosquito"), ("dengue", "Aedes mosquito"),
-        ("cholera", "Vibrio cholerae"), ("tuberculosis", "Mycobacterium"),
-        ("diabetes", "insulin deficiency"), ("hypertension", "high BP"),
-        ("anemia", "hemoglobin deficiency"), ("asthma", "airway inflammation"),
-        ("hepatitis", "liver inflammation"), ("pneumonia", "lung infection"),
-        ("typhoid", "Salmonella"), ("rabies", "Lyssavirus"),
-        ("AIDS", "HIV"), ("COVID-19", "SARS-CoV-2"), ("polio", "Poliovirus"),
+        ("മലേറിയ", "അനോഫിലിസ് പെൺകൊതുക്"), ("ഡെങ്കിപ്പനി", "ഈഡിസ് കൊതുക്"),
+        ("കോളറ", "വിബ്രിയോ കോളറ"), ("ക്ഷയം", "മൈക്കോബാക്ടീരിയം"),
+        ("പ്രമേഹം", "ഇൻസുലിൻ കുറവ്"), ("ഉന്നത രക്തദാബം", "ഉന്നത രക്തദാബം"),
+        ("രക്തഹീനത", "ഹീമോഗ്ലോബിൻ കുറവ്"), ("ആസ്ത്മ", "ശ്വാസനാളി വീക്കം"),
+        ("ഹെപ്പറ്റൈറ്റിസ്", "കരൾ വീക്കം"), ("ന്യുമോണിയ", "ശ്വാസകോശ സംക്രമണം"),
+        ("ടൈഫോയ്ഡ്", "സാമനെല്ല"), ("രേഷ", "ലിസാസ വൈറസ്"),
+        ("എയ്ഡ്സ്", "എച്ച്.ഐ.വി."), ("കോവിഡ്-19", "ഐസാനസ് കോവിഡ് വൈറസ്"),
+        ("പോളിയോ", "പോളിയോ വൈറസ്"),
     ]
     seeds: List[FactTuple] = []
     organ_pool = [o for o, _ in organs]
@@ -467,10 +470,10 @@ def _biology_extra_seed() -> List[FactTuple]:
         seeds.append((f"'{cause}' ബന്ധപ്പെട്ട രോഗം ഏതാണ്?", disease,
                       [x for x in dis_pool if x != disease][:3], "കഠിനം"))
     cells = [
-        ("DNA", "genetic material"), ("RNA", "protein synthesis"),
-        ("mitochondria", "energy production"), ("ribosome", "protein synthesis"),
-        ("nucleus", "cell control"), ("chloroplast", "photosynthesis"),
-        ("cell membrane", "selective barrier"), ("cytoplasm", "cell fluid"),
+        ("ഡി.എൻ.എ.", "പാരമ്പര്യ വസ്തു"), ("ആർ.എൻ.എ.", "പ്രോട്ടീൻ നിർമ്മാണം"),
+        ("മൈറ്റോകോൺഡ്രിയ", "ഊർജ്ജ ഉൽപാദനം"), ("റൈബോസോം", "പ്രോട്ടീൻ നിർമ്മാണം"),
+        ("ന്യൂക്ലിയസ്", "കോശ നിയന്ത്രണം"), ("ക്ലോറോപ്ലാസ്റ്റ്", "പ്രകാശസംശ്ലേഷണം"),
+        ("ജീവകോശ ഝില്ലി", "തിരഞ്ഞെടുത്ത് കടത്തൽ"), ("കോശദ്രാവകം", "കോശദ്രാവകം"),
     ]
     for part, role in cells:
         seeds.append((f"കോശ ഭാഗം '{part}'യുടെ പ്രവർത്തി?", role,
@@ -480,41 +483,47 @@ def _biology_extra_seed() -> List[FactTuple]:
 
 def _astronomy_extra_seed() -> List[FactTuple]:
     planets = [
-        ("ബുധൻ", "Mercury"), ("ശുക്രൻ", "Venus"), ("ഭൂമി", "Earth"),
-        ("ചൊവ്വ", "Mars"), ("വ്യാഴം", "Jupiter"), ("ശനി", "Saturn"),
-        ("യുറാനസ്", "Uranus"), ("നെptune", "Neptune"),
+        ("ബുധൻ", "മെർക്കുറി"), ("ശുക്രൻ", "വീനസ്"), ("ഭൂമി", "എർത്ത്"),
+        ("ചൊവ്വ", "മാർസ്"), ("വ്യാഴം", "ജൂപ്പിറ്റർ"), ("ശനി", "സാറൺ"),
+        ("യുറാനസ്", "യുറാനസ്"), ("നെപ്റ്റ്യൂൺ", "നെപ്ടൂൻ"),
     ]
     moons = [
-        ("ഭൂമി", "ചandra"), ("ചൊവ്വ", "Phobos & Deimos"), ("വ്യാഴം", "Ganymede"),
-        ("ശനി", "Titan"), ("യുറാനസ്", "Titania"), ("നെptune", "Triton"),
+        ("ഭൂമി", "ചന്ദ്രൻ"), ("ചൊവ്വ", "ഫോബോസും ഡീമോസും"), ("വ്യാഴം", "ഗാനിമീഡ്"),
+        ("ശനി", "ടൈറ്റൻ"), ("യുറാനസ്", "ടൈറ്റാനിയ"), ("നെപ്റ്റ്യൂൺ", "ട്രൈടൺ"),
     ]
     missions = [
-        ("Chandrayaan-3", "ISRO"), ("Mangalyaan", "ISRO"), ("Aditya-L1", "ISRO"),
-        ("Apollo 11", "NASA"), ("Voyager 1", "NASA"), ("Hubble", "NASA/ESA"),
-        ("Sputnik 1", "USSR"), ("Gagarin mission", "USSR"), ("Shenzhou", "China"),
+        ("ചന്ദ്രയാൻ-3", "ഇസ്റോ"), ("മംഗള്യാൻ", "ഇസ്റോ"), ("ആദിത്യ-എൽ1", "ഇസ്റോ"),
+        ("അപ്പോളോ 11", "നാസ"), ("വോയാജർ-1", "നാസ"), ("ഹബിൾ", "നാസ/ഇ.എസ്.എ"),
+        ("സ്പുട്നിക് 1", "സോവിയറ്റ് യൂണിയൻ"), ("ഗഗാരിൻ ദൗത്യം", "സോവിയറ്റ് യൂണിയൻ"),
+        ("ഷെഞ്ചോ", "ചൈന"),
     ]
+    agency_pool = ["ഇസ്റോ", "നാസ", "നാസ/ഇ.എസ്.എ", "സോവിയറ്റ് യൂണിയൻ", "ചൈന",
+                   "യുരോപ്യൻ ബഹിരാകാശ ഏജൻസി", "റോസ്കോസ്മോസ്"]
     seeds: List[FactTuple] = []
     eng_pool = [e for _, e in planets]
     mal_pool = [m for m, _ in planets]
     for mal, eng in planets:
-        seeds.append((f"ഗ്രഹം '{mal}'യുടെ ഇംഗ്ലീഷ് പേര്?", eng,
+        seeds.append((f"ഗ്രഹം '{mal}'യുടെ ആർത്ഥനാമം ഏതാണ്?", eng,
                       [x for x in eng_pool if x != eng][:3], "ലഘു"))
         seeds.append((f"'{eng}' എന്ന ഗ്രഹത്തിന്റെ മലയാള പേര്?", mal,
                       [x for x in mal_pool if x != mal][:3], "ഇടത്തരം"))
+    moon_pool = [m for _, m in moons]
     for planet, moon in moons:
         seeds.append((f"'{planet}'യുടെ പ്രധാന ഉപഗ്രഹം?", moon,
-                      [m for _, m in moons if m != moon][:3], "കഠിനം"))
+                      [m for m in moon_pool if m != moon][:3], "കഠിനം"))
     for mission, agency in missions:
         seeds.append((f"ദൗത്യം '{mission}' നടപ്പാക്കിയ സംഘടന?", agency,
-                      [a for _, a in missions if a != agency][:3], "ഇടത്തരം"))
+                      [a for a in agency_pool if a != agency][:3], "ഇടത്തരം"))
     stars = [
-        ("സൂര്യൻ", "G-type star"), ("Sirius", "brightest star"),
-        ("Polaris", "North Star"), ("Betelgeuse", "red supergiant"),
-        ("Proxima Centauri", "nearest star"), ("Alpha Centauri", "binary system"),
+        ("സൂര്യൻ", "ജി-വർഗ്ഗ നക്ഷത്രം"), ("സിറിയസ്", "ഏറ്റവും തിളക്കമുള്ള നക്ഷത്രം"),
+        ("ധ്രുവനക്ഷത്രം", "വടക്ക് ദിശ കാണിക്കുന്ന നക്ഷത്രം"), ("ബെറ്റൽജൂസ്", "ചുവന്ന സൂപ്പാര്‍ഗിയന്റ്"),
+        ("പ്രോക്സിമ സെന്റോറി", "സൂര്യനോട് ഏറ്റവും അടുത്തുള്ള നക്ഷത്രം"),
+        ("ആൽഫ സെന്റോറി", "ഇരട്ട നക്ഷത്ര വ്യവസ്ഥ"),
     ]
+    desc_pool = [d for _, d in stars]
     for star, desc in stars:
         seeds.append((f"'{star}'യെക്കുറിച്ചുള്ള വിവരണം?", desc,
-                      [d for _, d in stars if d != desc][:3], "കഠിനം"))
+                      [d for d in desc_pool if d != desc][:3], "കഠിനം"))
     return seeds
 
 
@@ -522,111 +531,15 @@ def facts_natural_science() -> List[FactTuple]:
     return _expand_to_minimum(_natural_science_seed(), 520)
 
 
-def gen_math_programmatic(start: int = 100) -> List[FactTuple]:
-    facts: Dict[str, FactTuple] = {}
-
-    def add(question: str, answer: str, distractors: List[str], difficulty: str = "ലഘു") -> None:
-        if question in facts:
-            return
-        bad = [d for d in distractors if d != answer]
-        bad = list(dict.fromkeys(bad))
-        while len(bad) < 3:
-            bad.append(str(int(answer) + len(bad) + 1) if answer.lstrip("-").isdigit() else f"{answer} അല്ല")
-        facts[question] = (question, answer, bad[:3], difficulty)
-
-    # Addition
-    for i in range(start, start + 120):
-        a = i
-        b = (i % 37) + 11
-        ans = a + b
-        add(
-            f"{a} + {b} = ?",
-            str(ans),
-            [str(ans - 1), str(ans + 1), str(ans + 10)],
-            "ലഘു",
-        )
-
-    # Subtraction
-    for i in range(start, start + 120):
-        a = i + 80
-        b = (i % 29) + 7
-        ans = a - b
-        add(
-            f"{a} - {b} = ?",
-            str(ans),
-            [str(ans + 2), str(ans - 2), str(ans + 12)],
-            "ലഘു",
-        )
-
-    # Multiplication
-    for i in range(start, start + 130):
-        a = (i % 25) + 12
-        b = (i % 19) + 6
-        ans = a * b
-        add(
-            f"{a} × {b} = ?",
-            str(ans),
-            [str(ans + a), str(ans - b), str(ans + 9)],
-            "ഇടത്തരം",
-        )
-
-    # Division (integer)
-    for i in range(start, start + 90):
-        b = (i % 18) + 2
-        ans = (i % 35) + 5
-        a = b * ans
-        add(
-            f"{a} ÷ {b} = ?",
-            str(ans),
-            [str(ans + 1), str(ans - 1), str(ans + 5)],
-            "ഇടത്തരം",
-        )
-
-    # Geometry style
-    for i in range(start, start + 90):
-        side = (i % 21) + 4
-        area = side * side
-        peri = 4 * side
-        add(
-            f"വശം {side} ആയ ചതുരത്തിന്റെ പരപ്പളവ് എത്ര?",
-            str(area),
-            [str(peri), str(area + side), str(area - side)],
-            "ലഘു",
-        )
-        add(
-            f"വശം {side} ആയ ചതുരത്തിന്റെ ചുറ്റളവ് എത്ര?",
-            str(peri),
-            [str(area), str(peri + side), str(peri - side)],
-            "ലഘു",
-        )
-
-    # Triangle area
-    for i in range(start, start + 70):
-        base = (i % 30) + 6
-        height = (i % 20) + 4
-        ans = (base * height) // 2
-        add(
-            f"അടിസ്ഥാനം {base}, ഉയരം {height} ഉള്ള ത്രികോണത്തിന്റെ പരപ്പളവ് എത്ര?",
-            str(ans),
-            [str(base * height), str(ans + height), str(ans - 1)],
-            "ഇടത്തരം",
-        )
-
-    # Keep deterministic ordering
-    ordered = list(facts.values())
-    return ordered[:550] if len(ordered) > 550 else ordered
-
-
 def facts_mathematics() -> List[FactTuple]:
+    from gen_mathematics import mathematics_seed
+
     seed = _load_json_questions("mathematics.json")
-    generated = gen_math_programmatic(start=100)
+    generated = mathematics_seed()
 
     merged: Dict[str, FactTuple] = {}
     for item in seed + generated:
         merged[item[0]] = item
 
-    facts = list(merged.values())
-    if len(facts) < 420:
-        facts = _expand_to_minimum(facts, 420)
-    return facts
+    return list(merged.values())
 

@@ -33,19 +33,6 @@ def _pick_distractors(answer: str, pool: Sequence[str], seed: str, k: int = 3) -
 
 
 def _to_qa(records: Sequence[Record], min_count: int, topic: str) -> List[QA]:
-    patterns = [
-        "{q}",
-        "{q} എന്ന ചോദ്യത്തിന് ശരിയായ ഉത്തരം ഏത്?",
-        "താഴെ പറയുന്ന ചോദ്യത്തിന് ഉത്തരം കണ്ടെത്തുക: {q}",
-        "ശരിയായ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക: {q}",
-        "വസ്തുത അറിയുക: {q}",
-        "GK ചോദ്യം: {q}",
-        "{q} (സരിയായ ഉത്തരമോ?)",
-        "പരീക്ഷാ ചോദ്യം: {q}",
-        "ഒരു മാർക്ക് ചോദ്യം: {q}",
-        "പൊതുവിജ്ഞാന പരിശോധന: {q}",
-    ]
-
     answer_pool = [a for _, a, _ in records]
     out: List[QA] = []
     seen = set()
@@ -65,14 +52,7 @@ def _to_qa(records: Sequence[Record], min_count: int, topic: str) -> List[QA]:
         )
 
     for q, a, d in records:
-        for pat in patterns:
-            add(pat.format(q=q), a, d)
-
-    idx = 1
-    while len(out) < min_count:
-        q, a, d = records[idx % len(records)]
-        add(f"{q} [അഭ്യാസ രൂപം {idx}]", a, d)
-        idx += 1
+        add(q, a, d)
 
     return out[:min_count]
 
@@ -458,30 +438,76 @@ def facts_information_technology() -> List[QA]:
         ("റീഇൻഫോഴ്‌സ്‌മെന്റ് ലേണിങ്ങിന്റെ അടിസ്ഥാന ഘടകം", "റിവാർഡ് സിഗ്നൽ"),
     ]
 
-    records: List[Record] = []
-    records.extend(
-        _pairs_to_records(
-            lang_creator,
-            "{left} പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-            "{right} ആരുടെ പേരാണ് {left} ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-            1,
-            2,
+    lang_names = [left for left, _ in lang_creator]
+    lang_creators = [right for _, right in lang_creator]
+    abbreviations = [left for left, _ in internet_basics]
+    full_forms = [right for _, right in internet_basics]
+    years = [year for _, year, _ in company_facts]
+    cities = [hq for _, _, hq in company_facts]
+    ai_answers = [answer for _, answer in ai_facts]
+
+    out: List[QA] = []
+    for left, right in lang_creator:
+        out.append(
+            (
+                f"{left} പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+                right,
+                _pick_distractors(right, lang_creators, f"it:creator:{left}"),
+                2,
+            )
         )
-    )
-    records.extend(
-        _pairs_to_records(
-            internet_basics,
-            "{left} എന്നതിന്റെ full form എന്താണ്?",
-            "{right} എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-            1,
-            2,
+        out.append(
+            (
+                f"{right} ആരുടെ പേരാണ് {left} ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+                left,
+                _pick_distractors(left, lang_names, f"it:lang:{left}"),
+                2,
+            )
         )
-    )
+    for left, right in internet_basics:
+        out.append(
+            (
+                f"{left} എന്നതിന്റെ full form എന്താണ്?",
+                right,
+                _pick_distractors(right, full_forms, f"it:full:{left}"),
+                2,
+            )
+        )
+        out.append(
+            (
+                f"{right} എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+                left,
+                _pick_distractors(left, abbreviations, f"it:abbr:{left}"),
+                2,
+            )
+        )
     for company, year, hq in company_facts:
-        records.append((f"{company} സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?", year, 2))
-        records.append((f"{company}യുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?", hq, 2))
-    records.extend(_pairs_to_records(ai_facts, "{left} ഏതാണ്?", None, 2))
-    return _to_qa(records, 540, "information_technology")
+        out.append(
+            (
+                f"{company} സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+                year,
+                _pick_distractors(year, years, f"it:year:{company}"),
+                2,
+            )
+        )
+        out.append(
+            (
+                f"{company}യുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+                hq,
+                _pick_distractors(hq, cities, f"it:hq:{company}"),
+                2,
+            )
+        )
+    for left, answer in ai_facts:
+        out.append(
+            (
+                f"{left} ഏതാണ്?",
+                answer,
+                _pick_distractors(answer, ai_answers, f"it:ai:{left}"),
+                2,
+            )
+        )
+    return out[:540]
 
 
 def facts_basic_gk() -> List[QA]:

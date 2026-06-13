@@ -37,8 +37,8 @@ STANDARD CATEGORIES (1 question file each)
 31. കല                               Arts                            arts.json
 32. സാഹിത്യം                          Literature                      literature.json
 33. സിനിമ                             Cinema                          cinema.json
-34. സ്പോർട്സ് & കറന്റ് അഫയേഴ്സ്       Sports & Current Affairs        sports_and_current_affairs.json
-35. അവാർഡ്സ് & കറന്റ് അഫയേഴ്സ്         Awards & Current Affairs        awards_and_current_affairs.json
+34. സ്പോർട്സ്                         Sports                          sports.json
+35. അവാർഡ്സ്                           Awards                          awards.json
 
 CURRENT AFFAIRS — MONTHLY EDITIONS (category 36)
 ================================================

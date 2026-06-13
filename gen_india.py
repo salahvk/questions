@@ -8,34 +8,7 @@ from typing import List, Tuple
 
 FactTuple = Tuple[str, str, List[str], str]
 
-_TEMPLATES_13 = [
-    "{q}",
-    "{q} ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.",
-    "താഴെക്കാണുന്ന ചോദ്യത്തിന് ഉത്തരം: {q}",
-    "പരീക്ഷാ മോഡൽ ചോദ്യം: {q}",
-    "പൊതുവിജ്ഞാനം: {q}",
-    "{q} (വികൽപങ്ങളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക)",
-    "ചുരുക്കചോദ്യം: {q}",
-    "ഒറ്റവരി GK: {q}",
-    "സിവിൽ സർവീസ് സ്റ്റൈൽ ചോദ്യം: {q}",
-    "{q} — ശരിയായത് ഏത്?",
-    "മലയാളം ക്വിസ്: {q}",
-    "ഫാക്ട് ചെക്ക്: {q}",
-    "റിവിഷൻ ചോദ്യം: {q}",
-]
-
-_TEMPLATES_10 = [
-    "{q}",
-    "{q} ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.",
-    "താഴെക്കാണുന്ന ചോദ്യത്തിന് ഉത്തരം: {q}",
-    "പരീക്ഷാ മോഡൽ ചോദ്യം: {q}",
-    "പൊതുവിജ്ഞാനം: {q}",
-    "{q} (വികൽപങ്ങളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക)",
-    "ചുരുക്കചോദ്യം: {q}",
-    "ഒറ്റവരി GK: {q}",
-    "{q} — ശരിയായത് ഏത്?",
-    "മലയാളം ക്വിസ്: {q}",
-]
+_PLAIN_TEMPLATE = ["{q}"]
 
 
 def _expand_facts(base_facts: List[FactTuple], min_count: int, templates: List[str]) -> List[FactTuple]:
@@ -91,7 +64,7 @@ def facts_indian_history() -> List[FactTuple]:
         ("ഉപ്പുസത്യാഗ്രഹം (ദണ്ഡി യാത്ര) നടന്ന വർഷം ഏത്?", "1930", ["1922", "1935", "1942"], "easy"),
         ("ഗാന്ധി-ഇർവിൻ ഉടമ്പടി ഒപ്പുവെച്ച വർഷം ഏത്?", "1931", ["1929", "1935", "1940"], "easy"),
     ]
-    return _expand_facts(base_facts, 520, _TEMPLATES_13)
+    return _expand_facts(base_facts, len(base_facts), _PLAIN_TEMPLATE)
 
 
 def facts_modern_india() -> List[FactTuple]:
@@ -137,7 +110,7 @@ def facts_modern_india() -> List[FactTuple]:
         ("രാജപ്രമാണങ്ങളുടെയും സംയോജനത്തിന്റെയും പ്രധാന ശില്പി എന്നു വിളിക്കപ്പെടുന്നത് ആര്?", "സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ", ["ജവഹർലാൽ നെഹ്റു", "രാജേന്ദ്ര പ്രസാദ്", "സി. രാജഗോപാലാചാരി"], "easy"),
         ("സംസ്ഥാന സംയോജനത്തിൽ പട്ടേലിനെ സഹായിച്ച സിവിൽ സർവന്റ് ആര്?", "വി.പി. മേനോൻ", ["എച്ച്.എം. പട്ടേൽ", "ഗോപാലസ്വാമി അയ്യങ്കാർ", "ടി.ടി. കൃഷ്ണമാചാരി"], "hard"),
     ]
-    return _expand_facts(base_facts, 520, _TEMPLATES_13)
+    return _expand_facts(base_facts, len(base_facts), _PLAIN_TEMPLATE)
 
 
 def facts_constitution() -> List[FactTuple]:
@@ -183,7 +156,7 @@ def facts_constitution() -> List[FactTuple]:
         ("ഇന്ത്യയുടെ ആദ്യ ചീഫ് ജസ്റ്റിസ് ആര്?", "ജസ്റ്റിസ് എച്ച്.ജെ. കാനിയ", ["ജസ്റ്റിസ് പതഞ്ജലി ശാസ്ത്രി", "ജസ്റ്റിസ് എം. ഹിദായത്തുള്ള", "ജസ്റ്റിസ് വൈ.വി. ചന്ദ്രചൂഡ്"], "medium"),
         ("രാജ്യസഭയുടെ ex-officio അധ്യക്ഷൻ ആരാണ്?", "ഉപരാഷ്ട്രപതി", ["രാഷ്ട്രപതി", "ലോക്സഭാ സ്പീക്കർ", "പ്രധാനമന്ത്രി"], "easy"),
     ]
-    return _expand_facts(base_facts, 400, _TEMPLATES_10)
+    return _expand_facts(base_facts, len(base_facts), _PLAIN_TEMPLATE)
 
 
 def facts_national_schemes() -> List[FactTuple]:
@@ -229,7 +202,7 @@ def facts_national_schemes() -> List[FactTuple]:
         ("PM eVIDYA ആരംഭിച്ച വർഷം ഏത്?", "2020", ["2016", "2018", "2022"], "medium"),
         ("JAM ത്രയത്തിന്റെ മൂന്ന് ഘടകങ്ങൾ ഏതൊക്കെ?", "Jan Dhan, Aadhaar, Mobile", ["Jan Dhan, ATM, Metro", "Aadhaar, PAN, Passport", "Mobile, LPG, GST"], "hard"),
     ]
-    return _expand_facts(base_facts, 520, _TEMPLATES_13)
+    return _expand_facts(base_facts, len(base_facts), _PLAIN_TEMPLATE)
 
 
 def facts_social_welfare_schemes() -> List[FactTuple]:
@@ -275,7 +248,7 @@ def facts_social_welfare_schemes() -> List[FactTuple]:
         ("One Stop Centre Scheme പ്രധാനമായും ആര്ക്കായി?", "പീഡനമനുഭവിക്കുന്ന സ്ത്രീകൾക്ക് ഏകകേന്ദ്ര സഹായം", ["കർഷകർക്കുള്ള വായ്പ", "വിദ്യാർത്ഥി ഹോസ്റ്റൽ", "കയറ്റുമതി സബ്സിഡി"], "medium"),
         ("Swadhar Greh പദ്ധതി ഏത് വിഭാഗത്തിന് അഭയം നൽകുന്നു?", "പ്രതിസന്ധിയിലുള്ള സ്ത്രീകൾ", ["വ്യവസായ സംരംഭകർ", "സൈനിക ഉദ്യോഗസ്ഥർ", "ടൂറിസ്റ്റുകൾ"], "medium"),
     ]
-    return _expand_facts(base_facts, 520, _TEMPLATES_13)
+    return _expand_facts(base_facts, len(base_facts), _PLAIN_TEMPLATE)
 
 
 def facts_indian_industries() -> List[FactTuple]:
@@ -322,4 +295,4 @@ def facts_indian_industries() -> List[FactTuple]:
         ("Wiproയുടെ ആസ്ഥാനം എവിടെയാണ്?", "ബെംഗളൂരു", ["മുംബൈ", "ചെന്നൈ", "നോയ്ഡ"], "easy"),
         ("Reliance Industriesയുടെ ആസ്ഥാനം എവിടെയാണ്?", "മുംബൈ", ["അഹമ്മദാബാദ്", "ന്യൂഡൽഹി", "കൊൽക്കത്ത"], "easy"),
     ]
-    return _expand_facts(base_facts, 520, _TEMPLATES_13)
+    return _expand_facts(base_facts, len(base_facts), _PLAIN_TEMPLATE)

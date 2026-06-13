@@ -4,7 +4,14 @@ import json
 import os
 import re
 
-from question_utils import add_unique, load_existing, make_mcq, max_id
+from question_utils import (
+    add_unique,
+    load_existing,
+    make_mcq,
+    max_id,
+    reindex_questions,
+    space_inverse_question_pairs,
+)
 
 from gen_general import (
     facts_awards_current,
@@ -43,10 +50,10 @@ from gen_science import (
     facts_mathematics,
     facts_natural_science,
     facts_physics,
-    gen_math_programmatic,
 )
 
 TARGET = 500
+MATH_TARGET = 1000
 
 DIFF_MAP = {
     "easy": "easy",
@@ -92,6 +99,9 @@ def fill(fname, prefix, fact_sources, target=TARGET):
         need = target - len(questions)
         counter, _ = append_facts(seen, questions, prefix, counter, facts_fn(), need)
 
+    questions = space_inverse_question_pairs(questions)
+    reindex_questions(questions, prefix)
+
     with open(fname, "w", encoding="utf-8") as f:
         json.dump({"questions": questions}, f, ensure_ascii=False, indent=2)
         f.write("\n")
@@ -115,7 +125,7 @@ CATEGORIES = [
     ("biology.json", "bio", [facts_biology]),
     ("astronomy.json", "ast", [facts_astronomy]),
     ("natural_science.json", "nsc", [facts_natural_science]),
-    ("mathematics.json", "mat", [facts_mathematics, lambda: gen_math_programmatic(100)]),
+    ("mathematics.json", "mat", [facts_mathematics], MATH_TARGET),
     ("world_history.json", "wh", [facts_world_history]),
     ("continents_of_the_world.json", "cow", [facts_continents]),
     ("international_organizations.json", "io", [facts_international_orgs]),
@@ -127,8 +137,8 @@ CATEGORIES = [
     ("literature.json", "lit", [facts_literature]),
     ("communication_journalism.json", "cj", [facts_communication_journalism]),
     ("cinema.json", "cin", [facts_cinema]),
-    ("sports_and_current_affairs.json", "sca", [facts_sports_current]),
-    ("awards_and_current_affairs.json", "aca", [facts_awards_current]),
+    ("sports.json", "sca", [facts_sports_current]),
+    ("awards.json", "aca", [facts_awards_current]),
 ]
 
 SKIP = {
@@ -152,7 +162,8 @@ def validate():
             data = json.load(f)
         qs = data.get("questions", [])
         texts = [q["question"].strip() for q in qs]
-        if len(qs) < TARGET:
+        min_target = MATH_TARGET if fname == "mathematics.json" else TARGET
+        if len(qs) < min_target:
             issues.append(f"{fname}: only {len(qs)} questions")
         if len(set(texts)) != len(texts):
             issues.append(f"{fname}: duplicate questions locally")
@@ -167,9 +178,11 @@ def validate():
 
 
 def main():
-    for fname, prefix, sources in CATEGORIES:
-        count = fill(fname, prefix, sources)
-        status = "OK" if count >= TARGET else "SHORT"
+    for entry in CATEGORIES:
+        fname, prefix, sources = entry[:3]
+        target = entry[3] if len(entry) > 3 else TARGET
+        count = fill(fname, prefix, sources, target=target)
+        status = "OK" if count >= target else "SHORT"
         print(f"{status} {fname}: {count}")
 
     issues = validate()
