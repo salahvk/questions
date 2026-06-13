@@ -1,12 +1,16 @@
 ---
 description: Mandatory fact verification and post-generation validation for quiz questions
-globs: "*.json,*.py,fill_*.py,refill_*.py"
+globs: "*.json,*.py,fill_*.py,refill_*.py,option_type_utils.py,fix_option_mismatch.py"
 alwaysApply: false
 ---
 
 # Question Fact Validation (mandatory)
 
 Bulk generation causes **silent factual errors** when facts are copied from the wrong award/event or never verified. Example: Ranveer Singh + *83* is a **Filmfare** Best Actor win (2022), not a **National Film Award** — template loops attached Filmfare winners to National Film Award stems.
+
+For **`awards.json`**, also enforce **option type coherence** and **recycled filler bans** — see `awards-questions.mdc`.
+
+For **`astronomy.json`**, also enforce **mission goal/type/name option types** and **no measurement distractors on descriptive stems** — see `astronomy-questions.mdc`.
 
 ## Root causes to avoid
 
@@ -77,6 +81,9 @@ python3 apply_malayalam_rules.py awards.json
 - [ ] Each new fact verified on Malayalam Wikipedia or official site
 - [ ] Award/event in stem matches answer's award/event
 - [ ] `answer` exactly equals one option; four distinct options
+- [ ] Option types match stem (month/country/award name/sector) — `option_type_utils.py` / `awards-questions.mdc`
+- [ ] Astronomy mission/person/lander options match stem — `astronomy-questions.mdc`
+- [ ] No recycled Indian award descriptions as wrong options in non-definition questions
 - [ ] `python3 validate_questions.py` → exit 0 (all files)
 - [ ] `python3 apply_malayalam_rules.py` → 0 remaining issues (all files, or touched file)
 - [ ] No `പ്രദേശം-N` / template filler grep hits

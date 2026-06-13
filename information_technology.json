@@ -1,126 +1,6 @@
 {
   "questions": [
     {
-      "question": "Wide Area Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "ROM",
-        "WAN",
-        "SSD",
-        "RAM"
-      ],
-      "answer": "WAN",
-      "difficulty": "medium",
-      "id": "it_0031"
-    },
-    {
-      "question": "HDD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
-        "റീഡ് ഓൺലി മെമ്മറി",
-        "Random Access Memory",
-        "Graphics Processing Unit"
-      ],
-      "answer": "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
-      "difficulty": "medium",
-      "id": "it_0102"
-    },
-    {
-      "question": "Samsung Electronicsയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ആർമോങ്ക്",
-        "സുവോൺ",
-        "സിയാറ്റിൽ",
-        "മെൻലോ പാർക്ക്"
-      ],
-      "answer": "സുവോൺ",
-      "difficulty": "medium",
-      "id": "it_0068"
-    },
-    {
-      "question": "Apple സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1982",
-        "1987",
-        "1976",
-        "1969"
-      ],
-      "answer": "1976",
-      "difficulty": "medium",
-      "id": "it_0057"
-    },
-    {
-      "question": "GUI എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
-        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
-        "Graphical User Interface",
-        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്"
-      ],
-      "answer": "Graphical User Interface",
-      "difficulty": "medium",
-      "id": "it_0108"
-    },
-    {
-      "question": "Cisco സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1994",
-        "1976",
-        "2004",
-        "1984"
-      ],
-      "answer": "1984",
-      "difficulty": "medium",
-      "id": "it_0069"
-    },
-    {
-      "question": "Application Programming Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "API",
-        "HTTPS",
-        "DNS",
-        "IP"
-      ],
-      "answer": "API",
-      "difficulty": "medium",
-      "id": "it_0029"
-    },
-    {
-      "question": "Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
-      ],
-      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
-      "difficulty": "medium",
-      "id": "it_0105"
-    },
-    {
-      "question": "Command Line Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "GUI",
-        "HTTP",
-        "HTTPS",
-        "CLI"
-      ],
-      "answer": "CLI",
-      "difficulty": "medium",
-      "id": "it_0019"
-    },
-    {
-      "question": "TSMCയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ഹ്‌സിൻചു",
-        "റെഡ്‌മണ്ട്",
-        "മൗണ്ടൻ വ്യൂ",
-        "സാൻ ഫ്രാൻസിസ്കോ"
-      ],
-      "answer": "ഹ്‌സിൻചു",
-      "difficulty": "medium",
-      "id": "it_0070"
-    },
-    {
       "question": "Microsoftയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
       "options": [
         "റെഡ്‌മണ്ട്",
@@ -130,679 +10,7 @@
       ],
       "answer": "റെഡ്‌മണ്ട്",
       "difficulty": "medium",
-      "id": "it_0001"
-    },
-    {
-      "question": "Ciscoയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ഓസ്റ്റിൻ",
-        "ഹ്‌സിൻചു",
-        "സാൻ ജോസ്",
-        "സുവോൺ"
-      ],
-      "answer": "സാൻ ജോസ്",
-      "difficulty": "medium",
-      "id": "it_0071"
-    },
-    {
-      "question": "Hard Disk Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "AI",
-        "ML",
-        "HDD",
-        "VPN"
-      ],
-      "answer": "HDD",
-      "difficulty": "medium",
-      "id": "it_0011"
-    },
-    {
-      "question": "Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "JavaScript",
-        "Python",
-        "Go",
-        "TypeScript"
-      ],
-      "answer": "TypeScript",
-      "difficulty": "medium",
-      "id": "it_0099"
-    },
-    {
-      "question": "Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "WAN",
-        "AI",
-        "SSD",
-        "VPN"
-      ],
-      "answer": "SSD",
-      "difficulty": "medium",
-      "id": "it_0101"
-    },
-    {
-      "question": "VPN എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Virtual Private Network",
-        "ഡോമെയ്ൻ നെയിം സിസ്റം",
-        "Uniform Resource Locator",
-        "Central Processing Unit"
-      ],
-      "answer": "Virtual Private Network",
-      "difficulty": "medium",
-      "id": "it_0048"
-    },
-    {
-      "question": "Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Swift",
-        "C",
-        "Pascal",
-        "C++"
-      ],
-      "answer": "Swift",
-      "difficulty": "medium",
-      "id": "it_0065"
-    },
-    {
-      "question": "Artificial Intelligence എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "DNS",
-        "AI",
-        "CPU",
-        "URL"
-      ],
-      "answer": "AI",
-      "difficulty": "medium",
-      "id": "it_0081"
-    },
-    {
-      "question": "HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "SSD",
-        "ROM",
-        "HDD",
-        "HTTP"
-      ],
-      "answer": "HTTP",
-      "difficulty": "medium",
-      "id": "it_0047"
-    },
-    {
-      "question": "ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C++",
-        "JavaScript",
-        "Python",
-        "Java"
-      ],
-      "answer": "Python",
-      "difficulty": "medium",
-      "id": "it_0094"
-    },
-    {
-      "question": "Amazon സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1984",
-        "2015",
-        "1994",
-        "1972"
-      ],
-      "answer": "1994",
-      "difficulty": "medium",
-      "id": "it_0016"
-    },
-    {
-      "question": "AIയിൽ പരിശീലന ഡാറ്റയുടെ ഗുണമേന്മയുടെ പ്രാധാന്യം ഏതാണ്?",
-      "options": [
-        "K-Means",
-        "റിവാർഡ് സിഗ്നൽ",
-        "വളരെ ഉയർന്നത്",
-        "ആലൻ ട്യൂറിംഗ്"
-      ],
-      "answer": "വളരെ ഉയർന്നത്",
-      "difficulty": "medium",
-      "id": "it_0049"
-    },
-    {
-      "question": "IBMയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "വാൽഡോർഫ്",
-        "സാൻ ജോസ്",
-        "ആർമോങ്ക്"
-      ],
-      "answer": "ആർമോങ്ക്",
-      "difficulty": "medium",
-      "id": "it_0059"
-    },
-    {
-      "question": "HTTP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Virtual Private Network",
-        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
-        "HyperText Transfer Protocol",
-        "Artificial Intelligence"
-      ],
-      "answer": "HyperText Transfer Protocol",
-      "difficulty": "medium",
-      "id": "it_0084"
-    },
-    {
-      "question": "URL എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Graphical User Interface",
-        "HyperText Transfer Protocol",
-        "Command Line Interface",
-        "Uniform Resource Locator"
-      ],
-      "answer": "Uniform Resource Locator",
-      "difficulty": "medium",
-      "id": "it_0040"
-    },
-    {
-      "question": "SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Microsoft",
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "Apple"
-      ],
-      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-      "difficulty": "medium",
-      "id": "it_0077"
-    },
-    {
-      "question": "ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Java",
-        "Python",
-        "Perl",
-        "JavaScript"
-      ],
-      "answer": "Perl",
-      "difficulty": "medium",
-      "id": "it_0004"
-    },
-    {
-      "question": "C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Apple",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "Microsoft"
-      ],
-      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-      "difficulty": "medium",
-      "id": "it_0061"
-    },
-    {
-      "question": "Adobeയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ഹ്‌സിൻചു",
-        "സാൻ ജോസ്",
-        "സുവോൺ",
-        "ഓസ്റ്റിൻ"
-      ],
-      "answer": "സാൻ ജോസ്",
-      "difficulty": "medium",
-      "id": "it_0013"
-    },
-    {
-      "question": "Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "URL",
-        "IP",
-        "DNS",
-        "CPU"
-      ],
-      "answer": "CPU",
-      "difficulty": "medium",
-      "id": "it_0021"
-    },
-    {
-      "question": "RAM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
-        "Random Access Memory",
-        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "Random Access Memory",
-      "difficulty": "medium",
-      "id": "it_0090"
-    },
-    {
-      "question": "LAN എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
-        "Virtual Private Network",
-        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്"
-      ],
-      "answer": "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
-      "difficulty": "medium",
-      "id": "it_0039"
-    },
-    {
-      "question": "കമ്പ്യൂട്ടർ വിഷനിൽ ചിത്രങ്ങളെ തിരിച്ചറിയാൻ പ്രചാരം നേടിയ മോഡൽ ഏതാണ്?",
-      "options": [
-        "CNN",
-        "K-Means",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "മെഷീൻ ലേണിംഗ്"
-      ],
-      "answer": "CNN",
-      "difficulty": "medium",
-      "id": "it_0042"
-    },
-    {
-      "question": "Appleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "സാന്റാ ക്ലാര",
-        "മെൻലോ പാർക്ക്",
-        "ആർമോങ്ക്"
-      ],
-      "answer": "ക്യൂപ്പർട്ടിനോ",
-      "difficulty": "medium",
-      "id": "it_0009"
-    },
-    {
-      "question": "ട്യൂറിംഗ് ടെസ്റ്റ് നിർദ്ദേശിച്ചത് ഏതാണ്?",
-      "options": [
-        "ആലൻ ട്യൂറിംഗ്",
-        "CNN",
-        "റിവാർഡ് സിഗ്നൽ",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "ആലൻ ട്യൂറിംഗ്",
-      "difficulty": "medium",
-      "id": "it_0087"
-    },
-    {
-      "question": "റീഇൻഫോഴ്‌സ്‌മെന്റ് ലേണിങ്ങിന്റെ അടിസ്ഥാന ഘടകം ഏതാണ്?",
-      "options": [
-        "Attention Is All You Need",
-        "RNN",
-        "റിവാർഡ് സിഗ്നൽ",
-        "വളരെ ഉയർന്നത്"
-      ],
-      "answer": "റിവാർഡ് സിഗ്നൽ",
-      "difficulty": "medium",
-      "id": "it_0043"
-    },
-    {
-      "question": "PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ലാറി വാൾ",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
-      ],
-      "answer": "റാസ്മസ് ലെർഡോർഫ്",
-      "difficulty": "medium",
-      "id": "it_0023"
-    },
-    {
-      "question": "C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ലാറി വാൾ",
-        "JetBrains",
-        "Apple",
-        "ഡെന്നിസ് റിച്ചി"
-      ],
-      "answer": "ഡെന്നിസ് റിച്ചി",
-      "difficulty": "medium",
-      "id": "it_0012"
-    },
-    {
-      "question": "CPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Natural Language Processing",
-        "Artificial Intelligence",
-        "Central Processing Unit",
-        "Machine Learning"
-      ],
-      "answer": "Central Processing Unit",
-      "difficulty": "medium",
-      "id": "it_0055"
-    },
-    {
-      "question": "Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Apple",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "ഗ്രേയ്ഡൺ ഹോർ"
-      ],
-      "answer": "Apple",
-      "difficulty": "medium",
-      "id": "it_0089"
-    },
-    {
-      "question": "Oracle സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1976",
-        "1994",
-        "1977",
-        "1975"
-      ],
-      "answer": "1977",
-      "difficulty": "medium",
-      "id": "it_0078"
-    },
-    {
-      "question": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "C++",
-        "SQL",
-        "TypeScript"
-      ],
-      "answer": "C++",
-      "difficulty": "medium",
-      "id": "it_0066"
-    },
-    {
-      "question": "OpenAIയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "റെഡ്‌മണ്ട്",
-        "സിയാറ്റിൽ",
-        "സാൻ ഫ്രാൻസിസ്കോ",
-        "ക്യൂപ്പർട്ടിനോ"
-      ],
-      "answer": "സാൻ ഫ്രാൻസിസ്കോ",
-      "difficulty": "medium",
-      "id": "it_0033"
-    },
-    {
-      "question": "Graphical User Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "SSD",
-        "LAN",
-        "GUI",
-        "HDD"
-      ],
-      "answer": "GUI",
-      "difficulty": "medium",
-      "id": "it_0093"
-    },
-    {
-      "question": "Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "NLP",
-        "AI",
-        "ML",
-        "ROM"
-      ],
-      "answer": "ROM",
-      "difficulty": "medium",
-      "id": "it_0014"
-    },
-    {
-      "question": "റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "PHP",
-        "SQL",
-        "Pascal"
-      ],
-      "answer": "PHP",
-      "difficulty": "medium",
-      "id": "it_0086"
-    },
-    {
-      "question": "Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "LAN",
-        "WAN",
-        "HDD",
-        "GPU"
-      ],
-      "answer": "GPU",
-      "difficulty": "medium",
-      "id": "it_0028"
-    },
-    {
-      "question": "HTTPS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "റീഡ് ഓൺലി മെമ്മറി",
-        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്"
-      ],
-      "answer": "HyperText Transfer Protocol Secure",
-      "difficulty": "medium",
-      "id": "it_0025"
-    },
-    {
-      "question": "ROM എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "ഡോമെയ്ൻ നെയിം സിസ്റം",
-        "റീഡ് ഓൺലി മെമ്മറി",
-        "HyperText Transfer Protocol Secure",
-        "Internet Protocol"
-      ],
-      "answer": "റീഡ് ഓൺലി മെമ്മറി",
-      "difficulty": "medium",
-      "id": "it_0046"
-    },
-    {
-      "question": "അൺസൂപ്പർവൈസ്ഡ് ലേണിങ്ങിൽ ഡാറ്റ ക്ലസ്റ്ററിംഗ് ഉദാഹരണം ഏതാണ്?",
-      "options": [
-        "ആലൻ ട്യൂറിംഗ്",
-        "K-Means",
-        "CNN",
-        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "K-Means",
-      "difficulty": "medium",
-      "id": "it_0026"
-    },
-    {
-      "question": "WAN എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Internet Protocol",
-        "Uniform Resource Locator",
-        "ഡോമെയ്ൻ നെയിം സിസ്റം",
-        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
-      "difficulty": "medium",
-      "id": "it_0064"
-    },
-    {
-      "question": "ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Java",
-        "Python",
-        "JavaScript",
-        "C++"
-      ],
-      "answer": "JavaScript",
-      "difficulty": "medium",
-      "id": "it_0045"
-    },
-    {
-      "question": "Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "Apple",
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "JetBrains",
-        "ലാറി വാൾ"
-      ],
-      "answer": "ലാറി വാൾ",
-      "difficulty": "medium",
-      "id": "it_0051"
-    },
-    {
-      "question": "യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "Swift",
-        "Perl",
-        "Kotlin"
-      ],
-      "answer": "Ruby",
-      "difficulty": "medium",
-      "id": "it_0020"
-    },
-    {
-      "question": "ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Pascal",
-        "C++",
-        "Rust",
-        "C"
-      ],
-      "answer": "Rust",
-      "difficulty": "medium",
-      "id": "it_0056"
-    },
-    {
-      "question": "SSD എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "HyperText Transfer Protocol Secure",
-        "Internet Protocol",
-        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
-        "HyperText Transfer Protocol"
-      ],
-      "answer": "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
-      "difficulty": "medium",
-      "id": "it_0035"
-    },
-    {
-      "question": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Pascal",
-        "SQL",
-        "Ruby",
-        "C"
-      ],
-      "answer": "SQL",
-      "difficulty": "medium",
-      "id": "it_0058"
-    },
-    {
-      "question": "Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-        "ഗ്രേയ്ഡൺ ഹോർ",
-        "റാസ്മസ് ലെർഡോർഫ്"
-      ],
-      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
-      "difficulty": "medium",
-      "id": "it_0079"
-    },
-    {
-      "question": "Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "RAM",
-        "NLP",
-        "ML",
-        "AI"
-      ],
-      "answer": "RAM",
-      "difficulty": "medium",
-      "id": "it_0104"
-    },
-    {
-      "question": "Local Area Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "RAM",
-        "ROM",
-        "LAN",
-        "SSD"
-      ],
-      "answer": "LAN",
-      "difficulty": "medium",
-      "id": "it_0053"
-    },
-    {
-      "question": "Meta സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1911",
-        "1976",
-        "2004",
-        "1994"
-      ],
-      "answer": "2004",
-      "difficulty": "medium",
-      "id": "it_0095"
-    },
-    {
-      "question": "ട്രാൻസ്ഫോർമർ ആശയം പ്രസിദ്ധമാക്കിയ പ്രബന്ധം ഏതാണ്?",
-      "options": [
-        "Attention Is All You Need",
-        "CNN",
-        "RNN",
-        "വളരെ ഉയർന്നത്"
-      ],
-      "answer": "Attention Is All You Need",
-      "difficulty": "medium",
-      "id": "it_0072"
-    },
-    {
-      "question": "JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "JavaScript",
-        "Kotlin",
-        "Python",
-        "Go"
-      ],
-      "answer": "Kotlin",
-      "difficulty": "medium",
-      "id": "it_0032"
-    },
-    {
-      "question": "സൂപ്പർവൈസ്ഡ് ലേണിങ്ങിന്റെ പ്രധാന ആവശ്യകത ഏതാണ്?",
-      "options": [
-        "ആലൻ ട്യൂറിംഗ്",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "റിവാർഡ് സിഗ്നൽ",
-        "K-Means"
-      ],
-      "answer": "ലേബൽ ചെയ്ത ഡാറ്റ",
-      "difficulty": "medium",
-      "id": "it_0006"
-    },
-    {
-      "question": "നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "Ruby",
-        "Pascal",
-        "TypeScript",
-        "SQL"
-      ],
-      "answer": "Pascal",
-      "difficulty": "medium",
-      "id": "it_0103"
-    },
-    {
-      "question": "CLI എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Virtual Private Network",
-        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
-        "Command Line Interface",
-        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
-      ],
-      "answer": "Command Line Interface",
-      "difficulty": "medium",
-      "id": "it_0096"
-    },
-    {
-      "question": "GPU എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Graphical User Interface",
-        "Graphics Processing Unit",
-        "Application Programming Interface",
-        "Command Line Interface"
-      ],
-      "answer": "Graphics Processing Unit",
-      "difficulty": "medium",
-      "id": "it_0073"
+      "id": "it_001"
     },
     {
       "question": "Machine Learning എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
@@ -814,151 +22,7 @@
       ],
       "answer": "ML",
       "difficulty": "medium",
-      "id": "it_0002"
-    },
-    {
-      "question": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
-      "options": [
-        "C",
-        "Pascal",
-        "Go",
-        "C++"
-      ],
-      "answer": "Go",
-      "difficulty": "medium",
-      "id": "it_0075"
-    },
-    {
-      "question": "TSMC സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1911",
-        "1987",
-        "2004",
-        "1968"
-      ],
-      "answer": "1987",
-      "difficulty": "medium",
-      "id": "it_0076"
-    },
-    {
-      "question": "Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "യുകിഹിറോ മാത്സുമോട്ടോ",
-        "Microsoft",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "Apple"
-      ],
-      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
-      "difficulty": "medium",
-      "id": "it_0054"
-    },
-    {
-      "question": "Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "റാസ്മസ് ലെർഡോർഫ്",
-        "JetBrains",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "ലാറി വാൾ"
-      ],
-      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
-      "difficulty": "medium",
-      "id": "it_0008"
-    },
-    {
-      "question": "TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
-      "options": [
-        "ഡെന്നിസ് റിച്ചി",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "ജെയിംസ് ഗോസ്ലിംഗ്",
-        "Microsoft"
-      ],
-      "answer": "Microsoft",
-      "difficulty": "medium",
-      "id": "it_0052"
-    },
-    {
-      "question": "Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "CLI",
-        "HTTPS",
-        "HTTP",
-        "IP"
-      ],
-      "answer": "IP",
-      "difficulty": "medium",
-      "id": "it_0074"
-    },
-    {
-      "question": "Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "CPU",
-        "URL",
-        "IP",
-        "DNS"
-      ],
-      "answer": "DNS",
-      "difficulty": "medium",
-      "id": "it_0007"
-    },
-    {
-      "question": "Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "URL",
-        "HDD",
-        "LAN",
-        "WAN"
-      ],
-      "answer": "URL",
-      "difficulty": "medium",
-      "id": "it_0083"
-    },
-    {
-      "question": "SAPയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "വാൽഡോർഫ്",
-        "ക്യൂപ്പർട്ടിനോ",
-        "മെൻലോ പാർക്ക്",
-        "സിയാറ്റിൽ"
-      ],
-      "answer": "വാൽഡോർഫ്",
-      "difficulty": "medium",
-      "id": "it_0050"
-    },
-    {
-      "question": "Microsoft സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
-      "options": [
-        "1911",
-        "1975",
-        "2004",
-        "1994"
-      ],
-      "answer": "1975",
-      "difficulty": "medium",
-      "id": "it_0010"
-    },
-    {
-      "question": "Googleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ഹ്‌സിൻചു",
-        "വാൽഡോർഫ്",
-        "സാൻ ജോസ്",
-        "മൗണ്ടൻ വ്യൂ"
-      ],
-      "answer": "മൗണ്ടൻ വ്യൂ",
-      "difficulty": "medium",
-      "id": "it_0034"
-    },
-    {
-      "question": "HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
-      "options": [
-        "HTTPS",
-        "NLP",
-        "API",
-        "ML"
-      ],
-      "answer": "HTTPS",
-      "difficulty": "medium",
-      "id": "it_0022"
+      "id": "it_002"
     },
     {
       "question": "Oracleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
@@ -970,67 +34,19 @@
       ],
       "answer": "ഓസ്റ്റിൻ",
       "difficulty": "medium",
-      "id": "it_0003"
+      "id": "it_003"
     },
     {
-      "question": "Virtual Private Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "question": "ലാറി വാൾ ആരുടെ പേരാണ് Perl ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "AI",
-        "LAN",
-        "VPN",
-        "WAN"
+        "Java",
+        "Python",
+        "Perl",
+        "JavaScript"
       ],
-      "answer": "VPN",
+      "answer": "Perl",
       "difficulty": "medium",
-      "id": "it_0015"
-    },
-    {
-      "question": "ML എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "റീഡ് ഓൺലി മെമ്മറി",
-        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
-        "Machine Learning",
-        "Random Access Memory"
-      ],
-      "answer": "Machine Learning",
-      "difficulty": "medium",
-      "id": "it_0037"
-    },
-    {
-      "question": "Intelയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ക്യൂപ്പർട്ടിനോ",
-        "സാന്റാ ക്ലാര",
-        "സിയാറ്റിൽ",
-        "മെൻലോ പാർക്ക്"
-      ],
-      "answer": "സാന്റാ ക്ലാര",
-      "difficulty": "medium",
-      "id": "it_0106"
-    },
-    {
-      "question": "IP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Internet Protocol",
-        "റീഡ് ഓൺലി മെമ്മറി",
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
-        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്"
-      ],
-      "answer": "Internet Protocol",
-      "difficulty": "medium",
-      "id": "it_0044"
-    },
-    {
-      "question": "സ്വയം പഠിക്കുന്ന ആൽഗോരിതം എന്നതിന് പൊതുവായ പേര് ഏതാണ്?",
-      "options": [
-        "റിവാർഡ് സിഗ്നൽ",
-        "K-Means",
-        "മെഷീൻ ലേണിംഗ്",
-        "ആലൻ ട്യൂറിംഗ്"
-      ],
-      "answer": "മെഷീൻ ലേണിംഗ്",
-      "difficulty": "medium",
-      "id": "it_0098"
+      "id": "it_004"
     },
     {
       "question": "Natural Language Processing എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
@@ -1042,139 +58,139 @@
       ],
       "answer": "NLP",
       "difficulty": "medium",
-      "id": "it_0005"
+      "id": "it_005"
     },
     {
-      "question": "IBM സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "സൂപ്പർവൈസ്ഡ് ലേണിങ്ങിന്റെ പ്രധാന ആവശ്യകത ഏതാണ്?",
+      "options": [
+        "ആലൻ ട്യൂറിംഗ്",
+        "ലേബൽ ചെയ്ത ഡാറ്റ",
+        "റിവാർഡ് സിഗ്നൽ",
+        "K-Means"
+      ],
+      "answer": "ലേബൽ ചെയ്ത ഡാറ്റ",
+      "difficulty": "medium",
+      "id": "it_006"
+    },
+    {
+      "question": "Domain Name System എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "CPU",
+        "URL",
+        "IP",
+        "DNS"
+      ],
+      "answer": "DNS",
+      "difficulty": "medium",
+      "id": "it_007"
+    },
+    {
+      "question": "Java പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "റാസ്മസ് ലെർഡോർഫ്",
+        "JetBrains",
+        "ജെയിംസ് ഗോസ്ലിംഗ്",
+        "ലാറി വാൾ"
+      ],
+      "answer": "ജെയിംസ് ഗോസ്ലിംഗ്",
+      "difficulty": "medium",
+      "id": "it_008"
+    },
+    {
+      "question": "Appleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ക്യൂപ്പർട്ടിനോ",
+        "സാന്റാ ക്ലാര",
+        "മെൻലോ പാർക്ക്",
+        "ആർമോങ്ക്"
+      ],
+      "answer": "ക്യൂപ്പർട്ടിനോ",
+      "difficulty": "medium",
+      "id": "it_009"
+    },
+    {
+      "question": "Microsoft സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1911",
-        "1994",
-        "1976",
-        "2004"
+        "1975",
+        "2004",
+        "1994"
       ],
-      "answer": "1911",
+      "answer": "1975",
       "difficulty": "medium",
-      "id": "it_0018"
+      "id": "it_010"
     },
     {
-      "question": "Metaയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "question": "Hard Disk Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "മെൻലോ പാർക്ക്",
-        "ആർമോങ്ക്",
-        "സിയാറ്റിൽ",
-        "സാന്റാ ക്ലാര"
+        "AI",
+        "ML",
+        "HDD",
+        "VPN"
       ],
-      "answer": "മെൻലോ പാർക്ക്",
+      "answer": "HDD",
       "difficulty": "medium",
-      "id": "it_0060"
+      "id": "it_011"
     },
     {
-      "question": "Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "C പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
       "options": [
+        "ലാറി വാൾ",
         "JetBrains",
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
+        "Apple",
+        "ഡെന്നിസ് റിച്ചി"
       ],
-      "answer": "JetBrains",
+      "answer": "ഡെന്നിസ് റിച്ചി",
       "difficulty": "medium",
-      "id": "it_0041"
+      "id": "it_012"
     },
     {
-      "question": "NVIDIAയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "question": "Adobeയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
       "options": [
-        "സാന്റാ ക്ലാര",
-        "ക്യൂപ്പർട്ടിനോ",
-        "മൗണ്ടൻ വ്യൂ",
-        "റെഡ്‌മണ്ട്"
+        "ഹ്‌സിൻചു",
+        "സാൻ ജോസ്",
+        "സുവോൺ",
+        "ഓസ്റ്റിൻ"
       ],
-      "answer": "സാന്റാ ക്ലാര",
+      "answer": "സാൻ ജോസ്",
       "difficulty": "medium",
-      "id": "it_0024"
+      "id": "it_013"
     },
     {
-      "question": "Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "Read Only Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "ബ്രെൻഡൻ ഐക്ക്",
-        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
-        "ഗ്വീഡോ വാൻ റോസം",
-        "ജെയിംസ് ഗോസ്ലിംഗ്"
+        "NLP",
+        "AI",
+        "ML",
+        "ROM"
       ],
-      "answer": "ഗ്വീഡോ വാൻ റോസം",
+      "answer": "ROM",
       "difficulty": "medium",
-      "id": "it_0038"
+      "id": "it_014"
     },
     {
-      "question": "JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "question": "Virtual Private Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
-        "ഡെന്നിസ് റിച്ചി",
-        "നിക്ക്ലൗസ് വിർത്ത്",
-        "ബ്രെൻഡൻ ഐക്ക്"
+        "AI",
+        "LAN",
+        "VPN",
+        "WAN"
       ],
-      "answer": "ബ്രെൻഡൻ ഐക്ക്",
+      "answer": "VPN",
       "difficulty": "medium",
-      "id": "it_0067"
+      "id": "it_015"
     },
     {
-      "question": "Intel സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "Amazon സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
-        "1972",
-        "1998",
+        "1984",
         "2015",
-        "1968"
+        "1994",
+        "1972"
       ],
-      "answer": "1968",
+      "answer": "1994",
       "difficulty": "medium",
-      "id": "it_0063"
-    },
-    {
-      "question": "NLP എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
-        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
-        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
-        "Natural Language Processing"
-      ],
-      "answer": "Natural Language Processing",
-      "difficulty": "medium",
-      "id": "it_0109"
-    },
-    {
-      "question": "DNS എന്നതിന്റെ full form എന്താണ്?",
-      "options": [
-        "Graphical User Interface",
-        "Application Programming Interface",
-        "Command Line Interface",
-        "ഡോമെയ്ൻ നെയിം സിസ്റം"
-      ],
-      "answer": "ഡോമെയ്ൻ നെയിം സിസ്റം",
-      "difficulty": "medium",
-      "id": "it_0107"
-    },
-    {
-      "question": "Amazonയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "മൗണ്ടൻ വ്യൂ",
-        "ക്യൂപ്പർട്ടിനോ",
-        "സിയാറ്റിൽ",
-        "റെഡ്‌മണ്ട്"
-      ],
-      "answer": "സിയാറ്റിൽ",
-      "difficulty": "medium",
-      "id": "it_0030"
-    },
-    {
-      "question": "സീക്വൻസ് ഡാറ്റയ്ക്കായി പ്രാരംഭമായി ഉപയോഗിച്ച മോഡൽ ഏതാണ്?",
-      "options": [
-        "RNN",
-        "ലേബൽ ചെയ്ത ഡാറ്റ",
-        "വളരെ ഉയർന്നത്",
-        "മെഷീൻ ലേണിംഗ്"
-      ],
-      "answer": "RNN",
-      "difficulty": "medium",
-      "id": "it_0027"
+      "id": "it_016"
     },
     {
       "question": "NVIDIA സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
@@ -1186,19 +202,223 @@
       ],
       "answer": "1993",
       "difficulty": "medium",
-      "id": "it_0017"
+      "id": "it_017"
     },
     {
-      "question": "SAP സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "IBM സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
-        "1987",
-        "1984",
-        "1982",
-        "1972"
+        "1911",
+        "1994",
+        "1976",
+        "2004"
       ],
-      "answer": "1972",
+      "answer": "1911",
       "difficulty": "medium",
-      "id": "it_0097"
+      "id": "it_018"
+    },
+    {
+      "question": "Command Line Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "GUI",
+        "HTTP",
+        "HTTPS",
+        "CLI"
+      ],
+      "answer": "CLI",
+      "difficulty": "medium",
+      "id": "it_019"
+    },
+    {
+      "question": "യുകിഹിറോ മാത്സുമോട്ടോ ആരുടെ പേരാണ് Ruby ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Ruby",
+        "Swift",
+        "Perl",
+        "Kotlin"
+      ],
+      "answer": "Ruby",
+      "difficulty": "medium",
+      "id": "it_020"
+    },
+    {
+      "question": "Central Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "URL",
+        "IP",
+        "DNS",
+        "CPU"
+      ],
+      "answer": "CPU",
+      "difficulty": "medium",
+      "id": "it_021"
+    },
+    {
+      "question": "HyperText Transfer Protocol Secure എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "HTTPS",
+        "NLP",
+        "API",
+        "ML"
+      ],
+      "answer": "HTTPS",
+      "difficulty": "medium",
+      "id": "it_022"
+    },
+    {
+      "question": "PHP പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "ലാറി വാൾ",
+        "റാസ്മസ് ലെർഡോർഫ്",
+        "ഗ്രേയ്ഡൺ ഹോർ",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
+      ],
+      "answer": "റാസ്മസ് ലെർഡോർഫ്",
+      "difficulty": "medium",
+      "id": "it_023"
+    },
+    {
+      "question": "NVIDIAയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "സാന്റാ ക്ലാര",
+        "ക്യൂപ്പർട്ടിനോ",
+        "മൗണ്ടൻ വ്യൂ",
+        "റെഡ്‌മണ്ട്"
+      ],
+      "answer": "സാന്റാ ക്ലാര",
+      "difficulty": "medium",
+      "id": "it_024"
+    },
+    {
+      "question": "HTTPS എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "HyperText Transfer Protocol Secure",
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്"
+      ],
+      "answer": "HyperText Transfer Protocol Secure",
+      "difficulty": "medium",
+      "id": "it_025"
+    },
+    {
+      "question": "അൺസൂപ്പർവൈസ്ഡ് ലേണിങ്ങിൽ ഡാറ്റ ക്ലസ്റ്ററിംഗ് ഉദാഹരണം ഏതാണ്?",
+      "options": [
+        "ആലൻ ട്യൂറിംഗ്",
+        "K-Means",
+        "CNN",
+        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
+      ],
+      "answer": "K-Means",
+      "difficulty": "medium",
+      "id": "it_026"
+    },
+    {
+      "question": "സീക്വൻസ് ഡാറ്റയ്ക്കായി പ്രാരംഭമായി ഉപയോഗിച്ച മോഡൽ ഏതാണ്?",
+      "options": [
+        "RNN",
+        "ലേബൽ ചെയ്ത ഡാറ്റ",
+        "വളരെ ഉയർന്നത്",
+        "മെഷീൻ ലേണിംഗ്"
+      ],
+      "answer": "RNN",
+      "difficulty": "medium",
+      "id": "it_027"
+    },
+    {
+      "question": "Graphics Processing Unit എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "LAN",
+        "WAN",
+        "HDD",
+        "GPU"
+      ],
+      "answer": "GPU",
+      "difficulty": "medium",
+      "id": "it_028"
+    },
+    {
+      "question": "Application Programming Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "API",
+        "HTTPS",
+        "DNS",
+        "IP"
+      ],
+      "answer": "API",
+      "difficulty": "medium",
+      "id": "it_029"
+    },
+    {
+      "question": "Amazonയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "മൗണ്ടൻ വ്യൂ",
+        "ക്യൂപ്പർട്ടിനോ",
+        "സിയാറ്റിൽ",
+        "റെഡ്‌മണ്ട്"
+      ],
+      "answer": "സിയാറ്റിൽ",
+      "difficulty": "medium",
+      "id": "it_030"
+    },
+    {
+      "question": "Wide Area Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "ROM",
+        "WAN",
+        "SSD",
+        "RAM"
+      ],
+      "answer": "WAN",
+      "difficulty": "medium",
+      "id": "it_031"
+    },
+    {
+      "question": "JetBrains ആരുടെ പേരാണ് Kotlin ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "JavaScript",
+        "Kotlin",
+        "Python",
+        "Go"
+      ],
+      "answer": "Kotlin",
+      "difficulty": "medium",
+      "id": "it_032"
+    },
+    {
+      "question": "OpenAIയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "റെഡ്‌മണ്ട്",
+        "സിയാറ്റിൽ",
+        "സാൻ ഫ്രാൻസിസ്കോ",
+        "ക്യൂപ്പർട്ടിനോ"
+      ],
+      "answer": "സാൻ ഫ്രാൻസിസ്കോ",
+      "difficulty": "medium",
+      "id": "it_033"
+    },
+    {
+      "question": "Googleയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഹ്‌സിൻചു",
+        "വാൽഡോർഫ്",
+        "സാൻ ജോസ്",
+        "മൗണ്ടൻ വ്യൂ"
+      ],
+      "answer": "മൗണ്ടൻ വ്യൂ",
+      "difficulty": "medium",
+      "id": "it_034"
+    },
+    {
+      "question": "SSD എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "HyperText Transfer Protocol Secure",
+        "Internet Protocol",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+        "HyperText Transfer Protocol"
+      ],
+      "answer": "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+      "difficulty": "medium",
+      "id": "it_035"
     },
     {
       "question": "API എന്നതിന്റെ full form എന്താണ്?",
@@ -1210,19 +430,307 @@
       ],
       "answer": "Application Programming Interface",
       "difficulty": "medium",
-      "id": "it_0036"
+      "id": "it_036"
     },
     {
-      "question": "Adobe സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "ML എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "2015",
-        "1982",
-        "1998",
-        "1972"
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+        "Machine Learning",
+        "Random Access Memory"
       ],
-      "answer": "1982",
+      "answer": "Machine Learning",
       "difficulty": "medium",
-      "id": "it_0100"
+      "id": "it_037"
+    },
+    {
+      "question": "Python പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+        "ഗ്വീഡോ വാൻ റോസം",
+        "ജെയിംസ് ഗോസ്ലിംഗ്"
+      ],
+      "answer": "ഗ്വീഡോ വാൻ റോസം",
+      "difficulty": "medium",
+      "id": "it_038"
+    },
+    {
+      "question": "LAN എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
+        "Virtual Private Network",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്"
+      ],
+      "answer": "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+      "difficulty": "medium",
+      "id": "it_039"
+    },
+    {
+      "question": "URL എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Graphical User Interface",
+        "HyperText Transfer Protocol",
+        "Command Line Interface",
+        "Uniform Resource Locator"
+      ],
+      "answer": "Uniform Resource Locator",
+      "difficulty": "medium",
+      "id": "it_040"
+    },
+    {
+      "question": "Kotlin പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "JetBrains",
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "ഗ്വീഡോ വാൻ റോസം",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
+      ],
+      "answer": "JetBrains",
+      "difficulty": "medium",
+      "id": "it_041"
+    },
+    {
+      "question": "കമ്പ്യൂട്ടർ വിഷനിൽ ചിത്രങ്ങളെ തിരിച്ചറിയാൻ പ്രചാരം നേടിയ മോഡൽ ഏതാണ്?",
+      "options": [
+        "CNN",
+        "K-Means",
+        "ലേബൽ ചെയ്ത ഡാറ്റ",
+        "മെഷീൻ ലേണിംഗ്"
+      ],
+      "answer": "CNN",
+      "difficulty": "medium",
+      "id": "it_042"
+    },
+    {
+      "question": "റീഇൻഫോഴ്‌സ്‌മെന്റ് ലേണിങ്ങിന്റെ അടിസ്ഥാന ഘടകം ഏതാണ്?",
+      "options": [
+        "Attention Is All You Need",
+        "RNN",
+        "റിവാർഡ് സിഗ്നൽ",
+        "വളരെ ഉയർന്നത്"
+      ],
+      "answer": "റിവാർഡ് സിഗ്നൽ",
+      "difficulty": "medium",
+      "id": "it_043"
+    },
+    {
+      "question": "IP എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Internet Protocol",
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്"
+      ],
+      "answer": "Internet Protocol",
+      "difficulty": "medium",
+      "id": "it_044"
+    },
+    {
+      "question": "ബ്രെൻഡൻ ഐക്ക് ആരുടെ പേരാണ് JavaScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "C++"
+      ],
+      "answer": "JavaScript",
+      "difficulty": "medium",
+      "id": "it_045"
+    },
+    {
+      "question": "ROM എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "HyperText Transfer Protocol Secure",
+        "Internet Protocol"
+      ],
+      "answer": "റീഡ് ഓൺലി മെമ്മറി",
+      "difficulty": "medium",
+      "id": "it_046"
+    },
+    {
+      "question": "HyperText Transfer Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "SSD",
+        "ROM",
+        "HDD",
+        "HTTP"
+      ],
+      "answer": "HTTP",
+      "difficulty": "medium",
+      "id": "it_047"
+    },
+    {
+      "question": "VPN എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Virtual Private Network",
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
+        "Uniform Resource Locator",
+        "Central Processing Unit"
+      ],
+      "answer": "Virtual Private Network",
+      "difficulty": "medium",
+      "id": "it_048"
+    },
+    {
+      "question": "AIയിൽ പരിശീലന ഡാറ്റയുടെ ഗുണമേന്മയുടെ പ്രാധാന്യം ഏതാണ്?",
+      "options": [
+        "K-Means",
+        "റിവാർഡ് സിഗ്നൽ",
+        "വളരെ ഉയർന്നത്",
+        "ആലൻ ട്യൂറിംഗ്"
+      ],
+      "answer": "വളരെ ഉയർന്നത്",
+      "difficulty": "medium",
+      "id": "it_049"
+    },
+    {
+      "question": "SAPയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "വാൽഡോർഫ്",
+        "ക്യൂപ്പർട്ടിനോ",
+        "മെൻലോ പാർക്ക്",
+        "സിയാറ്റിൽ"
+      ],
+      "answer": "വാൽഡോർഫ്",
+      "difficulty": "medium",
+      "id": "it_050"
+    },
+    {
+      "question": "Perl പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "Apple",
+        "റാസ്മസ് ലെർഡോർഫ്",
+        "JetBrains",
+        "ലാറി വാൾ"
+      ],
+      "answer": "ലാറി വാൾ",
+      "difficulty": "medium",
+      "id": "it_051"
+    },
+    {
+      "question": "TypeScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "ഡെന്നിസ് റിച്ചി",
+        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+        "ജെയിംസ് ഗോസ്ലിംഗ്",
+        "Microsoft"
+      ],
+      "answer": "Microsoft",
+      "difficulty": "medium",
+      "id": "it_052"
+    },
+    {
+      "question": "Local Area Network എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "RAM",
+        "ROM",
+        "LAN",
+        "SSD"
+      ],
+      "answer": "LAN",
+      "difficulty": "medium",
+      "id": "it_053"
+    },
+    {
+      "question": "Pascal പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "Microsoft",
+        "നിക്ക്ലൗസ് വിർത്ത്",
+        "Apple"
+      ],
+      "answer": "നിക്ക്ലൗസ് വിർത്ത്",
+      "difficulty": "medium",
+      "id": "it_054"
+    },
+    {
+      "question": "CPU എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Natural Language Processing",
+        "Artificial Intelligence",
+        "Central Processing Unit",
+        "Machine Learning"
+      ],
+      "answer": "Central Processing Unit",
+      "difficulty": "medium",
+      "id": "it_055"
+    },
+    {
+      "question": "ഗ്രേയ്ഡൺ ഹോർ ആരുടെ പേരാണ് Rust ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Pascal",
+        "C++",
+        "Rust",
+        "C"
+      ],
+      "answer": "Rust",
+      "difficulty": "medium",
+      "id": "it_056"
+    },
+    {
+      "question": "Apple സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1982",
+        "1987",
+        "1976",
+        "1969"
+      ],
+      "answer": "1976",
+      "difficulty": "medium",
+      "id": "it_057"
+    },
+    {
+      "question": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ് ആരുടെ പേരാണ് SQL ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Pascal",
+        "SQL",
+        "Ruby",
+        "C"
+      ],
+      "answer": "SQL",
+      "difficulty": "medium",
+      "id": "it_058"
+    },
+    {
+      "question": "IBMയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "സാൻ ഫ്രാൻസിസ്കോ",
+        "വാൽഡോർഫ്",
+        "സാൻ ജോസ്",
+        "ആർമോങ്ക്"
+      ],
+      "answer": "ആർമോങ്ക്",
+      "difficulty": "medium",
+      "id": "it_059"
+    },
+    {
+      "question": "Metaയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "മെൻലോ പാർക്ക്",
+        "ആർമോങ്ക്",
+        "സിയാറ്റിൽ",
+        "സാന്റാ ക്ലാര"
+      ],
+      "answer": "മെൻലോ പാർക്ക്",
+      "difficulty": "medium",
+      "id": "it_060"
+    },
+    {
+      "question": "C++ പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "Apple",
+        "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+        "Microsoft"
+      ],
+      "answer": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ്",
+      "difficulty": "medium",
+      "id": "it_061"
     },
     {
       "question": "Rust പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
@@ -1234,55 +742,211 @@
       ],
       "answer": "ഗ്രേയ്ഡൺ ഹോർ",
       "difficulty": "medium",
-      "id": "it_0062"
+      "id": "it_062"
     },
     {
-      "question": "AI എന്നതിന്റെ full form എന്താണ്?",
+      "question": "Intel സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
-        "Artificial Intelligence",
+        "1972",
+        "1998",
+        "2015",
+        "1968"
+      ],
+      "answer": "1968",
+      "difficulty": "medium",
+      "id": "it_063"
+    },
+    {
+      "question": "WAN എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Internet Protocol",
+        "Uniform Resource Locator",
         "ഡോമെയ്ൻ നെയിം സിസ്റം",
-        "Central Processing Unit",
-        "Uniform Resource Locator"
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
       ],
-      "answer": "Artificial Intelligence",
+      "answer": "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
       "difficulty": "medium",
-      "id": "it_0085"
+      "id": "it_064"
     },
     {
-      "question": "OpenAI സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "Apple ആരുടെ പേരാണ് Swift ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "1969",
-        "1987",
-        "1993",
-        "2015"
+        "Swift",
+        "C",
+        "Pascal",
+        "C++"
       ],
-      "answer": "2015",
+      "answer": "Swift",
       "difficulty": "medium",
-      "id": "it_0088"
+      "id": "it_065"
     },
     {
-      "question": "ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "ബ്യാർനെ സ്‌ട്രോസ്ട്രപ് ആരുടെ പേരാണ് C++ ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Python",
+        "Ruby",
+        "C++",
+        "SQL",
+        "TypeScript"
+      ],
+      "answer": "C++",
+      "difficulty": "medium",
+      "id": "it_066"
+    },
+    {
+      "question": "JavaScript പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
+        "ഡെന്നിസ് റിച്ചി",
+        "നിക്ക്ലൗസ് വിർത്ത്",
+        "ബ്രെൻഡൻ ഐക്ക്"
+      ],
+      "answer": "ബ്രെൻഡൻ ഐക്ക്",
+      "difficulty": "medium",
+      "id": "it_067"
+    },
+    {
+      "question": "Samsung Electronicsയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ആർമോങ്ക്",
+        "സുവോൺ",
+        "സിയാറ്റിൽ",
+        "മെൻലോ പാർക്ക്"
+      ],
+      "answer": "സുവോൺ",
+      "difficulty": "medium",
+      "id": "it_068"
+    },
+    {
+      "question": "Cisco സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1994",
+        "1976",
+        "2004",
+        "1984"
+      ],
+      "answer": "1984",
+      "difficulty": "medium",
+      "id": "it_069"
+    },
+    {
+      "question": "TSMCയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഹ്‌സിൻചു",
+        "റെഡ്‌മണ്ട്",
+        "മൗണ്ടൻ വ്യൂ",
+        "സാൻ ഫ്രാൻസിസ്കോ"
+      ],
+      "answer": "ഹ്‌സിൻചു",
+      "difficulty": "medium",
+      "id": "it_070"
+    },
+    {
+      "question": "Ciscoയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഓസ്റ്റിൻ",
+        "ഹ്‌സിൻചു",
+        "സാൻ ജോസ്",
+        "സുവോൺ"
+      ],
+      "answer": "സാൻ ജോസ്",
+      "difficulty": "medium",
+      "id": "it_071"
+    },
+    {
+      "question": "ട്രാൻസ്ഫോർമർ ആശയം പ്രസിദ്ധമാക്കിയ പ്രബന്ധം ഏതാണ്?",
+      "options": [
+        "Attention Is All You Need",
+        "CNN",
+        "RNN",
+        "വളരെ ഉയർന്നത്"
+      ],
+      "answer": "Attention Is All You Need",
+      "difficulty": "medium",
+      "id": "it_072"
+    },
+    {
+      "question": "GPU എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Graphical User Interface",
+        "Graphics Processing Unit",
+        "Application Programming Interface",
+        "Command Line Interface"
+      ],
+      "answer": "Graphics Processing Unit",
+      "difficulty": "medium",
+      "id": "it_073"
+    },
+    {
+      "question": "Internet Protocol എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "CLI",
+        "HTTPS",
+        "HTTP",
+        "IP"
+      ],
+      "answer": "IP",
+      "difficulty": "medium",
+      "id": "it_074"
+    },
+    {
+      "question": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ ആരുടെ പേരാണ് Go ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "C",
+        "Pascal",
         "Go",
-        "JavaScript",
-        "Java"
+        "C++"
       ],
-      "answer": "Java",
+      "answer": "Go",
       "difficulty": "medium",
-      "id": "it_0091"
+      "id": "it_075"
     },
     {
-      "question": "Samsung Electronics സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "TSMC സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
-        "1993",
-        "1969",
-        "1968",
-        "1977"
+        "1911",
+        "1987",
+        "2004",
+        "1968"
       ],
-      "answer": "1969",
+      "answer": "1987",
       "difficulty": "medium",
-      "id": "it_0110"
+      "id": "it_076"
+    },
+    {
+      "question": "SQL പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "Microsoft",
+        "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
+        "Apple"
+      ],
+      "answer": "ഡൊണാൾഡ് ഡി. ചേംബർലിൻ, റെയ്മണ്ട് എഫ്. ബോയ്സ്",
+      "difficulty": "medium",
+      "id": "it_077"
+    },
+    {
+      "question": "Oracle സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1976",
+        "1994",
+        "1977",
+        "1975"
+      ],
+      "answer": "1977",
+      "difficulty": "medium",
+      "id": "it_078"
+    },
+    {
+      "question": "Go പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
+        "ഗ്രേയ്ഡൺ ഹോർ",
+        "റാസ്മസ് ലെർഡോർഫ്"
+      ],
+      "answer": "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
+      "difficulty": "medium",
+      "id": "it_079"
     },
     {
       "question": "ഡെന്നിസ് റിച്ചി ആരുടെ പേരാണ് C ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
@@ -1294,19 +958,19 @@
       ],
       "answer": "C",
       "difficulty": "medium",
-      "id": "it_0080"
+      "id": "it_080"
     },
     {
-      "question": "Google സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "question": "Artificial Intelligence എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
       "options": [
-        "1911",
-        "1977",
-        "1968",
-        "1998"
+        "DNS",
+        "AI",
+        "CPU",
+        "URL"
       ],
-      "answer": "1998",
+      "answer": "AI",
       "difficulty": "medium",
-      "id": "it_0092"
+      "id": "it_081"
     },
     {
       "question": "ഡീപ് ലേണിങ്ങിൽ സാധാരണ ഉപയോഗിക്കുന്ന ന്യൂറൽ നെറ്റ്‌വർക്ക് ഏതാണ്?",
@@ -1318,7 +982,343 @@
       ],
       "answer": "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്",
       "difficulty": "medium",
-      "id": "it_0082"
+      "id": "it_082"
+    },
+    {
+      "question": "Uniform Resource Locator എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "URL",
+        "HDD",
+        "LAN",
+        "WAN"
+      ],
+      "answer": "URL",
+      "difficulty": "medium",
+      "id": "it_083"
+    },
+    {
+      "question": "HTTP എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Virtual Private Network",
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
+        "HyperText Transfer Protocol",
+        "Artificial Intelligence"
+      ],
+      "answer": "HyperText Transfer Protocol",
+      "difficulty": "medium",
+      "id": "it_084"
+    },
+    {
+      "question": "AI എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Artificial Intelligence",
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
+        "Central Processing Unit",
+        "Uniform Resource Locator"
+      ],
+      "answer": "Artificial Intelligence",
+      "difficulty": "medium",
+      "id": "it_085"
+    },
+    {
+      "question": "റാസ്മസ് ലെർഡോർഫ് ആരുടെ പേരാണ് PHP ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Ruby",
+        "PHP",
+        "SQL",
+        "Pascal"
+      ],
+      "answer": "PHP",
+      "difficulty": "medium",
+      "id": "it_086"
+    },
+    {
+      "question": "ട്യൂറിംഗ് ടെസ്റ്റ് നിർദ്ദേശിച്ചത് ഏതാണ്?",
+      "options": [
+        "ആലൻ ട്യൂറിംഗ്",
+        "CNN",
+        "റിവാർഡ് സിഗ്നൽ",
+        "കൃത്രിമ ന്യൂറൽ നെറ്റ്‌വർക്ക്"
+      ],
+      "answer": "ആലൻ ട്യൂറിംഗ്",
+      "difficulty": "medium",
+      "id": "it_087"
+    },
+    {
+      "question": "OpenAI സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1969",
+        "1987",
+        "1993",
+        "2015"
+      ],
+      "answer": "2015",
+      "difficulty": "medium",
+      "id": "it_088"
+    },
+    {
+      "question": "Swift പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "Apple",
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ",
+        "ഗ്രേയ്ഡൺ ഹോർ"
+      ],
+      "answer": "Apple",
+      "difficulty": "medium",
+      "id": "it_089"
+    },
+    {
+      "question": "RAM എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "Random Access Memory",
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
+      ],
+      "answer": "Random Access Memory",
+      "difficulty": "medium",
+      "id": "it_090"
+    },
+    {
+      "question": "ജെയിംസ് ഗോസ്ലിംഗ് ആരുടെ പേരാണ് Java ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Python",
+        "Go",
+        "JavaScript",
+        "Java"
+      ],
+      "answer": "Java",
+      "difficulty": "medium",
+      "id": "it_091"
+    },
+    {
+      "question": "Google സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1977",
+        "1968",
+        "1998"
+      ],
+      "answer": "1998",
+      "difficulty": "medium",
+      "id": "it_092"
+    },
+    {
+      "question": "Graphical User Interface എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "SSD",
+        "LAN",
+        "GUI",
+        "HDD"
+      ],
+      "answer": "GUI",
+      "difficulty": "medium",
+      "id": "it_093"
+    },
+    {
+      "question": "ഗ്വീഡോ വാൻ റോസം ആരുടെ പേരാണ് Python ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "C++",
+        "JavaScript",
+        "Python",
+        "Java"
+      ],
+      "answer": "Python",
+      "difficulty": "medium",
+      "id": "it_094"
+    },
+    {
+      "question": "Meta സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1911",
+        "1976",
+        "2004",
+        "1994"
+      ],
+      "answer": "2004",
+      "difficulty": "medium",
+      "id": "it_095"
+    },
+    {
+      "question": "CLI എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Virtual Private Network",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "Command Line Interface",
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
+      ],
+      "answer": "Command Line Interface",
+      "difficulty": "medium",
+      "id": "it_096"
+    },
+    {
+      "question": "SAP സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1987",
+        "1984",
+        "1982",
+        "1972"
+      ],
+      "answer": "1972",
+      "difficulty": "medium",
+      "id": "it_097"
+    },
+    {
+      "question": "സ്വയം പഠിക്കുന്ന ആൽഗോരിതം എന്നതിന് പൊതുവായ പേര് ഏതാണ്?",
+      "options": [
+        "റിവാർഡ് സിഗ്നൽ",
+        "K-Means",
+        "മെഷീൻ ലേണിംഗ്",
+        "ആലൻ ട്യൂറിംഗ്"
+      ],
+      "answer": "മെഷീൻ ലേണിംഗ്",
+      "difficulty": "medium",
+      "id": "it_098"
+    },
+    {
+      "question": "Microsoft ആരുടെ പേരാണ് TypeScript ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "Go",
+        "TypeScript"
+      ],
+      "answer": "TypeScript",
+      "difficulty": "medium",
+      "id": "it_099"
+    },
+    {
+      "question": "Adobe സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "2015",
+        "1982",
+        "1998",
+        "1972"
+      ],
+      "answer": "1982",
+      "difficulty": "medium",
+      "id": "it_100"
+    },
+    {
+      "question": "Solid State Drive എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "WAN",
+        "AI",
+        "SSD",
+        "VPN"
+      ],
+      "answer": "SSD",
+      "difficulty": "medium",
+      "id": "it_101"
+    },
+    {
+      "question": "HDD എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "Random Access Memory",
+        "Graphics Processing Unit"
+      ],
+      "answer": "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+      "difficulty": "medium",
+      "id": "it_102"
+    },
+    {
+      "question": "നിക്ക്ലൗസ് വിർത്ത് ആരുടെ പേരാണ് Pascal ഭാഷയുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Ruby",
+        "Pascal",
+        "TypeScript",
+        "SQL"
+      ],
+      "answer": "Pascal",
+      "difficulty": "medium",
+      "id": "it_103"
+    },
+    {
+      "question": "Random Access Memory എന്ന വികാസം സാധാരണയായി ഏത് ചുരുക്കെഴുത്തിനാണ്?",
+      "options": [
+        "RAM",
+        "NLP",
+        "ML",
+        "AI"
+      ],
+      "answer": "RAM",
+      "difficulty": "medium",
+      "id": "it_104"
+    },
+    {
+      "question": "Ruby പ്രോഗ്രാമിംഗ് ഭാഷയുടെ സ്രഷ്ടാവ് ആരാണ്?",
+      "options": [
+        "ഗ്രേയ്ഡൺ ഹോർ",
+        "യുകിഹിറോ മാത്സുമോട്ടോ",
+        "ബ്രെൻഡൻ ഐക്ക്",
+        "റോബർട്ട് ഗ്രിസ്മർ, റോബ് പൈക്ക്, കെൻ തോമ്സൺ"
+      ],
+      "answer": "യുകിഹിറോ മാത്സുമോട്ടോ",
+      "difficulty": "medium",
+      "id": "it_105"
+    },
+    {
+      "question": "Intelയുടെ ഹെഡ്ക്വാർട്ടർ ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ക്യൂപ്പർട്ടിനോ",
+        "സാന്റാ ക്ലാര",
+        "സിയാറ്റിൽ",
+        "മെൻലോ പാർക്ക്"
+      ],
+      "answer": "സാന്റാ ക്ലാര",
+      "difficulty": "medium",
+      "id": "it_106"
+    },
+    {
+      "question": "DNS എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "Graphical User Interface",
+        "Application Programming Interface",
+        "Command Line Interface",
+        "ഡോമെയ്ൻ നെയിം സിസ്റം"
+      ],
+      "answer": "ഡോമെയ്ൻ നെയിം സിസ്റം",
+      "difficulty": "medium",
+      "id": "it_107"
+    },
+    {
+      "question": "GUI എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "Graphical User Interface",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്"
+      ],
+      "answer": "Graphical User Interface",
+      "difficulty": "medium",
+      "id": "it_108"
+    },
+    {
+      "question": "NLP എന്നതിന്റെ full form എന്താണ്?",
+      "options": [
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "Natural Language Processing"
+      ],
+      "answer": "Natural Language Processing",
+      "difficulty": "medium",
+      "id": "it_109"
+    },
+    {
+      "question": "Samsung Electronics സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
+      "options": [
+        "1993",
+        "1969",
+        "1968",
+        "1977"
+      ],
+      "answer": "1969",
+      "difficulty": "medium",
+      "id": "it_110"
     }
   ]
 }

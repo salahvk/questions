@@ -1,0 +1,152 @@
+---
+description: Awards quiz standards — option types, recycled filler, sector vs definition, fact lists
+globs: "awards.json,awards_facts.py,refill_awards_unique.py,cinema.json"
+alwaysApply: false
+---
+
+# Awards Question Standards (`awards.json`)
+
+Applies when editing **`awards.json`**, **`awards_facts.py`**, **`refill_awards_unique.py`**, or award-heavy rows in **`cinema.json`**.
+
+Cross-read: **option type rules** in `malayalam-questions.mdc` §Option type coherence; **fact verification** in `question-fact-validation.mdc`.
+
+## Root cause (bulk generation)
+
+`refill_awards_unique.py` loops `AWARD_METADATA` and reuses a small pool of Malayalam phrases as distractors across unrelated question types. Result: month/country/award-name questions get **one correct option + three recycled award descriptions** — answer is obvious without knowledge.
+
+**Never save** without checking all four options match the question type.
+
+## Option type coherence (mandatory)
+
+| Question stem pattern | Answer type | Options must be | Never use as distractors |
+|-----------------------|-------------|-----------------|---------------------------|
+| `മാസം ഏത്?` / `ഏത് മാസം` | Month (`ഒക്ടോബർ`) | Other months (`ജനുവരി`…`ഡിസംബർ`) | Award names or descriptions |
+| `രാജ്യം ഏത്?` / `നൽകുന്ന രാജ്യം` | Country | Other countries | `പുലിറ്റ്സർ`, `ഖേൽ രത്ന`, `ആൽഫ്രഡ് നോബൽ`, award descriptions |
+| `പുരസ്കാരം ഏത്?` / `അവാർഡ് ഏത്?` | Award/prize **name** | Other award **names** | Long Indian descriptions (see banned list) |
+| `ഏറ്റവും ഉയർന്നത് ഏത്?` (civilian) | Award **name** (`ഭാരതരത്ന`) | Other Padma names | Description phrases as wrong options |
+| `എന്താണ്?` (definition) | Description or rank | Parallel descriptions | Unrelated sectors or countries |
+| `ഏത് മേഖലയിലെ …` (sector) | Sector (`ചലച്ചിത്രം`) | Other sectors | Only for **sector-specific** awards (see below) |
+
+### Valid vs invalid — same-looking block
+
+```text
+✅ പദ്മശ്രീ എന്താണ്?
+   → ഇന്ത്യയുടെ നാലാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി
+   (all four options are parallel definitions — correct)
+
+❌ നോബൽ സമ്മാന പ്രഖ്യാപനം സാധാരണ നടക്കുന്ന മാസം ഏത്?
+   → ഒക്ടോബർ + three Padma/Jnanpith descriptions (type mismatch)
+
+❌ നോബൽ സമാധാന പുരസ്കാരം നൽകുന്ന രാജ്യം ഏത്?
+   → നോർവേ + പുലിറ്റ്സർ + ഖേൽ രത്ന (country + award names)
+
+✅ നോബൽ സമാധാന പുരസ്കാരം നൽകുന്ന രാജ്യം ഏത്?
+   → നോർവേ (with സ്വീഡൻ, ഡെൻമാർക്ക്, ഫിൻലാന്റ്)
+
+❌ കമ്പ്യൂട്ടർ ശാസ്ത്രത്തിലെ 'നോബൽ' എന്ന് വിളിക്കപ്പെടുന്നത്?
+   → ട്യൂറിംഗ് + ഇന്ത്യൻ സിനിമയിലെ പരമോന്നത ബഹുമതി + … (name Q + descriptions)
+
+✅ കമ്പ്യൂട്ടർ ശാസ്ത്രത്തിലെ 'നോബൽ' എന്ന് വിളിക്കപ്പെടുന്നത്?
+   → ട്യൂറിംഗ് അവാർഡ് (with ഫീൽഡ്സ് മെഡൽ, ആബേൽ പ്രൈസ്, ഗ്രേസ് മുറി ഹോപ്പർ അവാർഡ്)
+```
+
+## Banned recycled filler (never as wrong options outside `എന്താണ്?` questions)
+
+Reject if any **wrong** option equals or contains:
+
+- `ഇന്ത്യൻ സിനിമയ്ക്കുള്ള ദേശീയ ബഹുമതി`
+- `കായിക പരിശീലകർക്കുള്ള ബഹുമതി`
+- `ശാന്തി, വികസനം, നിരായുധീകരണം മേഖലകളിലെ ബഹുമതി`
+- `ഇന്ത്യയിലെ ഉയർന്ന കായിക ബഹുമതി`
+- `ഇന്ത്യയിലെ ഉയർന്ന സാഹിത്യ ബഹുമതി`
+- `ഇന്ത്യൻ സിനിമയിലെ പരമോന്നത ബഹുമതി`
+- `ഇന്ത്യൻ ഭാഷാ സാഹിത്യ ബഹുമതി`
+- `ഇന്ത്യൻ കായികമികവിനുള്ള ബഹുമതി`
+- `ഇന്ത്യയുടെ നാലാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി`
+- `ഇന്ത്യയുടെ മൂന്നാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി`
+
+**Smell test**: if ≥2 options in a non-definition question share the same `… ബഹുമതി` description tail from the list above, rewrite all four options.
+
+## Sector vs definition templates
+
+### Use `'X' ഏത് മേഖലയിലെ പ്രധാന ബഹുമതിയാണ്?` only when
+
+The award is **sector-specific** and the answer is a real field:
+
+- `ഓസ്കാർ` → `ചലച്ചിത്രം`
+- `ഗ്രാമി` → `സംഗീതം`
+- `അർജുന അവാർഡ്` → `കായിക നേട്ടം`
+- `നാഷണൽ ഫിലിം അവാർഡ്` → `ചലച്ചിത്രം`
+- `ഫീൽഡ്സ് മെഡൽ` → `ഗണിതശാസ്ത്രം`
+
+### Use `'X' എന്താണ്?` when
+
+The award is a **rank or type**, not a single sector:
+
+- `ഭാരതരത്ന`, `പത്മവിഭൂഷൺ`, `പത്മഭൂഷൺ`, `പത്മശ്രീ`
+- `ജ്ഞാനപീഠ പുരസ്കാരം`
+- `കേരള ജ്യോതി`, `മേജർ ധ്യാൻചന്ദ് ഖേൽരത്ന`
+
+```text
+❌ 'ഭാരതരത്ന' ഏത് മേഖലയിലെ പ്രധാന ബഹുമതിയാണ്?
+   → പരമോന്നത സിവിലിയൻ ബഹുമതി (answer is rank, not sector; stem misleads)
+
+✅ 'ഭാരതരത്ന' എന്താണ്?
+   → പരമോന്നത സിവിലിയൻ ബഹുമതി (with other rank descriptions as distractors)
+```
+
+`refill_awards_unique.py` must branch on `definition_awards` set — do not emit sector stems for civilian/literary rank awards.
+
+## Award family separation (facts)
+
+Keep **separate lists** in `awards_facts.py` — never merge:
+
+| List | Use for stems mentioning |
+|------|--------------------------|
+| `NATIONAL_FILM_BEST_ACTOR` | `നാഷണൽ ഫിലിം അവാർഡ് മികച്ച നടൻ` |
+| `FILMFARE_BEST_ACTOR` | `ഫിലിംഫെയർ മികച്ച നടൻ` |
+| `DADASAHEB_PHALKE` | `ദാദാസാഹേബ് ഫാൽക്കെ` |
+| `BHARAT_RATNA` | `ഭാരതരത്ന` winners/years |
+| `INDIAN_NOBEL` / `NOBEL_LAUREATES` | Nobel categories and laureates |
+
+Filmfare-only wins (e.g. രണ്വീർ/*83*) must **never** appear as National Film Award answers.
+
+## Enforcement
+
+| Tool | Role |
+|------|------|
+| `option_type_utils.py` | Detects `month_q_non_month_distractors`, `month_distractor_on_award_q`, `country_q_award_distractors`, year/name mismatches |
+| `validate_questions.py` | Flags `option_type_mismatch:*`, `award_mixup:*` |
+| `fix_option_mismatch.py` | Auto-repair JSON + `*_facts.py` where pools exist |
+| `refill_awards_unique.py` | Source generator — fix templates here, not only JSON |
+
+### After any awards edit
+
+```bash
+python3 validate_questions.py awards.json
+python3 apply_malayalam_rules.py awards.json
+```
+
+Full repo before merge:
+
+```bash
+python3 validate_questions.py
+python3 apply_malayalam_rules.py
+```
+
+### Audit grep (awards filler)
+
+```bash
+rg "ഇന്ത്യൻ സിനിമയ്ക്കുള്ള ദേശീയ ബഹുമതി|കായിക പരിശീലകർക്കുള്ള ബഹുമതി" awards.json
+```
+
+Hits outside `എന്താണ്?` definition questions → rewrite those rows.
+
+## Checklist (every awards session)
+
+- [ ] All four options same semantic type as answer (month / country / award name / definition / sector)
+- [ ] No banned recycled filler in wrong options (non-definition questions)
+- [ ] Civilian awards use `എന്താണ്?`; sector awards use `ഏത് മേഖല`
+- [ ] Stem award body matches answer list (National ≠ Filmfare ≠ Padma)
+- [ ] Facts updated in `awards_facts.py` when fixing generator source rows
+- [ ] `python3 validate_questions.py awards.json` → exit 0

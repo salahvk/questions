@@ -220,7 +220,7 @@ def build_wh_extra_3() -> list[tuple[str, str, list[str], str]]:
         ("Black Death century?", "14th century", ["12th century", "16th century", "18th century"], "medium"),
         ("Westphalia Treaty?", "1648", ["1789", "1815", "1919"], "hard"),
         ("Peter the Great ruled?", "Russia", ["Germany", "Austria", "Poland"], "medium"),
-        ("Saladin sultanate?", "Ayyubi", ["Ottoman", "Mughal", "Safavid"], "hard"),
+        ("സലാദിൻ ഏത് സാമ്രാജ്യത്തിന്റെ സുൽത്താനായിരുന്നു?", "അയ്യൂബി സാമ്രാജ്യം", ["ഒട്ടോമൻ സാമ്രാജ്യം", "മുഗൽ സാമ്രാജ്യം", "സഫാവിദ് സാമ്രാജ്യം"], "hard"),
         ("First Crusade captured Jerusalem?", "1099", ["1187", "1204", "1291"], "hard"),
         ("Spanish Armada defeated?", "1588", ["1492", "1605", "1648"], "medium"),
         ("Communist Manifesto?", "1848", ["1789", "1917", "1949"], "medium"),

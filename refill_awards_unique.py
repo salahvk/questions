@@ -293,17 +293,38 @@ def build_unique_candidates(existing: set[str]) -> list[tuple[str, list[str], st
     award_names = [x[0] for x in AWARD_METADATA]
     institutions = list({x[1] for x in AWARD_METADATA})
     fields = list({x[3] for x in AWARD_METADATA})
+    definition_awards = {
+        "ഭാരതരത്ന", "പത്മവിഭൂഷൺ", "പത്മഭൂഷൺ", "പത്മശ്രീ",
+        "ജ്ഞാനപീഠ പുരസ്കാരം", "കേരള ജ്യോതി", "മേജർ ധ്യാൻചന്ദ് ഖേൽരത്ന",
+    }
+    rank_fields = [
+        "പരമോന്നത സിവിലിയൻ ബഹുമതി",
+        "രണ്ടാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി",
+        "മൂന്നാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി",
+        "നാലാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി",
+        "ഉയർന്ന സാഹിത്യ ബഹുമതി",
+        "ഉയർന്ന കായിക ബഹുമതി",
+        "പരമോന്നത സംസ്ഥാന ബഹുമതി",
+    ]
     for award, inst, started, field in AWARD_METADATA:
         add_candidate(
             out, existing,
             f"'{award}' നൽകുന്ന സ്ഥാപനം/അധികാരി ഏതാണ്?",
             [inst] + pick3(institutions, inst), inst, "medium",
         )
-        add_candidate(
-            out, existing,
-            f"'{award}' ഏത് മേഖലയിലെ പ്രധാന ബഹുമതിയാണ്?",
-            [field] + pick3(fields, field), field, "medium",
-        )
+        if award in definition_awards:
+            pool = rank_fields if field in rank_fields else fields
+            add_candidate(
+                out, existing,
+                f"'{award}' എന്താണ്?",
+                [field] + pick3(pool, field), field, "medium",
+            )
+        else:
+            add_candidate(
+                out, existing,
+                f"'{award}' ഏത് മേഖലയിലെ പ്രധാന ബഹുമതിയാണ്?",
+                [field] + pick3(fields, field), field, "medium",
+            )
         add_candidate(
             out, existing,
             f"'{award}' ആരംഭിച്ച വർഷം ഏതാണ്?",

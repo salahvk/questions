@@ -147,34 +147,6 @@ if "ബ്രിട്ടീഷ് ഭരണകാല" not in ih:
     patch_file(ih_path, "ബ്രിട്ടീഷ് ഭരണകാല", IH_GEN)
     print("Indian history template expansion")
 
-# --- World history: decade templates on static facts (no reverse-meta) ---
-wh_path = BASE / "world_history_facts.py"
-wh = wh_path.read_text(encoding="utf-8")
-WH_GEN = '''
-    for q, ans, wrong, diff in STATIC_FACTS:
-        if ans.isdigit() or re.match(r"^\\d{4}", ans):
-            decade = str(int(ans[:4]) // 10 * 10) + " കാലം"
-            decades = [str(d) + " കാലം" for d in range(1000, 2030, 10) if str(d) + " കാലം" != decade]
-            _add(out, existing, rng, f"വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?", decade, decades[:3], "hard")
-'''
-if "വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?" not in wh or "ലോക ചരിത്രത്തിൽ" in wh:
-    if "ലോക ചരിത്രത്തിൽ" in wh:
-        # strip banned reverse-meta block if present
-        wh = re.sub(
-            r"\n    stems = \[.*?\n    return out",
-            "\n    return out",
-            wh,
-            flags=re.DOTALL,
-        )
-        wh_path.write_text(wh, encoding="utf-8")
-    if "import re" not in wh:
-        wh = wh_path.read_text(encoding="utf-8")
-        wh = wh.replace("import random", "import random\nimport re")
-        wh_path.write_text(wh, encoding="utf-8")
-    if "വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?" not in wh_path.read_text(encoding="utf-8"):
-        patch_file(wh_path, "വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?", WH_GEN)
-        print("World history decade templates")
-
 # --- Sports: Olympics + FIFA programmatic ---
 sports_path = BASE / "sports_facts.py"
 OLY_BLOCK = '''

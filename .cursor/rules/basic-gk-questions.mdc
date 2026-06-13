@@ -1,0 +1,107 @@
+---
+description: Basic GK quiz standards — option types, national symbols, award definitions, person pools
+globs: "basic_general_knowledge.json,fill_unique.py,option_type_utils.py"
+alwaysApply: false
+---
+
+# Basic General Knowledge Standards (`basic_general_knowledge.json`)
+
+Applies when editing **`basic_general_knowledge.json`** or **`fill_unique.py`** `build_basic_gk()`.
+
+Cross-read: **option type rules** in `malayalam-questions.mdc`; **award definitions** in `awards-questions.mdc`.
+
+## Root cause (bulk generation)
+
+Distractor pools were reused across unrelated question types. National symbols (tree, flower, fruit, bird, animal) ended up as wrong options on **award definition** and **person** questions — the correct answer is obvious without knowledge.
+
+**Never save** without checking all four options match the question type.
+
+## Option type coherence (mandatory)
+
+| Question stem pattern | Answer type | Options must be | Never use as distractors |
+|-----------------------|-------------|-----------------|---------------------------|
+| `എന്ന് പറയുന്നത് എന്ത്?` (award/rank) | Civilian award **definition** | Parallel Padma/Bharat rank descriptions | `ആൽമരം`, `താമര`, `മാമ്പഴം`, `മയിൽ`, `കടുവ` |
+| `ആര്?` / `ആരാണ്?` (Indian person) | Person name | Other Indian leaders/figures | National symbols, unrelated inventors |
+| `ആര്?` (inventor) | Inventor name | Other inventors | National symbols, animals, plants |
+| `ആര്?` (Indian woman) | Woman's name | Other notable Indian **women** only | **Men** (`അബ്ദുൾ കലാം`, `ആസാദ്`, `അംബേദ്കർ`), inventors, symbols |
+| `തലസ്ഥാനം?` | City name | Other capital cities | Symbols, award names |
+| `ദേശീയ വൃക്ഷം/പക്ഷി/പഴം` | Correct symbol | Other symbols of same category | Award descriptions |
+
+### Valid vs invalid
+
+```text
+❌ ഭാരത രത്ന എന്ന് പറയുന്നത് എന്ത്?
+   → ഇന്ത്യയിലെ പരമോന്നത സിവിലിയൻ ബഹുമതി + ആൽമരം + താമര + മാമ്പഴം
+
+✅ ഭാരത രത്ന എന്ന് പറയുന്നത് എന്ത്?
+   → ഇന്ത്യയിലെ പരമോന്നത സിവിലിയൻ ബഹുമതി
+     (with രണ്ടാമത്തെ/മൂന്നാമത്തെ/നാലാമത്തെ ഉയർന്ന സിവിലിയൻ ബഹുമതി)
+
+❌ ഇന്ത്യയിലെ ആദ്യ രാഷ്ട്രപതി ആര്?
+   → ഡോ. രാജേന്ദ്ര പ്രസാദ് + ജെയിംസ് വാട്ട് + റൈറ്റ് സഹോദരന്മാർ + മയിൽ
+
+✅ ഇന്ത്യയിലെ ആദ്യ രാഷ്ട്രപതി ആര്?
+   → ഡോ. രാജേന്ദ്ര പ്രസാദ് (with നെഹ്റു, പട്ടേൽ, ടാഗോർ)
+
+❌ ഭാരത രത്ന നേടിയ ആദ്യ ഇന്ത്യൻ വനിത ആര്?
+   → ഇന്ദിരാ ഗാന്ധി + ചന്ദ്രശേഖർ ആസാദ് + എ.പി.ജെ. അബ്ദുൾ കലാം (men on woman Q)
+
+✅ ഭാരത രത്ന നേടിയ ആദ്യ ഇന്ത്യൻ വനിത ആര്?
+   → ഇന്ദിരാ ഗാന്ധി (with മദർ തെരേസ, പ്രതിഭാ പാട്ടീൽ, സരോജിനി നായഡു)
+```
+
+## Woman-question rule (strict)
+
+When stem contains **`വനിത`**, **`വനിതാ`**, or **`അധ്യക്ഷയായ`** (female role) — not `ശാസ്ത്രീയ`:
+
+- All four options must be **women's names** (or parallel female-role answers).
+- **Never** use men as distractors — even famous Indians (`എ.പി.ജെ. അബ്ദുൾ കലാം`, `ചന്ദ്രശേഖർ ആസാദ്`, `മഹാത്മാ ഗാന്ധി`, `ഡോ. ബി.ആർ. അംബേദ്കർ`).
+- Use `INDIAN_WOMEN_POOL` in `option_type_utils.py` for distractors.
+
+Detection code: `woman_q_male_distractors` via `is_woman_question()` + `is_male_person_option()`.
+
+## Banned recycled filler (wrong options outside symbol questions)
+
+Never use as distractors on definition or person questions:
+
+- `ആൽമരം`, `താമര`, `മാമ്പഴം`, `മയിൽ`, `കടുവ`, `പേരാൽ`
+- Unrelated Western inventors on Indian-person questions (`എഡ്വേഡ് ജെന്നർ`, `ഗുട്ടൻബർഗ്`, `ഫ്ലെമിംഗ്`)
+- Calendar labels (`ശക കലണ്ടർ`) on person questions
+
+**Smell test**: if any wrong option is a national symbol but the question is not asking for a national symbol, rewrite all four options.
+
+## Typed distractor pools (`option_type_utils.py`)
+
+| Kind | Pool | Use when |
+|------|------|----------|
+| Award definition | `AWARD_DEFINITION_POOL` | `എന്ന് പറയുന്നത് എന്ത്?` + `സിവിലിയൻ ബഹുമതി` answer |
+| Indian person | `INDIAN_NOTABLE_PERSONS` | `ഇന്ത്യ` / `ഭാരത` + `ആര്?` |
+| Indian woman | `INDIAN_WOMEN_POOL` | `വനിത ` / `വനിതാ` / `അധ്യക്ഷയായ` in stem (not `ശാസ്ത്രീയ`) |
+| Inventor | `INVENTOR_POOL` | `കണ്ടുപിടിച്ചത് ആര്?` |
+| Mountaineer | `MOUNTAINEER_POOL` | `എവറസ്റ്റ്` + `ആര്?` |
+
+Detection: `definition_q_symbol_distractors`, `person_q_symbol_distractors`, `indian_person_q_inventor_distractors`, **`woman_q_male_distractors`**.
+
+## Enforcement
+
+| Tool | Role |
+|------|------|
+| `option_type_utils.py` | Detects symbol/inventor mismatches; `suggest_distractors()` |
+| `fix_option_mismatch.py` | Auto-repair JSON via `build_options()` |
+| `validate_questions.py` | Flags `option_type_mismatch:*` and Malayalam stem leaks |
+
+### After any basic GK edit
+
+```bash
+python3 validate_questions.py basic_general_knowledge.json
+python3 fix_option_mismatch.py basic_general_knowledge.json
+python3 apply_malayalam_rules.py basic_general_knowledge.json
+```
+
+## Checklist
+
+- [ ] Definition questions use parallel award-rank descriptions only
+- [ ] Person questions use same-category names (no symbols, no random inventors)
+- [ ] Woman-specific questions: **all four options are women** — no men (`woman_q_male_distractors`)
+- [ ] No English fragments in Malayalam stems (`ഡenmark` → `ഡെൻമാർക്കിന്റെ`)
+- [ ] `python3 validate_questions.py basic_general_knowledge.json` → exit 0

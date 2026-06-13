@@ -10,11 +10,14 @@ from collections import Counter
 from pathlib import Path
 
 from apply_malayalam_rules import validate_file as malayalam_issues
+from option_type_utils import option_type_mismatch
 
 BASE = Path(__file__).parent
 SKIP = {"english_language.json", "current_affairs_manifest.json"}
 
 FILLER_PATTERNS = [
+    re.compile(r"^വർഷം .+ ഏത് ദശാബ്ദത്തിൽ\?$"),
+    re.compile(r"^വർഷം .+ ഏത് നൂറ്റാണ്ടിലാണ്\?$"),
     re.compile(r"ഏത് ചോദ്യത്തിന്റെ ഉത്തരമാണ്"),
     re.compile(r"ഉത്തരമുള്ള ചോദ്യം"),
     re.compile(r"പ്രദേശം-\d+"),
@@ -76,6 +79,16 @@ def filler_issues(q: dict, qid: str) -> list[tuple[str, str]]:
         if pat.search(text):
             out.append((qid, f"filler:{pat.pattern[:40]}"))
     return out
+
+
+def option_mismatch_issues(q: dict, qid: str) -> list[tuple[str, str]]:
+    stem = q.get("question", "")
+    opts = q.get("options", [])
+    ans = q.get("answer", "")
+    code = option_type_mismatch(stem, opts, ans)
+    if code:
+        return [(qid, f"option_type_mismatch:{code}")]
+    return []
 
 
 def fact_trap_issues(q: dict, qid: str) -> list[tuple[str, str]]:
@@ -153,6 +166,7 @@ def validate_json_file(path: Path, global_stems: Counter[str]) -> dict:
         for code, detail in (
             structural_issues(q, qid)
             + filler_issues(q, qid)
+            + option_mismatch_issues(q, qid)
             + fact_trap_issues(q, qid)
             + english_language_issues(q, qid, path.name)
         ):

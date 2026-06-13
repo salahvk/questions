@@ -1,0 +1,113 @@
+---
+description: Astronomy quiz standards — option types, mission goals, global pool ban, ISRO facts
+globs: "astronomy.json,refill_astronomy_unique.py,fix_astronomy_option_mismatch.py,option_type_utils.py"
+alwaysApply: false
+---
+
+# Astronomy Question Standards (`astronomy.json`)
+
+Applies when editing **`astronomy.json`**, **`refill_astronomy_unique.py`**, or astronomy rows in **`option_type_utils.py`**.
+
+Cross-read: **option type rules** in `malayalam-questions.mdc` §Option type coherence; **fact verification** in `question-fact-validation.mdc`.
+
+## Root cause (bulk generation)
+
+`refill_astronomy_unique.py` `final_facts` block historically used `pick3(ff_ans, ans)` — a **global answer pool** across unrelated facts. Periods (`365 ദിവസം`), years (`2019`), directions, AU values, and mission labels were mixed as distractors for unrelated question types.
+
+**Never save** without checking all four options match the question type.
+
+## Option type coherence (mandatory)
+
+| Question stem pattern | Answer type | Options must be | Never use as distractors |
+|-----------------------|-------------|-----------------|---------------------------|
+| `ദൗത്യ ലക്ഷ്യം?` | Mission **target** (`സൂര്യൻ`, `മനുഷ്യ ബഹിരാകാശ യാത്ര`) | Other mission targets / bodies | Periods (`365 ദിവസം`), years, speeds, AU, `മൈക്രോഗ്രാവിറ്റി` |
+| `ദൗത്യ തരം?` | Mission **type** (`എക്സ്-റേ പോളാരിമെട്രി`, `നാവിഗേഷൻ`) | Other mission types | Periods, years, speeds, directions |
+| `ലാൻഡർ പേര്?` / `റോവർ പേര്?` | Lander/rover **name** | Other lander/rover names | AU, periods, years, directions |
+| `മൊഡ്യുൾ` (ISS) | Module **name** (`Zarya`, `കുവോൺ`, `നൗക`) | Other module names | Mission names (`ചന്ദ്രയാൻ-3`), mission types, measurements |
+| `ഇറങ്ങിയ ചന്ദ്ര ഭാഗം` / `ഇറങ്ങിയ ചൊവ്വാ പ്രദേശം` | Landing **site** | Other landing sites | Periods, AU, planet names |
+| `ആരാണ്?` (space person) | Person name | Other astronomers/astronauts | Planets, periods, years |
+| Period / cycle (`ഇടവേള`, `കാലം`, `ഭ്രമണകാലം`) | Period | Other periods | Calendar years, directions, mission labels |
+| Distance (`AU`, `പ്രകാശവർഷം`) | Distance (same unit) | Other distances | Periods, planet names, years |
+| Direction of rotation | Direction phrase | Other directions | Years, navigation terms |
+
+### Valid vs invalid — mission questions
+
+```text
+❌ ഗഗന്യാൻ ദൗത്യ ലക്ഷ്യം?
+   → മനുഷ്യ ബഹിരാകാശ യാത്ര + 365 ദിവസം + 225 ദിവസം + മൈക്രോഗ്രാവിറ്റി
+
+✅ ഗഗന്യാൻ ദൗത്യ ലക്ഷ്യം?
+   → മനുഷ്യ ബഹിരാകാശ യാത്ര (with സൂര്യൻ, ചന്ദ്രൻ, ഭൂമി, മംഗൾ ഗ്രഹം)
+
+❌ XPoSat ദൗത്യ തരം?
+   → എക്സ്-റേ പോളാരിമെട്രി + 1-2 വർഷം + 365 ദിവസം
+
+✅ XPoSat ദൗത്യ തരം?
+   → എക്സ്-റേ പോളാരിമെട്രി (with നാവിഗേഷൻ, ഭൂമി നിരീക്ഷണം, റഡാർ ഇമേജിംഗ്)
+
+❌ ചന്ദ്രയാൻ-3 ലാൻഡർ പേര്?
+   → വിക്രം + 2023 + 248 വർഷം + കിഴക്കുനിന്ന് പടിഞ്ഞാറോട്ട്
+
+✅ ചന്ദ്രയാൻ-3 ലാൻഡർ പേര്?
+   → വിക്രം (with പ്രജ്ഞാൻ, പെർസിവറൻസ്, ക്യൂരിയോസിറ്റി)
+```
+
+## Global pool ban (generator)
+
+In `refill_astronomy_unique.py`:
+
+- **Never** `pick3(all_answers, correct)` across `final_facts` or any mixed fact list
+- **Always** `pick3_typed(pool_by_kind, …, stem)` with `astronomy_answer_kind(ans, stem)`
+- **Always** fall back to `suggest_astronomy_distractors(correct, rng, stem)` — stem-aware pools in `option_type_utils.py`
+
+## Typed distractor pools (`option_type_utils.py`)
+
+| Kind | Pool constant | Use when |
+|------|---------------|----------|
+| `mission_goal` | `ASTRO_MISSION_GOAL_POOL` | `ദൗത്യ ലക്ഷ്യം` |
+| `mission_type` | `ASTRO_MISSION_TYPE_POOL` | `ദൗത്യ തരം` |
+| `lander_name` | `ASTRO_LANDER_POOL` | `ലാൻഡർ പേര്` / `റോവർ പേര്` |
+| `module_name` | `ASTRO_MODULE_POOL` | ISS `മൊഡ്യുൾ` |
+| `landing_site` | `ASTRO_LANDING_SITE_POOL` | Apollo/Mars landing site questions |
+| `person` | `ASTRO_PERSON_POOL` | `ആരാണ്?` in space/ISRO context |
+
+Detection code: `astronomy_option_mismatch()` → `astro_descriptive_q_measurement_distractors` when descriptive stems get period/year/speed/AU distractors.
+
+## Enforcement
+
+| Tool | Role |
+|------|------|
+| `option_type_utils.py` | `astronomy_answer_kind()`, `astronomy_option_mismatch()`, `suggest_astronomy_distractors()` |
+| `validate_questions.py` | Flags `option_type_mismatch:astro_*` |
+| `fix_astronomy_option_mismatch.py` | Auto-repair via `build_options()` |
+| `refill_astronomy_unique.py` | Source generator — `pick3_typed()` with stem |
+
+### After any astronomy edit
+
+```bash
+python3 validate_questions.py astronomy.json
+python3 fix_astronomy_option_mismatch.py   # if bulk-fixing option types
+python3 apply_malayalam_rules.py astronomy.json
+```
+
+Full repo before merge:
+
+```bash
+python3 validate_questions.py
+python3 apply_malayalam_rules.py
+```
+
+### Audit grep (measurement on descriptive questions)
+
+```bash
+rg "ദൗത്യ ലക്ഷ്യം|ദൗത്യ തരം|ലാൻഡർ പേര്|റോവർ പേര്" astronomy.json | head
+# Then spot-check those rows: no option should contain ദിവസം|വർഷം|AU|കി.മീ./സെ. unless the question asks for that measurement
+```
+
+## Checklist (every astronomy session)
+
+- [ ] All four options same semantic type as answer (period / distance / mission goal / mission type / person / lander / module / site)
+- [ ] No periods, years, speeds, or AU on `ലക്ഷ്യം`, `തരം`, `പേര്`, `മൊഡ്യുൾ`, `ആരാണ്` questions
+- [ ] Generator uses `pick3_typed(..., stem)` — never global `pick3(ff_ans, ans)`
+- [ ] `python3 validate_questions.py astronomy.json` → exit 0
+- [ ] `python3 fix_astronomy_option_mismatch.py` → exit 0 after bulk edits

@@ -82,10 +82,26 @@ def pick3(pool: list[str], correct: str) -> list[str]:
     choices = list(dict.fromkeys(x for x in pool if x != correct))
     random.shuffle(choices)
     while len(choices) < 3:
-        for x in ["ബുധൻ", "ശുക്രൻ", "ഭൂമി", "ചൊവ്വ", "വ്യാഴം", "ശനി", "1957", "1969", "2023"]:
+        for x in ["ബുധൻ", "ശുക്രൻ", "ഭൂമി", "ചൊവ്വ", "വ്യാഴം", "ശനി"]:
             if x != correct and x not in choices:
                 choices.append(x)
     return choices[:3]
+
+
+def pick3_typed(
+    pool_by_kind: dict[str, list[str]],
+    all_answers: list[str],
+    correct: str,
+    stem: str = "",
+) -> list[str]:
+    """Pick distractors from same semantic pool as correct answer."""
+    from option_type_utils import astronomy_answer_kind, suggest_astronomy_distractors
+
+    kind = astronomy_answer_kind(correct, stem)
+    typed = pool_by_kind.get(kind)
+    if typed and len(typed) >= 4:
+        return pick3(typed, correct)
+    return suggest_astronomy_distractors(correct, random.Random(42), stem)
 
 
 def build_unique_candidates(existing: set[str]) -> list[tuple[str, list[str], str, str]]:
@@ -1753,8 +1769,17 @@ def generate_expansion_bulk(existing: set[str], out: list) -> None:
         ("ഓപ്പർച്യൂണിറ്റി ഇറങ്ങിയ ചൊവ്വാ പ്രദേശം","മെരിഡിയാനി പ്ലാനം"),
     ]
     ff_ans = [f[1] for f in final_facts]
+    from option_type_utils import astronomy_answer_kind, suggest_astronomy_distractors
+
+    pool_by_kind: dict[str, list[str]] = {}
     for stem, ans in final_facts:
-        add_candidate(out, existing, f"{stem}?", [ans] + pick3(ff_ans, ans), ans, "hard")
+        k = astronomy_answer_kind(ans, stem)
+        pool_by_kind.setdefault(k, [])
+        if ans not in pool_by_kind[k]:
+            pool_by_kind[k].append(ans)
+    for stem, ans in final_facts:
+        wrong = pick3_typed(pool_by_kind, ff_ans, ans, stem)
+        add_candidate(out, existing, f"{stem}?", [ans] + wrong, ans, "hard")
 
 
 def main() -> None:

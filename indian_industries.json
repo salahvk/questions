@@ -1,1279 +1,7 @@
 {
   "questions": [
     {
-      "id": "ind_0111",
-      "question": "DRDO ആസ്ഥാനം?",
-      "options": [
-        "Guwahati",
-        "Pune മാത്രം",
-        "ന്യൂഡൽഹി",
-        "കൊച്ചി"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0079",
-      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ ആധുനിക ഉരുക്കു നഗരം എന്നു പറയപ്പെടുന്നത് ഏത്?",
-      "options": [
-        "ദുർഗാപുർ",
-        "റൂർക്കേള",
-        "ഭിലായി",
-        "ജംഷെഡ്പുർ"
-      ],
-      "answer": "ജംഷെഡ്പുർ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0018",
-      "question": "Visakhapatnam-Chennai Industrial Corridor in which state mostly?",
-      "options": [
-        "പഞ്ചാബ്",
-        "രാജസ്ഥാൻ",
-        "ആന്ധ്രപ്രദേശ്",
-        "കേരളം"
-      ],
-      "answer": "ആന്ധ്രപ്രദേശ്",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0080",
-      "question": "കൽക്കരി ഇന്ത്യ ലിമിറ്റഡ് ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ന്യൂഡൽഹി",
-        "കൊൽക്കത്ത",
-        "മുംബൈ",
-        "റാഞ്ചി"
-      ],
-      "answer": "കൊൽക്കത്ത",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0066",
-      "question": "ദേശീയ നിക്ഷേപ-നിർമ്മാണ മേഖലാ സോണുകൾ നയം പ്രഖ്യാപിച്ച വർഷം?",
-      "options": [
-        "2011",
-        "2015",
-        "1990",
-        "2000"
-      ],
-      "answer": "2011",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0057",
-      "question": "കയർ വ്യവസായത്തിന്റെ പ്രധാന സംസ്ഥാനം?",
-      "options": [
-        "രാജസ്ഥാൻ",
-        "കേരളം",
-        "ഹിമാചൽ",
-        "പഞ്ചാബ്"
-      ],
-      "answer": "കേരളം",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0078",
-      "question": "ചർമ്മ വ്യവസായത്തിന്റെ പ്രധാന കേന്ദ്രം ഏതാണ്?",
-      "options": [
-        "Shimla",
-        "Kanpur/Chennai",
-        "Panaji",
-        "Gangtok"
-      ],
-      "answer": "Kanpur/Chennai",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0017",
-      "question": "ബെംഗളൂരു ഐടി നാഗരികതയുടെ വിളിപ്പേര്?",
-      "options": [
-        "സ്റ്റീൽ നഗരം",
-        "പിങ്ക് നഗരം",
-        "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
-        "ഇന്ത്യയുടെ ഡിട്രോയിറ്റ്"
-      ],
-      "answer": "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0053",
-      "question": "GAIL Ltd ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ന്യൂഡൽഹി",
-        "ഗുരുഗ്രാം",
-        "നോയ്ഡ",
-        "മുംബൈ"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0068",
-      "question": "BEML PSU പ്രധാന മേഖല?",
-      "options": [
-        "ചലച്ചിത്രം",
-        "Pharma",
-        "സഞ്ചാരം മാത്രം",
-        "ഭാരമുള്ള ഉപകരണങ്ങൾ"
-      ],
-      "answer": "ഭാരമുള്ള ഉപകരണങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0109",
-      "question": "SAILയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ന്യൂഡൽഹി",
-        "റൂർക്കേള",
-        "കൊൽക്കത്ത",
-        "ഭിലായി"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0077",
-      "question": "ഫാർമസ്യൂട്ടിക്കൽ വ്യവസായ കേന്ദ്രമായി ഹൈദരാബാദിനെ വിളിക്കുന്നത് എന്ത്?",
-      "options": [
-        "ബൾക്ക് ഡ്രഗ്/ഫാർമ ഹബ്",
-        "ടെക്സ്റ്റൈൽ ഹബ്",
-        "ഷിപ്പ് ബിൽഡിംഗ് ഹബ്",
-        "കൽക്കരി ഹബ്"
-      ],
-      "answer": "ബൾക്ക് ഡ്രഗ്/ഫാർമ ഹബ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0044",
-      "question": "NALCOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "കൊൽക്കത്ത",
-        "റാഞ്ചി",
-        "ഭുവനേശ്വർ",
-        "ന്യൂഡൽഹി"
-      ],
-      "answer": "ഭുവനേശ്വർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0020",
-      "question": "NTPCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "റായ്പുർ",
-        "ഭുവനേശ്വർ",
-        "ന്യൂഡൽഹി",
-        "വിശാഖപട്ടണം"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0030",
-      "question": "ഹിന്ദുസ്ഥാൻ പെട്രോളിയം ആസ്ഥാന നഗരം?",
-      "options": [
-        "മുംബൈ",
-        "ഡൽഹി",
-        "ചെന്നൈ",
-        "കൊൽക്കത്ത"
-      ],
-      "answer": "മുംബൈ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0085",
-      "question": "IOCL PSU പ്രധാന മേഖല?",
-      "options": [
-        "ബഹിരാകാശം",
-        "സഞ്ചാരം",
-        "പ്രതിരോധം മാത്രം",
-        "എണ്ണ ശുദ്ധീകരണം/വിപണനം"
-      ],
-      "answer": "എണ്ണ ശുദ്ധീകരണം/വിപണനം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0095",
-      "question": "സ്പൈസസ് ബോർഡ് ആസ്ഥാനം?",
-      "options": [
-        "ചെന്നൈ",
-        "ഡൽഹി",
-        "മുംബൈ",
-        "കൊച്ചി"
-      ],
-      "answer": "കൊച്ചി",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0088",
-      "question": "ബോക്കാരോ സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
-      "options": [
-        "മധ്യപ്രദേശ്",
-        "ചത്തീസ്ഗഢ്",
-        "ഝാർഖണ്ഡ്",
-        "ഒഡീഷ"
-      ],
-      "answer": "ഝാർഖണ്ഡ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0035",
-      "question": "കൈവേല വ്യവസായ മേഖലയിലെ പ്രധാന കയറ്റുമതി വസ്തു ഏതാണ്?",
-      "options": [
-        "Iron ore മാത്രം",
-        "Coal",
-        "Oil മാത്രം",
-        "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ"
-      ],
-      "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0031",
-      "question": "റബ്ബർ ബോർഡ് ആസ്ഥാനം?",
-      "options": [
-        "ഡൽഹി",
-        "മുംബൈ",
-        "Kottayam",
-        "ചെന്നൈ"
-      ],
-      "answer": "Kottayam",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0122",
-      "question": "ദേശീയ വ്യാവസായിക കോറിഡോർ വികസന പരിപാടിയുടെ നോഡൽ ഏജൻസി ഏതാണ്?",
-      "options": [
-        "Home",
-        "Defence Ministry",
-        "External Affairs",
-        "DPIIT"
-      ],
-      "answer": "DPIIT",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0058",
-      "question": "BPCLയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "മുംബൈ",
-        "പൂനെ",
-        "അഹമ്മദാബാദ്",
-        "ന്യൂഡൽഹി"
-      ],
-      "answer": "മുംബൈ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0022",
-      "question": "NLC India PSU പ്രധാന മേഖല?",
-      "options": [
-        "ചലച്ചിത്രം",
-        "സഞ്ചാരം",
-        "Software",
-        "ലിഗ്നൈറ്റ് ഖനനം/വിദ്യുത്"
-      ],
-      "answer": "ലിഗ്നൈറ്റ് ഖനനം/വിദ്യുത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0036",
-      "question": "Leather industry hub?",
-      "options": [
-        "Shimla",
-        "Panaji",
-        "Gangtok",
-        "Kanpur/Chennai"
-      ],
-      "answer": "Kanpur/Chennai",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0070",
-      "question": "Indian Railways manufacturing unit Chittaranjan makes?",
-      "options": [
-        "Ships മാത്രം",
-        "Aircraft",
-        "Locomotives",
-        "Mobile phones"
-      ],
-      "answer": "Locomotives",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0062",
-      "question": "ദുർഗാപുർ സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
-      "options": [
-        "ഒഡീഷ",
-        "ഉത്തർപ്രദേശ്",
-        "പശ്ചിമ ബംഗാൾ",
-        "ബിഹാർ"
-      ],
-      "answer": "പശ്ചിമ ബംഗാൾ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0118",
-      "question": "NLC Indiaയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ചെന്നൈ",
-        "ബെംഗളൂരു",
-        "കോയമ്പത്തൂർ",
-        "ഹൈദരാബാദ്"
-      ],
-      "answer": "ചെന്നൈ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0099",
-      "question": "BEL PSU പ്രധാന മേഖല?",
-      "options": [
-        "മത്സ്യബന്ധനം",
-        "സഞ്ചാരം",
-        "പ്രതിരോധ ഇലക്ട്രോണിക്സ്",
-        "Textiles"
-      ],
-      "answer": "പ്രതിരോധ ഇലക്ട്രോണിക്സ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0023",
-      "question": "Chennai-Bengaluru Industrial Corridorയിൽ ഉൾപ്പെടുന്ന രണ്ടു പ്രധാന നഗരങ്ങൾ ഏതൊക്കെ?",
-      "options": [
-        "ഹൈദരാബാദും പൂനെയും",
-        "ബെംഗളൂരും മുംബൈയും",
-        "ചെന്നൈയും ബെംഗളൂരുമ്",
-        "ചെന്നൈയും കൊച്ചി"
-      ],
-      "answer": "ചെന്നൈയും ബെംഗളൂരുമ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0112",
-      "question": "Petrochemical hub Panipat in?",
-      "options": [
-        "കേരളം",
-        "ഗോവ",
-        "Tamil Nadu",
-        "ഹരിയാന"
-      ],
-      "answer": "ഹരിയാന",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0002",
-      "question": "Industrial Development Bank of India now known as?",
-      "options": [
-        "PNB",
-        "HDFC",
-        "IDBI Bank",
-        "SBI"
-      ],
-      "answer": "IDBI Bank",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0043",
-      "question": "BHELയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "റാഞ്ചി",
-        "ഭോപ്പാൽ",
-        "ന്യൂഡൽഹി",
-        "ഹൈദരാബാദ്"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0048",
-      "question": "Goa Shipyard in?",
-      "options": [
-        "വാസ്കോ ഡ ഗാമ",
-        "ചെന്നൈ",
-        "Panaji മാത്രം",
-        "ഡൽഹി"
-      ],
-      "answer": "വാസ്കോ ഡ ഗാമ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0004",
-      "question": "Delhi-Mumbai Industrial Corridor (DMIC) ബന്ധിപ്പിക്കുന്ന പ്രധാന നഗരങ്ങൾ ഏതൊക്കെ?",
-      "options": [
-        "മുംബൈയും കൊൽക്കത്തയും",
-        "ചെന്നൈയും ബെംഗളൂരുമ്",
-        "ഡൽഹിയും മുംബൈയും",
-        "ഡൽഹിയും ചെന്നൈയും"
-      ],
-      "answer": "ഡൽഹിയും മുംബൈയും",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0027",
-      "question": "MSME definition micro enterprise investment limit (manufacturing approx)?",
-      "options": [
-        "₹100 crore",
-        "₹1000 crore",
-        "₹2.5 crore",
-        "₹500 crore"
-      ],
-      "answer": "₹2.5 crore",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0101",
-      "question": "Production Linked Incentive first sector?",
-      "options": [
-        "ചലച്ചിത്രം",
-        "Coal",
-        "മൊബൈൽ നിർമ്മാണം",
-        "മത്സ്യബന്ധനം"
-      ],
-      "answer": "മൊബൈൽ നിർമ്മാണം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0106",
-      "question": "Bengaluru-Mumbai Economic Corridorയുടെ ചുരുക്കരൂപം എന്ത്?",
-      "options": [
-        "BMEC",
-        "DMIC",
-        "ECGC",
-        "AKIC"
-      ],
-      "answer": "BMEC",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0065",
-      "question": "വിശാഖപട്ടണം സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
-      "options": [
-        "കർണാടക",
-        "ഒഡീഷ",
-        "തമിഴ്നാട്",
-        "ആന്ധ്രപ്രദേശ്"
-      ],
-      "answer": "ആന്ധ്രപ്രദേശ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0032",
-      "question": "പെട്രോകെമിക്കൽ ഹബ് പാനിപട്ട് ഏത് സംസ്ഥാനത്തിലാണ്?",
-      "options": [
-        "കേരളം",
-        "Tamil Nadu",
-        "ഗോവ",
-        "ഹരിയാന"
-      ],
-      "answer": "ഹരിയാന",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0081",
-      "question": "NTPC PSU പ്രധാന മേഖല?",
-      "options": [
-        "Textiles",
-        "മത്സ്യബന്ധനം",
-        "ചലച്ചിത്രം",
-        "വിദ്യുത് ഉൽപ്പാദനം"
-      ],
-      "answer": "വിദ്യുത് ഉൽപ്പാദനം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0064",
-      "question": "MSME-യിൽ സൂക്ഷ്മ സംരംഭത്തിന്റെ നിക്ഷേപ പരിധി (നിർമ്മാണം, ഏതാണ്ട്) എത്ര?",
-      "options": [
-        "₹1000 crore",
-        "₹2.5 crore",
-        "₹500 crore",
-        "₹100 crore"
-      ],
-      "answer": "₹2.5 crore",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0024",
-      "question": "BEL ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ചെന്നൈ",
-        "ബെംഗളൂരു",
-        "ഹൈദരാബാദ്",
-        "പൂനെ"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0028",
-      "question": "Hindustan Shipyard located in?",
-      "options": [
-        "കൊച്ചി",
-        "മുംബൈ",
-        "ചെന്നൈ",
-        "വിശാഖപട്ടണം"
-      ],
-      "answer": "വിശാഖപട്ടണം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0055",
-      "question": "ചെന്നൈ-ബെംഗളൂരു വ്യാവസായിക കോറിഡോർ ഏതിന്റെ ഭാഗമാണ്?",
-      "options": [
-        "DMIC മാത്രം",
-        "Himalayan corridor",
-        "East Coast Economic Corridor",
-        "ഒന്നുമില്ല"
-      ],
-      "answer": "East Coast Economic Corridor",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0086",
-      "question": "Mazagon Dock Shipbuilders in?",
-      "options": [
-        "ചെന്നൈ",
-        "ഡൽഹി",
-        "മുംബൈ",
-        "കൊച്ചി"
-      ],
-      "answer": "മുംബൈ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0015",
-      "question": "SEZ എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
-      "options": [
-        "Special Economic Zone",
-        "Strategic Export Zone",
-        "Social Enterprise Zone",
-        "State Economic Zone"
-      ],
-      "answer": "Special Economic Zone",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0026",
-      "question": "Power Grid Corporation ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "മുംബൈ",
-        "ന്യൂഡൽഹി",
-        "ചണ്ഡീഗഢ്",
-        "ഗുരുഗ്രാം"
-      ],
-      "answer": "ഗുരുഗ്രാം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0076",
-      "question": "NALCO ആസ്ഥാനം?",
-      "options": [
-        "Bhubaneswar",
-        "ചെന്നൈ",
-        "മുംബൈ",
-        "ഡൽഹി"
-      ],
-      "answer": "Bhubaneswar",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0029",
-      "question": "ഇന്ത്യയിലെ ആദ്യ കയറ്റുമതി പ്രോസസ്സിംഗ് മേഖല (പിന്നീട് SEZ മാതൃക) ഏത്?",
-      "options": [
-        "സാന്താക്രൂസ്",
-        "കൊച്ചി",
-        "കാണ്ട്ല",
-        "നോയ്ഡ"
-      ],
-      "answer": "കാണ്ട്ല",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0033",
-      "question": "Bengaluru-Mumbai Industrial Corridor states include?",
-      "options": [
-        "കർണാടകയും മഹാരാഷ്ട്രയും",
-        "പഞ്ചാബ് മാത്രം",
-        "കേരളം മാത്രം",
-        "അസം മാത്രം"
-      ],
-      "answer": "കർണാടകയും മഹാരാഷ്ട്രയും",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0050",
-      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ പെട്രോകെമിക്കൽ റിഫൈനറി ഏതാണ്?",
-      "options": [
-        "കൊച്ചി റിഫൈനറി",
-        "മുംബൈ റിഫൈനറി",
-        "വിശാഖപട്ടണം റിഫൈനറി",
-        "മഥുര റിഫൈനറി"
-      ],
-      "answer": "മുംബൈ റിഫൈനറി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0102",
-      "question": "ONGC PSU പ്രധാന മേഖല?",
-      "options": [
-        "റെയിൽവേ",
-        "Post office",
-        "എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണം",
-        "സഞ്ചാരം"
-      ],
-      "answer": "എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0013",
-      "question": "MIDHANI PSU പ്രധാന മേഖല?",
-      "options": [
-        "സഞ്ചാരം",
-        "Textiles",
-        "പ്രത്യേക ലോഹങ്ങൾ/ലേഹകങ്ങൾ",
-        "മത്സ്യബന്ധനം"
-      ],
-      "answer": "പ്രത്യേക ലോഹങ്ങൾ/ലേഹകങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0006",
-      "question": "Visakhapatnam-Chennai Industrial Corridorയുടെ ചുരുക്കരൂപം എന്ത്?",
-      "options": [
-        "VCIC",
-        "CBEC",
-        "AKIC",
-        "BMEC"
-      ],
-      "answer": "VCIC",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0098",
-      "question": "ടാറ്റാ സ്റ്റീൽ പ്രധാന പ്ലാന്റ് എവിടെ?",
-      "options": [
-        "ജയ്പ്പൂർ",
-        "Shimla",
-        "ജാംഷെഡ്പൂർ",
-        "Panaji"
-      ],
-      "answer": "ജാംഷെഡ്പൂർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0007",
-      "question": "ബെംഗളൂരു-മുംബൈ വ്യാവസായിക കോറിഡോറിൽ ഉൾപ്പെടുന്ന സംസ്ഥാനങ്ങൾ ഏതൊക്കെ?",
-      "options": [
-        "കർണാടകയും മഹാരാഷ്ട്രയും",
-        "അസം മാത്രം",
-        "പഞ്ചാബ് മാത്രം",
-        "കേരളം മാത്രം"
-      ],
-      "answer": "കർണാടകയും മഹാരാഷ്ട്രയും",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0073",
-      "question": "ONGCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ദേഹറാദൂൺ",
-        "ന്യൂഡൽഹി",
-        "മുംബൈ",
-        "അഹമ്മദാബാദ്"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0124",
-      "question": "TCS കമ്പനിയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "മുംബൈ",
-        "ചെന്നൈ",
-        "ബെംഗളൂരു",
-        "ഹൈദരാബാദ്"
-      ],
-      "answer": "മുംബൈ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0069",
-      "question": "ഭിലായി സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
-      "options": [
-        "ഝാർഖണ്ഡ്",
-        "ഛത്തീസ്ഗഢ്",
-        "ഒഡീഷ",
-        "പശ്ചിമ ബംഗാൾ"
-      ],
-      "answer": "ഛത്തീസ്ഗഢ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0105",
-      "question": "SAIL PSU പ്രധാന മേഖല?",
-      "options": [
-        "Software",
-        "സഞ്ചാരം",
-        "Pharma മാത്രം",
-        "ഉരുക്ക്"
-      ],
-      "answer": "ഉരുക്ക്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0097",
-      "question": "Amritsar-Kolkata Industrial Corridorയുടെ ചുരുക്കരൂപം എന്ത്?",
-      "options": [
-        "CBIC",
-        "AKIC",
-        "DMIC",
-        "VCIC"
-      ],
-      "answer": "AKIC",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0060",
-      "question": "ഐടി വ്യവസായത്തിന്റെ പ്രധാന കേന്ദ്രമായി അറിയപ്പെടുന്ന ഇന്ത്യൻ നഗരം ഏത്?",
-      "options": [
-        "ജയ്പുർ",
-        "ഭോപ്പാൽ",
-        "ബെംഗളൂരു",
-        "പാറ്റ്ന"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0123",
-      "question": "ഇന്ത്യയിലെ ആദ്യ എക്സ്പോർട്ട് പ്രോസസ്സിംഗ് സോൺ?",
-      "options": [
-        "കാന്ദ്ല",
-        "കൊച്ചി",
-        "ഡൽഹി",
-        "ചെന്നൈ"
-      ],
-      "answer": "കാന്ദ്ല",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0038",
-      "question": "റൂർക്കേള സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
-      "options": [
-        "ആന്ധ്രപ്രദേശ്",
-        "ഝാർഖണ്ഡ്",
-        "ഒഡീഷ",
-        "ഛത്തീസ്ഗഢ്"
-      ],
-      "answer": "ഒഡീഷ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0115",
-      "question": "സോഫ്റ്റ്‌വെയർ ടെക്നോളജി പാർക്സ് ഓഫ് ഇന്ത്യ (STPI) സ്ഥാപിതമായ വർഷം?",
-      "options": [
-        "2015",
-        "1980",
-        "2005",
-        "1991"
-      ],
-      "answer": "1991",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0021",
-      "question": "NHPC PSU പ്രധാന മേഖല?",
-      "options": [
-        "ജലവിദ്യുത്",
-        "Textiles",
-        "Coal",
-        "ചലച്ചിത്രം"
-      ],
-      "answer": "ജലവിദ്യുത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0012",
-      "question": "ഡൽഹി-മുംബൈ വ്യാവസായിക കോറിഡോർ (DMIC) ഏതാണ്ട് നീളമുള്ളതാണ്?",
-      "options": [
-        "500 km",
-        "200 km",
-        "3000 km",
-        "1500 km"
-      ],
-      "answer": "1500 km",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0042",
-      "question": "Make in India പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
-      "options": [
-        "2018",
-        "2012",
-        "2014",
-        "2010"
-      ],
-      "answer": "2014",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0067",
-      "question": "ഇന്ത്യാ വ്യാവസായിക വികസന ബാങ്ക് ഇപ്പോൾ എന്ത് പേരിലാണ് അറിയപ്പെടുന്നത്?",
-      "options": [
-        "HDFC",
-        "IDBI Bank",
-        "PNB",
-        "SBI"
-      ],
-      "answer": "IDBI Bank",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0046",
-      "question": "ജാമ്നഗർ ലോകപ്രശസ്തമായത് ഏത് വ്യവസായത്തിനാണ്?",
-      "options": [
-        "കാഗിത നിർമ്മാണം",
-        "നൂൽ നെയ്ത്ത്",
-        "വിമാന നിർമ്മാണം",
-        "പെട്രോളിയം റിഫൈനിംഗ്"
-      ],
-      "answer": "പെട്രോളിയം റിഫൈനിംഗ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0052",
-      "question": "ഹൈദരാബാദ് ഫാർമ ക്ലസ്റ്ററിന്റെ വിളിപ്പേര്?",
-      "options": [
-        "നീല നഗരം",
-        "ബൾക്ക് ഡ്രഗ് തലസ്ഥാനം",
-        "Pink city",
-        "Steel city"
-      ],
-      "answer": "ബൾക്ക് ഡ്രഗ് തലസ്ഥാനം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0082",
-      "question": "National Industrial Corridor Development Programme nodal?",
-      "options": [
-        "Defence Ministry",
-        "DPIIT",
-        "External Affairs",
-        "Home"
-      ],
-      "answer": "DPIIT",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0009",
-      "question": "അമൃത്സർ-കൊൽക്കത്ത വ്യാവസായിക കോറിഡോർ ഏതിനൊപ്പം സമാന്തരമായി വ്യാപിക്കുന്നു?",
-      "options": [
-        "ഒന്നുമില്ല",
-        "Coastal road മാത്രം",
-        "Western DFC മാത്രം",
-        "Eastern Dedicated Freight Corridor"
-      ],
-      "answer": "Eastern Dedicated Freight Corridor",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0094",
-      "question": "Hindustan Copper ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ന്യൂഡൽഹി",
-        "റാഞ്ചി",
-        "ജയ്പുർ",
-        "കൊൽക്കത്ത"
-      ],
-      "answer": "കൊൽക്കത്ത",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0116",
-      "question": "ടെക്സ്റ്റൈൽ വ്യവസായ കേന്ദ്രമായ തിരുപ്പൂര് എന്തിന് പ്രസിദ്ധമാണ്?",
-      "options": [
-        "Coal",
-        "നിറ്റ്വെയർ കയറ്റുമതി",
-        "Oil refining",
-        "ബഹിരാകാശം"
-      ],
-      "answer": "നിറ്റ്വെയർ കയറ്റുമതി",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0011",
-      "question": "ഇന്ത്യൻ ഓയിലിന്റെ ശുദ്ധീകരണശാലകളുടെ എണ്ണം (ഏതാണ്ട്) എത്ര?",
-      "options": [
-        "2",
-        "50",
-        "100",
-        "10+"
-      ],
-      "answer": "10+",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0084",
-      "question": "Textile industry major cluster Tiruppur known for?",
-      "options": [
-        "Oil refining",
-        "Coal",
-        "ബഹിരാകാശം",
-        "നിറ്റ്വെയർ കയറ്റുമതി"
-      ],
-      "answer": "നിറ്റ്വെയർ കയറ്റുമതി",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0090",
-      "question": "സ്റ്റീൽ അതോറിറ്റി ഓഫ് ഇന്ത്യ ആസ്ഥാനം?",
-      "options": [
-        "ചെന്നൈ",
-        "കൊൽക്കത്ത",
-        "മുംബൈ",
-        "ന്യൂഡൽഹി"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0087",
-      "question": "BEMLയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ഹുബളി",
-        "മുംബൈ",
-        "ബെംഗളൂരു",
-        "ന്യൂഡൽഹി"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0039",
-      "question": "HAL ആസ്ഥാനം?",
-      "options": [
-        "ബെംഗളൂരു",
-        "മുംബൈ",
-        "ഡൽഹി",
-        "കൊൽക്കത്ത"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0051",
-      "question": "HITEC City ഏത് നഗരത്തിലാണ്?",
-      "options": [
-        "ഹൈദരാബാദ്",
-        "ചെന്നൈ",
-        "ഗുരുഗ്രാം",
-        "പൂനെ"
-      ],
-      "answer": "ഹൈദരാബാദ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0045",
-      "question": "പ്രൊഡക്ഷൻ ലിങ്ക്ഡ് ഇൻസെന്റിവിന്റെ ആദ്യ മേഖല ഏതാണ്?",
-      "options": [
-        "മത്സ്യബന്ധനം",
-        "Coal",
-        "മൊബൈൽ നിർമ്മാണം",
-        "ചലച്ചിത്രം"
-      ],
-      "answer": "മൊബൈൽ നിർമ്മാണം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0121",
-      "question": "മേക്ക് ഇൻ ഇന്ത്യ ലോഗോയിലെ മൃഗം?",
-      "options": [
-        "മയിൽ",
-        "സിംഹം",
-        "ആന",
-        "പുലി"
-      ],
-      "answer": "സിംഹം",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0107",
-      "question": "HMT PSU പ്രധാന മേഖല?",
-      "options": [
-        "Insurance മാത്രം",
-        "Banking",
-        "ബഹിരാകാശ ദൗത്യം",
-        "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)"
-      ],
-      "answer": "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0113",
-      "question": "Diamond cutting hub in India?",
-      "options": [
-        "ജയ്പ്പൂർ മാത്രം",
-        "Surat",
-        "Panaji",
-        "Shimla"
-      ],
-      "answer": "Surat",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0061",
-      "question": "Software Technology Parks of India (STPI) established?",
-      "options": [
-        "1980",
-        "2005",
-        "2015",
-        "1991"
-      ],
-      "answer": "1991",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0041",
-      "question": "'ലോകത്തിന്റെ ഫാർമസി' എന്ന് ഏത് രാജ്യത്തെ സൂചിപ്പിക്കുന്നു?",
-      "options": [
-        "USA",
-        "ബ്രാസീൽ",
-        "Japan",
-        "India"
-      ],
-      "answer": "India",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0034",
-      "question": "HAL PSU പ്രധാന മേഖല?",
-      "options": [
-        "സഞ്ചാരം",
-        "മത്സ്യബന്ധനം",
-        "വൈമാനിക/പ്രതിരോധം",
-        "Textiles"
-      ],
-      "answer": "വൈമാനിക/പ്രതിരോധം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0037",
-      "question": "ടീ ബോർഡ് ആസ്ഥാനം?",
-      "options": [
-        "ചെന്നൈ",
-        "കൊൽക്കത്ത",
-        "കൊച്ചി",
-        "ഡൽഹി"
-      ],
-      "answer": "കൊൽക്കത്ത",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0019",
-      "question": "Indian Oil Corporation ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ചെന്നൈ",
-        "കൊൽക്കത്ത",
-        "ന്യൂഡൽഹി",
-        "മുംബൈ"
-      ],
-      "answer": "ന്യൂഡൽഹി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0005",
-      "question": "ഇന്ത്യൻ ഓട്ടോ മൊബൈൽ നിർമ്മാണത്തിന്റെ പ്രധാന ക്ലസ്റ്ററുകളിൽ ഒന്ന് ഏത് നഗരം?",
-      "options": [
-        "അഗർത്തല",
-        "ശ്രീനഗർ",
-        "ഇംഫാൽ",
-        "പൂനെ"
-      ],
-      "answer": "പൂനെ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0016",
-      "question": "Handicrafts sector major export item?",
-      "options": [
-        "Oil മാത്രം",
-        "Coal",
-        "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
-        "Iron ore മാത്രം"
-      ],
-      "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0110",
-      "question": "Amritsar-Kolkata Industrial Corridor aligned along?",
-      "options": [
-        "Eastern Dedicated Freight Corridor",
-        "Western DFC മാത്രം",
-        "Coastal road മാത്രം",
-        "ഒന്നുമില്ല"
-      ],
-      "answer": "Eastern Dedicated Freight Corridor",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0103",
-      "question": "National Manufacturing Policy target share of GDP?",
-      "options": [
-        "25%",
-        "50%",
-        "10%",
-        "5%"
-      ],
-      "answer": "25%",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0117",
-      "question": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ റിഫൈനറി (ജാംനഗർ) ഉടമസ്ഥൻ?",
-      "options": [
-        "ONGC മാത്രം",
-        "HAL",
-        "റിലയൻസ്",
-        "SAIL"
-      ],
-      "answer": "റിലയൻസ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0114",
-      "question": "കപ്പൽ നിർമ്മാണ പ്രധാന പൊതുമേഖലാ സ്ഥാപനം?",
-      "options": [
-        "SAIL",
-        "NTPC",
-        "Coal India",
-        "കൊച്ചി ഷിപ്പ്യാർഡ്"
-      ],
-      "answer": "കൊച്ചി ഷിപ്പ്യാർഡ്",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0008",
-      "question": "മാരുതി സുസുക്കി നിർമ്മാണം പ്രധാനമായും എവിടെ?",
-      "options": [
-        "കേരളം",
-        "ഗോവ മാത്രം",
-        "ഹരിയാന/ഗുജറാത്ത്",
-        "അസം മാത്രം"
-      ],
-      "answer": "ഹരിയാന/ഗുജറാത്ത്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0089",
-      "question": "Coal India PSU പ്രധാന മേഖല?",
-      "options": [
-        "Pharma",
-        "Software",
-        "കൽക്കരി ഖനനം",
-        "ചലച്ചിത്രം"
-      ],
-      "answer": "കൽക്കരി ഖനനം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0104",
-      "question": "വിശാഖപട്ടണം-ചെന്നൈ വ്യാവസായിക കോറിഡോർ പ്രധാനമായും ഏത് സംസ്ഥാനത്തിലാണ്?",
-      "options": [
-        "ആന്ധ്രപ്രദേശ്",
-        "പഞ്ചാബ്",
-        "രാജസ്ഥാൻ",
-        "കേരളം"
-      ],
-      "answer": "ആന്ധ്രപ്രദേശ്",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0040",
-      "question": "KVIC എന്തിനാണ്?",
-      "options": [
-        "പ്രതിരോധം",
-        "ഗ്രാമീണ വ്യവസായങ്ങൾ",
-        "ചലച്ചിത്രം മാത്രം",
-        "ബഹിരാകാശം"
-      ],
-      "answer": "ഗ്രാമീണ വ്യവസായങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0049",
-      "question": "ഇന്ത്യയുടെ ഡിട്രോയിറ്റ് എന്ന് സാധാരണയായി ഏതിനെ സൂചിപ്പിക്കുന്നു?",
-      "options": [
-        "Shimla",
-        "ചെന്നൈ (ഓട്ടോമൊബൈൽ)",
-        "ജയ്പ്പൂർ",
-        "Panaji"
-      ],
-      "answer": "ചെന്നൈ (ഓട്ടോമൊബൈൽ)",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0083",
-      "question": "Make in Indiaയുമായി ബന്ധപ്പെട്ട പ്രധാന കേന്ദ്രവകുപ്പ് ഏത്?",
-      "options": [
-        "വിദ്യാഭ്യാസ മന്ത്രാലയം",
-        "വിദേശകാര്യ മന്ത്രാലയം",
-        "DPIIT (വാണിജ്യ-വ്യവസായ മന്ത്രാലയം)",
-        "ആരോഗ്യ മന്ത്രാലയം"
-      ],
-      "answer": "DPIIT (വാണിജ്യ-വ്യവസായ മന്ത്രാലയം)",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0054",
-      "question": "Infosysയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "പൂനെ",
-        "കൊച്ചി",
-        "ഗുരുഗ്രാം",
-        "ബെംഗളൂരു"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0047",
-      "question": "Garden Reach Shipbuilders in?",
-      "options": [
-        "മുംബൈ",
-        "കൊച്ചി",
-        "ചെന്നൈ",
-        "കൊൽക്കത്ത"
-      ],
-      "answer": "കൊൽക്കത്ത",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0092",
-      "question": "ഭാരത് ഹെവി ഇലക്ട്രിക്കൽസിന്റെ പ്രധാന ഉൽപ്പന്നം?",
-      "options": [
-        "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
-        "Cars മാത്രം",
-        "Mobile phones മാത്രം",
-        "Aircraft carriers മാത്രം"
-      ],
-      "answer": "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0074",
-      "question": "BEL ആസ്ഥാനം?",
-      "options": [
-        "ചെന്നൈ",
-        "ബെംഗളൂരു",
-        "കൊൽക്കത്ത",
-        "മുംബൈ"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0001",
+      "id": "ind_001",
       "question": "Indian Oil refineries count (approx)?",
       "options": [
         "100",
@@ -1285,139 +13,19 @@
       "difficulty": "hard"
     },
     {
-      "id": "ind_0071",
-      "question": "SCI PSU പ്രധാന മേഖല?",
+      "id": "ind_002",
+      "question": "Industrial Development Bank of India now known as?",
       "options": [
-        "കപ്പൽ കയറ്റുമതി",
-        "കൽക്കരി ഖനനം",
-        "ചലച്ചിത്രം",
-        "Textiles"
+        "PNB",
+        "HDFC",
+        "IDBI Bank",
+        "SBI"
       ],
-      "answer": "കപ്പൽ കയറ്റുമതി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0010",
-      "question": "ദേശീയ നിർമ്മാണ നയത്തിന്റെ ജിഡിപിയിൽ ലക്ഷ്യമിട്ടുള്ള വിഹിതം എത്ര?",
-      "options": [
-        "25%",
-        "5%",
-        "50%",
-        "10%"
-      ],
-      "answer": "25%",
+      "answer": "IDBI Bank",
       "difficulty": "hard"
     },
     {
-      "id": "ind_0091",
-      "question": "Chennai-Bengaluru Industrial Corridor part of?",
-      "options": [
-        "DMIC മാത്രം",
-        "East Coast Economic Corridor",
-        "Himalayan corridor",
-        "ഒന്നുമില്ല"
-      ],
-      "answer": "East Coast Economic Corridor",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0063",
-      "question": "HPCLയുടെ ആസ്ഥാനം എവിടെയാണ്?",
-      "options": [
-        "ന്യൂഡൽഹി",
-        "കൊൽക്കത്ത",
-        "മുംബൈ",
-        "ചെന്നൈ"
-      ],
-      "answer": "മുംബൈ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0120",
-      "question": "SEZ policy in India announced?",
-      "options": [
-        "1990",
-        "2010",
-        "2000",
-        "1985"
-      ],
-      "answer": "2000",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0096",
-      "question": "National Investment and Manufacturing Zones (NIMZ) policy year?",
-      "options": [
-        "1990",
-        "2011",
-        "2015",
-        "2000"
-      ],
-      "answer": "2011",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0108",
-      "question": "ISRO ആസ്ഥാനം?",
-      "options": [
-        "Hyderabad",
-        "മുംബൈ",
-        "ബെംഗളൂരു",
-        "ചെന്നൈ"
-      ],
-      "answer": "ബെംഗളൂരു",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ind_0056",
-      "question": "ഇന്ത്യയിലെ വജ്രം മുറിക്കുന്ന പ്രധാന കേന്ദ്രം ഏതാണ്?",
-      "options": [
-        "Surat",
-        "Shimla",
-        "ജയ്പ്പൂർ മാത്രം",
-        "Panaji"
-      ],
-      "answer": "Surat",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0075",
-      "question": "'Detroit of India' എന്ന് അറിയപ്പെടുന്ന നഗരം ഏത്?",
-      "options": [
-        "ചെന്നൈ",
-        "ഗുരുഗ്രാം",
-        "പൂനെ",
-        "രാജ്കോട്ട്"
-      ],
-      "answer": "ചെന്നൈ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ind_0093",
-      "question": "Delhi-Mumbai Industrial Corridor (DMIC) length approx?",
-      "options": [
-        "500 km",
-        "200 km",
-        "1500 km",
-        "3000 km"
-      ],
-      "answer": "1500 km",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0059",
-      "question": "ഇന്ത്യയിൽ SEZ നയം പ്രഖ്യാപിച്ച വർഷം?",
-      "options": [
-        "1985",
-        "1990",
-        "2000",
-        "2010"
-      ],
-      "answer": "2000",
-      "difficulty": "hard"
-    },
-    {
-      "id": "ind_0003",
+      "id": "ind_003",
       "question": "പൂണെ/ചെന്നൈ ഓട്ടോമൊബൈൽ ക്ലസ്റ്റർ ബന്ധപ്പെട്ട വ്യവസായം?",
       "options": [
         "Tea മാത്രം",
@@ -1429,43 +37,259 @@
       "difficulty": "easy"
     },
     {
-      "id": "ind_0100",
-      "question": "SIDBI എന്തിനാണ്?",
+      "id": "ind_004",
+      "question": "Delhi-Mumbai Industrial Corridor (DMIC) ബന്ധിപ്പിക്കുന്ന പ്രധാന നഗരങ്ങൾ ഏതൊക്കെ?",
       "options": [
-        "എം.എസ്.എം.ഇ ധനസഹായം",
-        "ചലച്ചിത്രം മാത്രം",
-        "പ്രതിരോധം മാത്രം",
-        "ബഹിരാകാശം മാത്രം"
+        "മുംബൈയും കൊൽക്കത്തയും",
+        "ചെന്നൈയും ബെംഗളൂരുമ്",
+        "ഡൽഹിയും മുംബൈയും",
+        "ഡൽഹിയും ചെന്നൈയും"
       ],
-      "answer": "എം.എസ്.എം.ഇ ധനസഹായം",
+      "answer": "ഡൽഹിയും മുംബൈയും",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_005",
+      "question": "ഇന്ത്യൻ ഓട്ടോ മൊബൈൽ നിർമ്മാണത്തിന്റെ പ്രധാന ക്ലസ്റ്ററുകളിൽ ഒന്ന് ഏത് നഗരം?",
+      "options": [
+        "അഗർത്തല",
+        "ശ്രീനഗർ",
+        "ഇംഫാൽ",
+        "പൂനെ"
+      ],
+      "answer": "പൂനെ",
       "difficulty": "medium"
     },
     {
-      "id": "ind_0072",
-      "question": "NMDCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "id": "ind_006",
+      "question": "Visakhapatnam-Chennai Industrial Corridorയുടെ ചുരുക്കരൂപം എന്ത്?",
       "options": [
-        "ഹൈദരാബാദ്",
+        "VCIC",
+        "CBEC",
+        "AKIC",
+        "BMEC"
+      ],
+      "answer": "VCIC",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_007",
+      "question": "ബെംഗളൂരു-മുംബൈ വ്യാവസായിക കോറിഡോറിൽ ഉൾപ്പെടുന്ന സംസ്ഥാനങ്ങൾ ഏതൊക്കെ?",
+      "options": [
+        "കർണാടകയും മഹാരാഷ്ട്രയും",
+        "അസം മാത്രം",
+        "പഞ്ചാബ് മാത്രം",
+        "കേരളം മാത്രം"
+      ],
+      "answer": "കർണാടകയും മഹാരാഷ്ട്രയും",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_008",
+      "question": "മാരുതി സുസുക്കി നിർമ്മാണം പ്രധാനമായും എവിടെ?",
+      "options": [
+        "കേരളം",
+        "ഗോവ മാത്രം",
+        "ഹരിയാന/ഗുജറാത്ത്",
+        "അസം മാത്രം"
+      ],
+      "answer": "ഹരിയാന/ഗുജറാത്ത്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_009",
+      "question": "അമൃത്സർ-കൊൽക്കത്ത വ്യാവസായിക കോറിഡോർ ഏതിനൊപ്പം സമാന്തരമായി വ്യാപിക്കുന്നു?",
+      "options": [
+        "ഒന്നുമില്ല",
+        "Coastal road മാത്രം",
+        "Western DFC മാത്രം",
+        "Eastern Dedicated Freight Corridor"
+      ],
+      "answer": "Eastern Dedicated Freight Corridor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_010",
+      "question": "ദേശീയ നിർമ്മാണ നയത്തിന്റെ ജിഡിപിയിൽ ലക്ഷ്യമിട്ടുള്ള വിഹിതം എത്ര?",
+      "options": [
+        "25%",
+        "5%",
+        "50%",
+        "10%"
+      ],
+      "answer": "25%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_011",
+      "question": "ഇന്ത്യൻ ഓയിലിന്റെ ശുദ്ധീകരണശാലകളുടെ എണ്ണം (ഏതാണ്ട്) എത്ര?",
+      "options": [
+        "2",
+        "50",
+        "100",
+        "10+"
+      ],
+      "answer": "10+",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_012",
+      "question": "ഡൽഹി-മുംബൈ വ്യാവസായിക കോറിഡോർ (DMIC) ഏതാണ്ട് നീളമുള്ളതാണ്?",
+      "options": [
+        "500 km",
+        "200 km",
+        "3000 km",
+        "1500 km"
+      ],
+      "answer": "1500 km",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_013",
+      "question": "MIDHANI PSU പ്രധാന മേഖല?",
+      "options": [
+        "സഞ്ചാരം",
+        "Textiles",
+        "പ്രത്യേക ലോഹങ്ങൾ/ലേഹകങ്ങൾ",
+        "മത്സ്യബന്ധനം"
+      ],
+      "answer": "പ്രത്യേക ലോഹങ്ങൾ/ലേഹകങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_014",
+      "question": "കോഫി ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "കൊച്ചി",
+        "ഡൽഹി",
+        "മുംബൈ",
+        "ബെംഗളൂരു"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_015",
+      "question": "SEZ എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+      "options": [
+        "Special Economic Zone",
+        "Strategic Export Zone",
+        "Social Enterprise Zone",
+        "State Economic Zone"
+      ],
+      "answer": "Special Economic Zone",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_016",
+      "question": "Handicrafts sector major export item?",
+      "options": [
+        "Oil മാത്രം",
+        "Coal",
+        "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
+        "Iron ore മാത്രം"
+      ],
+      "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_017",
+      "question": "ബെംഗളൂരു ഐടി നാഗരികതയുടെ വിളിപ്പേര്?",
+      "options": [
+        "സ്റ്റീൽ നഗരം",
+        "പിങ്ക് നഗരം",
+        "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
+        "ഇന്ത്യയുടെ ഡിട്രോയിറ്റ്"
+      ],
+      "answer": "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_018",
+      "question": "Visakhapatnam-Chennai Industrial Corridor in which state mostly?",
+      "options": [
+        "പഞ്ചാബ്",
+        "രാജസ്ഥാൻ",
+        "ആന്ധ്രപ്രദേശ്",
+        "കേരളം"
+      ],
+      "answer": "ആന്ധ്രപ്രദേശ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_019",
+      "question": "Indian Oil Corporation ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത",
+        "ന്യൂഡൽഹി",
+        "മുംബൈ"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_020",
+      "question": "NTPCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "റായ്പുർ",
         "ഭുവനേശ്വർ",
-        "റാഞ്ചി",
-        "ന്യൂഡൽഹി"
+        "ന്യൂഡൽഹി",
+        "വിശാഖപട്ടണം"
       ],
-      "answer": "ഹൈദരാബാദ്",
-      "difficulty": "medium"
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "easy"
     },
     {
-      "id": "ind_0119",
-      "question": "GAIL PSU പ്രധാന മേഖല?",
+      "id": "ind_021",
+      "question": "NHPC PSU പ്രധാന മേഖല?",
       "options": [
-        "കൽക്കരി ഖനനം",
-        "ചലച്ചിത്രം",
-        "പ്രകൃതി വാതകം",
-        "Shipbuilding"
+        "ജലവിദ്യുത്",
+        "Textiles",
+        "Coal",
+        "ചലച്ചിത്രം"
       ],
-      "answer": "പ്രകൃതി വാതകം",
+      "answer": "ജലവിദ്യുത്",
       "difficulty": "medium"
     },
     {
-      "id": "ind_0025",
+      "id": "ind_022",
+      "question": "NLC India PSU പ്രധാന മേഖല?",
+      "options": [
+        "ചലച്ചിത്രം",
+        "സഞ്ചാരം",
+        "Software",
+        "ലിഗ്നൈറ്റ് ഖനനം/വിദ്യുത്"
+      ],
+      "answer": "ലിഗ്നൈറ്റ് ഖനനം/വിദ്യുത്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_023",
+      "question": "Chennai-Bengaluru Industrial Corridorയിൽ ഉൾപ്പെടുന്ന രണ്ടു പ്രധാന നഗരങ്ങൾ ഏതൊക്കെ?",
+      "options": [
+        "ഹൈദരാബാദും പൂനെയും",
+        "ബെംഗളൂരും മുംബൈയും",
+        "ചെന്നൈയും ബെംഗളൂരുമ്",
+        "ചെന്നൈയും കൊച്ചി"
+      ],
+      "answer": "ചെന്നൈയും ബെംഗളൂരുമ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_024",
+      "question": "BEL ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ചെന്നൈ",
+        "ബെംഗളൂരു",
+        "ഹൈദരാബാദ്",
+        "പൂനെ"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_025",
       "question": "BHEL PSU പ്രധാന മേഖല?",
       "options": [
         "ബഹിരാകാശം മാത്രം",
@@ -1477,16 +301,1192 @@
       "difficulty": "medium"
     },
     {
-      "id": "ind_0014",
-      "question": "കോഫി ബോർഡ് ആസ്ഥാനം?",
+      "id": "ind_026",
+      "question": "Power Grid Corporation ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "മുംബൈ",
+        "ന്യൂഡൽഹി",
+        "ചണ്ഡീഗഢ്",
+        "ഗുരുഗ്രാം"
+      ],
+      "answer": "ഗുരുഗ്രാം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_027",
+      "question": "MSME definition micro enterprise investment limit (manufacturing approx)?",
+      "options": [
+        "₹100 crore",
+        "₹1000 crore",
+        "₹2.5 crore",
+        "₹500 crore"
+      ],
+      "answer": "₹2.5 crore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_028",
+      "question": "Hindustan Shipyard located in?",
       "options": [
         "കൊച്ചി",
+        "മുംബൈ",
+        "ചെന്നൈ",
+        "വിശാഖപട്ടണം"
+      ],
+      "answer": "വിശാഖപട്ടണം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_029",
+      "question": "ഇന്ത്യയിലെ ആദ്യ കയറ്റുമതി പ്രോസസ്സിംഗ് മേഖല (പിന്നീട് SEZ മാതൃക) ഏത്?",
+      "options": [
+        "സാന്താക്രൂസ്",
+        "കൊച്ചി",
+        "കാണ്ട്ല",
+        "നോയ്ഡ"
+      ],
+      "answer": "കാണ്ട്ല",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_030",
+      "question": "ഹിന്ദുസ്ഥാൻ പെട്രോളിയം ആസ്ഥാന നഗരം?",
+      "options": [
+        "മുംബൈ",
+        "ഡൽഹി",
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_031",
+      "question": "റബ്ബർ ബോർഡ് ആസ്ഥാനം?",
+      "options": [
         "ഡൽഹി",
         "മുംബൈ",
+        "Kottayam",
+        "ചെന്നൈ"
+      ],
+      "answer": "Kottayam",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_032",
+      "question": "പെട്രോകെമിക്കൽ ഹബ് പാനിപട്ട് ഏത് സംസ്ഥാനത്തിലാണ്?",
+      "options": [
+        "കേരളം",
+        "Tamil Nadu",
+        "ഗോവ",
+        "ഹരിയാന"
+      ],
+      "answer": "ഹരിയാന",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_033",
+      "question": "Bengaluru-Mumbai Industrial Corridor states include?",
+      "options": [
+        "കർണാടകയും മഹാരാഷ്ട്രയും",
+        "പഞ്ചാബ് മാത്രം",
+        "കേരളം മാത്രം",
+        "അസം മാത്രം"
+      ],
+      "answer": "കർണാടകയും മഹാരാഷ്ട്രയും",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_034",
+      "question": "HAL PSU പ്രധാന മേഖല?",
+      "options": [
+        "സഞ്ചാരം",
+        "മത്സ്യബന്ധനം",
+        "വൈമാനിക/പ്രതിരോധം",
+        "Textiles"
+      ],
+      "answer": "വൈമാനിക/പ്രതിരോധം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_035",
+      "question": "കൈവേല വ്യവസായ മേഖലയിലെ പ്രധാന കയറ്റുമതി വസ്തു ഏതാണ്?",
+      "options": [
+        "Iron ore മാത്രം",
+        "Coal",
+        "Oil മാത്രം",
+        "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ"
+      ],
+      "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_036",
+      "question": "Leather industry hub?",
+      "options": [
+        "Shimla",
+        "Panaji",
+        "Gangtok",
+        "Kanpur/Chennai"
+      ],
+      "answer": "Kanpur/Chennai",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_037",
+      "question": "ടീ ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത",
+        "കൊച്ചി",
+        "ഡൽഹി"
+      ],
+      "answer": "കൊൽക്കത്ത",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_038",
+      "question": "റൂർക്കേള സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
+      "options": [
+        "ആന്ധ്രപ്രദേശ്",
+        "ഝാർഖണ്ഡ്",
+        "ഒഡീഷ",
+        "ഛത്തീസ്ഗഢ്"
+      ],
+      "answer": "ഒഡീഷ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_039",
+      "question": "HAL ആസ്ഥാനം?",
+      "options": [
+        "ബെംഗളൂരു",
+        "മുംബൈ",
+        "ഡൽഹി",
+        "കൊൽക്കത്ത"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_040",
+      "question": "KVIC എന്തിനാണ്?",
+      "options": [
+        "പ്രതിരോധം",
+        "ഗ്രാമീണ വ്യവസായങ്ങൾ",
+        "ചലച്ചിത്രം മാത്രം",
+        "ബഹിരാകാശം"
+      ],
+      "answer": "ഗ്രാമീണ വ്യവസായങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_041",
+      "question": "'ലോകത്തിന്റെ ഫാർമസി' എന്ന് ഏത് രാജ്യത്തെ സൂചിപ്പിക്കുന്നു?",
+      "options": [
+        "USA",
+        "ബ്രാസീൽ",
+        "Japan",
+        "India"
+      ],
+      "answer": "India",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_042",
+      "question": "Make in India പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2018",
+        "2012",
+        "2014",
+        "2010"
+      ],
+      "answer": "2014",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_043",
+      "question": "BHELയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "റാഞ്ചി",
+        "ഭോപ്പാൽ",
+        "ന്യൂഡൽഹി",
+        "ഹൈദരാബാദ്"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_044",
+      "question": "NALCOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "കൊൽക്കത്ത",
+        "റാഞ്ചി",
+        "ഭുവനേശ്വർ",
+        "ന്യൂഡൽഹി"
+      ],
+      "answer": "ഭുവനേശ്വർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_045",
+      "question": "പ്രൊഡക്ഷൻ ലിങ്ക്ഡ് ഇൻസെന്റിവിന്റെ ആദ്യ മേഖല ഏതാണ്?",
+      "options": [
+        "മത്സ്യബന്ധനം",
+        "Coal",
+        "മൊബൈൽ നിർമ്മാണം",
+        "ചലച്ചിത്രം"
+      ],
+      "answer": "മൊബൈൽ നിർമ്മാണം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_046",
+      "question": "ജാമ്നഗർ ലോകപ്രശസ്തമായത് ഏത് വ്യവസായത്തിനാണ്?",
+      "options": [
+        "കാഗിത നിർമ്മാണം",
+        "നൂൽ നെയ്ത്ത്",
+        "വിമാന നിർമ്മാണം",
+        "പെട്രോളിയം റിഫൈനിംഗ്"
+      ],
+      "answer": "പെട്രോളിയം റിഫൈനിംഗ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_047",
+      "question": "Garden Reach Shipbuilders in?",
+      "options": [
+        "മുംബൈ",
+        "കൊച്ചി",
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത"
+      ],
+      "answer": "കൊൽക്കത്ത",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_048",
+      "question": "Goa Shipyard in?",
+      "options": [
+        "വാസ്കോ ഡ ഗാമ",
+        "ചെന്നൈ",
+        "Panaji മാത്രം",
+        "ഡൽഹി"
+      ],
+      "answer": "വാസ്കോ ഡ ഗാമ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_049",
+      "question": "ഇന്ത്യയുടെ ഡിട്രോയിറ്റ് എന്ന് സാധാരണയായി ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "options": [
+        "Shimla",
+        "ചെന്നൈ (ഓട്ടോമൊബൈൽ)",
+        "ജയ്പ്പൂർ",
+        "Panaji"
+      ],
+      "answer": "ചെന്നൈ (ഓട്ടോമൊബൈൽ)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_050",
+      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ പെട്രോകെമിക്കൽ റിഫൈനറി ഏതാണ്?",
+      "options": [
+        "കൊച്ചി റിഫൈനറി",
+        "മുംബൈ റിഫൈനറി",
+        "വിശാഖപട്ടണം റിഫൈനറി",
+        "മഥുര റിഫൈനറി"
+      ],
+      "answer": "മുംബൈ റിഫൈനറി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_051",
+      "question": "HITEC City ഏത് നഗരത്തിലാണ്?",
+      "options": [
+        "ഹൈദരാബാദ്",
+        "ചെന്നൈ",
+        "ഗുരുഗ്രാം",
+        "പൂനെ"
+      ],
+      "answer": "ഹൈദരാബാദ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_052",
+      "question": "ഹൈദരാബാദ് ഫാർമ ക്ലസ്റ്ററിന്റെ വിളിപ്പേര്?",
+      "options": [
+        "നീല നഗരം",
+        "ബൾക്ക് ഡ്രഗ് തലസ്ഥാനം",
+        "Pink city",
+        "Steel city"
+      ],
+      "answer": "ബൾക്ക് ഡ്രഗ് തലസ്ഥാനം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_053",
+      "question": "GAIL Ltd ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ന്യൂഡൽഹി",
+        "ഗുരുഗ്രാം",
+        "നോയ്ഡ",
+        "മുംബൈ"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_054",
+      "question": "Infosysയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "പൂനെ",
+        "കൊച്ചി",
+        "ഗുരുഗ്രാം",
         "ബെംഗളൂരു"
       ],
       "answer": "ബെംഗളൂരു",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_055",
+      "question": "ചെന്നൈ-ബെംഗളൂരു വ്യാവസായിക കോറിഡോർ ഏതിന്റെ ഭാഗമാണ്?",
+      "options": [
+        "DMIC മാത്രം",
+        "Himalayan corridor",
+        "East Coast Economic Corridor",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "East Coast Economic Corridor",
       "difficulty": "hard"
+    },
+    {
+      "id": "ind_056",
+      "question": "ഇന്ത്യയിലെ വജ്രം മുറിക്കുന്ന പ്രധാന കേന്ദ്രം ഏതാണ്?",
+      "options": [
+        "Surat",
+        "Shimla",
+        "ജയ്പ്പൂർ മാത്രം",
+        "Panaji"
+      ],
+      "answer": "Surat",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_057",
+      "question": "കയർ വ്യവസായത്തിന്റെ പ്രധാന സംസ്ഥാനം?",
+      "options": [
+        "രാജസ്ഥാൻ",
+        "കേരളം",
+        "ഹിമാചൽ",
+        "പഞ്ചാബ്"
+      ],
+      "answer": "കേരളം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_058",
+      "question": "BPCLയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "മുംബൈ",
+        "പൂനെ",
+        "അഹമ്മദാബാദ്",
+        "ന്യൂഡൽഹി"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_059",
+      "question": "ഇന്ത്യയിൽ SEZ നയം പ്രഖ്യാപിച്ച വർഷം?",
+      "options": [
+        "1985",
+        "1990",
+        "2000",
+        "2010"
+      ],
+      "answer": "2000",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_060",
+      "question": "ഐടി വ്യവസായത്തിന്റെ പ്രധാന കേന്ദ്രമായി അറിയപ്പെടുന്ന ഇന്ത്യൻ നഗരം ഏത്?",
+      "options": [
+        "ജയ്പുർ",
+        "ഭോപ്പാൽ",
+        "ബെംഗളൂരു",
+        "പാറ്റ്ന"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_061",
+      "question": "Software Technology Parks of India (STPI) established?",
+      "options": [
+        "1980",
+        "2005",
+        "2015",
+        "1991"
+      ],
+      "answer": "1991",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_062",
+      "question": "ദുർഗാപുർ സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
+      "options": [
+        "ഒഡീഷ",
+        "ഉത്തർപ്രദേശ്",
+        "പശ്ചിമ ബംഗാൾ",
+        "ബിഹാർ"
+      ],
+      "answer": "പശ്ചിമ ബംഗാൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_063",
+      "question": "HPCLയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ന്യൂഡൽഹി",
+        "കൊൽക്കത്ത",
+        "മുംബൈ",
+        "ചെന്നൈ"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_064",
+      "question": "MSME-യിൽ സൂക്ഷ്മ സംരംഭത്തിന്റെ നിക്ഷേപ പരിധി (നിർമ്മാണം, ഏതാണ്ട്) എത്ര?",
+      "options": [
+        "₹1000 crore",
+        "₹2.5 crore",
+        "₹500 crore",
+        "₹100 crore"
+      ],
+      "answer": "₹2.5 crore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_065",
+      "question": "വിശാഖപട്ടണം സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
+      "options": [
+        "കർണാടക",
+        "ഒഡീഷ",
+        "തമിഴ്നാട്",
+        "ആന്ധ്രപ്രദേശ്"
+      ],
+      "answer": "ആന്ധ്രപ്രദേശ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_066",
+      "question": "ദേശീയ നിക്ഷേപ-നിർമ്മാണ മേഖലാ സോണുകൾ നയം പ്രഖ്യാപിച്ച വർഷം?",
+      "options": [
+        "2011",
+        "2015",
+        "1990",
+        "2000"
+      ],
+      "answer": "2011",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_067",
+      "question": "ഇന്ത്യാ വ്യാവസായിക വികസന ബാങ്ക് ഇപ്പോൾ എന്ത് പേരിലാണ് അറിയപ്പെടുന്നത്?",
+      "options": [
+        "HDFC",
+        "IDBI Bank",
+        "PNB",
+        "SBI"
+      ],
+      "answer": "IDBI Bank",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_068",
+      "question": "BEML PSU പ്രധാന മേഖല?",
+      "options": [
+        "ചലച്ചിത്രം",
+        "Pharma",
+        "സഞ്ചാരം മാത്രം",
+        "ഭാരമുള്ള ഉപകരണങ്ങൾ"
+      ],
+      "answer": "ഭാരമുള്ള ഉപകരണങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_069",
+      "question": "ഭിലായി സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
+      "options": [
+        "ഝാർഖണ്ഡ്",
+        "ഛത്തീസ്ഗഢ്",
+        "ഒഡീഷ",
+        "പശ്ചിമ ബംഗാൾ"
+      ],
+      "answer": "ഛത്തീസ്ഗഢ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_070",
+      "question": "Indian Railways manufacturing unit Chittaranjan makes?",
+      "options": [
+        "Ships മാത്രം",
+        "Aircraft",
+        "Locomotives",
+        "Mobile phones"
+      ],
+      "answer": "Locomotives",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_071",
+      "question": "SCI PSU പ്രധാന മേഖല?",
+      "options": [
+        "കപ്പൽ കയറ്റുമതി",
+        "കൽക്കരി ഖനനം",
+        "ചലച്ചിത്രം",
+        "Textiles"
+      ],
+      "answer": "കപ്പൽ കയറ്റുമതി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_072",
+      "question": "NMDCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ഹൈദരാബാദ്",
+        "ഭുവനേശ്വർ",
+        "റാഞ്ചി",
+        "ന്യൂഡൽഹി"
+      ],
+      "answer": "ഹൈദരാബാദ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_073",
+      "question": "ONGCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ദേഹറാദൂൺ",
+        "ന്യൂഡൽഹി",
+        "മുംബൈ",
+        "അഹമ്മദാബാദ്"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_074",
+      "question": "BEL ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "ബെംഗളൂരു",
+        "കൊൽക്കത്ത",
+        "മുംബൈ"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_075",
+      "question": "'Detroit of India' എന്ന് അറിയപ്പെടുന്ന നഗരം ഏത്?",
+      "options": [
+        "ചെന്നൈ",
+        "ഗുരുഗ്രാം",
+        "പൂനെ",
+        "രാജ്കോട്ട്"
+      ],
+      "answer": "ചെന്നൈ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_076",
+      "question": "NALCO ആസ്ഥാനം?",
+      "options": [
+        "Bhubaneswar",
+        "ചെന്നൈ",
+        "മുംബൈ",
+        "ഡൽഹി"
+      ],
+      "answer": "Bhubaneswar",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_077",
+      "question": "ഫാർമസ്യൂട്ടിക്കൽ വ്യവസായ കേന്ദ്രമായി ഹൈദരാബാദിനെ വിളിക്കുന്നത് എന്ത്?",
+      "options": [
+        "ബൾക്ക് ഡ്രഗ്/ഫാർമ ഹബ്",
+        "ടെക്സ്റ്റൈൽ ഹബ്",
+        "ഷിപ്പ് ബിൽഡിംഗ് ഹബ്",
+        "കൽക്കരി ഹബ്"
+      ],
+      "answer": "ബൾക്ക് ഡ്രഗ്/ഫാർമ ഹബ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_078",
+      "question": "ചർമ്മ വ്യവസായത്തിന്റെ പ്രധാന കേന്ദ്രം ഏതാണ്?",
+      "options": [
+        "Shimla",
+        "Kanpur/Chennai",
+        "Panaji",
+        "Gangtok"
+      ],
+      "answer": "Kanpur/Chennai",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_079",
+      "question": "ഇന്ത്യയിലെ ആദ്യത്തെ ആധുനിക ഉരുക്കു നഗരം എന്നു പറയപ്പെടുന്നത് ഏത്?",
+      "options": [
+        "ദുർഗാപുർ",
+        "റൂർക്കേള",
+        "ഭിലായി",
+        "ജംഷെഡ്പുർ"
+      ],
+      "answer": "ജംഷെഡ്പുർ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_080",
+      "question": "കൽക്കരി ഇന്ത്യ ലിമിറ്റഡ് ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ന്യൂഡൽഹി",
+        "കൊൽക്കത്ത",
+        "മുംബൈ",
+        "റാഞ്ചി"
+      ],
+      "answer": "കൊൽക്കത്ത",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_081",
+      "question": "NTPC PSU പ്രധാന മേഖല?",
+      "options": [
+        "Textiles",
+        "മത്സ്യബന്ധനം",
+        "ചലച്ചിത്രം",
+        "വിദ്യുത് ഉൽപ്പാദനം"
+      ],
+      "answer": "വിദ്യുത് ഉൽപ്പാദനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_082",
+      "question": "National Industrial Corridor Development Programme nodal?",
+      "options": [
+        "Defence Ministry",
+        "DPIIT",
+        "External Affairs",
+        "Home"
+      ],
+      "answer": "DPIIT",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_083",
+      "question": "Make in Indiaയുമായി ബന്ധപ്പെട്ട പ്രധാന കേന്ദ്രവകുപ്പ് ഏത്?",
+      "options": [
+        "വിദ്യാഭ്യാസ മന്ത്രാലയം",
+        "വിദേശകാര്യ മന്ത്രാലയം",
+        "DPIIT (വാണിജ്യ-വ്യവസായ മന്ത്രാലയം)",
+        "ആരോഗ്യ മന്ത്രാലയം"
+      ],
+      "answer": "DPIIT (വാണിജ്യ-വ്യവസായ മന്ത്രാലയം)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_084",
+      "question": "Textile industry major cluster Tiruppur known for?",
+      "options": [
+        "Oil refining",
+        "Coal",
+        "ബഹിരാകാശം",
+        "നിറ്റ്വെയർ കയറ്റുമതി"
+      ],
+      "answer": "നിറ്റ്വെയർ കയറ്റുമതി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_085",
+      "question": "IOCL PSU പ്രധാന മേഖല?",
+      "options": [
+        "ബഹിരാകാശം",
+        "സഞ്ചാരം",
+        "പ്രതിരോധം മാത്രം",
+        "എണ്ണ ശുദ്ധീകരണം/വിപണനം"
+      ],
+      "answer": "എണ്ണ ശുദ്ധീകരണം/വിപണനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_086",
+      "question": "Mazagon Dock Shipbuilders in?",
+      "options": [
+        "ചെന്നൈ",
+        "ഡൽഹി",
+        "മുംബൈ",
+        "കൊച്ചി"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_087",
+      "question": "BEMLയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ഹുബളി",
+        "മുംബൈ",
+        "ബെംഗളൂരു",
+        "ന്യൂഡൽഹി"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_088",
+      "question": "ബോക്കാരോ സ്റ്റീൽ പ്ലാന്റ് ഏത് സംസ്ഥാനത്താണ്?",
+      "options": [
+        "മധ്യപ്രദേശ്",
+        "ചത്തീസ്ഗഢ്",
+        "ഝാർഖണ്ഡ്",
+        "ഒഡീഷ"
+      ],
+      "answer": "ഝാർഖണ്ഡ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_089",
+      "question": "Coal India PSU പ്രധാന മേഖല?",
+      "options": [
+        "Pharma",
+        "Software",
+        "കൽക്കരി ഖനനം",
+        "ചലച്ചിത്രം"
+      ],
+      "answer": "കൽക്കരി ഖനനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_090",
+      "question": "സ്റ്റീൽ അതോറിറ്റി ഓഫ് ഇന്ത്യ ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത",
+        "മുംബൈ",
+        "ന്യൂഡൽഹി"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_091",
+      "question": "Chennai-Bengaluru Industrial Corridor part of?",
+      "options": [
+        "DMIC മാത്രം",
+        "East Coast Economic Corridor",
+        "Himalayan corridor",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "East Coast Economic Corridor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_092",
+      "question": "ഭാരത് ഹെവി ഇലക്ട്രിക്കൽസിന്റെ പ്രധാന ഉൽപ്പന്നം?",
+      "options": [
+        "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
+        "Cars മാത്രം",
+        "Mobile phones മാത്രം",
+        "Aircraft carriers മാത്രം"
+      ],
+      "answer": "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_093",
+      "question": "Delhi-Mumbai Industrial Corridor (DMIC) length approx?",
+      "options": [
+        "500 km",
+        "200 km",
+        "1500 km",
+        "3000 km"
+      ],
+      "answer": "1500 km",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_094",
+      "question": "Hindustan Copper ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ന്യൂഡൽഹി",
+        "റാഞ്ചി",
+        "ജയ്പുർ",
+        "കൊൽക്കത്ത"
+      ],
+      "answer": "കൊൽക്കത്ത",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_095",
+      "question": "സ്പൈസസ് ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "ഡൽഹി",
+        "മുംബൈ",
+        "കൊച്ചി"
+      ],
+      "answer": "കൊച്ചി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_096",
+      "question": "National Investment and Manufacturing Zones (NIMZ) policy year?",
+      "options": [
+        "1990",
+        "2011",
+        "2015",
+        "2000"
+      ],
+      "answer": "2011",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_097",
+      "question": "Amritsar-Kolkata Industrial Corridorയുടെ ചുരുക്കരൂപം എന്ത്?",
+      "options": [
+        "CBIC",
+        "AKIC",
+        "DMIC",
+        "VCIC"
+      ],
+      "answer": "AKIC",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_098",
+      "question": "ടാറ്റാ സ്റ്റീൽ പ്രധാന പ്ലാന്റ് എവിടെ?",
+      "options": [
+        "ജയ്പ്പൂർ",
+        "Shimla",
+        "ജാംഷെഡ്പൂർ",
+        "Panaji"
+      ],
+      "answer": "ജാംഷെഡ്പൂർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_099",
+      "question": "BEL PSU പ്രധാന മേഖല?",
+      "options": [
+        "മത്സ്യബന്ധനം",
+        "സഞ്ചാരം",
+        "പ്രതിരോധ ഇലക്ട്രോണിക്സ്",
+        "Textiles"
+      ],
+      "answer": "പ്രതിരോധ ഇലക്ട്രോണിക്സ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_100",
+      "question": "SIDBI എന്തിനാണ്?",
+      "options": [
+        "എം.എസ്.എം.ഇ ധനസഹായം",
+        "ചലച്ചിത്രം മാത്രം",
+        "പ്രതിരോധം മാത്രം",
+        "ബഹിരാകാശം മാത്രം"
+      ],
+      "answer": "എം.എസ്.എം.ഇ ധനസഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_101",
+      "question": "Production Linked Incentive first sector?",
+      "options": [
+        "ചലച്ചിത്രം",
+        "Coal",
+        "മൊബൈൽ നിർമ്മാണം",
+        "മത്സ്യബന്ധനം"
+      ],
+      "answer": "മൊബൈൽ നിർമ്മാണം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_102",
+      "question": "ONGC PSU പ്രധാന മേഖല?",
+      "options": [
+        "റെയിൽവേ",
+        "Post office",
+        "എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണം",
+        "സഞ്ചാരം"
+      ],
+      "answer": "എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_103",
+      "question": "National Manufacturing Policy target share of GDP?",
+      "options": [
+        "25%",
+        "50%",
+        "10%",
+        "5%"
+      ],
+      "answer": "25%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_104",
+      "question": "വിശാഖപട്ടണം-ചെന്നൈ വ്യാവസായിക കോറിഡോർ പ്രധാനമായും ഏത് സംസ്ഥാനത്തിലാണ്?",
+      "options": [
+        "ആന്ധ്രപ്രദേശ്",
+        "പഞ്ചാബ്",
+        "രാജസ്ഥാൻ",
+        "കേരളം"
+      ],
+      "answer": "ആന്ധ്രപ്രദേശ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_105",
+      "question": "SAIL PSU പ്രധാന മേഖല?",
+      "options": [
+        "Software",
+        "സഞ്ചാരം",
+        "Pharma മാത്രം",
+        "ഉരുക്ക്"
+      ],
+      "answer": "ഉരുക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_106",
+      "question": "Bengaluru-Mumbai Economic Corridorയുടെ ചുരുക്കരൂപം എന്ത്?",
+      "options": [
+        "BMEC",
+        "DMIC",
+        "ECGC",
+        "AKIC"
+      ],
+      "answer": "BMEC",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_107",
+      "question": "HMT PSU പ്രധാന മേഖല?",
+      "options": [
+        "Insurance മാത്രം",
+        "Banking",
+        "ബഹിരാകാശ ദൗത്യം",
+        "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)"
+      ],
+      "answer": "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_108",
+      "question": "ISRO ആസ്ഥാനം?",
+      "options": [
+        "Hyderabad",
+        "മുംബൈ",
+        "ബെംഗളൂരു",
+        "ചെന്നൈ"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_109",
+      "question": "SAILയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ന്യൂഡൽഹി",
+        "റൂർക്കേള",
+        "കൊൽക്കത്ത",
+        "ഭിലായി"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_110",
+      "question": "Amritsar-Kolkata Industrial Corridor aligned along?",
+      "options": [
+        "Eastern Dedicated Freight Corridor",
+        "Western DFC മാത്രം",
+        "Coastal road മാത്രം",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "Eastern Dedicated Freight Corridor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_111",
+      "question": "DRDO ആസ്ഥാനം?",
+      "options": [
+        "Guwahati",
+        "Pune മാത്രം",
+        "ന്യൂഡൽഹി",
+        "കൊച്ചി"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_112",
+      "question": "Petrochemical hub Panipat in?",
+      "options": [
+        "കേരളം",
+        "ഗോവ",
+        "Tamil Nadu",
+        "ഹരിയാന"
+      ],
+      "answer": "ഹരിയാന",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_113",
+      "question": "Diamond cutting hub in India?",
+      "options": [
+        "ജയ്പ്പൂർ മാത്രം",
+        "Surat",
+        "Panaji",
+        "Shimla"
+      ],
+      "answer": "Surat",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_114",
+      "question": "കപ്പൽ നിർമ്മാണ പ്രധാന പൊതുമേഖലാ സ്ഥാപനം?",
+      "options": [
+        "SAIL",
+        "NTPC",
+        "Coal India",
+        "കൊച്ചി ഷിപ്പ്യാർഡ്"
+      ],
+      "answer": "കൊച്ചി ഷിപ്പ്യാർഡ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_115",
+      "question": "സോഫ്റ്റ്‌വെയർ ടെക്നോളജി പാർക്സ് ഓഫ് ഇന്ത്യ (STPI) സ്ഥാപിതമായ വർഷം?",
+      "options": [
+        "2015",
+        "1980",
+        "2005",
+        "1991"
+      ],
+      "answer": "1991",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_116",
+      "question": "ടെക്സ്റ്റൈൽ വ്യവസായ കേന്ദ്രമായ തിരുപ്പൂര് എന്തിന് പ്രസിദ്ധമാണ്?",
+      "options": [
+        "Coal",
+        "നിറ്റ്വെയർ കയറ്റുമതി",
+        "Oil refining",
+        "ബഹിരാകാശം"
+      ],
+      "answer": "നിറ്റ്വെയർ കയറ്റുമതി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_117",
+      "question": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ റിഫൈനറി (ജാംനഗർ) ഉടമസ്ഥൻ?",
+      "options": [
+        "ONGC മാത്രം",
+        "HAL",
+        "റിലയൻസ്",
+        "SAIL"
+      ],
+      "answer": "റിലയൻസ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_118",
+      "question": "NLC Indiaയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "ചെന്നൈ",
+        "ബെംഗളൂരു",
+        "കോയമ്പത്തൂർ",
+        "ഹൈദരാബാദ്"
+      ],
+      "answer": "ചെന്നൈ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_119",
+      "question": "GAIL PSU പ്രധാന മേഖല?",
+      "options": [
+        "കൽക്കരി ഖനനം",
+        "ചലച്ചിത്രം",
+        "പ്രകൃതി വാതകം",
+        "Shipbuilding"
+      ],
+      "answer": "പ്രകൃതി വാതകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ind_120",
+      "question": "SEZ policy in India announced?",
+      "options": [
+        "1990",
+        "2010",
+        "2000",
+        "1985"
+      ],
+      "answer": "2000",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_121",
+      "question": "മേക്ക് ഇൻ ഇന്ത്യ ലോഗോയിലെ മൃഗം?",
+      "options": [
+        "മയിൽ",
+        "സിംഹം",
+        "ആന",
+        "പുലി"
+      ],
+      "answer": "സിംഹം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ind_122",
+      "question": "ദേശീയ വ്യാവസായിക കോറിഡോർ വികസന പരിപാടിയുടെ നോഡൽ ഏജൻസി ഏതാണ്?",
+      "options": [
+        "Home",
+        "Defence Ministry",
+        "External Affairs",
+        "DPIIT"
+      ],
+      "answer": "DPIIT",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_123",
+      "question": "ഇന്ത്യയിലെ ആദ്യ എക്സ്പോർട്ട് പ്രോസസ്സിംഗ് സോൺ?",
+      "options": [
+        "കാന്ദ്ല",
+        "കൊച്ചി",
+        "ഡൽഹി",
+        "ചെന്നൈ"
+      ],
+      "answer": "കാന്ദ്ല",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ind_124",
+      "question": "TCS കമ്പനിയുടെ ആസ്ഥാനം എവിടെയാണ്?",
+      "options": [
+        "മുംബൈ",
+        "ചെന്നൈ",
+        "ബെംഗളൂരു",
+        "ഹൈദരാബാദ്"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "easy"
     }
   ]
 }

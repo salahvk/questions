@@ -1,352 +1,16 @@
 {
   "questions": [
     {
-      "question": "'Godan' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "question": "'Gitanjali' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
       "options": [
-        "വിക്ടർ ഹ്യൂഗോ",
-        "ശൂദ്രകൻ",
         "സി.എസ്. ലൂയിസ്",
-        "മുൻഷി പ്രേംചന്ദ്"
-      ],
-      "answer": "മുൻഷി പ്രേംചന്ദ്",
-      "difficulty": "medium",
-      "id": "lit_0031"
-    },
-    {
-      "question": "തുലസിദാസ് രചിച്ച 'രാമചരിതമാനസ്' ഏത് ഭാഷയിലാണ്?",
-      "options": [
-        "അവധി/ഹിന്ദി",
-        "സംസ്കൃതം മാത്രം",
-        "മലയാളം",
-        "തമിഴ്"
-      ],
-      "answer": "അവധി/ഹിന്ദി",
-      "difficulty": "hard",
-      "id": "lit_0063"
-    },
-    {
-      "question": "ആർ.കെ. നാരായണൻ സൃഷ്ടിച്ച കൽപിത നഗരം ഏത്?",
-      "options": [
-        "Malgudi",
-        "ഖസാക്ക്",
-        "Ayemenem",
-        "Wessex"
-      ],
-      "answer": "Malgudi",
-      "difficulty": "medium",
-      "id": "lit_0011"
-    },
-    {
-      "question": "'1984' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ജോർജ് ഓർവെൽ",
-        "ഔൾഡസ് ഹക്സ്ലി",
-        "ഐസക് ആസിമോവ്",
-        "ജെ.ആർ.ആർ. റ്റോൾകീൻ"
-      ],
-      "answer": "ജോർജ് ഓർവെൽ",
-      "difficulty": "medium",
-      "id": "lit_0075"
-    },
-    {
-      "question": "കബീറിന്റെ ദോഹകൾ പ്രധാനമായും ഏത് ഭാഷയിലാണ് രചിച്ചത്?",
-      "options": [
-        "ഖഡി ബോലി/ഹിന്ദി മിശ്രണം",
-        "മലയാളം",
-        "ഇംഗ്ലീഷ്",
-        "ഫ്രെഞ്ച്"
-      ],
-      "answer": "ഖഡി ബോലി/ഹിന്ദി മിശ്രണം",
-      "difficulty": "hard",
-      "id": "lit_0055"
-    },
-    {
-      "question": "യുനെസ്കോ ലോക സാഹിത്യ ദിനം ആചരിക്കുന്നത് എപ്പോഴാണ്?",
-      "options": [
-        "ഏപ്രിൽ 23",
-        "ജൂൺ 1",
-        "ജനുവരി 1",
-        "ഡിസംബർ 25"
-      ],
-      "answer": "ഏപ്രിൽ 23",
-      "difficulty": "hard",
-      "id": "lit_0020"
-    },
-    {
-      "question": "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "നാലുകെട്ട്",
-        "One Hundred Years of Solitude",
-        "The God of Small Things",
-        "A Tale of Two Cities"
-      ],
-      "answer": "One Hundred Years of Solitude",
-      "difficulty": "medium",
-      "id": "lit_0072"
-    },
-    {
-      "question": "'Harry Potter' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ജെ.കെ. റോലിംഗ്",
+        "ഗുസ്താവ് ഫ്ലോബെർ",
         "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
-        "സി.എസ്. ലൂയിസ്",
-        "ചാൾസ് ഡിക്കൻസ്"
+        "രവീന്ദ്രനാഥ ടാഗോർ"
       ],
-      "answer": "ജെ.കെ. റോലിംഗ്",
-      "difficulty": "easy",
-      "id": "lit_0057"
-    },
-    {
-      "question": "'Iliad' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "അയ്യപ്പ പാണികര്",
-        "അരുന്ധതി റോയ്",
-        "ഹോമർ",
-        "ഒ.വി. വിജയൻ"
-      ],
-      "answer": "ഹോമർ",
+      "answer": "രവീന്ദ്രനാഥ ടാഗോർ",
       "difficulty": "medium",
-      "id": "lit_0023"
-    },
-    {
-      "question": "ഡാന്റെ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Pride and Prejudice",
-        "Macbeth",
-        "Ayemenem",
-        "Divine Comedy"
-      ],
-      "answer": "Divine Comedy",
-      "difficulty": "medium",
-      "id": "lit_0029"
-    },
-    {
-      "question": "ഗ്യോതെ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Divine Comedy",
-        "The Brothers Karamazov",
-        "Faust",
-        "ഖസാക്കിന്റെ ഇതിഹാസം"
-      ],
-      "answer": "Faust",
-      "difficulty": "medium",
-      "id": "lit_0082"
-    },
-    {
-      "question": "'Great Expectations' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ചാൾസ് ഡിക്കൻസ്",
-        "ജെയ്ൻ ഓസ്റ്റിൻ",
-        "ഹോമർ",
-        "ഡാന്റെ"
-      ],
-      "answer": "ചാൾസ് ഡിക്കൻസ്",
-      "difficulty": "medium",
-      "id": "lit_0028"
-    },
-    {
-      "question": "പാരമ്പര്യമായി രാമായണം രചിച്ചത് ആരാണ്?",
-      "options": [
-        "വാല്മീകി",
-        "വ്യാസൻ",
-        "തുലസിദാസ്",
-        "കാലിദാസൻ"
-      ],
-      "answer": "വാല്മീകി",
-      "difficulty": "easy",
-      "id": "lit_0045"
-    },
-    {
-      "question": "ഹെർമൻ മെൽവിൽ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Moby-Dick",
-        "Abhijnanasakuntalam",
-        "ചെമ്മീൻ",
-        "The Little Prince"
-      ],
-      "answer": "Moby-Dick",
-      "difficulty": "medium",
-      "id": "lit_0067"
-    },
-    {
-      "question": "കേന്ദ്ര സാഹിത്യ അക്കാദമി സ്ഥാപിതമായ വർഷം ഏത്?",
-      "options": [
-        "1954",
-        "1947",
-        "2000",
-        "1990"
-      ],
-      "answer": "1954",
-      "difficulty": "hard",
-      "id": "lit_0050"
-    },
-    {
-      "question": "ഫ്രാൻസ് കാഫ്ക രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Wuthering Heights",
-        "The Trial",
-        "The Stranger",
-        "Wessex"
-      ],
-      "answer": "The Trial",
-      "difficulty": "medium",
-      "id": "lit_0049"
-    },
-    {
-      "question": "ജെ.ഡി. സലിഞ്ജർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Ulysses",
-        "Pride and Prejudice",
-        "The Catcher in the Rye",
-        "Iliad"
-      ],
-      "answer": "The Catcher in the Rye",
-      "difficulty": "medium",
-      "id": "lit_0025"
-    },
-    {
-      "question": "'ഇരുപ്പ്' എന്ന പ്രസിദ്ധ കവിതയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "കുമാരനാശാൻ",
-        "വള്ളത്തോൾ",
-        "ഉള്ളൂർ",
-        "ചങ്ങമ്പുഴ"
-      ],
-      "answer": "കുമാരനാശാൻ",
-      "difficulty": "medium",
-      "id": "lit_0087"
-    },
-    {
-      "question": "വൈകം മുഹമ്മദ് ബഷീറിന്റെ ബാല്യകാല പ്രണയത്തെ ആസ്പദമാക്കി എഴുതിയ നോവൽ ഏത്?",
-      "options": [
-        "ബാല്യകാലസഖി",
-        "ചെമ്മീൻ",
-        "നാലുകെട്ട്",
-        "Iliad"
-      ],
-      "answer": "ബാല്യകാലസഖി",
-      "difficulty": "hard",
-      "id": "lit_0061"
-    },
-    {
-      "question": "'Meghaduta' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "കാലിദാസൻ",
-        "വാല്മീകി",
-        "വ്യാസൻ",
-        "തുലസിദാസ്"
-      ],
-      "answer": "കാലിദാസൻ",
-      "difficulty": "hard",
-      "id": "lit_0064"
-    },
-    {
-      "question": "'To Kill a Mockingbird' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ശൂദ്രകൻ",
-        "ഹാർപ്പർ ലീ",
-        "അയ്യപ്പ പാണികര്",
-        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
-      ],
-      "answer": "ഹാർപ്പർ ലീ",
-      "difficulty": "medium",
-      "id": "lit_0070"
-    },
-    {
-      "question": "മിഗ്വേൽ ഡി സർവാന്റസ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Iliad",
-        "Don Quixote",
-        "Pride and Prejudice",
-        "The Brothers Karamazov"
-      ],
-      "answer": "Don Quixote",
-      "difficulty": "medium",
-      "id": "lit_0042"
-    },
-    {
-      "question": "'Love in the Time of Cholera' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ജോണ് സ്ടൈന്ബെക്",
-        "പൗലോ കോയ്ലോ",
-        "ആൽബർ കാമ്യൂ",
-        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
-      ],
-      "answer": "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
-      "difficulty": "medium",
-      "id": "lit_0008"
-    },
-    {
-      "question": "'Faust' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "വള്ളത്തോൾ",
-        "ഗ്യോതെ",
-        "ആൽബർ കാമ്യൂ",
-        "ജോണ് സ്ടൈന്ബെക്"
-      ],
-      "answer": "ഗ്യോതെ",
-      "difficulty": "medium",
-      "id": "lit_0051"
-    },
-    {
-      "question": "'The Great Gatsby' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "അയ്യപ്പ പാണികര്",
-        "ഷില്ലർ",
-        "ഒ.വി. വിജയൻ",
-        "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ്"
-      ],
-      "answer": "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ്",
-      "difficulty": "medium",
-      "id": "lit_0058"
-    },
-    {
-      "question": "'Odyssey' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "വില്ല്യം ഫോൾക്നർ",
-        "ഹെർമൻ മെൽവിൽ",
-        "ഹോമർ",
-        "വ്യാസൻ"
-      ],
-      "answer": "ഹോമർ",
-      "difficulty": "medium",
-      "id": "lit_0074"
-    },
-    {
-      "question": "'Mrichchakatika' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "വിക്ടർ ഹ്യൂഗോ",
-        "ജെയിംസ് ജോയ്‌സ്",
-        "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ്",
-        "ശൂദ്രകൻ"
-      ],
-      "answer": "ശൂദ്രകൻ",
-      "difficulty": "medium",
-      "id": "lit_0024"
-    },
-    {
-      "question": "പൗലോ കോയ്ലോ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "The Metamorphosis",
-        "Harry Potter",
-        "Don Quixote",
-        "The Alchemist"
-      ],
-      "answer": "The Alchemist",
-      "difficulty": "medium",
-      "id": "lit_0004"
-    },
-    {
-      "question": "'The Metamorphosis' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "എം.ടി. വാസുദേവൻ നായർ",
-        "ഫ്രാൻസ് കാഫ്ക",
-        "കുമാരനാശാൻ",
-        "ലിയോ ടോൾസ്റ്റോയ്"
-      ],
-      "answer": "ഫ്രാൻസ് കാഫ്ക",
-      "difficulty": "medium",
-      "id": "lit_0022"
+      "id": "lit_001"
     },
     {
       "question": "'A Tale of Two Cities' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -358,595 +22,7 @@
       ],
       "answer": "ചാൾസ് ഡിക്കൻസ്",
       "difficulty": "medium",
-      "id": "lit_0002"
-    },
-    {
-      "question": "'The Little Prince' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "മിഗ്വേൽ ഡി സർവാന്റസ്",
-        "കമലാ ദാസ്",
-        "ആൻറ്വൺ ഡി സെയ്ന്റ്-എക്സ്യൂപറി",
-        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)"
-      ],
-      "answer": "ആൻറ്വൺ ഡി സെയ്ന്റ്-എക്സ്യൂപറി",
-      "difficulty": "medium",
-      "id": "lit_0089"
-    },
-    {
-      "question": "ഹാർപ്പർ ലീ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "War and Peace",
-        "Brave New World",
-        "ഹാംലെറ്റ്",
-        "To Kill a Mockingbird"
-      ],
-      "answer": "To Kill a Mockingbird",
-      "difficulty": "medium",
-      "id": "lit_0018"
-    },
-    {
-      "question": "'War and Peace' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഗ്യോതെ",
-        "സുഗതകുമാരി",
-        "ലിയോ ടോൾസ്റ്റോയ്",
-        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
-      ],
-      "answer": "ലിയോ ടോൾസ്റ്റോയ്",
-      "difficulty": "medium",
-      "id": "lit_0085"
-    },
-    {
-      "question": "ഉള്ളൂരിന്റെ 'ഉമാകേരളം' ഏത് തരം സാഹിത്യകൃതിയാണ്?",
-      "options": [
-        "മഹാകാവ്യം",
-        "നോവൽ",
-        "അക്ഷരശേഖരം",
-        "നിഘണ്ടു"
-      ],
-      "answer": "മഹാകാവ്യം",
-      "difficulty": "hard",
-      "id": "lit_0078"
-    },
-    {
-      "question": "'Abhijnanasakuntalam' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "എം.ടി. വാസുദേവൻ നായർ",
-        "എമിലി ബ്രോണ്ടെ",
-        "പൗലോ കോയ്ലോ",
-        "കാലിദാസൻ"
-      ],
-      "answer": "കാലിദാസൻ",
-      "difficulty": "medium",
-      "id": "lit_0006"
-    },
-    {
-      "question": "ആൽബർ കാമ്യൂ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "The Stranger",
-        "The Brothers Karamazov",
-        "The Great Gatsby",
-        "The Metamorphosis"
-      ],
-      "answer": "The Stranger",
-      "difficulty": "medium",
-      "id": "lit_0059"
-    },
-    {
-      "question": "സൂർദാസ് രചിച്ച ഭക്തികവിതകൾ ഏതിനെ കുറിച്ചുള്ളവയാണ്?",
-      "options": [
-        "ശ്രീകൃഷ്ണനെ",
-        "ശിവനെ മാത്രം",
-        "ബുദ്ധനെ മാത്രം",
-        "ജൈനതത്വത്തെ മാത്രം"
-      ],
-      "answer": "ശ്രീകൃഷ്ണനെ",
-      "difficulty": "hard",
-      "id": "lit_0007"
-    },
-    {
-      "question": "വള്ളത്തോളുടെ 'ബന്ധനസ്ഥാനയ അനിരുദ്ധൻ' ഏത് തരം സാഹിത്യകൃതിയാണ്?",
-      "options": [
-        "മഹാകാവ്യം",
-        "നോവൽ",
-        "ചെറുകഥ",
-        "നാടകം"
-      ],
-      "answer": "മഹാകാവ്യം",
-      "difficulty": "hard",
-      "id": "lit_0052"
-    },
-    {
-      "question": "മലയാളത്തിൽ ജ്ഞാനപീഠ പുരസ്കാരം നേടിയ ആദ്യ കവി ആരാണ്?",
-      "options": [
-        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)",
-        "വൈകം മുഹമ്മദ് ബഷീർ",
-        "എം.ടി. വാസുദേവൻ നായർ",
-        "ഒ.എൻ.വി. കുറുപ്പ്"
-      ],
-      "answer": "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)",
-      "difficulty": "hard",
-      "id": "lit_0047"
-    },
-    {
-      "question": "ലിയോ ടോൾസ്റ്റോയ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Crime and Punishment",
-        "War and Peace",
-        "Brave New World",
-        "Faust"
-      ],
-      "answer": "War and Peace",
-      "difficulty": "medium",
-      "id": "lit_0060"
-    },
-    {
-      "question": "സാദത് ഹസൻ മാന്റോ ഏതിനാണ് പ്രശസ്തൻ?",
-      "options": [
-        "വിഭജന കഥകൾ (ഉർദു)",
-        "മലയാള നോവലുകൾ",
-        "ഗ്രീക്ക് മഹാകാവ്യങ്ങൾ",
-        "ഒന്നുമില്ല"
-      ],
-      "answer": "വിഭജന കഥകൾ (ഉർദു)",
-      "difficulty": "hard",
-      "id": "lit_0005"
-    },
-    {
-      "question": "'Moby-Dick' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഒ.വി. വിജയൻ",
-        "ഹെർമൻ മെൽവിൽ",
-        "ഐസക് ആസിമോവ്",
-        "വില്ല്യം ഫോൾക്നർ"
-      ],
-      "answer": "ഹെർമൻ മെൽവിൽ",
-      "difficulty": "medium",
-      "id": "lit_0016"
-    },
-    {
-      "question": "വിക്ടർ ഹ്യൂഗോ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Pride and Prejudice",
-        "Meghaduta",
-        "Abhijnanasakuntalam",
-        "Les Misérables"
-      ],
-      "answer": "Les Misérables",
-      "difficulty": "medium",
-      "id": "lit_0032"
-    },
-    {
-      "question": "വില്ലിയം ഷേക്സ്പിയർ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
-      "options": [
-        "ഹാംലെറ്റ്",
-        "Iliad",
-        "Odyssey",
-        "Faust"
-      ],
-      "answer": "ഹാംലെറ്റ്",
-      "difficulty": "easy",
-      "id": "lit_0041"
-    },
-    {
-      "question": "പാരമ്പര്യമായി മഹാഭാരതം രചിച്ചത് ആരാണ്?",
-      "options": [
-        "വ്യാസൻ",
-        "വാല്മീകി",
-        "തുലസിദാസ്",
-        "കാലിദാസൻ"
-      ],
-      "answer": "വ്യാസൻ",
-      "difficulty": "easy",
-      "id": "lit_0030"
-    },
-    {
-      "question": "രവീന്ദ്രനാഥ ടാഗോർക്ക് നോബൽ സാഹിത്യ പുരസ്കാരം ലഭിച്ച കൃതി ഏത്?",
-      "options": [
-        "ഗീതാഞ്ജലി",
-        "ചെമ്മീൻ",
-        "നാലുകെട്ട്",
-        "Iliad"
-      ],
-      "answer": "ഗീതാഞ്ജലി",
-      "difficulty": "medium",
-      "id": "lit_0012"
-    },
-    {
-      "question": "ജെയിംസ് ജോയ്‌സ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Wessex",
-        "Alice in Wonderland",
-        "Meghaduta",
-        "Ulysses"
-      ],
-      "answer": "Ulysses",
-      "difficulty": "medium",
-      "id": "lit_0017"
-    },
-    {
-      "question": "'The Catcher in the Rye' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
-        "ഹോമർ",
-        "വള്ളത്തോൾ",
-        "ജെ.ഡി. സലിഞ്ജർ"
-      ],
-      "answer": "ജെ.ഡി. സലിഞ്ജർ",
-      "difficulty": "medium",
-      "id": "lit_0091"
-    },
-    {
-      "question": "മിര്സാ ഗാലിബിന്റെ ഭാഷ എത്?",
-      "options": [
-        "ഉർദു/പേർഷ്യൻ",
-        "മലയാളം",
-        "തമിഴ്",
-        "ഇംഗ്ലീഷ്"
-      ],
-      "answer": "ഉർദു/പേർഷ്യൻ",
-      "difficulty": "hard",
-      "id": "lit_0076"
-    },
-    {
-      "question": "ചാൾസ് ഡിക്കൻസ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Midnight's Children",
-        "Wessex",
-        "Divine Comedy",
-        "A Tale of Two Cities"
-      ],
-      "answer": "A Tale of Two Cities",
-      "difficulty": "medium",
-      "id": "lit_0066"
-    },
-    {
-      "question": "മലയാള ആധുനിക കവിതയുടെ പിതാവ് എന്നറിയപ്പെടുന്ന കവി ആരാണ്?",
-      "options": [
-        "അയ്യപ്പ പാണികര്",
-        "ഒ.എൻ.വി. കുറുപ്പ്",
-        "സുഗതകുമാരി",
-        "കമലാ സുരയ്യ"
-      ],
-      "answer": "അയ്യപ്പ പാണികര്",
-      "difficulty": "medium",
-      "id": "lit_0026"
-    },
-    {
-      "question": "'The Trial' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "രവീന്ദ്രനാഥ ടാഗോർ",
-        "പുഷ്കിൻ",
-        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)",
-        "ഫ്രാൻസ് കാഫ്ക"
-      ],
-      "answer": "ഫ്രാൻസ് കാഫ്ക",
-      "difficulty": "medium",
-      "id": "lit_0084"
-    },
-    {
-      "question": "ദോസ്തോയെവ്സ്കി രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "The God of Small Things",
-        "Great Expectations",
-        "Pride and Prejudice",
-        "Crime and Punishment"
-      ],
-      "answer": "Crime and Punishment",
-      "difficulty": "medium",
-      "id": "lit_0039"
-    },
-    {
-      "question": "ഒ.എൻ.വി. കുരുപ്പിന് ജ്ഞാനപീഠ പുരസ്കാരം ലഭിച്ചത് എന്തിനാണ്?",
-      "options": [
-        "മലയാള കവിതാ സംഭാവനകൾ",
-        "ഇംഗ്ലീഷ് നോവലുകൾ",
-        "ഹിന്ദി മാത്രം",
-        "തമിഴ്"
-      ],
-      "answer": "മലയാള കവിതാ സംഭാവനകൾ",
-      "difficulty": "hard",
-      "id": "lit_0081"
-    },
-    {
-      "question": "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "The Great Gatsby",
-        "ഗോദാൻ",
-        "The Old Man and the Sea",
-        "Iliad"
-      ],
-      "answer": "The Great Gatsby",
-      "difficulty": "medium",
-      "id": "lit_0092"
-    },
-    {
-      "question": "'The Old Man and the Sea' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "എർണസ്റ്റ് ഹെമിംഗ്വേ",
-        "വില്ല്യം ഫോൾക്നർ",
-        "ജോണ് സ്ടൈന്ബെക്",
-        "മാറ്ക് ട്വേന്"
-      ],
-      "answer": "എർണസ്റ്റ് ഹെമിംഗ്വേ",
-      "difficulty": "medium",
-      "id": "lit_0056"
-    },
-    {
-      "question": "സുഗതകുമാരി ഏതിനാണ് പ്രശസ്ത?",
-      "options": [
-        "കവിതയും പരിസ്ഥിതി പ്രവർത്തനവും",
-        "നോവലുകൾ മാത്രം",
-        "നാടകങ്ങൾ മാത്രം",
-        "ചിത്രകല മാത്രം"
-      ],
-      "answer": "കവിതയും പരിസ്ഥിതി പ്രവർത്തനവും",
-      "difficulty": "medium",
-      "id": "lit_0019"
-    },
-    {
-      "question": "'Don Quixote' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "തോമസ് ഹാർഡി",
-        "ജോർജ് ഓർവെൽ",
-        "മിഗ്വേൽ ഡി സർവാന്റസ്",
-        "കമലാ സുരയ്യ"
-      ],
-      "answer": "മിഗ്വേൽ ഡി സർവാന്റസ്",
-      "difficulty": "medium",
-      "id": "lit_0080"
-    },
-    {
-      "question": "'The Alchemist' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "കമലാ സുരയ്യ",
-        "ഷില്ലർ",
-        "പൗലോ കോയ്ലോ",
-        "കുമാരനാശാൻ"
-      ],
-      "answer": "പൗലോ കോയ്ലോ",
-      "difficulty": "medium",
-      "id": "lit_0009"
-    },
-    {
-      "question": "'The God of Small Things' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "അരുന്ധതി റോയ്",
-        "ആർ.കെ. നാരായണൻ",
-        "രവീന്ദ്രനാഥ ടാഗോർ",
-        "മുൻഷി പ്രേംചന്ദ്"
-      ],
-      "answer": "അരുന്ധതി റോയ്",
-      "difficulty": "medium",
-      "id": "lit_0037"
-    },
-    {
-      "question": "കമലാ സുരയ്യ മുൻപ് ഏത് പേരിൽ അറിയപ്പെട്ടിരുന്നു?",
-      "options": [
-        "കമലാ ദാസ്",
-        "ഒന്നുമില്ല",
-        "മാധവിക്കുട്ടി",
-        "രണ്ട് പേരുകളും ഒരാളുടേതല്ല"
-      ],
-      "answer": "കമലാ ദാസ്",
-      "difficulty": "medium",
-      "id": "lit_0048"
-    },
-    {
-      "question": "'The Brothers Karamazov' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ദോസ്തോയെവ്സ്കി",
-        "തകഴി ശിവശങ്കര പിള്ള",
-        "സുഗതകുമാരി",
-        "വൈകം മുഹമ്മദ് ബഷീർ"
-      ],
-      "answer": "ദോസ്തോയെവ്സ്കി",
-      "difficulty": "medium",
-      "id": "lit_0044"
-    },
-    {
-      "question": "ആൻറ്വൺ ഡി സെയ്ന്റ്-എക്സ്യൂപറി രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "The Little Prince",
-        "Abhijnanasakuntalam",
-        "Iliad",
-        "Madame Bovary"
-      ],
-      "answer": "The Little Prince",
-      "difficulty": "medium",
-      "id": "lit_0088"
-    },
-    {
-      "question": "ഗുസ്താവ് ഫ്ലോബെർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Alice in Wonderland",
-        "ഇലിയഡും ഒഡിസിയും",
-        "Madame Bovary",
-        "Harry Potter"
-      ],
-      "answer": "Madame Bovary",
-      "difficulty": "medium",
-      "id": "lit_0054"
-    },
-    {
-      "question": "'Anna Karenina' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ജോർജ് ഓർവെൽ",
-        "കമലാ സുരയ്യ",
-        "ഗ്യോതെ",
-        "ലിയോ ടോൾസ്റ്റോയ്"
-      ],
-      "answer": "ലിയോ ടോൾസ്റ്റോയ്",
-      "difficulty": "medium",
-      "id": "lit_0034"
-    },
-    {
-      "question": "ഹോമർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Ayemenem",
-        "Harry Potter",
-        "Iliad",
-        "Don Quixote"
-      ],
-      "answer": "Iliad",
-      "difficulty": "medium",
-      "id": "lit_0010"
-    },
-    {
-      "question": "'The Stranger' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "എമിലി ബ്രോണ്ടെ",
-        "പുഷ്കിൻ",
-        "ആൽബർ കാമ്യൂ",
-        "കുമാരനാശാൻ"
-      ],
-      "answer": "ആൽബർ കാമ്യൂ",
-      "difficulty": "medium",
-      "id": "lit_0038"
-    },
-    {
-      "question": "'Brave New World' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഔൾഡസ് ഹക്സ്ലി",
-        "ജോർജ് ഓർവെൽ",
-        "ഐസക് ആസിമോവ്",
-        "ജെ.ആർ.ആർ. റ്റോൾകീൻ"
-      ],
-      "answer": "ഔൾഡസ് ഹക്സ്ലി",
-      "difficulty": "hard",
-      "id": "lit_0021"
-    },
-    {
-      "question": "എം.ടി. വാസുദേവൻ നായർ രചിച്ച പ്രസിദ്ധ നോവൽ ഏത്?",
-      "options": [
-        "നാലുകെട്ട്",
-        "ചെമ്മീൻ",
-        "Iliad",
-        "Odyssey"
-      ],
-      "answer": "നാലുകെട്ട്",
-      "difficulty": "medium",
-      "id": "lit_0069"
-    },
-    {
-      "question": "'ചെമ്മീൻ' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "തകഴി ശിവശങ്കര പിള്ള",
-        "വൈകം മുഹമ്മദ് ബഷീർ",
-        "എം.ടി. വാസുദേവൻ നായർ",
-        "ഒ.വി. വിജയൻ"
-      ],
-      "answer": "തകഴി ശിവശങ്കര പിള്ള",
-      "difficulty": "easy",
-      "id": "lit_0033"
-    },
-    {
-      "question": "'Madame Bovary' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഗുസ്താവ് ഫ്ലോബെർ",
-        "ദോസ്തോയെവ്സ്കി",
-        "മാറ്ക് ട്വേന്",
-        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
-      ],
-      "answer": "ഗുസ്താവ് ഫ്ലോബെർ",
-      "difficulty": "medium",
-      "id": "lit_0068"
-    },
-    {
-      "question": "ഒ.വി. വിജയൻ രചിച്ച പ്രസിദ്ധ നോവൽ ഏത്?",
-      "options": [
-        "ഖസാക്കിന്റെ ഇതിഹാസം",
-        "ചെമ്മീൻ",
-        "നാലുകെട്ട്",
-        "Iliad"
-      ],
-      "answer": "ഖസാക്കിന്റെ ഇതിഹാസം",
-      "difficulty": "medium",
-      "id": "lit_0065"
-    },
-    {
-      "question": "കാലിദാസൻ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
-      "options": [
-        "Abhijnanasakuntalam",
-        "ഹാംലെറ്റ്",
-        "Macbeth",
-        "Faust"
-      ],
-      "answer": "Abhijnanasakuntalam",
-      "difficulty": "medium",
-      "id": "lit_0013"
-    },
-    {
-      "question": "രവീന്ദ്രനാഥ ടാഗോർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "ഓടക്കുഴൽ",
-        "Ulysses",
-        "ഗീതാഞ്ജലി",
-        "Harry Potter"
-      ],
-      "answer": "ഗീതാഞ്ജലി",
-      "difficulty": "medium",
-      "id": "lit_0015"
-    },
-    {
-      "question": "മുൻഷി പ്രേംചന്ദ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "ഗോദാൻ",
-        "Crime and Punishment",
-        "Mrichchakatika",
-        "Harry Potter"
-      ],
-      "answer": "ഗോദാൻ",
-      "difficulty": "medium",
-      "id": "lit_0083"
-    },
-    {
-      "question": "'Les Misérables' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഗ്യോതെ",
-        "എം.ടി. വാസുദേവൻ നായർ",
-        "വിക്ടർ ഹ്യൂഗോ",
-        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)"
-      ],
-      "answer": "വിക്ടർ ഹ്യൂഗോ",
-      "difficulty": "medium",
-      "id": "lit_0086"
-    },
-    {
-      "question": "തകഴി ശിവശങ്കര പിള്ള രചിച്ച പ്രസിദ്ധ നോവൽ ഏത്?",
-      "options": [
-        "ചെമ്മീൻ",
-        "The God of Small Things",
-        "Midnight's Children",
-        "Iliad"
-      ],
-      "answer": "ചെമ്മീൻ",
-      "difficulty": "easy",
-      "id": "lit_0073"
-    },
-    {
-      "question": "'Ulysses' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "വാല്മീകി",
-        "ജെയിംസ് ജോയ്‌സ്",
-        "തുലസിദാസ്",
-        "അയ്യപ്പ പാണികര്"
-      ],
-      "answer": "ജെയിംസ് ജോയ്‌സ്",
-      "difficulty": "medium",
-      "id": "lit_0036"
-    },
-    {
-      "question": "'Pride and Prejudice' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ജെയ്ൻ ഓസ്റ്റിൻ",
-        "എമിലി ബ്രോണ്ടെ",
-        "ചാൾസ് ഡിക്കൻസ്",
-        "തോമസ് ഹാർഡി"
-      ],
-      "answer": "ജെയ്ൻ ഓസ്റ്റിൻ",
-      "difficulty": "medium",
-      "id": "lit_0053"
+      "id": "lit_002"
     },
     {
       "question": "'Animal Farm' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -958,43 +34,127 @@
       ],
       "answer": "ജോർജ് ഓർവെൽ",
       "difficulty": "medium",
-      "id": "lit_0003"
+      "id": "lit_003"
     },
     {
-      "question": "'One Hundred Years of Solitude' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "question": "പൗലോ കോയ്ലോ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
       "options": [
-        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
-        "പുഷ്കിൻ",
+        "The Metamorphosis",
+        "Harry Potter",
+        "Don Quixote",
+        "The Alchemist"
+      ],
+      "answer": "The Alchemist",
+      "difficulty": "medium",
+      "id": "lit_004"
+    },
+    {
+      "question": "സാദത് ഹസൻ മാന്റോ ഏതിനാണ് പ്രശസ്തൻ?",
+      "options": [
+        "വിഭജന കഥകൾ (ഉർദു)",
+        "മലയാള നോവലുകൾ",
+        "ഗ്രീക്ക് മഹാകാവ്യങ്ങൾ",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "വിഭജന കഥകൾ (ഉർദു)",
+      "difficulty": "hard",
+      "id": "lit_005"
+    },
+    {
+      "question": "'Abhijnanasakuntalam' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "എം.ടി. വാസുദേവൻ നായർ",
+        "എമിലി ബ്രോണ്ടെ",
+        "പൗലോ കോയ്ലോ",
+        "കാലിദാസൻ"
+      ],
+      "answer": "കാലിദാസൻ",
+      "difficulty": "medium",
+      "id": "lit_006"
+    },
+    {
+      "question": "സൂർദാസ് രചിച്ച ഭക്തികവിതകൾ ഏതിനെ കുറിച്ചുള്ളവയാണ്?",
+      "options": [
+        "ശ്രീകൃഷ്ണനെ",
+        "ശിവനെ മാത്രം",
+        "ബുദ്ധനെ മാത്രം",
+        "ജൈനതത്വത്തെ മാത്രം"
+      ],
+      "answer": "ശ്രീകൃഷ്ണനെ",
+      "difficulty": "hard",
+      "id": "lit_007"
+    },
+    {
+      "question": "'Love in the Time of Cholera' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
         "ജോണ് സ്ടൈന്ബെക്",
-        "ജെ.ഡി. സലിഞ്ജർ"
+        "പൗലോ കോയ്ലോ",
+        "ആൽബർ കാമ്യൂ",
+        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
       ],
       "answer": "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
       "difficulty": "medium",
-      "id": "lit_0035"
+      "id": "lit_008"
     },
     {
-      "question": "കുമാരനാശാൻ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "question": "'The Alchemist' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
       "options": [
-        "ചിന്താവിഷ്ടയായ സീത",
+        "കമലാ സുരയ്യ",
+        "ഷില്ലർ",
+        "പൗലോ കോയ്ലോ",
+        "കുമാരനാശാൻ"
+      ],
+      "answer": "പൗലോ കോയ്ലോ",
+      "difficulty": "medium",
+      "id": "lit_009"
+    },
+    {
+      "question": "ഹോമർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Ayemenem",
+        "Harry Potter",
+        "Iliad",
+        "Don Quixote"
+      ],
+      "answer": "Iliad",
+      "difficulty": "medium",
+      "id": "lit_010"
+    },
+    {
+      "question": "ആർ.കെ. നാരായണൻ സൃഷ്ടിച്ച കൽപിത നഗരം ഏത്?",
+      "options": [
+        "Malgudi",
+        "ഖസാക്ക്",
+        "Ayemenem",
+        "Wessex"
+      ],
+      "answer": "Malgudi",
+      "difficulty": "medium",
+      "id": "lit_011"
+    },
+    {
+      "question": "രവീന്ദ്രനാഥ ടാഗോർക്ക് നോബൽ സാഹിത്യ പുരസ്കാരം ലഭിച്ച കൃതി ഏത്?",
+      "options": [
+        "ഗീതാഞ്ജലി",
         "ചെമ്മീൻ",
         "നാലുകെട്ട്",
         "Iliad"
       ],
-      "answer": "ചിന്താവിഷ്ടയായ സീത",
+      "answer": "ഗീതാഞ്ജലി",
       "difficulty": "medium",
-      "id": "lit_0046"
+      "id": "lit_012"
     },
     {
-      "question": "'ഓടക്കുഴൽ' എന്ന കവിതാസമാഹാരത്തിന്റെ രചയിതാവ് ആരാണ്?",
+      "question": "കാലിദാസൻ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
       "options": [
-        "ജി. ശങ്കര കുറുപ്പ്",
-        "കുമാരനാശാൻ",
-        "ഉള്ളൂർ",
-        "വള്ളത്തോൾ"
+        "Abhijnanasakuntalam",
+        "ഹാംലെറ്റ്",
+        "Macbeth",
+        "Faust"
       ],
-      "answer": "ജി. ശങ്കര കുറുപ്പ്",
-      "difficulty": "hard",
-      "id": "lit_0077"
+      "answer": "Abhijnanasakuntalam",
+      "difficulty": "medium",
+      "id": "lit_013"
     },
     {
       "question": "'Divine Comedy' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -1006,43 +166,151 @@
       ],
       "answer": "ഡാന്റെ",
       "difficulty": "medium",
-      "id": "lit_0014"
+      "id": "lit_014"
     },
     {
-      "question": "'Alice in Wonderland' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "question": "രവീന്ദ്രനാഥ ടാഗോർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
       "options": [
-        "ലൂയിസ് കാരോൾ",
-        "ചാൾസ് ഡിക്കൻസ്",
-        "ജെയ്ൻ ഓസ്റ്റിൻ",
-        "എമിലി ബ്രോണ്ടെ"
+        "ഓടക്കുഴൽ",
+        "Ulysses",
+        "ഗീതാഞ്ജലി",
+        "Harry Potter"
       ],
-      "answer": "ലൂയിസ് കാരോൾ",
+      "answer": "ഗീതാഞ്ജലി",
       "difficulty": "medium",
-      "id": "lit_0071"
+      "id": "lit_015"
     },
     {
-      "question": "'Wuthering Heights' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "question": "'Moby-Dick' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
       "options": [
-        "എമിലി ബ്രോണ്ടെ",
-        "ജെയ്ൻ ഓസ്റ്റിൻ",
-        "ചാൾസ് ഡിക്കൻസ്",
-        "തോമസ് ഹാർഡി"
+        "ഒ.വി. വിജയൻ",
+        "ഹെർമൻ മെൽവിൽ",
+        "ഐസക് ആസിമോവ്",
+        "വില്ല്യം ഫോൾക്നർ"
       ],
-      "answer": "എമിലി ബ്രോണ്ടെ",
+      "answer": "ഹെർമൻ മെൽവിൽ",
+      "difficulty": "medium",
+      "id": "lit_016"
+    },
+    {
+      "question": "ജെയിംസ് ജോയ്‌സ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Wessex",
+        "Alice in Wonderland",
+        "Meghaduta",
+        "Ulysses"
+      ],
+      "answer": "Ulysses",
+      "difficulty": "medium",
+      "id": "lit_017"
+    },
+    {
+      "question": "ഹാർപ്പർ ലീ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "War and Peace",
+        "Brave New World",
+        "ഹാംലെറ്റ്",
+        "To Kill a Mockingbird"
+      ],
+      "answer": "To Kill a Mockingbird",
+      "difficulty": "medium",
+      "id": "lit_018"
+    },
+    {
+      "question": "സുഗതകുമാരി ഏതിനാണ് പ്രശസ്ത?",
+      "options": [
+        "കവിതയും പരിസ്ഥിതി പ്രവർത്തനവും",
+        "നോവലുകൾ മാത്രം",
+        "നാടകങ്ങൾ മാത്രം",
+        "ചിത്രകല മാത്രം"
+      ],
+      "answer": "കവിതയും പരിസ്ഥിതി പ്രവർത്തനവും",
+      "difficulty": "medium",
+      "id": "lit_019"
+    },
+    {
+      "question": "യുനെസ്കോ ലോക സാഹിത്യ ദിനം ആചരിക്കുന്നത് എപ്പോഴാണ്?",
+      "options": [
+        "ഏപ്രിൽ 23",
+        "ജൂൺ 1",
+        "ജനുവരി 1",
+        "ഡിസംബർ 25"
+      ],
+      "answer": "ഏപ്രിൽ 23",
       "difficulty": "hard",
-      "id": "lit_0079"
+      "id": "lit_020"
     },
     {
-      "question": "ശൂദ്രകൻ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "question": "'Brave New World' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
       "options": [
-        "Madame Bovary",
-        "Mrichchakatika",
-        "Faust",
-        "നാലുകെട്ട്"
+        "ഔൾഡസ് ഹക്സ്ലി",
+        "ജോർജ് ഓർവെൽ",
+        "ഐസക് ആസിമോവ്",
+        "ജെ.ആർ.ആർ. റ്റോൾകീൻ"
       ],
-      "answer": "Mrichchakatika",
+      "answer": "ഔൾഡസ് ഹക്സ്ലി",
+      "difficulty": "hard",
+      "id": "lit_021"
+    },
+    {
+      "question": "'The Metamorphosis' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "എം.ടി. വാസുദേവൻ നായർ",
+        "ഫ്രാൻസ് കാഫ്ക",
+        "കുമാരനാശാൻ",
+        "ലിയോ ടോൾസ്റ്റോയ്"
+      ],
+      "answer": "ഫ്രാൻസ് കാഫ്ക",
       "difficulty": "medium",
-      "id": "lit_0062"
+      "id": "lit_022"
+    },
+    {
+      "question": "'Iliad' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "അയ്യപ്പ പാണികര്",
+        "അരുന്ധതി റോയ്",
+        "ഹോമർ",
+        "ഒ.വി. വിജയൻ"
+      ],
+      "answer": "ഹോമർ",
+      "difficulty": "medium",
+      "id": "lit_023"
+    },
+    {
+      "question": "'Mrichchakatika' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "വിക്ടർ ഹ്യൂഗോ",
+        "ജെയിംസ് ജോയ്‌സ്",
+        "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ്",
+        "ശൂദ്രകൻ"
+      ],
+      "answer": "ശൂദ്രകൻ",
+      "difficulty": "medium",
+      "id": "lit_024"
+    },
+    {
+      "question": "ജെ.ഡി. സലിഞ്ജർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Ulysses",
+        "Pride and Prejudice",
+        "The Catcher in the Rye",
+        "Iliad"
+      ],
+      "answer": "The Catcher in the Rye",
+      "difficulty": "medium",
+      "id": "lit_025"
+    },
+    {
+      "question": "മലയാള ആധുനിക കവിതയുടെ പിതാവ് എന്നറിയപ്പെടുന്ന കവി ആരാണ്?",
+      "options": [
+        "അയ്യപ്പ പാണികര്",
+        "ഒ.എൻ.വി. കുറുപ്പ്",
+        "സുഗതകുമാരി",
+        "കമലാ സുരയ്യ"
+      ],
+      "answer": "അയ്യപ്പ പാണികര്",
+      "difficulty": "medium",
+      "id": "lit_026"
     },
     {
       "question": "മുൻഷി പ്രേംചന്ദ് രചിച്ച പ്രസിദ്ധ ഹിന്ദി കൃതി ഏത്?",
@@ -1054,31 +322,151 @@
       ],
       "answer": "ഗോദാൻ",
       "difficulty": "hard",
-      "id": "lit_0027"
+      "id": "lit_027"
     },
     {
-      "question": "'Gitanjali' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "question": "'Great Expectations' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
       "options": [
-        "സി.എസ്. ലൂയിസ്",
-        "ഗുസ്താവ് ഫ്ലോബെർ",
-        "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
-        "രവീന്ദ്രനാഥ ടാഗോർ"
+        "ചാൾസ് ഡിക്കൻസ്",
+        "ജെയ്ൻ ഓസ്റ്റിൻ",
+        "ഹോമർ",
+        "ഡാന്റെ"
       ],
-      "answer": "രവീന്ദ്രനാഥ ടാഗോർ",
+      "answer": "ചാൾസ് ഡിക്കൻസ്",
       "difficulty": "medium",
-      "id": "lit_0001"
+      "id": "lit_028"
     },
     {
-      "question": "'Crime and Punishment' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "question": "ഡാന്റെ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
       "options": [
-        "വള്ളത്തോൾ",
+        "Pride and Prejudice",
+        "Macbeth",
+        "Ayemenem",
+        "Divine Comedy"
+      ],
+      "answer": "Divine Comedy",
+      "difficulty": "medium",
+      "id": "lit_029"
+    },
+    {
+      "question": "പാരമ്പര്യമായി മഹാഭാരതം രചിച്ചത് ആരാണ്?",
+      "options": [
+        "വ്യാസൻ",
+        "വാല്മീകി",
+        "തുലസിദാസ്",
+        "കാലിദാസൻ"
+      ],
+      "answer": "വ്യാസൻ",
+      "difficulty": "easy",
+      "id": "lit_030"
+    },
+    {
+      "question": "'Godan' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "വിക്ടർ ഹ്യൂഗോ",
         "ശൂദ്രകൻ",
-        "സുഗതകുമാരി",
-        "ദോസ്തോയെവ്സ്കി"
+        "സി.എസ്. ലൂയിസ്",
+        "മുൻഷി പ്രേംചന്ദ്"
       ],
-      "answer": "ദോസ്തോയെവ്സ്കി",
+      "answer": "മുൻഷി പ്രേംചന്ദ്",
       "difficulty": "medium",
-      "id": "lit_0090"
+      "id": "lit_031"
+    },
+    {
+      "question": "വിക്ടർ ഹ്യൂഗോ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Pride and Prejudice",
+        "Meghaduta",
+        "Abhijnanasakuntalam",
+        "Les Misérables"
+      ],
+      "answer": "Les Misérables",
+      "difficulty": "medium",
+      "id": "lit_032"
+    },
+    {
+      "question": "'ചെമ്മീൻ' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "തകഴി ശിവശങ്കര പിള്ള",
+        "വൈകം മുഹമ്മദ് ബഷീർ",
+        "എം.ടി. വാസുദേവൻ നായർ",
+        "ഒ.വി. വിജയൻ"
+      ],
+      "answer": "തകഴി ശിവശങ്കര പിള്ള",
+      "difficulty": "easy",
+      "id": "lit_033"
+    },
+    {
+      "question": "'Anna Karenina' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ജോർജ് ഓർവെൽ",
+        "കമലാ സുരയ്യ",
+        "ഗ്യോതെ",
+        "ലിയോ ടോൾസ്റ്റോയ്"
+      ],
+      "answer": "ലിയോ ടോൾസ്റ്റോയ്",
+      "difficulty": "medium",
+      "id": "lit_034"
+    },
+    {
+      "question": "'One Hundred Years of Solitude' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
+        "പുഷ്കിൻ",
+        "ജോണ് സ്ടൈന്ബെക്",
+        "ജെ.ഡി. സലിഞ്ജർ"
+      ],
+      "answer": "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
+      "difficulty": "medium",
+      "id": "lit_035"
+    },
+    {
+      "question": "'Ulysses' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "വാല്മീകി",
+        "ജെയിംസ് ജോയ്‌സ്",
+        "തുലസിദാസ്",
+        "അയ്യപ്പ പാണികര്"
+      ],
+      "answer": "ജെയിംസ് ജോയ്‌സ്",
+      "difficulty": "medium",
+      "id": "lit_036"
+    },
+    {
+      "question": "'The God of Small Things' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "അരുന്ധതി റോയ്",
+        "ആർ.കെ. നാരായണൻ",
+        "രവീന്ദ്രനാഥ ടാഗോർ",
+        "മുൻഷി പ്രേംചന്ദ്"
+      ],
+      "answer": "അരുന്ധതി റോയ്",
+      "difficulty": "medium",
+      "id": "lit_037"
+    },
+    {
+      "question": "'The Stranger' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "എമിലി ബ്രോണ്ടെ",
+        "പുഷ്കിൻ",
+        "ആൽബർ കാമ്യൂ",
+        "കുമാരനാശാൻ"
+      ],
+      "answer": "ആൽബർ കാമ്യൂ",
+      "difficulty": "medium",
+      "id": "lit_038"
+    },
+    {
+      "question": "ദോസ്തോയെവ്സ്കി രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "The God of Small Things",
+        "Great Expectations",
+        "Pride and Prejudice",
+        "Crime and Punishment"
+      ],
+      "answer": "Crime and Punishment",
+      "difficulty": "medium",
+      "id": "lit_039"
     },
     {
       "question": "'Midnight's Children' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -1090,7 +478,31 @@
       ],
       "answer": "സൽമാൻ റുഷ്ദി",
       "difficulty": "hard",
-      "id": "lit_0040"
+      "id": "lit_040"
+    },
+    {
+      "question": "വില്ലിയം ഷേക്സ്പിയർ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
+      "options": [
+        "ഹാംലെറ്റ്",
+        "Iliad",
+        "Odyssey",
+        "Faust"
+      ],
+      "answer": "ഹാംലെറ്റ്",
+      "difficulty": "easy",
+      "id": "lit_041"
+    },
+    {
+      "question": "മിഗ്വേൽ ഡി സർവാന്റസ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Iliad",
+        "Don Quixote",
+        "Pride and Prejudice",
+        "The Brothers Karamazov"
+      ],
+      "answer": "Don Quixote",
+      "difficulty": "medium",
+      "id": "lit_042"
     },
     {
       "question": "'The Lord of the Rings' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -1102,7 +514,595 @@
       ],
       "answer": "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
       "difficulty": "medium",
-      "id": "lit_0043"
+      "id": "lit_043"
+    },
+    {
+      "question": "'The Brothers Karamazov' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ദോസ്തോയെവ്സ്കി",
+        "തകഴി ശിവശങ്കര പിള്ള",
+        "സുഗതകുമാരി",
+        "വൈകം മുഹമ്മദ് ബഷീർ"
+      ],
+      "answer": "ദോസ്തോയെവ്സ്കി",
+      "difficulty": "medium",
+      "id": "lit_044"
+    },
+    {
+      "question": "പാരമ്പര്യമായി രാമായണം രചിച്ചത് ആരാണ്?",
+      "options": [
+        "വാല്മീകി",
+        "വ്യാസൻ",
+        "തുലസിദാസ്",
+        "കാലിദാസൻ"
+      ],
+      "answer": "വാല്മീകി",
+      "difficulty": "easy",
+      "id": "lit_045"
+    },
+    {
+      "question": "കുമാരനാശാൻ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "ചിന്താവിഷ്ടയായ സീത",
+        "ചെമ്മീൻ",
+        "നാലുകെട്ട്",
+        "Iliad"
+      ],
+      "answer": "ചിന്താവിഷ്ടയായ സീത",
+      "difficulty": "medium",
+      "id": "lit_046"
+    },
+    {
+      "question": "മലയാളത്തിൽ ജ്ഞാനപീഠ പുരസ്കാരം നേടിയ ആദ്യ കവി ആരാണ്?",
+      "options": [
+        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)",
+        "വൈകം മുഹമ്മദ് ബഷീർ",
+        "എം.ടി. വാസുദേവൻ നായർ",
+        "ഒ.എൻ.വി. കുറുപ്പ്"
+      ],
+      "answer": "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)",
+      "difficulty": "hard",
+      "id": "lit_047"
+    },
+    {
+      "question": "കമലാ സുരയ്യ മുൻപ് ഏത് പേരിൽ അറിയപ്പെട്ടിരുന്നു?",
+      "options": [
+        "കമലാ ദാസ്",
+        "ഒന്നുമില്ല",
+        "മാധവിക്കുട്ടി",
+        "രണ്ട് പേരുകളും ഒരാളുടേതല്ല"
+      ],
+      "answer": "കമലാ ദാസ്",
+      "difficulty": "medium",
+      "id": "lit_048"
+    },
+    {
+      "question": "ഫ്രാൻസ് കാഫ്ക രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Wuthering Heights",
+        "The Trial",
+        "The Stranger",
+        "Wessex"
+      ],
+      "answer": "The Trial",
+      "difficulty": "medium",
+      "id": "lit_049"
+    },
+    {
+      "question": "കേന്ദ്ര സാഹിത്യ അക്കാദമി സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1954",
+        "1947",
+        "2000",
+        "1990"
+      ],
+      "answer": "1954",
+      "difficulty": "hard",
+      "id": "lit_050"
+    },
+    {
+      "question": "'Faust' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "വള്ളത്തോൾ",
+        "ഗ്യോതെ",
+        "ആൽബർ കാമ്യൂ",
+        "ജോണ് സ്ടൈന്ബെക്"
+      ],
+      "answer": "ഗ്യോതെ",
+      "difficulty": "medium",
+      "id": "lit_051"
+    },
+    {
+      "question": "വള്ളത്തോളുടെ 'ബന്ധനസ്ഥാനയ അനിരുദ്ധൻ' ഏത് തരം സാഹിത്യകൃതിയാണ്?",
+      "options": [
+        "മഹാകാവ്യം",
+        "നോവൽ",
+        "ചെറുകഥ",
+        "നാടകം"
+      ],
+      "answer": "മഹാകാവ്യം",
+      "difficulty": "hard",
+      "id": "lit_052"
+    },
+    {
+      "question": "'Pride and Prejudice' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ജെയ്ൻ ഓസ്റ്റിൻ",
+        "എമിലി ബ്രോണ്ടെ",
+        "ചാൾസ് ഡിക്കൻസ്",
+        "തോമസ് ഹാർഡി"
+      ],
+      "answer": "ജെയ്ൻ ഓസ്റ്റിൻ",
+      "difficulty": "medium",
+      "id": "lit_053"
+    },
+    {
+      "question": "ഗുസ്താവ് ഫ്ലോബെർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Alice in Wonderland",
+        "ഇലിയഡും ഒഡിസിയും",
+        "Madame Bovary",
+        "Harry Potter"
+      ],
+      "answer": "Madame Bovary",
+      "difficulty": "medium",
+      "id": "lit_054"
+    },
+    {
+      "question": "കബീറിന്റെ ദോഹകൾ പ്രധാനമായും ഏത് ഭാഷയിലാണ് രചിച്ചത്?",
+      "options": [
+        "ഖഡി ബോലി/ഹിന്ദി മിശ്രണം",
+        "മലയാളം",
+        "ഇംഗ്ലീഷ്",
+        "ഫ്രെഞ്ച്"
+      ],
+      "answer": "ഖഡി ബോലി/ഹിന്ദി മിശ്രണം",
+      "difficulty": "hard",
+      "id": "lit_055"
+    },
+    {
+      "question": "'The Old Man and the Sea' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "എർണസ്റ്റ് ഹെമിംഗ്വേ",
+        "വില്ല്യം ഫോൾക്നർ",
+        "ജോണ് സ്ടൈന്ബെക്",
+        "മാറ്ക് ട്വേന്"
+      ],
+      "answer": "എർണസ്റ്റ് ഹെമിംഗ്വേ",
+      "difficulty": "medium",
+      "id": "lit_056"
+    },
+    {
+      "question": "'Harry Potter' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ജെ.കെ. റോലിംഗ്",
+        "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
+        "സി.എസ്. ലൂയിസ്",
+        "ചാൾസ് ഡിക്കൻസ്"
+      ],
+      "answer": "ജെ.കെ. റോലിംഗ്",
+      "difficulty": "easy",
+      "id": "lit_057"
+    },
+    {
+      "question": "'The Great Gatsby' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "അയ്യപ്പ പാണികര്",
+        "ഷില്ലർ",
+        "ഒ.വി. വിജയൻ",
+        "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ്"
+      ],
+      "answer": "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ്",
+      "difficulty": "medium",
+      "id": "lit_058"
+    },
+    {
+      "question": "ആൽബർ കാമ്യൂ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "The Stranger",
+        "The Brothers Karamazov",
+        "The Great Gatsby",
+        "The Metamorphosis"
+      ],
+      "answer": "The Stranger",
+      "difficulty": "medium",
+      "id": "lit_059"
+    },
+    {
+      "question": "ലിയോ ടോൾസ്റ്റോയ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Crime and Punishment",
+        "War and Peace",
+        "Brave New World",
+        "Faust"
+      ],
+      "answer": "War and Peace",
+      "difficulty": "medium",
+      "id": "lit_060"
+    },
+    {
+      "question": "വൈകം മുഹമ്മദ് ബഷീറിന്റെ ബാല്യകാല പ്രണയത്തെ ആസ്പദമാക്കി എഴുതിയ നോവൽ ഏത്?",
+      "options": [
+        "ബാല്യകാലസഖി",
+        "ചെമ്മീൻ",
+        "നാലുകെട്ട്",
+        "Iliad"
+      ],
+      "answer": "ബാല്യകാലസഖി",
+      "difficulty": "hard",
+      "id": "lit_061"
+    },
+    {
+      "question": "ശൂദ്രകൻ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Madame Bovary",
+        "Mrichchakatika",
+        "Faust",
+        "നാലുകെട്ട്"
+      ],
+      "answer": "Mrichchakatika",
+      "difficulty": "medium",
+      "id": "lit_062"
+    },
+    {
+      "question": "തുലസിദാസ് രചിച്ച 'രാമചരിതമാനസ്' ഏത് ഭാഷയിലാണ്?",
+      "options": [
+        "അവധി/ഹിന്ദി",
+        "സംസ്കൃതം മാത്രം",
+        "മലയാളം",
+        "തമിഴ്"
+      ],
+      "answer": "അവധി/ഹിന്ദി",
+      "difficulty": "hard",
+      "id": "lit_063"
+    },
+    {
+      "question": "'Meghaduta' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "കാലിദാസൻ",
+        "വാല്മീകി",
+        "വ്യാസൻ",
+        "തുലസിദാസ്"
+      ],
+      "answer": "കാലിദാസൻ",
+      "difficulty": "hard",
+      "id": "lit_064"
+    },
+    {
+      "question": "ഒ.വി. വിജയൻ രചിച്ച പ്രസിദ്ധ നോവൽ ഏത്?",
+      "options": [
+        "ഖസാക്കിന്റെ ഇതിഹാസം",
+        "ചെമ്മീൻ",
+        "നാലുകെട്ട്",
+        "Iliad"
+      ],
+      "answer": "ഖസാക്കിന്റെ ഇതിഹാസം",
+      "difficulty": "medium",
+      "id": "lit_065"
+    },
+    {
+      "question": "ചാൾസ് ഡിക്കൻസ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Midnight's Children",
+        "Wessex",
+        "Divine Comedy",
+        "A Tale of Two Cities"
+      ],
+      "answer": "A Tale of Two Cities",
+      "difficulty": "medium",
+      "id": "lit_066"
+    },
+    {
+      "question": "ഹെർമൻ മെൽവിൽ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Moby-Dick",
+        "Abhijnanasakuntalam",
+        "ചെമ്മീൻ",
+        "The Little Prince"
+      ],
+      "answer": "Moby-Dick",
+      "difficulty": "medium",
+      "id": "lit_067"
+    },
+    {
+      "question": "'Madame Bovary' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ഗുസ്താവ് ഫ്ലോബെർ",
+        "ദോസ്തോയെവ്സ്കി",
+        "മാറ്ക് ട്വേന്",
+        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
+      ],
+      "answer": "ഗുസ്താവ് ഫ്ലോബെർ",
+      "difficulty": "medium",
+      "id": "lit_068"
+    },
+    {
+      "question": "എം.ടി. വാസുദേവൻ നായർ രചിച്ച പ്രസിദ്ധ നോവൽ ഏത്?",
+      "options": [
+        "നാലുകെട്ട്",
+        "ചെമ്മീൻ",
+        "Iliad",
+        "Odyssey"
+      ],
+      "answer": "നാലുകെട്ട്",
+      "difficulty": "medium",
+      "id": "lit_069"
+    },
+    {
+      "question": "'To Kill a Mockingbird' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ശൂദ്രകൻ",
+        "ഹാർപ്പർ ലീ",
+        "അയ്യപ്പ പാണികര്",
+        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
+      ],
+      "answer": "ഹാർപ്പർ ലീ",
+      "difficulty": "medium",
+      "id": "lit_070"
+    },
+    {
+      "question": "'Alice in Wonderland' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ലൂയിസ് കാരോൾ",
+        "ചാൾസ് ഡിക്കൻസ്",
+        "ജെയ്ൻ ഓസ്റ്റിൻ",
+        "എമിലി ബ്രോണ്ടെ"
+      ],
+      "answer": "ലൂയിസ് കാരോൾ",
+      "difficulty": "medium",
+      "id": "lit_071"
+    },
+    {
+      "question": "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "നാലുകെട്ട്",
+        "One Hundred Years of Solitude",
+        "The God of Small Things",
+        "A Tale of Two Cities"
+      ],
+      "answer": "One Hundred Years of Solitude",
+      "difficulty": "medium",
+      "id": "lit_072"
+    },
+    {
+      "question": "തകഴി ശിവശങ്കര പിള്ള രചിച്ച പ്രസിദ്ധ നോവൽ ഏത്?",
+      "options": [
+        "ചെമ്മീൻ",
+        "The God of Small Things",
+        "Midnight's Children",
+        "Iliad"
+      ],
+      "answer": "ചെമ്മീൻ",
+      "difficulty": "easy",
+      "id": "lit_073"
+    },
+    {
+      "question": "'Odyssey' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "വില്ല്യം ഫോൾക്നർ",
+        "ഹെർമൻ മെൽവിൽ",
+        "ഹോമർ",
+        "വ്യാസൻ"
+      ],
+      "answer": "ഹോമർ",
+      "difficulty": "medium",
+      "id": "lit_074"
+    },
+    {
+      "question": "'1984' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ജോർജ് ഓർവെൽ",
+        "ഔൾഡസ് ഹക്സ്ലി",
+        "ഐസക് ആസിമോവ്",
+        "ജെ.ആർ.ആർ. റ്റോൾകീൻ"
+      ],
+      "answer": "ജോർജ് ഓർവെൽ",
+      "difficulty": "medium",
+      "id": "lit_075"
+    },
+    {
+      "question": "മിര്സാ ഗാലിബിന്റെ ഭാഷ എത്?",
+      "options": [
+        "ഉർദു/പേർഷ്യൻ",
+        "മലയാളം",
+        "തമിഴ്",
+        "ഇംഗ്ലീഷ്"
+      ],
+      "answer": "ഉർദു/പേർഷ്യൻ",
+      "difficulty": "hard",
+      "id": "lit_076"
+    },
+    {
+      "question": "'ഓടക്കുഴൽ' എന്ന കവിതാസമാഹാരത്തിന്റെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ജി. ശങ്കര കുറുപ്പ്",
+        "കുമാരനാശാൻ",
+        "ഉള്ളൂർ",
+        "വള്ളത്തോൾ"
+      ],
+      "answer": "ജി. ശങ്കര കുറുപ്പ്",
+      "difficulty": "hard",
+      "id": "lit_077"
+    },
+    {
+      "question": "ഉള്ളൂരിന്റെ 'ഉമാകേരളം' ഏത് തരം സാഹിത്യകൃതിയാണ്?",
+      "options": [
+        "മഹാകാവ്യം",
+        "നോവൽ",
+        "അക്ഷരശേഖരം",
+        "നിഘണ്ടു"
+      ],
+      "answer": "മഹാകാവ്യം",
+      "difficulty": "hard",
+      "id": "lit_078"
+    },
+    {
+      "question": "'Wuthering Heights' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "എമിലി ബ്രോണ്ടെ",
+        "ജെയ്ൻ ഓസ്റ്റിൻ",
+        "ചാൾസ് ഡിക്കൻസ്",
+        "തോമസ് ഹാർഡി"
+      ],
+      "answer": "എമിലി ബ്രോണ്ടെ",
+      "difficulty": "hard",
+      "id": "lit_079"
+    },
+    {
+      "question": "'Don Quixote' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "തോമസ് ഹാർഡി",
+        "ജോർജ് ഓർവെൽ",
+        "മിഗ്വേൽ ഡി സർവാന്റസ്",
+        "കമലാ സുരയ്യ"
+      ],
+      "answer": "മിഗ്വേൽ ഡി സർവാന്റസ്",
+      "difficulty": "medium",
+      "id": "lit_080"
+    },
+    {
+      "question": "ഒ.എൻ.വി. കുരുപ്പിന് ജ്ഞാനപീഠ പുരസ്കാരം ലഭിച്ചത് എന്തിനാണ്?",
+      "options": [
+        "മലയാള കവിതാ സംഭാവനകൾ",
+        "ഇംഗ്ലീഷ് നോവലുകൾ",
+        "ഹിന്ദി മാത്രം",
+        "തമിഴ്"
+      ],
+      "answer": "മലയാള കവിതാ സംഭാവനകൾ",
+      "difficulty": "hard",
+      "id": "lit_081"
+    },
+    {
+      "question": "ഗ്യോതെ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "Divine Comedy",
+        "The Brothers Karamazov",
+        "Faust",
+        "ഖസാക്കിന്റെ ഇതിഹാസം"
+      ],
+      "answer": "Faust",
+      "difficulty": "medium",
+      "id": "lit_082"
+    },
+    {
+      "question": "മുൻഷി പ്രേംചന്ദ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "ഗോദാൻ",
+        "Crime and Punishment",
+        "Mrichchakatika",
+        "Harry Potter"
+      ],
+      "answer": "ഗോദാൻ",
+      "difficulty": "medium",
+      "id": "lit_083"
+    },
+    {
+      "question": "'The Trial' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "രവീന്ദ്രനാഥ ടാഗോർ",
+        "പുഷ്കിൻ",
+        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)",
+        "ഫ്രാൻസ് കാഫ്ക"
+      ],
+      "answer": "ഫ്രാൻസ് കാഫ്ക",
+      "difficulty": "medium",
+      "id": "lit_084"
+    },
+    {
+      "question": "'War and Peace' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ഗ്യോതെ",
+        "സുഗതകുമാരി",
+        "ലിയോ ടോൾസ്റ്റോയ്",
+        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്"
+      ],
+      "answer": "ലിയോ ടോൾസ്റ്റോയ്",
+      "difficulty": "medium",
+      "id": "lit_085"
+    },
+    {
+      "question": "'Les Misérables' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ഗ്യോതെ",
+        "എം.ടി. വാസുദേവൻ നായർ",
+        "വിക്ടർ ഹ്യൂഗോ",
+        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)"
+      ],
+      "answer": "വിക്ടർ ഹ്യൂഗോ",
+      "difficulty": "medium",
+      "id": "lit_086"
+    },
+    {
+      "question": "'ഇരുപ്പ്' എന്ന പ്രസിദ്ധ കവിതയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "കുമാരനാശാൻ",
+        "വള്ളത്തോൾ",
+        "ഉള്ളൂർ",
+        "ചങ്ങമ്പുഴ"
+      ],
+      "answer": "കുമാരനാശാൻ",
+      "difficulty": "medium",
+      "id": "lit_087"
+    },
+    {
+      "question": "ആൻറ്വൺ ഡി സെയ്ന്റ്-എക്സ്യൂപറി രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "The Little Prince",
+        "Abhijnanasakuntalam",
+        "Iliad",
+        "Madame Bovary"
+      ],
+      "answer": "The Little Prince",
+      "difficulty": "medium",
+      "id": "lit_088"
+    },
+    {
+      "question": "'The Little Prince' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "മിഗ്വേൽ ഡി സർവാന്റസ്",
+        "കമലാ ദാസ്",
+        "ആൻറ്വൺ ഡി സെയ്ന്റ്-എക്സ്യൂപറി",
+        "ജി. ശങ്കര കുറുപ്പ് (ഓടക്കുഴൽ)"
+      ],
+      "answer": "ആൻറ്വൺ ഡി സെയ്ന്റ്-എക്സ്യൂപറി",
+      "difficulty": "medium",
+      "id": "lit_089"
+    },
+    {
+      "question": "'Crime and Punishment' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "വള്ളത്തോൾ",
+        "ശൂദ്രകൻ",
+        "സുഗതകുമാരി",
+        "ദോസ്തോയെവ്സ്കി"
+      ],
+      "answer": "ദോസ്തോയെവ്സ്കി",
+      "difficulty": "medium",
+      "id": "lit_090"
+    },
+    {
+      "question": "'The Catcher in the Rye' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
+      "options": [
+        "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
+        "ഹോമർ",
+        "വള്ളത്തോൾ",
+        "ജെ.ഡി. സലിഞ്ജർ"
+      ],
+      "answer": "ജെ.ഡി. സലിഞ്ജർ",
+      "difficulty": "medium",
+      "id": "lit_091"
+    },
+    {
+      "question": "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
+      "options": [
+        "The Great Gatsby",
+        "ഗോദാൻ",
+        "The Old Man and the Sea",
+        "Iliad"
+      ],
+      "answer": "The Great Gatsby",
+      "difficulty": "medium",
+      "id": "lit_092"
     }
   ]
 }

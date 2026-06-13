@@ -15,6 +15,8 @@ SKIP_GLOBAL = {"english_language.json", "current_affairs_manifest.json"}
 
 # Extra banned stems from cursor rules §3–§5
 BANNED_STEM_PATTERNS = [
+    re.compile(r"^വർഷം .+ ഏത് ദശാബ്ദത്തിൽ\?$"),
+    re.compile(r"^വർഷം .+ ഏത് നൂറ്റാണ്ടിലാണ്\?$"),
     re.compile(r"ഏത് ചോദ്യത്തിന്റെ ഉത്തരമാണ്"),
     re.compile(r"ഉത്തരമുള്ള ചോദ്യം"),
     re.compile(r"^'[^']+' ബാങ്കിംഗ് സേവനങ്ങളിൽ പ്രധാനമായി എന്തിനാണ്"),
@@ -38,7 +40,8 @@ STEM_TEMPLATE_RULES: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"^.+ പദ്ധതി ഏതിനാണ്\?$"), "scheme_purpose"),
     (re.compile(r"^.+ ഏത് മേഖല"), "scheme_sector"),
     (re.compile(r"^NCERT പുസ്തകം"), "ncert_fake"),
-    (re.compile(r"^വിദ്യാഭ്യാസ ചരിത്രത്തിൽ"), "edu_history_wrapper"),
+    (re.compile(r"^diploid: n=\d+, m=\d+ — ആകെ ക്രോമോസോം എണ്ണം\?$"), "bio_diploid_formula"),
+    (re.compile(r"^DNA \d+ bp, GC \d+% — GC bp എണ്ണം\?$"), "bio_dna_gc_formula"),
     (re.compile(r"വിഷയം-\d+"), "ncert_fake"),
 ]
 
@@ -236,6 +239,9 @@ def add_candidate(
         return
     opts = pick3(pool or wrong + [ans], ans, rng)
     if len(set(opts)) != 4 or ans not in opts:
+        return
+    from option_type_utils import option_type_mismatch
+    if option_type_mismatch(q, opts, ans):
         return
     out.append((q, opts, ans, diff))
     existing.add(q)

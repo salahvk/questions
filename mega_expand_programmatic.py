@@ -294,7 +294,7 @@ BIO_NUM = '''
                 f"DNA {bp} bp, GC {gc}% — GC bp എണ്ണം?",
                 ans, wrong, "hard")
 '''
-if "diploid cell" not in bio:
+if "diploid: n=" not in bio:
     bio = bio.replace("    return out\n", BIO_NUM + "\n    return out\n")
     (BASE / "biology_facts.py").write_text(bio, encoding="utf-8")
     print("Expanded biology_facts.py")

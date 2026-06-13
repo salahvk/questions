@@ -1,1591 +1,7 @@
 {
   "questions": [
     {
-      "id": "eng_0191",
-      "question": "Fill in: The book ___ on the table?",
-      "options": [
-        "have",
-        "are",
-        "is",
-        "were"
-      ],
-      "answer": "is",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0269",
-      "question": "Fill in: He ___ the ball over the fence.",
-      "options": [
-        "through",
-        "thru",
-        "true",
-        "threw"
-      ],
-      "answer": "threw",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0233",
-      "question": "Which spelling is correct for the word meaning 'rhythm'?",
-      "options": [
-        "Rhytm",
-        "Rythm",
-        "Rhythm",
-        "Rhythem"
-      ],
-      "answer": "Rhythm",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0158",
-      "question": "Synonym of 'Obsolete' is?",
-      "options": [
-        "Outdated",
-        "Modern",
-        "New",
-        "Current"
-      ],
-      "answer": "Outdated",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0314",
-      "question": "Synonym of 'Abundant' is?",
-      "options": [
-        "Plentiful",
-        "Rare",
-        "Limited",
-        "Scarce"
-      ],
-      "answer": "Plentiful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0116",
-      "question": "The plural of 'goose' is?",
-      "options": [
-        "geese",
-        "geeses",
-        "gooses",
-        "goose"
-      ],
-      "answer": "geese",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0151",
-      "question": "Synonym of 'Unique' is?",
-      "options": [
-        "Distinct",
-        "Common",
-        "Usual",
-        "Ordinary"
-      ],
-      "answer": "Distinct",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0241",
-      "question": "Which spelling is correct for the word meaning 'definite'?",
-      "options": [
-        "Definite",
-        "Definate",
-        "Definete",
-        "Definately"
-      ],
-      "answer": "Definite",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0194",
-      "question": "Synonym of 'Smart' is?",
-      "options": [
-        "Intelligent",
-        "Dull",
-        "Slow",
-        "Weak"
-      ],
-      "answer": "Intelligent",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0051",
-      "question": "Choose the correct synonym of 'Enormous'.",
-      "options": [
-        "Little",
-        "Small",
-        "Huge",
-        "Tiny"
-      ],
-      "answer": "Huge",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0308",
-      "question": "Fill in: Neither of the boys ___ present?",
-      "options": [
-        "is",
-        "are",
-        "were",
-        "have"
-      ],
-      "answer": "is",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0054",
-      "question": "Choose the correct synonym of 'Rapid'.",
-      "options": [
-        "Lazy",
-        "Swift",
-        "Weak",
-        "Slow"
-      ],
-      "answer": "Swift",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0260",
-      "question": "Synonym of 'Immense' is?",
-      "options": [
-        "Tiny",
-        "Small",
-        "Huge",
-        "Minute"
-      ],
-      "answer": "Huge",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0176",
-      "question": "Plural of 'Leaf' is?",
-      "options": [
-        "Leafs",
-        "Leaves",
-        "Leafes",
-        "Leavs"
-      ],
-      "answer": "Leaves",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0156",
-      "question": "Choose the correctly spelled word.",
-      "options": [
-        "Accommodation",
-        "Acommodation",
-        "Accomodation",
-        "Accomadation"
-      ],
-      "answer": "Accommodation",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0010",
-      "question": "Choose the antonym of 'Happy'.",
-      "options": [
-        "Glad",
-        "Cheerful",
-        "Joyful",
-        "Sad"
-      ],
-      "answer": "Sad",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0251",
-      "question": "Choose the correct synonym of 'Honest'.",
-      "options": [
-        "Truthful",
-        "Dishonest",
-        "False",
-        "Cunning"
-      ],
-      "answer": "Truthful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0245",
-      "question": "Choose the antonym of 'Profit'.",
-      "options": [
-        "Gain",
-        "Earning",
-        "Loss",
-        "Benefit"
-      ],
-      "answer": "Loss",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0291",
-      "question": "Choose the correct synonym of 'Ancient'.",
-      "options": [
-        "Modern",
-        "New",
-        "Old",
-        "Fresh"
-      ],
-      "answer": "Old",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0221",
-      "question": "Fill in: She has ___ finished her homework?",
-      "options": [
-        "yet",
-        "already",
-        "since",
-        "for"
-      ],
-      "answer": "already",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0274",
-      "question": "Antonym of 'Temporary' is?",
-      "options": [
-        "Fleeting",
-        "Short",
-        "Permanent",
-        "Brief"
-      ],
-      "answer": "Permanent",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0204",
-      "question": "Which spelling is correct for the word meaning 'tomorrow'?",
-      "options": [
-        "Tommorow",
-        "Tomorow",
-        "Tomorrow",
-        "Tommorrow"
-      ],
-      "answer": "Tomorrow",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0115",
-      "question": "Synonym of 'Vivid' is?",
-      "options": [
-        "Faint",
-        "Bright",
-        "Dull",
-        "Pale"
-      ],
-      "answer": "Bright",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0189",
-      "question": "Synonym of 'Cease' is?",
-      "options": [
-        "Start",
-        "Continue",
-        "Begin",
-        "Stop"
-      ],
-      "answer": "Stop",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0044",
-      "question": "What is the past tense of 'choose'?",
-      "options": [
-        "chose",
-        "choosed",
-        "chosen",
-        "choosing"
-      ],
-      "answer": "chose",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0242",
-      "question": "Which spelling is correct for the word meaning 'successful'?",
-      "options": [
-        "Succesful",
-        "Sucessful",
-        "Successfull",
-        "Successful"
-      ],
-      "answer": "Successful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0323",
-      "question": "Choose the correct synonym of 'Strong'.",
-      "options": [
-        "Frail",
-        "Powerful",
-        "Soft",
-        "Weak"
-      ],
-      "answer": "Powerful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0046",
-      "question": "Synonym of 'Noble' is?",
-      "options": [
-        "Base",
-        "Vile",
-        "Ignoble",
-        "Honourable"
-      ],
-      "answer": "Honourable",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0326",
-      "question": "Choose the antonym of 'Artificial'.",
-      "options": [
-        "False",
-        "Natural",
-        "Synthetic",
-        "Fake"
-      ],
-      "answer": "Natural",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0039",
-      "question": "Which spelling is correct for the word meaning 'environment'?",
-      "options": [
-        "Environmant",
-        "Environment",
-        "Enviornment",
-        "Enviroment"
-      ],
-      "answer": "Environment",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0252",
-      "question": "Choose the antonym of 'Scarce'.",
-      "options": [
-        "Few",
-        "Rare",
-        "Abundant",
-        "Limited"
-      ],
-      "answer": "Abundant",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0022",
-      "question": "Antonym of 'Victory' is?",
-      "options": [
-        "Success",
-        "Triumph",
-        "Defeat",
-        "Achievement"
-      ],
-      "answer": "Defeat",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0069",
-      "question": "Fill in: If it rains, we ___ stay home?",
-      "options": [
-        "had",
-        "will",
-        "would",
-        "have"
-      ],
-      "answer": "will",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0253",
-      "question": "The plural of 'criterion' is?",
-      "options": [
-        "criterion",
-        "criterions",
-        "criterias",
-        "criteria"
-      ],
-      "answer": "criteria",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0231",
-      "question": "The antonym of 'Hot' is?",
-      "options": [
-        "Cold",
-        "Warm",
-        "Mild",
-        "Boiling"
-      ],
-      "answer": "Cold",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0028",
-      "question": "Correct: He ___ to work daily?",
-      "options": [
-        "go",
-        "goes",
-        "going",
-        "gone"
-      ],
-      "answer": "goes",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0017",
-      "question": "Past tense of 'eat' is?",
-      "options": [
-        "eaten",
-        "eating",
-        "eat",
-        "ate"
-      ],
-      "answer": "ate",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0122",
-      "question": "Synonym of 'Diligent' is?",
-      "options": [
-        "Lazy",
-        "Hardworking",
-        "Idle",
-        "Slow"
-      ],
-      "answer": "Hardworking",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0056",
-      "question": "The antonym of 'Wealthy' is?",
-      "options": [
-        "Rich",
-        "Prosperous",
-        "Poor",
-        "Affluent"
-      ],
-      "answer": "Poor",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0123",
-      "question": "Which spelling is correct for the word meaning 'recommend'?",
-      "options": [
-        "Reccommend",
-        "Recomend",
-        "Reccomend",
-        "Recommend"
-      ],
-      "answer": "Recommend",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0005",
-      "question": "Past tense of 'fly' is?",
-      "options": [
-        "flied",
-        "flying",
-        "flew",
-        "flown"
-      ],
-      "answer": "flew",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0023",
-      "question": "Fill in: I look forward ___ meeting you?",
-      "options": [
-        "to",
-        "for",
-        "at",
-        "in"
-      ],
-      "answer": "to",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0205",
-      "question": "The antonym of 'Ancient' is?",
-      "options": [
-        "Old",
-        "Modern",
-        "Historic",
-        "Aged"
-      ],
-      "answer": "Modern",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0136",
-      "question": "Choose the correct plural of 'analysis'.",
-      "options": [
-        "analysises",
-        "ഒന്നുമില്ല",
-        "analyses",
-        "analysis"
-      ],
-      "answer": "analyses",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0148",
-      "question": "The antonym of 'Temporary' is?",
-      "options": [
-        "Fleeting",
-        "Permanent",
-        "Short",
-        "Brief"
-      ],
-      "answer": "Permanent",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0118",
-      "question": "Which is a correct sentence?",
-      "options": [
-        "He don't like tea",
-        "He doesn't like tea",
-        "He not like tea",
-        "He doesn't likes tea"
-      ],
-      "answer": "He doesn't like tea",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0243",
-      "question": "The plural of 'thesis' is?",
-      "options": [
-        "thesies",
-        "thesises",
-        "thesis",
-        "theses"
-      ],
-      "answer": "theses",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0199",
-      "question": "Choose the correct synonym of 'Fragile'.",
-      "options": [
-        "Strong",
-        "Hard",
-        "Delicate",
-        "Tough"
-      ],
-      "answer": "Delicate",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0088",
-      "question": "What is the past tense of 'eat'?",
-      "options": [
-        "eat",
-        "ate",
-        "eating",
-        "eaten"
-      ],
-      "answer": "ate",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0217",
-      "question": "A person who writes books is called a?",
-      "options": [
-        "Author",
-        "Editor",
-        "Publisher",
-        "Printer"
-      ],
-      "answer": "Author",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0198",
-      "question": "What is the past tense of 'think'?",
-      "options": [
-        "thought",
-        "thinking",
-        "thinked",
-        "thinks"
-      ],
-      "answer": "thought",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0208",
-      "question": "Past tense of 'think' is?",
-      "options": [
-        "thinks",
-        "thinked",
-        "thought",
-        "thinking"
-      ],
-      "answer": "thought",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0230",
-      "question": "Choose the antonym of 'Temporary'.",
-      "options": [
-        "Fleeting",
-        "Permanent",
-        "Short",
-        "Brief"
-      ],
-      "answer": "Permanent",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0018",
-      "question": "What is the past tense of 'take'?",
-      "options": [
-        "taken",
-        "taked",
-        "took",
-        "taking"
-      ],
-      "answer": "took",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0177",
-      "question": "Synonym of 'Benevolent' is?",
-      "options": [
-        "Mean",
-        "Cruel",
-        "Harsh",
-        "Kind"
-      ],
-      "answer": "Kind",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0128",
-      "question": "The antonym of 'Expand' is?",
-      "options": [
-        "Grow",
-        "Extend",
-        "Contract",
-        "Increase"
-      ],
-      "answer": "Contract",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0089",
-      "question": "Which spelling is correct for the word meaning 'separate'?",
-      "options": [
-        "Sepparate",
-        "Separate",
-        "Seperate",
-        "Seperete"
-      ],
-      "answer": "Separate",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0259",
-      "question": "Past tense of 'go' is?",
-      "options": [
-        "goed",
-        "went",
-        "gone",
-        "going"
-      ],
-      "answer": "went",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0265",
-      "question": "Synonym of 'Mature' is?",
-      "options": [
-        "Childish",
-        "Immature",
-        "Juvenile",
-        "Adult"
-      ],
-      "answer": "Adult",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0249",
-      "question": "Synonym of 'Silent' is?",
-      "options": [
-        "Quiet",
-        "Loud",
-        "Noisy",
-        "Harsh"
-      ],
-      "answer": "Quiet",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0024",
-      "question": "Which spelling is correct for the word meaning 'parallel'?",
-      "options": [
-        "Parrallel",
-        "Paralel",
-        "Paralell",
-        "Parallel"
-      ],
-      "answer": "Parallel",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0280",
-      "question": "Fill in: She ___ a letter yesterday.",
-      "options": [
-        "wright",
-        "right",
-        "rote",
-        "wrote"
-      ],
-      "answer": "wrote",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0038",
-      "question": "Meaning of 'Benevolent' is?",
-      "options": [
-        "cruel",
-        "harsh",
-        "kind",
-        "lazy"
-      ],
-      "answer": "kind",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0295",
-      "question": "Choose the correct plural of 'man'.",
-      "options": [
-        "men",
-        "mens",
-        "manes",
-        "mans"
-      ],
-      "answer": "men",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0197",
-      "question": "Meaning of 'Immaculate' is?",
-      "options": [
-        "stained",
-        "perfectly clean",
-        "messy",
-        "dirty"
-      ],
-      "answer": "perfectly clean",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0169",
-      "question": "Synonym of 'Eager' is?",
-      "options": [
-        "Reluctant",
-        "Keen",
-        "Indifferent",
-        "Unwilling"
-      ],
-      "answer": "Keen",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0321",
-      "question": "Choose the correct synonym of 'Quaint'.",
-      "options": [
-        "Old-fashioned",
-        "Contemporary",
-        "New",
-        "Modern"
-      ],
-      "answer": "Old-fashioned",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0310",
-      "question": "Fill in: I have ___ my homework?",
-      "options": [
-        "doing",
-        "do",
-        "done",
-        "did"
-      ],
-      "answer": "done",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0100",
-      "question": "Fill in: He is taller ___ his brother.",
-      "options": [
-        "that",
-        "from",
-        "then",
-        "than"
-      ],
-      "answer": "than",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0134",
-      "question": "Choose the correct synonym of 'Cease'.",
-      "options": [
-        "Start",
-        "Begin",
-        "Stop",
-        "Continue"
-      ],
-      "answer": "Stop",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0084",
-      "question": "Choose the correct synonym of 'Begin'.",
-      "options": [
-        "Start",
-        "Close",
-        "Finish",
-        "End"
-      ],
-      "answer": "Start",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0035",
-      "question": "Choose the correct synonym of 'Abundant'.",
-      "options": [
-        "Scarce",
-        "Limited",
-        "Plentiful",
-        "Rare"
-      ],
-      "answer": "Plentiful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0235",
-      "question": "The antonym of 'Optimist' is?",
-      "options": [
-        "Hopeful",
-        "Pessimist",
-        "Positive",
-        "Cheerful"
-      ],
-      "answer": "Pessimist",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0285",
-      "question": "Synonym of 'Brave' is?",
-      "options": [
-        "Cowardly",
-        "Courageous",
-        "Weak",
-        "Timid"
-      ],
-      "answer": "Courageous",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0216",
-      "question": "Meaning of 'Fragile' is?",
-      "options": [
-        "easily broken",
-        "strong",
-        "hard",
-        "tough"
-      ],
-      "answer": "easily broken",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0059",
-      "question": "Synonym of 'Honest' is?",
-      "options": [
-        "Truthful",
-        "Dishonest",
-        "Cunning",
-        "False"
-      ],
-      "answer": "Truthful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0021",
-      "question": "Fill in: I have lived here ___ 2010?",
-      "options": [
-        "since",
-        "for",
-        "from",
-        "by"
-      ],
-      "answer": "since",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0015",
-      "question": "Synonym of 'Brief' is?",
-      "options": [
-        "Long",
-        "Lengthy",
-        "Extended",
-        "Short"
-      ],
-      "answer": "Short",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0188",
-      "question": "Choose the correct plural of 'knife'.",
-      "options": [
-        "knive",
-        "knives",
-        "knifves",
-        "knifes"
-      ],
-      "answer": "knives",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0020",
-      "question": "What is the past tense of 'catch'?",
-      "options": [
-        "catching",
-        "catched",
-        "caught",
-        "catches"
-      ],
-      "answer": "caught",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0182",
-      "question": "Which is a noun?",
-      "options": [
-        "Teacher",
-        "Teach",
-        "Teaching",
-        "Taught"
-      ],
-      "answer": "Teacher",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0300",
-      "question": "Choose the synonym of 'Rapid'?",
-      "options": [
-        "Slow",
-        "Swift",
-        "Weak",
-        "Lazy"
-      ],
-      "answer": "Swift",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0112",
-      "question": "Choose the correctly spelled word?",
-      "options": [
-        "Accomodation",
-        "Accommodation",
-        "Acommodation",
-        "Accomadation"
-      ],
-      "answer": "Accommodation",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0081",
-      "question": "Choose the correct plural of 'child'.",
-      "options": [
-        "children",
-        "childrens",
-        "childes",
-        "childs"
-      ],
-      "answer": "children",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0178",
-      "question": "What is the past tense of 'bring'?",
-      "options": [
-        "bringed",
-        "brought",
-        "brings",
-        "bringing"
-      ],
-      "answer": "brought",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0307",
-      "question": "Choose the antonym of 'Hot'.",
-      "options": [
-        "Boiling",
-        "Mild",
-        "Warm",
-        "Cold"
-      ],
-      "answer": "Cold",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0278",
-      "question": "Synonym of 'Timid' is?",
-      "options": [
-        "Brave",
-        "Confident",
-        "Bold",
-        "Shy"
-      ],
-      "answer": "Shy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0013",
-      "question": "The plural of 'woman' is?",
-      "options": [
-        "women",
-        "womans",
-        "womens",
-        "womanes"
-      ],
-      "answer": "women",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0238",
-      "question": "Choose the antonym of 'Brave'.",
-      "options": [
-        "Cowardly",
-        "Fearless",
-        "Bold",
-        "Heroic"
-      ],
-      "answer": "Cowardly",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0103",
-      "question": "Past tense of 'Write' is?",
-      "options": [
-        "Write",
-        "Wrote",
-        "Written",
-        "Writing"
-      ],
-      "answer": "Wrote",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0042",
-      "question": "Synonym of 'Resilient' is?",
-      "options": [
-        "Fragile",
-        "Weak",
-        "Tough",
-        "Brittle"
-      ],
-      "answer": "Tough",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0150",
-      "question": "Choose the correct synonym of 'Immense'.",
-      "options": [
-        "Small",
-        "Huge",
-        "Minute",
-        "Tiny"
-      ],
-      "answer": "Huge",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0298",
-      "question": "Which spelling is correct for the word meaning 'necessary'?",
-      "options": [
-        "Necessary",
-        "Necesary",
-        "Neccesary",
-        "Neccessary"
-      ],
-      "answer": "Necessary",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0246",
-      "question": "Fill in: She ___ to school every day?",
-      "options": [
-        "go",
-        "goes",
-        "going",
-        "gone"
-      ],
-      "answer": "goes",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0284",
-      "question": "Synonym of 'Big' is?",
-      "options": [
-        "Large",
-        "Small",
-        "Tiny",
-        "Little"
-      ],
-      "answer": "Large",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0014",
-      "question": "What is the past tense of 'speak'?",
-      "options": [
-        "speaking",
-        "spoken",
-        "speaked",
-        "spoke"
-      ],
-      "answer": "spoke",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0129",
-      "question": "Fill in: I have lived here ___ 2010.",
-      "options": [
-        "from",
-        "for",
-        "since",
-        "by"
-      ],
-      "answer": "since",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0313",
-      "question": "Antonym of 'Expand' is?",
-      "options": [
-        "Grow",
-        "Contract",
-        "Increase",
-        "Extend"
-      ],
-      "answer": "Contract",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0172",
-      "question": "Meaning of 'Candid' is?",
-      "options": [
-        "vague",
-        "deceptive",
-        "honest",
-        "secretive"
-      ],
-      "answer": "honest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0107",
-      "question": "Choose the correct synonym of 'Dangerous'.",
-      "options": [
-        "Safe",
-        "Risky",
-        "Calm",
-        "Secure"
-      ],
-      "answer": "Risky",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0144",
-      "question": "What is the past tense of 'give'?",
-      "options": [
-        "giving",
-        "given",
-        "gave",
-        "gived"
-      ],
-      "answer": "gave",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0025",
-      "question": "The plural of 'knife' is?",
-      "options": [
-        "knive",
-        "knives",
-        "knifves",
-        "knifes"
-      ],
-      "answer": "knives",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0327",
-      "question": "Choose the correct synonym of 'Vital'.",
-      "options": [
-        "Minor",
-        "Optional",
-        "Essential",
-        "Trivial"
-      ],
-      "answer": "Essential",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0288",
-      "question": "Choose the correct plural of 'child'?",
-      "options": [
-        "children",
-        "childs",
-        "childrens",
-        "childes"
-      ],
-      "answer": "children",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0187",
-      "question": "Meaning of 'Hinder' is?",
-      "options": [
-        "aid",
-        "assist",
-        "help",
-        "obstruct"
-      ],
-      "answer": "obstruct",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0227",
-      "question": "Which spelling is correct for the word meaning 'knowledge'?",
-      "options": [
-        "Knowladge",
-        "Knowledge",
-        "Knowlege",
-        "Knowlede"
-      ],
-      "answer": "Knowledge",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0097",
-      "question": "Which spelling is correct for the word meaning 'receive'?",
-      "options": [
-        "Receeve",
-        "Recieve",
-        "Receive",
-        "Receve"
-      ],
-      "answer": "Receive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0174",
-      "question": "Choose the correct plural of 'foot'.",
-      "options": [
-        "foot",
-        "feets",
-        "foots",
-        "feet"
-      ],
-      "answer": "feet",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0296",
-      "question": "Which spelling is correct for the word meaning 'accommodation'?",
-      "options": [
-        "Acommodation",
-        "Accomadation",
-        "Accommodation",
-        "Accomodation"
-      ],
-      "answer": "Accommodation",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0294",
-      "question": "Which is a pronoun?",
-      "options": [
-        "He",
-        "Book",
-        "Run",
-        "Blue"
-      ],
-      "answer": "He",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0222",
-      "question": "Choose the antonym of 'Victory'.",
-      "options": [
-        "Win",
-        "Success",
-        "Defeat",
-        "Triumph"
-      ],
-      "answer": "Defeat",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0215",
-      "question": "Antonym of 'Accept' is?",
-      "options": [
-        "Receive",
-        "Reject",
-        "Allow",
-        "Take"
-      ],
-      "answer": "Reject",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0019",
-      "question": "The antonym of 'Increase' is?",
-      "options": [
-        "Rise",
-        "Decrease",
-        "Expand",
-        "Grow"
-      ],
-      "answer": "Decrease",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0077",
-      "question": "Choose the correct synonym of 'Rigid'.",
-      "options": [
-        "Stiff",
-        "Flexible",
-        "Soft",
-        "Pliable"
-      ],
-      "answer": "Stiff",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0271",
-      "question": "Fill in: She is good ___ mathematics?",
-      "options": [
-        "on",
-        "for",
-        "at",
-        "in"
-      ],
-      "answer": "at",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0048",
-      "question": "Antonym of 'Early' is?",
-      "options": [
-        "Soon",
-        "Late",
-        "Fast",
-        "Quick"
-      ],
-      "answer": "Late",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0175",
-      "question": "Past tense of 'See' is?",
-      "options": [
-        "Seen",
-        "Saw",
-        "See",
-        "Seeing"
-      ],
-      "answer": "Saw",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0306",
-      "question": "Fill in: The news ___ shocking.",
-      "options": [
-        "were",
-        "are",
-        "is",
-        "have"
-      ],
-      "answer": "is",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0149",
-      "question": "Plural of 'Woman' is?",
-      "options": [
-        "Womans",
-        "Women",
-        "Womens",
-        "Womanes"
-      ],
-      "answer": "Women",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0027",
-      "question": "The antonym of 'Strong' is?",
-      "options": [
-        "Powerful",
-        "Weak",
-        "Brave",
-        "Bold"
-      ],
-      "answer": "Weak",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0202",
-      "question": "Choose the correct synonym of 'Pragmatic'.",
-      "options": [
-        "Theoretical",
-        "Idealistic",
-        "Impractical",
-        "Practical"
-      ],
-      "answer": "Practical",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0212",
-      "question": "Choose the correct synonym of 'Fast'.",
-      "options": [
-        "Late",
-        "Slow",
-        "Quick",
-        "Lazy"
-      ],
-      "answer": "Quick",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0065",
-      "question": "Choose the correct synonym of 'Resilient'.",
-      "options": [
-        "Brittle",
-        "Tough",
-        "Weak",
-        "Fragile"
-      ],
-      "answer": "Tough",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0043",
-      "question": "Choose the correct synonym of 'Difficult'.",
-      "options": [
-        "Hard",
-        "Light",
-        "Simple",
-        "Easy"
-      ],
-      "answer": "Hard",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0055",
-      "question": "Plural of 'Box' is?",
-      "options": [
-        "Box",
-        "Boxes",
-        "Boxs",
-        "Boxen"
-      ],
-      "answer": "Boxes",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0264",
-      "question": "Synonym of 'Frequent' is?",
-      "options": [
-        "Never",
-        "Seldom",
-        "Often",
-        "Rare"
-      ],
-      "answer": "Often",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0003",
-      "question": "Choose the correct indirect speech: He said, 'I am tired.'?",
-      "options": [
-        "He said he is tired.",
-        "He says he was tired.",
-        "He said that he was tired.",
-        "He said that I am tired."
-      ],
-      "answer": "He said that he was tired.",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0317",
-      "question": "Past participle of 'write' is?",
-      "options": [
-        "writing",
-        "wrote",
-        "written",
-        "writed"
-      ],
-      "answer": "written",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0131",
-      "question": "Choose the correct synonym of 'Noble'.",
-      "options": [
-        "Base",
-        "Honourable",
-        "Vile",
-        "Ignoble"
-      ],
-      "answer": "Honourable",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0228",
-      "question": "Choose the correct synonym of 'Unique'.",
-      "options": [
-        "Common",
-        "Ordinary",
-        "Distinct",
-        "Usual"
-      ],
-      "answer": "Distinct",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0153",
-      "question": "Which spelling is correct for the word meaning 'government'?",
-      "options": [
-        "Goverment",
-        "Govermnent",
-        "Government",
-        "Governmant"
-      ],
-      "answer": "Government",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0154",
-      "question": "Choose the correct synonym of 'Jovial'.",
-      "options": [
-        "Gloomy",
-        "Sullen",
-        "Cheerful",
-        "Morose"
-      ],
-      "answer": "Cheerful",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0001",
+      "id": "eng_001",
       "question": "Choose the correct plural of 'ox'.",
       "options": [
         "oxs",
@@ -1597,1423 +13,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "eng_0105",
-      "question": "What is the past tense of 'write'?",
-      "options": [
-        "written",
-        "writing",
-        "write",
-        "wrote"
-      ],
-      "answer": "wrote",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0111",
-      "question": "Fill in: The ___ is shining brightly.",
-      "options": [
-        "son",
-        "sun",
-        "soon",
-        "sin"
-      ],
-      "answer": "sun",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0141",
-      "question": "Past tense of 'Eat' is?",
-      "options": [
-        "Eat",
-        "Eaten",
-        "Ate",
-        "Eating"
-      ],
-      "answer": "Ate",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0140",
-      "question": "The plural of 'datum' is?",
-      "options": [
-        "data",
-        "datas",
-        "datum",
-        "datums"
-      ],
-      "answer": "data",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0137",
-      "question": "Fill in: He has been working here ___ 2010?",
-      "options": [
-        "by",
-        "from",
-        "for",
-        "since"
-      ],
-      "answer": "since",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0138",
-      "question": "Fill in: She _____ a letter yesterday?",
-      "options": [
-        "write",
-        "writes",
-        "wrote",
-        "written"
-      ],
-      "answer": "wrote",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0266",
-      "question": "The antonym of 'Profit' is?",
-      "options": [
-        "Earning",
-        "Loss",
-        "Benefit",
-        "Gain"
-      ],
-      "answer": "Loss",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0068",
-      "question": "Meaning of 'Jubilant' is?",
-      "options": [
-        "very joyful",
-        "gloomy",
-        "sad",
-        "angry"
-      ],
-      "answer": "very joyful",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0040",
-      "question": "The plural of 'ox' is?",
-      "options": [
-        "oxen",
-        "oxens",
-        "oxes",
-        "oxs"
-      ],
-      "answer": "oxen",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0016",
-      "question": "Choose the antonym of 'Wealthy'.",
-      "options": [
-        "Prosperous",
-        "Affluent",
-        "Rich",
-        "Poor"
-      ],
-      "answer": "Poor",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0121",
-      "question": "Which is a preposition?",
-      "options": [
-        "Happy",
-        "Under",
-        "Swiftly",
-        "Jump"
-      ],
-      "answer": "Under",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0104",
-      "question": "Fill in: They ___ their homework.",
-      "options": [
-        "dad",
-        "deed",
-        "did",
-        "dead"
-      ],
-      "answer": "did",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0037",
-      "question": "Synonym of 'Jovial' is?",
-      "options": [
-        "Sullen",
-        "Cheerful",
-        "Gloomy",
-        "Morose"
-      ],
-      "answer": "Cheerful",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0320",
-      "question": "Synonym of 'Candid' is?",
-      "options": [
-        "Deceptive",
-        "Secretive",
-        "Vague",
-        "Honest"
-      ],
-      "answer": "Honest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0292",
-      "question": "The plural of 'mouse' is?",
-      "options": [
-        "mouse",
-        "mices",
-        "mice",
-        "mouses"
-      ],
-      "answer": "mice",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0318",
-      "question": "Fill in: I can ___ the bell.",
-      "options": [
-        "hear",
-        "hare",
-        "here",
-        "hair"
-      ],
-      "answer": "hear",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0170",
-      "question": "Choose the correct synonym of 'Silent'.",
-      "options": [
-        "Quiet",
-        "Loud",
-        "Noisy",
-        "Harsh"
-      ],
-      "answer": "Quiet",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0094",
-      "question": "Choose the correct synonym of 'Meticulous'.",
-      "options": [
-        "Careful",
-        "Sloppy",
-        "Careless",
-        "Hasty"
-      ],
-      "answer": "Careful",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0057",
-      "question": "Choose the correct synonym of 'Tranquil'.",
-      "options": [
-        "Noisy",
-        "Restless",
-        "Calm",
-        "Chaotic"
-      ],
-      "answer": "Calm",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0305",
-      "question": "Synonym of 'Loyal' is?",
-      "options": [
-        "Treacherous",
-        "Disloyal",
-        "False",
-        "Faithful"
-      ],
-      "answer": "Faithful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0214",
-      "question": "Choose the correct synonym of 'Clever'.",
-      "options": [
-        "Dull",
-        "Slow",
-        "Intelligent",
-        "Foolish"
-      ],
-      "answer": "Intelligent",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0236",
-      "question": "The opposite of 'Generous' is?",
-      "options": [
-        "Kind",
-        "Stingy",
-        "Noble",
-        "Helpful"
-      ],
-      "answer": "Stingy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0325",
-      "question": "The antonym of 'Victory' is?",
-      "options": [
-        "Win",
-        "Defeat",
-        "Success",
-        "Triumph"
-      ],
-      "answer": "Defeat",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0304",
-      "question": "Choose the correct synonym of 'Diligent'.",
-      "options": [
-        "Lazy",
-        "Slow",
-        "Hardworking",
-        "Idle"
-      ],
-      "answer": "Hardworking",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0193",
-      "question": "The plural of 'tooth' is?",
-      "options": [
-        "tooths",
-        "tooth",
-        "teeths",
-        "teeth"
-      ],
-      "answer": "teeth",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0076",
-      "question": "Fill in: They ___ playing cricket now?",
-      "options": [
-        "is",
-        "are",
-        "was",
-        "has"
-      ],
-      "answer": "are",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0053",
-      "question": "Synonym of 'Diverse' is?",
-      "options": [
-        "Same",
-        "Identical",
-        "Uniform",
-        "Varied"
-      ],
-      "answer": "Varied",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0262",
-      "question": "Fill in: She has ___ finished her homework.",
-      "options": [
-        "since",
-        "yet",
-        "already",
-        "for"
-      ],
-      "answer": "already",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0124",
-      "question": "Which is a conjunction?",
-      "options": [
-        "And",
-        "Run",
-        "Beautiful",
-        "Quickly"
-      ],
-      "answer": "And",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0289",
-      "question": "Synonym of 'Genuine' is?",
-      "options": [
-        "Authentic",
-        "Counterfeit",
-        "False",
-        "Fake"
-      ],
-      "answer": "Authentic",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0210",
-      "question": "Synonym of 'Zealous' is?",
-      "options": [
-        "Enthusiastic",
-        "Lukewarm",
-        "Apathetic",
-        "Indifferent"
-      ],
-      "answer": "Enthusiastic",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0301",
-      "question": "Choose the correct synonym of 'Timid'.",
-      "options": [
-        "Shy",
-        "Bold",
-        "Confident",
-        "Brave"
-      ],
-      "answer": "Shy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0224",
-      "question": "Choose the correct synonym of 'Humble'.",
-      "options": [
-        "Arrogant",
-        "Modest",
-        "Proud",
-        "Boastful"
-      ],
-      "answer": "Modest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0026",
-      "question": "Correct plural of 'mouse' is?",
-      "options": [
-        "mouses",
-        "mice",
-        "mouse",
-        "mices"
-      ],
-      "answer": "mice",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0049",
-      "question": "Choose the correct sentence?",
-      "options": [
-        "She go to school",
-        "She goes to school",
-        "She going to school",
-        "She gone to school"
-      ],
-      "answer": "She goes to school",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0293",
-      "question": "Antonym of 'Artificial' is?",
-      "options": [
-        "Fake",
-        "Natural",
-        "Synthetic",
-        "False"
-      ],
-      "answer": "Natural",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0263",
-      "question": "Choose the correct synonym of 'Polite'.",
-      "options": [
-        "Abrupt",
-        "Rude",
-        "Impolite",
-        "Courteous"
-      ],
-      "answer": "Courteous",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0272",
-      "question": "Which is an adjective?",
-      "options": [
-        "Beautiful",
-        "Quickly",
-        "Run",
-        "Happiness"
-      ],
-      "answer": "Beautiful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0034",
-      "question": "Choose the correct plural of 'thesis'.",
-      "options": [
-        "thesis",
-        "thesies",
-        "thesises",
-        "theses"
-      ],
-      "answer": "theses",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0033",
-      "question": "Choose the antonym of 'Early'.",
-      "options": [
-        "Late",
-        "Fast",
-        "Quick",
-        "Soon"
-      ],
-      "answer": "Late",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0330",
-      "question": "Past tense of 'take' is?",
-      "options": [
-        "taking",
-        "taken",
-        "took",
-        "taked"
-      ],
-      "answer": "took",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0286",
-      "question": "Choose the antonym of 'Transparent'.",
-      "options": [
-        "Obvious",
-        "Lucid",
-        "Opaque",
-        "Clear"
-      ],
-      "answer": "Opaque",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0135",
-      "question": "Which spelling is correct for the word meaning 'written'?",
-      "options": [
-        "Writen",
-        "Wriiten",
-        "Writtin",
-        "Written"
-      ],
-      "answer": "Written",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0183",
-      "question": "Choose the correct synonym of 'Wary'.",
-      "options": [
-        "Cautious",
-        "Reckless",
-        "Careless",
-        "Rash"
-      ],
-      "answer": "Cautious",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0155",
-      "question": "The plural of 'foot' is?",
-      "options": [
-        "foot",
-        "feets",
-        "feet",
-        "foots"
-      ],
-      "answer": "feet",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0309",
-      "question": "Fill in: She ___ to school every day.",
-      "options": [
-        "goes",
-        "gone",
-        "go",
-        "going"
-      ],
-      "answer": "goes",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0052",
-      "question": "Which sentence is in passive voice?",
-      "options": [
-        "Ram eats rice",
-        "Rice is eaten by Ram",
-        "Ram is eating",
-        "Ram ate rice"
-      ],
-      "answer": "Rice is eaten by Ram",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0312",
-      "question": "Choose the correct synonym of 'Generous'.",
-      "options": [
-        "Kind",
-        "Cruel",
-        "Selfish",
-        "Stingy"
-      ],
-      "answer": "Kind",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0064",
-      "question": "Which spelling is correct for the word meaning 'embarrass'?",
-      "options": [
-        "Embaras",
-        "Embarras",
-        "Embarass",
-        "Embarrass"
-      ],
-      "answer": "Embarrass",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0041",
-      "question": "Choose the correct synonym of 'Abundant'?",
-      "options": [
-        "Scarce",
-        "Plentiful",
-        "Rare",
-        "Limited"
-      ],
-      "answer": "Plentiful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0143",
-      "question": "Fill in: I look forward ___ meeting you.",
-      "options": [
-        "to",
-        "in",
-        "at",
-        "for"
-      ],
-      "answer": "to",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0006",
-      "question": "Choose the correct preposition: He is allergic ___ dust?",
-      "options": [
-        "to",
-        "of",
-        "with",
-        "from"
-      ],
-      "answer": "to",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0173",
-      "question": "Past tense of 'drive' is?",
-      "options": [
-        "driven",
-        "drived",
-        "driving",
-        "drove"
-      ],
-      "answer": "drove",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0247",
-      "question": "Synonym of 'Rigid' is?",
-      "options": [
-        "Soft",
-        "Pliable",
-        "Flexible",
-        "Stiff"
-      ],
-      "answer": "Stiff",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0109",
-      "question": "Synonym of 'Humble' is?",
-      "options": [
-        "Modest",
-        "Arrogant",
-        "Boastful",
-        "Proud"
-      ],
-      "answer": "Modest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0279",
-      "question": "Synonym of 'Beautiful' is?",
-      "options": [
-        "Pretty",
-        "Ugly",
-        "Plain",
-        "Rough"
-      ],
-      "answer": "Pretty",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0125",
-      "question": "Choose the correct synonym of 'Sincere'.",
-      "options": [
-        "False",
-        "Genuine",
-        "Insincere",
-        "Hypocritical"
-      ],
-      "answer": "Genuine",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0004",
-      "question": "Synonym of 'Sad' is?",
-      "options": [
-        "Happy",
-        "Unhappy",
-        "Excited",
-        "Joyful"
-      ],
-      "answer": "Unhappy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0133",
-      "question": "Which word is a noun?",
-      "options": [
-        "Quickly",
-        "Happiness",
-        "Run",
-        "Beautiful"
-      ],
-      "answer": "Happiness",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0201",
-      "question": "Choose the correct synonym of 'Brief'.",
-      "options": [
-        "Short",
-        "Lengthy",
-        "Extended",
-        "Long"
-      ],
-      "answer": "Short",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0213",
-      "question": "Synonym of 'Pragmatic' is?",
-      "options": [
-        "Theoretical",
-        "Idealistic",
-        "Impractical",
-        "Practical"
-      ],
-      "answer": "Practical",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0102",
-      "question": "Choose the antonym of 'Generous'?",
-      "options": [
-        "Stingy",
-        "Noble",
-        "Brave",
-        "Kind"
-      ],
-      "answer": "Stingy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0229",
-      "question": "Fill in: I _____ my work yesterday?",
-      "options": [
-        "finish",
-        "finished",
-        "finishing",
-        "finishes"
-      ],
-      "answer": "finished",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0211",
-      "question": "Antonym of 'Hot' is?",
-      "options": [
-        "Cold",
-        "Warm",
-        "Mild",
-        "Boiling"
-      ],
-      "answer": "Cold",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0086",
-      "question": "Correct spelling?",
-      "options": [
-        "Occurrence",
-        "Occurence",
-        "Ocurrence",
-        "Occurrance"
-      ],
-      "answer": "Occurrence",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0180",
-      "question": "Synonym of 'Difficult' is?",
-      "options": [
-        "Hard",
-        "Easy",
-        "Simple",
-        "Light"
-      ],
-      "answer": "Hard",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0099",
-      "question": "Choose the correct synonym of 'Mature'.",
-      "options": [
-        "Immature",
-        "Juvenile",
-        "Adult",
-        "Childish"
-      ],
-      "answer": "Adult",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0226",
-      "question": "Fill in: They _____ football now?",
-      "options": [
-        "play",
-        "played",
-        "are playing",
-        "plays"
-      ],
-      "answer": "are playing",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0159",
-      "question": "Fill in: Neither the students nor the teacher ___ present.",
-      "options": [
-        "have",
-        "are",
-        "was",
-        "were"
-      ],
-      "answer": "was",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0126",
-      "question": "Synonym of 'Rich' is?",
-      "options": [
-        "Wealthy",
-        "Poor",
-        "Needy",
-        "Broke"
-      ],
-      "answer": "Wealthy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0254",
-      "question": "Which is an interjection?",
-      "options": [
-        "Table",
-        "Running",
-        "Quickly",
-        "Alas"
-      ],
-      "answer": "Alas",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0319",
-      "question": "Synonym of 'Ancient' is?",
-      "options": [
-        "Modern",
-        "Old",
-        "New",
-        "Fresh"
-      ],
-      "answer": "Old",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0275",
-      "question": "What is the past tense of 'drive'?",
-      "options": [
-        "driving",
-        "drived",
-        "drove",
-        "driven"
-      ],
-      "answer": "drove",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0270",
-      "question": "Synonym of 'Oblige' is?",
-      "options": [
-        "Release",
-        "Compel",
-        "Excuse",
-        "Free"
-      ],
-      "answer": "Compel",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0117",
-      "question": "Fill in: They ___ playing football now?",
-      "options": [
-        "is",
-        "are",
-        "be",
-        "am"
-      ],
-      "answer": "are",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0085",
-      "question": "Synonym of 'Clever' is?",
-      "options": [
-        "Intelligent",
-        "Foolish",
-        "Dull",
-        "Slow"
-      ],
-      "answer": "Intelligent",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0074",
-      "question": "Fill in: He speaks English ___ fluently?",
-      "options": [
-        "very",
-        "much",
-        "many",
-        "more"
-      ],
-      "answer": "very",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0281",
-      "question": "Synonym of 'Keen' is?",
-      "options": [
-        "Indifferent",
-        "Reluctant",
-        "Eager",
-        "Apathetic"
-      ],
-      "answer": "Eager",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0008",
-      "question": "Synonym of 'Enormous' is?",
-      "options": [
-        "Tiny",
-        "Huge",
-        "Small",
-        "Little"
-      ],
-      "answer": "Huge",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0282",
-      "question": "Choose the correct form: Neither of them ___ ready?",
-      "options": [
-        "have",
-        "is",
-        "are",
-        "were"
-      ],
-      "answer": "is",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0095",
-      "question": "Which spelling is correct for the word meaning 'privilege'?",
-      "options": [
-        "Privilage",
-        "Privilege",
-        "Priviledge",
-        "Privelege"
-      ],
-      "answer": "Privilege",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0190",
-      "question": "Which spelling is correct for the word meaning 'maintenance'?",
-      "options": [
-        "Maintenaince",
-        "Maintenance",
-        "Maintainance",
-        "Maintenence"
-      ],
-      "answer": "Maintenance",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0165",
-      "question": "Choose the correct spelling?",
-      "options": [
-        "Receive",
-        "Recieve",
-        "Receeve",
-        "Receve"
-      ],
-      "answer": "Receive",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0237",
-      "question": "Fill in: Neither the students nor the teacher ___ present?",
-      "options": [
-        "have",
-        "are",
-        "were",
-        "was"
-      ],
-      "answer": "was",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0011",
-      "question": "Synonym of 'Correct' is?",
-      "options": [
-        "Right",
-        "Wrong",
-        "False",
-        "Bad"
-      ],
-      "answer": "Right",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0139",
-      "question": "Fill in: He is taller ___ his brother?",
-      "options": [
-        "than",
-        "then",
-        "that",
-        "from"
-      ],
-      "answer": "than",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0250",
-      "question": "Meaning of 'Scrutinize' is?",
-      "options": [
-        "neglect",
-        "examine closely",
-        "ignore",
-        "overlook"
-      ],
-      "answer": "examine closely",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0234",
-      "question": "Choose the correct plural of 'goose'.",
-      "options": [
-        "goose",
-        "geese",
-        "gooses",
-        "geeses"
-      ],
-      "answer": "geese",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0267",
-      "question": "Fill in: Choose the correct form: Neither of them ___ ready.",
-      "options": [
-        "have",
-        "is",
-        "were",
-        "are"
-      ],
-      "answer": "is",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0166",
-      "question": "Fill in: He ___ to the market yesterday?",
-      "options": [
-        "going",
-        "go",
-        "went",
-        "goes"
-      ],
-      "answer": "went",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0108",
-      "question": "The plural of 'analysis' is?",
-      "options": [
-        "analyses",
-        "analysises",
-        "analysis",
-        "ഒന്നുമില്ല"
-      ],
-      "answer": "analyses",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0073",
-      "question": "Past tense of 'choose' is?",
-      "options": [
-        "choosed",
-        "choosing",
-        "chose",
-        "chosen"
-      ],
-      "answer": "chose",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0082",
-      "question": "Past tense of 'see' is?",
-      "options": [
-        "seeing",
-        "seen",
-        "see",
-        "saw"
-      ],
-      "answer": "saw",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0146",
-      "question": "Meaning of 'Diligent' is?",
-      "options": [
-        "hardworking",
-        "idle",
-        "slow",
-        "lazy"
-      ],
-      "answer": "hardworking",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0255",
-      "question": "The plural of 'leaf' is?",
-      "options": [
-        "leaves",
-        "leafes",
-        "leavs",
-        "leafs"
-      ],
-      "answer": "leaves",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0315",
-      "question": "Choose the correct synonym of 'Tiny'.",
-      "options": [
-        "Huge",
-        "Wide",
-        "Small",
-        "Large"
-      ],
-      "answer": "Small",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0207",
-      "question": "The antonym of 'Brave' is?",
-      "options": [
-        "Heroic",
-        "Bold",
-        "Fearless",
-        "Cowardly"
-      ],
-      "answer": "Cowardly",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0181",
-      "question": "Synonym of 'Vital' is?",
-      "options": [
-        "Trivial",
-        "Optional",
-        "Essential",
-        "Minor"
-      ],
-      "answer": "Essential",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0091",
-      "question": "Synonym of 'Courageous' is?",
-      "options": [
-        "Timid",
-        "Fearful",
-        "Cowardly",
-        "Brave"
-      ],
-      "answer": "Brave",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0277",
-      "question": "Fill in: Neither of the boys ___ present.",
-      "options": [
-        "is",
-        "have",
-        "were",
-        "are"
-      ],
-      "answer": "is",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0087",
-      "question": "Fill in: We ___ going to the park.",
-      "options": [
-        "or",
-        "are",
-        "our",
-        "hour"
-      ],
-      "answer": "are",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0092",
-      "question": "Choose the correct synonym of 'Ample'.",
-      "options": [
-        "Plentiful",
-        "Limited",
-        "Scarce",
-        "Meagre"
-      ],
-      "answer": "Plentiful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0072",
-      "question": "Choose the correct indirect speech: He said, 'I am tired.'",
-      "options": [
-        "He said that I am tired.",
-        "He said that he was tired.",
-        "He says he was tired.",
-        "He said he is tired."
-      ],
-      "answer": "He said that he was tired.",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0067",
-      "question": "Meaning of 'Nostalgia' is?",
-      "options": [
-        "fear",
-        "anger",
-        "hunger",
-        "longing for the past"
-      ],
-      "answer": "longing for the past",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0130",
-      "question": "Choose the correct synonym of 'Candid'.",
-      "options": [
-        "Deceptive",
-        "Honest",
-        "Secretive",
-        "Vague"
-      ],
-      "answer": "Honest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0147",
-      "question": "Choose the antonym of 'Accept'.",
-      "options": [
-        "Take",
-        "Reject",
-        "Allow",
-        "Receive"
-      ],
-      "answer": "Reject",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0045",
-      "question": "Choose the correct plural of 'tooth'.",
-      "options": [
-        "teeth",
-        "teeths",
-        "tooths",
-        "tooth"
-      ],
-      "answer": "teeth",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0058",
-      "question": "The antonym of 'Transparent' is?",
-      "options": [
-        "Clear",
-        "Opaque",
-        "Lucid",
-        "Obvious"
-      ],
-      "answer": "Opaque",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0075",
-      "question": "The antonym of 'Accept' is?",
-      "options": [
-        "Allow",
-        "Take",
-        "Receive",
-        "Reject"
-      ],
-      "answer": "Reject",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0110",
-      "question": "Past tense of 'give' is?",
-      "options": [
-        "giving",
-        "gave",
-        "given",
-        "gived"
-      ],
-      "answer": "gave",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0179",
-      "question": "Past tense of 'catch' is?",
-      "options": [
-        "catches",
-        "catched",
-        "caught",
-        "catching"
-      ],
-      "answer": "caught",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0322",
-      "question": "Choose the correct homophone: I can ___ the bell?",
-      "options": [
-        "here",
-        "hair",
-        "hare",
-        "hear"
-      ],
-      "answer": "hear",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0120",
-      "question": "What is the past tense of 'break'?",
-      "options": [
-        "breaked",
-        "broke",
-        "breaking",
-        "broken"
-      ],
-      "answer": "broke",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0332",
-      "question": "Synonym of 'Ample' is?",
-      "options": [
-        "Limited",
-        "Plentiful",
-        "Scarce",
-        "Meagre"
-      ],
-      "answer": "Plentiful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0239",
-      "question": "Choose the correct synonym of 'Diverse'.",
-      "options": [
-        "Varied",
-        "Uniform",
-        "Same",
-        "Identical"
-      ],
-      "answer": "Varied",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0329",
-      "question": "Fill in: The news ___ shocking?",
-      "options": [
-        "is",
-        "are",
-        "were",
-        "have"
-      ],
-      "answer": "is",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0192",
-      "question": "The antonym of 'Superior' is?",
-      "options": [
-        "Inferior",
-        "Better",
-        "Higher",
-        "Greater"
-      ],
-      "answer": "Inferior",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0007",
-      "question": "Synonym of 'Polite' is?",
-      "options": [
-        "Abrupt",
-        "Rude",
-        "Courteous",
-        "Impolite"
-      ],
-      "answer": "Courteous",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0002",
+      "id": "eng_002",
       "question": "Past tense of 'write' is?",
       "options": [
         "wrote",
@@ -3025,451 +25,79 @@
       "difficulty": "easy"
     },
     {
-      "id": "eng_0164",
-      "question": "Meaning of 'Generous' is?",
+      "id": "eng_003",
+      "question": "Choose the correct indirect speech: He said, 'I am tired.'?",
       "options": [
-        "Kind",
-        "Selfish",
-        "Lazy",
-        "Cruel"
+        "He said he is tired.",
+        "He says he was tired.",
+        "He said that he was tired.",
+        "He said that I am tired."
       ],
-      "answer": "Kind",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0302",
-      "question": "Synonym of 'Strong' is?",
-      "options": [
-        "Powerful",
-        "Weak",
-        "Frail",
-        "Soft"
-      ],
-      "answer": "Powerful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0029",
-      "question": "Choose the correct plural of 'criterion'.",
-      "options": [
-        "criteria",
-        "criterions",
-        "criterias",
-        "criterion"
-      ],
-      "answer": "criteria",
+      "answer": "He said that he was tired.",
       "difficulty": "hard"
     },
     {
-      "id": "eng_0127",
-      "question": "The plural of 'child' is?",
+      "id": "eng_004",
+      "question": "Synonym of 'Sad' is?",
       "options": [
-        "childs",
-        "children",
-        "childes",
-        "childrens"
+        "Happy",
+        "Unhappy",
+        "Excited",
+        "Joyful"
       ],
-      "answer": "children",
+      "answer": "Unhappy",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0062",
-      "question": "What is the past tense of 'go'?",
+      "id": "eng_005",
+      "question": "Past tense of 'fly' is?",
       "options": [
-        "went",
-        "gone",
-        "goed",
-        "going"
+        "flied",
+        "flying",
+        "flew",
+        "flown"
       ],
-      "answer": "went",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0303",
-      "question": "Antonym of 'Scarce' is?",
-      "options": [
-        "Few",
-        "Abundant",
-        "Limited",
-        "Rare"
-      ],
-      "answer": "Abundant",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0132",
-      "question": "Fill in: She speaks English ___?",
-      "options": [
-        "fluency",
-        "fluent",
-        "fluently",
-        "fluents"
-      ],
-      "answer": "fluently",
+      "answer": "flew",
       "difficulty": "medium"
     },
     {
-      "id": "eng_0163",
-      "question": "What is the past tense of 'see'?",
+      "id": "eng_006",
+      "question": "Choose the correct preposition: He is allergic ___ dust?",
       "options": [
-        "see",
-        "seeing",
-        "saw",
-        "seen"
+        "to",
+        "of",
+        "with",
+        "from"
       ],
-      "answer": "saw",
+      "answer": "to",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_007",
+      "question": "Synonym of 'Polite' is?",
+      "options": [
+        "Abrupt",
+        "Rude",
+        "Courteous",
+        "Impolite"
+      ],
+      "answer": "Courteous",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0160",
-      "question": "The plural of 'person' is?",
+      "id": "eng_008",
+      "question": "Synonym of 'Enormous' is?",
       "options": [
-        "peoples",
-        "persons",
-        "persones",
-        "people"
-      ],
-      "answer": "people",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0324",
-      "question": "Choose the correct synonym of 'Genuine'.",
-      "options": [
-        "Counterfeit",
-        "False",
-        "Fake",
-        "Authentic"
-      ],
-      "answer": "Authentic",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0186",
-      "question": "Past tense of 'break' is?",
-      "options": [
-        "breaked",
-        "breaking",
-        "broken",
-        "broke"
-      ],
-      "answer": "broke",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0162",
-      "question": "Synonym of 'Quaint' is?",
-      "options": [
-        "Old-fashioned",
-        "Contemporary",
-        "Modern",
-        "New"
-      ],
-      "answer": "Old-fashioned",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0311",
-      "question": "What is the past tense of 'know'?",
-      "options": [
-        "knowed",
-        "knew",
-        "knowing",
-        "known"
-      ],
-      "answer": "knew",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0093",
-      "question": "Past tense of 'bring' is?",
-      "options": [
-        "bringed",
-        "bringing",
-        "brings",
-        "brought"
-      ],
-      "answer": "brought",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0061",
-      "question": "Synonym of 'Tiny' is?",
-      "options": [
+        "Tiny",
         "Huge",
         "Small",
-        "Large",
-        "Wide"
+        "Little"
       ],
-      "answer": "Small",
+      "answer": "Huge",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0071",
-      "question": "Choose the correct synonym of 'Keen'.",
-      "options": [
-        "Reluctant",
-        "Indifferent",
-        "Eager",
-        "Apathetic"
-      ],
-      "answer": "Eager",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0079",
-      "question": "The plural of 'man' is?",
-      "options": [
-        "mans",
-        "mens",
-        "manes",
-        "men"
-      ],
-      "answer": "men",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0106",
-      "question": "Choose the correct synonym of 'Brave'.",
-      "options": [
-        "Weak",
-        "Courageous",
-        "Cowardly",
-        "Timid"
-      ],
-      "answer": "Courageous",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0119",
-      "question": "Choose the correct synonym of 'Happy'.",
-      "options": [
-        "Angry",
-        "Joyful",
-        "Sad",
-        "Tired"
-      ],
-      "answer": "Joyful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0240",
-      "question": "Choose the antonym of 'Vertical'.",
-      "options": [
-        "Erect",
-        "Upright",
-        "Standing",
-        "Horizontal"
-      ],
-      "answer": "Horizontal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0287",
-      "question": "Choose the correct synonym of 'Frequent'.",
-      "options": [
-        "Never",
-        "Rare",
-        "Seldom",
-        "Often"
-      ],
-      "answer": "Often",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0114",
-      "question": "Choose the antonym of 'Strong'.",
-      "options": [
-        "Bold",
-        "Powerful",
-        "Weak",
-        "Brave"
-      ],
-      "answer": "Weak",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0047",
-      "question": "Which word is a verb?",
-      "options": [
-        "Table",
-        "Run",
-        "Beauty",
-        "Kindness"
-      ],
-      "answer": "Run",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0257",
-      "question": "The antonym of 'Vertical' is?",
-      "options": [
-        "Standing",
-        "Erect",
-        "Upright",
-        "Horizontal"
-      ],
-      "answer": "Horizontal",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0063",
-      "question": "Choose the correct synonym of 'Zealous'.",
-      "options": [
-        "Enthusiastic",
-        "Indifferent",
-        "Lukewarm",
-        "Apathetic"
-      ],
-      "answer": "Enthusiastic",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0268",
-      "question": "Choose the correct synonym of 'Eager'.",
-      "options": [
-        "Keen",
-        "Unwilling",
-        "Indifferent",
-        "Reluctant"
-      ],
-      "answer": "Keen",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0334",
-      "question": "Choose the correct plural of 'person'.",
-      "options": [
-        "persones",
-        "people",
-        "peoples",
-        "persons"
-      ],
-      "answer": "people",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0299",
-      "question": "Which is an adverb?",
-      "options": [
-        "Quickly",
-        "Quick",
-        "Speed",
-        "Runner"
-      ],
-      "answer": "Quickly",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0316",
-      "question": "Which spelling is correct for the word meaning 'independent'?",
-      "options": [
-        "Indipendent",
-        "Independent",
-        "Independante",
-        "Independant"
-      ],
-      "answer": "Independent",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0283",
-      "question": "Choose the antonym of 'Optimist'.",
-      "options": [
-        "Cheerful",
-        "Pessimist",
-        "Positive",
-        "Hopeful"
-      ],
-      "answer": "Pessimist",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0223",
-      "question": "Choose the correct synonym of 'Vivid'.",
-      "options": [
-        "Dull",
-        "Faint",
-        "Bright",
-        "Pale"
-      ],
-      "answer": "Bright",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0113",
-      "question": "Synonym of 'Dangerous' is?",
-      "options": [
-        "Safe",
-        "Risky",
-        "Secure",
-        "Calm"
-      ],
-      "answer": "Risky",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0066",
-      "question": "The antonym of 'Generous' is?",
-      "options": [
-        "Liberal",
-        "Stingy",
-        "Kind",
-        "Noble"
-      ],
-      "answer": "Stingy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0232",
-      "question": "Synonym of 'Fragile' is?",
-      "options": [
-        "Delicate",
-        "Strong",
-        "Hard",
-        "Tough"
-      ],
-      "answer": "Delicate",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0203",
-      "question": "Choose the antonym of 'Generous'.",
-      "options": [
-        "Kind",
-        "Liberal",
-        "Stingy",
-        "Noble"
-      ],
-      "answer": "Stingy",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0206",
-      "question": "The antonym of 'Happy' is?",
-      "options": [
-        "Cheerful",
-        "Glad",
-        "Joyful",
-        "Sad"
-      ],
-      "answer": "Sad",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0145",
-      "question": "Choose the correct plural of 'leaf'.",
-      "options": [
-        "leavs",
-        "leafes",
-        "leafs",
-        "leaves"
-      ],
-      "answer": "leaves",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0009",
+      "id": "eng_009",
       "question": "Fill in: The ship set ___ at dawn.",
       "options": [
         "sale",
@@ -3481,295 +109,31 @@
       "difficulty": "medium"
     },
     {
-      "id": "eng_0184",
-      "question": "Past tense of 'know' is?",
+      "id": "eng_010",
+      "question": "Choose the antonym of 'Happy'.",
       "options": [
-        "knew",
-        "known",
-        "knowing",
-        "knowed"
-      ],
-      "answer": "knew",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0256",
-      "question": "Which spelling is correct for the word meaning 'committee'?",
-      "options": [
-        "Comittee",
-        "Commitee",
-        "Comitee",
-        "Committee"
-      ],
-      "answer": "Committee",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0219",
-      "question": "Antonym of 'Happy' is?",
-      "options": [
-        "Joyful",
         "Glad",
-        "Sad",
-        "Cheerful"
+        "Cheerful",
+        "Joyful",
+        "Sad"
       ],
       "answer": "Sad",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0185",
-      "question": "Synonym of 'Tranquil' is?",
+      "id": "eng_011",
+      "question": "Synonym of 'Correct' is?",
       "options": [
-        "Calm",
-        "Noisy",
-        "Restless",
-        "Chaotic"
-      ],
-      "answer": "Calm",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0258",
-      "question": "Which is a compound word?",
-      "options": [
-        "Sun",
-        "Sunflower",
-        "Flower",
-        "Light"
-      ],
-      "answer": "Sunflower",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0261",
-      "question": "Fill in: He is allergic ___ dust.",
-      "options": [
-        "of",
-        "with",
-        "to",
-        "from"
-      ],
-      "answer": "to",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0225",
-      "question": "Synonym of 'Begin' is?",
-      "options": [
-        "End",
-        "Start",
-        "Finish",
-        "Close"
-      ],
-      "answer": "Start",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0297",
-      "question": "Choose the correct synonym of 'Benevolent'.",
-      "options": [
-        "Kind",
-        "Harsh",
-        "Mean",
-        "Cruel"
-      ],
-      "answer": "Kind",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0290",
-      "question": "Choose the correct synonym of 'Eloquent'.",
-      "options": [
-        "Fluent",
-        "Mute",
-        "Inarticulate",
-        "Hesitant"
-      ],
-      "answer": "Fluent",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0101",
-      "question": "Synonym of 'Generous' is?",
-      "options": [
-        "Cruel",
-        "Kind",
-        "Stingy",
-        "Selfish"
-      ],
-      "answer": "Kind",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0171",
-      "question": "Synonym of 'Eloquent' is?",
-      "options": [
-        "Hesitant",
-        "Fluent",
-        "Inarticulate",
-        "Mute"
-      ],
-      "answer": "Fluent",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0152",
-      "question": "Fill in: If it rains, we ___ stay home.",
-      "options": [
-        "would",
-        "will",
-        "have",
-        "had"
-      ],
-      "answer": "will",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0036",
-      "question": "Choose the antonym of 'Expand'.",
-      "options": [
-        "Contract",
-        "Grow",
-        "Extend",
-        "Increase"
-      ],
-      "answer": "Contract",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0209",
-      "question": "Choose the antonym of 'Ancient'.",
-      "options": [
-        "Old",
-        "Modern",
-        "Historic",
-        "Aged"
-      ],
-      "answer": "Modern",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0195",
-      "question": "Which is the correct spelling?",
-      "options": [
-        "Accommodate",
-        "Accomodate",
-        "Acommodate",
-        "Acomodate"
-      ],
-      "answer": "Accommodate",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0244",
-      "question": "Fill in: They ___ playing cricket now.",
-      "options": [
-        "are",
-        "has",
-        "was",
-        "is"
-      ],
-      "answer": "are",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0168",
-      "question": "Synonym of 'Sincere' is?",
-      "options": [
-        "Genuine",
-        "Hypocritical",
+        "Right",
+        "Wrong",
         "False",
-        "Insincere"
+        "Bad"
       ],
-      "answer": "Genuine",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0096",
-      "question": "Choose the correct synonym of 'Oblige'.",
-      "options": [
-        "Release",
-        "Compel",
-        "Free",
-        "Excuse"
-      ],
-      "answer": "Compel",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0161",
-      "question": "Choose the antonym of 'Increase'.",
-      "options": [
-        "Rise",
-        "Decrease",
-        "Grow",
-        "Expand"
-      ],
-      "answer": "Decrease",
+      "answer": "Right",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0098",
-      "question": "Fill in: She is good ___ mathematics.",
-      "options": [
-        "on",
-        "for",
-        "in",
-        "at"
-      ],
-      "answer": "at",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0080",
-      "question": "Choose the antonym of 'Superior'.",
-      "options": [
-        "Higher",
-        "Greater",
-        "Better",
-        "Inferior"
-      ],
-      "answer": "Inferior",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0083",
-      "question": "The antonym of 'Artificial' is?",
-      "options": [
-        "False",
-        "Synthetic",
-        "Natural",
-        "Fake"
-      ],
-      "answer": "Natural",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0090",
-      "question": "Antonym of 'Strong' is?",
-      "options": [
-        "Powerful",
-        "Weak",
-        "Brave",
-        "Bold"
-      ],
-      "answer": "Weak",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0331",
-      "question": "Fill in: Please be ___ to animals.",
-      "options": [
-        "caned",
-        "mined",
-        "kinned",
-        "kind"
-      ],
-      "answer": "kind",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0012",
+      "id": "eng_012",
       "question": "Choose the correct plural of 'woman'.",
       "options": [
         "womens",
@@ -3781,175 +145,211 @@
       "difficulty": "easy"
     },
     {
-      "id": "eng_0157",
-      "question": "Antonym of 'Optimist' is?",
+      "id": "eng_013",
+      "question": "The plural of 'woman' is?",
       "options": [
-        "Hopeful",
-        "Pessimist",
-        "Cheerful",
-        "Positive"
+        "women",
+        "womans",
+        "womens",
+        "womanes"
       ],
-      "answer": "Pessimist",
+      "answer": "women",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0276",
-      "question": "Fill in: He speaks English ___ fluently.",
+      "id": "eng_014",
+      "question": "What is the past tense of 'speak'?",
       "options": [
-        "more",
-        "much",
-        "very",
-        "many"
-      ],
-      "answer": "very",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0196",
-      "question": "Synonym of 'Meticulous' is?",
-      "options": [
-        "Hasty",
-        "Careful",
-        "Careless",
-        "Sloppy"
-      ],
-      "answer": "Careful",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0078",
-      "question": "Choose the correct plural of 'datum'.",
-      "options": [
-        "data",
-        "datums",
-        "datum",
-        "datas"
-      ],
-      "answer": "data",
-      "difficulty": "hard"
-    },
-    {
-      "id": "eng_0050",
-      "question": "Choose the correct synonym of 'Obsolete'.",
-      "options": [
-        "New",
-        "Outdated",
-        "Modern",
-        "Current"
-      ],
-      "answer": "Outdated",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0248",
-      "question": "What is the past tense of 'fly'?",
-      "options": [
-        "flew",
-        "flying",
-        "flown",
-        "flied"
-      ],
-      "answer": "flew",
-      "difficulty": "medium"
-    },
-    {
-      "id": "eng_0273",
-      "question": "Past tense of 'speak' is?",
-      "options": [
+        "speaking",
         "spoken",
-        "spoke",
         "speaked",
-        "speaking"
+        "spoke"
       ],
       "answer": "spoke",
       "difficulty": "easy"
     },
     {
-      "id": "eng_0333",
-      "question": "Which sentence uses the correct article?",
+      "id": "eng_015",
+      "question": "Synonym of 'Brief' is?",
       "options": [
-        "The honest man",
-        "An honest man",
-        "A honest man",
-        "Honest a man"
+        "Long",
+        "Lengthy",
+        "Extended",
+        "Short"
       ],
-      "answer": "An honest man",
+      "answer": "Short",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_016",
+      "question": "Choose the antonym of 'Wealthy'.",
+      "options": [
+        "Prosperous",
+        "Affluent",
+        "Rich",
+        "Poor"
+      ],
+      "answer": "Poor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_017",
+      "question": "Past tense of 'eat' is?",
+      "options": [
+        "eaten",
+        "eating",
+        "eat",
+        "ate"
+      ],
+      "answer": "ate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_018",
+      "question": "What is the past tense of 'take'?",
+      "options": [
+        "taken",
+        "taked",
+        "took",
+        "taking"
+      ],
+      "answer": "took",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_019",
+      "question": "The antonym of 'Increase' is?",
+      "options": [
+        "Rise",
+        "Decrease",
+        "Expand",
+        "Grow"
+      ],
+      "answer": "Decrease",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_020",
+      "question": "What is the past tense of 'catch'?",
+      "options": [
+        "catching",
+        "catched",
+        "caught",
+        "catches"
+      ],
+      "answer": "caught",
       "difficulty": "medium"
     },
     {
-      "id": "eng_0142",
-      "question": "Which spelling is correct for the word meaning 'occurrence'?",
+      "id": "eng_021",
+      "question": "Fill in: I have lived here ___ 2010?",
       "options": [
-        "Occurrence",
-        "Occurence",
-        "Occurrance",
-        "Ocurrence"
+        "since",
+        "for",
+        "from",
+        "by"
       ],
-      "answer": "Occurrence",
+      "answer": "since",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_022",
+      "question": "Antonym of 'Victory' is?",
+      "options": [
+        "Success",
+        "Triumph",
+        "Defeat",
+        "Achievement"
+      ],
+      "answer": "Defeat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_023",
+      "question": "Fill in: I look forward ___ meeting you?",
+      "options": [
+        "to",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "to",
       "difficulty": "medium"
     },
     {
-      "id": "eng_0200",
-      "question": "Antonym of 'Ancient' is?",
+      "id": "eng_024",
+      "question": "Which spelling is correct for the word meaning 'parallel'?",
       "options": [
-        "Historic",
-        "Aged",
-        "Old",
-        "Modern"
+        "Parrallel",
+        "Paralel",
+        "Paralell",
+        "Parallel"
       ],
-      "answer": "Modern",
-      "difficulty": "easy"
+      "answer": "Parallel",
+      "difficulty": "hard"
     },
     {
-      "id": "eng_0031",
-      "question": "Synonym of 'Rapid' is?",
+      "id": "eng_025",
+      "question": "The plural of 'knife' is?",
       "options": [
-        "Slow",
-        "Quick",
-        "Lazy",
-        "Late"
+        "knive",
+        "knives",
+        "knifves",
+        "knifes"
       ],
-      "answer": "Quick",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0060",
-      "question": "Choose the correct synonym of 'Loyal'.",
-      "options": [
-        "Faithful",
-        "Treacherous",
-        "Disloyal",
-        "False"
-      ],
-      "answer": "Faithful",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0328",
-      "question": "The antonym of 'Early' is?",
-      "options": [
-        "Soon",
-        "Quick",
-        "Late",
-        "Fast"
-      ],
-      "answer": "Late",
-      "difficulty": "easy"
-    },
-    {
-      "id": "eng_0070",
-      "question": "Meaning of 'Lethargic' is?",
-      "options": [
-        "sluggish",
-        "energetic",
-        "active",
-        "lively"
-      ],
-      "answer": "sluggish",
+      "answer": "knives",
       "difficulty": "medium"
     },
     {
-      "id": "eng_0030",
+      "id": "eng_026",
+      "question": "Correct plural of 'mouse' is?",
+      "options": [
+        "mouses",
+        "mice",
+        "mouse",
+        "mices"
+      ],
+      "answer": "mice",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_027",
+      "question": "The antonym of 'Strong' is?",
+      "options": [
+        "Powerful",
+        "Weak",
+        "Brave",
+        "Bold"
+      ],
+      "answer": "Weak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_028",
+      "question": "Correct: He ___ to work daily?",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "answer": "goes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_029",
+      "question": "Choose the correct plural of 'criterion'.",
+      "options": [
+        "criteria",
+        "criterions",
+        "criterias",
+        "criterion"
+      ],
+      "answer": "criteria",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_030",
       "question": "Choose the correct plural of 'mouse'.",
       "options": [
         "mouses",
@@ -3961,7 +361,19 @@
       "difficulty": "easy"
     },
     {
-      "id": "eng_0032",
+      "id": "eng_031",
+      "question": "Synonym of 'Rapid' is?",
+      "options": [
+        "Slow",
+        "Quick",
+        "Lazy",
+        "Late"
+      ],
+      "answer": "Quick",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_032",
       "question": "Synonym of 'Fast' is?",
       "options": [
         "Quick",
@@ -3973,19 +385,1615 @@
       "difficulty": "easy"
     },
     {
-      "id": "eng_0218",
-      "question": "Synonym of 'Wary' is?",
+      "id": "eng_033",
+      "question": "Choose the antonym of 'Early'.",
       "options": [
-        "Rash",
-        "Careless",
-        "Cautious",
-        "Reckless"
+        "Late",
+        "Fast",
+        "Quick",
+        "Soon"
       ],
-      "answer": "Cautious",
+      "answer": "Late",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_034",
+      "question": "Choose the correct plural of 'thesis'.",
+      "options": [
+        "thesis",
+        "thesies",
+        "thesises",
+        "theses"
+      ],
+      "answer": "theses",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_035",
+      "question": "Choose the correct synonym of 'Abundant'.",
+      "options": [
+        "Scarce",
+        "Limited",
+        "Plentiful",
+        "Rare"
+      ],
+      "answer": "Plentiful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_036",
+      "question": "Choose the antonym of 'Expand'.",
+      "options": [
+        "Contract",
+        "Grow",
+        "Extend",
+        "Increase"
+      ],
+      "answer": "Contract",
       "difficulty": "medium"
     },
     {
-      "id": "eng_0167",
+      "id": "eng_037",
+      "question": "Synonym of 'Jovial' is?",
+      "options": [
+        "Sullen",
+        "Cheerful",
+        "Gloomy",
+        "Morose"
+      ],
+      "answer": "Cheerful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_038",
+      "question": "Meaning of 'Benevolent' is?",
+      "options": [
+        "cruel",
+        "harsh",
+        "kind",
+        "lazy"
+      ],
+      "answer": "kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_039",
+      "question": "Which spelling is correct for the word meaning 'environment'?",
+      "options": [
+        "Environmant",
+        "Environment",
+        "Enviornment",
+        "Enviroment"
+      ],
+      "answer": "Environment",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_040",
+      "question": "The plural of 'ox' is?",
+      "options": [
+        "oxen",
+        "oxens",
+        "oxes",
+        "oxs"
+      ],
+      "answer": "oxen",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_041",
+      "question": "Choose the correct synonym of 'Abundant'?",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Limited"
+      ],
+      "answer": "Plentiful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_042",
+      "question": "Synonym of 'Resilient' is?",
+      "options": [
+        "Fragile",
+        "Weak",
+        "Tough",
+        "Brittle"
+      ],
+      "answer": "Tough",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_043",
+      "question": "Choose the correct synonym of 'Difficult'.",
+      "options": [
+        "Hard",
+        "Light",
+        "Simple",
+        "Easy"
+      ],
+      "answer": "Hard",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_044",
+      "question": "What is the past tense of 'choose'?",
+      "options": [
+        "chose",
+        "choosed",
+        "chosen",
+        "choosing"
+      ],
+      "answer": "chose",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_045",
+      "question": "Choose the correct plural of 'tooth'.",
+      "options": [
+        "teeth",
+        "teeths",
+        "tooths",
+        "tooth"
+      ],
+      "answer": "teeth",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_046",
+      "question": "Synonym of 'Noble' is?",
+      "options": [
+        "Base",
+        "Vile",
+        "Ignoble",
+        "Honourable"
+      ],
+      "answer": "Honourable",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_047",
+      "question": "Which word is a verb?",
+      "options": [
+        "Table",
+        "Run",
+        "Beauty",
+        "Kindness"
+      ],
+      "answer": "Run",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_048",
+      "question": "Antonym of 'Early' is?",
+      "options": [
+        "Soon",
+        "Late",
+        "Fast",
+        "Quick"
+      ],
+      "answer": "Late",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_049",
+      "question": "Choose the correct sentence?",
+      "options": [
+        "She go to school",
+        "She goes to school",
+        "She going to school",
+        "She gone to school"
+      ],
+      "answer": "She goes to school",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_050",
+      "question": "Choose the correct synonym of 'Obsolete'.",
+      "options": [
+        "New",
+        "Outdated",
+        "Modern",
+        "Current"
+      ],
+      "answer": "Outdated",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_051",
+      "question": "Choose the correct synonym of 'Enormous'.",
+      "options": [
+        "Little",
+        "Small",
+        "Huge",
+        "Tiny"
+      ],
+      "answer": "Huge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_052",
+      "question": "Which sentence is in passive voice?",
+      "options": [
+        "Ram eats rice",
+        "Rice is eaten by Ram",
+        "Ram is eating",
+        "Ram ate rice"
+      ],
+      "answer": "Rice is eaten by Ram",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_053",
+      "question": "Synonym of 'Diverse' is?",
+      "options": [
+        "Same",
+        "Identical",
+        "Uniform",
+        "Varied"
+      ],
+      "answer": "Varied",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_054",
+      "question": "Choose the correct synonym of 'Rapid'.",
+      "options": [
+        "Lazy",
+        "Swift",
+        "Weak",
+        "Slow"
+      ],
+      "answer": "Swift",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_055",
+      "question": "Plural of 'Box' is?",
+      "options": [
+        "Box",
+        "Boxes",
+        "Boxs",
+        "Boxen"
+      ],
+      "answer": "Boxes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_056",
+      "question": "The antonym of 'Wealthy' is?",
+      "options": [
+        "Rich",
+        "Prosperous",
+        "Poor",
+        "Affluent"
+      ],
+      "answer": "Poor",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_057",
+      "question": "Choose the correct synonym of 'Tranquil'.",
+      "options": [
+        "Noisy",
+        "Restless",
+        "Calm",
+        "Chaotic"
+      ],
+      "answer": "Calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_058",
+      "question": "The antonym of 'Transparent' is?",
+      "options": [
+        "Clear",
+        "Opaque",
+        "Lucid",
+        "Obvious"
+      ],
+      "answer": "Opaque",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_059",
+      "question": "Synonym of 'Honest' is?",
+      "options": [
+        "Truthful",
+        "Dishonest",
+        "Cunning",
+        "False"
+      ],
+      "answer": "Truthful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_060",
+      "question": "Choose the correct synonym of 'Loyal'.",
+      "options": [
+        "Faithful",
+        "Treacherous",
+        "Disloyal",
+        "False"
+      ],
+      "answer": "Faithful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_061",
+      "question": "Synonym of 'Tiny' is?",
+      "options": [
+        "Huge",
+        "Small",
+        "Large",
+        "Wide"
+      ],
+      "answer": "Small",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_062",
+      "question": "What is the past tense of 'go'?",
+      "options": [
+        "went",
+        "gone",
+        "goed",
+        "going"
+      ],
+      "answer": "went",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_063",
+      "question": "Choose the correct synonym of 'Zealous'.",
+      "options": [
+        "Enthusiastic",
+        "Indifferent",
+        "Lukewarm",
+        "Apathetic"
+      ],
+      "answer": "Enthusiastic",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_064",
+      "question": "Which spelling is correct for the word meaning 'embarrass'?",
+      "options": [
+        "Embaras",
+        "Embarras",
+        "Embarass",
+        "Embarrass"
+      ],
+      "answer": "Embarrass",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_065",
+      "question": "Choose the correct synonym of 'Resilient'.",
+      "options": [
+        "Brittle",
+        "Tough",
+        "Weak",
+        "Fragile"
+      ],
+      "answer": "Tough",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_066",
+      "question": "The antonym of 'Generous' is?",
+      "options": [
+        "Liberal",
+        "Stingy",
+        "Kind",
+        "Noble"
+      ],
+      "answer": "Stingy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_067",
+      "question": "Meaning of 'Nostalgia' is?",
+      "options": [
+        "fear",
+        "anger",
+        "hunger",
+        "longing for the past"
+      ],
+      "answer": "longing for the past",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_068",
+      "question": "Meaning of 'Jubilant' is?",
+      "options": [
+        "very joyful",
+        "gloomy",
+        "sad",
+        "angry"
+      ],
+      "answer": "very joyful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_069",
+      "question": "Fill in: If it rains, we ___ stay home?",
+      "options": [
+        "had",
+        "will",
+        "would",
+        "have"
+      ],
+      "answer": "will",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_070",
+      "question": "Meaning of 'Lethargic' is?",
+      "options": [
+        "sluggish",
+        "energetic",
+        "active",
+        "lively"
+      ],
+      "answer": "sluggish",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_071",
+      "question": "Choose the correct synonym of 'Keen'.",
+      "options": [
+        "Reluctant",
+        "Indifferent",
+        "Eager",
+        "Apathetic"
+      ],
+      "answer": "Eager",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_072",
+      "question": "Choose the correct indirect speech: He said, 'I am tired.'",
+      "options": [
+        "He said that I am tired.",
+        "He said that he was tired.",
+        "He says he was tired.",
+        "He said he is tired."
+      ],
+      "answer": "He said that he was tired.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_073",
+      "question": "Past tense of 'choose' is?",
+      "options": [
+        "choosed",
+        "choosing",
+        "chose",
+        "chosen"
+      ],
+      "answer": "chose",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_074",
+      "question": "Fill in: He speaks English ___ fluently?",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "more"
+      ],
+      "answer": "very",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_075",
+      "question": "The antonym of 'Accept' is?",
+      "options": [
+        "Allow",
+        "Take",
+        "Receive",
+        "Reject"
+      ],
+      "answer": "Reject",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_076",
+      "question": "Fill in: They ___ playing cricket now?",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has"
+      ],
+      "answer": "are",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_077",
+      "question": "Choose the correct synonym of 'Rigid'.",
+      "options": [
+        "Stiff",
+        "Flexible",
+        "Soft",
+        "Pliable"
+      ],
+      "answer": "Stiff",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_078",
+      "question": "Choose the correct plural of 'datum'.",
+      "options": [
+        "data",
+        "datums",
+        "datum",
+        "datas"
+      ],
+      "answer": "data",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_079",
+      "question": "The plural of 'man' is?",
+      "options": [
+        "mans",
+        "mens",
+        "manes",
+        "men"
+      ],
+      "answer": "men",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_080",
+      "question": "Choose the antonym of 'Superior'.",
+      "options": [
+        "Higher",
+        "Greater",
+        "Better",
+        "Inferior"
+      ],
+      "answer": "Inferior",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_081",
+      "question": "Choose the correct plural of 'child'.",
+      "options": [
+        "children",
+        "childrens",
+        "childes",
+        "childs"
+      ],
+      "answer": "children",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_082",
+      "question": "Past tense of 'see' is?",
+      "options": [
+        "seeing",
+        "seen",
+        "see",
+        "saw"
+      ],
+      "answer": "saw",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_083",
+      "question": "The antonym of 'Artificial' is?",
+      "options": [
+        "False",
+        "Synthetic",
+        "Natural",
+        "Fake"
+      ],
+      "answer": "Natural",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_084",
+      "question": "Choose the correct synonym of 'Begin'.",
+      "options": [
+        "Start",
+        "Close",
+        "Finish",
+        "End"
+      ],
+      "answer": "Start",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_085",
+      "question": "Synonym of 'Clever' is?",
+      "options": [
+        "Intelligent",
+        "Foolish",
+        "Dull",
+        "Slow"
+      ],
+      "answer": "Intelligent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_086",
+      "question": "Correct spelling?",
+      "options": [
+        "Occurrence",
+        "Occurence",
+        "Ocurrence",
+        "Occurrance"
+      ],
+      "answer": "Occurrence",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_087",
+      "question": "Fill in: We ___ going to the park.",
+      "options": [
+        "or",
+        "are",
+        "our",
+        "hour"
+      ],
+      "answer": "are",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_088",
+      "question": "What is the past tense of 'eat'?",
+      "options": [
+        "eat",
+        "ate",
+        "eating",
+        "eaten"
+      ],
+      "answer": "ate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_089",
+      "question": "Which spelling is correct for the word meaning 'separate'?",
+      "options": [
+        "Sepparate",
+        "Separate",
+        "Seperate",
+        "Seperete"
+      ],
+      "answer": "Separate",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_090",
+      "question": "Antonym of 'Strong' is?",
+      "options": [
+        "Powerful",
+        "Weak",
+        "Brave",
+        "Bold"
+      ],
+      "answer": "Weak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_091",
+      "question": "Synonym of 'Courageous' is?",
+      "options": [
+        "Timid",
+        "Fearful",
+        "Cowardly",
+        "Brave"
+      ],
+      "answer": "Brave",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_092",
+      "question": "Choose the correct synonym of 'Ample'.",
+      "options": [
+        "Plentiful",
+        "Limited",
+        "Scarce",
+        "Meagre"
+      ],
+      "answer": "Plentiful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_093",
+      "question": "Past tense of 'bring' is?",
+      "options": [
+        "bringed",
+        "bringing",
+        "brings",
+        "brought"
+      ],
+      "answer": "brought",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_094",
+      "question": "Choose the correct synonym of 'Meticulous'.",
+      "options": [
+        "Careful",
+        "Sloppy",
+        "Careless",
+        "Hasty"
+      ],
+      "answer": "Careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_095",
+      "question": "Which spelling is correct for the word meaning 'privilege'?",
+      "options": [
+        "Privilage",
+        "Privilege",
+        "Priviledge",
+        "Privelege"
+      ],
+      "answer": "Privilege",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_096",
+      "question": "Choose the correct synonym of 'Oblige'.",
+      "options": [
+        "Release",
+        "Compel",
+        "Free",
+        "Excuse"
+      ],
+      "answer": "Compel",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_097",
+      "question": "Which spelling is correct for the word meaning 'receive'?",
+      "options": [
+        "Receeve",
+        "Recieve",
+        "Receive",
+        "Receve"
+      ],
+      "answer": "Receive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_098",
+      "question": "Fill in: She is good ___ mathematics.",
+      "options": [
+        "on",
+        "for",
+        "in",
+        "at"
+      ],
+      "answer": "at",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_099",
+      "question": "Choose the correct synonym of 'Mature'.",
+      "options": [
+        "Immature",
+        "Juvenile",
+        "Adult",
+        "Childish"
+      ],
+      "answer": "Adult",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_100",
+      "question": "Fill in: He is taller ___ his brother.",
+      "options": [
+        "that",
+        "from",
+        "then",
+        "than"
+      ],
+      "answer": "than",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_101",
+      "question": "Synonym of 'Generous' is?",
+      "options": [
+        "Cruel",
+        "Kind",
+        "Stingy",
+        "Selfish"
+      ],
+      "answer": "Kind",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_102",
+      "question": "Choose the antonym of 'Generous'?",
+      "options": [
+        "Stingy",
+        "Noble",
+        "Brave",
+        "Kind"
+      ],
+      "answer": "Stingy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_103",
+      "question": "Past tense of 'Write' is?",
+      "options": [
+        "Write",
+        "Wrote",
+        "Written",
+        "Writing"
+      ],
+      "answer": "Wrote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_104",
+      "question": "Fill in: They ___ their homework.",
+      "options": [
+        "dad",
+        "deed",
+        "did",
+        "dead"
+      ],
+      "answer": "did",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_105",
+      "question": "What is the past tense of 'write'?",
+      "options": [
+        "written",
+        "writing",
+        "write",
+        "wrote"
+      ],
+      "answer": "wrote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_106",
+      "question": "Choose the correct synonym of 'Brave'.",
+      "options": [
+        "Weak",
+        "Courageous",
+        "Cowardly",
+        "Timid"
+      ],
+      "answer": "Courageous",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_107",
+      "question": "Choose the correct synonym of 'Dangerous'.",
+      "options": [
+        "Safe",
+        "Risky",
+        "Calm",
+        "Secure"
+      ],
+      "answer": "Risky",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_108",
+      "question": "The plural of 'analysis' is?",
+      "options": [
+        "analyses",
+        "analysises",
+        "analysis",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "analyses",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_109",
+      "question": "Synonym of 'Humble' is?",
+      "options": [
+        "Modest",
+        "Arrogant",
+        "Boastful",
+        "Proud"
+      ],
+      "answer": "Modest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_110",
+      "question": "Past tense of 'give' is?",
+      "options": [
+        "giving",
+        "gave",
+        "given",
+        "gived"
+      ],
+      "answer": "gave",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_111",
+      "question": "Fill in: The ___ is shining brightly.",
+      "options": [
+        "son",
+        "sun",
+        "soon",
+        "sin"
+      ],
+      "answer": "sun",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_112",
+      "question": "Choose the correctly spelled word?",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomadation"
+      ],
+      "answer": "Accommodation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_113",
+      "question": "Synonym of 'Dangerous' is?",
+      "options": [
+        "Safe",
+        "Risky",
+        "Secure",
+        "Calm"
+      ],
+      "answer": "Risky",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_114",
+      "question": "Choose the antonym of 'Strong'.",
+      "options": [
+        "Bold",
+        "Powerful",
+        "Weak",
+        "Brave"
+      ],
+      "answer": "Weak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_115",
+      "question": "Synonym of 'Vivid' is?",
+      "options": [
+        "Faint",
+        "Bright",
+        "Dull",
+        "Pale"
+      ],
+      "answer": "Bright",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_116",
+      "question": "The plural of 'goose' is?",
+      "options": [
+        "geese",
+        "geeses",
+        "gooses",
+        "goose"
+      ],
+      "answer": "geese",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_117",
+      "question": "Fill in: They ___ playing football now?",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "am"
+      ],
+      "answer": "are",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_118",
+      "question": "Which is a correct sentence?",
+      "options": [
+        "He don't like tea",
+        "He doesn't like tea",
+        "He not like tea",
+        "He doesn't likes tea"
+      ],
+      "answer": "He doesn't like tea",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_119",
+      "question": "Choose the correct synonym of 'Happy'.",
+      "options": [
+        "Angry",
+        "Joyful",
+        "Sad",
+        "Tired"
+      ],
+      "answer": "Joyful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_120",
+      "question": "What is the past tense of 'break'?",
+      "options": [
+        "breaked",
+        "broke",
+        "breaking",
+        "broken"
+      ],
+      "answer": "broke",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_121",
+      "question": "Which is a preposition?",
+      "options": [
+        "Happy",
+        "Under",
+        "Swiftly",
+        "Jump"
+      ],
+      "answer": "Under",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_122",
+      "question": "Synonym of 'Diligent' is?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Idle",
+        "Slow"
+      ],
+      "answer": "Hardworking",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_123",
+      "question": "Which spelling is correct for the word meaning 'recommend'?",
+      "options": [
+        "Reccommend",
+        "Recomend",
+        "Reccomend",
+        "Recommend"
+      ],
+      "answer": "Recommend",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_124",
+      "question": "Which is a conjunction?",
+      "options": [
+        "And",
+        "Run",
+        "Beautiful",
+        "Quickly"
+      ],
+      "answer": "And",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_125",
+      "question": "Choose the correct synonym of 'Sincere'.",
+      "options": [
+        "False",
+        "Genuine",
+        "Insincere",
+        "Hypocritical"
+      ],
+      "answer": "Genuine",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_126",
+      "question": "Synonym of 'Rich' is?",
+      "options": [
+        "Wealthy",
+        "Poor",
+        "Needy",
+        "Broke"
+      ],
+      "answer": "Wealthy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_127",
+      "question": "The plural of 'child' is?",
+      "options": [
+        "childs",
+        "children",
+        "childes",
+        "childrens"
+      ],
+      "answer": "children",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_128",
+      "question": "The antonym of 'Expand' is?",
+      "options": [
+        "Grow",
+        "Extend",
+        "Contract",
+        "Increase"
+      ],
+      "answer": "Contract",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_129",
+      "question": "Fill in: I have lived here ___ 2010.",
+      "options": [
+        "from",
+        "for",
+        "since",
+        "by"
+      ],
+      "answer": "since",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_130",
+      "question": "Choose the correct synonym of 'Candid'.",
+      "options": [
+        "Deceptive",
+        "Honest",
+        "Secretive",
+        "Vague"
+      ],
+      "answer": "Honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_131",
+      "question": "Choose the correct synonym of 'Noble'.",
+      "options": [
+        "Base",
+        "Honourable",
+        "Vile",
+        "Ignoble"
+      ],
+      "answer": "Honourable",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_132",
+      "question": "Fill in: She speaks English ___?",
+      "options": [
+        "fluency",
+        "fluent",
+        "fluently",
+        "fluents"
+      ],
+      "answer": "fluently",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_133",
+      "question": "Which word is a noun?",
+      "options": [
+        "Quickly",
+        "Happiness",
+        "Run",
+        "Beautiful"
+      ],
+      "answer": "Happiness",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_134",
+      "question": "Choose the correct synonym of 'Cease'.",
+      "options": [
+        "Start",
+        "Begin",
+        "Stop",
+        "Continue"
+      ],
+      "answer": "Stop",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_135",
+      "question": "Which spelling is correct for the word meaning 'written'?",
+      "options": [
+        "Writen",
+        "Wriiten",
+        "Writtin",
+        "Written"
+      ],
+      "answer": "Written",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_136",
+      "question": "Choose the correct plural of 'analysis'.",
+      "options": [
+        "analysises",
+        "ഒന്നുമില്ല",
+        "analyses",
+        "analysis"
+      ],
+      "answer": "analyses",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_137",
+      "question": "Fill in: He has been working here ___ 2010?",
+      "options": [
+        "by",
+        "from",
+        "for",
+        "since"
+      ],
+      "answer": "since",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_138",
+      "question": "Fill in: She _____ a letter yesterday?",
+      "options": [
+        "write",
+        "writes",
+        "wrote",
+        "written"
+      ],
+      "answer": "wrote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_139",
+      "question": "Fill in: He is taller ___ his brother?",
+      "options": [
+        "than",
+        "then",
+        "that",
+        "from"
+      ],
+      "answer": "than",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_140",
+      "question": "The plural of 'datum' is?",
+      "options": [
+        "data",
+        "datas",
+        "datum",
+        "datums"
+      ],
+      "answer": "data",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_141",
+      "question": "Past tense of 'Eat' is?",
+      "options": [
+        "Eat",
+        "Eaten",
+        "Ate",
+        "Eating"
+      ],
+      "answer": "Ate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_142",
+      "question": "Which spelling is correct for the word meaning 'occurrence'?",
+      "options": [
+        "Occurrence",
+        "Occurence",
+        "Occurrance",
+        "Ocurrence"
+      ],
+      "answer": "Occurrence",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_143",
+      "question": "Fill in: I look forward ___ meeting you.",
+      "options": [
+        "to",
+        "in",
+        "at",
+        "for"
+      ],
+      "answer": "to",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_144",
+      "question": "What is the past tense of 'give'?",
+      "options": [
+        "giving",
+        "given",
+        "gave",
+        "gived"
+      ],
+      "answer": "gave",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_145",
+      "question": "Choose the correct plural of 'leaf'.",
+      "options": [
+        "leavs",
+        "leafes",
+        "leafs",
+        "leaves"
+      ],
+      "answer": "leaves",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_146",
+      "question": "Meaning of 'Diligent' is?",
+      "options": [
+        "hardworking",
+        "idle",
+        "slow",
+        "lazy"
+      ],
+      "answer": "hardworking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_147",
+      "question": "Choose the antonym of 'Accept'.",
+      "options": [
+        "Take",
+        "Reject",
+        "Allow",
+        "Receive"
+      ],
+      "answer": "Reject",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_148",
+      "question": "The antonym of 'Temporary' is?",
+      "options": [
+        "Fleeting",
+        "Permanent",
+        "Short",
+        "Brief"
+      ],
+      "answer": "Permanent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_149",
+      "question": "Plural of 'Woman' is?",
+      "options": [
+        "Womans",
+        "Women",
+        "Womens",
+        "Womanes"
+      ],
+      "answer": "Women",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_150",
+      "question": "Choose the correct synonym of 'Immense'.",
+      "options": [
+        "Small",
+        "Huge",
+        "Minute",
+        "Tiny"
+      ],
+      "answer": "Huge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_151",
+      "question": "Synonym of 'Unique' is?",
+      "options": [
+        "Distinct",
+        "Common",
+        "Usual",
+        "Ordinary"
+      ],
+      "answer": "Distinct",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_152",
+      "question": "Fill in: If it rains, we ___ stay home.",
+      "options": [
+        "would",
+        "will",
+        "have",
+        "had"
+      ],
+      "answer": "will",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_153",
+      "question": "Which spelling is correct for the word meaning 'government'?",
+      "options": [
+        "Goverment",
+        "Govermnent",
+        "Government",
+        "Governmant"
+      ],
+      "answer": "Government",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_154",
+      "question": "Choose the correct synonym of 'Jovial'.",
+      "options": [
+        "Gloomy",
+        "Sullen",
+        "Cheerful",
+        "Morose"
+      ],
+      "answer": "Cheerful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_155",
+      "question": "The plural of 'foot' is?",
+      "options": [
+        "foot",
+        "feets",
+        "feet",
+        "foots"
+      ],
+      "answer": "feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_156",
+      "question": "Choose the correctly spelled word.",
+      "options": [
+        "Accommodation",
+        "Acommodation",
+        "Accomodation",
+        "Accomadation"
+      ],
+      "answer": "Accommodation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_157",
+      "question": "Antonym of 'Optimist' is?",
+      "options": [
+        "Hopeful",
+        "Pessimist",
+        "Cheerful",
+        "Positive"
+      ],
+      "answer": "Pessimist",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_158",
+      "question": "Synonym of 'Obsolete' is?",
+      "options": [
+        "Outdated",
+        "Modern",
+        "New",
+        "Current"
+      ],
+      "answer": "Outdated",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_159",
+      "question": "Fill in: Neither the students nor the teacher ___ present.",
+      "options": [
+        "have",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": "was",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_160",
+      "question": "The plural of 'person' is?",
+      "options": [
+        "peoples",
+        "persons",
+        "persones",
+        "people"
+      ],
+      "answer": "people",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_161",
+      "question": "Choose the antonym of 'Increase'.",
+      "options": [
+        "Rise",
+        "Decrease",
+        "Grow",
+        "Expand"
+      ],
+      "answer": "Decrease",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_162",
+      "question": "Synonym of 'Quaint' is?",
+      "options": [
+        "Old-fashioned",
+        "Contemporary",
+        "Modern",
+        "New"
+      ],
+      "answer": "Old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_163",
+      "question": "What is the past tense of 'see'?",
+      "options": [
+        "see",
+        "seeing",
+        "saw",
+        "seen"
+      ],
+      "answer": "saw",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_164",
+      "question": "Meaning of 'Generous' is?",
+      "options": [
+        "Kind",
+        "Selfish",
+        "Lazy",
+        "Cruel"
+      ],
+      "answer": "Kind",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_165",
+      "question": "Choose the correct spelling?",
+      "options": [
+        "Receive",
+        "Recieve",
+        "Receeve",
+        "Receve"
+      ],
+      "answer": "Receive",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_166",
+      "question": "Fill in: He ___ to the market yesterday?",
+      "options": [
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "answer": "went",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_167",
       "question": "Synonym of 'Happy' is?",
       "options": [
         "Joyful",
@@ -3997,7 +2005,631 @@
       "difficulty": "easy"
     },
     {
-      "id": "eng_0220",
+      "id": "eng_168",
+      "question": "Synonym of 'Sincere' is?",
+      "options": [
+        "Genuine",
+        "Hypocritical",
+        "False",
+        "Insincere"
+      ],
+      "answer": "Genuine",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_169",
+      "question": "Synonym of 'Eager' is?",
+      "options": [
+        "Reluctant",
+        "Keen",
+        "Indifferent",
+        "Unwilling"
+      ],
+      "answer": "Keen",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_170",
+      "question": "Choose the correct synonym of 'Silent'.",
+      "options": [
+        "Quiet",
+        "Loud",
+        "Noisy",
+        "Harsh"
+      ],
+      "answer": "Quiet",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_171",
+      "question": "Synonym of 'Eloquent' is?",
+      "options": [
+        "Hesitant",
+        "Fluent",
+        "Inarticulate",
+        "Mute"
+      ],
+      "answer": "Fluent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_172",
+      "question": "Meaning of 'Candid' is?",
+      "options": [
+        "vague",
+        "deceptive",
+        "honest",
+        "secretive"
+      ],
+      "answer": "honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_173",
+      "question": "Past tense of 'drive' is?",
+      "options": [
+        "driven",
+        "drived",
+        "driving",
+        "drove"
+      ],
+      "answer": "drove",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_174",
+      "question": "Choose the correct plural of 'foot'.",
+      "options": [
+        "foot",
+        "feets",
+        "foots",
+        "feet"
+      ],
+      "answer": "feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_175",
+      "question": "Past tense of 'See' is?",
+      "options": [
+        "Seen",
+        "Saw",
+        "See",
+        "Seeing"
+      ],
+      "answer": "Saw",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_176",
+      "question": "Plural of 'Leaf' is?",
+      "options": [
+        "Leafs",
+        "Leaves",
+        "Leafes",
+        "Leavs"
+      ],
+      "answer": "Leaves",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_177",
+      "question": "Synonym of 'Benevolent' is?",
+      "options": [
+        "Mean",
+        "Cruel",
+        "Harsh",
+        "Kind"
+      ],
+      "answer": "Kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_178",
+      "question": "What is the past tense of 'bring'?",
+      "options": [
+        "bringed",
+        "brought",
+        "brings",
+        "bringing"
+      ],
+      "answer": "brought",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_179",
+      "question": "Past tense of 'catch' is?",
+      "options": [
+        "catches",
+        "catched",
+        "caught",
+        "catching"
+      ],
+      "answer": "caught",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_180",
+      "question": "Synonym of 'Difficult' is?",
+      "options": [
+        "Hard",
+        "Easy",
+        "Simple",
+        "Light"
+      ],
+      "answer": "Hard",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_181",
+      "question": "Synonym of 'Vital' is?",
+      "options": [
+        "Trivial",
+        "Optional",
+        "Essential",
+        "Minor"
+      ],
+      "answer": "Essential",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_182",
+      "question": "Which is a noun?",
+      "options": [
+        "Teacher",
+        "Teach",
+        "Teaching",
+        "Taught"
+      ],
+      "answer": "Teacher",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_183",
+      "question": "Choose the correct synonym of 'Wary'.",
+      "options": [
+        "Cautious",
+        "Reckless",
+        "Careless",
+        "Rash"
+      ],
+      "answer": "Cautious",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_184",
+      "question": "Past tense of 'know' is?",
+      "options": [
+        "knew",
+        "known",
+        "knowing",
+        "knowed"
+      ],
+      "answer": "knew",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_185",
+      "question": "Synonym of 'Tranquil' is?",
+      "options": [
+        "Calm",
+        "Noisy",
+        "Restless",
+        "Chaotic"
+      ],
+      "answer": "Calm",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_186",
+      "question": "Past tense of 'break' is?",
+      "options": [
+        "breaked",
+        "breaking",
+        "broken",
+        "broke"
+      ],
+      "answer": "broke",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_187",
+      "question": "Meaning of 'Hinder' is?",
+      "options": [
+        "aid",
+        "assist",
+        "help",
+        "obstruct"
+      ],
+      "answer": "obstruct",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_188",
+      "question": "Choose the correct plural of 'knife'.",
+      "options": [
+        "knive",
+        "knives",
+        "knifves",
+        "knifes"
+      ],
+      "answer": "knives",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_189",
+      "question": "Synonym of 'Cease' is?",
+      "options": [
+        "Start",
+        "Continue",
+        "Begin",
+        "Stop"
+      ],
+      "answer": "Stop",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_190",
+      "question": "Which spelling is correct for the word meaning 'maintenance'?",
+      "options": [
+        "Maintenaince",
+        "Maintenance",
+        "Maintainance",
+        "Maintenence"
+      ],
+      "answer": "Maintenance",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_191",
+      "question": "Fill in: The book ___ on the table?",
+      "options": [
+        "have",
+        "are",
+        "is",
+        "were"
+      ],
+      "answer": "is",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_192",
+      "question": "The antonym of 'Superior' is?",
+      "options": [
+        "Inferior",
+        "Better",
+        "Higher",
+        "Greater"
+      ],
+      "answer": "Inferior",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_193",
+      "question": "The plural of 'tooth' is?",
+      "options": [
+        "tooths",
+        "tooth",
+        "teeths",
+        "teeth"
+      ],
+      "answer": "teeth",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_194",
+      "question": "Synonym of 'Smart' is?",
+      "options": [
+        "Intelligent",
+        "Dull",
+        "Slow",
+        "Weak"
+      ],
+      "answer": "Intelligent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_195",
+      "question": "Which is the correct spelling?",
+      "options": [
+        "Accommodate",
+        "Accomodate",
+        "Acommodate",
+        "Acomodate"
+      ],
+      "answer": "Accommodate",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_196",
+      "question": "Synonym of 'Meticulous' is?",
+      "options": [
+        "Hasty",
+        "Careful",
+        "Careless",
+        "Sloppy"
+      ],
+      "answer": "Careful",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_197",
+      "question": "Meaning of 'Immaculate' is?",
+      "options": [
+        "stained",
+        "perfectly clean",
+        "messy",
+        "dirty"
+      ],
+      "answer": "perfectly clean",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_198",
+      "question": "What is the past tense of 'think'?",
+      "options": [
+        "thought",
+        "thinking",
+        "thinked",
+        "thinks"
+      ],
+      "answer": "thought",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_199",
+      "question": "Choose the correct synonym of 'Fragile'.",
+      "options": [
+        "Strong",
+        "Hard",
+        "Delicate",
+        "Tough"
+      ],
+      "answer": "Delicate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_200",
+      "question": "Antonym of 'Ancient' is?",
+      "options": [
+        "Historic",
+        "Aged",
+        "Old",
+        "Modern"
+      ],
+      "answer": "Modern",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_201",
+      "question": "Choose the correct synonym of 'Brief'.",
+      "options": [
+        "Short",
+        "Lengthy",
+        "Extended",
+        "Long"
+      ],
+      "answer": "Short",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_202",
+      "question": "Choose the correct synonym of 'Pragmatic'.",
+      "options": [
+        "Theoretical",
+        "Idealistic",
+        "Impractical",
+        "Practical"
+      ],
+      "answer": "Practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_203",
+      "question": "Choose the antonym of 'Generous'.",
+      "options": [
+        "Kind",
+        "Liberal",
+        "Stingy",
+        "Noble"
+      ],
+      "answer": "Stingy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_204",
+      "question": "Which spelling is correct for the word meaning 'tomorrow'?",
+      "options": [
+        "Tommorow",
+        "Tomorow",
+        "Tomorrow",
+        "Tommorrow"
+      ],
+      "answer": "Tomorrow",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_205",
+      "question": "The antonym of 'Ancient' is?",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Aged"
+      ],
+      "answer": "Modern",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_206",
+      "question": "The antonym of 'Happy' is?",
+      "options": [
+        "Cheerful",
+        "Glad",
+        "Joyful",
+        "Sad"
+      ],
+      "answer": "Sad",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_207",
+      "question": "The antonym of 'Brave' is?",
+      "options": [
+        "Heroic",
+        "Bold",
+        "Fearless",
+        "Cowardly"
+      ],
+      "answer": "Cowardly",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_208",
+      "question": "Past tense of 'think' is?",
+      "options": [
+        "thinks",
+        "thinked",
+        "thought",
+        "thinking"
+      ],
+      "answer": "thought",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_209",
+      "question": "Choose the antonym of 'Ancient'.",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Aged"
+      ],
+      "answer": "Modern",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_210",
+      "question": "Synonym of 'Zealous' is?",
+      "options": [
+        "Enthusiastic",
+        "Lukewarm",
+        "Apathetic",
+        "Indifferent"
+      ],
+      "answer": "Enthusiastic",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_211",
+      "question": "Antonym of 'Hot' is?",
+      "options": [
+        "Cold",
+        "Warm",
+        "Mild",
+        "Boiling"
+      ],
+      "answer": "Cold",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_212",
+      "question": "Choose the correct synonym of 'Fast'.",
+      "options": [
+        "Late",
+        "Slow",
+        "Quick",
+        "Lazy"
+      ],
+      "answer": "Quick",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_213",
+      "question": "Synonym of 'Pragmatic' is?",
+      "options": [
+        "Theoretical",
+        "Idealistic",
+        "Impractical",
+        "Practical"
+      ],
+      "answer": "Practical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_214",
+      "question": "Choose the correct synonym of 'Clever'.",
+      "options": [
+        "Dull",
+        "Slow",
+        "Intelligent",
+        "Foolish"
+      ],
+      "answer": "Intelligent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_215",
+      "question": "Antonym of 'Accept' is?",
+      "options": [
+        "Receive",
+        "Reject",
+        "Allow",
+        "Take"
+      ],
+      "answer": "Reject",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_216",
+      "question": "Meaning of 'Fragile' is?",
+      "options": [
+        "easily broken",
+        "strong",
+        "hard",
+        "tough"
+      ],
+      "answer": "easily broken",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_217",
+      "question": "A person who writes books is called a?",
+      "options": [
+        "Author",
+        "Editor",
+        "Publisher",
+        "Printer"
+      ],
+      "answer": "Author",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_218",
+      "question": "Synonym of 'Wary' is?",
+      "options": [
+        "Rash",
+        "Careless",
+        "Cautious",
+        "Reckless"
+      ],
+      "answer": "Cautious",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_219",
+      "question": "Antonym of 'Happy' is?",
+      "options": [
+        "Joyful",
+        "Glad",
+        "Sad",
+        "Cheerful"
+      ],
+      "answer": "Sad",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_220",
       "question": "The antonym of 'Scarce' is?",
       "options": [
         "Limited",
@@ -4007,6 +2639,1374 @@
       ],
       "answer": "Abundant",
       "difficulty": "easy"
+    },
+    {
+      "id": "eng_221",
+      "question": "Fill in: She has ___ finished her homework?",
+      "options": [
+        "yet",
+        "already",
+        "since",
+        "for"
+      ],
+      "answer": "already",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_222",
+      "question": "Choose the antonym of 'Victory'.",
+      "options": [
+        "Win",
+        "Success",
+        "Defeat",
+        "Triumph"
+      ],
+      "answer": "Defeat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_223",
+      "question": "Choose the correct synonym of 'Vivid'.",
+      "options": [
+        "Dull",
+        "Faint",
+        "Bright",
+        "Pale"
+      ],
+      "answer": "Bright",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_224",
+      "question": "Choose the correct synonym of 'Humble'.",
+      "options": [
+        "Arrogant",
+        "Modest",
+        "Proud",
+        "Boastful"
+      ],
+      "answer": "Modest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_225",
+      "question": "Synonym of 'Begin' is?",
+      "options": [
+        "End",
+        "Start",
+        "Finish",
+        "Close"
+      ],
+      "answer": "Start",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_226",
+      "question": "Fill in: They _____ football now?",
+      "options": [
+        "play",
+        "played",
+        "are playing",
+        "plays"
+      ],
+      "answer": "are playing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_227",
+      "question": "Which spelling is correct for the word meaning 'knowledge'?",
+      "options": [
+        "Knowladge",
+        "Knowledge",
+        "Knowlege",
+        "Knowlede"
+      ],
+      "answer": "Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_228",
+      "question": "Choose the correct synonym of 'Unique'.",
+      "options": [
+        "Common",
+        "Ordinary",
+        "Distinct",
+        "Usual"
+      ],
+      "answer": "Distinct",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_229",
+      "question": "Fill in: I _____ my work yesterday?",
+      "options": [
+        "finish",
+        "finished",
+        "finishing",
+        "finishes"
+      ],
+      "answer": "finished",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_230",
+      "question": "Choose the antonym of 'Temporary'.",
+      "options": [
+        "Fleeting",
+        "Permanent",
+        "Short",
+        "Brief"
+      ],
+      "answer": "Permanent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_231",
+      "question": "The antonym of 'Hot' is?",
+      "options": [
+        "Cold",
+        "Warm",
+        "Mild",
+        "Boiling"
+      ],
+      "answer": "Cold",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_232",
+      "question": "Synonym of 'Fragile' is?",
+      "options": [
+        "Delicate",
+        "Strong",
+        "Hard",
+        "Tough"
+      ],
+      "answer": "Delicate",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_233",
+      "question": "Which spelling is correct for the word meaning 'rhythm'?",
+      "options": [
+        "Rhytm",
+        "Rythm",
+        "Rhythm",
+        "Rhythem"
+      ],
+      "answer": "Rhythm",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_234",
+      "question": "Choose the correct plural of 'goose'.",
+      "options": [
+        "goose",
+        "geese",
+        "gooses",
+        "geeses"
+      ],
+      "answer": "geese",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_235",
+      "question": "The antonym of 'Optimist' is?",
+      "options": [
+        "Hopeful",
+        "Pessimist",
+        "Positive",
+        "Cheerful"
+      ],
+      "answer": "Pessimist",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_236",
+      "question": "The opposite of 'Generous' is?",
+      "options": [
+        "Kind",
+        "Stingy",
+        "Noble",
+        "Helpful"
+      ],
+      "answer": "Stingy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_237",
+      "question": "Fill in: Neither the students nor the teacher ___ present?",
+      "options": [
+        "have",
+        "are",
+        "were",
+        "was"
+      ],
+      "answer": "was",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_238",
+      "question": "Choose the antonym of 'Brave'.",
+      "options": [
+        "Cowardly",
+        "Fearless",
+        "Bold",
+        "Heroic"
+      ],
+      "answer": "Cowardly",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_239",
+      "question": "Choose the correct synonym of 'Diverse'.",
+      "options": [
+        "Varied",
+        "Uniform",
+        "Same",
+        "Identical"
+      ],
+      "answer": "Varied",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_240",
+      "question": "Choose the antonym of 'Vertical'.",
+      "options": [
+        "Erect",
+        "Upright",
+        "Standing",
+        "Horizontal"
+      ],
+      "answer": "Horizontal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_241",
+      "question": "Which spelling is correct for the word meaning 'definite'?",
+      "options": [
+        "Definite",
+        "Definate",
+        "Definete",
+        "Definately"
+      ],
+      "answer": "Definite",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_242",
+      "question": "Which spelling is correct for the word meaning 'successful'?",
+      "options": [
+        "Succesful",
+        "Sucessful",
+        "Successfull",
+        "Successful"
+      ],
+      "answer": "Successful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_243",
+      "question": "The plural of 'thesis' is?",
+      "options": [
+        "thesies",
+        "thesises",
+        "thesis",
+        "theses"
+      ],
+      "answer": "theses",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_244",
+      "question": "Fill in: They ___ playing cricket now.",
+      "options": [
+        "are",
+        "has",
+        "was",
+        "is"
+      ],
+      "answer": "are",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_245",
+      "question": "Choose the antonym of 'Profit'.",
+      "options": [
+        "Gain",
+        "Earning",
+        "Loss",
+        "Benefit"
+      ],
+      "answer": "Loss",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_246",
+      "question": "Fill in: She ___ to school every day?",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "answer": "goes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_247",
+      "question": "Synonym of 'Rigid' is?",
+      "options": [
+        "Soft",
+        "Pliable",
+        "Flexible",
+        "Stiff"
+      ],
+      "answer": "Stiff",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_248",
+      "question": "What is the past tense of 'fly'?",
+      "options": [
+        "flew",
+        "flying",
+        "flown",
+        "flied"
+      ],
+      "answer": "flew",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_249",
+      "question": "Synonym of 'Silent' is?",
+      "options": [
+        "Quiet",
+        "Loud",
+        "Noisy",
+        "Harsh"
+      ],
+      "answer": "Quiet",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_250",
+      "question": "Meaning of 'Scrutinize' is?",
+      "options": [
+        "neglect",
+        "examine closely",
+        "ignore",
+        "overlook"
+      ],
+      "answer": "examine closely",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_251",
+      "question": "Choose the correct synonym of 'Honest'.",
+      "options": [
+        "Truthful",
+        "Dishonest",
+        "False",
+        "Cunning"
+      ],
+      "answer": "Truthful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_252",
+      "question": "Choose the antonym of 'Scarce'.",
+      "options": [
+        "Few",
+        "Rare",
+        "Abundant",
+        "Limited"
+      ],
+      "answer": "Abundant",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_253",
+      "question": "The plural of 'criterion' is?",
+      "options": [
+        "criterion",
+        "criterions",
+        "criterias",
+        "criteria"
+      ],
+      "answer": "criteria",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_254",
+      "question": "Which is an interjection?",
+      "options": [
+        "Table",
+        "Running",
+        "Quickly",
+        "Alas"
+      ],
+      "answer": "Alas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_255",
+      "question": "The plural of 'leaf' is?",
+      "options": [
+        "leaves",
+        "leafes",
+        "leavs",
+        "leafs"
+      ],
+      "answer": "leaves",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_256",
+      "question": "Which spelling is correct for the word meaning 'committee'?",
+      "options": [
+        "Comittee",
+        "Commitee",
+        "Comitee",
+        "Committee"
+      ],
+      "answer": "Committee",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_257",
+      "question": "The antonym of 'Vertical' is?",
+      "options": [
+        "Standing",
+        "Erect",
+        "Upright",
+        "Horizontal"
+      ],
+      "answer": "Horizontal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_258",
+      "question": "Which is a compound word?",
+      "options": [
+        "Sun",
+        "Sunflower",
+        "Flower",
+        "Light"
+      ],
+      "answer": "Sunflower",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_259",
+      "question": "Past tense of 'go' is?",
+      "options": [
+        "goed",
+        "went",
+        "gone",
+        "going"
+      ],
+      "answer": "went",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_260",
+      "question": "Synonym of 'Immense' is?",
+      "options": [
+        "Tiny",
+        "Small",
+        "Huge",
+        "Minute"
+      ],
+      "answer": "Huge",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_261",
+      "question": "Fill in: He is allergic ___ dust.",
+      "options": [
+        "of",
+        "with",
+        "to",
+        "from"
+      ],
+      "answer": "to",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_262",
+      "question": "Fill in: She has ___ finished her homework.",
+      "options": [
+        "since",
+        "yet",
+        "already",
+        "for"
+      ],
+      "answer": "already",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_263",
+      "question": "Choose the correct synonym of 'Polite'.",
+      "options": [
+        "Abrupt",
+        "Rude",
+        "Impolite",
+        "Courteous"
+      ],
+      "answer": "Courteous",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_264",
+      "question": "Synonym of 'Frequent' is?",
+      "options": [
+        "Never",
+        "Seldom",
+        "Often",
+        "Rare"
+      ],
+      "answer": "Often",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_265",
+      "question": "Synonym of 'Mature' is?",
+      "options": [
+        "Childish",
+        "Immature",
+        "Juvenile",
+        "Adult"
+      ],
+      "answer": "Adult",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_266",
+      "question": "The antonym of 'Profit' is?",
+      "options": [
+        "Earning",
+        "Loss",
+        "Benefit",
+        "Gain"
+      ],
+      "answer": "Loss",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_267",
+      "question": "Fill in: Choose the correct form: Neither of them ___ ready.",
+      "options": [
+        "have",
+        "is",
+        "were",
+        "are"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_268",
+      "question": "Choose the correct synonym of 'Eager'.",
+      "options": [
+        "Keen",
+        "Unwilling",
+        "Indifferent",
+        "Reluctant"
+      ],
+      "answer": "Keen",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_269",
+      "question": "Fill in: He ___ the ball over the fence.",
+      "options": [
+        "through",
+        "thru",
+        "true",
+        "threw"
+      ],
+      "answer": "threw",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_270",
+      "question": "Synonym of 'Oblige' is?",
+      "options": [
+        "Release",
+        "Compel",
+        "Excuse",
+        "Free"
+      ],
+      "answer": "Compel",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_271",
+      "question": "Fill in: She is good ___ mathematics?",
+      "options": [
+        "on",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "at",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_272",
+      "question": "Which is an adjective?",
+      "options": [
+        "Beautiful",
+        "Quickly",
+        "Run",
+        "Happiness"
+      ],
+      "answer": "Beautiful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_273",
+      "question": "Past tense of 'speak' is?",
+      "options": [
+        "spoken",
+        "spoke",
+        "speaked",
+        "speaking"
+      ],
+      "answer": "spoke",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_274",
+      "question": "Antonym of 'Temporary' is?",
+      "options": [
+        "Fleeting",
+        "Short",
+        "Permanent",
+        "Brief"
+      ],
+      "answer": "Permanent",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_275",
+      "question": "What is the past tense of 'drive'?",
+      "options": [
+        "driving",
+        "drived",
+        "drove",
+        "driven"
+      ],
+      "answer": "drove",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_276",
+      "question": "Fill in: He speaks English ___ fluently.",
+      "options": [
+        "more",
+        "much",
+        "very",
+        "many"
+      ],
+      "answer": "very",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_277",
+      "question": "Fill in: Neither of the boys ___ present.",
+      "options": [
+        "is",
+        "have",
+        "were",
+        "are"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_278",
+      "question": "Synonym of 'Timid' is?",
+      "options": [
+        "Brave",
+        "Confident",
+        "Bold",
+        "Shy"
+      ],
+      "answer": "Shy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_279",
+      "question": "Synonym of 'Beautiful' is?",
+      "options": [
+        "Pretty",
+        "Ugly",
+        "Plain",
+        "Rough"
+      ],
+      "answer": "Pretty",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_280",
+      "question": "Fill in: She ___ a letter yesterday.",
+      "options": [
+        "wright",
+        "right",
+        "rote",
+        "wrote"
+      ],
+      "answer": "wrote",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_281",
+      "question": "Synonym of 'Keen' is?",
+      "options": [
+        "Indifferent",
+        "Reluctant",
+        "Eager",
+        "Apathetic"
+      ],
+      "answer": "Eager",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_282",
+      "question": "Choose the correct form: Neither of them ___ ready?",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_283",
+      "question": "Choose the antonym of 'Optimist'.",
+      "options": [
+        "Cheerful",
+        "Pessimist",
+        "Positive",
+        "Hopeful"
+      ],
+      "answer": "Pessimist",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_284",
+      "question": "Synonym of 'Big' is?",
+      "options": [
+        "Large",
+        "Small",
+        "Tiny",
+        "Little"
+      ],
+      "answer": "Large",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_285",
+      "question": "Synonym of 'Brave' is?",
+      "options": [
+        "Cowardly",
+        "Courageous",
+        "Weak",
+        "Timid"
+      ],
+      "answer": "Courageous",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_286",
+      "question": "Choose the antonym of 'Transparent'.",
+      "options": [
+        "Obvious",
+        "Lucid",
+        "Opaque",
+        "Clear"
+      ],
+      "answer": "Opaque",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_287",
+      "question": "Choose the correct synonym of 'Frequent'.",
+      "options": [
+        "Never",
+        "Rare",
+        "Seldom",
+        "Often"
+      ],
+      "answer": "Often",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_288",
+      "question": "Choose the correct plural of 'child'?",
+      "options": [
+        "children",
+        "childs",
+        "childrens",
+        "childes"
+      ],
+      "answer": "children",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_289",
+      "question": "Synonym of 'Genuine' is?",
+      "options": [
+        "Authentic",
+        "Counterfeit",
+        "False",
+        "Fake"
+      ],
+      "answer": "Authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_290",
+      "question": "Choose the correct synonym of 'Eloquent'.",
+      "options": [
+        "Fluent",
+        "Mute",
+        "Inarticulate",
+        "Hesitant"
+      ],
+      "answer": "Fluent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_291",
+      "question": "Choose the correct synonym of 'Ancient'.",
+      "options": [
+        "Modern",
+        "New",
+        "Old",
+        "Fresh"
+      ],
+      "answer": "Old",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_292",
+      "question": "The plural of 'mouse' is?",
+      "options": [
+        "mouse",
+        "mices",
+        "mice",
+        "mouses"
+      ],
+      "answer": "mice",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_293",
+      "question": "Antonym of 'Artificial' is?",
+      "options": [
+        "Fake",
+        "Natural",
+        "Synthetic",
+        "False"
+      ],
+      "answer": "Natural",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_294",
+      "question": "Which is a pronoun?",
+      "options": [
+        "He",
+        "Book",
+        "Run",
+        "Blue"
+      ],
+      "answer": "He",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_295",
+      "question": "Choose the correct plural of 'man'.",
+      "options": [
+        "men",
+        "mens",
+        "manes",
+        "mans"
+      ],
+      "answer": "men",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_296",
+      "question": "Which spelling is correct for the word meaning 'accommodation'?",
+      "options": [
+        "Acommodation",
+        "Accomadation",
+        "Accommodation",
+        "Accomodation"
+      ],
+      "answer": "Accommodation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_297",
+      "question": "Choose the correct synonym of 'Benevolent'.",
+      "options": [
+        "Kind",
+        "Harsh",
+        "Mean",
+        "Cruel"
+      ],
+      "answer": "Kind",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_298",
+      "question": "Which spelling is correct for the word meaning 'necessary'?",
+      "options": [
+        "Necessary",
+        "Necesary",
+        "Neccesary",
+        "Neccessary"
+      ],
+      "answer": "Necessary",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_299",
+      "question": "Which is an adverb?",
+      "options": [
+        "Quickly",
+        "Quick",
+        "Speed",
+        "Runner"
+      ],
+      "answer": "Quickly",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_300",
+      "question": "Choose the synonym of 'Rapid'?",
+      "options": [
+        "Slow",
+        "Swift",
+        "Weak",
+        "Lazy"
+      ],
+      "answer": "Swift",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_301",
+      "question": "Choose the correct synonym of 'Timid'.",
+      "options": [
+        "Shy",
+        "Bold",
+        "Confident",
+        "Brave"
+      ],
+      "answer": "Shy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_302",
+      "question": "Synonym of 'Strong' is?",
+      "options": [
+        "Powerful",
+        "Weak",
+        "Frail",
+        "Soft"
+      ],
+      "answer": "Powerful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_303",
+      "question": "Antonym of 'Scarce' is?",
+      "options": [
+        "Few",
+        "Abundant",
+        "Limited",
+        "Rare"
+      ],
+      "answer": "Abundant",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_304",
+      "question": "Choose the correct synonym of 'Diligent'.",
+      "options": [
+        "Lazy",
+        "Slow",
+        "Hardworking",
+        "Idle"
+      ],
+      "answer": "Hardworking",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_305",
+      "question": "Synonym of 'Loyal' is?",
+      "options": [
+        "Treacherous",
+        "Disloyal",
+        "False",
+        "Faithful"
+      ],
+      "answer": "Faithful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_306",
+      "question": "Fill in: The news ___ shocking.",
+      "options": [
+        "were",
+        "are",
+        "is",
+        "have"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_307",
+      "question": "Choose the antonym of 'Hot'.",
+      "options": [
+        "Boiling",
+        "Mild",
+        "Warm",
+        "Cold"
+      ],
+      "answer": "Cold",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_308",
+      "question": "Fill in: Neither of the boys ___ present?",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_309",
+      "question": "Fill in: She ___ to school every day.",
+      "options": [
+        "goes",
+        "gone",
+        "go",
+        "going"
+      ],
+      "answer": "goes",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_310",
+      "question": "Fill in: I have ___ my homework?",
+      "options": [
+        "doing",
+        "do",
+        "done",
+        "did"
+      ],
+      "answer": "done",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_311",
+      "question": "What is the past tense of 'know'?",
+      "options": [
+        "knowed",
+        "knew",
+        "knowing",
+        "known"
+      ],
+      "answer": "knew",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_312",
+      "question": "Choose the correct synonym of 'Generous'.",
+      "options": [
+        "Kind",
+        "Cruel",
+        "Selfish",
+        "Stingy"
+      ],
+      "answer": "Kind",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_313",
+      "question": "Antonym of 'Expand' is?",
+      "options": [
+        "Grow",
+        "Contract",
+        "Increase",
+        "Extend"
+      ],
+      "answer": "Contract",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_314",
+      "question": "Synonym of 'Abundant' is?",
+      "options": [
+        "Plentiful",
+        "Rare",
+        "Limited",
+        "Scarce"
+      ],
+      "answer": "Plentiful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_315",
+      "question": "Choose the correct synonym of 'Tiny'.",
+      "options": [
+        "Huge",
+        "Wide",
+        "Small",
+        "Large"
+      ],
+      "answer": "Small",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_316",
+      "question": "Which spelling is correct for the word meaning 'independent'?",
+      "options": [
+        "Indipendent",
+        "Independent",
+        "Independante",
+        "Independant"
+      ],
+      "answer": "Independent",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_317",
+      "question": "Past participle of 'write' is?",
+      "options": [
+        "writing",
+        "wrote",
+        "written",
+        "writed"
+      ],
+      "answer": "written",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_318",
+      "question": "Fill in: I can ___ the bell.",
+      "options": [
+        "hear",
+        "hare",
+        "here",
+        "hair"
+      ],
+      "answer": "hear",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_319",
+      "question": "Synonym of 'Ancient' is?",
+      "options": [
+        "Modern",
+        "Old",
+        "New",
+        "Fresh"
+      ],
+      "answer": "Old",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_320",
+      "question": "Synonym of 'Candid' is?",
+      "options": [
+        "Deceptive",
+        "Secretive",
+        "Vague",
+        "Honest"
+      ],
+      "answer": "Honest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_321",
+      "question": "Choose the correct synonym of 'Quaint'.",
+      "options": [
+        "Old-fashioned",
+        "Contemporary",
+        "New",
+        "Modern"
+      ],
+      "answer": "Old-fashioned",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_322",
+      "question": "Choose the correct homophone: I can ___ the bell?",
+      "options": [
+        "here",
+        "hair",
+        "hare",
+        "hear"
+      ],
+      "answer": "hear",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_323",
+      "question": "Choose the correct synonym of 'Strong'.",
+      "options": [
+        "Frail",
+        "Powerful",
+        "Soft",
+        "Weak"
+      ],
+      "answer": "Powerful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_324",
+      "question": "Choose the correct synonym of 'Genuine'.",
+      "options": [
+        "Counterfeit",
+        "False",
+        "Fake",
+        "Authentic"
+      ],
+      "answer": "Authentic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_325",
+      "question": "The antonym of 'Victory' is?",
+      "options": [
+        "Win",
+        "Defeat",
+        "Success",
+        "Triumph"
+      ],
+      "answer": "Defeat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_326",
+      "question": "Choose the antonym of 'Artificial'.",
+      "options": [
+        "False",
+        "Natural",
+        "Synthetic",
+        "Fake"
+      ],
+      "answer": "Natural",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_327",
+      "question": "Choose the correct synonym of 'Vital'.",
+      "options": [
+        "Minor",
+        "Optional",
+        "Essential",
+        "Trivial"
+      ],
+      "answer": "Essential",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_328",
+      "question": "The antonym of 'Early' is?",
+      "options": [
+        "Soon",
+        "Quick",
+        "Late",
+        "Fast"
+      ],
+      "answer": "Late",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_329",
+      "question": "Fill in: The news ___ shocking?",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_330",
+      "question": "Past tense of 'take' is?",
+      "options": [
+        "taking",
+        "taken",
+        "took",
+        "taked"
+      ],
+      "answer": "took",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_331",
+      "question": "Fill in: Please be ___ to animals.",
+      "options": [
+        "caned",
+        "mined",
+        "kinned",
+        "kind"
+      ],
+      "answer": "kind",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eng_332",
+      "question": "Synonym of 'Ample' is?",
+      "options": [
+        "Limited",
+        "Plentiful",
+        "Scarce",
+        "Meagre"
+      ],
+      "answer": "Plentiful",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_333",
+      "question": "Which sentence uses the correct article?",
+      "options": [
+        "The honest man",
+        "An honest man",
+        "A honest man",
+        "Honest a man"
+      ],
+      "answer": "An honest man",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_334",
+      "question": "Choose the correct plural of 'person'.",
+      "options": [
+        "persones",
+        "people",
+        "peoples",
+        "persons"
+      ],
+      "answer": "people",
+      "difficulty": "medium"
     }
   ]
 }
