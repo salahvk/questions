@@ -1,5 +1,5 @@
 ---
-description: Malayalam quiz question standards — language, uniqueness, grammar, quality
+description: Malayalam quiz question standards — language, uniqueness, bulk generation, quality
 globs: "*.json"
 alwaysApply: false
 ---
@@ -9,6 +9,8 @@ alwaysApply: false
 Applies to every `*.json` question bank in this repo **except**:
 - `english_language.json` — English only (synonyms, grammar, vocabulary)
 - `current_affairs_manifest.json` — metadata, not questions
+
+When **bulk-generating or expanding** questions for any category, follow **§5 Bulk question generation** and the **category file registry** — not only astronomy.
 
 ## JSON shape
 
@@ -188,19 +190,172 @@ Bulk-generated economics/banking questions often reuse English-to-Malayalam **de
 
 **Smell test before merge**: if ≥3 options in a file share the same `… നടത്തുന്ന സേവനം` ending, or the correct answer is the only option containing `സൂചിപ്പിക്കുന്ന പ്രവർത്തി`, discard the batch and rewrite from facts (Malayalam Wikipedia / RBI / Sarvavijnanakosam).
 
+### Astronomy bulk-template anti-patterns (`astronomy.json`)
+
+Never bulk-generate astronomy questions by looping a number suffix and reusing the same answer. These are **not unique** even when question text differs.
+
+**Banned question stems / object names**:
+
+- `ആകാശ വസ്തു '…' ഏത് തരത്തിൽ പെടുന്നു?` + `ആകാശ വസ്തു '…' ഏത് നക്ഷത്രസമൂഹം/പ്രദേശത്താണ്?` when the quoted name is a fabricated suffix (`ക്ഷുദ്രഗ്രഹം ജൂൺ-32`, `ഗാലക്സി NGC-1001`, `എക്സ്പ്ലോറർ-184`, `വസ്തുത-42`, `പ്രദേശം-9`, …)
+- Fake numbered missions/objects: `എക്സ്പ്ലോറർ-N`, `പയനിയർ-N`, `മാരിനർ-N`, `ഇൻസാറ്റ്-N`, `IRS-N`, `GSAT-N` used only as interchangeable filler (real `ചന്ദ്രയാൻ-3`, `GSAT-14` with distinct facts are fine)
+- `ജ്യോതിശാസ്ത്ര ചരിത്രത്തിൽ '…' സംബന്ധിച്ച പ്രധാന വർഷം` with recycled year pools
+
+**Banned answer patterns**:
+
+- Hundreds of questions all answering `ക്ഷുദ്രഗ്രഹം` + `ആസ്റ്ററോയിഡ് ബെൽറ്റ്` with only the number in the stem changed
+- Same correct option for ≥10 questions that share an identical stem template differing only by a number or serial suffix
+
+**How to add astronomy questions correctly**:
+
+1. Each question must test **different knowledge** — a fact, measurement, discovery, mission, person, or named real object (Messier, named asteroid, ISRO mission, bright star).
+2. Use `refill_astronomy_unique.py` to rebuild `astronomy.json`; it rejects filler via `FILLER_PATTERNS` and fails if count &lt; 4000 instead of padding with templates.
+3. Real NGC references are OK when tied to a **named** object (`'ഓറിയോൺ നെബുല'-ന്റെ NGC കാറ്റലോഗ് നമ്പർ ഏതാണ്?` → `NGC 1976`), not `'ഗാലക്സി NGC-1001' ഏത് തരത്തിൽ പെടുന്നു?`.
+4. After bulk edits, run `python3 refill_astronomy_unique.py` or grep for `ആകാശ വസ്തു '` + `ജൂൺ-` / `NGC-\d+` filler stems; count must be **0**.
+
+```text
+❌ ആകാശ വസ്തു 'ക്ഷുദ്രഗ്രഹം ജൂൺ-32' ഏത് തരത്തിൽ പെടുന്നു? → ക്ഷുദ്രഗ്രഹം
+❌ ആകാശ വസ്തു 'ക്ഷുദ്രഗ്രഹം ജൂൺ-32' ഏത് നക്ഷത്രസമൂഹം/പ്രദേശത്താണ്? → ആസ്റ്ററോയിഡ് ബെൽറ്റ്
+   (same answers for ജൂൺ-6 … ജൂൺ-50 — not unique)
+
+✅ ക്ഷുദ്രഗ്രഹം 'സെറസ്' കണ്ടെത്തിയ വർഷം ഏത്? → 1801
+✅ മെസ്സിയർ കാറ്റലോഗ് M42 ഏത് നക്ഷത്രസമൂഹത്തിലാണ്? → ഓറിയോൺ
+✅ ദൗത്യം 'ചന്ദ്രയാൻ-3' വിക്ഷേപിച്ച വർഷം ഏത്? → 2023
+```
+
+**Smell test**: if a batch shares one stem template and ≥5 rows share the same `answer`, reject the entire batch and rewrite from verified facts (Malayalam Wikipedia / ISRO / NASA).
+
+**Smell test**: if a batch shares one stem template and ≥5 rows share the same `answer`, reject the entire batch and rewrite from verified facts (Malayalam Wikipedia / ISRO / NASA).
+
+### Geography bulk-template anti-patterns (`geography.json`)
+
+Same failure mode as astronomy: numbered placeholders instead of real places.
+
+**Banned**:
+
+- Fake place names: `പ്രദേശം-1`, `പ്രദേശം-2`, … used as answers or options
+- `'{PLACE}' ഏത് ജില്ലയിലാണ്?` when `PLACE` is a generated serial, not a real river/mountain/city
+- Stems that differ only by a number but share one recycled answer (e.g. always the same district or latitude band)
+
+**Use instead**: real rivers, dams, peaks, districts, countries, capitals, climate zones — each with a verified distinct answer. Cross-check [Malayalam Wikipedia](https://ml.wikipedia.org) geography entries.
+
 ## 4. Uniqueness and quality
 
 Before adding or editing:
 
 1. **Globally unique** — same `question` text must not appear in any other `*.json` file.
-2. **Factually correct** — one unambiguous correct answer; distractors plausible but wrong.
-3. **Non-trivial** — no duplicate concepts rephrased slightly; each question tests distinct knowledge.
-4. **Balanced options** — similar length and format; avoid obvious wrong answers.
-5. **ID discipline** — follow file prefix (`pok_`, `sca_`, `ca_2026_06_`, etc.); increment without gaps.
+2. **Conceptually unique** — not just different wording: each question must test **different knowledge**. If ≥5 questions share the same stem template (only a number/name suffix changes) **and** the same `answer`, treat the whole batch as invalid filler.
+3. **Factually correct** — one unambiguous correct answer; distractors plausible but wrong.
+4. **Non-trivial** — no duplicate concepts rephrased slightly.
+5. **Balanced options** — similar length and format; avoid obvious wrong answers.
+6. **ID discipline** — follow file prefix (see registry below); increment without gaps.
 
-When bulk-editing, run `fill_unique.py` / `malayalamize_questions.py` patterns: malayalamize first, then verify no English leakage beyond allowed terms.
+When bulk-editing, run `python3 apply_malayalam_rules.py <file>.json` and fix validation hits before committing.
 
-## 5. Research and verification — use the internet
+## 5. Bulk question generation — all categories
+
+Use this workflow whenever expanding or creating questions for **any** category file (not only astronomy).
+
+### Step-by-step workflow
+
+1. **Read the target file** and, if available, `git show HEAD:<file>.json` — preserve existing high-quality questions; do not overwrite good items with templates.
+2. **Check global uniqueness** — load stems from all other `*.json` files; never duplicate a `question` string repo-wide.
+3. **Research real facts first** — Malayalam Wikipedia / Sarvavijnanakosam / official sources (see §6). Build a fact list: persons, dates, places, measurements, schemes, works — each row must have a **distinct** correct answer.
+4. **Write questions from facts** — one or two question angles per fact is fine (e.g. year ↔ event); do **not** loop `for n in range(500)` with fake numbered names to hit a count target.
+5. **Reject filler at write time** — apply universal banned patterns (below) in code (`is_filler()` / `add_q()` guards) or manually before save.
+6. **Malayalamize** — full Malayalam stems and options; run `python3 apply_malayalam_rules.py <file>.json`.
+7. **Validate** — grep for filler patterns; check duplicate stems; spot-read 20 random questions for natural Malayalam and factual sense.
+8. **Fail loudly** — if the target count is not reached with real facts, **stop and add more fact data**; never pad with numbered templates (astronomy: `refill_astronomy_unique.py` exits with error instead of padding).
+
+### Universal banned filler patterns (all Malayalam `*.json`)
+
+Reject any question matching these — they indicate bulk template padding, not PSC-quality items:
+
+| Pattern | Example | Why banned |
+|---------|---------|------------|
+| Numbered fake entity | `പ്രദേശം-42`, `വസ്തുത-17`, `വസ്തു-9` | Not a real place/fact |
+| Serial suffix + same answer | `… ജൂൺ-6` … `ജൂൺ-50` → always `ക്ഷുദ്രഗ്രഹം` | Same knowledge repeated |
+| Fake catalog numbers | `ഗാലക്സി NGC-1001`, `എക്സ്പ്ലോറർ-184` (no real mission fact) | Interchangeable filler |
+| Definition wrapper | `സാമ്പത്തികമായി X … സൂചിപ്പിക്കുന്ന പ്രവർത്തി` | Dictionary gloss, not exam item |
+| Recycled distractor tail | `… നടത്തുന്ന സേവനം` on unrelated options | Obvious bulk generation |
+| English-only / mixed stem | `RSP in Kerala allied mainly with?` | Violates §1–2 |
+| Same template ≥5× same answer | Any stem with only `N` changed | Not conceptually unique |
+
+Real numbered items with **distinct facts** are fine: `ചന്ദ്രയാൻ-3 വിക്ഷേപിച്ച വർഷം`, `GSAT-14`, `അപ്പോളോ 11`, `PSLV-C25` — each must have its own verifiable answer.
+
+### Category file registry
+
+| File | ID prefix | Notes |
+|------|-----------|--------|
+| `astronomy.json` | `ast_` | Use `refill_astronomy_unique.py`; 4000 target; `FILLER_PATTERNS` in script |
+| `geography.json` | `geo_` | Real places only; no `പ്രദേശം-N` |
+| `economics.json` | `eco_` | No definition-template stems; see §3 bulk filler |
+| `mathematics.json` | `mat_` | Each problem must have distinct numeric/logic answer |
+| `physics.json` | `phy_` | Real laws, units, scientists — no serial `വസ്തു-N` |
+| `chemistry.json` | `che_` | Real elements, reactions, discoverers |
+| `biology.json` | `bio_` | Real species, organs, processes |
+| `world_history.json` | `wh_` | Agent/patient/verb rules; real dates |
+| `indian_history.json` | `ih_` | `fill_unique.py` → `build_indian_history()` |
+| `modern_india.json` | `mi_` | `fill_unique.py` → `build_modern_india()` |
+| `history_of_kerala.json` | `hok_` | Kerala-specific facts from ml.wikipedia |
+| `kerala_renaissance.json` | `kr_` | Persons, works, years — verify spellings |
+| `kerala_through_districts.json` | `ktd_` | One fact per district/feature |
+| `historical_monuments_of_kerala.json` | `hmk_` | Real monument ↔ location |
+| `politics_of_kerala.json` | `pok_` | Full Malayalam; no English option leaks |
+| `literature.json` | `lit_` | Book titles in source language (§1) |
+| `malayalam.json` | `mal_` | Grammar / literature Malayalam |
+| `sports.json` | `sca_` | Allowed acronyms: ODI, T20, FIFA, etc. |
+| `national_schemes.json` | `ns_` | Official scheme names + years |
+| `social_welfare_schemes.json` | `sws_` | Same as schemes |
+| `constitution_of_india.json` | `coi_` | Articles, amendments — exact numbers |
+| `current_affairs_YYYY_MM.json` | `ca_YYYY_MM_` | Month-specific; verify from news |
+| `english_language.json` | — | **English only** — exempt from Malayalam rules |
+| Other `*_*.json` | see file | Match existing `id` prefix in file |
+
+For underfilled files with hand-curated candidates, extend `fill_unique.py` (`build_*()` functions + `TARGETS`) — **never** append loop-generated placeholder rows to hit `target_total`.
+
+### Scripts reference
+
+| Script | Use when |
+|--------|----------|
+| `refill_astronomy_unique.py` | Rebuild `astronomy.json` without template filler |
+| `fill_unique.py` | Add curated unique questions to specific smaller banks |
+| `regenerate_questions.py` | Restore from git HEAD + fill with `fill_unique` candidates |
+| `apply_malayalam_rules.py` | Fix Manglish / English leaks after bulk edits |
+| `fix_economics_questions.py` | Remove economics definition-template corruption |
+
+### Per-category quality bar (minimum)
+
+- **Sciences** (physics, chemistry, biology, natural_science): one law / formula / organism / process per question; numeric answers must differ across the batch.
+- **Mathematics**: distinct problem statements and answers; no copy-paste with changed coefficients unless each is a deliberate standalone problem.
+- **Geography / continents**: real named locations; map facts to ml.wikipedia district/state/country names.
+- **History** (world, Indian, Kerala): correct agent, patient, verb (§3); no vague `യുദ്ധം` when a named battle exists.
+- **Economics / banking**: PSC-style “which scheme / which institution / which year” — not nested `സൂചിപ്പിക്കുന്നു` definitions.
+- **Kerala politics / districts / renaissance**: Malayalam names for people and places; no English-only distractors.
+- **Literature / cinema / arts**: titles in source language; authors/directors verified.
+- **Current affairs**: dated file (`current_affairs_2026_06.json`); facts from that month only; update manifest if adding months.
+
+### Post-generation validation (run before merge)
+
+```bash
+# Malayalam quality
+python3 apply_malayalam_rules.py <file>.json
+
+# Filler smell tests (adjust pattern per category)
+rg "പ്രദേശം-\d+|വസ്തുത-\d+|ക്ഷുദ്രഗ്രഹം [^\s']+-\d+|ഗാലക്സി NGC-\d+" <file>.json
+rg "സൂചിപ്പിക്കുന്ന പ്രവർത്തി|നടത്തുന്ന സേവനം" <file>.json
+
+# Duplicate stems within file
+python3 -c "
+import json; from collections import Counter
+qs=[q['question'] for q in json.load(open('<file>.json'))['questions']]
+d=[s for s,c in Counter(qs).items() if c>1]
+print('dupes', len(d))
+"
+```
+
+If filler grep returns hits or duplicate stems > 0, fix before considering the category complete.
+
+## 6. Research and verification — use the internet
 
 **Always verify facts and Malayalam wording online** before adding or editing questions. Prefer Malayalam sources so spelling, terms, and phrasing match exam usage.
 
@@ -239,8 +394,11 @@ When bulk-editing, run `fill_unique.py` / `malayalamize_questions.py` patterns: 
 - [ ] Book/literary titles in their source language (English books in English, Malayalam in Malayalam)
 - [ ] No Manglish or English sentence fragments
 - [ ] No English-only questions; no mixed-language stems or options (`ഒന്നുമില്ല` + `BJP only`, etc.)
-- [ ] Question unique across repo
-- [ ] Four options, one correct answer, difficulty set
+- [ ] Question unique across repo; **conceptually** unique (not same template + same answer repeated)
+- [ ] No universal filler: `പ്രദേശം-N`, `വസ്തുത-N`, numbered fake entities, definition wrappers
+- [ ] Category-specific rules applied (astronomy / geography / economics sections above)
+- [ ] Four options, one correct answer, difficulty set; correct ID prefix for file
+- [ ] `python3 apply_malayalam_rules.py <file>.json` run after bulk edits
 - [ ] Reads naturally to a Malayalam speaker preparing for Kerala PSC–style exams
 - [ ] Historical questions: correct agent/patient, event-appropriate verb, proper noun from Malayalam Wikipedia (not generic calque)
-- [ ] No definition-template wrappers (`സാമ്പത്തികമായി … സൂചിപ്പിക്കുന്ന പ്രവർത്തി`) or bulk filler distractors (`കൃഷി ഉൽപ്പാദനം നിയന്ത്രിക്കുന്ന സേവനം`, etc.)
+- [ ] Target count reached with real facts only — **never** padded with numbered templates
