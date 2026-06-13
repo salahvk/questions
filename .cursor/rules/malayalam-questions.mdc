@@ -94,6 +94,41 @@ Acronyms in options are fine when the question tests recognition (e.g. GST Counc
 - Numbers: digits OK for years/counts (2022, 140); spell out in options when testing knowledge (`അഞ്ച്` vs `5` — be consistent within one question).
 - Names: standard Malayalam spellings (കേരളം, തിരുവനന്തപുരം, ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്).
 
+### Historical events — agent, patient, and verb
+
+Bulk-generated or English-calqued questions often attach the **wrong subject** or **wrong verb** to an event. Before saving, identify:
+
+| Role | Ask | Example (Pompeii / Vesuvius) |
+|------|-----|------------------------------|
+| **Agent** (cause) | What acted? | വെസൂവിയസ് അഗ്നിപർവതം |
+| **Patient** (affected) | What changed? | പോംപെയ് നഗരം |
+| **Verb** | What actually happened? | പൊട്ടിത്തെറിച്ച് … നശിച്ചു |
+
+**Rules:**
+
+1. **Patient gets the outcome** — destruction, fall, independence, annexation attach to the entity that changed, not the cause.
+2. **Proper noun over generic label** — use Malayalam Wikipedia names (`വെസൂവിയസ് അഗ്നിപർവതം`), not vague words (`വുൽക്കാനോ`, `യുദ്ധം`, `വിപ്ലവം`) when a standard name exists.
+3. **Verb must match the event type** — eruption → `പൊട്ടിത്തെറിച്ച്` / `സ്ഫോടനം`; earthquake → `ഉലച്ചു`; treaty → `ഒപ്പിട്ടു` / `ഉടമ്പടി`; battle → `നടന്നു` / `പരാജയപ്പെട്ടു`. Do not reuse `തകർന്നു` for every disaster.
+4. **Read-aloud test** — if a Malayalam PSC aspirant would stumble or misread who did what, rewrite.
+
+```text
+❌ പോംപെയ് നഗരം വുൽക്കാനോ തകർന്ന വർഷം ഏത്?
+   — volcano is subject but city was destroyed; generic വുൽക്കാനോ; തകർന്ന് wrong for eruption
+
+✅ വെസൂവിയസ് അഗ്നിപർവതം പൊട്ടിത്തെറിച്ച് പോംപെയ് നഗരം നശിച്ച വർഷം ഏത്?
+   — agent + correct verb + patient + outcome; names from ml.wikipedia
+```
+
+More patterns:
+
+```text
+❌ ബെർലിൻ മതിൽ വീണ വർഷം ഏത്?  → wall fell on its own (ambiguous)
+✅ ബെർലിൻ മതിൽ ഇടിച്ചുമറിച്ച വർഷം ഏത്?
+
+❌ ഹിരോഷിമയിൽ ആണ്ബോം വർഷിച്ച വുൽക്കാനോ …
+✅ ഹിരോഷിമയിൽ ആണ്ബോം വർഷിച്ച വർഷം ഏത്?
+```
+
 ## 4. Uniqueness and quality
 
 Before adding or editing:
@@ -106,11 +141,45 @@ Before adding or editing:
 
 When bulk-editing, run `fill_unique.py` / `malayalamize_questions.py` patterns: malayalamize first, then verify no English leakage beyond allowed terms.
 
+## 5. Research and verification — use the internet
+
+**Always verify facts and Malayalam wording online** before adding or editing questions. Prefer Malayalam sources so spelling, terms, and phrasing match exam usage.
+
+### Primary sources (use first)
+
+| Source | Use for |
+|--------|---------|
+| [Malayalam Wikipedia](https://ml.wikipedia.org) | Facts, dates, names, places, Malayalam terminology |
+| [സർവ്വവിജ്ഞാനകോശം / Sarvavijnanakosam](https://www.sarvavijnanakosam.in) | Authoritative Malayalam encyclopedia entries, Kerala & India topics |
+| Other Malayalam references | Government portals (`.gov.in`, Kerala `.kerala.gov.in`), Kerala PSC syllabi, reputed Malayalam news sites |
+
+### Secondary sources (when Malayalam entry is missing or thin)
+
+- [English Wikipedia](https://en.wikipedia.org) — cross-check facts only; **rewrite** the question in Malayalam using terms from Malayalam Wikipedia where they exist.
+- Official org sites (ISRO, RBI, FIFA, etc.) for current data and scheme names.
+
+### How to apply
+
+1. Search the topic on **Malayalam Wikipedia** first; note standard Malayalam names and phrasing.
+2. Cross-check dates, numbers, and spellings with a second source when possible.
+3. Do **not** copy sentences verbatim — paraphrase into clear PSC-style Malayalam.
+4. For book/author questions, confirm title language and spelling from Malayalam or original-language references.
+5. For current affairs, prefer recent Malayalam news + official announcements over outdated entries.
+
+```text
+✅ ml.wikipedia.org → confirm person/place names and Malayalam terms before writing options
+✅ Sarvavijnanakosam → confirm Kerala renaissance figure / work details
+❌ Paste English Wikipedia sentence and translate word-for-word
+❌ Guess dates or names without checking any source
+```
+
 ## Quick review checklist
 
+- [ ] Facts verified via Malayalam Wikipedia / Sarvavijnanakosam (or other reliable sources)
 - [ ] Malayalam script throughout (except allowed terms and source-language book titles)
 - [ ] Book/literary titles in their source language (English books in English, Malayalam in Malayalam)
 - [ ] No Manglish or English sentence fragments
 - [ ] Question unique across repo
 - [ ] Four options, one correct answer, difficulty set
 - [ ] Reads naturally to a Malayalam speaker preparing for Kerala PSC–style exams
+- [ ] Historical questions: correct agent/patient, event-appropriate verb, proper noun from Malayalam Wikipedia (not generic calque)
