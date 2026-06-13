@@ -86,6 +86,26 @@ Acronyms in options are fine when the question tests recognition (e.g. GST Counc
 - Translate the **sentence**; keep only the irreducible term (FIFA, ODI, etc.).
 - Prefer established Malayalam terms: ലോകകപ്പ്, ആതിഥ്യം, വിജയി, നിയമസഭ, മുഖ്യമന്ത്രി.
 
+### No partial conversion (English + Malayalam mix)
+
+Bulk-added English questions that only get **part** of the text translated are invalid. Never save:
+
+| Anti-pattern | Example | Fix |
+|--------------|---------|-----|
+| English-only question stem | `RSP in Kerala allied mainly with?` | Full Malayalam stem: `കേരളത്തിലെ ആർ.എസ്.പി. പ്രധാനമായും ഏതൊരു മുന്നണിയുമായി സഖ്യം ചെയ്തിട്ടുണ്ട്?` |
+| Malayalam + English glued stem | `BDJS party in Kerala ബന്ധപ്പെട്ടത്?` | Translate the whole sentence; acronyms only where allowed |
+| Corrupted partial replace | `Kerala Congress നടത്തer?` | Rewrite from facts — never leave Latin fragments in Malayalam |
+| Mixed-language options | `ഒന്നുമില്ല` beside `BJP always`, `LDF historically often` | **All four** options in the same language mode |
+| English filler distractors | `Only cinema`, `Kasaragod only`, `Congress only` | `സിനിമ മാത്രം`, `കാസർഗോഡ് മാത്രം`, `കോൺഗ്രസ് മാത്രം` |
+
+**Rules:**
+
+1. **Question stem** — always full Malayalam (except allowed acronyms like UDF, LDF, NDA, BJP, CPI, CPM in stems that test them).
+2. **All four options + answer** — Malayalam script throughout; transliterate Kerala person/place names (വി.ഡി. സതീശൻ, കിഴക്കാമ്പലം).
+3. **Never** mix `ഒന്നുമില്ല` or other Malayalam options with English descriptive options in the same question.
+4. After bulk edits, run `python apply_malayalam_rules.py <file>.json` and fix any `english_only_question`, `mixed_language_stem`, `english_option_leak`, or `mixed_language_options` validation hits.
+5. `malayalam_translations.py` maps exact English strings only — new English stems must be written in Malayalam at source, not left for the script to catch later.
+
 ## 3. Grammar and phrasing
 
 - Use natural exam Malayalam: `ഏത്?`, `എവിടെ?`, `ആരാണ്?`, `എന്താണ്?`, `എത്ര?`
@@ -128,6 +148,45 @@ More patterns:
 ❌ ഹിരോഷിമയിൽ ആണ്ബോം വർഷിച്ച വുൽക്കാനോ …
 ✅ ഹിരോഷിമയിൽ ആണ്ബോം വർഷിച്ച വർഷം ഏത്?
 ```
+
+### Bulk filler and definition-template anti-patterns
+
+Bulk-generated economics/banking questions often reuse English-to-Malayalam **definition wrappers** and **recycled distractors**. These read like dictionary glosses, not Kerala PSC exam items. Reject and rewrite on sight.
+
+**Banned question stems** (never save as-is):
+
+- `'TERM' ബാങ്കിംഗ് സേവനങ്ങളിൽ പ്രധാനമായി എന്തിനാണ്?`
+- `ബാങ്കിംഗ് സേവനങ്ങളിൽ 'TERM'-യുടെ പ്രധാന പ്രയോജനം എന്താണ്?`
+- `'TERM' സാമ്പത്തിക ശാസ്ത്രത്തിൽ പ്രധാനമായി എന്തിനെ സൂചിപ്പിക്കുന്നു?`
+
+**Banned answer/options phrasing**:
+
+- `സാമ്പത്തികമായി X എന്നതിനെ സൂചിപ്പിക്കുന്ന പ്രവർത്തി` — literal calque of “economically refers to X”; drop `സാമ്പത്തികമായി` and the wrapper; state the fact directly.
+- `X എന്നതിനെ സൂചിപ്പിക്കുന്ന പ്രവർത്തി` — same problem without the adverb.
+- `… നടത്തുന്ന സേവനം` glued to unrelated macro topics as filler distractors (e.g. `കൃഷി ഉൽപ്പാദനം നിയന്ത്രിക്കുന്ന സേവനം`, `ഓഹരി വിപണിയിൽ കൃത്രിമ വിലക്കയറ്റം നടത്തുന്ന സേവനം`).
+
+**How to rewrite**:
+
+1. Ask what a PSC aspirant should **know** — purpose, user, channel, or process — not “what does this term mean in economics”.
+2. Use natural stems: `ഏത് സൗകര്യം…?`, `എന്തിനാണ്…?`, `ഏത് പ്രക്രിയ…?`, `ഏത് രീതി…?`
+3. Distractors must be **plausible banking/economics alternatives** (other channels, account actions, instruments) — not random government/industry functions.
+4. If a term is plain English banking vocabulary (Staff, Locker, Internet), either keep the established English term in quotes with a Malayalam question, or use the normal Malayalam equivalent (`ബാങ്ക് ജീവനക്കാർ`, `ലോക്കർ`) — do not define it in a nested relative clause.
+
+```text
+❌ 'ഫോൺ ബാങ്കിംഗ്'-യുടെ പ്രധാന സാമ്പത്തിക സവിശേഷത ഏതാണ്?
+   → options include സാമ്പത്തികമായി ഫോൺ വഴിയുള്ള ബാങ്കിംഗ് എന്നതിനെ സൂചിപ്പിക്കുന്ന പ്രവർത്തി
+
+✅ ബാങ്ക് ശാഖയിലേക്ക് പോകാതെ ടെലിഫോണിലൂടെ അക്കൗണ്ട് വിവരങ്ങൾ അറിയാനുള്ള സൗകര്യം ഏത്?
+   → ഫോൺ ബാങ്കിംഗ് (with SMS ബാങ്കിംഗ്, പാസ്‌ബുക്ക് മാത്രം, … as distractors)
+
+❌ 'സ്റ്റാഫ്' ബാങ്കിംഗ് സേവനങ്ങളിൽ പ്രധാനമായി എന്തിനാണ്?
+   → answer: സാമ്പത്തികമായി ബാങ്കിലെ ജീവനക്കാർ എന്നതിനെ സൂചിപ്പിക്കുന്ന പ്രവർത്തി
+
+✅ ബാങ്ക് ശാഖകളിൽ ഉപഭോക്തൃ ഇടപാടുകൾ നേരിട്ട് നടത്തുന്ന ജീവനക്കാരെ സാധാരണയായി എന്ത് വിളിക്കുന്നു?
+   → സ്റ്റാഫ്
+```
+
+**Smell test before merge**: if ≥3 options in a file share the same `… നടത്തുന്ന സേവനം` ending, or the correct answer is the only option containing `സൂചിപ്പിക്കുന്ന പ്രവർത്തി`, discard the batch and rewrite from facts (Malayalam Wikipedia / RBI / Sarvavijnanakosam).
 
 ## 4. Uniqueness and quality
 
@@ -179,7 +238,9 @@ When bulk-editing, run `fill_unique.py` / `malayalamize_questions.py` patterns: 
 - [ ] Malayalam script throughout (except allowed terms and source-language book titles)
 - [ ] Book/literary titles in their source language (English books in English, Malayalam in Malayalam)
 - [ ] No Manglish or English sentence fragments
+- [ ] No English-only questions; no mixed-language stems or options (`ഒന്നുമില്ല` + `BJP only`, etc.)
 - [ ] Question unique across repo
 - [ ] Four options, one correct answer, difficulty set
 - [ ] Reads naturally to a Malayalam speaker preparing for Kerala PSC–style exams
 - [ ] Historical questions: correct agent/patient, event-appropriate verb, proper noun from Malayalam Wikipedia (not generic calque)
+- [ ] No definition-template wrappers (`സാമ്പത്തികമായി … സൂചിപ്പിക്കുന്ന പ്രവർത്തി`) or bulk filler distractors (`കൃഷി ഉൽപ്പാദനം നിയന്ത്രിക്കുന്ന സേവനം`, etc.)

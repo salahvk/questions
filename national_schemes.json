@@ -2,7 +2,7 @@
   "questions": [
     {
       "id": "ns_001",
-      "question": "ഗ്രാമീണ ഇന്ത്യയിലെ തൊഴിൽ ഉറപ്പ് പദ്ധതിയായ മഹാത്മാ ഗാന്ധി നാഷണൽ റൂറൽ എംപ്ലോയ്മെന്റ് ഗ്യാരണ്ടി ആക്ട് (MGNREGA) ഏത് വർഷം ആരംഭിച്ചു?",
+      "question": "ഗ്രാമീണ ഇന്ത്യയിലെ തൊഴിൽ ഉറപ്പ് പദ്ധതിയായ മഹാത്മാ ഗാന്ധി നാഷണൽ റൂറൽ എംപ്ലോയ്മെന്റ് ഗ്യാരണ്ടി ആക്ട് ഏത് വർഷം ആരംഭിച്ചു?",
       "options": [
         "2005",
         "2000",
@@ -410,7 +410,7 @@
     },
     {
       "id": "ns_035",
-      "question": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) ലക്ഷ്യം എന്ത്?",
+      "question": "Pradhan Mantri Kaushal Vikas Yojana ലക്ഷ്യം എന്ത്?",
       "options": [
         "വീട് പുനർനിർമ്മാണം",
         "ഭക്ഷ്യസബ്സിഡി",
@@ -506,7 +506,7 @@
     },
     {
       "id": "ns_043",
-      "question": "PM FME (Formalisation of Micro Food Processing) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "question": "PM FME പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
       "options": [
         "2019",
         "2020",
@@ -554,7 +554,7 @@
     },
     {
       "id": "ns_047",
-      "question": "Har Ghar Jal (Jal Jeevan Mission) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "question": "Har Ghar Jal പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
       "options": [
         "2020",
         "2018",
@@ -638,7 +638,7 @@
     },
     {
       "id": "ns_054",
-      "question": "HRIDAY scheme (heritage cities) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "question": "HRIDAY scheme പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
       "options": [
         "2016",
         "2015",
@@ -662,7 +662,7 @@
     },
     {
       "id": "ns_056",
-      "question": "SAUBHAGYA (electricity for all) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "question": "SAUBHAGYA പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
       "options": [
         "2017",
         "2015",
@@ -686,7 +686,7 @@
     },
     {
       "id": "ns_058",
-      "question": "PM-KUSUM (solar for farmers) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "question": "PM-KUSUM പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
       "options": [
         "2018",
         "2019",

@@ -184,7 +184,7 @@
       "question": "ഗുസ്താവ് ഫ്ലോബെർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
       "options": [
         "Alice in Wonderland",
-        "Iliad and Odyssey",
+        "ഇലിയഡും ഒഡിസിയും",
         "Madame Bovary",
         "Harry Potter"
       ],
@@ -448,7 +448,7 @@
       "question": "എഫ്. സ്കോട്ട് ഫിറ്റ്സ്ജെറാൾഡ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
       "options": [
         "The Great Gatsby",
-        "Godan",
+        "ഗോദാൻ",
         "The Old Man and the Sea",
         "Iliad"
       ],
@@ -473,7 +473,7 @@
       "options": [
         "War and Peace",
         "Brave New World",
-        "Hamlet",
+        "ഹാംലെറ്റ്",
         "To Kill a Mockingbird"
       ],
       "answer": "To Kill a Mockingbird",
@@ -545,10 +545,10 @@
       "options": [
         "ഓടക്കുഴൽ",
         "Ulysses",
-        "Gitanjali",
+        "ഗീതാഞ്ജലി",
         "Harry Potter"
       ],
-      "answer": "Gitanjali",
+      "answer": "ഗീതാഞ്ജലി",
       "difficulty": "medium",
       "id": "lit_046"
     },
@@ -567,12 +567,12 @@
     {
       "question": "മുൻഷി പ്രേംചന്ദ് രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
       "options": [
-        "Godan",
+        "ഗോദാൻ",
         "Crime and Punishment",
         "Mrichchakatika",
         "Harry Potter"
       ],
-      "answer": "Godan",
+      "answer": "ഗോദാൻ",
       "difficulty": "medium",
       "id": "lit_048"
     },
@@ -757,122 +757,38 @@
       "id": "lit_063"
     },
     {
-      "question": "ഹോമർ രചിച്ച പ്രസിദ്ധ കൃതി ഏത്?",
-      "options": [
-        "Iliad and Odyssey",
-        "Divine Comedy",
-        "Hamlet",
-        "Faust"
-      ],
-      "answer": "Iliad and Odyssey",
-      "difficulty": "easy",
-      "id": "lit_064"
-    },
-    {
-      "question": "'Divine Comedy' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഡാന്റെ",
-        "ഹോമർ",
-        "വില്ലിയം ഷേക്സ്പിയർ",
-        "ലിയോ ടോൾസ്റ്റോയ്"
-      ],
-      "answer": "ഡാന്റെ",
-      "difficulty": "easy",
-      "id": "lit_065"
-    },
-    {
       "question": "വില്ലിയം ഷേക്സ്പിയർ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
       "options": [
-        "Hamlet",
+        "ഹാംലെറ്റ്",
         "Iliad",
         "Odyssey",
         "Faust"
       ],
-      "answer": "Hamlet",
+      "answer": "ഹാംലെറ്റ്",
       "difficulty": "easy",
       "id": "lit_066"
     },
     {
-      "question": "'War and Peace' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ലിയോ ടോൾസ്റ്റോയ്",
-        "ദോസ്തോയെവ്സ്കി",
-        "ആന്റൺ ചെഖോവ്",
-        "പുഷ്കിൻ"
-      ],
-      "answer": "ലിയോ ടോൾസ്റ്റോയ്",
-      "difficulty": "medium",
-      "id": "lit_067"
-    },
-    {
-      "question": "'Crime and Punishment' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ദോസ്തോയെവ്സ്കി",
-        "ലിയോ ടോൾസ്റ്റോയ്",
-        "ഹോമർ",
-        "ഡാന്റെ"
-      ],
-      "answer": "ദോസ്തോയെവ്സ്കി",
-      "difficulty": "medium",
-      "id": "lit_068"
-    },
-    {
-      "question": "'Faust' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഗ്യോതെ",
-        "ഷില്ലർ",
-        "ഹോമർ",
-        "ഡാന്റെ"
-      ],
-      "answer": "ഗ്യോതെ",
-      "difficulty": "hard",
-      "id": "lit_069"
-    },
-    {
-      "question": "'Don Quixote' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "മിഗ്വേൽ ഡി സർവാന്റസ്",
-        "ഹോമർ",
-        "ഡാന്റെ",
-        "വില്ലിയം ഷേക്സ്പിയർ"
-      ],
-      "answer": "മിഗ്വേൽ ഡി സർവാന്റസ്",
-      "difficulty": "medium",
-      "id": "lit_070"
-    },
-    {
-      "question": "'One Hundred Years of Solitude' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
-        "ലിയോ ടോൾസ്റ്റോയ്",
-        "ഹോമർ",
-        "രവീന്ദ്രനാഥ ടാഗോർ"
-      ],
-      "answer": "ഗബ്രിയേൽ ഗാർസിയ മാർക്വസ്",
-      "difficulty": "hard",
-      "id": "lit_071"
-    },
-    {
       "question": "രവീന്ദ്രനാഥ ടാഗോർക്ക് നോബൽ സാഹിത്യ പുരസ്കാരം ലഭിച്ച കൃതി ഏത്?",
       "options": [
-        "Gitanjali",
+        "ഗീതാഞ്ജലി",
         "ചെമ്മീൻ",
         "നാലുകെട്ട്",
         "Iliad"
       ],
-      "answer": "Gitanjali",
+      "answer": "ഗീതാഞ്ജലി",
       "difficulty": "medium",
       "id": "lit_072"
     },
     {
       "question": "മുൻഷി പ്രേംചന്ദ് രചിച്ച പ്രസിദ്ധ ഹിന്ദി കൃതി ഏത്?",
       "options": [
-        "Godan",
+        "ഗോദാൻ",
         "ചെമ്മീൻ",
-        "Hamlet",
+        "ഹാംലെറ്റ്",
         "Iliad"
       ],
-      "answer": "Godan",
+      "answer": "ഗോദാൻ",
       "difficulty": "hard",
       "id": "lit_073"
     },
@@ -959,18 +875,6 @@
       "answer": "എർണസ്റ്റ് ഹെമിംഗ്വേ",
       "difficulty": "medium",
       "id": "lit_080"
-    },
-    {
-      "question": "'To Kill a Mockingbird' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
-      "options": [
-        "ഹാർപ്പർ ലീ",
-        "ജെയ്ൻ ഓസ്റ്റിൻ",
-        "എമിലി ബ്രോണ്ടെ",
-        "ചാൾസ് ഡിക്കൻസ്"
-      ],
-      "answer": "ഹാർപ്പർ ലീ",
-      "difficulty": "hard",
-      "id": "lit_081"
     },
     {
       "question": "'1984' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -1060,7 +964,7 @@
       "question": "കാലിദാസൻ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
       "options": [
         "Abhijnanasakuntalam",
-        "Hamlet",
+        "ഹാംലെറ്റ്",
         "Macbeth",
         "Faust"
       ],
@@ -1169,7 +1073,7 @@
       "options": [
         "കമലാ ദാസ്",
         "ഒന്നുമില്ല",
-        "മാധവിക്കുട്ടി (വേറൊരാൾ)",
+        "മാധവിക്കുട്ടി",
         "രണ്ട് പേരുകളും ഒരാളുടേതല്ല"
       ],
       "answer": "കമലാ ദാസ്",

@@ -364,7 +364,7 @@
       "question": "HTTP എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "Virtual Private Network",
-        "Wide Area Network",
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
         "HyperText Transfer Protocol",
         "Artificial Intelligence"
       ],
@@ -388,9 +388,9 @@
       "question": "HTTPS എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "HyperText Transfer Protocol Secure",
-        "Read Only Memory",
-        "Solid State Drive",
-        "Hard Disk Drive"
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്"
       ],
       "answer": "HyperText Transfer Protocol Secure",
       "difficulty": "medium",
@@ -412,9 +412,9 @@
       "question": "IP എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "Internet Protocol",
-        "Read Only Memory",
-        "Hard Disk Drive",
-        "Solid State Drive"
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്"
       ],
       "answer": "Internet Protocol",
       "difficulty": "medium",
@@ -438,9 +438,9 @@
         "Graphical User Interface",
         "Application Programming Interface",
         "Command Line Interface",
-        "Domain Name System"
+        "ഡോമെയ്ൻ നെയിം സിസ്റം"
       ],
-      "answer": "Domain Name System",
+      "answer": "ഡോമെയ്ൻ നെയിം സിസ്റം",
       "difficulty": "medium",
       "id": "it_037"
     },
@@ -531,10 +531,10 @@
     {
       "question": "RAM എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Local Area Network",
-        "Hard Disk Drive",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
         "Random Access Memory",
-        "Wide Area Network"
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
       ],
       "answer": "Random Access Memory",
       "difficulty": "medium",
@@ -555,12 +555,12 @@
     {
       "question": "ROM എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Domain Name System",
-        "Read Only Memory",
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
+        "റീഡ് ഓൺലി മെമ്മറി",
         "HyperText Transfer Protocol Secure",
         "Internet Protocol"
       ],
-      "answer": "Read Only Memory",
+      "answer": "റീഡ് ഓൺലി മെമ്മറി",
       "difficulty": "medium",
       "id": "it_047"
     },
@@ -581,10 +581,10 @@
       "options": [
         "HyperText Transfer Protocol Secure",
         "Internet Protocol",
-        "Solid State Drive",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
         "HyperText Transfer Protocol"
       ],
-      "answer": "Solid State Drive",
+      "answer": "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
       "difficulty": "medium",
       "id": "it_049"
     },
@@ -603,12 +603,12 @@
     {
       "question": "HDD എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Hard Disk Drive",
-        "Read Only Memory",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "റീഡ് ഓൺലി മെമ്മറി",
         "Random Access Memory",
         "Graphics Processing Unit"
       ],
-      "answer": "Hard Disk Drive",
+      "answer": "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
       "difficulty": "medium",
       "id": "it_051"
     },
@@ -627,12 +627,12 @@
     {
       "question": "LAN എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Wide Area Network",
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
         "Virtual Private Network",
-        "Local Area Network",
-        "Hard Disk Drive"
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്"
       ],
-      "answer": "Local Area Network",
+      "answer": "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
       "difficulty": "medium",
       "id": "it_053"
     },
@@ -653,10 +653,10 @@
       "options": [
         "Internet Protocol",
         "Uniform Resource Locator",
-        "Domain Name System",
-        "Wide Area Network"
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
       ],
-      "answer": "Wide Area Network",
+      "answer": "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്",
       "difficulty": "medium",
       "id": "it_055"
     },
@@ -676,7 +676,7 @@
       "question": "VPN എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "Virtual Private Network",
-        "Domain Name System",
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
         "Uniform Resource Locator",
         "Central Processing Unit"
       ],
@@ -700,7 +700,7 @@
       "question": "AI എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "Artificial Intelligence",
-        "Domain Name System",
+        "ഡോമെയ്ൻ നെയിം സിസ്റം",
         "Central Processing Unit",
         "Uniform Resource Locator"
       ],
@@ -723,8 +723,8 @@
     {
       "question": "ML എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Read Only Memory",
-        "Solid State Drive",
+        "റീഡ് ഓൺലി മെമ്മറി",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
         "Machine Learning",
         "Random Access Memory"
       ],
@@ -747,9 +747,9 @@
     {
       "question": "NLP എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Solid State Drive",
-        "Hard Disk Drive",
-        "Local Area Network",
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
         "Natural Language Processing"
       ],
       "answer": "Natural Language Processing",
@@ -795,10 +795,10 @@
     {
       "question": "GUI എന്നതിന്റെ full form എന്താണ്?",
       "options": [
-        "Hard Disk Drive",
-        "Local Area Network",
+        "ഹാർഡ് ഡിസ്ക് ഡ്രൈവ്",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
         "Graphical User Interface",
-        "Solid State Drive"
+        "സോളിഡ് സ്റ്റേറ്റ് ഡ്രൈവ്"
       ],
       "answer": "Graphical User Interface",
       "difficulty": "medium",
@@ -820,9 +820,9 @@
       "question": "CLI എന്നതിന്റെ full form എന്താണ്?",
       "options": [
         "Virtual Private Network",
-        "Local Area Network",
+        "ലോകൽ ഏരിയ നെറ്റ്‌വർക്ക്",
         "Command Line Interface",
-        "Wide Area Network"
+        "വൈഡ് ഏരിയ നെറ്റ്‌വർക്ക്"
       ],
       "answer": "Command Line Interface",
       "difficulty": "medium",

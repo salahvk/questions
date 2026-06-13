@@ -746,24 +746,24 @@
     },
     {
       "id": "pok_063",
-      "question": "1957-ൽ കേരളത്തിലെ ആദ്യ CPI മന്ത്രിത്വത്തിന് നേതൃത്വം നൽകിയത്?",
+      "question": "1957-ൽ കേരളത്തിലെ ആദ്യ സി.പി.ഐ മന്ത്രിസഭയ്ക്ക് നേതൃത്വം നൽകിയത് ആര്?",
       "options": [
-        "K. Karunakaran",
-        "Achutha Menon",
-        "A.K. Antony",
-        "E.M.S. Namboodiripad"
+        "കെ. കരുണാകരൻ",
+        "സി. അച്യുത മേനൻ",
+        "എ.കെ. അന്റണി",
+        "ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്"
       ],
-      "answer": "E.M.S. Namboodiripad",
+      "answer": "ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്",
       "difficulty": "easy"
     },
     {
       "id": "pok_064",
-      "question": "വിമോചന സമരം (1959) ഫലമായി എന്ത് സംഭവിച്ചു?",
+      "question": "വിമോചന സമരം ഫലമായി എന്ത് സംഭവിച്ചു?",
       "options": [
         "ഒന്നുമില്ല",
-        "President's rule forever",
+        "ശാശ്വതമായ രാഷ്ട്രപതി ഭരണം",
         "ആദ്യ ഇ.എം.എസ് മന്ത്രിത്വത്തിന്റെ പിരിച്ചുവിടൽ",
-        "Formation of Kerala"
+        "കേരള സംസ്ഥാന രൂപീകരണം"
       ],
       "answer": "ആദ്യ ഇ.എം.എസ് മന്ത്രിത്വത്തിന്റെ പിരിച്ചുവിടൽ",
       "difficulty": "hard"
@@ -808,9 +808,9 @@
       "id": "pok_068",
       "question": "സി. അച്യുത മേനൻ മന്ത്രിത്വം എന്തിന് പ്രസിദ്ധം?",
       "options": [
-        "Only cinema",
-        "Only space",
-        "Only sports",
+        "സിനിമ മാത്രം",
+        "ബഹിരാകാശം മാത്രം",
+        "കായികം മാത്രം",
         "ഭൂമി പരിഷ്കരണ നടപ്പാക്കൽ"
       ],
       "answer": "ഭൂമി പരിഷ്കരണ നടപ്പാക്കൽ",
@@ -818,71 +818,71 @@
     },
     {
       "id": "pok_069",
-      "question": "Kerala Pradesh Congress Committee president 2024 approx?",
+      "question": "2024-ലോടെ കേരള പ്രദേശ് കോൺഗ്രസ് കമ്മിറ്റി അധ്യക്ഷൻ ആര്?",
       "options": [
-        "V.D. Satheesan",
-        "Pinarayi Vijayan",
-        "K. Sudhakaran",
-        "Oommen Chandy"
+        "വി.ഡി. സതീശൻ",
+        "പിണറായി വിജയൻ",
+        "കെ. സുധാകരൻ",
+        "ഉമ്മൻ ചാണ്ടി"
       ],
-      "answer": "K. Sudhakaran",
+      "answer": "കെ. സുധാകരൻ",
       "difficulty": "hard"
     },
     {
       "id": "pok_070",
-      "question": "Kerala Opposition Leader (UDF) 2024?",
+      "question": "2024-ലോടെ കേരള വിപക്ഷനേതാവ് (യു.ഡി.എഫ്) ആര്?",
       "options": [
-        "Pinarayi Vijayan",
-        "K. Sudhakaran",
-        "V.D. Satheesan",
-        "M.B. Rajesh"
+        "പിണറായി വിജയൻ",
+        "കെ. സുധാകരൻ",
+        "വി.ഡി. സതീശൻ",
+        "എം.ബി. രാജേഷ്"
       ],
-      "answer": "V.D. Satheesan",
+      "answer": "വി.ഡി. സതീശൻ",
       "difficulty": "medium"
     },
     {
       "id": "pok_071",
-      "question": "Kerala Assembly Speaker 2024?",
+      "question": "2024-ലോടെ കേരള നിയമസഭാ സ്പീക്കർ ആര്?",
       "options": [
-        "A.N. Shamseer",
-        "Thiruvanchoor Radhakrishnan",
-        "M.B. Rajesh",
-        "Pinarayi Vijayan"
+        "എ.എൻ. ഷംസീർ",
+        "തിരുവഞ്ചൂർ രാധാകൃഷ്ണൻ",
+        "എം.ബി. രാജേഷ്",
+        "പിണറായി വിജയൻ"
       ],
-      "answer": "A.N. Shamseer",
+      "answer": "എ.എൻ. ഷംസീർ",
       "difficulty": "medium"
     },
     {
       "id": "pok_072",
-      "question": "Kerala Governor 2024?",
+      "question": "2024-ലോടെ കേരള ഗവർണർ ആര്?",
       "options": [
-        "R.L. Bhatia",
-        "Sikander Bakht",
-        "Arif Mohammed Khan",
-        "P. Sathasivam"
+        "ആർ.എൽ. ഭാട്ടിയ",
+        "സികന്ദർ ബക്ത്",
+        "ആരിഫ് മുഹമ്മദ് ഖാൻ",
+        "പി. സത്യശിവം"
       ],
-      "answer": "Arif Mohammed Khan",
+      "answer": "ആരിഫ് മുഹമ്മദ് ഖാൻ",
       "difficulty": "medium"
     },
     {
       "id": "pok_073",
       "question": "കേരള നിയമസഭയിൽ BJP-യുടെ ആദ്യ MLA തിരഞ്ഞെടുക്കപ്പെട്ട നിയോജകമണ്ഡലം?",
       "options": [
-        "Kasaragod",
+        "കാസർഗോഡ്",
         "തിരുവനന്തപുരം",
-        "Pathanamthitta",
-        "Kazhakkoottam (O. Rajagopal 2016)"
+        "പത്തനംതിട്ട",
+        "കഴക്കൂട്ടം (ഓ. രാജഗോപാൽ 2016)"
       ],
-      "answer": "Kazhakkoottam (O. Rajagopal 2016)",
+      "answer": "കഴക്കൂട്ടം (ഓ. രാജഗോപാൽ 2016)",
       "difficulty": "hard"
     },
     {
       "id": "pok_074",
       "question": "ഐUML-ന്റെ പരമ്പരാഗത ബലമുള്ള ജില്ല?",
       "options": [
-        "Kasaragod only",
-        "Idukki only",
-        "Wayanad only",
+        "കാസർഗോഡ് മാത്രം",
+        "ഇടുക്കി മാത്രം",
+        "വയനാട് മാത്രം",
         "മലപ്പുറം"
       ],
       "answer": "മലപ്പുറം",
@@ -890,98 +890,98 @@
     },
     {
       "id": "pok_075",
-      "question": "കേരള കോൺഗ്രസ് (M) സ്ഥാപകൻ?",
+      "question": "കേരള കോൺഗ്രസ് സ്ഥാപകൻ?",
       "options": [
-        "A.K. Antony",
-        "K. Karunakaran",
-        "K.M. Mani",
-        "Oommen Chandy"
+        "എ.കെ. അന്റണി",
+        "കെ. കരുണാകരൻ",
+        "കെ.എം. മാണി",
+        "ഉമ്മൻ ചാണ്ടി"
       ],
-      "answer": "K.M. Mani",
+      "answer": "കെ.എം. മാണി",
       "difficulty": "hard"
     },
     {
       "id": "pok_076",
-      "question": "Kerala Congress (Joseph faction) നടത്തer?",
+      "question": "കേരള കോൺഗ്രസ് നേതാവ് ആര്?",
       "options": [
-        "Mani C. Kappan",
-        "Ramesh Chennithala",
-        "K.M. Mani",
-        "P.J. Joseph"
+        "മാണി സി. കാപ്പൻ",
+        "രമേശ് ചെന്നിത്തല",
+        "കെ.എം. മാണി",
+        "പി.ജെ. ജോസഫ്"
       ],
-      "answer": "P.J. Joseph",
+      "answer": "പി.ജെ. ജോസഫ്",
       "difficulty": "hard"
     },
     {
       "id": "pok_077",
-      "question": "CPM Kerala state secretary 2024?",
+      "question": "2024-ലോടെ സി.പി.എം കേരള സംസ്ഥാന സെക്രട്ടറി ആര്?",
       "options": [
-        "M.V. Govindan",
-        "Pinarayi Vijayan",
-        "E.K. Nayanar",
-        "Kodiyeri Balakrishnan"
+        "എം.വി. ഗോവിന്ദൻ",
+        "പിണറായി വിജയൻ",
+        "ഇ.കെ. നായനാർ",
+        "കോടിയേരി ബാലകൃഷ്ണൻ"
       ],
-      "answer": "M.V. Govindan",
+      "answer": "എം.വി. ഗോവിന്ദൻ",
       "difficulty": "hard"
     },
     {
       "id": "pok_078",
-      "question": "CPI Kerala state secretary (approx recent)?",
+      "question": "സി.പി.ഐ കേരള സംസ്ഥാന സെക്രട്ടറി (ഏറ്റവും അടുത്ത കാലം) ആര്?",
       "options": [
-        "Namboodiripad",
-        "P. Panneerselvam",
-        "Achuthanandan",
-        "Pinarayi Vijayan"
+        "നമ്പൂതിരിപ്പാട്",
+        "പി. പന്നീർസെൽവം",
+        "അച്യുതാനന്ദൻ",
+        "പിണറായി വിജയൻ"
       ],
-      "answer": "P. Panneerselvam",
+      "answer": "പി. പന്നീർസെൽവം",
       "difficulty": "hard"
     },
     {
       "id": "pok_079",
-      "question": "RSP in Kerala allied mainly with?",
+      "question": "കേരളത്തിലെ ആർ.എസ്.പി. പ്രധാനമായും ഏതൊരു മുന്നണിയുമായി സഖ്യം ചെയ്തിട്ടുണ്ട്?",
       "options": [
-        "BJP always",
+        "ബി.ജെ.പി എപ്പോഴും",
         "ഒന്നുമില്ല",
-        "NDA always",
-        "LDF historically often"
+        "എൻ.ഡി.എ എപ്പോഴും",
+        "ചരിത്രപരമായി പലപ്പോഴും എൽ.ഡി.എഫ്"
       ],
-      "answer": "LDF historically often",
+      "answer": "ചരിത്രപരമായി പലപ്പോഴും എൽ.ഡി.എഫ്",
       "difficulty": "hard"
     },
     {
       "id": "pok_080",
-      "question": "Janata Dal(S) in Kerala linked to?",
+      "question": "കേരളത്തിലെ ജനതാ ദൽ(എസ്) ഏതുമായി ബന്ധപ്പെട്ടിട്ടുണ്ട്?",
       "options": [
-        "Congress only",
+        "കോൺഗ്രസ് മാത്രം",
         "ഒന്നുമില്ല",
-        "Vishwanathan / smaller fronts",
-        "BJP only"
+        "വിശ്വനാഥൻ / ചെറിയ മുന്നണികൾ",
+        "ബി.ജെ.പി മാത്രം"
       ],
-      "answer": "Vishwanathan / smaller fronts",
+      "answer": "വിശ്വനാഥൻ / ചെറിയ മുന്നണികൾ",
       "difficulty": "hard"
     },
     {
       "id": "pok_081",
-      "question": "BDJS party in Kerala ബന്ധപ്പെട്ടത്?",
+      "question": "കേരളത്തിലെ ബി.ഡി.ജെ.എസ് പാർട്ടി ഏതുമായാണ് ബന്ധപ്പെട്ടിരിക്കുന്നത്?",
       "options": [
         "ഒന്നുമില്ല",
-        "UDF only",
-        "LDF only",
-        "NDA alliance"
+        "യു.ഡി.എഫ് മാത്രം",
+        "എൽ.ഡി.എഫ് മാത്രം",
+        "എൻ.ഡി.എ സഖ്യം"
       ],
-      "answer": "NDA alliance",
+      "answer": "എൻ.ഡി.എ സഖ്യം",
       "difficulty": "hard"
     },
     {
       "id": "pok_082",
-      "question": "Twenty20th Keralam party strong in?",
+      "question": "ട്വന്റി20 കേരളം പാർട്ടി ഏത് പ്രദേശത്താണ് ശക്തമായത്?",
       "options": [
-        "Kizhakkambalam (Sabari Dasan)",
-        "Kasaragod only",
-        "Wayanad only",
+        "കിഴക്കാമ്പലം (സാബരി ദാസൻ)",
+        "കാസർഗോഡ് മാത്രം",
+        "വയനാട് മാത്രം",
         "ഒന്നുമില്ല"
       ],
-      "answer": "Kizhakkambalam (Sabari Dasan)",
+      "answer": "കിഴക്കാമ്പലം (സാബരി ദാസൻ)",
       "difficulty": "hard"
     },
     {
@@ -989,16 +989,16 @@
       "question": "കേരള സ്വയംഭരണ ത്രിതല സംവിധാനത്തിൽ ഉൾപ്പെടുന്നത്?",
       "options": [
         "ഗ്രാമ പഞ്ചായത്ത്, ബ്ലോക്ക്, ജില്ല",
-        "Only Rajya Sabha",
-        "Only Governor",
-        "Only Parliament"
+        "രാജ്യസഭ മാത്രം",
+        "ഗവർണർ മാത്രം",
+        "പാർലമെന്റ് മാത്രം"
       ],
       "answer": "ഗ്രാമ പഞ്ചായത്ത്, ബ്ലോക്ക്, ജില്ല",
       "difficulty": "medium"
     },
     {
       "id": "pok_084",
-      "question": "Kerala Panchayat Raj Act enacted?",
+      "question": "കേരള പഞ്ചായത്ത് രാജ് ആക്റ്റ് അംഗീകരിച്ച വർഷം ഏത്?",
       "options": [
         "1994",
         "1980",
@@ -1058,7 +1058,7 @@
     },
     {
       "id": "pok_089",
-      "question": "Malappuram district Lok Sabha seats count?",
+      "question": "മലപ്പുറം ജില്ലയിലെ ലോക്സഭാ മണ്ഡലങ്ങളുടെ എണ്ണം ഏത്?",
       "options": [
         "4",
         "3",
@@ -1070,31 +1070,31 @@
     },
     {
       "id": "pok_090",
-      "question": "Thiruvananthapuram Lok Sabha constituency MP 2019 winner?",
+      "question": "2019-ലെ തിരുവനന്തപുരം ലോക്സഭാ മണ്ഡലത്തിൽ വിജയിച്ചത് ആര്?",
       "options": [
-        "Pinarayi Vijayan",
-        "K. Sudhakaran",
-        "Shashi Tharoor",
-        "Oommen Chandy"
+        "പിണറായി വിജയൻ",
+        "കെ. സുധാകരൻ",
+        "ശശി തരൂർ",
+        "ഉമ്മൻ ചാണ്ടി"
       ],
-      "answer": "Shashi Tharoor",
+      "answer": "ശശി തരൂർ",
       "difficulty": "medium"
     },
     {
       "id": "pok_091",
-      "question": "Wayanad LS constituency notable MP?",
+      "question": "വയനാട് ലോക്സഭാ മണ്ഡലത്തിന്റെ പ്രമുഖ എം.പി. ആര്?",
       "options": [
-        "Mani",
-        "Modi",
-        "Rahul Gandhi (2019)",
-        "Shashi Tharoor"
+        "മാണി",
+        "മോദി",
+        "രാഹുൽ ഗാന്ധി (2019)",
+        "ശശി തരൂർ"
       ],
-      "answer": "Rahul Gandhi (2019)",
+      "answer": "രാഹുൽ ഗാന്ധി (2019)",
       "difficulty": "medium"
     },
     {
       "id": "pok_092",
-      "question": "Kerala women's reservation in local bodies approx?",
+      "question": "കേരളത്തിലെ പ്രാദേശിക സ്വയംഭരണ സ്ഥാപനങ്ങളിൽ സ്ത്രീകൾക്കുള്ള സംവരണം ഏത്ര ശതമാനമാണ്?",
       "options": [
         "50%",
         "33%",
@@ -1106,14 +1106,14 @@
     },
     {
       "id": "pok_093",
-      "question": "Kerala first coalition government?",
+      "question": "കേരളത്തിലെ ആദ്യ സംയുക്ക മന്ത്രിസഭ ഏതാണ്?",
       "options": [
         "2010",
-        "1957 CPI-led",
-        "1990 only UDF",
+        "1957-ലെ സി.പി.ഐ നയിച്ചത്",
+        "1990-ലെ യു.ഡി.എഫ് മാത്രം",
         "1947"
       ],
-      "answer": "1957 CPI-led",
+      "answer": "1957-ലെ സി.പി.ഐ നയിച്ചത്",
       "difficulty": "hard"
     },
     {
@@ -1144,20 +1144,20 @@
       "id": "pok_096",
       "question": "കേരളത്തിലെ NDA-യിൽ ഉൾപ്പെടുന്നവർ?",
       "options": [
-        "CPM only",
-        "IUML only",
-        "BJP-യും BDJS പോലുള്ള സഖ്യകക്ഷികളും",
-        "Congress only"
+        "സി.പി.എം മാത്രം",
+        "ഐ.യു.എം.എൽ മാത്രം",
+        "ബി.ജെ.പി-യും ബി.ഡി.ജെ.എസ് പോലുള്ള സഖ്യകക്ഷികളും",
+        "കോൺഗ്രസ് മാത്രം"
       ],
-      "answer": "BJP-യും BDJS പോലുള്ള സഖ്യകക്ഷികളും",
+      "answer": "ബി.ജെ.പി-യും ബി.ഡി.ജെ.എസ് പോലുള്ള സഖ്യകക്ഷികളും",
       "difficulty": "medium"
     },
     {
       "id": "pok_097",
-      "question": "Kerala Legislative Assembly term length?",
+      "question": "കേരള നിയമസഭയുടെ കാലാവധി എത്ര?",
       "options": [
         "4 വർഷം",
-        "6 years",
+        "6 വർഷം",
         "5 വർഷം",
         "3 വർഷം"
       ],
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "pok_098",
-      "question": "Minimum age to vote in India?",
+      "question": "ഇന്ത്യയിൽ വോട്ട് ചെയ്യാനുള്ള കുറഞ്ഞ പ്രായം എത്ര?",
       "options": [
         "21",
         "25",
@@ -1190,14 +1190,14 @@
     },
     {
       "id": "pok_100",
-      "question": "Kerala High Court bench cities include?",
+      "question": "കേരള ഉന്നത നീതിമന്ദ്രിയുടെ ബെഞ്ചുകൾ ഉള്ള നഗരങ്ങൾ ഏതെല്ലാം?",
       "options": [
-        "Kochi, Thiruvananthapuram, Kozhikode",
-        "Delhi only",
-        "Mumbai only",
-        "Chennai only"
+        "കൊച്ചി, തിരുവനന്തപുരം, കോഴിക്കോട്",
+        "ഡൽഹി മാത്രം",
+        "മുംബൈ മാത്രം",
+        "ചെന്നൈ മാത്രം"
       ],
-      "answer": "Kochi, Thiruvananthapuram, Kozhikode",
+      "answer": "കൊച്ചി, തിരുവനന്തപുരം, കോഴിക്കോട്",
       "difficulty": "hard"
     }
   ]

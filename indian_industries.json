@@ -110,7 +110,7 @@
     },
     {
       "id": "ind_010",
-      "question": "കൽക്കരി ഇന്ത്യ ലിമിറ്റഡ് (Coal India) ആസ്ഥാനം എവിടെയാണ്?",
+      "question": "കൽക്കരി ഇന്ത്യ ലിമിറ്റഡ് ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ന്യൂഡൽഹി",
         "കൊൽക്കത്ത",
@@ -134,7 +134,7 @@
     },
     {
       "id": "ind_012",
-      "question": "Indian Oil Corporation (IOC) ആസ്ഥാനം എവിടെയാണ്?",
+      "question": "Indian Oil Corporation ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ചെന്നൈ",
         "കൊൽക്കത്ത",
@@ -170,7 +170,7 @@
     },
     {
       "id": "ind_015",
-      "question": "GAIL (India) Ltd ആസ്ഥാനം എവിടെയാണ്?",
+      "question": "GAIL Ltd ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ന്യൂഡൽഹി",
         "ഗുരുഗ്രാം",
@@ -218,7 +218,7 @@
     },
     {
       "id": "ind_019",
-      "question": "BEL (Bharat Electronics) ആസ്ഥാനം എവിടെയാണ്?",
+      "question": "BEL ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ചെന്നൈ",
         "ബെംഗളൂരു",

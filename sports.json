@@ -54,10 +54,10 @@
       "options": [
         "1896",
         "എതൻസ്",
-        "Faster, Higher, Stronger - Together",
+        "വേഗം, ഉയരം, ശക്തി — ഒന്നിച്ച്",
         "10 ഇനങ്ങളുള്ള അത്‌ലറ്റിക്സ് മത്സരം"
       ],
-      "answer": "Faster, Higher, Stronger - Together",
+      "answer": "വേഗം, ഉയരം, ശക്തി — ഒന്നിച്ച്",
       "difficulty": "medium"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "id": "sca_009",
-      "question": "Youth Olympics എന്താണ്?",
+      "question": "യുവ ഒളിമ്പിക്സ് എന്താണ്?",
       "options": [
         "യുവ താരങ്ങൾക്കുള്ള ഒളിമ്പിക് രൂപം",
         "നാലുവർഷം",
@@ -626,7 +626,7 @@
     },
     {
       "id": "sca_053",
-      "question": "2023 ICC Cricket World Cup-ന്റെ വിജയി?",
+      "question": "2023 ICC Cricket ലോകകപ്പിന്റെ വിജയി?",
       "options": [
         "ഇന്ത്യ",
         "ഇംഗ്ലണ്ട്",
@@ -686,7 +686,7 @@
     },
     {
       "id": "sca_058",
-      "question": "2022 FIFA World Cup-ന്റെ വിജയി?",
+      "question": "2022 FIFA ലോകകപ്പിന്റെ വിജയി?",
       "options": [
         "അർജന്റീന",
         "ബ്രാസീൽ",
@@ -698,7 +698,7 @@
     },
     {
       "id": "sca_059",
-      "question": "2022 FIFA World Cup-ന്റെ ആതിഥ്യ രാജ്യം?",
+      "question": "2022 FIFA ലോകകപ്പിന്റെ ആതിഥ്യ രാജ്യം?",
       "options": [
         "ബ്രാസീൽ",
         "ദക്ഷിണാഫ്രിക്ക",
