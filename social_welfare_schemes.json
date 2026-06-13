@@ -2,426 +2,6 @@
   "questions": [
     {
       "id": "sws_0001",
-      "question": "കേരളത്തിലെ എല്ലാ വയസ്സുകാരുടെയും ആരോഗ്യ സുരക്ഷ ഉറപ്പാക്കുന്ന പദ്ധതി ഏതാണ്?",
-      "options": [
-        "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി",
-        "ആയുഷ്മാൻ ഭാരത്",
-        "ജനനി സുരക്ഷ",
-        "അമ്മത്തൊഴിൽ പദ്ധതി"
-      ],
-      "answer": "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0002",
-      "question": "കുടുംബശ്രീ പദ്ധതി കേരളത്തിൽ ആരംഭിച്ച വർഷം ഏത്?",
-      "options": [
-        "1995",
-        "2005",
-        "1998",
-        "2001"
-      ],
-      "answer": "1998",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0003",
-      "question": "കുടുംബശ്രീയുടെ മുഖ്യ ലക്ഷ്യം എന്ത്?",
-      "options": [
-        "ആണവഗവേഷണം",
-        "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും",
-        "വിമാനയാനം",
-        "ആയുധപരിശീലനം"
-      ],
-      "answer": "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0004",
-      "question": "ലൈഫ് മിഷൻ കേരളത്തിൽ പ്രധാനമായും ഏതിനാണ്?",
-      "options": [
-        "ഭവനരഹിതർക്കുള്ള വീട്",
-        "കാർഷിക ഇൻഷുറൻസ്",
-        "വ്യവസായ സബ്സിഡി",
-        "വിദ്യാഭ്യാസ വായ്പ"
-      ],
-      "answer": "ഭവനരഹിതർക്കുള്ള വീട്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0005",
-      "question": "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
-      "options": [
-        "ആരോഗ്യ ഇൻഷുറൻസ്",
-        "വിദ്യാഭ്യാസ സ്കോളർഷിപ്പ്",
-        "തൊഴിൽവായ്പ",
-        "റോഡ് നിർമ്മാണം"
-      ],
-      "answer": "ആരോഗ്യ ഇൻഷുറൻസ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0006",
-      "question": "Vayomithram പദ്ധതി കേരളത്തിൽ പ്രധാനമായി ലക്ഷ്യമിടുന്നത് ആരെയാണ്?",
-      "options": [
-        "ചെറുകിട വ്യവസായികൾ",
-        "കർഷകർ",
-        "വിദ്യാർത്ഥികൾ",
-        "വയോജനങ്ങൾ"
-      ],
-      "answer": "വയോജനങ്ങൾ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0007",
-      "question": "Aswasakiranam പദ്ധതി കേരളത്തിൽ ഏതു വിഭാഗത്തെ പിന്തുണയ്ക്കുന്നു?",
-      "options": [
-        "നിർമാണ തൊഴിലാളികൾ",
-        "ടൂറിസ്റ്റ് ഗൈഡുകൾ",
-        "കിടപ്പുരോഗികളെ പരിചരിക്കുന്ന പരിചാരകർ",
-        "ഐടി ജീവനക്കാർ"
-      ],
-      "answer": "കിടപ്പുരോഗികളെ പരിചരിക്കുന്ന പരിചാരകർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0008",
-      "question": "കേരള MEDISEP പദ്ധതി പ്രധാനമായും ആര്ക്കായി ആണ്?",
-      "options": [
-        "കേന്ദ്ര സൈനികർക്ക് മാത്രം",
-        "വിദ്യാർത്ഥികൾക്ക് മാത്രം",
-        "സംസ്ഥാന ജീവനക്കാരും പെൻഷൻക്കാർക്കും ആരോഗ്യ പരിരക്ഷ",
-        "സ്വകാര്യ ബാങ്ക് ജീവനക്കാർക്ക് മാത്രം"
-      ],
-      "answer": "സംസ്ഥാന ജീവനക്കാരും പെൻഷൻക്കാർക്കും ആരോഗ്യ പരിരക്ഷ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0009",
-      "question": "Snehapoorvam സ്കോളർഷിപ്പ് കേരളത്തിൽ ഏതു കുട്ടികൾക്കായി?",
-      "options": [
-        "വിദേശ വിദ്യാർത്ഥികൾ",
-        "ഐഐടി വിദ്യാർത്ഥികൾ",
-        "അനാഥരും സാമ്പത്തികമായി പിന്നാക്കവുമായ കുട്ടികൾ",
-        "കായികതാരങ്ങൾ"
-      ],
-      "answer": "അനാഥരും സാമ്പത്തികമായി പിന്നാക്കവുമായ കുട്ടികൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0010",
-      "question": "Thalolam പദ്ധതി കേരളത്തിൽ ഏത് ആവശ്യവുമായി ബന്ധപ്പെട്ടതാണ്?",
-      "options": [
-        "കാർഷിക യന്ത്രവത്കരണം",
-        "ഗുരുതര ആരോഗ്യപ്രശ്നമുള്ള കുട്ടികൾക്ക് ധനസഹായം",
-        "തൊഴിൽ പരിശീലനം",
-        "ഉയർന്ന വിദ്യാഭ്യാസ വായ്പ"
-      ],
-      "answer": "ഗുരുതര ആരോഗ്യപ്രശ്നമുള്ള കുട്ടികൾക്ക് ധനസഹായം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0011",
-      "question": "കേരള സാമൂഹ്യസുരക്ഷ പെൻഷനുകളുടെ പൊതുവായ ലക്ഷ്യം എന്താണ്?",
-      "options": [
-        "റെയിൽവേ വികസനം",
-        "അർഹരായ ദുർബല വിഭാഗങ്ങൾക്ക് മാസാന്ത സഹായം",
-        "വ്യവസായ ലൈസൻസിംഗ്",
-        "കയറ്റുമതി പ്രോത്സാഹനം"
-      ],
-      "answer": "അർഹരായ ദുർബല വിഭാഗങ്ങൾക്ക് മാസാന്ത സഹായം",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0012",
-      "question": "National Social Assistance Programme (NSAP) ആരംഭിച്ച വർഷം ഏത്?",
-      "options": [
-        "1995",
-        "2008",
-        "1988",
-        "2000"
-      ],
-      "answer": "1995",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0013",
-      "question": "IGNOAPS ഏത് വിഭാഗത്തിനായുള്ള പെൻഷൻ പദ്ധതിയാണ്?",
-      "options": [
-        "ഗർഭിണികൾ",
-        "വിദേശ തൊഴിലാളികൾ",
-        "വയോജനങ്ങൾ",
-        "ചെറുകിട വ്യവസായികൾ"
-      ],
-      "answer": "വയോജനങ്ങൾ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0014",
-      "question": "IGNWPS ഏത് വിഭാഗത്തിനായുള്ള സഹായമാണ്?",
-      "options": [
-        "കായികതാരങ്ങൾ",
-        "വിധവകൾ",
-        "സർവീസ് ഉദ്യോഗസ്ഥർ",
-        "വിദ്യാർത്ഥികൾ"
-      ],
-      "answer": "വിധവകൾ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0015",
-      "question": "IGNDPS ഏത് വിഭാഗത്തിനായുള്ള പദ്ധതിയാണ്?",
-      "options": [
-        "വാണിജ്യ ബാങ്കുകൾ",
-        "വിമാന പൈലറ്റുകൾ",
-        "കയറ്റുമതിക്കാർ",
-        "ഭിന്നശേഷിക്കാർ"
-      ],
-      "answer": "ഭിന്നശേഷിക്കാർ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0016",
-      "question": "National Family Benefit Schemeയിൽ സഹായം ലഭിക്കുക ഏത് സാഹചര്യത്തിൽ?",
-      "options": [
-        "വിദേശ പഠനത്തിന്",
-        "വീട് വാങ്ങുമ്പോൾ",
-        "കുടുംബത്തിലെ പ്രധാന ഉപജീവനകാരന്റെ മരണത്തിന് ശേഷം",
-        "കുട്ടി ജനനത്തിന് ശേഷം"
-      ],
-      "answer": "കുടുംബത്തിലെ പ്രധാന ഉപജീവനകാരന്റെ മരണത്തിന് ശേഷം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0017",
-      "question": "PM Matru Vandana Yojana പ്രധാനമായും ആര്‍ക്കുള്ളതാണ്?",
-      "options": [
-        "വയോജനങ്ങൾ",
-        "ഗർഭിണികൾക്കും മുലയൂട്ടുന്ന മാതാക്കൾക്കും",
-        "തൊഴിലാളികൾ",
-        "വ്യവസായികൾ"
-      ],
-      "answer": "ഗർഭിണികൾക്കും മുലയൂട്ടുന്ന മാതാക്കൾക്കും",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0018",
-      "question": "ICDS പദ്ധതിയുടെ പൂർണ്ണരൂപം എന്ത്?",
-      "options": [
-        "Indian Child Data Scheme",
-        "Infant Care Delivery Scheme",
-        "Integrated Child Development Services",
-        "Integrated Citizen Development System"
-      ],
-      "answer": "Integrated Child Development Services",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0019",
-      "question": "ICDS പ്രധാനമായും നടപ്പാക്കുന്ന കേന്ദ്രം ഏത്?",
-      "options": [
-        "അങ്കൻവാടി",
-        "റെയിൽവേ സ്റ്റേഷൻ",
-        "ബാങ്ക് ശാഖ",
-        "പോലീസ് സ്റ്റേഷൻ"
-      ],
-      "answer": "അങ്കൻവാടി",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0020",
-      "question": "POSHAN Abhiyaan ആരംഭിച്ച വർഷം ഏത്?",
-      "options": [
-        "2018",
-        "2015",
-        "2021",
-        "2012"
-      ],
-      "answer": "2018",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0021",
-      "question": "Janani Suraksha Yojanaയുടെ ലക്ഷ്യം എന്ത്?",
-      "options": [
-        "തൊഴിൽവായ്പ",
-        "കാർഷിക ഉൽപ്പാദന വർധന",
-        "ഡിജിറ്റൽ സാക്ഷരത",
-        "സുരക്ഷിത മാതൃത്വവും സ്ഥാപന പ്രസവവും പ്രോത്സാഹിപ്പിക്കൽ"
-      ],
-      "answer": "സുരക്ഷിത മാതൃത്വവും സ്ഥാപന പ്രസവവും പ്രോത്സാഹിപ്പിക്കൽ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0022",
-      "question": "Janani Shishu Suraksha Karyakram ഏത് മേഖലയിലുണ്ട്?",
-      "options": [
-        "റോഡ് സുരക്ഷ",
-        "നഗര ഗതാഗതം",
-        "ഗർഭിണി-ശിശു ആരോഗ്യ സേവനങ്ങൾ",
-        "വ്യവസായ വികസനം"
-      ],
-      "answer": "ഗർഭിണി-ശിശു ആരോഗ്യ സേവനങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0023",
-      "question": "Mission Indradhanush പ്രധാനമായും എന്തിനാണ്?",
-      "options": [
-        "ഡിജിറ്റൽ ബാങ്കിംഗ്",
-        "പൂർണ്ണ വാക്സിനേഷൻ വ്യാപനം",
-        "തൊഴിൽ പരിശീലനം",
-        "ഭവന പദ്ധതി"
-      ],
-      "answer": "പൂർണ്ണ വാക്സിനേഷൻ വ്യാപനം",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0024",
-      "question": "Rashtriya Swasthya Bima Yojana പ്രധാനമായി ഏത് വിഭാഗത്തെ ലക്ഷ്യമിട്ടു?",
-      "options": [
-        "കമ്പനി ഡയറക്ടർമാർ",
-        "ഉയർന്ന വരുമാനക്കാർ",
-        "മന്ത്രിമാർ",
-        "ദരിദ്ര കുടുംബങ്ങൾ"
-      ],
-      "answer": "ദരിദ്ര കുടുംബങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0025",
-      "question": "Ayushman Bharat PM-JAY ഏത് തരം സാമൂഹ്യസുരക്ഷ നൽകുന്നു?",
-      "options": [
-        "വീട് വായ്പ",
-        "ദരിദ്ര കുടുംബങ്ങൾക്ക് ആശുപത്രി ചികിത്സാ ഇൻഷുറൻസ്",
-        "വിദ്യാഭ്യാസ ഫീസ് റീബേറ്റ്",
-        "കാർ വായ്പ"
-      ],
-      "answer": "ദരിദ്ര കുടുംബങ്ങൾക്ക് ആശുപത്രി ചികിത്സാ ഇൻഷുറൻസ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0026",
-      "question": "ABHA നമ്പർ ഏത് ദൗത്യത്തിന്റെ ഭാഗമാണ്?",
-      "options": [
-        "Ayushman Bharat Digital Mission",
-        "Make in India",
-        "Skill India Mission",
-        "Swachh Bharat Mission"
-      ],
-      "answer": "Ayushman Bharat Digital Mission",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0027",
-      "question": "PM Shram Yogi Maandhan പദ്ധതി ഏത് വിഭാഗത്തിനാണ്?",
-      "options": [
-        "ഐടി എക്സിക്യൂട്ടീവുകൾ",
-        "അസംഘടിത മേഖലയിലെ തൊഴിലാളികളുടെ പെൻഷൻ",
-        "ജഡ്ജിമാർ",
-        "സർവകലാശാല വൈസ് ചാൻസലർമാർ"
-      ],
-      "answer": "അസംഘടിത മേഖലയിലെ തൊഴിലാളികളുടെ പെൻഷൻ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0028",
-      "question": "e-Shram പോർട്ടൽ പ്രധാനമായും എന്തിനാണ്?",
-      "options": [
-        "വിദ്യാർത്ഥി പ്രവേശനം",
-        "ഇലക്ട്രിസിറ്റി ബിൽ അടയ്ക്കൽ",
-        "അസംഘടിത തൊഴിലാളികളുടെ ദേശീയ രജിസ്ട്രേഷൻ",
-        "പാസ്‌പോർട്ട് വിതരണം"
-      ],
-      "answer": "അസംഘടിത തൊഴിലാളികളുടെ ദേശീയ രജിസ്ട്രേഷൻ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0029",
-      "question": "Employees' State Insurance ഏത് തരത്തിലുള്ള സുരക്ഷ നൽകുന്നു?",
-      "options": [
-        "ഭാഷാപരിശീലനം",
-        "കാർഷിക യന്ത്രസഹായം",
-        "വീട് നിർമാണം",
-        "തൊഴിലാളികൾക്ക് ആരോഗ്യ-സാമൂഹ്യ സുരക്ഷ"
-      ],
-      "answer": "തൊഴിലാളികൾക്ക് ആരോഗ്യ-സാമൂഹ്യ സുരക്ഷ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0030",
-      "question": "EPFOയുടെ പ്രധാന ലക്ഷ്യം എന്ത്?",
-      "options": [
-        "വിമാന ടിക്കറ്റ് ഇളവ്",
-        "നേരിട്ട് കാർഷിക സഹായം",
-        "വീട് സബ്സിഡി",
-        "പ്രാവിഡന്റ് ഫണ്ടിലൂടെ വിരമിക്കൽ സേവിംഗ്"
-      ],
-      "answer": "പ്രാവിഡന്റ് ഫണ്ടിലൂടെ വിരമിക്കൽ സേവിംഗ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0031",
-      "question": "National Food Security Act പാസാക്കിയ വർഷം ഏത്?",
-      "options": [
-        "2016",
-        "2009",
-        "2020",
-        "2013"
-      ],
-      "answer": "2013",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0032",
-      "question": "PM Garib Kalyan Anna Yojanaയുടെ പ്രധാന ഗുണം എന്ത്?",
-      "options": [
-        "സൗജന്യ വീട്",
-        "സൗജന്യ ഇന്ധനം",
-        "അർഹരായവർക്ക് സൗജന്യ ധാന്യ വിതരണം",
-        "സൗജന്യ ഇന്റർനെറ്റ്"
-      ],
-      "answer": "അർഹരായവർക്ക് സൗജന്യ ധാന്യ വിതരണം",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0033",
-      "question": "One Nation One Ration Card പദ്ധതിയുടെ സാമൂഹ്യക്ഷേമ പ്രാധാന്യം എന്ത്?",
-      "options": [
-        "ഒറ്റ മെഡിക്കൽ കോളേജ്",
-        "ഒറ്റ നികുതി സ്ലാബ്",
-        "മാറ്റം സംഭവിച്ചാലും ഭക്ഷ്യസുരക്ഷ തുടരണം",
-        "ഒറ്റ ബാങ്ക് ലോൺ"
-      ],
-      "answer": "മാറ്റം സംഭവിച്ചാലും ഭക്ഷ്യസുരക്ഷ തുടരണം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0034",
-      "question": "MGNREGA നിയമപ്രകാരമുള്ള കുറഞ്ഞ തൊഴിൽ ഉറപ്പ് എത്ര ദിവസം?",
-      "options": [
-        "200 ദിവസം",
-        "50 ദിവസം",
-        "150 ദിവസം",
-        "100 ദിവസം"
-      ],
-      "answer": "100 ദിവസം",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0035",
-      "question": "DAY-NRLM ഏത് വിഭാഗത്തെ സാമ്പത്തികമായി ശക്തിപ്പെടുത്തുന്നു?",
-      "options": [
-        "പ്രതിരോധ ഉദ്യോഗസ്ഥർ",
-        "വലിയ വ്യവസായ ഗ്രൂപ്പുകൾ",
-        "ഗ്രാമീണ സ്വയംസഹായ ഗ്രൂപ്പുകൾ",
-        "വിദേശ നിക്ഷേപകർ"
-      ],
-      "answer": "ഗ്രാമീണ സ്വയംസഹായ ഗ്രൂപ്പുകൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0036",
       "question": "NULM ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടാണ്?",
       "options": [
         "വിമാന സേന",
@@ -433,163 +13,43 @@
       "difficulty": "medium"
     },
     {
-      "id": "sws_0037",
-      "question": "PM Suraksha Bima Yojana ഏത് തരം പരിരക്ഷയാണ് നൽകുന്നത്?",
+      "id": "sws_0004",
+      "question": "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി ഏത് മേഖലയുമായി ബന്ധപ്പെട്ടതാണ്?",
       "options": [
-        "മാത്രം വിദ്യാഭ്യാസ ഇൻഷുറൻസ്",
-        "അപകട ഇൻഷുറൻസ്",
-        "മാത്രം വാഹന നികുതി ഇളവ്",
-        "മാത്രം കൃഷിവായ്പ"
+        "ആരോഗ്യ ഇൻഷുറൻസ്",
+        "വിദ്യാഭ്യാസ സ്കോളർഷിപ്പ്",
+        "തൊഴിൽവായ്പ",
+        "റോഡ് നിർമ്മാണം"
       ],
-      "answer": "അപകട ഇൻഷുറൻസ്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0038",
-      "question": "PM Jeevan Jyoti Bima Yojana ഏത് തരത്തിലുള്ള ഇൻഷുറൻസാണ്?",
-      "options": [
-        "വീട് ഇൻഷുറൻസ്",
-        "വിള ഇൻഷുറൻസ്",
-        "ജീവൻ ഇൻഷുറൻസ്",
-        "യാത്ര ഇൻഷുറൻസ്"
-      ],
-      "answer": "ജീവൻ ഇൻഷുറൻസ്",
+      "answer": "ആരോഗ്യ ഇൻഷുറൻസ്",
       "difficulty": "easy"
     },
     {
       "id": "sws_0039",
-      "question": "Sugamya Bharat Abhiyan ലക്ഷ്യം എന്ത്?",
+      "question": "Rashtriya Swasthya Bima Yojana replaced by?",
       "options": [
-        "കാർഷിക കയറ്റുമതി",
-        "ഭിന്നശേഷിക്കാർക്ക് സൗകര്യപ്രദമായ ആക്‌സസിബിലിറ്റി",
-        "ആണവ നിലയം നിർമ്മാണം",
-        "റെയിൽവേ സ്വകാര്യവൽക്കരണം"
+        "PM-JAY",
+        "PM-KISAN",
+        "UDAN",
+        "GST"
       ],
-      "answer": "ഭിന്നശേഷിക്കാർക്ക് സൗകര്യപ്രദമായ ആക്‌സസിബിലിറ്റി",
+      "answer": "PM-JAY",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0002",
+      "question": "Janani Shishu Suraksha Karyakram ഏത് മേഖലയിലുണ്ട്?",
+      "options": [
+        "റോഡ് സുരക്ഷ",
+        "നഗര ഗതാഗതം",
+        "ഗർഭിണി-ശിശു ആരോഗ്യ സേവനങ്ങൾ",
+        "വ്യവസായ വികസനം"
+      ],
+      "answer": "ഗർഭിണി-ശിശു ആരോഗ്യ സേവനങ്ങൾ",
       "difficulty": "medium"
-    },
-    {
-      "id": "sws_0040",
-      "question": "One Stop Centre Scheme പ്രധാനമായും ആര്ക്കായി?",
-      "options": [
-        "പീഡനമനുഭവിക്കുന്ന സ്ത്രീകൾക്ക് ഏകകേന്ദ്ര സഹായം",
-        "കയറ്റുമതി സബ്സിഡി",
-        "വിദ്യാർത്ഥി ഹോസ്റ്റൽ",
-        "കർഷകർക്കുള്ള വായ്പ"
-      ],
-      "answer": "പീഡനമനുഭവിക്കുന്ന സ്ത്രീകൾക്ക് ഏകകേന്ദ്ര സഹായം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0041",
-      "question": "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതിയുടെ പ്രധാന ലക്ഷ്യം?",
-      "options": [
-        "കാർഷിക വായ്പ",
-        "വയാഭ്യാസം",
-        "റോഡ്",
-        "ആരോഗ്യ ഇൻഷുറൻസ്"
-      ],
-      "answer": "ആരോഗ്യ ഇൻഷുറൻസ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0042",
-      "question": "കുടുംബശ്രീ പദ്ധതി ആരംഭിച്ച വർഷം?",
-      "options": [
-        "2001",
-        "2005",
-        "1998",
-        "1995"
-      ],
-      "answer": "1998",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0043",
-      "question": "ലൈഫ് മിഷൻ പദ്ധതിയുടെ പ്രധാന ലക്ഷ്യം?",
-      "options": [
-        "കാർഷിക subsidies",
-        "യാത്ര",
-        "വിദ്യാഭ്യാസം",
-        "ഭവനരഹിതർക്ക് വീട്"
-      ],
-      "answer": "ഭവനരഹിതർക്ക് വീട്",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0044",
-      "question": "ഹരിത കേരളം മിഷൻ ആരംഭിച്ച വർഷം?",
-      "options": [
-        "2015",
-        "2019",
-        "2017",
-        "2020"
-      ],
-      "answer": "2017",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0045",
-      "question": "അമ്മത്തൊഴിൽ പദ്ധതി ആരംഭിച്ച വർഷം?",
-      "options": [
-        "2008",
-        "2012",
-        "2015",
-        "2010"
-      ],
-      "answer": "2010",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0046",
-      "question": "കുടുംബശ്രീയുടെ മുഖ്യ ലക്ഷ്യം?",
-      "options": [
-        "വയാഭ്യാസം മാത്രം",
-        "വ്യവസായം മാത്രം",
-        "യാത്ര",
-        "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും"
-      ],
-      "answer": "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും",
-      "difficulty": "easy"
     },
     {
       "id": "sws_0047",
-      "question": "കerala Social Security Mission established?",
-      "options": [
-        "2010",
-        "2005",
-        "2008",
-        "2012"
-      ],
-      "answer": "2008",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0048",
-      "question": "കാരുണ്യ ബെനവലന്റ് ഫണ്ട് എന്തിനാണ്?",
-      "options": [
-        "Education മാത്രം",
-        "Sports",
-        "ചികിത്സാ സഹായം",
-        "Travel"
-      ],
-      "answer": "ചികിത്സാ സഹായം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0049",
-      "question": "കേരള വനിതാ കമ്മീഷൻ സ്ഥാപിതമായ വർഷം?",
-      "options": [
-        "1996",
-        "2000",
-        "1990",
-        "2005"
-      ],
-      "answer": "1996",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0050",
       "question": "മിഡ്-ഡേ മീൽ പദ്ധതി ദേശീയ ആരംഭ വർഷം?",
       "options": [
         "2010",
@@ -601,283 +61,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "sws_0051",
-      "question": "ദേശീയ സാമൂഹിക സഹായ പരിപാടി (NSAP) ഉൾപ്പെടുന്നത് എന്തൊക്കെ?",
-      "options": [
-        "Only housing",
-        "Only crop insurance",
-        "Only travel",
-        "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ"
-      ],
-      "answer": "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0052",
-      "question": "PMMVY (മാതൃത്വ ലാഭം) എന്ത് നൽകുന്നു?",
-      "options": [
-        "₹500 മാത്രം",
-        "₹1000 മാത്രം",
-        "₹50000 lump sum",
-        "₹5000 in instalments"
-      ],
-      "answer": "₹5000 in instalments",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0053",
-      "question": "അംഗൻവാടി സേവനങ്ങൾ ഏത് പദ്ധതിക്ക് കീഴിൽ?",
-      "options": [
-        "GST",
-        "MGNREGA",
-        "ICDS",
-        "PM-JAY"
-      ],
-      "answer": "ICDS",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0054",
-      "question": "ദേശീയ ഭക്ഷ്യ സുരക്ഷാ നിയമം പ്രാബല്യത്തിൽ വന്ന വർഷം?",
-      "options": [
-        "2015",
-        "2005",
-        "2010",
-        "2013"
-      ],
-      "answer": "2013",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0055",
-      "question": "അംത്യോദയ അന്ന യോജന എന്തിനാണ്?",
-      "options": [
-        "ഏറ്റവും ദരിദ്ര കുടുംബങ്ങൾ",
-        "All citizens",
-        "Only students",
-        "Only farmers"
-      ],
-      "answer": "ഏറ്റവും ദരിദ്ര കുടുംബങ്ങൾ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0056",
-      "question": "PM ഗരീബ് കല്യാൺ അന്ന യോജന നൽകുന്നത്?",
-      "options": [
-        "Free land",
-        "പ്രതിസന്ധി കാലത്ത് സൗജന്യ ഭക്ഷ്യധാന്യങ്ങൾ",
-        "Free cars",
-        "Free laptops"
-      ],
-      "answer": "പ്രതിസന്ധി കാലത്ത് സൗജന്യ ഭക്ഷ്യധാന്യങ്ങൾ",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0057",
-      "question": "ദേശീയ ഗ്രാമീണ ജീവിതോപാധി മിഷൻ പുനർനാമകരണം ചെയ്തത് എന്ത് പേരിലേക്ക്?",
-      "options": [
-        "PM-KISAN",
-        "UDAN",
-        "PM-JAY",
-        "DAY-NRLM"
-      ],
-      "answer": "DAY-NRLM",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0058",
-      "question": "കേരള കുടുംബശ്രീ എന്താണ്?",
-      "options": [
-        "Men's club",
-        "Trade union മാത്രം",
-        "സ്ത്രീകളുടെ സാമൂഹിക സംഘടന",
-        "Political party"
-      ],
-      "answer": "സ്ത്രീകളുടെ സാമൂഹിക സംഘടന",
-      "difficulty": "easy"
-    },
-    {
-      "id": "sws_0059",
-      "question": "കേരള EMS വീട് പദ്ധതി ഏത് പേരിൽ അറിയപ്പെടുന്നു?",
-      "options": [
-        "UDAN",
-        "MGNREGA",
-        "PMAY മാത്രം",
-        "ലൈഫ് മിഷൻ/LIFE"
-      ],
-      "answer": "ലൈഫ് മിഷൻ/LIFE",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0060",
-      "question": "കേരളത്തിലെ കാരുണ്യ പ്ലസ് ഏതിന് കീഴിലാണ്?",
-      "options": [
-        "ആരോഗ്യ സഹായം",
-        "Education",
-        "Transport",
-        "പ്രതിരോധം"
-      ],
-      "answer": "ആരോഗ്യ സഹായം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0061",
-      "question": "National Health Mission ആരംഭിച്ച വർഷം?",
-      "options": [
-        "2013",
-        "2015",
-        "2005",
-        "2010"
-      ],
-      "answer": "2013",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0062",
-      "question": "രാഷ്ട്രീയ സ്വാസ്ഥ്യ ബീമ യോജനയ്ക്ക് പകരം എന്ത് വന്നു?",
-      "options": [
-        "PM-JAY",
-        "UDAN",
-        "GST",
-        "PM-KISAN"
-      ],
-      "answer": "PM-JAY",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0063",
-      "question": "സ്റ്റാൻഡ് അപ്പ് ഇന്ത്യ എന്തിനാണ്?",
-      "options": [
-        "Only farmers",
-        "Only defence",
-        "Only students",
-        "എസ്.സി/എസ്.ടി, സ്ത്രീ സംരംഭകർ"
-      ],
-      "answer": "എസ്.സി/എസ്.ടി, സ്ത്രീ സംരംഭകർ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0064",
-      "question": "ദേശീയ വികലാംഗ ധന സഹായ കോർപ്പറേഷൻ എന്തിനാണ്?",
-      "options": [
-        "Exporters",
-        "റെയിൽവേ",
-        "വികലാംഗ ക്ഷേമം",
-        "Farmers"
-      ],
-      "answer": "വികലാംഗ ക്ഷേമം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0065",
-      "question": "കേരള SC/ST വികസന വകുപ്പ് പദ്ധതികളിൽ ഉൾപ്പെടുന്നത് എന്തൊക്കെ?",
-      "options": [
-        "സിനിമ മാത്രം",
-        "വിദ്യാഭ്യാസ ഇളവുകൾ",
-        "കായികം മാത്രം",
-        "Only ports"
-      ],
-      "answer": "വിദ്യാഭ്യാസ ഇളവുകൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0066",
-      "question": "കേരള വാർദ്ധക്യ പെൻഷൻ പ്രായ മാനദണ്ഡം (ഏതാണ്ട്)?",
-      "options": [
-        "50 years",
-        "40 years",
-        "60 years",
-        "70 years മാത്രം"
-      ],
-      "answer": "60 years",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0067",
-      "question": "കേരളത്തിലെ വിധവാ പെൻഷൻ പദ്ധതി നടത്തുന്നത് ആരാണ്?",
-      "options": [
-        "Port Authority",
-        "Film Academy",
-        "Sports Council",
-        "Social Justice Department"
-      ],
-      "answer": "Social Justice Department",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0068",
-      "question": "വികലാംഗ പെൻഷന് ആവശ്യമായ ഏറ്റവും കുറഞ്ഞ വികലാംഗത?",
-      "options": [
-        "10%",
-        "80% മാത്രം",
-        "40%",
-        "20%"
-      ],
-      "answer": "40%",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0069",
-      "question": "National Programme for Health Care of Elderly ആരംഭിച്ച വർഷം?",
-      "options": [
-        "2005",
-        "2000",
-        "2010",
-        "2015"
-      ],
-      "answer": "2010",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0070",
-      "question": "Kerala Palliative Care policy ലക്ഷ്യം?",
-      "options": [
-        "ജീവിതാവസാന പരിചരണം",
-        "Sports training",
-        "Mining",
-        "Ports"
-      ],
-      "answer": "ജീവിതാവസാന പരിചരണം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0071",
-      "question": "ഷീ-ബോക്സ് പോർട്ടൽ എന്തിനാണ്?",
-      "options": [
-        "Passport",
-        "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
-        "GST",
-        "Tax filing"
-      ],
-      "answer": "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0072",
-      "question": "വൺ സ്റ്റോപ്പ് സെന്റർ പദ്ധതി (സഖി) എന്തിനാണ്?",
-      "options": [
-        "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
-        "Farmers മാത്രം",
-        "Children sports",
-        "Men മാത്രം"
-      ],
-      "answer": "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0073",
-      "question": "ഉജ്ജ്വല പദ്ധതി എന്തിനാണ്?",
-      "options": [
-        "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
-        "LPG മാത്രം",
-        "Crop insurance",
-        "റോഡുകൾ"
-      ],
-      "answer": "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0074",
+      "id": "sws_0021",
       "question": "PM മാതൃ വന്ദന യോജന എന്താണ്?",
       "options": [
         "Crop insurance",
@@ -889,55 +73,31 @@
       "difficulty": "medium"
     },
     {
-      "id": "sws_0075",
-      "question": "ദേശീയ ക്രേഷ് പദ്ധതി എന്തിനാണ്?",
+      "id": "sws_0063",
+      "question": "National Food Security Act പാസാക്കിയ വർഷം ഏത്?",
       "options": [
-        "Elderly മാത്രം",
-        "Farmers മാത്രം",
-        "ജോലി ചെയ്യുന്ന സ്ത്രീകളുടെ കുട്ടികൾ",
-        "പ്രതിരോധം മാത്രം"
+        "2016",
+        "2009",
+        "2020",
+        "2013"
       ],
-      "answer": "ജോലി ചെയ്യുന്ന സ്ത്രീകളുടെ കുട്ടികൾ",
-      "difficulty": "hard"
+      "answer": "2013",
+      "difficulty": "easy"
     },
     {
-      "id": "sws_0076",
-      "question": "കോവിഡ് കാലത്തെ കേരളത്തിന്റെ സുഭിക്ഷ കേരളം എന്തുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "id": "sws_0100",
+      "question": "ലൈഫ് മിഷൻ പദ്ധതിയുടെ പ്രധാന ലക്ഷ്യം?",
       "options": [
-        "Space mission",
-        "പ്രതിരോധം",
-        "ചലച്ചിത്രോത്സവം",
-        "ഭക്ഷ്യ സുരക്ഷ"
+        "കാർഷിക subsidies",
+        "യാത്ര",
+        "വിദ്യാഭ്യാസം",
+        "ഭവനരഹിതർക്ക് വീട്"
       ],
-      "answer": "ഭക്ഷ്യ സുരക്ഷ",
-      "difficulty": "medium"
+      "answer": "ഭവനരഹിതർക്ക് വീട്",
+      "difficulty": "easy"
     },
     {
-      "id": "sws_0077",
-      "question": "ആയുഷ്മാൻ ഭാരത് എത്ര പേർക്ക് പ്രയോജനം ലഭിക്കാൻ ലക്ഷ്യമിട്ടിരിക്കുന്നു (ഏതാണ്ട്)?",
-      "options": [
-        "10 crore",
-        "50 crore",
-        "100 crore",
-        "1 crore"
-      ],
-      "answer": "50 crore",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0078",
-      "question": "PM-JAY എംപാനൽ ചെയ്ത ആശുപത്രികൾ എന്ത് നൽകുന്നു?",
-      "options": [
-        "പണമില്ലാത്ത ചികിത്സ",
-        "Only medicines outside",
-        "Only diagnostics",
-        "Only consultation"
-      ],
-      "answer": "പണമില്ലാത്ത ചികിത്സ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0079",
+      "id": "sws_0062",
       "question": "ദേശീയ ആയുഷ് മിഷൻ എന്തിനാണ്?",
       "options": [
         "Allopathy മാത്രം",
@@ -949,43 +109,115 @@
       "difficulty": "hard"
     },
     {
-      "id": "sws_0080",
-      "question": "Kerala Mental Health Policy ലക്ഷ്യം?",
+      "id": "sws_0016",
+      "question": "Snehapoorvam സ്കോളർഷിപ്പ് കേരളത്തിൽ ഏതു കുട്ടികൾക്കായി?",
       "options": [
-        "സിനിമ മാത്രം",
-        "കായികം മാത്രം",
-        "Only mining",
-        "സാമൂഹിക മാനസികാരോഗ്യം"
+        "വിദേശ വിദ്യാർത്ഥികൾ",
+        "ഐഐടി വിദ്യാർത്ഥികൾ",
+        "അനാഥരും സാമ്പത്തികമായി പിന്നാക്കവുമായ കുട്ടികൾ",
+        "കായികതാരങ്ങൾ"
       ],
-      "answer": "സാമൂഹിക മാനസികാരോഗ്യം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0081",
-      "question": "സമഗ്ര ശിശു വികസന സേവനങ്ങളുടെ (ICDS) ഘടകങ്ങൾ ഉൾപ്പെടുന്നത് എന്തൊക്കെ?",
-      "options": [
-        "Only GST",
-        "Only roads",
-        "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
-        "Only defence"
-      ],
-      "answer": "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
+      "answer": "അനാഥരും സാമ്പത്തികമായി പിന്നാക്കവുമായ കുട്ടികൾ",
       "difficulty": "medium"
     },
     {
-      "id": "sws_0082",
-      "question": "National Nutrition Strategy ആരംഭിച്ച വർഷം?",
+      "id": "sws_0065",
+      "question": "Kerala SC/ST Development Department schemes include?",
       "options": [
-        "2019",
-        "2015",
-        "2017",
-        "2010"
+        "കായികം മാത്രം",
+        "Only ports",
+        "വിദ്യാഭ്യാസ ഇളവുകൾ",
+        "സിനിമ മാത്രം"
       ],
-      "answer": "2017",
+      "answer": "വിദ്യാഭ്യാസ ഇളവുകൾ",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0083",
+      "id": "sws_0044",
+      "question": "കാരുണ്യ ബെനവലന്റ് ഫണ്ട് എന്തിനാണ്?",
+      "options": [
+        "Education മാത്രം",
+        "Sports",
+        "ചികിത്സാ സഹായം",
+        "Travel"
+      ],
+      "answer": "ചികിത്സാ സഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0122",
+      "question": "കേരള വാർദ്ധക്യ പെൻഷൻ പ്രായ മാനദണ്ഡം (ഏതാണ്ട്)?",
+      "options": [
+        "50 years",
+        "40 years",
+        "60 years",
+        "70 years മാത്രം"
+      ],
+      "answer": "60 years",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0006",
+      "question": "കുടുംബശ്രീ പദ്ധതി കേരളത്തിൽ ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "1995",
+        "2005",
+        "1998",
+        "2001"
+      ],
+      "answer": "1998",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0041",
+      "question": "PMMVY (മാതൃത്വ ലാഭം) എന്ത് നൽകുന്നു?",
+      "options": [
+        "₹500 മാത്രം",
+        "₹1000 മാത്രം",
+        "₹50000 lump sum",
+        "₹5000 in instalments"
+      ],
+      "answer": "₹5000 in instalments",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0011",
+      "question": "One Nation One Ration Card പദ്ധതിയുടെ സാമൂഹ്യക്ഷേമ പ്രാധാന്യം എന്ത്?",
+      "options": [
+        "ഒറ്റ മെഡിക്കൽ കോളേജ്",
+        "ഒറ്റ നികുതി സ്ലാബ്",
+        "മാറ്റം സംഭവിച്ചാലും ഭക്ഷ്യസുരക്ഷ തുടരണം",
+        "ഒറ്റ ബാങ്ക് ലോൺ"
+      ],
+      "answer": "മാറ്റം സംഭവിച്ചാലും ഭക്ഷ്യസുരക്ഷ തുടരണം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0087",
+      "question": "വൺ സ്റ്റോപ്പ് സെന്റർ പദ്ധതി (സഖി) എന്തിനാണ്?",
+      "options": [
+        "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
+        "Farmers മാത്രം",
+        "Children sports",
+        "Men മാത്രം"
+      ],
+      "answer": "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0097",
+      "question": "National Social Assistance Programme old age pension amount (central share approx)?",
+      "options": [
+        "₹5000",
+        "₹50",
+        "₹50000",
+        "₹200-500 varies by state"
+      ],
+      "answer": "₹200-500 varies by state",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0061",
       "question": "പോഷൺ അഭിയാൻ ലക്ഷ്യം കുറയ്ക്കേണ്ടത്?",
       "options": [
         "Tax evasion",
@@ -997,19 +229,91 @@
       "difficulty": "medium"
     },
     {
-      "id": "sws_0084",
-      "question": "Kerala's Haritha Karma Sena ബന്ധപ്പെട്ടത്?",
+      "id": "sws_0046",
+      "question": "National Health Mission ആരംഭിച്ച വർഷം?",
       "options": [
-        "Ports മാത്രം",
-        "മാലിന്യ നിയന്ത്രണം",
-        "ബഹിരാകാശം",
-        "പ്രതിരോധം"
+        "2013",
+        "2015",
+        "2005",
+        "2010"
       ],
-      "answer": "മാലിന്യ നിയന്ത്രണം",
+      "answer": "2013",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0054",
+      "question": "ഹരിത കേരളം മിഷൻ ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2015",
+        "2019",
+        "2017",
+        "2020"
+      ],
+      "answer": "2017",
       "difficulty": "medium"
     },
     {
-      "id": "sws_0085",
+      "id": "sws_0104",
+      "question": "PM-JAY empaneled hospitals provide?",
+      "options": [
+        "Only medicines outside",
+        "പണമില്ലാത്ത ചികിത്സ",
+        "Only consultation",
+        "Only diagnostics"
+      ],
+      "answer": "പണമില്ലാത്ത ചികിത്സ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0015",
+      "question": "Mission Indradhanush പ്രധാനമായും എന്തിനാണ്?",
+      "options": [
+        "ഡിജിറ്റൽ ബാങ്കിംഗ്",
+        "പൂർണ്ണ വാക്സിനേഷൻ വ്യാപനം",
+        "തൊഴിൽ പരിശീലനം",
+        "ഭവന പദ്ധതി"
+      ],
+      "answer": "പൂർണ്ണ വാക്സിനേഷൻ വ്യാപനം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0106",
+      "question": "PMMVY (Maternity Benefit) provides?",
+      "options": [
+        "₹1000 മാത്രം",
+        "₹50000 lump sum",
+        "₹500 മാത്രം",
+        "₹5000 in instalments"
+      ],
+      "answer": "₹5000 in instalments",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0050",
+      "question": "PM-JAY എംപാനൽ ചെയ്ത ആശുപത്രികൾ എന്ത് നൽകുന്നു?",
+      "options": [
+        "പണമില്ലാത്ത ചികിത്സ",
+        "Only medicines outside",
+        "Only diagnostics",
+        "Only consultation"
+      ],
+      "answer": "പണമില്ലാത്ത ചികിത്സ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0071",
+      "question": "e-Shram പോർട്ടൽ പ്രധാനമായും എന്തിനാണ്?",
+      "options": [
+        "വിദ്യാർത്ഥി പ്രവേശനം",
+        "ഇലക്ട്രിസിറ്റി ബിൽ അടയ്ക്കൽ",
+        "അസംഘടിത തൊഴിലാളികളുടെ ദേശീയ രജിസ്ട്രേഷൻ",
+        "പാസ്‌പോർട്ട് വിതരണം"
+      ],
+      "answer": "അസംഘടിത തൊഴിലാളികളുടെ ദേശീയ രജിസ്ട്രേഷൻ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0112",
       "question": "ദേശീയ സാമൂഹിക സഹായ പരിപാടിയിലെ വാർദ്ധക്യ പെൻഷൻ തുക (കേന്ദ്ര വിഹിതം, ഏതാണ്ട്)?",
       "options": [
         "₹5000",
@@ -1021,103 +325,91 @@
       "difficulty": "hard"
     },
     {
-      "id": "sws_0086",
-      "question": "PM SVANidhi പരമാവധി കടം തുക (ഏതാണ്ട്)?",
+      "id": "sws_0013",
+      "question": "PM Matru Vandana Yojana പ്രധാനമായും ആര്‍ക്കുള്ളതാണ്?",
       "options": [
-        "₹1 crore",
-        "₹10,000 first tranche",
-        "₹1000",
-        "₹10 lakh"
+        "വയോജനങ്ങൾ",
+        "ഗർഭിണികൾക്കും മുലയൂട്ടുന്ന മാതാക്കൾക്കും",
+        "തൊഴിലാളികൾ",
+        "വ്യവസായികൾ"
       ],
-      "answer": "₹10,000 first tranche",
+      "answer": "ഗർഭിണികൾക്കും മുലയൂട്ടുന്ന മാതാക്കൾക്കും",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0007",
+      "question": "MGNREGA നിയമപ്രകാരമുള്ള കുറഞ്ഞ തൊഴിൽ ഉറപ്പ് എത്ര ദിവസം?",
+      "options": [
+        "200 ദിവസം",
+        "50 ദിവസം",
+        "150 ദിവസം",
+        "100 ദിവസം"
+      ],
+      "answer": "100 ദിവസം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0042",
+      "question": "Ayushman Bharat PM-JAY ഏത് തരം സാമൂഹ്യസുരക്ഷ നൽകുന്നു?",
+      "options": [
+        "വീട് വായ്പ",
+        "ദരിദ്ര കുടുംബങ്ങൾക്ക് ആശുപത്രി ചികിത്സാ ഇൻഷുറൻസ്",
+        "വിദ്യാഭ്യാസ ഫീസ് റീബേറ്റ്",
+        "കാർ വായ്പ"
+      ],
+      "answer": "ദരിദ്ര കുടുംബങ്ങൾക്ക് ആശുപത്രി ചികിത്സാ ഇൻഷുറൻസ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0029",
+      "question": "National Social Assistance Programme (NSAP) includes?",
+      "options": [
+        "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ",
+        "Only housing",
+        "Only travel",
+        "Only crop insurance"
+      ],
+      "answer": "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0087",
-      "question": "ദേശീയ ഗ്രാമീണ കുടിവെള്ള പരിപാടി ഇപ്പോൾ ഏതിന്റെ ഭാഗമാണ്?",
+      "id": "sws_0084",
+      "question": "Widow Pension scheme in Kerala administered by?",
       "options": [
-        "UDAN",
-        "PM-KISAN",
-        "GST",
-        "Jal Jeevan Mission"
+        "Social Justice Department",
+        "Film Academy",
+        "Sports Council",
+        "Port Authority"
       ],
-      "answer": "Jal Jeevan Mission",
+      "answer": "Social Justice Department",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0088",
-      "question": "കേരളത്തിന്റെ വയോമിത്രം എന്തിനാണ്?",
+      "id": "sws_0117",
+      "question": "Kerala Mental Health Policy ലക്ഷ്യം?",
       "options": [
-        "Youth sports",
-        "Infants മാത്രം",
-        "വയോജന പരിചരണ സേവനങ്ങൾ",
-        "പ്രതിരോധം"
+        "സിനിമ മാത്രം",
+        "കായികം മാത്രം",
+        "Only mining",
+        "സാമൂഹിക മാനസികാരോഗ്യം"
       ],
-      "answer": "വയോജന പരിചരണ സേവനങ്ങൾ",
+      "answer": "സാമൂഹിക മാനസികാരോഗ്യം",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0089",
-      "question": "ദേശീയ കുട്ടികളുടെ പ്രവർത്തന പദ്ധതി ഏതിന് കീഴിലാണ്?",
+      "id": "sws_0114",
+      "question": "കുടുംബശ്രീയുടെ മുഖ്യ ലക്ഷ്യം എന്ത്?",
       "options": [
-        "External Affairs",
-        "Ministry of Women and Child Development",
-        "പ്രതിരോധം",
-        "റെയിൽവേ"
+        "ആണവഗവേഷണം",
+        "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും",
+        "വിമാനയാനം",
+        "ആയുധപരിശീലനം"
       ],
-      "answer": "Ministry of Women and Child Development",
-      "difficulty": "hard"
+      "answer": "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും",
+      "difficulty": "easy"
     },
     {
-      "id": "sws_0090",
-      "question": "PM CARES for Children പദ്ധതി എന്തിനാണ്?",
-      "options": [
-        "All students",
-        "All farmers",
-        "All soldiers",
-        "കോവിഡ് അനാഥരായ കുട്ടികൾ"
-      ],
-      "answer": "കോവിഡ് അനാഥരായ കുട്ടികൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0091",
-      "question": "കേരള ബിൽഡിംഗ് ആൻഡ് ഓതർ കൺസ്ട്രക്ഷൻ വർക്കേഴ്സ് വelfare ബോർഡ് എന്തിനാണ്?",
-      "options": [
-        "Lawyers മാത്രം",
-        "IT workers",
-        "Doctors മാത്രം",
-        "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം"
-      ],
-      "answer": "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0092",
-      "question": "ദേശീയ കുടുംബ ലാഭ പദ്ധതി പ്രാഥമിക ഉപജീവനക്കാരന്റെ മരണത്തില് എന്ത് നൽകുന്നു?",
-      "options": [
-        "₹5000 monthly",
-        "₹100",
-        "₹1 lakh monthly",
-        "₹20000 lump sum"
-      ],
-      "answer": "₹20000 lump sum",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0093",
-      "question": "കേരളത്തിന്റെ സ്നേഹപൂർവം എന്തിനാണ്?",
-      "options": [
-        "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
-        "Ports",
-        "Mining",
-        "Sports മാത്രം"
-      ],
-      "answer": "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0094",
+      "id": "sws_0079",
       "question": "ദേശീയ ജീവിതോപാധി മിഷന്റെ നഗര ഘടകം ഏതാണ്?",
       "options": [
         "DAY-NULM",
@@ -1129,19 +421,151 @@
       "difficulty": "hard"
     },
     {
-      "id": "sws_0095",
-      "question": "PM ഫോർമലൈസേഷൻ ഓഫ് മൈക്രോ ഫുഡ് പ്രോസസ്സിംഗ് പദ്ധതി എന്തിനാണ്?",
+      "id": "sws_0005",
+      "question": "ഉജ്ജ്വല പദ്ധതി എന്തിനാണ്?",
       "options": [
-        "ബഹിരാകാശം",
-        "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
-        "പ്രതിരോധം",
-        "Large steel plants"
+        "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
+        "LPG മാത്രം",
+        "Crop insurance",
+        "റോഡുകൾ"
       ],
-      "answer": "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
+      "answer": "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0096",
+      "id": "sws_0131",
+      "question": "Kerala's Karunya Plus under?",
+      "options": [
+        "Education",
+        "ആരോഗ്യ സഹായം",
+        "പ്രതിരോധം",
+        "Transport"
+      ],
+      "answer": "ആരോഗ്യ സഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0073",
+      "question": "One Stop Centre scheme (Sakhi) for?",
+      "options": [
+        "Men മാത്രം",
+        "Farmers മാത്രം",
+        "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
+        "Children sports"
+      ],
+      "answer": "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0020",
+      "question": "ലൈഫ് മിഷൻ കേരളത്തിൽ പ്രധാനമായും ഏതിനാണ്?",
+      "options": [
+        "ഭവനരഹിതർക്കുള്ള വീട്",
+        "കാർഷിക ഇൻഷുറൻസ്",
+        "വ്യവസായ സബ്സിഡി",
+        "വിദ്യാഭ്യാസ വായ്പ"
+      ],
+      "answer": "ഭവനരഹിതർക്കുള്ള വീട്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0120",
+      "question": "Kerala's Vayomithram for?",
+      "options": [
+        "പ്രതിരോധം",
+        "Infants മാത്രം",
+        "Youth sports",
+        "വയോജന പരിചരണ സേവനങ്ങൾ"
+      ],
+      "answer": "വയോജന പരിചരണ സേവനങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0032",
+      "question": "Thalolam പദ്ധതി കേരളത്തിൽ ഏത് ആവശ്യവുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "കാർഷിക യന്ത്രവത്കരണം",
+        "ഗുരുതര ആരോഗ്യപ്രശ്നമുള്ള കുട്ടികൾക്ക് ധനസഹായം",
+        "തൊഴിൽ പരിശീലനം",
+        "ഉയർന്ന വിദ്യാഭ്യാസ വായ്പ"
+      ],
+      "answer": "ഗുരുതര ആരോഗ്യപ്രശ്നമുള്ള കുട്ടികൾക്ക് ധനസഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0102",
+      "question": "ദേശീയ കുട്ടികളുടെ പ്രവർത്തന പദ്ധതി ഏതിന് കീഴിലാണ്?",
+      "options": [
+        "External Affairs",
+        "Ministry of Women and Child Development",
+        "പ്രതിരോധം",
+        "റെയിൽവേ"
+      ],
+      "answer": "Ministry of Women and Child Development",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0123",
+      "question": "PM Jeevan Jyoti Bima Yojana ഏത് തരത്തിലുള്ള ഇൻഷുറൻസാണ്?",
+      "options": [
+        "വീട് ഇൻഷുറൻസ്",
+        "വിള ഇൻഷുറൻസ്",
+        "ജീവൻ ഇൻഷുറൻസ്",
+        "യാത്ര ഇൻഷുറൻസ്"
+      ],
+      "answer": "ജീവൻ ഇൻഷുറൻസ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0137",
+      "question": "കേരള കുടുംബശ്രീ എന്താണ്?",
+      "options": [
+        "Men's club",
+        "Trade union മാത്രം",
+        "സ്ത്രീകളുടെ സാമൂഹിക സംഘടന",
+        "Political party"
+      ],
+      "answer": "സ്ത്രീകളുടെ സാമൂഹിക സംഘടന",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0132",
+      "question": "ദേശീയ സാമൂഹിക സഹായ പരിപാടി (NSAP) ഉൾപ്പെടുന്നത് എന്തൊക്കെ?",
+      "options": [
+        "Only housing",
+        "Only crop insurance",
+        "Only travel",
+        "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ"
+      ],
+      "answer": "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0019",
+      "question": "ദേശീയ കുടുംബ ലാഭ പദ്ധതി പ്രാഥമിക ഉപജീവനക്കാരന്റെ മരണത്തില് എന്ത് നൽകുന്നു?",
+      "options": [
+        "₹5000 monthly",
+        "₹100",
+        "₹1 lakh monthly",
+        "₹20000 lump sum"
+      ],
+      "answer": "₹20000 lump sum",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0101",
+      "question": "Kerala Building and Other Construction Workers Welfare Board for?",
+      "options": [
+        "IT workers",
+        "Doctors മാത്രം",
+        "Lawyers മാത്രം",
+        "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം"
+      ],
+      "answer": "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0012",
       "question": "കേരളത്തിലെ കാരുണ്യ ആരോഗ്യ പദ്ധതി ആരംഭിച്ച വർഷം?",
       "options": [
         "2012",
@@ -1153,103 +577,187 @@
       "difficulty": "hard"
     },
     {
-      "id": "sws_0097",
-      "question": "National Social Assistance Programme ആരംഭിച്ച വർഷം?",
+      "id": "sws_0010",
+      "question": "DAY-NRLM ഏത് വിഭാഗത്തെ സാമ്പത്തികമായി ശക്തിപ്പെടുത്തുന്നു?",
       "options": [
-        "1999",
-        "2010",
-        "2015",
-        "2005"
+        "പ്രതിരോധ ഉദ്യോഗസ്ഥർ",
+        "വലിയ വ്യവസായ ഗ്രൂപ്പുകൾ",
+        "ഗ്രാമീണ സ്വയംസഹായ ഗ്രൂപ്പുകൾ",
+        "വിദേശ നിക്ഷേപകർ"
       ],
-      "answer": "1999",
+      "answer": "ഗ്രാമീണ സ്വയംസഹായ ഗ്രൂപ്പുകൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0034",
+      "question": "ഷീ-ബോക്സ് പോർട്ടൽ എന്തിനാണ്?",
+      "options": [
+        "Passport",
+        "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
+        "GST",
+        "Tax filing"
+      ],
+      "answer": "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0098",
-      "question": "PM ജനധൻ യോജനയിലെ കുറഞ്ഞ ബാലൻസ് ആവശ്യകത (ഗ്രാമീണ)?",
+      "id": "sws_0060",
+      "question": "ABHA നമ്പർ ഏത് ദൗത്യത്തിന്റെ ഭാഗമാണ്?",
       "options": [
-        "₹10000",
-        "₹50000",
-        "₹1 lakh",
-        "Zero balance allowed"
+        "Ayushman Bharat Digital Mission",
+        "Make in India",
+        "Skill India Mission",
+        "Swachh Bharat Mission"
       ],
-      "answer": "Zero balance allowed",
+      "answer": "Ayushman Bharat Digital Mission",
       "difficulty": "medium"
     },
     {
       "id": "sws_0099",
-      "question": "കേരളത്തിന്റെ ആശ്വാസകിരണം എന്തിനാണ്?",
+      "question": "ദേശീയ വികലാംഗ ധന സഹായ കോർപ്പറേഷൻ എന്തിനാണ്?",
       "options": [
-        "Film directors",
-        "Port workers",
-        "Sports coaches",
-        "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ"
+        "Exporters",
+        "റെയിൽവേ",
+        "വികലാംഗ ക്ഷേമം",
+        "Farmers"
       ],
-      "answer": "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ",
+      "answer": "വികലാംഗ ക്ഷേമം",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0100",
-      "question": "കerala സാമൂഹിക സുരക്ഷാ മിഷൻ ആരംഭിച്ച വർഷം?",
+      "id": "sws_0072",
+      "question": "Kerala Palliative Care policy ലക്ഷ്യം?",
       "options": [
-        "2012",
-        "2008",
-        "2010",
-        "2005"
+        "ജീവിതാവസാന പരിചരണം",
+        "Sports training",
+        "Mining",
+        "Ports"
       ],
-      "answer": "2008",
+      "answer": "ജീവിതാവസാന പരിചരണം",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0101",
-      "question": "Old Age Pension Kerala age criterion (approx)?",
+      "id": "sws_0017",
+      "question": "കേരളത്തിലെ വിധവാ പെൻഷൻ പദ്ധതി നടത്തുന്നത് ആരാണ്?",
       "options": [
-        "50 years",
-        "70 years മാത്രം",
-        "40 years",
-        "60 years"
+        "Port Authority",
+        "Film Academy",
+        "Sports Council",
+        "Social Justice Department"
       ],
-      "answer": "60 years",
+      "answer": "Social Justice Department",
       "difficulty": "hard"
     },
     {
-      "id": "sws_0102",
-      "question": "Kerala Women's Commission established?",
+      "id": "sws_0043",
+      "question": "PM Formalisation of Micro Food Processing scheme for?",
       "options": [
-        "1990",
-        "1996",
+        "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
+        "Large steel plants",
+        "ബഹിരാകാശം",
+        "പ്രതിരോധം"
+      ],
+      "answer": "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0035",
+      "question": "Karunya Benevolent Fund for?",
+      "options": [
+        "Education മാത്രം",
+        "ചികിത്സാ സഹായം",
+        "Sports",
+        "Travel"
+      ],
+      "answer": "ചികിത്സാ സഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0026",
+      "question": "National Programme for Health Care of Elderly ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2005",
         "2000",
-        "2005"
+        "2010",
+        "2015"
       ],
-      "answer": "1996",
+      "answer": "2010",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0049",
+      "question": "National Nutrition Strategy ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2019",
+        "2015",
+        "2017",
+        "2010"
+      ],
+      "answer": "2017",
       "difficulty": "hard"
     },
     {
       "id": "sws_0103",
-      "question": "Kerala's Subhiksha Keralam during COVID related to?",
+      "question": "ദേശീയ ഗ്രാമീണ കുടിവെള്ള പരിപാടി ഇപ്പോൾ ഏതിന്റെ ഭാഗമാണ്?",
       "options": [
-        "പ്രതിരോധം",
-        "Space mission",
-        "ഭക്ഷ്യ സുരക്ഷ",
-        "ചലച്ചിത്രോത്സവം"
-      ],
-      "answer": "ഭക്ഷ്യ സുരക്ഷ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0104",
-      "question": "Kerala EMS housing scheme known as?",
-      "options": [
-        "PMAY മാത്രം",
         "UDAN",
-        "ലൈഫ് മിഷൻ/LIFE",
-        "MGNREGA"
+        "PM-KISAN",
+        "GST",
+        "Jal Jeevan Mission"
       ],
-      "answer": "ലൈഫ് മിഷൻ/LIFE",
-      "difficulty": "medium"
+      "answer": "Jal Jeevan Mission",
+      "difficulty": "hard"
     },
     {
-      "id": "sws_0105",
+      "id": "sws_0059",
+      "question": "Janani Suraksha Yojanaയുടെ ലക്ഷ്യം എന്ത്?",
+      "options": [
+        "തൊഴിൽവായ്പ",
+        "കാർഷിക ഉൽപ്പാദന വർധന",
+        "ഡിജിറ്റൽ സാക്ഷരത",
+        "സുരക്ഷിത മാതൃത്വവും സ്ഥാപന പ്രസവവും പ്രോത്സാഹിപ്പിക്കൽ"
+      ],
+      "answer": "സുരക്ഷിത മാതൃത്വവും സ്ഥാപന പ്രസവവും പ്രോത്സാഹിപ്പിക്കൽ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0068",
+      "question": "Ujjawala scheme for?",
+      "options": [
+        "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
+        "LPG മാത്രം",
+        "റോഡുകൾ",
+        "Crop insurance"
+      ],
+      "answer": "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0130",
+      "question": "National Ayush Mission for?",
+      "options": [
+        "ആയുഷ് വ്യവസ്ഥകളുടെ പ്രോത്സാഹനം",
+        "പ്രതിരോധം",
+        "റെയിൽവേ",
+        "Allopathy മാത്രം"
+      ],
+      "answer": "ആയുഷ് വ്യവസ്ഥകളുടെ പ്രോത്സാഹനം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0127",
+      "question": "PM ഫോർമലൈസേഷൻ ഓഫ് മൈക്രോ ഫുഡ് പ്രോസസ്സിംഗ് പദ്ധതി എന്തിനാണ്?",
+      "options": [
+        "ബഹിരാകാശം",
+        "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
+        "പ്രതിരോധം",
+        "Large steel plants"
+      ],
+      "answer": "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0129",
       "question": "PM Jan Dhan minimum balance requirement (rural)?",
       "options": [
         "₹10000",
@@ -1261,15 +769,867 @@
       "difficulty": "medium"
     },
     {
-      "id": "sws_0106",
-      "question": "Rashtriya Swasthya Bima Yojana replaced by?",
+      "id": "sws_0053",
+      "question": "Kerala Women's Commission established?",
       "options": [
-        "PM-JAY",
+        "1990",
+        "1996",
+        "2000",
+        "2005"
+      ],
+      "answer": "1996",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0136",
+      "question": "Kerala's Sneha Purvam for?",
+      "options": [
+        "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
+        "Mining",
+        "Sports മാത്രം",
+        "Ports"
+      ],
+      "answer": "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0008",
+      "question": "National Social Assistance Programme ആരംഭിച്ച വർഷം?",
+      "options": [
+        "1999",
+        "2010",
+        "2015",
+        "2005"
+      ],
+      "answer": "1999",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0134",
+      "question": "ദേശീയ ഗ്രാമീണ ജീവിതോപാധി മിഷൻ പുനർനാമകരണം ചെയ്തത് എന്ത് പേരിലേക്ക്?",
+      "options": [
         "PM-KISAN",
         "UDAN",
-        "GST"
+        "PM-JAY",
+        "DAY-NRLM"
+      ],
+      "answer": "DAY-NRLM",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0109",
+      "question": "കേരളത്തിന്റെ സ്നേഹപൂർവം എന്തിനാണ്?",
+      "options": [
+        "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
+        "Ports",
+        "Mining",
+        "Sports മാത്രം"
+      ],
+      "answer": "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0095",
+      "question": "രാഷ്ട്രീയ സ്വാസ്ഥ്യ ബീമ യോജനയ്ക്ക് പകരം എന്ത് വന്നു?",
+      "options": [
+        "PM-JAY",
+        "UDAN",
+        "GST",
+        "PM-KISAN"
       ],
       "answer": "PM-JAY",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0025",
+      "question": "ദേശീയ ഭക്ഷ്യ സുരക്ഷാ നിയമം പ്രാബല്യത്തിൽ വന്ന വർഷം?",
+      "options": [
+        "2015",
+        "2005",
+        "2010",
+        "2013"
+      ],
+      "answer": "2013",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0038",
+      "question": "PM Suraksha Bima Yojana ഏത് തരം പരിരക്ഷയാണ് നൽകുന്നത്?",
+      "options": [
+        "മാത്രം വിദ്യാഭ്യാസ ഇൻഷുറൻസ്",
+        "അപകട ഇൻഷുറൻസ്",
+        "മാത്രം വാഹന നികുതി ഇളവ്",
+        "മാത്രം കൃഷിവായ്പ"
+      ],
+      "answer": "അപകട ഇൻഷുറൻസ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0074",
+      "question": "National Livelihood Mission urban component?",
+      "options": [
+        "PM-JAY",
+        "GST",
+        "DAY-NULM",
+        "DAY-NRLM"
+      ],
+      "answer": "DAY-NULM",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0045",
+      "question": "Aswasakiranam പദ്ധതി കേരളത്തിൽ ഏതു വിഭാഗത്തെ പിന്തുണയ്ക്കുന്നു?",
+      "options": [
+        "നിർമാണ തൊഴിലാളികൾ",
+        "ടൂറിസ്റ്റ് ഗൈഡുകൾ",
+        "കിടപ്പുരോഗികളെ പരിചരിക്കുന്ന പരിചാരകർ",
+        "ഐടി ജീവനക്കാർ"
+      ],
+      "answer": "കിടപ്പുരോഗികളെ പരിചരിക്കുന്ന പരിചാരകർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0096",
+      "question": "കുടുംബശ്രീ പദ്ധതി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2001",
+        "2005",
+        "1998",
+        "1995"
+      ],
+      "answer": "1998",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0067",
+      "question": "PM SVANidhi പരമാവധി കടം തുക (ഏതാണ്ട്)?",
+      "options": [
+        "₹1 crore",
+        "₹10,000 first tranche",
+        "₹1000",
+        "₹10 lakh"
+      ],
+      "answer": "₹10,000 first tranche",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0014",
+      "question": "National Food Security Act enacted?",
+      "options": [
+        "2013",
+        "2005",
+        "2010",
+        "2015"
+      ],
+      "answer": "2013",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0078",
+      "question": "Employees' State Insurance ഏത് തരത്തിലുള്ള സുരക്ഷ നൽകുന്നു?",
+      "options": [
+        "ഭാഷാപരിശീലനം",
+        "കാർഷിക യന്ത്രസഹായം",
+        "വീട് നിർമാണം",
+        "തൊഴിലാളികൾക്ക് ആരോഗ്യ-സാമൂഹ്യ സുരക്ഷ"
+      ],
+      "answer": "തൊഴിലാളികൾക്ക് ആരോഗ്യ-സാമൂഹ്യ സുരക്ഷ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0116",
+      "question": "Kerala's Karunya health scheme initial year?",
+      "options": [
+        "2012",
+        "1990",
+        "2020",
+        "2000"
+      ],
+      "answer": "2012",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0081",
+      "question": "PM ഗരീബ് കല്യാൺ അന്ന യോജന നൽകുന്നത്?",
+      "options": [
+        "Free land",
+        "പ്രതിസന്ധി കാലത്ത് സൗജന്യ ഭക്ഷ്യധാന്യങ്ങൾ",
+        "Free cars",
+        "Free laptops"
+      ],
+      "answer": "പ്രതിസന്ധി കാലത്ത് സൗജന്യ ഭക്ഷ്യധാന്യങ്ങൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0056",
+      "question": "Disability pension requires minimum disability?",
+      "options": [
+        "20%",
+        "80% മാത്രം",
+        "10%",
+        "40%"
+      ],
+      "answer": "40%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0040",
+      "question": "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതിയുടെ പ്രധാന ലക്ഷ്യം?",
+      "options": [
+        "കാർഷിക വായ്പ",
+        "വയാഭ്യാസം",
+        "റോഡ്",
+        "ആരോഗ്യ ഇൻഷുറൻസ്"
+      ],
+      "answer": "ആരോഗ്യ ഇൻഷുറൻസ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0024",
+      "question": "ICDS പ്രധാനമായും നടപ്പാക്കുന്ന കേന്ദ്രം ഏത്?",
+      "options": [
+        "അങ്കൻവാടി",
+        "റെയിൽവേ സ്റ്റേഷൻ",
+        "ബാങ്ക് ശാഖ",
+        "പോലീസ് സ്റ്റേഷൻ"
+      ],
+      "answer": "അങ്കൻവാടി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0080",
+      "question": "കുടുംബശ്രീയുടെ മുഖ്യ ലക്ഷ്യം?",
+      "options": [
+        "വയാഭ്യാസം മാത്രം",
+        "വ്യവസായം മാത്രം",
+        "യാത്ര",
+        "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും"
+      ],
+      "answer": "സ്ത്രീശാക്തീകരണവും ദാരിദ്ര്യനിവാരണവും",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0031",
+      "question": "Sugamya Bharat Abhiyan ലക്ഷ്യം എന്ത്?",
+      "options": [
+        "കാർഷിക കയറ്റുമതി",
+        "ഭിന്നശേഷിക്കാർക്ക് സൗകര്യപ്രദമായ ആക്‌സസിബിലിറ്റി",
+        "ആണവ നിലയം നിർമ്മാണം",
+        "റെയിൽവേ സ്വകാര്യവൽക്കരണം"
+      ],
+      "answer": "ഭിന്നശേഷിക്കാർക്ക് സൗകര്യപ്രദമായ ആക്‌സസിബിലിറ്റി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0057",
+      "question": "കേരള SC/ST വികസന വകുപ്പ് പദ്ധതികളിൽ ഉൾപ്പെടുന്നത് എന്തൊക്കെ?",
+      "options": [
+        "സിനിമ മാത്രം",
+        "വിദ്യാഭ്യാസ ഇളവുകൾ",
+        "കായികം മാത്രം",
+        "Only ports"
+      ],
+      "answer": "വിദ്യാഭ്യാസ ഇളവുകൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0090",
+      "question": "Rashtriya Swasthya Bima Yojana പ്രധാനമായി ഏത് വിഭാഗത്തെ ലക്ഷ്യമിട്ടു?",
+      "options": [
+        "കമ്പനി ഡയറക്ടർമാർ",
+        "ഉയർന്ന വരുമാനക്കാർ",
+        "മന്ത്രിമാർ",
+        "ദരിദ്ര കുടുംബങ്ങൾ"
+      ],
+      "answer": "ദരിദ്ര കുടുംബങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0022",
+      "question": "കേരള MEDISEP പദ്ധതി പ്രധാനമായും ആര്ക്കായി ആണ്?",
+      "options": [
+        "കേന്ദ്ര സൈനികർക്ക് മാത്രം",
+        "വിദ്യാർത്ഥികൾക്ക് മാത്രം",
+        "സംസ്ഥാന ജീവനക്കാരും പെൻഷൻക്കാർക്കും ആരോഗ്യ പരിരക്ഷ",
+        "സ്വകാര്യ ബാങ്ക് ജീവനക്കാർക്ക് മാത്രം"
+      ],
+      "answer": "സംസ്ഥാന ജീവനക്കാരും പെൻഷൻക്കാർക്കും ആരോഗ്യ പരിരക്ഷ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0033",
+      "question": "ICDS പദ്ധതിയുടെ പൂർണ്ണരൂപം എന്ത്?",
+      "options": [
+        "Indian Child Data Scheme",
+        "Infant Care Delivery Scheme",
+        "Integrated Child Development Services",
+        "Integrated Citizen Development System"
+      ],
+      "answer": "Integrated Child Development Services",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0051",
+      "question": "POSHAN Abhiyaan ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2018",
+        "2015",
+        "2021",
+        "2012"
+      ],
+      "answer": "2018",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0064",
+      "question": "PM CARES for Children scheme for?",
+      "options": [
+        "കോവിഡ് അനാഥരായ കുട്ടികൾ",
+        "All soldiers",
+        "All farmers",
+        "All students"
+      ],
+      "answer": "കോവിഡ് അനാഥരായ കുട്ടികൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0069",
+      "question": "PM SVANidhi collateral free loan up to?",
+      "options": [
+        "₹10,000 first tranche",
+        "₹1 crore",
+        "₹10 lakh",
+        "₹1000"
+      ],
+      "answer": "₹10,000 first tranche",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0052",
+      "question": "അമ്മത്തൊഴിൽ പദ്ധതി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2008",
+        "2012",
+        "2015",
+        "2010"
+      ],
+      "answer": "2010",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0119",
+      "question": "One Stop Centre Scheme പ്രധാനമായും ആര്ക്കായി?",
+      "options": [
+        "പീഡനമനുഭവിക്കുന്ന സ്ത്രീകൾക്ക് ഏകകേന്ദ്ര സഹായം",
+        "കയറ്റുമതി സബ്സിഡി",
+        "വിദ്യാർത്ഥി ഹോസ്റ്റൽ",
+        "കർഷകർക്കുള്ള വായ്പ"
+      ],
+      "answer": "പീഡനമനുഭവിക്കുന്ന സ്ത്രീകൾക്ക് ഏകകേന്ദ്ര സഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0048",
+      "question": "PM Shram Yogi Maandhan പദ്ധതി ഏത് വിഭാഗത്തിനാണ്?",
+      "options": [
+        "ഐടി എക്സിക്യൂട്ടീവുകൾ",
+        "അസംഘടിത മേഖലയിലെ തൊഴിലാളികളുടെ പെൻഷൻ",
+        "ജഡ്ജിമാർ",
+        "സർവകലാശാല വൈസ് ചാൻസലർമാർ"
+      ],
+      "answer": "അസംഘടിത മേഖലയിലെ തൊഴിലാളികളുടെ പെൻഷൻ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0018",
+      "question": "കേരളത്തിലെ എല്ലാ വയസ്സുകാരുടെയും ആരോഗ്യ സുരക്ഷ ഉറപ്പാക്കുന്ന പദ്ധതി ഏതാണ്?",
+      "options": [
+        "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി",
+        "ആയുഷ്മാൻ ഭാരത്",
+        "ജനനി സുരക്ഷ",
+        "അമ്മത്തൊഴിൽ പദ്ധതി"
+      ],
+      "answer": "കരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0037",
+      "question": "കേരളത്തിന്റെ ആശ്വാസകിരണം എന്തിനാണ്?",
+      "options": [
+        "Film directors",
+        "Port workers",
+        "Sports coaches",
+        "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ"
+      ],
+      "answer": "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0125",
+      "question": "കോവിഡ് കാലത്തെ കേരളത്തിന്റെ സുഭിക്ഷ കേരളം എന്തുമായി ബന്ധപ്പെട്ടതാണ്?",
+      "options": [
+        "Space mission",
+        "പ്രതിരോധം",
+        "ചലച്ചിത്രോത്സവം",
+        "ഭക്ഷ്യ സുരക്ഷ"
+      ],
+      "answer": "ഭക്ഷ്യ സുരക്ഷ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0086",
+      "question": "വികലാംഗ പെൻഷന് ആവശ്യമായ ഏറ്റവും കുറഞ്ഞ വികലാംഗത?",
+      "options": [
+        "10%",
+        "80% മാത്രം",
+        "40%",
+        "20%"
+      ],
+      "answer": "40%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0083",
+      "question": "IGNWPS ഏത് വിഭാഗത്തിനായുള്ള സഹായമാണ്?",
+      "options": [
+        "കായികതാരങ്ങൾ",
+        "വിധവകൾ",
+        "സർവീസ് ഉദ്യോഗസ്ഥർ",
+        "വിദ്യാർത്ഥികൾ"
+      ],
+      "answer": "വിധവകൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0133",
+      "question": "കേരള സാമൂഹ്യസുരക്ഷ പെൻഷനുകളുടെ പൊതുവായ ലക്ഷ്യം എന്താണ്?",
+      "options": [
+        "റെയിൽവേ വികസനം",
+        "അർഹരായ ദുർബല വിഭാഗങ്ങൾക്ക് മാസാന്ത സഹായം",
+        "വ്യവസായ ലൈസൻസിംഗ്",
+        "കയറ്റുമതി പ്രോത്സാഹനം"
+      ],
+      "answer": "അർഹരായ ദുർബല വിഭാഗങ്ങൾക്ക് മാസാന്ത സഹായം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0003",
+      "question": "Kerala's Subhiksha Keralam during COVID related to?",
+      "options": [
+        "പ്രതിരോധം",
+        "Space mission",
+        "ഭക്ഷ്യ സുരക്ഷ",
+        "ചലച്ചിത്രോത്സവം"
+      ],
+      "answer": "ഭക്ഷ്യ സുരക്ഷ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0036",
+      "question": "കerala സാമൂഹിക സുരക്ഷാ മിഷൻ ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2012",
+        "2008",
+        "2010",
+        "2005"
+      ],
+      "answer": "2008",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0094",
+      "question": "National Action Plan for Children under?",
+      "options": [
+        "പ്രതിരോധം",
+        "റെയിൽവേ",
+        "Ministry of Women and Child Development",
+        "External Affairs"
+      ],
+      "answer": "Ministry of Women and Child Development",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0108",
+      "question": "Vayomithram പദ്ധതി കേരളത്തിൽ പ്രധാനമായി ലക്ഷ്യമിടുന്നത് ആരെയാണ്?",
+      "options": [
+        "ചെറുകിട വ്യവസായികൾ",
+        "കർഷകർ",
+        "വിദ്യാർത്ഥികൾ",
+        "വയോജനങ്ങൾ"
+      ],
+      "answer": "വയോജനങ്ങൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0082",
+      "question": "National Social Assistance Programme (NSAP) ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "1995",
+        "2008",
+        "1988",
+        "2000"
+      ],
+      "answer": "1995",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0077",
+      "question": "IGNOAPS ഏത് വിഭാഗത്തിനായുള്ള പെൻഷൻ പദ്ധതിയാണ്?",
+      "options": [
+        "ഗർഭിണികൾ",
+        "വിദേശ തൊഴിലാളികൾ",
+        "വയോജനങ്ങൾ",
+        "ചെറുകിട വ്യവസായികൾ"
+      ],
+      "answer": "വയോജനങ്ങൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0023",
+      "question": "അംത്യോദയ അന്ന യോജന എന്തിനാണ്?",
+      "options": [
+        "ഏറ്റവും ദരിദ്ര കുടുംബങ്ങൾ",
+        "All citizens",
+        "Only students",
+        "Only farmers"
+      ],
+      "answer": "ഏറ്റവും ദരിദ്ര കുടുംബങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0085",
+      "question": "കേരള വനിതാ കമ്മീഷൻ സ്ഥാപിതമായ വർഷം?",
+      "options": [
+        "1996",
+        "2000",
+        "1990",
+        "2005"
+      ],
+      "answer": "1996",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0098",
+      "question": "സ്റ്റാൻഡ് അപ്പ് ഇന്ത്യ എന്തിനാണ്?",
+      "options": [
+        "Only farmers",
+        "Only defence",
+        "Only students",
+        "എസ്.സി/എസ്.ടി, സ്ത്രീ സംരംഭകർ"
+      ],
+      "answer": "എസ്.സി/എസ്.ടി, സ്ത്രീ സംരംഭകർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0135",
+      "question": "Kerala's Aswasakiranam for?",
+      "options": [
+        "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ",
+        "Port workers",
+        "Film directors",
+        "Sports coaches"
+      ],
+      "answer": "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0089",
+      "question": "കേരളത്തിന്റെ വയോമിത്രം എന്തിനാണ്?",
+      "options": [
+        "Youth sports",
+        "Infants മാത്രം",
+        "വയോജന പരിചരണ സേവനങ്ങൾ",
+        "പ്രതിരോധം"
+      ],
+      "answer": "വയോജന പരിചരണ സേവനങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0128",
+      "question": "Kerala EMS housing scheme known as?",
+      "options": [
+        "PMAY മാത്രം",
+        "UDAN",
+        "ലൈഫ് മിഷൻ/LIFE",
+        "MGNREGA"
+      ],
+      "answer": "ലൈഫ് മിഷൻ/LIFE",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0110",
+      "question": "IGNDPS ഏത് വിഭാഗത്തിനായുള്ള പദ്ധതിയാണ്?",
+      "options": [
+        "വാണിജ്യ ബാങ്കുകൾ",
+        "വിമാന പൈലറ്റുകൾ",
+        "കയറ്റുമതിക്കാർ",
+        "ഭിന്നശേഷിക്കാർ"
+      ],
+      "answer": "ഭിന്നശേഷിക്കാർ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0088",
+      "question": "Integrated Child Development Services (ICDS) components include?",
+      "options": [
+        "Only defence",
+        "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
+        "Only GST",
+        "Only roads"
+      ],
+      "answer": "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0091",
+      "question": "PM ജനധൻ യോജനയിലെ കുറഞ്ഞ ബാലൻസ് ആവശ്യകത (ഗ്രാമീണ)?",
+      "options": [
+        "₹10000",
+        "₹50000",
+        "₹1 lakh",
+        "Zero balance allowed"
+      ],
+      "answer": "Zero balance allowed",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0030",
+      "question": "ദേശീയ ക്രേഷ് പദ്ധതി എന്തിനാണ്?",
+      "options": [
+        "Elderly മാത്രം",
+        "Farmers മാത്രം",
+        "ജോലി ചെയ്യുന്ന സ്ത്രീകളുടെ കുട്ടികൾ",
+        "പ്രതിരോധം മാത്രം"
+      ],
+      "answer": "ജോലി ചെയ്യുന്ന സ്ത്രീകളുടെ കുട്ടികൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0126",
+      "question": "അംഗൻവാടി സേവനങ്ങൾ ഏത് പദ്ധതിക്ക് കീഴിൽ?",
+      "options": [
+        "GST",
+        "MGNREGA",
+        "ICDS",
+        "PM-JAY"
+      ],
+      "answer": "ICDS",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0105",
+      "question": "Ayushman Bharat covers how many beneficiaries (approx target)?",
+      "options": [
+        "100 crore",
+        "1 crore",
+        "10 crore",
+        "50 crore"
+      ],
+      "answer": "50 crore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0121",
+      "question": "സമഗ്ര ശിശു വികസന സേവനങ്ങളുടെ (ICDS) ഘടകങ്ങൾ ഉൾപ്പെടുന്നത് എന്തൊക്കെ?",
+      "options": [
+        "Only GST",
+        "Only roads",
+        "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
+        "Only defence"
+      ],
+      "answer": "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0009",
+      "question": "കerala Social Security Mission established?",
+      "options": [
+        "2010",
+        "2005",
+        "2008",
+        "2012"
+      ],
+      "answer": "2008",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0115",
+      "question": "National Family Benefit Scheme provides on death of primary breadwinner?",
+      "options": [
+        "₹100",
+        "₹1 lakh monthly",
+        "₹20000 lump sum",
+        "₹5000 monthly"
+      ],
+      "answer": "₹20000 lump sum",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0055",
+      "question": "National Family Benefit Schemeയിൽ സഹായം ലഭിക്കുക ഏത് സാഹചര്യത്തിൽ?",
+      "options": [
+        "വിദേശ പഠനത്തിന്",
+        "വീട് വാങ്ങുമ്പോൾ",
+        "കുടുംബത്തിലെ പ്രധാന ഉപജീവനകാരന്റെ മരണത്തിന് ശേഷം",
+        "കുട്ടി ജനനത്തിന് ശേഷം"
+      ],
+      "answer": "കുടുംബത്തിലെ പ്രധാന ഉപജീവനകാരന്റെ മരണത്തിന് ശേഷം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0113",
+      "question": "കേരളത്തിലെ കാരുണ്യ പ്ലസ് ഏതിന് കീഴിലാണ്?",
+      "options": [
+        "ആരോഗ്യ സഹായം",
+        "Education",
+        "Transport",
+        "പ്രതിരോധം"
+      ],
+      "answer": "ആരോഗ്യ സഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0092",
+      "question": "National Rural Drinking Water Programme now part of?",
+      "options": [
+        "Jal Jeevan Mission",
+        "GST",
+        "PM-KISAN",
+        "UDAN"
+      ],
+      "answer": "Jal Jeevan Mission",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0093",
+      "question": "കേരള ബിൽഡിംഗ് ആൻഡ് ഓതർ കൺസ്ട്രക്ഷൻ വർക്കേഴ്സ് വelfare ബോർഡ് എന്തിനാണ്?",
+      "options": [
+        "Lawyers മാത്രം",
+        "IT workers",
+        "Doctors മാത്രം",
+        "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം"
+      ],
+      "answer": "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0075",
+      "question": "PM CARES for Children പദ്ധതി എന്തിനാണ്?",
+      "options": [
+        "All students",
+        "All farmers",
+        "All soldiers",
+        "കോവിഡ് അനാഥരായ കുട്ടികൾ"
+      ],
+      "answer": "കോവിഡ് അനാഥരായ കുട്ടികൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0124",
+      "question": "കേരള EMS വീട് പദ്ധതി ഏത് പേരിൽ അറിയപ്പെടുന്നു?",
+      "options": [
+        "UDAN",
+        "MGNREGA",
+        "PMAY മാത്രം",
+        "ലൈഫ് മിഷൻ/LIFE"
+      ],
+      "answer": "ലൈഫ് മിഷൻ/LIFE",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0028",
+      "question": "PM Garib Kalyan Anna Yojanaയുടെ പ്രധാന ഗുണം എന്ത്?",
+      "options": [
+        "സൗജന്യ വീട്",
+        "സൗജന്യ ഇന്ധനം",
+        "അർഹരായവർക്ക് സൗജന്യ ധാന്യ വിതരണം",
+        "സൗജന്യ ഇന്റർനെറ്റ്"
+      ],
+      "answer": "അർഹരായവർക്ക് സൗജന്യ ധാന്യ വിതരണം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0066",
+      "question": "ആയുഷ്മാൻ ഭാരത് എത്ര പേർക്ക് പ്രയോജനം ലഭിക്കാൻ ലക്ഷ്യമിട്ടിരിക്കുന്നു (ഏതാണ്ട്)?",
+      "options": [
+        "10 crore",
+        "50 crore",
+        "100 crore",
+        "1 crore"
+      ],
+      "answer": "50 crore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0118",
+      "question": "She-Box portal for?",
+      "options": [
+        "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
+        "Tax filing",
+        "Passport",
+        "GST"
+      ],
+      "answer": "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0070",
+      "question": "EPFOയുടെ പ്രധാന ലക്ഷ്യം എന്ത്?",
+      "options": [
+        "വിമാന ടിക്കറ്റ് ഇളവ്",
+        "നേരിട്ട് കാർഷിക സഹായം",
+        "വീട് സബ്സിഡി",
+        "പ്രാവിഡന്റ് ഫണ്ടിലൂടെ വിരമിക്കൽ സേവിംഗ്"
+      ],
+      "answer": "പ്രാവിഡന്റ് ഫണ്ടിലൂടെ വിരമിക്കൽ സേവിംഗ്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sws_0027",
+      "question": "National Handicapped Finance Corporation for?",
+      "options": [
+        "വികലാംഗ ക്ഷേമം",
+        "റെയിൽവേ",
+        "Farmers",
+        "Exporters"
+      ],
+      "answer": "വികലാംഗ ക്ഷേമം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0076",
+      "question": "Kerala's Haritha Karma Sena ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Ports മാത്രം",
+        "മാലിന്യ നിയന്ത്രണം",
+        "ബഹിരാകാശം",
+        "പ്രതിരോധം"
+      ],
+      "answer": "മാലിന്യ നിയന്ത്രണം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_0111",
+      "question": "Old Age Pension Kerala age criterion (approx)?",
+      "options": [
+        "50 years",
+        "70 years മാത്രം",
+        "40 years",
+        "60 years"
+      ],
+      "answer": "60 years",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sws_0058",
+      "question": "National Rural Livelihood Mission (NRLM) renamed?",
+      "options": [
+        "UDAN",
+        "PM-KISAN",
+        "PM-JAY",
+        "DAY-NRLM"
+      ],
+      "answer": "DAY-NRLM",
       "difficulty": "hard"
     },
     {
@@ -1282,366 +1642,6 @@
         "ജോലി ചെയ്യുന്ന സ്ത്രീകളുടെ കുട്ടികൾ"
       ],
       "answer": "ജോലി ചെയ്യുന്ന സ്ത്രീകളുടെ കുട്ടികൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0108",
-      "question": "Kerala's Aswasakiranam for?",
-      "options": [
-        "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ",
-        "Port workers",
-        "Film directors",
-        "Sports coaches"
-      ],
-      "answer": "പടുക്കിൽ കിടക്കുന്ന രോഗികളുടെ പരിചരകർ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0109",
-      "question": "PMMVY (Maternity Benefit) provides?",
-      "options": [
-        "₹1000 മാത്രം",
-        "₹50000 lump sum",
-        "₹500 മാത്രം",
-        "₹5000 in instalments"
-      ],
-      "answer": "₹5000 in instalments",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0110",
-      "question": "Ujjawala scheme for?",
-      "options": [
-        "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
-        "LPG മാത്രം",
-        "റോഡുകൾ",
-        "Crop insurance"
-      ],
-      "answer": "കടത്തുകാരുടെ പീഡന ഇരകളുടെ പുനर्वാസം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0111",
-      "question": "National Rural Drinking Water Programme now part of?",
-      "options": [
-        "Jal Jeevan Mission",
-        "GST",
-        "PM-KISAN",
-        "UDAN"
-      ],
-      "answer": "Jal Jeevan Mission",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0112",
-      "question": "Karunya Benevolent Fund for?",
-      "options": [
-        "Education മാത്രം",
-        "ചികിത്സാ സഹായം",
-        "Sports",
-        "Travel"
-      ],
-      "answer": "ചികിത്സാ സഹായം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0113",
-      "question": "Kerala's Karunya Plus under?",
-      "options": [
-        "Education",
-        "ആരോഗ്യ സഹായം",
-        "പ്രതിരോധം",
-        "Transport"
-      ],
-      "answer": "ആരോഗ്യ സഹായം",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0114",
-      "question": "National Livelihood Mission urban component?",
-      "options": [
-        "PM-JAY",
-        "GST",
-        "DAY-NULM",
-        "DAY-NRLM"
-      ],
-      "answer": "DAY-NULM",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0115",
-      "question": "PM SVANidhi collateral free loan up to?",
-      "options": [
-        "₹10,000 first tranche",
-        "₹1 crore",
-        "₹10 lakh",
-        "₹1000"
-      ],
-      "answer": "₹10,000 first tranche",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0116",
-      "question": "National Food Security Act enacted?",
-      "options": [
-        "2013",
-        "2005",
-        "2010",
-        "2015"
-      ],
-      "answer": "2013",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0117",
-      "question": "National Rural Livelihood Mission (NRLM) renamed?",
-      "options": [
-        "UDAN",
-        "PM-KISAN",
-        "PM-JAY",
-        "DAY-NRLM"
-      ],
-      "answer": "DAY-NRLM",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0118",
-      "question": "Kerala SC/ST Development Department schemes include?",
-      "options": [
-        "കായികം മാത്രം",
-        "Only ports",
-        "വിദ്യാഭ്യാസ ഇളവുകൾ",
-        "സിനിമ മാത്രം"
-      ],
-      "answer": "വിദ്യാഭ്യാസ ഇളവുകൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0119",
-      "question": "National Family Benefit Scheme provides on death of primary breadwinner?",
-      "options": [
-        "₹100",
-        "₹1 lakh monthly",
-        "₹20000 lump sum",
-        "₹5000 monthly"
-      ],
-      "answer": "₹20000 lump sum",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0120",
-      "question": "National Action Plan for Children under?",
-      "options": [
-        "പ്രതിരോധം",
-        "റെയിൽവേ",
-        "Ministry of Women and Child Development",
-        "External Affairs"
-      ],
-      "answer": "Ministry of Women and Child Development",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0121",
-      "question": "National Handicapped Finance Corporation for?",
-      "options": [
-        "വികലാംഗ ക്ഷേമം",
-        "റെയിൽവേ",
-        "Farmers",
-        "Exporters"
-      ],
-      "answer": "വികലാംഗ ക്ഷേമം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0122",
-      "question": "She-Box portal for?",
-      "options": [
-        "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
-        "Tax filing",
-        "Passport",
-        "GST"
-      ],
-      "answer": "സ്ത്രീകളുടെ ജോലിസ്ഥല പീഡന പരാതികൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0123",
-      "question": "One Stop Centre scheme (Sakhi) for?",
-      "options": [
-        "Men മാത്രം",
-        "Farmers മാത്രം",
-        "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
-        "Children sports"
-      ],
-      "answer": "അതിക്രമത്തിന് ഇരയായ സ്ത്രീകൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0124",
-      "question": "Kerala's Karunya health scheme initial year?",
-      "options": [
-        "2012",
-        "1990",
-        "2020",
-        "2000"
-      ],
-      "answer": "2012",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0125",
-      "question": "Ayushman Bharat covers how many beneficiaries (approx target)?",
-      "options": [
-        "100 crore",
-        "1 crore",
-        "10 crore",
-        "50 crore"
-      ],
-      "answer": "50 crore",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0126",
-      "question": "Widow Pension scheme in Kerala administered by?",
-      "options": [
-        "Social Justice Department",
-        "Film Academy",
-        "Sports Council",
-        "Port Authority"
-      ],
-      "answer": "Social Justice Department",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0127",
-      "question": "National Ayush Mission for?",
-      "options": [
-        "ആയുഷ് വ്യവസ്ഥകളുടെ പ്രോത്സാഹനം",
-        "പ്രതിരോധം",
-        "റെയിൽവേ",
-        "Allopathy മാത്രം"
-      ],
-      "answer": "ആയുഷ് വ്യവസ്ഥകളുടെ പ്രോത്സാഹനം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0128",
-      "question": "Kerala's Vayomithram for?",
-      "options": [
-        "പ്രതിരോധം",
-        "Infants മാത്രം",
-        "Youth sports",
-        "വയോജന പരിചരണ സേവനങ്ങൾ"
-      ],
-      "answer": "വയോജന പരിചരണ സേവനങ്ങൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0129",
-      "question": "Disability pension requires minimum disability?",
-      "options": [
-        "20%",
-        "80% മാത്രം",
-        "10%",
-        "40%"
-      ],
-      "answer": "40%",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0130",
-      "question": "Kerala's Sneha Purvam for?",
-      "options": [
-        "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
-        "Mining",
-        "Sports മാത്രം",
-        "Ports"
-      ],
-      "answer": "അനാഥ കുട്ടികളുടെ വിദ്യാഭ്യാസ പിന്തുണ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0131",
-      "question": "National Social Assistance Programme (NSAP) includes?",
-      "options": [
-        "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ",
-        "Only housing",
-        "Only travel",
-        "Only crop insurance"
-      ],
-      "answer": "വാർദ്ധക്യ, വിധവ, വികലാംഗ പെൻഷനുകൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0132",
-      "question": "Integrated Child Development Services (ICDS) components include?",
-      "options": [
-        "Only defence",
-        "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
-        "Only GST",
-        "Only roads"
-      ],
-      "answer": "പൂരക പോഷകാഹാരം, പ്രതിരോധ കുത്തിവയ്പ്പ്",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0133",
-      "question": "PM-JAY empaneled hospitals provide?",
-      "options": [
-        "Only medicines outside",
-        "പണമില്ലാത്ത ചികിത്സ",
-        "Only consultation",
-        "Only diagnostics"
-      ],
-      "answer": "പണമില്ലാത്ത ചികിത്സ",
-      "difficulty": "medium"
-    },
-    {
-      "id": "sws_0134",
-      "question": "PM Formalisation of Micro Food Processing scheme for?",
-      "options": [
-        "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
-        "Large steel plants",
-        "ബഹിരാകാശം",
-        "പ്രതിരോധം"
-      ],
-      "answer": "സൂക്ഷ്മ ഭക്ഷ്യ സംരംഭങ്ങൾ",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0135",
-      "question": "Kerala Building and Other Construction Workers Welfare Board for?",
-      "options": [
-        "IT workers",
-        "Doctors മാത്രം",
-        "Lawyers മാത്രം",
-        "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം"
-      ],
-      "answer": "നിർമ്മാണ തൊഴിലാളികളുടെ ക്ഷേമം",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0136",
-      "question": "National Social Assistance Programme old age pension amount (central share approx)?",
-      "options": [
-        "₹5000",
-        "₹50",
-        "₹50000",
-        "₹200-500 varies by state"
-      ],
-      "answer": "₹200-500 varies by state",
-      "difficulty": "hard"
-    },
-    {
-      "id": "sws_0137",
-      "question": "PM CARES for Children scheme for?",
-      "options": [
-        "കോവിഡ് അനാഥരായ കുട്ടികൾ",
-        "All soldiers",
-        "All farmers",
-        "All students"
-      ],
-      "answer": "കോവിഡ് അനാഥരായ കുട്ടികൾ",
       "difficulty": "hard"
     }
   ]

@@ -57,10 +57,36 @@ def _add(out, existing, rng, q, ans, pool, diff="medium"):
 FACTS: list[tuple[str, str, list[str], str]] = {facts!r}
 
 def generate_candidates(existing: set[str], rng: random.Random) -> list[Candidate]:
+    import re
+
     out: list[Candidate] = []
-    answers = [a for _, a, _, _ in FACTS]
+    year_pool = sorted({{a[:4] for _, a, _, _ in FACTS if re.match(r"^\\d{{4}}", a)}})
+    name_pool = [a for _, a, _, _ in FACTS if not re.match(r"^\\d{{4}}", a)]
+
     for q, ans, wrong, diff in FACTS:
         _add(out, existing, rng, q, ans, wrong + [ans], diff)
+
+        ym = re.match(r"^(\\d{{4}})", ans)
+        qm = re.search(r"'([^']+)'", q)
+        if ym and qm and year_pool:
+            year = ym.group(1)
+            entity = qm.group(1)
+            alt = f"'{{entity}}' സംബന്ധിച്ച പ്രധാന വർഷം?"
+            if alt != q:
+                pool = [y for y in year_pool if y != year][:3] + [year]
+                _add(out, existing, rng, alt, year, pool, diff)
+            alt2 = f"{{year}}-ൽ '{{entity}}'?"
+            if alt2 != q and alt2 != alt:
+                ents = [a for a in name_pool if a != entity][:3] + [entity]
+                _add(out, existing, rng, alt2, entity, ents, diff)
+
+        if ("ആരാണ്" in q or "ആരായിരുന്നു" in q) and qm and name_pool:
+            entity = qm.group(1)
+            alt3 = f"'{{entity}}' ആരെ സൂചിപ്പിക്കുന്നു?"
+            if alt3 != q:
+                pool = [n for n in name_pool if n != ans][:3] + [ans]
+                _add(out, existing, rng, alt3, ans, pool, diff)
+
     return out
 '''
 

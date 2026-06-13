@@ -165,10 +165,11 @@ EXTRA_GEO_GEN = textwrap.dedent("""
             )
 """)
 
-if "# --- programmatic expansion from existing data ---" not in geo_src:
+if "GEO_EXPAND_PATCHED" not in geo_src:
     geo_src = geo_src.replace(
         "    return out\n",
-        EXTRA_GEO_GEN + "\n    return out\n",
+        "    # GEO_EXPAND_PATCHED\n" + EXTRA_GEO_GEN + "\n    return out\n",
+        1,
     )
     GEO_FILE.write_text(geo_src, encoding="utf-8")
     print("Patched geography_facts.py generate_candidates")
@@ -176,7 +177,6 @@ if "# --- programmatic expansion from existing data ---" not in geo_src:
 # ---------------------------------------------------------------------------
 # Indian history: rebuild with large verified data
 # ---------------------------------------------------------------------------
-
 HEADER = textwrap.dedent('''\
 #!/usr/bin/env python3
 """Verified Indian history facts for unique Malayalam PSC question generation."""
@@ -607,7 +607,7 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[Candidat
 body = (
     f"STATIC_FACTS: list[tuple[str, str, list[str], str]] = {ALL_STATIC!r}\n\n"
     f"ACTS: list[tuple[str, str]] = {ACTS!r}\n\n"
-    f"MUGHAL_EMPERORS: list[tuple[str, str]] = {MUGHAL!r}\n\n"
+    f"MUGHAL_EMPERORS: list[tuple[str, str]] = {MUGHAL_EMPERORS!r}\n\n"
     f"BATTLES: list[tuple[str, str]] = {BATTLES!r}\n\n"
     f"GOVERNORS: list[tuple[str, str]] = {GOVERNORS!r}\n\n"
     f"MOVEMENTS: list[tuple[str, str, str]] = {MOVEMENTS!r}\n\n"
@@ -617,7 +617,12 @@ body = (
     f"DELHI_SULTANS: list[tuple[str, str, str]] = {DELHI_SULTANS!r}\n"
 )
 
-(BASE / "indian_history_facts.py").write_text(HEADER + body + GEN, encoding="utf-8")
+IH_FILE = BASE / "indian_history_facts.py"
+if IH_FILE.exists() and "COMMISSIONS:" in IH_FILE.read_text(encoding="utf-8"):
+    print("Skipping indian_history_facts.py rebuild (already expanded)")
+else:
+    IH_FILE.write_text(HEADER + body + GEN, encoding="utf-8")
+    print(f"Rebuilt indian_history_facts.py: {len(ALL_STATIC)} static facts")
 
 import importlib
 import geography_facts as gf

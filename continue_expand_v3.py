@@ -147,26 +147,33 @@ if "ബ്രിട്ടീഷ് ഭരണകാല" not in ih:
     patch_file(ih_path, "ബ്രിട്ടീഷ് ഭരണകാല", IH_GEN)
     print("Indian history template expansion")
 
-# --- World history: reverse templates on static facts ---
+# --- World history: decade templates on static facts (no reverse-meta) ---
 wh_path = BASE / "world_history_facts.py"
 wh = wh_path.read_text(encoding="utf-8")
 WH_GEN = '''
-    stems = [q for q, _, _, _ in STATIC_FACTS]
     for q, ans, wrong, diff in STATIC_FACTS:
-        _add(out, existing, rng, f"ലോക ചരിത്രത്തിൽ '{ans}' ഉത്തരമുള്ള ചോദ്യം?", q,
-             [s for s in stems if s != q][:3], diff)
         if ans.isdigit() or re.match(r"^\\d{4}", ans):
-            decades = [str(int(ans[:4]) // 10 * 10) + "s" if len(ans) >= 4 and ans[:4].isdigit() else ans]
-            if decades[0] != ans:
-                _add(out, existing, rng, f"വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?", decades[0] + " കാലം",
-                     [str(int(d)+10)+"s കാലം" for d in range(1000,2030,10) if str(int(d)+10)+"s കാലം" != decades[0]+" കാലം"][:3], "hard")
+            decade = str(int(ans[:4]) // 10 * 10) + " കാലം"
+            decades = [str(d) + " കാലം" for d in range(1000, 2030, 10) if str(d) + " കാലം" != decade]
+            _add(out, existing, rng, f"വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?", decade, decades[:3], "hard")
 '''
-if "ലോക ചരിത്രത്തിൽ" not in wh:
+if "വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?" not in wh or "ലോക ചരിത്രത്തിൽ" in wh:
+    if "ലോക ചരിത്രത്തിൽ" in wh:
+        # strip banned reverse-meta block if present
+        wh = re.sub(
+            r"\n    stems = \[.*?\n    return out",
+            "\n    return out",
+            wh,
+            flags=re.DOTALL,
+        )
+        wh_path.write_text(wh, encoding="utf-8")
     if "import re" not in wh:
+        wh = wh_path.read_text(encoding="utf-8")
         wh = wh.replace("import random", "import random\nimport re")
         wh_path.write_text(wh, encoding="utf-8")
-    patch_file(wh_path, "ലോക ചരിത്രത്തിൽ", WH_GEN)
-    print("World history reverse templates")
+    if "വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?" not in wh_path.read_text(encoding="utf-8"):
+        patch_file(wh_path, "വർഷം {ans} ഏത് ദശാബ്ദത്തിൽ?", WH_GEN)
+        print("World history decade templates")
 
 # --- Sports: Olympics + FIFA programmatic ---
 sports_path = BASE / "sports_facts.py"

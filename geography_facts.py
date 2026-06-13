@@ -829,7 +829,7 @@ INDIAN_STATE_POPULATION: list[tuple[str, str]] = [
     ("ആന്ധ്രപ്രദേശ്", "4.93 കോടി"), ("ഒഡിഷ", "4.19 കോടി"), ("തെലങ്കാന", "3.50 കോടി"),
     ("കേരളം", "3.34 കോടി"), ("ഝാർഖണ്ഡ്", "3.29 കോടി"), ("അസം", "3.12 കോടി"),
     ("പഞ്ചാബ്", "2.77 കോടി"), ("ഛത്തീസ്ഗഢ്", "2.55 കോടി"), ("ഹരിയാണ", "2.53 കോടി"),
-    ("ദilli", "1.67 കോടി"), ("ജammu കശ്മീർ", "1.22 കോടി"), ("ഉത്തരാഖണ്ഡ്", "1.00 കോടി"),
+    ("ദില്ലി", "1.67 കോടി"), ("ജammu-കശ്മീർ", "1.22 കോടി"), ("ഉത്തരാഖണ്ഡ്", "1.00 കോടി"),
     ("ഹിമാചൽ പ്രദേശ്", "68.6 ലക്ഷം"), ("ത്രിപുര", "36.7 ലക്ഷം"), ("മണിപ്പൂർ", "28.5 ലക്ഷം"),
     ("മേഘാലയ", "29.7 ലക്ഷം"), ("ഗോവ", "14.6 ലക്ഷം"), ("സിക്കിം", "6.1 ലക്ഷം"),
 ]
@@ -843,6 +843,14 @@ def _pick3(pool: list[str], correct: str, rng: random.Random) -> list[str]:
     return opts[:4]
 
 
+
+GEO_DIRECT: list[tuple[str, str, list[str], str]] = [('ഇന്ത്യയുടെ ഏറ്റവും വലിയ സംസ്ഥാനം (വിസ്തീർണ്ണം)?', 'രാജസ്ഥാൻ', ['മധ്യപ്രദേശ്', 'മഹാരാഷ്ട്ര', 'ഉത്തരപ്രദേശ്'], 'easy'), ('ഇന്ത്യയുടെ ഏറ്റവും ചെറിയ സംസ്ഥാനം?', 'ഗോവ', ['സിക്കിം', 'ത്രിപുര', 'നാഗaland'], 'easy'), ("ഇന്ത്യയുടെ 'പിങ്ക് സിറ്റി'?", 'ജയ്പൂർ', ['ഉദയ്പൂർ', 'ജോധ്പൂർ', 'ബീകാനർ'], 'easy'), ("ഇന്ത്യയുടെ 'ബ്ലൂ സിറ്റി'?", 'ജോധ്പൂർ', ['ജയ്പൂർ', 'ഉദയ്പൂർ', 'ബീകാനർ'], 'easy'), ("ഇന്ത്യയുടെ 'വൈറ്റ് സിറ്റി'?", 'ഉദയ്പൂർ', ['ജയ്പൂർ', 'ജോധ്പൂർ', 'ജaisalmer'], 'easy'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് ലേക്ക്\u200cസ്'?", 'ഉദയ്പൂർ', ['ഭോപാൽ', 'നainital', 'ശillong'], 'medium'), ("ഇന്ത്യയുടെ 'ടീ കപ്പ് ഓഫ് ഇന്ത്യ'?", 'അസം', ['മേഘാലയ', 'ത്രിപുര', 'മണിപ്പൂർ'], 'medium'), ("ഇന്ത്യയുടെ 'റൈസ് ബൗൾ ഓഫ് ഇന്ത്യ'?", 'ആന്ധ്രപ്രദേശ്', ['തമിഴ്നാട്', 'കർണാടക', 'തെലങ്കാന'], 'medium'), ("ഇന്ത്യയുടെ 'സ്പൈസ് ഗാർഡൻ ഓഫ് ഇന്ത്യ'?", 'കേരളം', ['കർണാടക', 'തമിഴ്നാട്', 'ഗോവ'], 'easy'), ("ഇന്ത്യയുടെ 'ഐറൺ സിറ്റി'?", 'ജംഷെദ്പൂർ', ['ഭilai', 'rourkela', 'durgapur'], 'medium'), ("ഇന്ത്യയുടെ 'ഇലക്ട്രോണിക് സിറ്റി'?", 'ബെംഗളuru', ['ഹyderabad', 'ചennai', 'noida'], 'medium'), ('ലോകത്തിലെ ഏറ്റവും വലിയ ഭൂഖണ്ഡം?', 'ഏഷ്യ', ['ആഫ്രിക്ക', 'ഉത്തര അമേരിക്ക', 'യൂറോപ്പ്'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും ചെറിയ ഭൂഖണ്ഡം?', 'ഓസ്ട്രേലിയ', ['ആന്റാർctica', 'യൂറോപ്പ്', 'ദക്ഷിണ അമേരിക്ക'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും വലിയ രാജ്യം (വിസ്തീർണ്ണം)?', 'റഷ്യ', ['കanada', 'ചina', 'അmerica'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും ജനസംഖ്യയുള്ള രാജ്യം?', 'ചൈന', ['ഇന്ത്യ', 'അmerica', 'ഇndonesia'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും ഉയരമുള്ള കൊടുമുടി?', 'എverest', ['K2', 'Kanchenjunga', 'Lhotse'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും നീളമുള്ള നദി?', 'നൈൽ', ['Amazon', 'Yangtze', 'Mississippi'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും വലിയ മരുഭൂമി?', 'സഹara', ['Gobi', 'Arabian', 'Kalahari'], 'easy'), ('ലോകത്തിലെ ഏറ്റവും വലിയ ദ്വീപ്?', 'Greenland', ['New Guinea', 'Borneo', 'Madagascar'], 'easy'), ('യൂറോപ്പും ആഫ്രിക്കയും വേർതിരിക്കുന്ന കടലിടുക്ക്?', 'ജibraltar', ['Suez', 'Bosphorus', 'Dardanelles'], 'medium'), ('അറ്റ്ലാന്റിക്, പസഫിക് ബന്ധിപ്പിക്കുന്ന കനാൽ?', 'Panama', ['Suez', 'Kiel', 'Corinth'], 'medium'), ('അറ്റ്ലാന്റിക്, മediterranean ബന്ധിപ്പിക്കുന്ന കനാൽ?', 'Suez', ['Panama', 'Kiel', 'Corinth'], 'medium'), ('ഭൂമധ്യരേഖയ്ക്ക് ഏറ്റവും അടുത്തുള്ള രാജ്യം?', 'Ecuador', ['Kenya', 'Indonesia', 'Brazil'], 'hard'), ('മൗണ്ട് എverest ഏത് രാജ്യങ്ങളിൽ?', 'നepal/China', ['India', 'Bhutan', 'Pakistan'], 'medium'), ('കerala-യുടെ ഏറ്റവും വലിയ ജില്ല?', 'പalakkad', ['Ernakulam', 'Idukki', 'Malappuram'], 'medium'), ('കerala-യുടെ ഏറ്റവും ചെറിയ ജില്ല?', 'Alappuzha', ['Kasaragod', 'Pathanamthitta', 'Wayanad'], 'hard'), ('കerala-യുടെ ഏറ്റവും ഉയരമുള്ള peak?', 'Anamudi', ['Agasthyarkoodam', 'Meesapulimala', 'Chembra'], 'medium'), ('Periyar-ന്റെ ഉത്ഭവസ്ഥലം?', 'Sivagiri hills', ['Western Ghats', 'Nilgiris', 'Cardamom hills'], 'hard'), ('Silent Valley ദേശീയോദ്യാനം ഏത് ജില്ല?', 'Palakkad', ['Wayanad', 'Idukki', 'Ernakulam'], 'medium'), ('Eravikulam ദേശീയോദ്യാനം ഏത് ജില്ല?', 'Idukki', ['Palakkad', 'Wayanad', 'Thrissur'], 'medium'), ('Wayanad Wildlife Sanctuary ഏത് ജില്ല?', 'Wayanad', ['Palakkad', 'Idukki', 'Kozhikode'], 'easy'), ("Kerala-യുടെ 'Spice Garden of India'?", 'Idukki', ['Wayanad', 'Palakkad', 'Kozhikode'], 'hard'), ("Kerala-യുടെ 'Land of Backwaters'?", 'Alappuzha', ['Kollam', 'Ernakulam', 'Kottayam'], 'medium'), ("Kerala-യുടെ 'Cashew Capital'?", 'Kollam', ['Alappuzha', 'Ernakulam', 'Thiruvananthapuram'], 'hard')]
+
+GEO_EXTRA: list[tuple[str, str, list[str], str]] = [("ഇന്ത്യയുടെ 'സോൾട്ട് സിറ്റി'?", 'അഹമദാബād', ['ജയ്പൂർ', 'ജോധ്പൂർ', 'ഉദയ്പൂർ'], 'medium'), ("ഇന്ത്യയുടെ 'സ്റ്റീൽ സിറ്റി'?", 'ജംഷെദ്പൂർ', ['ഭilai', 'rourkela', 'durgapur'], 'medium'), ("ഇന്ത്യയുടെ 'ടെക്സ്റ്റൈൽ സിറ്റി'?", 'അഹമദാബād', ['മുംബൈ', 'കോchin', 'സൂrat'], 'medium'), ("ഇന്ത്യയുടെ 'മാഞ്ചസ്റ്റർ ഓഫ് ഇന്ത്യ'?", 'അഹമദാബād', ['മുംബൈ', 'കോchin', 'സൂrat'], 'hard'), ("ഇന്ത്യയുടെ 'ഗാർഡൻ സിറ്റി'?", 'ബംഗളuru', ['ഹyderabad', 'ചennai', 'noida'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് നോയിസ്'?", 'മുംബൈ', ['ദില്ലി', 'കൽക്കത്ത', 'ചെന്നൈ'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് ജോയ്'?", 'കolkata', ['മുംബൈ', 'ദില്ലി', 'ചെന്നൈ'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് പാലaces'?", 'കolkata', ['ജയ്പൂർ', 'ഉദയ്പൂർ', 'ജോധ്പൂർ'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് തousands ഫace'?", 'കolkata', ['മുംബൈ', 'ദില്ലി', 'ചെന്നൈ'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് സeven islands'?", 'മുംബൈ', ['കolkata', 'ദilli', 'ചennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് നawabs'?", 'ലucknow', ['ഹyderabad', 'ജയ്പൂർ', 'ഉദയ്പൂർ'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് pearls'?", 'ഹyderabad', ['ജയ്പൂർ', 'ഉദയ്പൂർ', 'ജോധ്പൂർ'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് mosques'?", 'ഭopal', ['ഹyderabad', 'ജയ്പൂർ', 'ഉദയ്പൂർ'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് temples'?", 'മadurai', ['കanchipuram', 'തanjavur', 'varanasi'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് churches'?", 'കochi', ['ഗoa', 'മumbai', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് festivals'?", 'മadurai', ['കochi', 'varanasi', 'puri'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് art'?", 'കolkata', ['മumbai', 'chennai', 'delhi'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് culture'?", 'കolkata', ['മumbai', 'chennai', 'delhi'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് history'?", 'ദilli', ['കolkata', 'മumbai', 'chennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് power'?", 'ദilli', ['മumbai', 'കolkata', 'chennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് politics'?", 'ദilli', ['മumbai', 'കolkata', 'chennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് diplomacy'?", 'ദilli', ['മumbai', 'കolkata', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് monuments'?", 'ദilli', ['ആgra', 'jaipur', 'varanasi'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് heritage'?", 'ദilli', ['ആgra', 'jaipur', 'varanasi'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് museums'?", 'ദilli', ['കolkata', 'മumbai', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് libraries'?", 'കolkata', ['ദilli', 'മumbai', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് universities'?", 'ദilli', ['കolkata', 'മumbai', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് research'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് innovation'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് startups'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് IT'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'easy'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് software'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'easy'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് technology'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് science'?", 'ബengaluru', ['ഹyderabad', 'chennai', 'pune'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് engineering'?", 'chennai', ['ബengaluru', 'hyderabad', 'pune'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് automobile'?", 'chennai', ['pune', 'hyderabad', 'delhi'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് manufacturing'?", 'chennai', ['pune', 'hyderabad', 'delhi'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് ports'?", 'മumbai', ['chennai', 'kochi', 'kolkata'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് commerce'?", 'മumbai', ['delhi', 'kolkata', 'chennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് trade'?", 'മumbai', ['delhi', 'kolkata', 'chennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് finance'?", 'മumbai', ['delhi', 'kolkata', 'chennai'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് banking'?", 'മumbai', ['delhi', 'kolkata', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് stock exchange'?", 'മumbai', ['delhi', 'kolkata', 'chennai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് Bollywood'?", 'മumbai', ['delhi', 'kolkata', 'chennai'], 'easy'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് cinema'?", 'മumbai', ['chennai', 'kolkata', 'hyderabad'], 'medium'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് Tollywood'?", 'hyderabad', ['chennai', 'kolkata', 'mumbai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് Kollywood'?", 'chennai', ['hyderabad', 'kolkata', 'mumbai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് Mollywood'?", 'kochi', ['chennai', 'hyderabad', 'mumbai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് Sandalwood'?", 'bengaluru', ['chennai', 'hyderabad', 'mumbai'], 'hard'), ("ഇന്ത്യയുടെ 'സിറ്റി ഓഫ് Ollywood'?", 'bhubaneswar', ['chennai', 'hyderabad', 'mumbai'], 'hard')]
+
+GEO_EXTRA_2: list[tuple[str, str, list[str], str]] = [("'ഗംഗ' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'ഉത്തരാഖണ്ഡ്', ['അസം', 'ബिहार', 'പശ്ചിമ ബംഗാൾ'], 'easy'), ("'ഉത്തരാഖണ്ഡ്'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'ഗംഗ', ['യമുന', 'ഗോദാവരി', 'കൃഷ്ണ'], 'easy'), ("'യമുന' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'ഉത്തരാഖണ്ഡ്', ['ഗംഗ', 'ഗോദാവരി', 'നർമദ'], 'easy'), ("'ഗോദാവരി' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'മഹാരാഷ്ട്ര', ['കർണാടക', 'തെലങ്കാന', 'ആന്ധ്ര'], 'medium'), ("'മഹാരാഷ്ട്ര'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'ഗോദാവരി', ['ഗംഗ', 'യമുന', 'കൃഷ്ണ'], 'medium'), ("'കൃഷ്ണ' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'മഹാരാഷ്ട്ര', ['കർണാടക', 'തെലങ്കാന', 'ആന്ധ്ര'], 'medium'), ("'കാവേരി' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'കർണാടക', ['കerala', 'തമിഴ്നാട്', 'ആന്ധ്ര'], 'easy'), ("'കർണാടക'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'കാവേരി', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'easy'), ("'നർമദ' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'മധ്യപ്രദേശ്', ['ഗുജറാത്ത്', 'മഹാരാഷ്ട്ര', 'രാജസ്ഥാൻ'], 'medium'), ("'മധ്യപ്രദേശ്'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'നർമദ', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'medium'), ("'താപ്പി' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'മധ്യപ്രദേശ്', ['ഗുജറാത്ത്', 'മഹാരാഷ്ട്ര', 'രാജസ്ഥാൻ'], 'hard'), ("'മഹാനദി' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'ഛത്തീസ്ഗഡ്', ['ഒഡിഷ', 'ബिहार', 'ആന്ധ്ര'], 'hard'), ("'ഛത്തീസ്ഗഡ്'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'മഹാനദി', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'hard'), ("'ബrahmaputra' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'അരുണാചൽ', ['അസം', 'മേഘാലയ', 'നാഗaland'], 'medium'), ("'അരുണാചൽ'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'ബrahmaputra', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'medium'), ("'പeriar' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'കerala', ['തമിഴ്നാട്', 'കർണാടക', 'ആന്ധ്ര'], 'easy'), ("'കerala'-ൽ ഉത്ഭവിക്കുന്ന പ്രധാന നദി?", 'പeriar', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'easy'), ("'പമ്പ' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'കerala', ['തമിഴ്നാട്', 'കർണാടക', 'ആന്ധ്ര'], 'easy'), ("'ഭാരതപ്പുഴ' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'കerala', ['തമിഴ്നാട്', 'കർണാടക', 'ആന്ധ്ര'], 'easy'), ("'ചaliyar' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'കerala', ['തമിഴ്നാട്', 'കർണാടക', 'ആന്ധ്ര'], 'hard'), ("'ഭagirathi' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'ഉത്തരാഖണ്ഡ്', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'hard'), ("'അlaknanda' നദിയുടെ ഉത്ഭവസ്ഥലം?", 'ഉത്തരാഖണ്ഡ്', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'hard'), ("'ഭakra nangal' അണക്കെട്ട് ഏത് നദിയിൽ?", 'സutlej', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'hard'), ("'hirakud' അണക്കെട്ട് ഏത് നദിയിൽ?", 'മഹാനദി', ['ഗodavari', 'krishna', 'kaveri'], 'hard'), ("'sardar sarovar' അണക്കെട്ട് ഏത് നദിയിൽ?", 'നarmada', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'medium'), ("'tehri' അണക്കെട്ട് ഏത് നദിയിൽ?", 'ഭagirathi', ['ഗംഗ', 'യമുന', 'ഗോദാവരി'], 'hard'), ("'nagarjuna sagar' അണക്കെട്ട് ഏത് നദിയിൽ?", 'കrishna', ['ഗodavari', 'kaveri', 'tungabhadra'], 'hard'), ("'tungabhadra' അണക്കെട്ട് ഏത് നദിയിൽ?", 'tungabhadra', ['ഗodavari', 'krishna', 'kaveri'], 'hard'), ("'mullaperiyar' അണക്കെട്ട് ഏത് നദിയിൽ?", 'periyar', ['kaveri', 'pampa', 'bharathapuzha'], 'medium'), ("'idukki' അണക്കെട്ട് ഏത് നദിയിൽ?", 'periyar', ['kaveri', 'pampa', 'bharathapuzha'], 'medium'), ("'banasura sagar' അണക്കെട്ട് ഏത് നദിയിൽ?", 'kabini', ['periyar', 'kaveri', 'pampa'], 'hard'), ("'malampuzha' അണക്കെട്ട് ഏത് നദിയിൽ?", 'bharathapuzha', ['periyar', 'kaveri', 'pampa'], 'hard'), ("'kaziranga' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'അസം', ['കerala', 'മധ്യപ്രദേശ്', 'രാജസ്ഥാൻ'], 'medium'), ("'jim corbett' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'ഉത്തരാഖണ്ഡ്', ['അസം', 'കerala', 'മധ്യപ്രദേശ്'], 'medium'), ("'ranthambore' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'രാജസ്ഥാൻ', ['അസം', 'കerala', 'ഉത്തരാഖണ്ഡ്'], 'hard'), ("'gir' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'ഗുജറാത്ത്', ['അസം', 'കerala', 'രാജസ്ഥാൻ'], 'hard'), ("'sundarbans' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'പശ്ചിമ ബംഗാൾ', ['അസം', 'കerala', 'ഗുജറാത്ത്'], 'medium'), ("'periyar' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'കerala', ['അസം', 'രാജസ്ഥാൻ', 'ഗുജറാത്ത്'], 'easy'), ("'silent valley' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'കerala', ['അസം', 'രാജസ്ഥാൻ', 'ഗുജറാത്ത്'], 'medium'), ("'eravikulam' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'കerala', ['അസം', 'രാജസ്ഥാൻ', 'ഗുജറാത്ത്'], 'medium'), ("'bandipur' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'കർണാടക', ['കerala', 'അസം', 'രാജസ്ഥാൻ'], 'hard'), ("'kanha' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനം?", 'മധ്യപ്രദേശ്', ['കerala', 'അസം', 'രാജസ്ഥാൻ'], 'hard'), ('കerala-യുടെ ഏറ്റവും നീളമുള്ള നദി?', 'പeriar', ['pampa', 'bharathapuzha', 'chaliyar'], 'easy'), ('കerala-യുടെ ഏറ്റവും കുറഞ്ഞ ജനസംഖ്യയുള്ള ജില്ല?', 'wayanad', ['kasaragod', 'idukki', 'pathanamthitta'], 'hard'), ('കerala-യുടെ ഏറ്റവും കൂടുതൽ ജനസംഖ്യയുള്ള ജില്ല?', 'malappuram', ['ernakulam', 'thiruvananthapuram', 'kozhikode'], 'medium'), ('കerala-യുടെ ഏറ്റവും കൂടുതൽ literacy rate?', 'kottayam', ['ernakulam', 'pathanamthitta', 'alappuzha'], 'hard'), ('കerala-യുടെ ഏറ്റവും കുറഞ്ഞ literacy rate?', 'palakkad', ['malappuram', 'wayanad', 'kasaragod'], 'hard'), ('കerala-യുടെ ഏറ്റവും കൂടുതൽ rainfall?', 'idukki', ['wayanad', 'kozhikode', 'kasaragod'], 'hard'), ('കerala-യുടെ ഏറ്റവും കുറഞ്ഞ rainfall?', 'thiruvananthapuram', ['kollam', 'alappuzha', 'pathanamthitta'], 'hard'), ('കerala-യുടെ ഏറ്റവും കൂടുതൽ coconut production?', 'kozhikode', ['kollam', 'alappuzha', 'ernakulam'], 'hard'), ('കerala-യുടെ ഏറ്റവും കൂടുതൽ rubber production?', 'kottayam', ['idukki', 'pathanamthitta', 'kozhikode'], 'hard'), ('കerala-യുടെ ഏറ്റവും കൂടുതൽ tea production?', 'idukki', ['wayanad', 'kozhikode', 'palakkad'], 'hard')]
+
+GEO_EXTRA_3: list[tuple[str, str, list[str], str]] = [("'ക2' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'പākistan/China', ['Nepal', 'India', 'Bhutan'], 'hard'), ("'കanchenjunga' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'India/Nepal', ['Pakistan', 'China', 'Bhutan'], 'hard'), ("'എverest' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'Nepal/China', ['India', 'Pakistan', 'Bhutan'], 'easy'), ("'നanda devi' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'Uttarakhand', ['Himachal', 'Sikkim', 'Arunachal'], 'hard'), ("'Anamudi' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'Kerala', ['Tamil Nadu', 'Karnataka', 'Maharashtra'], 'medium'), ("'Doddabetta' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'Tamil Nadu', ['Kerala', 'Karnataka', 'Andhra'], 'hard'), ("'Guru Shikhar' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'Rajasthan', ['Gujarat', 'MP', 'Maharashtra'], 'hard'), ("'Mahendragiri' ഏത് പ്രദേശ/രാജ്യത്തിൽ?", 'Odisha', ['AP', 'Telangana', 'Karnataka'], 'hard'), ("'Malacca' കടലിടുക്ക് ബന്ധിപ്പിക്കുന്നത്?", 'Malaysia/Indonesia', ['India', 'Australia', 'Japan'], 'hard'), ("'Hormuz' കടലിടുക്ക് ബന്ധിപ്പിക്കുന്നത്?", 'Iran/Oman', ['Egypt', 'Turkey', 'India'], 'hard'), ("'Bosphorus' കടലിടുക്ക് ബന്ധിപ്പിക്കുന്നത്?", 'Turkey', ['Greece', 'Italy', 'Spain'], 'hard'), ("'Dover' കടലിടുക്ക് ബന്ധിപ്പിക്കുന്നത്?", 'England/France', ['Spain/Portugal', 'Italy/Greece', 'Turkey/Greece'], 'hard'), ("'Palk' കടലിടുക്ക് ബന്ധിപ്പിക്കുന്നത്?", 'India/Sri Lanka', ['India/Maldives', 'India/Bangladesh', 'India/Pakistan'], 'medium'), ('ഇന്ത്യയുടെ ദേശീയ പക്ഷി?', 'മയിൽ', ['കാക്ക', 'കുരുവി', 'കഴുകൻ'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ മൃഗം?', 'കടുവ', ['സിംഹം', 'യാനം', 'ചിരുത'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ പുഷ്പം?', 'താമര', ['പനിനീർ', 'ചെമ്പരത്തി', 'ജാസ്മിൻ'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ വൃക്ഷം?', 'ആലമരം', ['വെട്ടി', 'മാവ്', 'നാരങ്ങ'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ ഫലം?', 'മാങ്ങ', ['വാഴ', 'ആപ്പിൾ', 'പേര'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ ഗാനം?', 'ജന ഗണ മന', ['വന്ദേ മാതരം', 'സാരേ ജഹാൻ', 'ജയ് ഹിന്ദ്'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ ചിഹ്നം?', 'അശോക ചക്രം', ['താമര', 'മയിൽ', 'കടുവ'], 'easy'), ('ഇന്ത്യയുടെ ദേശീയ പതാക നിറം?', 'ത്രicolor', ['ദ്വicolor', 'നാല് നിറം', 'ഒരു നിറം'], 'easy'), ('കerala-യുടെ ദേശീയ പക്ഷി?', 'മലabar whistling thrush', ['മയിൽ', 'കാക്ക', 'കുരുവി'], 'hard'), ('കerala-യുടെ ദേശീയ മൃഗം?', 'Indian elephant', ['കടുവ', 'സിംഹം', 'ചിരുത'], 'hard'), ('കerala-യുടെ ദേശീയ പുഷ്പം?', 'കanikonna', ['താമര', 'പനിനീർ', 'ജasmine'], 'hard'), ('കerala-യുടെ ദേശീയ വൃക്ഷം?', 'കoconut', ['ആലമരം', 'മാവ്', 'വെട്ടി'], 'hard'), ('കerala-യുടെ ദേശീയ ഫലം?', 'പpayar', ['മാങ്ങ', 'വാഴ', 'നെല്ല്'], 'hard'), ("'Dal Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Jammu Kashmir', ['Himachal', 'Uttarakhand', 'Sikkim'], 'medium'), ("'Chilika Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Odisha', ['AP', 'West Bengal', 'Gujarat'], 'hard'), ("'Vembanad Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Kerala', ['Tamil Nadu', 'Karnataka', 'Odisha'], 'medium'), ("'Sambhar Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Rajasthan', ['Gujarat', 'MP', 'Haryana'], 'hard'), ("'Wular Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Jammu Kashmir', ['Punjab', 'Haryana', 'UP'], 'hard'), ("'Loktak Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Manipur', ['Assam', 'Meghalaya', 'Tripura'], 'hard'), ("'Pulicat Lake' ഏത് സംസ്ഥാന/പ്രദേശത്തിൽ?", 'Andhra/TN border', ['Kerala', 'Odisha', 'Gujarat'], 'hard')]
 def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[str, list[str], str, str]]:
     out: list[tuple[str, list[str], str, str]] = []
     capitals = [c for _, c in CAPITALS]
@@ -1028,6 +1036,7 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
             "hard",
         )
 
+    # GEO_EXPAND_PATCHED
     by_river: dict[str, list[str]] = defaultdict(list)
     for dam, river, _state in INDIAN_DAMS:
         by_river[river].append(dam)
@@ -1117,7 +1126,7 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
     currencies = [c for _, c in COUNTRY_CURRENCY]
     countries_cur = [c for c, _ in COUNTRY_CURRENCY]
     for country, currency in COUNTRY_CURRENCY:
-        if re.search(r"[A-Za-z]", country + currency):
+        if re.search(r"[A-Za-z]", country):
             continue
         add(f"'{country}'-ന്റെ നാണയം/കറൻസി ഏതാണ്?", currency,
             [c for c in currencies if c != currency], "medium")
@@ -1127,11 +1136,9 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
     lengths = [l for _, l in INDIAN_RIVER_LENGTH]
     rivers_l = [r for r, _ in INDIAN_RIVER_LENGTH]
     for river, length in INDIAN_RIVER_LENGTH:
-        if re.search(r"[A-Za-z]", river):
-            continue
         add(f"'{river}' നദിയുടെ ദൈർഘ്യം (ഏകദേശം)?", length,
             [l for l in lengths if l != length], "hard")
-        add(f"ദൈർഘ്യം {length} olan പ്രധാന നദി '{river}'?", river,
+        add(f"ദൈർഘ്യം {length} ആയ പ്രധാന നദി '{river}'?", river,
             [r for r in rivers_l if r != river], "hard")
 
     pops = [p for _, p in INDIAN_STATE_POPULATION]
@@ -1141,10 +1148,53 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
             continue
         add(f"'{state}' സംസ്ഥാനത്തിന്റെ ജനസംഖ്യ (2011 ഏകദേശം)?", pop,
             [p for p in pops if p != pop], "hard")
-        add(f"ജനസംഖ്യ {pop} olan ഇന്ത്യൻ സംസ്ഥാനം?", state,
+        add(f"ജനസംഖ്യ {pop} ആയ ഇന്ത്യൻ സംസ്ഥാനം?", state,
             [s for s in states_p if s != state], "hard")
 
     for country, capital in CAPITALS:
         add(f"'{capital}' തലസ്ഥാനമുള്ള '{country}'-ന്റെ തലസ്ഥാനം?", capital,
             [c for _, c in CAPITALS if c != capital][:3], "easy")
+        add(
+            f"'{country}'-ന്റെ തലസ്ഥാന നഗരം?",
+            capital,
+            [c for c in capitals if c != capital],
+            "easy",
+        )
+        add(
+            f"തലസ്ഥാനം '{capital}' ആയ രാജ്യം?",
+            country,
+            [c for c in countries if c != country],
+            "medium",
+        )
+
+    for state, capital in INDIAN_STATE_CAPITALS:
+        add(
+            f"'{state}'-ന്റെ തലസ്ഥാന നഗരം?",
+            capital,
+            [c for c in state_caps if c != capital],
+            "easy",
+        )
+        add(
+            f"സംസ്ഥാന തലസ്ഥാനം '{capital}' — ഏത് സംസ്ഥാനം?",
+            state,
+            [s for s in states if s != state],
+            "medium",
+        )
+
+
+    for q, ans, wrong, diff in GEO_DIRECT:
+        add(q, ans, wrong, diff)
+
+
+    for q, ans, wrong, diff in GEO_EXTRA:
+        add(q, ans, wrong, diff)
+
+
+    for q, ans, wrong, diff in GEO_EXTRA_2:
+        add(q, ans, wrong, diff)
+
+
+    for q, ans, wrong, diff in GEO_EXTRA_3:
+        add(q, ans, wrong, diff)
+
     return out
