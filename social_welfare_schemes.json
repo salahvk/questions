@@ -1379,6 +1379,30 @@
       ],
       "answer": "സ്ത്രീകളുടെ സാമൂഹിക സംഘടന",
       "difficulty": "easy"
+    },
+    {
+      "id": "sws_138",
+      "question": "അറ്റപ്പാടി Soil Conservation Project-ന് assistance?",
+      "options": [
+        "Japan International Cooperation Agency",
+        "Danish International Development Agency",
+        "Swiss Agency for Development and Cooperation",
+        "German Agency for Technical Cooperation"
+      ],
+      "answer": "Danish International Development Agency",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sws_139",
+      "question": "NREGAsoft ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "TISS",
+        "NREGA",
+        "Keltron",
+        "IBS"
+      ],
+      "answer": "Keltron",
+      "difficulty": "medium"
     }
   ]
 }

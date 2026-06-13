@@ -1106,14 +1106,14 @@
     },
     {
       "id": "cin_093",
-      "question": "മലയാള സിനിമയിലെ 'പിതാവ്' എന്നറിയപ്പെടുന്നത് ആരാണ്?",
+      "question": "മലയാളത്തിലെ ആദ്യത്തെ നിറചിത്രം?",
       "options": [
-        "സത്യൻ",
-        "തിക്കുറിശ്ശി സുകുമാരൻ നായർ",
-        "ജെ. സി. ഡാനിയേൽ",
-        "പി. ഭാസ്കരൻ"
+        "ചെമ്മീൻ",
+        "കണ്ടം ബീച്ചാ കോട്ട്",
+        "ബാലൻ",
+        "നീലക്കുയിൽ"
       ],
-      "answer": "ജെ. സി. ഡാനിയേൽ",
+      "answer": "ബാലൻ",
       "difficulty": "easy"
     },
     {
@@ -2218,6 +2218,18 @@
         "ഷോലെ"
       ],
       "answer": "ഗാന്ധി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cin_186",
+      "question": "Malayalam-il first colour movie?",
+      "options": [
+        "Chemmeen",
+        "Kandam Becha Coat",
+        "Balan",
+        "Neelakuyil"
+      ],
+      "answer": "Balan",
       "difficulty": "medium"
     }
   ]

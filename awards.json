@@ -12011,6 +12011,18 @@
       ],
       "answer": "83",
       "difficulty": "hard"
+    },
+    {
+      "id": "aca_1002",
+      "question": "Bharat Ratna scientists:\n1.Vikram Sarabhai 2.A.P.J.Abdul Kalam 3.Homi Bhabha\nശരിയായ സംയോജനം?",
+      "options": [
+        "1 മാത്രം",
+        "1, 3 മാത്രം",
+        "1, 2, 3",
+        "2 മാത്രം"
+      ],
+      "answer": "2 മാത്രം",
+      "difficulty": "medium"
     }
   ]
 }

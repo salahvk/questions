@@ -4007,6 +4007,510 @@
       ],
       "answer": "people",
       "difficulty": "medium"
+    },
+    {
+      "id": "eng_335",
+      "question": "Let us reconsider the proposal, ______?",
+      "options": [
+        "will you",
+        "shall we",
+        "do we",
+        "don't we"
+      ],
+      "answer": "shall we",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_336",
+      "question": "Identify the correct sentence.",
+      "options": [
+        "The director had the assistant prepare the summary.",
+        "The director had the assistant prepared the summary.",
+        "The director had the assistant preparing the summary.",
+        "The director had the assistant to prepare the summary."
+      ],
+      "answer": "The director had the assistant prepare the summary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_337",
+      "question": "Ravi ______ tea every morning.",
+      "options": [
+        "is drinking",
+        "drinks",
+        "drink",
+        "has drank"
+      ],
+      "answer": "drinks",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_338",
+      "question": "The plant shed its leaves. Possessive pronoun?",
+      "options": [
+        "plant",
+        "shed",
+        "its",
+        "leaves"
+      ],
+      "answer": "its",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_339",
+      "question": "Keerthana won't be late, ______?",
+      "options": [
+        "will she",
+        "won't she",
+        "would she",
+        "wouldn't she"
+      ],
+      "answer": "will she",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_340",
+      "question": "Now we shall discuss ______ our future prospects.",
+      "options": [
+        "about",
+        "of",
+        "for",
+        "no preposition"
+      ],
+      "answer": "no preposition",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_341",
+      "question": "We are going to bake the bread. (Passive)",
+      "options": [
+        "The bread is going to be baked.",
+        "The bread was going to be baked.",
+        "The bread has been baked.",
+        "The bread will be baked."
+      ],
+      "answer": "The bread is going to be baked.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_342",
+      "question": "Antonym of 'strictly' (rules were strictly enforced).",
+      "options": [
+        "leniently",
+        "firmly",
+        "rigidly",
+        "severely"
+      ],
+      "answer": "leniently",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_343",
+      "question": "Something happened at the college, ______?",
+      "options": [
+        "don't it",
+        "hadn't it",
+        "didn't it",
+        "isn't it"
+      ],
+      "answer": "didn't it",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_344",
+      "question": "The programme starts ______ 8:15 am.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "over"
+      ],
+      "answer": "at",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_345",
+      "question": "The Principal ______ to speak to you.",
+      "options": [
+        "wants",
+        "wanting",
+        "is wanting",
+        "was wanting"
+      ],
+      "answer": "wants",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_346",
+      "question": "Mary opened the door. (Passive)",
+      "options": [
+        "Mary was opened the door.",
+        "The door was opened by Mary.",
+        "Opened the door by Mary.",
+        "Mary has opened the door."
+      ],
+      "answer": "The door was opened by Mary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_347",
+      "question": "What a super show!",
+      "options": [
+        "Declarative",
+        "Interrogative",
+        "Imperative",
+        "Exclamatory"
+      ],
+      "answer": "Exclamatory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_348",
+      "question": "He didn't get ______ job he applied for.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "none of the above"
+      ],
+      "answer": "the",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_349",
+      "question": "Michelle is ______ than Natasha.",
+      "options": [
+        "old",
+        "more old",
+        "elder",
+        "older"
+      ],
+      "answer": "older",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_350",
+      "question": "I look forward ______ from you.",
+      "options": [
+        "for hearing",
+        "for hear",
+        "to hearing",
+        "by hearing"
+      ],
+      "answer": "to hearing",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_351",
+      "question": "Joshua said to mom, \"I have been here\".",
+      "options": [
+        "Joshua told mom that I had been there.",
+        "Joshua told mom that he has been there.",
+        "Joshua told mom that he had been here.",
+        "Joshua told mom that he had been there."
+      ],
+      "answer": "Joshua told mom that he had been there.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_352",
+      "question": "Phrasal verb: didn't ______ (meet as arranged).",
+      "options": [
+        "fall off",
+        "turn up",
+        "move in",
+        "clear up"
+      ],
+      "answer": "turn up",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_353",
+      "question": "Synonym of 'amicable'.",
+      "options": [
+        "cruel",
+        "large",
+        "friendly",
+        "simple"
+      ],
+      "answer": "friendly",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_354",
+      "question": "Opposite of 'cautious'.",
+      "options": [
+        "reckless",
+        "careful",
+        "slim",
+        "beautiful"
+      ],
+      "answer": "reckless",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_355",
+      "question": "Correctly spelt?",
+      "options": [
+        "catastrophy",
+        "catastrophi",
+        "catastrophe",
+        "catestrophy"
+      ],
+      "answer": "catastrophe",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_356",
+      "question": "One word: person with no money.",
+      "options": [
+        "stale",
+        "agile",
+        "passerby",
+        "pauper"
+      ],
+      "answer": "pauper",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_357",
+      "question": "Idiom 'round the corner' means?",
+      "options": [
+        "very near",
+        "difficult",
+        "spontaneous",
+        "clear"
+      ],
+      "answer": "very near",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_358",
+      "question": "Compound word?",
+      "options": [
+        "table",
+        "hallway",
+        "ceiling",
+        "computer"
+      ],
+      "answer": "hallway",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_359",
+      "question": "Female tiger?",
+      "options": [
+        "tigress",
+        "ewe",
+        "calf",
+        "tiger cub"
+      ],
+      "answer": "tigress",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_360",
+      "question": "Prefix comes at ______ of a word.",
+      "options": [
+        "ending",
+        "middle",
+        "beginning",
+        "top"
+      ],
+      "answer": "beginning",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_361",
+      "question": "LASER stands for?",
+      "options": [
+        "Light Amplification by Stimulated Emission of Radiation",
+        "Light Applied System Energy Resource",
+        "Linear Amplified Signal Energy Ray",
+        "Low Amplitude Stimulated Energy Ray"
+      ],
+      "answer": "Light Amplification by Stimulated Emission of Radiation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_362",
+      "question": "One word: pleasure as chief good.",
+      "options": [
+        "Stoic",
+        "Hedonist",
+        "Ascetic",
+        "Cynic"
+      ],
+      "answer": "Hedonist",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_363",
+      "question": "Collective noun: herd of ______.",
+      "options": [
+        "cattle",
+        "sheep",
+        "fish",
+        "birds"
+      ],
+      "answer": "cattle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_364",
+      "question": "Prepare the ______ of your research work.",
+      "options": [
+        "Synopsis",
+        "Synopsees",
+        "Synopses",
+        "Synopse"
+      ],
+      "answer": "Synopsis",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_365",
+      "question": "Fill the blank: A ______ of cattle lying under the tree.",
+      "options": [
+        "flock",
+        "herd",
+        "fleet",
+        "swarm"
+      ],
+      "answer": "herd",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_366",
+      "question": "The meeting was ______ due to the Manager's illness.",
+      "options": [
+        "put on",
+        "put off",
+        "put up",
+        "put out"
+      ],
+      "answer": "put off",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_367",
+      "question": "Synonym of 'perseverance'.",
+      "options": [
+        "intelligence",
+        "persistence",
+        "talent",
+        "luck"
+      ],
+      "answer": "persistence",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_368",
+      "question": "Opposite of 'manage' (prefix).",
+      "options": [
+        "mis",
+        "un",
+        "dis",
+        "non"
+      ],
+      "answer": "mis",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_369",
+      "question": "Meaning of 'Bona fide'.",
+      "options": [
+        "In good faith",
+        "Illegal",
+        "Temporary",
+        "Immediate"
+      ],
+      "answer": "In good faith",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_370",
+      "question": "Correct expansion of LASER.",
+      "options": [
+        "Light Amplification by Stimulated Emission Radiation",
+        "Light Amplification by Stimulated Emission of Radiation",
+        "Light Applied Stimulated Energy Radiation",
+        "Linear Amplified Signal Energy Ray"
+      ],
+      "answer": "Light Amplification by Stimulated Emission of Radiation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_371",
+      "question": "One word: person believing pleasure as chief good.",
+      "options": [
+        "Ascetic",
+        "Hedonist",
+        "Stoic",
+        "Idealist"
+      ],
+      "answer": "Hedonist",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_372",
+      "question": "Correctly spelt word.",
+      "options": [
+        "occurrence",
+        "Occurence",
+        "Occurrance",
+        "Occurance"
+      ],
+      "answer": "occurrence",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eng_373",
+      "question": "Word meaning 'having a harmful effect'.",
+      "options": [
+        "Pernicious",
+        "Perilous",
+        "Precious",
+        "Perceptive"
+      ],
+      "answer": "Pernicious",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_374",
+      "question": "Sentence type: 'How efficiently the inspection team completed the verification!'",
+      "options": [
+        "Assertive",
+        "Imperative",
+        "Interrogative",
+        "Exclamatory"
+      ],
+      "answer": "Exclamatory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_375",
+      "question": "The delegation travelled by ______ air due to urgency.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_376",
+      "question": "Neither the training module nor the supplementary material ______ available.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answer": "is",
+      "difficulty": "medium"
     }
   ]
 }

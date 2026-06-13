@@ -1319,6 +1319,78 @@
       "answer": "1969",
       "difficulty": "medium",
       "id": "it_110"
+    },
+    {
+      "id": "it_111",
+      "question": "ബൂട്ട് പ്രോഗ്രാം സൂക്ഷിക്കുന്ന മെമ്മറി?",
+      "options": [
+        "ROM",
+        "RAM",
+        "Cache",
+        "Secondary memory"
+      ],
+      "answer": "ROM",
+      "difficulty": "medium"
+    },
+    {
+      "id": "it_112",
+      "question": "ഓരോ വരിയായി ഉയർന്ന നിലവാര ഭാഷാ കോഡ് യന്ത്രഭാഷയാക്കി മാറ്റുന്നത്?",
+      "options": [
+        "അസെംബ്ലർ",
+        "കംപൈലർ",
+        "ഇന്റർപ്രെറ്റർ",
+        "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം"
+      ],
+      "answer": "ഇന്റർപ്രെറ്റർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "it_113",
+      "question": "സൈബർ കുറ്റകൃത്യങ്ങൾ റിപ്പോർട്ട് ചെയ്യുന്ന ദേശീയ നമ്പർ?",
+      "options": [
+        "1940",
+        "1930",
+        "1098",
+        "1947"
+      ],
+      "answer": "1930",
+      "difficulty": "medium"
+    },
+    {
+      "id": "it_114",
+      "question": "ICANN-ന്റെ പൂർണ്ണരൂപം?",
+      "options": [
+        "Internet Corporation for Assigned Names and Numbers",
+        "International Computer Association",
+        "Indian Network Centre",
+        "Integrated Circuit Analysis Network"
+      ],
+      "answer": "Internet Corporation for Assigned Names and Numbers",
+      "difficulty": "medium"
+    },
+    {
+      "id": "it_115",
+      "question": "Omegle-ന്റെ സ്ഥാപകൻ?",
+      "options": [
+        "Sam Altman",
+        "David R. Woolley",
+        "Doug Brown",
+        "Leif K. Brooks"
+      ],
+      "answer": "Leif K. Brooks",
+      "difficulty": "medium"
+    },
+    {
+      "id": "it_116",
+      "question": "Satellites: GOES—USA, INSAT—India, SPOT—France, Meteor-3—Russia. ശരിയായ code?",
+      "options": [
+        "2-4-3-1",
+        "3-2-1-4",
+        "3-4-1-2",
+        "2-4-1-3"
+      ],
+      "answer": "3-2-1-4",
+      "difficulty": "medium"
     }
   ]
 }

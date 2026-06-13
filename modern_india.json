@@ -1331,6 +1331,18 @@
       ],
       "answer": "2015 ജനുവരി 1",
       "difficulty": "medium"
+    },
+    {
+      "id": "mi_113",
+      "question": "സിവിൽ disobedience movement:\n1. Gandhi Purna Swaraj non-violent struggle.\n2. Dandi march Sabarmati to sea.\n3. Nehru 1931-ൽ Gandhi-യോട് salt strategy praise.\nശരിയായ സംയോജനം?",
+      "options": [
+        "1, 3 മാത്രം",
+        "2, 3 മാത്രം",
+        "1, 2 മാത്രം",
+        "1, 2, 3"
+      ],
+      "answer": "1, 2 മാത്രം",
+      "difficulty": "medium"
     }
   ]
 }

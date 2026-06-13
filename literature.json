@@ -1103,6 +1103,18 @@
       "answer": "The Great Gatsby",
       "difficulty": "medium",
       "id": "lit_092"
+    },
+    {
+      "id": "lit_093",
+      "question": "'ഓണം' പരാമർശമുള്ള സംഗംകാല കൃതി?",
+      "options": [
+        "അകനാനൂർ",
+        "ചിലപ്പാതികാരം",
+        "മധുരൈക്കാഞ്ചി",
+        "പെരിയപുരാണം"
+      ],
+      "answer": "അകനാനൂർ",
+      "difficulty": "medium"
     }
   ]
 }
