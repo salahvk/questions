@@ -587,6 +587,618 @@
       ],
       "answer": "മത-രാജ്യ വേർതിരിവ്",
       "difficulty": "medium"
+    },
+    {
+      "id": "phi_050",
+      "question": "ശങ്കരാചാര്യൻ പ്രതിപാദിച്ച ദർശനം?",
+      "options": [
+        "ദ്വൈതം",
+        "വിശിഷ്ടാദ്വൈതം",
+        "ബുദ്ധമതം",
+        "അദ്വൈത വേദാന്തം"
+      ],
+      "answer": "അദ്വൈത വേദാന്തം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_051",
+      "question": "രാമാനുജர் പ്രതിപാദിച്ച ദർശനം?",
+      "options": [
+        "ചാരvaka",
+        "ദ്വൈതം",
+        "വിശിഷ്ടാദ്വൈതം",
+        "അദ്വൈതം"
+      ],
+      "answer": "വിശിഷ്ടാദ്വൈതം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_052",
+      "question": "മധ്വാചാര്യൻ പ്രതിപാദിച്ച ദർശനം?",
+      "options": [
+        "അദ്വൈതം",
+        "ബുദ്ധമതം",
+        "വിശിഷ്ടാദ്വൈതം",
+        "ദ്വൈതം"
+      ],
+      "answer": "ദ്വൈതം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_053",
+      "question": "ഗൗതമ ബുദ്ധൻ പ്രതിപാദിച്ച നാല് ആര്യസത്യങ്ങൾ എത്ര?",
+      "options": [
+        "അഞ്ച്",
+        "മൂന്ന്",
+        "നാല്",
+        "ആറ്"
+      ],
+      "answer": "നാല്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_054",
+      "question": "ബുദ്ധമതത്തിലെ എട്ട് നേർമാർഗം അറിയപ്പെടുന്നത്?",
+      "options": [
+        "നവരasa",
+        "യോഗ",
+        "കർമ",
+        "അഷ്ടാംഗ മാർഗം"
+      ],
+      "answer": "അഷ്ടാംഗ മാർഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_055",
+      "question": "മഹാവീരൻ പ്രതിപാദിച്ച മതം?",
+      "options": [
+        "ബുദ്ധമതം",
+        "ഹിന്ദുമതം",
+        "സിഖ് മതം",
+        "ജൈനമതം"
+      ],
+      "answer": "ജൈനമതം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_056",
+      "question": "ജൈനമതത്തിലെ അഹിംസാ സിദ്ധാന്തം?",
+      "options": [
+        "കർമ്മം മാത്രം",
+        "ഹിംസ അനിവാര്യം",
+        "സകല ജീവികളോടും അഹിംസ",
+        "യജ്ഞം മാത്രം"
+      ],
+      "answer": "സകല ജീവികളോടും അഹിംസ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_057",
+      "question": "പതഞ്ജലി ബന്ധപ്പെട്ട ദർശനം?",
+      "options": [
+        "ന്യായം",
+        "സാംഖ്യം",
+        "യോഗദർശനം",
+        "വൈശേഷികം"
+      ],
+      "answer": "യോഗദർശനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_058",
+      "question": "കപില മഹർഷി ബന്ധപ്പെട്ട ദർശനം?",
+      "options": [
+        "സാംഖ്യം",
+        "ന്യായം",
+        "യോഗം",
+        "മീമാംസ"
+      ],
+      "answer": "സാംഖ്യം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_059",
+      "question": "ഗൗതമ (ന്യായ) ബന്ധപ്പെട്ട ദർശനം?",
+      "options": [
+        "വേദാന്തം",
+        "ചാരvaka",
+        "ന്യായദർശനം",
+        "വൈശേഷികം"
+      ],
+      "answer": "ന്യായദർശനം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_060",
+      "question": "കണാദ ബന്ധപ്പെട്ട ദർശനം?",
+      "options": [
+        "യോഗം",
+        "ന്യായം",
+        "സാംഖ്യം",
+        "വൈശേഷികം"
+      ],
+      "answer": "വൈശേഷികം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_061",
+      "question": "ചാരvaka ദർശനം പ്രധാനമായി?",
+      "options": [
+        "യോഗം",
+        "കർമ്മം",
+        "അദ്വൈതം",
+        "ഭൗതികവാദം/സുഖവാദം"
+      ],
+      "answer": "ഭൗതികവാദം/സുഖവാദം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_062",
+      "question": "സോക്രATES-ന്റെ ശിഷ്യൻ?",
+      "options": [
+        "Heraclitus",
+        "അറിസ്റ്റോട്ടിൽ",
+        "പ്ലേറ്റോ",
+        "ഡemocritus"
+      ],
+      "answer": "പ്ലേറ്റോ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_063",
+      "question": "പ്ലato-യുടെ ശിഷ്യൻ?",
+      "options": [
+        "Socrates",
+        "Kant",
+        "സോക്രATES",
+        "അറിസ്റ്റോട്ടിൽ"
+      ],
+      "answer": "അറിസ്റ്റോട്ടിൽ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_064",
+      "question": "അറിസ്റ്റോട്ടil-ന്റെ teacher?",
+      "options": [
+        "പ്ലato",
+        "Socrates directly only",
+        "Descartes",
+        "Kant"
+      ],
+      "answer": "പ്ലato",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_065",
+      "question": "Descartes-ന്റെ പ്രശസ്ത statement?",
+      "options": [
+        "Will to power",
+        "Cogito ergo sum",
+        "Tabula rasa",
+        "Forms exist"
+      ],
+      "answer": "Cogito ergo sum",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_066",
+      "question": "John Locke പ്രതിപാദിച്ച ആശയം?",
+      "options": [
+        "Categorical imperative",
+        "Forms",
+        "Will to power",
+        "Tabula rasa / social contract"
+      ],
+      "answer": "Tabula rasa / social contract",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_067",
+      "question": "Immanuel Kant-ന്റെ ethics concept?",
+      "options": [
+        "Utilitarianism",
+        "Dharma only",
+        "Categorical Imperative",
+        "Eudaimonia"
+      ],
+      "answer": "Categorical Imperative",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_068",
+      "question": "Utilitarianism ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Buddha only",
+        "Shankaracharya",
+        "Plato only",
+        "Bentham and Mill"
+      ],
+      "answer": "Bentham and Mill",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_069",
+      "question": "Nietzsche concept?",
+      "options": [
+        "Will to power",
+        "Forms",
+        "Cogito",
+        "Tabula rasa"
+      ],
+      "answer": "Will to power",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_070",
+      "question": "Karl Marx philosophy branch?",
+      "options": [
+        "Dialectical materialism",
+        "Vedanta",
+        "Yoga",
+        "Idealism only"
+      ],
+      "answer": "Dialectical materialism",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_071",
+      "question": "Sartre ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Existentialism",
+        "Nyaya",
+        "Vedanta",
+        "Stoicism"
+      ],
+      "answer": "Existentialism",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_072",
+      "question": "Stoicism ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Plato",
+        "Buddha",
+        "Shankara",
+        "Zeno of Citium"
+      ],
+      "answer": "Zeno of Citium",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_073",
+      "question": "Upanishads primarily ചർച്ച ചെയ്ത?",
+      "options": [
+        "രാജ്യം മാത്രം",
+        "വ്യാകരണം മാത്രം",
+        "ബ്രഹ്മവും ആത്മാവും",
+        "ചടങ്ങുകൾ മാത്രം"
+      ],
+      "answer": "ബ്രഹ്മവും ആത്മാവും",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_074",
+      "question": "ഗീത ഏതിന്റെ ഭാഗമാണ്?",
+      "options": [
+        "Vedas",
+        "Mahabharata",
+        "Ramayana",
+        "Upanishads only"
+      ],
+      "answer": "Mahabharata",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_075",
+      "question": "Purva Mimamsa focuses on?",
+      "options": [
+        "Metaphysics only",
+        "Art only",
+        "Vedic rituals/karma",
+        "Logic only"
+      ],
+      "answer": "Vedic rituals/karma",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_076",
+      "question": "Uttara Mimamsa is another name for?",
+      "options": [
+        "Charvaka",
+        "Yoga",
+        "Nyaya",
+        "Vedanta"
+      ],
+      "answer": "Vedanta",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_077",
+      "question": "ശ്രീ നാരായണ ഗുരു എന്ത് ഊന്നിപ്പറഞ്ഞു?",
+      "options": [
+        "ജാതി ശ്രേണി",
+        "ഒന്നുമില്ല",
+        "ഒരു ജാതി, ഒരു മതം, മനുഷ്യന് ഒരു ദൈവം",
+        "കോളനി ഭരണം"
+      ],
+      "answer": "ഒരു ജാതി, ഒരു മതം, മനുഷ്യന് ഒരു ദൈവം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_078",
+      "question": "Vaikom Satyagraha നടത്തer association with Narayana Guru ideals?",
+      "options": [
+        "ഒന്നുമില്ല",
+        "Colonial വിപുലീകരണം",
+        "സാമൂഹിക സമത്വം",
+        "War"
+      ],
+      "answer": "സാമൂഹിക സമത്വം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_079",
+      "question": "Chattampi Swamikal contributed to?",
+      "options": [
+        "Kerala renaissance/spiritual reform",
+        "Colonial army",
+        "ചലച്ചിത്രം",
+        "Sports only"
+      ],
+      "answer": "Kerala renaissance/spiritual reform",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_080",
+      "question": "Vagbhatananda Kerala philosopher ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Muslim League only",
+        "Atmavidya Sangham",
+        "ഒന്നുമില്ല",
+        "Congress only"
+      ],
+      "answer": "Atmavidya Sangham",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_081",
+      "question": "Plato's famous work?",
+      "options": [
+        "Republic",
+        "Leviathan",
+        "Critique of Pure Reason",
+        "Nicomachean Ethics"
+      ],
+      "answer": "Republic",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_082",
+      "question": "Aristotle's ethics work?",
+      "options": [
+        "Nicomachean Ethics",
+        "Republic",
+        "Meditations",
+        "Thus Spoke Zarathustra"
+      ],
+      "answer": "Nicomachean Ethics",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_083",
+      "question": "Kant's major work?",
+      "options": [
+        "Republic",
+        "Das Kapital",
+        "Critique of Pure Reason",
+        "Ethics"
+      ],
+      "answer": "Critique of Pure Reason",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_084",
+      "question": "കൺഫ്യൂഷ്യസിന്റെ ഉത്ഭവ രാജ്യം?",
+      "options": [
+        "India",
+        "ഗ്രീസ്",
+        "ചൈന",
+        "ഈജിപ്ത്"
+      ],
+      "answer": "ചൈന",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_085",
+      "question": "Taoism ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Confucius only",
+        "Buddha",
+        "Shankara",
+        "Lao Tzu"
+      ],
+      "answer": "Lao Tzu",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_086",
+      "question": "Zen Buddhism origin linked to?",
+      "options": [
+        "Theravada Sri Lanka only",
+        "Mahayana/China-Japan",
+        "ഗ്രീസ്",
+        "ഈജിപ്ത്"
+      ],
+      "answer": "Mahayana/China-Japan",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_087",
+      "question": "നാല് ആര്യസത്യങ്ങൾ ഏതിനുള്ളതാണ്?",
+      "options": [
+        "ബുദ്ധമതം",
+        "ഹിന്ദുമതം മാത്രം",
+        "ജൈനമതം",
+        "സിഖ് മതം മാത്രം"
+      ],
+      "answer": "ബുദ്ധമതം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_088",
+      "question": "Middle Way (Madhyamaka) ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Shankara",
+        "Nagarjuna",
+        "Kant",
+        "Plato"
+      ],
+      "answer": "Nagarjuna",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_089",
+      "question": "അദ്വൈതത്തിന്റെ അർത്ഥം?",
+      "options": [
+        "ഭൗതികവാദം",
+        "ദ്വൈതം",
+        "ബഹുത്വവാദം",
+        "അദ്വൈതം"
+      ],
+      "answer": "അദ്വൈതം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_090",
+      "question": "ദ്വൈതത്തിന്റെ അർത്ഥം?",
+      "options": [
+        "ശൂന്യവാദം",
+        "അദ്വൈതം",
+        "ദ്വൈതം",
+        "ഏകത്വവാദം"
+      ],
+      "answer": "ദ്വൈതം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_091",
+      "question": "Maya concept in Advaita refers to?",
+      "options": [
+        "Physical matter only",
+        "Absolute truth only",
+        "Illusory appearance of world",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "Illusory appearance of world",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_092",
+      "question": "മോക്ഷത്തിന്റെ അർത്ഥം?",
+      "options": [
+        "പ്രശസ്തി",
+        "സമ്പത്ത്",
+        "ശക്തി",
+        "മോക്ഷം"
+      ],
+      "answer": "മോക്ഷം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_093",
+      "question": "കർമ്മ സിദ്ധാന്തം സൂചിപ്പിക്കുന്നത്?",
+      "options": [
+        "Predestination only",
+        "കർമ്മവും പരിണാമവും",
+        "Random events only",
+        "No causality"
+      ],
+      "answer": "കർമ്മവും പരിണാമവും",
+      "difficulty": "easy"
+    },
+    {
+      "id": "phi_094",
+      "question": "സോക്രട്ടിക് രീതി എന്താണ്?",
+      "options": [
+        "Meditation only",
+        "വാദവിവാദ പരിശോധന",
+        "War strategy",
+        "Ritual only"
+      ],
+      "answer": "വാദവിവാദ പരിശോധന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_095",
+      "question": "അനുഭവവാദം എന്തിനെ ഊന്നിപ്പറയുന്നു?",
+      "options": [
+        "Revelation only",
+        "അനുഭവം അറിവിന്റെ ഉറവിടം",
+        "Authority only",
+        "Reason only"
+      ],
+      "answer": "അനുഭവം അറിവിന്റെ ഉറവിടം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_096",
+      "question": "യുക്തിവാദം എന്തിനെ ഊന്നിപ്പറയുന്നു?",
+      "options": [
+        "Luck",
+        "Senses only",
+        "Tradition only",
+        "യുക്തി പ്രാഥമിക അറിവിന്റെ ഉറവിടം"
+      ],
+      "answer": "യുക്തി പ്രാഥമിക അറിവിന്റെ ഉറവിടം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "phi_097",
+      "question": "Hegel ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Charvaka",
+        "Nyaya",
+        "Dialectical idealism",
+        "Yoga"
+      ],
+      "answer": "Dialectical idealism",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_098",
+      "question": "Schopenhauer known for?",
+      "options": [
+        "Mimamsa",
+        "Philosophy of will/pessimism",
+        "Utilitarianism",
+        "Vedanta"
+      ],
+      "answer": "Philosophy of will/pessimism",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_099",
+      "question": "Bertrand Russell contributed to?",
+      "options": [
+        "Yoga",
+        "Vedanta",
+        "Mimamsa",
+        "Analytic philosophy/logic"
+      ],
+      "answer": "Analytic philosophy/logic",
+      "difficulty": "hard"
+    },
+    {
+      "id": "phi_100",
+      "question": "Wittgenstein known for?",
+      "options": [
+        "Caste system",
+        "Yoga",
+        "Rituals",
+        "Language philosophy"
+      ],
+      "answer": "Language philosophy",
+      "difficulty": "hard"
     }
   ]
 }

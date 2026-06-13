@@ -1,0 +1,116 @@
+---
+description: Malayalam quiz question standards — language, uniqueness, grammar, quality
+globs: "*.json"
+alwaysApply: false
+---
+
+# Malayalam Quiz Question Standards
+
+Applies to every `*.json` question bank in this repo **except**:
+- `english_language.json` — English only (synonyms, grammar, vocabulary)
+- `current_affairs_manifest.json` — metadata, not questions
+
+## JSON shape
+
+Each question:
+
+```json
+{
+  "id": "prefix_001",
+  "question": "…",
+  "options": ["…", "…", "…", "…"],
+  "answer": "…",
+  "difficulty": "easy | medium | hard"
+}
+```
+
+Four distinct options; `answer` must exactly match one option.
+
+## 1. Language — pure Malayalam
+
+Write **question, all options, and answer** in Malayalam script. Kerala PSC / competitive-exam tone.
+
+### English allowed only when necessary
+
+Keep English (or Latin script) **only** for items with no standard Malayalam equivalent:
+
+| Keep in English/Latin | Malayalam instead |
+|-------------------------|-------------------|
+| ODI, T20, IPL, ICC, FIFA, GST, ISRO, NASA, WHO | — |
+| Duckworth-Lewis-Stern, Powerplay (with context) | — |
+| Full-form questions: GST, NEP, IMF in stem/options | — |
+| Proper nouns: London, Paris, Einstein | transliterate: ലണ്ടൻ, പാരീസ് |
+| **Book / literary work titles** — see below | — |
+
+### Book and literary work titles
+
+Use each work’s title in **its own language** (the language it was written/published in):
+
+| Work type | Title in question/options |
+|-----------|---------------------------|
+| Malayalam book | Malayalam: `'ഇരുപ്പ്'`, `'നാലുകെട്ട്'`, `'ഖാസാക്കിന്റെ ഇതിഹാസം'` |
+| English book | English: `'The God of Small Things'`, `'Wuthering Heights'`, `'Discovery of India'` |
+| Other languages | Original or standard title: `'Don Quixote'`, `'Les Misérables'` |
+
+- Question stem stays Malayalam; only the **title** keeps its source language.
+- Do **not** translate English book titles into Malayalam (or vice versa).
+- All options in a title-matching question must follow the same rule (English with English, Malayalam with Malayalam).
+
+```text
+❌ 'ചെറിയ കാര്യങ്ങളുടെ ദൈവം' — English novel; keep English title
+❌ 'Iruppu' — Malayalam work; use Malayalam script
+✅ 'The God of Small Things' രചിച്ചത് ആരാണ്?
+✅ 'നാലുകെട്ട്' രചിച്ചത് ആരാണ്?
+✅ Which is written by Arundhati Roy? → options include The God of Small Things (in english_language.json only)
+```
+
+**Do not** leave descriptive English in Malayalam sentences:
+
+```text
+❌ 2022 FIFA World Cup-ന്റെ വിജയി?
+❌ Which country hosted the Olympics?
+❌ enthu / aaru / what is (Romanized or English stems)
+
+✅ 2022-ലെ FIFA ലോകകപ്പ് വിജയിച്ചത് ഏത് രാജ്യം?
+✅ ഒളിമ്പിക്സ് ആതിഥ്യം വഹിച്ച രാജ്യം ഏത്?
+✅ Duckworth-Lewis-Stern രീതി എന്താണ്?
+✅ ODI ഒരു ഇന്നിംഗ്സിലെ ഓവറുകൾ എത്ര?
+```
+
+Acronyms in options are fine when the question tests recognition (e.g. GST Council → options IMF, WHO, GST, WTO).
+
+## 2. No Manglish
+
+- No Romanized Malayalam (`enthu`, `evide`, `njan`).
+- No English–Malayalam code-switching in one phrase (`match-ന്റെ`, `team-ൽ`).
+- Translate the **sentence**; keep only the irreducible term (FIFA, ODI, etc.).
+- Prefer established Malayalam terms: ലോകകപ്പ്, ആതിഥ്യം, വിജയി, നിയമസഭ, മുഖ്യമന്ത്രി.
+
+## 3. Grammar and phrasing
+
+- Use natural exam Malayalam: `ഏത്?`, `എവിടെ?`, `ആരാണ്?`, `എന്താണ്?`, `എത്ര?`
+- Match subject–verb agreement; avoid calques from English word order.
+- Use `-യുടെ` / `-ൽ` / `-ആണ്` correctly; prefer `-യുടെ` over glued English (`World Cup-ന്റെ` → `ലോകകപ്പിന്റെ`).
+- Numbers: digits OK for years/counts (2022, 140); spell out in options when testing knowledge (`അഞ്ച്` vs `5` — be consistent within one question).
+- Names: standard Malayalam spellings (കേരളം, തിരുവനന്തപുരം, ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്).
+
+## 4. Uniqueness and quality
+
+Before adding or editing:
+
+1. **Globally unique** — same `question` text must not appear in any other `*.json` file.
+2. **Factually correct** — one unambiguous correct answer; distractors plausible but wrong.
+3. **Non-trivial** — no duplicate concepts rephrased slightly; each question tests distinct knowledge.
+4. **Balanced options** — similar length and format; avoid obvious wrong answers.
+5. **ID discipline** — follow file prefix (`pok_`, `sca_`, `ca_2026_06_`, etc.); increment without gaps.
+
+When bulk-editing, run `fill_unique.py` / `malayalamize_questions.py` patterns: malayalamize first, then verify no English leakage beyond allowed terms.
+
+## Quick review checklist
+
+- [ ] Malayalam script throughout (except allowed terms and source-language book titles)
+- [ ] Book/literary titles in their source language (English books in English, Malayalam in Malayalam)
+- [ ] No Manglish or English sentence fragments
+- [ ] Question unique across repo
+- [ ] Four options, one correct answer, difficulty set
+- [ ] Reads naturally to a Malayalam speaker preparing for Kerala PSC–style exams

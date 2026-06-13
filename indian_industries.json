@@ -479,6 +479,726 @@
       ],
       "answer": "ബെംഗളൂരു",
       "difficulty": "easy"
+    },
+    {
+      "id": "ii_001",
+      "question": "BHEL PSU പ്രധാന മേഖല?",
+      "options": [
+        "Space only",
+        "പ്രതിരോധം മാത്രം",
+        "Banking",
+        "വിദ്യുത് ഉപകരണങ്ങൾ"
+      ],
+      "answer": "വിദ്യുത് ഉപകരണങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_002",
+      "question": "HAL PSU പ്രധാന മേഖല?",
+      "options": [
+        "സഞ്ചാരം",
+        "മത്സ്യബന്ധനം",
+        "വൈമാനിക/പ്രതിരോധം",
+        "Textiles"
+      ],
+      "answer": "വൈമാനിക/പ്രതിരോധം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_003",
+      "question": "SAIL PSU പ്രധാന മേഖല?",
+      "options": [
+        "Software",
+        "സഞ്ചാരം",
+        "Pharma only",
+        "ഉരുക്ക്"
+      ],
+      "answer": "ഉരുക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_004",
+      "question": "ONGC PSU പ്രധാന മേഖല?",
+      "options": [
+        "റെയിൽവേ",
+        "Post office",
+        "എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണം",
+        "സഞ്ചാരം"
+      ],
+      "answer": "എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_005",
+      "question": "NTPC PSU പ്രധാന മേഖല?",
+      "options": [
+        "Textiles",
+        "മത്സ്യബന്ധനം",
+        "ചലച്ചിത്രം",
+        "വിദ്യുത് ഉൽപ്പാദനം"
+      ],
+      "answer": "വിദ്യുത് ഉൽപ്പാദനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_006",
+      "question": "IOCL PSU പ്രധാന മേഖല?",
+      "options": [
+        "ബഹിരാകാശം",
+        "സഞ്ചാരം",
+        "പ്രതിരോധം മാത്രം",
+        "എണ്ണ ശുദ്ധീകരണം/വിപണനം"
+      ],
+      "answer": "എണ്ണ ശുദ്ധീകരണം/വിപണനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_007",
+      "question": "Coal India PSU പ്രധാന മേഖല?",
+      "options": [
+        "Pharma",
+        "Software",
+        "കൽക്കരി ഖനനം",
+        "ചലച്ചിത്രം"
+      ],
+      "answer": "കൽക്കരി ഖനനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_008",
+      "question": "GAIL PSU പ്രധാന മേഖല?",
+      "options": [
+        "കൽക്കരി ഖനനം",
+        "ചലച്ചിത്രം",
+        "പ്രകൃതി വാതകം",
+        "Shipbuilding"
+      ],
+      "answer": "പ്രകൃതി വാതകം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_009",
+      "question": "NHPC PSU പ്രധാന മേഖല?",
+      "options": [
+        "ജലവിദ്യുത്",
+        "Textiles",
+        "Coal",
+        "ചലച്ചിത്രം"
+      ],
+      "answer": "ജലവിദ്യുത്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_010",
+      "question": "BEL PSU പ്രധാന മേഖല?",
+      "options": [
+        "മത്സ്യബന്ധനം",
+        "സഞ്ചാരം",
+        "പ്രതിരോധ ഇലക്ട്രോണിക്സ്",
+        "Textiles"
+      ],
+      "answer": "പ്രതിരോധ ഇലക്ട്രോണിക്സ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_011",
+      "question": "BEML PSU പ്രധാന മേഖല?",
+      "options": [
+        "ചലച്ചിത്രം",
+        "Pharma",
+        "സഞ്ചാരം only",
+        "ഭാരമുള്ള ഉപകരണങ്ങൾ"
+      ],
+      "answer": "ഭാരമുള്ള ഉപകരണങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_012",
+      "question": "HMT PSU പ്രധാന മേഖല?",
+      "options": [
+        "Insurance only",
+        "Banking",
+        "ബഹിരാകാശ ദൗത്യം",
+        "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)"
+      ],
+      "answer": "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_013",
+      "question": "MIDHANI PSU പ്രധാന മേഖല?",
+      "options": [
+        "സഞ്ചാരം",
+        "Textiles",
+        "പ്രത്യേക ലോഹങ്ങൾ/ലേഹകങ്ങൾ",
+        "മത്സ്യബന്ധനം"
+      ],
+      "answer": "പ്രത്യേക ലോഹങ്ങൾ/ലേഹകങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_014",
+      "question": "NLC India PSU പ്രധാന മേഖല?",
+      "options": [
+        "ചലച്ചിത്രം",
+        "സഞ്ചാരം",
+        "Software",
+        "ലിഗ്നൈറ്റ് ഖനനം/വിദ്യുത്"
+      ],
+      "answer": "ലിഗ്നൈറ്റ് ഖനനം/വിദ്യുത്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_015",
+      "question": "SCI PSU പ്രധാന മേഖല?",
+      "options": [
+        "കപ്പൽ കയറ്റുമതി",
+        "കൽക്കരി ഖനനം",
+        "ചലച്ചിത്രം",
+        "Textiles"
+      ],
+      "answer": "കപ്പൽ കയറ്റുമതി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_016",
+      "question": "മേക്ക് ഇൻ ഇന്ത്യ ലോഗോയിലെ മൃഗം?",
+      "options": [
+        "മയിൽ",
+        "സിംഹം",
+        "ആന",
+        "പുലി"
+      ],
+      "answer": "സിംഹം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ii_017",
+      "question": "Delhi-Mumbai Industrial Corridor (DMIC) length approx?",
+      "options": [
+        "500 km",
+        "200 km",
+        "3000 km",
+        "1500 km"
+      ],
+      "answer": "1500 km",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_018",
+      "question": "Chennai-Bengaluru Industrial Corridor part of?",
+      "options": [
+        "DMIC only",
+        "Himalayan corridor",
+        "East Coast Economic Corridor",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "East Coast Economic Corridor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_019",
+      "question": "Amritsar-Kolkata Industrial Corridor aligned along?",
+      "options": [
+        "ഒന്നുമില്ല",
+        "Coastal road only",
+        "Western DFC only",
+        "Eastern Dedicated Freight Corridor"
+      ],
+      "answer": "Eastern Dedicated Freight Corridor",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_020",
+      "question": "Visakhapatnam-Chennai Industrial Corridor in which state mostly?",
+      "options": [
+        "ആന്ധ്രപ്രദേശ്",
+        "പഞ്ചാബ്",
+        "രാജസ്ഥാൻ",
+        "കേരളം"
+      ],
+      "answer": "ആന്ധ്രപ്രദേശ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_021",
+      "question": "Bengaluru-Mumbai Industrial Corridor states include?",
+      "options": [
+        "കർണാടകയും മഹാരാഷ്ട്രയും",
+        "Assam only",
+        "Punjab only",
+        "കേരളം മാത്രം"
+      ],
+      "answer": "കർണാടകയും മഹാരാഷ്ട്രയും",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_022",
+      "question": "National Manufacturing Policy target share of GDP?",
+      "options": [
+        "25%",
+        "5%",
+        "50%",
+        "10%"
+      ],
+      "answer": "25%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_023",
+      "question": "'ലോകത്തിന്റെ ഫാർമസി' എന്ന് ഏത് രാജ്യത്തെ സൂചിപ്പിക്കുന്നു?",
+      "options": [
+        "USA",
+        "ബ്രാസീൽ",
+        "Japan",
+        "India"
+      ],
+      "answer": "India",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_024",
+      "question": "ബെംഗളൂരു ഐടി നാഗരികതയുടെ വിളിപ്പേര്?",
+      "options": [
+        "സ്റ്റീൽ നഗരം",
+        "പിങ്ക് നഗരം",
+        "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
+        "ഇന്ത്യയുടെ ഡിട്രോയിറ്റ്"
+      ],
+      "answer": "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ii_025",
+      "question": "ഇന്ത്യയുടെ ഡിട്രോയിറ്റ് എന്ന് സാധാരണയായി ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "options": [
+        "Shimla",
+        "ചെന്നൈ (ഓട്ടോമൊബൈൽ)",
+        "ജയ്പ്പൂർ",
+        "Panaji"
+      ],
+      "answer": "ചെന്നൈ (ഓട്ടോമൊബൈൽ)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_026",
+      "question": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ റിഫൈനറി (ജാംനഗർ) ഉടമസ്ഥൻ?",
+      "options": [
+        "ONGC only",
+        "HAL",
+        "റിലയൻസ്",
+        "SAIL"
+      ],
+      "answer": "റിലയൻസ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_027",
+      "question": "സ്റ്റീൽ അതോറിറ്റി ഓഫ് ഇന്ത്യ ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത",
+        "മുംബൈ",
+        "ന്യൂഡൽഹി"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_028",
+      "question": "ISRO ആസ്ഥാനം?",
+      "options": [
+        "Hyderabad",
+        "മുംബൈ",
+        "ബെംഗളൂരു",
+        "ചെന്നൈ"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ii_029",
+      "question": "DRDO ആസ്ഥാനം?",
+      "options": [
+        "Guwahati",
+        "Pune only",
+        "ന്യൂഡൽഹി",
+        "കൊച്ചി"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_030",
+      "question": "HAL ആസ്ഥാനം?",
+      "options": [
+        "ബെംഗളൂരു",
+        "മുംബൈ",
+        "ഡൽഹി",
+        "കൊൽക്കത്ത"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_031",
+      "question": "BEL ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "ബെംഗളൂരു",
+        "കൊൽക്കത്ത",
+        "മുംബൈ"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_032",
+      "question": "NALCO ആസ്ഥാനം?",
+      "options": [
+        "Bhubaneswar",
+        "ചെന്നൈ",
+        "മുംബൈ",
+        "ഡൽഹി"
+      ],
+      "answer": "Bhubaneswar",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_033",
+      "question": "ഹിന്ദുസ്ഥാൻ പെട്രോളിയം ആസ്ഥാന നഗരം?",
+      "options": [
+        "മുംബൈ",
+        "ഡൽഹി",
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത"
+      ],
+      "answer": "മുംബൈ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_034",
+      "question": "മാരുതി സുസുക്കി നിർമ്മാണം പ്രധാനമായും എവിടെ?",
+      "options": [
+        "കേരളം",
+        "Goa only",
+        "ഹരിയാന/ഗുജറാത്ത്",
+        "Assam only"
+      ],
+      "answer": "ഹരിയാന/ഗുജറാത്ത്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_035",
+      "question": "ടാറ്റാ സ്റ്റീൽ പ്രധാന പ്ലാന്റ് എവിടെ?",
+      "options": [
+        "ജയ്പ്പൂർ",
+        "Shimla",
+        "ജാംഷെഡ്പൂർ",
+        "Panaji"
+      ],
+      "answer": "ജാംഷെഡ്പൂർ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_036",
+      "question": "Indian Oil refineries count (approx)?",
+      "options": [
+        "2",
+        "50",
+        "100",
+        "10+"
+      ],
+      "answer": "10+",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_037",
+      "question": "Textile industry major cluster Tiruppur known for?",
+      "options": [
+        "Coal",
+        "നിറ്റ്വെയർ കയറ്റുമതി",
+        "Oil refining",
+        "ബഹിരാകാശം"
+      ],
+      "answer": "നിറ്റ്വെയർ കയറ്റുമതി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_038",
+      "question": "Diamond cutting hub in India?",
+      "options": [
+        "Surat",
+        "Shimla",
+        "Jaipur only",
+        "Panaji"
+      ],
+      "answer": "Surat",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_039",
+      "question": "Leather industry hub?",
+      "options": [
+        "Shimla",
+        "Kanpur/Chennai",
+        "Panaji",
+        "Gangtok"
+      ],
+      "answer": "Kanpur/Chennai",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_040",
+      "question": "Software Technology Parks of India (STPI) established?",
+      "options": [
+        "2015",
+        "1980",
+        "2005",
+        "1991"
+      ],
+      "answer": "1991",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_041",
+      "question": "SEZ policy in India announced?",
+      "options": [
+        "1985",
+        "1990",
+        "2000",
+        "2010"
+      ],
+      "answer": "2000",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_042",
+      "question": "Production Linked Incentive first sector?",
+      "options": [
+        "മത്സ്യബന്ധനം",
+        "Coal",
+        "മൊബൈൽ നിർമ്മാണം",
+        "ചലച്ചിത്രം"
+      ],
+      "answer": "മൊബൈൽ നിർമ്മാണം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_043",
+      "question": "National Industrial Corridor Development Programme nodal?",
+      "options": [
+        "Home",
+        "Defence Ministry",
+        "External Affairs",
+        "DPIIT"
+      ],
+      "answer": "DPIIT",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_044",
+      "question": "MSME definition micro enterprise investment limit (manufacturing approx)?",
+      "options": [
+        "₹1000 crore",
+        "₹2.5 crore",
+        "₹500 crore",
+        "₹100 crore"
+      ],
+      "answer": "₹2.5 crore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_045",
+      "question": "KVIC എന്തിനാണ്?",
+      "options": [
+        "പ്രതിരോധം",
+        "ഗ്രാമീണ വ്യവസായങ്ങൾ",
+        "ചലച്ചിത്രം മാത്രം",
+        "ബഹിരാകാശം"
+      ],
+      "answer": "ഗ്രാമീണ വ്യവസായങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_046",
+      "question": "കയർ വ്യവസായത്തിന്റെ പ്രധാന സംസ്ഥാനം?",
+      "options": [
+        "രാജസ്ഥാൻ",
+        "കേരളം",
+        "ഹിമാചൽ",
+        "പഞ്ചാബ്"
+      ],
+      "answer": "കേരളം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ii_047",
+      "question": "സ്പൈസസ് ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "ഡൽഹി",
+        "മുംബൈ",
+        "കൊച്ചി"
+      ],
+      "answer": "കൊച്ചി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_048",
+      "question": "റബ്ബർ ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "ഡൽഹി",
+        "മുംബൈ",
+        "Kottayam",
+        "ചെന്നൈ"
+      ],
+      "answer": "Kottayam",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_049",
+      "question": "ടീ ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "ചെന്നൈ",
+        "കൊൽക്കത്ത",
+        "കൊച്ചി",
+        "ഡൽഹി"
+      ],
+      "answer": "കൊൽക്കത്ത",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_050",
+      "question": "കോഫി ബോർഡ് ആസ്ഥാനം?",
+      "options": [
+        "കൊച്ചി",
+        "ഡൽഹി",
+        "മുംബൈ",
+        "ബെംഗളൂരു"
+      ],
+      "answer": "ബെംഗളൂരു",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_051",
+      "question": "Handicrafts sector major export item?",
+      "options": [
+        "Iron ore only",
+        "Coal",
+        "Oil only",
+        "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ"
+      ],
+      "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_052",
+      "question": "കപ്പൽ നിർമ്മാണ പ്രധാന പൊതുമേഖലാ സ്ഥാപനം?",
+      "options": [
+        "SAIL",
+        "NTPC",
+        "Coal India",
+        "കൊച്ചി ഷിപ്പ്യാർഡ്"
+      ],
+      "answer": "കൊച്ചി ഷിപ്പ്യാർഡ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_053",
+      "question": "ഭാരത് ഹെവി ഇലക്ട്രിക്കൽസിന്റെ പ്രധാന ഉൽപ്പന്നം?",
+      "options": [
+        "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
+        "Cars only",
+        "Mobile phones only",
+        "Aircraft carriers only"
+      ],
+      "answer": "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_054",
+      "question": "National Investment and Manufacturing Zones (NIMZ) policy year?",
+      "options": [
+        "2011",
+        "2015",
+        "1990",
+        "2000"
+      ],
+      "answer": "2011",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_055",
+      "question": "Industrial Development Bank of India now known as?",
+      "options": [
+        "HDFC",
+        "IDBI Bank",
+        "PNB",
+        "SBI"
+      ],
+      "answer": "IDBI Bank",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_056",
+      "question": "SIDBI എന്തിനാണ്?",
+      "options": [
+        "എം.എസ്.എം.ഇ ധനസഹായം",
+        "ചലച്ചിത്രം മാത്രം",
+        "പ്രതിരോധം മാത്രം",
+        "Space only"
+      ],
+      "answer": "എം.എസ്.എം.ഇ ധനസഹായം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ii_057",
+      "question": "ഇന്ത്യയിലെ ആദ്യ എക്സ്പോർട്ട് പ്രോസസ്സിംഗ് സോൺ?",
+      "options": [
+        "കാന്ദ്ല",
+        "കൊച്ചി",
+        "ഡൽഹി",
+        "ചെന്നൈ"
+      ],
+      "answer": "കാന്ദ്ല",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_058",
+      "question": "Petrochemical hub Panipat in?",
+      "options": [
+        "കേരളം",
+        "Tamil Nadu",
+        "ഗോവ",
+        "ഹരിയാന"
+      ],
+      "answer": "ഹരിയാന",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ii_059",
+      "question": "പൂണെ/ചെന്നൈ ഓട്ടോമൊബൈൽ ക്ലസ്റ്റർ ബന്ധപ്പെട്ട വ്യവസായം?",
+      "options": [
+        "Tea only",
+        "Spices only",
+        "Coir",
+        "ഓട്ടോമൊബൈൽ നിർമ്മാണം"
+      ],
+      "answer": "ഓട്ടോമൊബൈൽ നിർമ്മാണം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ii_060",
+      "question": "ഹൈദരാബാദ് ഫാർമ ക്ലസ്റ്ററിന്റെ വിളിപ്പേര്?",
+      "options": [
+        "നീല നഗരം",
+        "ബൾക്ക് ഡ്രഗ് തലസ്ഥാനം",
+        "Pink city",
+        "Steel city"
+      ],
+      "answer": "ബൾക്ക് ഡ്രഗ് തലസ്ഥാനം",
+      "difficulty": "hard"
     }
   ]
 }

@@ -611,6 +611,594 @@
       ],
       "answer": "1931",
       "difficulty": "medium"
+    },
+    {
+      "id": "io_052",
+      "question": "United Nations സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1950",
+        "1946",
+        "1945",
+        "1944"
+      ],
+      "answer": "1945",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_053",
+      "question": "United Nations ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ന്യൂയോർക്ക്",
+        "റോം",
+        "ജനീവ",
+        "പാരീസ്"
+      ],
+      "answer": "ന്യൂയോർക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_054",
+      "question": "UNESCO സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1950",
+        "1945",
+        "1960",
+        "1944"
+      ],
+      "answer": "1945",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_055",
+      "question": "UNESCO ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ജനീവ",
+        "വിയന്ന",
+        "ന്യൂയോർക്ക്",
+        "പാരീസ്"
+      ],
+      "answer": "പാരീസ്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_056",
+      "question": "WHO സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1950",
+        "1960",
+        "1948",
+        "1945"
+      ],
+      "answer": "1948",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_057",
+      "question": "WHO ആസ്ഥാനം ഏത്?",
+      "options": [
+        "പാരീസ്",
+        "ജനീവ",
+        "റോം",
+        "ന്യൂയോർക്ക്"
+      ],
+      "answer": "ജനീവ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_058",
+      "question": "IMF സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1960",
+        "1950",
+        "1945",
+        "1944"
+      ],
+      "answer": "1944",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_059",
+      "question": "IMF ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ലണ്ടൻ",
+        "Washington D.C.",
+        "ന്യൂയോർക്ക്",
+        "പാരീസ്"
+      ],
+      "answer": "Washington D.C.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_060",
+      "question": "World Bank സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1945",
+        "1960",
+        "1950",
+        "1944"
+      ],
+      "answer": "1944",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_061",
+      "question": "World Bank ആസ്ഥാനം ഏത്?",
+      "options": [
+        "റോം",
+        "Washington D.C.",
+        "ജനീവ",
+        "പാരീസ്"
+      ],
+      "answer": "Washington D.C.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_062",
+      "question": "WTO സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "2000",
+        "1980",
+        "1995",
+        "1945"
+      ],
+      "answer": "1995",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_063",
+      "question": "WTO ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ജനീവ",
+        "റോം",
+        "പാരീസ്",
+        "ന്യൂയോർക്ക്"
+      ],
+      "answer": "ജനീവ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_064",
+      "question": "ILO സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1919",
+        "1950",
+        "1945",
+        "2000"
+      ],
+      "answer": "1919",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_065",
+      "question": "ILO ആസ്ഥാനം ഏത്?",
+      "options": [
+        "റോം",
+        "ജനീവ",
+        "പാരീസ്",
+        "ന്യൂയോർക്ക്"
+      ],
+      "answer": "ജനീവ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_066",
+      "question": "FAO സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1944",
+        "1950",
+        "1945",
+        "1960"
+      ],
+      "answer": "1945",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_067",
+      "question": "FAO ആസ്ഥാനം ഏത്?",
+      "options": [
+        "റോം",
+        "ന്യൂയോർക്ക്",
+        "പാരീസ്",
+        "ജനീവ"
+      ],
+      "answer": "റോം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_068",
+      "question": "IAEA സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1960",
+        "1957",
+        "1970",
+        "1945"
+      ],
+      "answer": "1957",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_069",
+      "question": "IAEA ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ജനീവ",
+        "വിയന്ന",
+        "ന്യൂയോർക്ക്",
+        "പാരീസ്"
+      ],
+      "answer": "വിയന്ന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_070",
+      "question": "UNICEF സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1946",
+        "1960",
+        "1950",
+        "1945"
+      ],
+      "answer": "1946",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_071",
+      "question": "UNICEF ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ജനീവ",
+        "പാരീസ്",
+        "റോം",
+        "ന്യൂയോർക്ക്"
+      ],
+      "answer": "ന്യൂയോർക്ക്",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_072",
+      "question": "UNHCR സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1945",
+        "1970",
+        "1950",
+        "1960"
+      ],
+      "answer": "1950",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_073",
+      "question": "UNHCR ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ന്യൂയോർക്ക്",
+        "ജനീവ",
+        "റോം",
+        "പാരീസ്"
+      ],
+      "answer": "ജനീവ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_074",
+      "question": "ASEAN സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1970",
+        "1967",
+        "1980",
+        "1950"
+      ],
+      "answer": "1967",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_075",
+      "question": "ASEAN ആസ്ഥാനം ഏത്?",
+      "options": [
+        "Manila",
+        "ജക്കാർത്ത",
+        "ബാങ്കോക്ക്",
+        "സിംഗപ്പൂർ"
+      ],
+      "answer": "ജക്കാർത്ത",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_076",
+      "question": "SAARC സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "2000",
+        "1975",
+        "1990",
+        "1985"
+      ],
+      "answer": "1985",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_077",
+      "question": "SAARC ആസ്ഥാനം ഏത്?",
+      "options": [
+        "കൊളംബോ",
+        "കാഠ്മണ്ഡു",
+        "ഡൽഹി",
+        "ഢാക്ക"
+      ],
+      "answer": "കാഠ്മണ്ഡു",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_078",
+      "question": "EU സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1993",
+        "2010",
+        "2000",
+        "1950"
+      ],
+      "answer": "1993",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_079",
+      "question": "EU ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ലണ്ടൻ",
+        "Brussels",
+        "പാരീസ്",
+        "റോം"
+      ],
+      "answer": "Brussels",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_080",
+      "question": "NATO സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1949",
+        "1960",
+        "1945",
+        "1970"
+      ],
+      "answer": "1949",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_081",
+      "question": "NATO ആസ്ഥാനം ഏത്?",
+      "options": [
+        "Washington",
+        "പാരീസ്",
+        "ലണ്ടൻ",
+        "Brussels"
+      ],
+      "answer": "Brussels",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_082",
+      "question": "OPEC സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1980",
+        "1950",
+        "1960",
+        "1970"
+      ],
+      "answer": "1960",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_083",
+      "question": "OPEC ആസ്ഥാനം ഏത്?",
+      "options": [
+        "റിയാദ്",
+        "വിയന്ന",
+        "ടെഹ്റാൻ",
+        "ദുബായ്"
+      ],
+      "answer": "വിയന്ന",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_084",
+      "question": "BRICS സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "2000",
+        "2015",
+        "2020",
+        "2009"
+      ],
+      "answer": "2009",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_085",
+      "question": "G7 സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1990",
+        "1975",
+        "1960",
+        "2000"
+      ],
+      "answer": "1975",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_086",
+      "question": "G20 സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "2010",
+        "2025",
+        "1980",
+        "1999"
+      ],
+      "answer": "1999",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_087",
+      "question": "Commonwealth സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1950",
+        "2000",
+        "1931",
+        "1945"
+      ],
+      "answer": "1931",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_088",
+      "question": "Commonwealth ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ജനീവ",
+        "ന്യൂയോർക്ക്",
+        "പാരീസ്",
+        "ലണ്ടൻ"
+      ],
+      "answer": "ലണ്ടൻ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_089",
+      "question": "African Union സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1990",
+        "2020",
+        "2010",
+        "2002"
+      ],
+      "answer": "2002",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_090",
+      "question": "African Union ആസ്ഥാനം ഏത്?",
+      "options": [
+        "കെയ്റോ",
+        "നൈറോബി",
+        "അഡിസ് അബാബ",
+        "ലാഗോസ്"
+      ],
+      "answer": "അഡിസ് അബാബ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_091",
+      "question": "OIC സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "1969",
+        "1980",
+        "2000",
+        "1950"
+      ],
+      "answer": "1969",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_092",
+      "question": "OIC ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ജിദ്ദ",
+        "കെയ്റോ",
+        "റിയാദ്",
+        "ഇസ്താംബുൾ"
+      ],
+      "answer": "ജിദ്ദ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_093",
+      "question": "Interpol സ്ഥാപിതമായ വർഷം ഏത്?",
+      "options": [
+        "2000",
+        "1950",
+        "1945",
+        "1923"
+      ],
+      "answer": "1923",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_094",
+      "question": "Interpol ആസ്ഥാനം ഏത്?",
+      "options": [
+        "ലയോൺ",
+        "ജനീവ",
+        "ലണ്ടൻ",
+        "പാരീസ്"
+      ],
+      "answer": "ലയോൺ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_095",
+      "question": "റെഡ് ക്രോസ് (ICRC) ആസ്ഥാനം?",
+      "options": [
+        "റോം",
+        "ജനീവ",
+        "പാരീസ്",
+        "ന്യൂയോർക്ക്"
+      ],
+      "answer": "ജനീവ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_096",
+      "question": "UN സുരക്ഷാ കൗൺസിലിലെ സ്ഥിരം അംഗങ്ങളുടെ എണ്ണം?",
+      "options": [
+        "10",
+        "5",
+        "7",
+        "15"
+      ],
+      "answer": "5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "io_097",
+      "question": "UN പൊതുസഭാ അധ്യക്ഷൻ തിരഞ്ഞെടുക്കുന്ന കാലാവധി?",
+      "options": [
+        "പത്ത് വർഷം",
+        "ഒരു വർഷം",
+        "ജീവിതകാലം",
+        "ഓരോ അഞ്ച് വർഷത്തിലും"
+      ],
+      "answer": "ഒരു വർഷം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_098",
+      "question": "അന്താരാഷ്ട്ര നീതി ന്യായാധിപസഭ ആസ്ഥാനം?",
+      "options": [
+        "പാരീസ്",
+        "ന്യൂയോർക്ക്",
+        "ജനീവ",
+        "The Hague"
+      ],
+      "answer": "The Hague",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_099",
+      "question": "വേൾഡ് ട്രേഡ് ഓർഗനൈസേഷൻ പകരംവെച്ചത്?",
+      "options": [
+        "UNESCO",
+        "NATO",
+        "GATT",
+        "WHO"
+      ],
+      "answer": "GATT",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_100",
+      "question": "IMF അംഗങ്ങളുടെ എണ്ണം (ഏകദേശം)?",
+      "options": [
+        "300",
+        "190+",
+        "50",
+        "100"
+      ],
+      "answer": "190+",
+      "difficulty": "hard"
     }
   ]
 }

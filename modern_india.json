@@ -479,6 +479,726 @@
       ],
       "answer": "സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ",
       "difficulty": "easy"
+    },
+    {
+      "id": "mi_041",
+      "question": "NITI Aayog പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2018",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "answer": "2015",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_042",
+      "question": "GST പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2017 ജൂലൈ 1",
+        "2017 ജനുവരി 1",
+        "2016 ജൂലൈ 1",
+        "2018 ജൂലൈ 1"
+      ],
+      "answer": "2017 ജൂലൈ 1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_043",
+      "question": "Make in India പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2016",
+        "2014",
+        "2013",
+        "2015"
+      ],
+      "answer": "2014",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_044",
+      "question": "Digital India പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2016",
+        "2017",
+        "2014",
+        "2015"
+      ],
+      "answer": "2015",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_045",
+      "question": "Swachh Bharat Mission പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2014 ജൂൺ 5",
+        "2016 ഓക്ടോബർ 2",
+        "2014 ഓക്ടോബർ 2",
+        "2015 ജൂൺ 5"
+      ],
+      "answer": "2014 ഓക്ടോബർ 2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_046",
+      "question": "Ayushman Bharat PM-JAY പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2019",
+        "2018",
+        "2016",
+        "2017"
+      ],
+      "answer": "2018",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_047",
+      "question": "PM-KISAN പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2017",
+        "2020",
+        "2018",
+        "2019"
+      ],
+      "answer": "2019",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_048",
+      "question": "Startup India പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "answer": "2016",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_049",
+      "question": "Smart Cities Mission പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2014",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_050",
+      "question": "Jan Dhan Yojana പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ],
+      "answer": "2014",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_051",
+      "question": "MUDRA Yojana പദ്ധതി ആരംഭിച്ച തീയതി ഏത്?",
+      "options": [
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_052",
+      "question": "2016 നവംബർ 8-ന് പ്രഖ്യാപിച്ച നോട്ട് അസാധുവാക്കൽ ഏത് നോട്ടുകളായിരുന്നു?",
+      "options": [
+        "₹100, ₹500",
+        "₹1000, ₹2000",
+        "₹200, ₹500",
+        "₹500, ₹1000"
+      ],
+      "answer": "₹500, ₹1000",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_053",
+      "question": "ചന്ദ്രയാൻ-3 ചന്ദ്രനിൽ സോഫ്റ്റ് ലാൻഡിംഗ് നടത്തിയ വർഷം?",
+      "options": [
+        "2022",
+        "2019",
+        "2023",
+        "2024"
+      ],
+      "answer": "2023",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_054",
+      "question": "മംഗളയാൻ (Mars Orbiter Mission) വിക്ഷേപണ വർഷം?",
+      "options": [
+        "2012",
+        "2015",
+        "2014",
+        "2013"
+      ],
+      "answer": "2013",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_055",
+      "question": "ആദിത്യ-L1 സൗര്യ ദൗത്യം വിക്ഷേപണ വർഷം?",
+      "options": [
+        "2023",
+        "2022",
+        "2021",
+        "2024"
+      ],
+      "answer": "2023",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_056",
+      "question": "ഇന്ത്യയുടെ ആദ്യ വനITa President?",
+      "options": [
+        "Meira Kumar",
+        "പ്രതീഭ പാടിൽ",
+        "ഇന്ദിരാ ഗാന്ധി",
+        "Draupadi Murmu"
+      ],
+      "answer": "പ്രതീഭ പാടിൽ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_057",
+      "question": "ഇന്ത്യയുടെ ആദ്യ tribal woman President?",
+      "options": [
+        "പ്രതീഭ പാടിൽ",
+        "Sarojini Naidu",
+        "Meira Kumar",
+        "Draupadi Murmu"
+      ],
+      "answer": "Draupadi Murmu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_058",
+      "question": "ഇന്ത്യയുടെ ആദ്യ Sikh Prime Minister?",
+      "options": [
+        "Charan Singh",
+        "Morarji Desai",
+        "Manmohan Singh",
+        "I.K. Gujral"
+      ],
+      "answer": "Manmohan Singh",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_059",
+      "question": "1991 സാമ്പത്തിക reforms Finance Minister?",
+      "options": [
+        "Pranab Mukherjee",
+        "Yashwant Sinha",
+        "P. Chidambaram",
+        "Manmohan Singh"
+      ],
+      "answer": "Manmohan Singh",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_060",
+      "question": "1991 reforms-ന്റെ Prime Minister?",
+      "options": [
+        "P.V. Narasimha Rao",
+        "Rajiv Gandhi",
+        "V.P. Singh",
+        "Atal Bihari Vajpayee"
+      ],
+      "answer": "P.V. Narasimha Rao",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_061",
+      "question": "കാർഗിൽ യുദ്ധ വർഷം?",
+      "options": [
+        "1999",
+        "1965",
+        "2001",
+        "1971"
+      ],
+      "answer": "1999",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_062",
+      "question": "ഇന്ത്യ-ചൈന യുദ്ധ വർഷം?",
+      "options": [
+        "1962",
+        "1984",
+        "1971",
+        "1965"
+      ],
+      "answer": "1962",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_063",
+      "question": "ഇന്ദിരാ ഗാന്ധി അടിയന്തിരാവസ്ഥ പ്രഖ്യാപിച്ച വർഷം?",
+      "options": [
+        "1977",
+        "1976",
+        "1974",
+        "1975"
+      ],
+      "answer": "1975",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_064",
+      "question": "ഓപ്പറേഷൻ ബ്ലൂ സ്റ്റാർ വർഷം?",
+      "options": [
+        "1983",
+        "1975",
+        "1984",
+        "1985"
+      ],
+      "answer": "1984",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_065",
+      "question": "പോഖ്രാൻ-II ആണവ പരീക്ഷണ വർഷം?",
+      "options": [
+        "2000",
+        "1998",
+        "1974",
+        "1996"
+      ],
+      "answer": "1998",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_066",
+      "question": "വിവരാവകാശ നിയമം പ്രാബല്യത്തിൽ വന്ന വർഷം?",
+      "options": [
+        "2002",
+        "2010",
+        "2005",
+        "2008"
+      ],
+      "answer": "2005",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_067",
+      "question": "വിദ്യാഭ്യാസ അവകാശ നിയമം പ്രാബല്യത്തിൽ വന്ന വർഷം?",
+      "options": [
+        "2012",
+        "2010",
+        "2005",
+        "2009"
+      ],
+      "answer": "2009",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_068",
+      "question": "ഇന്ത്യയുടെ G20 അധ്യക്ഷത വർഷം?",
+      "options": [
+        "2022",
+        "2021",
+        "2023",
+        "2024"
+      ],
+      "answer": "2023",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_069",
+      "question": "G20 സമ്മേളനം 2023 വേദി?",
+      "options": [
+        "ജയ്പ്പൂർ",
+        "മുംബൈ",
+        "ന്യൂഡൽഹി",
+        "ബെംഗളൂരു"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mi_070",
+      "question": "ആർട്ടിക്കിൾ 370 റദ്ദാക്കിയ തീയതി?",
+      "options": [
+        "2019 August 5",
+        "2019 October 31",
+        "2020 January 1",
+        "2018 August 5"
+      ],
+      "answer": "2019 August 5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_071",
+      "question": "ISRO സ്ഥാപിത വർഷം?",
+      "options": [
+        "1962",
+        "1969",
+        "1980",
+        "1972"
+      ],
+      "answer": "1969",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_072",
+      "question": "ആര്യഭട്ട ആദ്യ ഉപഗ്രഹം വിക്ഷേപിച്ച വർഷം?",
+      "options": [
+        "1975",
+        "1978",
+        "1973",
+        "1980"
+      ],
+      "answer": "1975",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_073",
+      "question": "ചന്ദ്രയാൻ-1 വിക്ഷേപണ വർഷം?",
+      "options": [
+        "2008",
+        "2010",
+        "2012",
+        "2006"
+      ],
+      "answer": "2008",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_074",
+      "question": "ഇന്ത്യയിലെ പച്ചവിപ്ലവം ആരുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "Verghese Kurien",
+        "C. Subramaniam",
+        "M.S. Swaminathan",
+        "Norman Borlaug"
+      ],
+      "answer": "M.S. Swaminathan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_075",
+      "question": "വെള്ളവിപ്ലവം ആരുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "M.S. Swaminathan",
+        "Norman Borlaug",
+        "Verghese Kurien",
+        "C. Subramaniam"
+      ],
+      "answer": "Verghese Kurien",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_076",
+      "question": "നീലവിപ്ലവം എന്തുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "പാൽ ഉൽപ്പാദനം",
+        "ജല സംരക്ഷണം",
+        "ബഹിരാകാശം",
+        "മത്സ്യബന്ധനം"
+      ],
+      "answer": "മത്സ്യബന്ധനം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_077",
+      "question": "PM ഗതി ശക്തി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2020",
+        "2021",
+        "2022",
+        "2019"
+      ],
+      "answer": "2021",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_078",
+      "question": "പ്രൊഡക്ഷൻ ലിങ്ക്ഡ് ഇൻസെന്റിവ് (PLI) പദ്ധതി പ്രഖ്യാപിച്ച വർഷം?",
+      "options": [
+        "2020",
+        "2021",
+        "2019",
+        "2018"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_079",
+      "question": "പുതിയ പാർലമെന്റ് കെട്ടിടം ഉദ്ഘാടനം ചെയ്ത വർഷം?",
+      "options": [
+        "2022",
+        "2023",
+        "2021",
+        "2024"
+      ],
+      "answer": "2023",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_080",
+      "question": "പൗരത്വ ഭേദഗതി നിയമം പാസാക്കിയ വർഷം?",
+      "options": [
+        "2017",
+        "2018",
+        "2020",
+        "2019"
+      ],
+      "answer": "2019",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_081",
+      "question": "വൺ നേഷൻ വൺ റേഷൻ കാർഡ് ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2018",
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_082",
+      "question": "ഗഗന്യാൻ ഇന്ത്യയുടെ എന്താണ്?",
+      "options": [
+        "സൂര്യ ദൗത്യം",
+        "ചൊവ്വ ദൗത്യം",
+        "മനുഷ്യ ബഹിരാകാശ ദൗത്യ പരിപാടി",
+        "നാവിഗേഷൻ ഉപഗ്രഹം"
+      ],
+      "answer": "മനുഷ്യ ബഹിരാകാശ ദൗത്യ പരിപാടി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_083",
+      "question": "ഇന്ത്യയുടെ ആദ്യ ആണവ റിയാക്ടർ?",
+      "options": [
+        "Kamini",
+        "Dhruva",
+        "Cirus",
+        "Apsara"
+      ],
+      "answer": "Apsara",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_084",
+      "question": "സിയാച്ചി സംഘർഷം ആരംഭിച്ച വർഷം?",
+      "options": [
+        "1962",
+        "1984",
+        "1999",
+        "1971"
+      ],
+      "answer": "1984",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_085",
+      "question": "ഷിംലാ ഉടമ്പടി ഏത് യുദ്ധത്തിന് ശേഷം?",
+      "options": [
+        "1965 യുദ്ധം",
+        "1971 യുദ്ധം",
+        "1962 യുദ്ധം",
+        "കാർഗിൽ യുദ്ധം"
+      ],
+      "answer": "1971 യുദ്ധം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_086",
+      "question": "താഷ്കന്റ് ഉടമ്പടി ഏത് യുദ്ധത്തിന് ശേഷം?",
+      "options": [
+        "കാർഗിൽ യുദ്ധം",
+        "1965 യുദ്ധം",
+        "1962 യുദ്ധം",
+        "1971 യുദ്ധം"
+      ],
+      "answer": "1965 യുദ്ധം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_087",
+      "question": "ആദ്യ പോഖ്രാൻ ആണവ പരീക്ഷണം (സ്മൈലിംഗ് ബുദ്ധ)?",
+      "options": [
+        "1980",
+        "1998",
+        "1962",
+        "1974"
+      ],
+      "answer": "1974",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_088",
+      "question": "രാജീവ് ഗാന്ധി വധിച്ച വർഷം?",
+      "options": [
+        "1990",
+        "1992",
+        "1991",
+        "1989"
+      ],
+      "answer": "1991",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_089",
+      "question": "ഇന്ത്യയുടെ ആദ്യ BJP പ്രധാനമന്ത്രി?",
+      "options": [
+        "Morarji Desai",
+        "Atal Bihari Vajpayee",
+        "Narendra Modi",
+        "L.K. Advani"
+      ],
+      "answer": "Atal Bihari Vajpayee",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_090",
+      "question": "ഇന്ത്യയുടെ ഏറ്റവും കൂടുതൽ കാലം പ്രധാനമന്ത്രിയായവർ?",
+      "options": [
+        "ഇന്ദിരാ ഗാന്ധി",
+        "Manmohan Singh",
+        "Narendra Modi",
+        "Jawaharlal Nehru"
+      ],
+      "answer": "Jawaharlal Nehru",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_091",
+      "question": "ആധാർ പദ്ധതി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2016",
+        "2010",
+        "2014",
+        "2009"
+      ],
+      "answer": "2009",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_092",
+      "question": "UDAN പ്രാദേശിക കണക്റ്റിവിറ്റി പദ്ധതി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2015",
+        "2018",
+        "2017",
+        "2016"
+      ],
+      "answer": "2016",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_093",
+      "question": "സ്റ്റാൻഡ് അപ്പ് ഇന്ത്യ ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2016",
+        "2018",
+        "2017",
+        "2015"
+      ],
+      "answer": "2016",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_094",
+      "question": "അടൽ സുരംഗ് (റോഹ്താങ്) ഉദ്ഘാടനം ചെയ്ത വർഷം?",
+      "options": [
+        "2020",
+        "2021",
+        "2018",
+        "2019"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_095",
+      "question": "ഡൽഹി മെട്രോ പ്രവർത്തനം ആരംഭിച്ച വർഷം?",
+      "options": [
+        "1998",
+        "2002",
+        "2005",
+        "2000"
+      ],
+      "answer": "2002",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_096",
+      "question": "സ്വർണവിപ്ലവം എന്തുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "തോട്ടiculture",
+        "ഗോതമ്പ്",
+        "എണ്ണയിട വിത്തുകൾ",
+        "മുട്ട"
+      ],
+      "answer": "തോട്ടiculture",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_097",
+      "question": "PM-KISAN-ൽ കർഷകന് വാർഷിക നേട്ടം?",
+      "options": [
+        "₹6000",
+        "₹8000",
+        "₹5000",
+        "₹10000"
+      ],
+      "answer": "₹6000",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_098",
+      "question": "പ്ലാനിംഗ് കമ്മീഷൻ NITI ആയോഗ് പകരംവെച്ച തീയതി?",
+      "options": [
+        "2014 ഓഗസ്റ്റ് 15",
+        "2016 ഏപ്രിൽ 1",
+        "2017 മാർച്ച് 31",
+        "2015 ജനുവരി 1"
+      ],
+      "answer": "2015 ജനുവരി 1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mi_099",
+      "question": "ലാഹോർ പ്രഖ്യാപനം ഒപ്പുവെച്ച വർഷം?",
+      "options": [
+        "1998",
+        "2001",
+        "2000",
+        "1999"
+      ],
+      "answer": "1999",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mi_100",
+      "question": "ജമ്മു-കാശ്മീർ യൂണിയൻ ടെറിട്ടറികളായി വിഭജിച്ച വർഷം?",
+      "options": [
+        "2021",
+        "2019",
+        "2018",
+        "2020"
+      ],
+      "answer": "2019",
+      "difficulty": "medium"
     }
   ]
 }

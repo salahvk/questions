@@ -743,6 +743,462 @@
       ],
       "answer": "ഇ. എം. എസ്. നമ്പൂതിരിപ്പാട്",
       "difficulty": "easy"
+    },
+    {
+      "id": "pok_063",
+      "question": "1957-ൽ കേരളത്തിലെ ആദ്യ CPI മന്ത്രിത്വത്തിന് നേതൃത്വം നൽകിയത്?",
+      "options": [
+        "K. Karunakaran",
+        "Achutha Menon",
+        "A.K. Antony",
+        "E.M.S. Namboodiripad"
+      ],
+      "answer": "E.M.S. Namboodiripad",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_064",
+      "question": "വിമോചന സമരം (1959) ഫലമായി എന്ത് സംഭവിച്ചു?",
+      "options": [
+        "ഒന്നുമില്ല",
+        "President's rule forever",
+        "ആദ്യ ഇ.എം.എസ് മന്ത്രിത്വത്തിന്റെ പിരിച്ചുവിടൽ",
+        "Formation of Kerala"
+      ],
+      "answer": "ആദ്യ ഇ.എം.എസ് മന്ത്രിത്വത്തിന്റെ പിരിച്ചുവിടൽ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_065",
+      "question": "കേരളത്തിലെ രണ്ടാമത്തെ ഇ.എം.എസ് മന്ത്രിത്വ വർഷം?",
+      "options": [
+        "1957",
+        "1996",
+        "1980",
+        "1967"
+      ],
+      "answer": "1967",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_066",
+      "question": "കെ. കരുണാകരൻ ആദ്യമായി മുഖ്യമന്ത്രിയായ വർഷം?",
+      "options": [
+        "1980",
+        "1991",
+        "1977",
+        "1967"
+      ],
+      "answer": "1977",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_067",
+      "question": "എ.കെ. അന്റണി ആദ്യമായി മുഖ്യമന്ത്രിയായ വർഷം?",
+      "options": [
+        "1980",
+        "1995",
+        "2001",
+        "1977"
+      ],
+      "answer": "1977",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_068",
+      "question": "സി. അച്യുത മേനൻ മന്ത്രിത്വം എന്തിന് പ്രസിദ്ധം?",
+      "options": [
+        "Only cinema",
+        "Only space",
+        "Only sports",
+        "ഭൂമി പരിഷ്കരണ നടപ്പാക്കൽ"
+      ],
+      "answer": "ഭൂമി പരിഷ്കരണ നടപ്പാക്കൽ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_069",
+      "question": "Kerala Pradesh Congress Committee president 2024 approx?",
+      "options": [
+        "V.D. Satheesan",
+        "Pinarayi Vijayan",
+        "K. Sudhakaran",
+        "Oommen Chandy"
+      ],
+      "answer": "K. Sudhakaran",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_070",
+      "question": "Kerala Opposition Leader (UDF) 2024?",
+      "options": [
+        "Pinarayi Vijayan",
+        "K. Sudhakaran",
+        "V.D. Satheesan",
+        "M.B. Rajesh"
+      ],
+      "answer": "V.D. Satheesan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_071",
+      "question": "Kerala Assembly Speaker 2024?",
+      "options": [
+        "A.N. Shamseer",
+        "Thiruvanchoor Radhakrishnan",
+        "M.B. Rajesh",
+        "Pinarayi Vijayan"
+      ],
+      "answer": "A.N. Shamseer",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_072",
+      "question": "Kerala Governor 2024?",
+      "options": [
+        "R.L. Bhatia",
+        "Sikander Bakht",
+        "Arif Mohammed Khan",
+        "P. Sathasivam"
+      ],
+      "answer": "Arif Mohammed Khan",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_073",
+      "question": "കേരള നിയമസഭയിൽ BJP-യുടെ ആദ്യ MLA തിരഞ്ഞെടുക്കപ്പെട്ട നിയോജകമണ്ഡലം?",
+      "options": [
+        "Kasaragod",
+        "തിരുവനന്തപുരം",
+        "Pathanamthitta",
+        "Kazhakkoottam (O. Rajagopal 2016)"
+      ],
+      "answer": "Kazhakkoottam (O. Rajagopal 2016)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_074",
+      "question": "ഐUML-ന്റെ പരമ്പരാഗത ബലമുള്ള ജില്ല?",
+      "options": [
+        "Kasaragod only",
+        "Idukki only",
+        "Wayanad only",
+        "മലപ്പുറം"
+      ],
+      "answer": "മലപ്പുറം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_075",
+      "question": "കേരള കോൺഗ്രസ് (M) സ്ഥാപകൻ?",
+      "options": [
+        "A.K. Antony",
+        "K. Karunakaran",
+        "K.M. Mani",
+        "Oommen Chandy"
+      ],
+      "answer": "K.M. Mani",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_076",
+      "question": "Kerala Congress (Joseph faction) നടത്തer?",
+      "options": [
+        "Mani C. Kappan",
+        "Ramesh Chennithala",
+        "K.M. Mani",
+        "P.J. Joseph"
+      ],
+      "answer": "P.J. Joseph",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_077",
+      "question": "CPM Kerala state secretary 2024?",
+      "options": [
+        "M.V. Govindan",
+        "Pinarayi Vijayan",
+        "E.K. Nayanar",
+        "Kodiyeri Balakrishnan"
+      ],
+      "answer": "M.V. Govindan",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_078",
+      "question": "CPI Kerala state secretary (approx recent)?",
+      "options": [
+        "Namboodiripad",
+        "P. Panneerselvam",
+        "Achuthanandan",
+        "Pinarayi Vijayan"
+      ],
+      "answer": "P. Panneerselvam",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_079",
+      "question": "RSP in Kerala allied mainly with?",
+      "options": [
+        "BJP always",
+        "ഒന്നുമില്ല",
+        "NDA always",
+        "LDF historically often"
+      ],
+      "answer": "LDF historically often",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_080",
+      "question": "Janata Dal(S) in Kerala linked to?",
+      "options": [
+        "Congress only",
+        "ഒന്നുമില്ല",
+        "Vishwanathan / smaller fronts",
+        "BJP only"
+      ],
+      "answer": "Vishwanathan / smaller fronts",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_081",
+      "question": "BDJS party in Kerala ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "ഒന്നുമില്ല",
+        "UDF only",
+        "LDF only",
+        "NDA alliance"
+      ],
+      "answer": "NDA alliance",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_082",
+      "question": "Twenty20th Keralam party strong in?",
+      "options": [
+        "Kizhakkambalam (Sabari Dasan)",
+        "Kasaragod only",
+        "Wayanad only",
+        "ഒന്നുമില്ല"
+      ],
+      "answer": "Kizhakkambalam (Sabari Dasan)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_083",
+      "question": "കേരള സ്വയംഭരണ ത്രിതല സംവിധാനത്തിൽ ഉൾപ്പെടുന്നത്?",
+      "options": [
+        "ഗ്രാമ പഞ്ചായത്ത്, ബ്ലോക്ക്, ജില്ല",
+        "Only Rajya Sabha",
+        "Only Governor",
+        "Only Parliament"
+      ],
+      "answer": "ഗ്രാമ പഞ്ചായത്ത്, ബ്ലോക്ക്, ജില്ല",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_084",
+      "question": "Kerala Panchayat Raj Act enacted?",
+      "options": [
+        "1994",
+        "1980",
+        "2010",
+        "1956"
+      ],
+      "answer": "1994",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_085",
+      "question": "കേരള നിയമസഭാ ആദ്യ തിരഞ്ഞെടുപ്പ് വർഷം?",
+      "options": [
+        "1956",
+        "1950",
+        "1960",
+        "1957"
+      ],
+      "answer": "1957",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_086",
+      "question": "കേരളത്തിലെ ലോക്സഭാ സീറ്റുകളുടെ എണ്ണം?",
+      "options": [
+        "140",
+        "9",
+        "20",
+        "14"
+      ],
+      "answer": "20",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_087",
+      "question": "കേരളത്തിലെ രാജ്യസഭാ സീറ്റുകളുടെ എണ്ണം?",
+      "options": [
+        "140",
+        "9",
+        "20",
+        "5"
+      ],
+      "answer": "9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_088",
+      "question": "കേരള നിയമസഭാ സീറ്റുകളുടെ എണ്ണം?",
+      "options": [
+        "20",
+        "100",
+        "140",
+        "9"
+      ],
+      "answer": "140",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_089",
+      "question": "Malappuram district Lok Sabha seats count?",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_090",
+      "question": "Thiruvananthapuram Lok Sabha constituency MP 2019 winner?",
+      "options": [
+        "Pinarayi Vijayan",
+        "K. Sudhakaran",
+        "Shashi Tharoor",
+        "Oommen Chandy"
+      ],
+      "answer": "Shashi Tharoor",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_091",
+      "question": "Wayanad LS constituency notable MP?",
+      "options": [
+        "Mani",
+        "Modi",
+        "Rahul Gandhi (2019)",
+        "Shashi Tharoor"
+      ],
+      "answer": "Rahul Gandhi (2019)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_092",
+      "question": "Kerala women's reservation in local bodies approx?",
+      "options": [
+        "50%",
+        "33%",
+        "25%",
+        "10%"
+      ],
+      "answer": "50%",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_093",
+      "question": "Kerala first coalition government?",
+      "options": [
+        "2010",
+        "1957 CPI-led",
+        "1990 only UDF",
+        "1947"
+      ],
+      "answer": "1957 CPI-led",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pok_094",
+      "question": "UDF എന്ന സംക്ഷേപത്തിന്റെ പൂർണ്ണരൂപം?",
+      "options": [
+        "യുണൈറ്റഡ് ഡെമോക്രാറ്റിക് ഫ്രണ്ട്",
+        "United Defence Front",
+        "Union Democratic Forum",
+        "Unified Development Force"
+      ],
+      "answer": "യുണൈറ്റഡ് ഡെമോക്രാറ്റിക് ഫ്രണ്ട്",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_095",
+      "question": "LDF എന്ന സംക്ഷേപത്തിന്റെ പൂർണ്ണരൂപം?",
+      "options": [
+        "ഇടത് ജനാധിപത്യ മുന്നണി",
+        "Liberal Democratic Front",
+        "Local Development Front",
+        "Left Defence Front"
+      ],
+      "answer": "ഇടത് ജനാധിപത്യ മുന്നണി",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_096",
+      "question": "കേരളത്തിലെ NDA-യിൽ ഉൾപ്പെടുന്നവർ?",
+      "options": [
+        "CPM only",
+        "IUML only",
+        "BJP-യും BDJS പോലുള്ള സഖ്യകക്ഷികളും",
+        "Congress only"
+      ],
+      "answer": "BJP-യും BDJS പോലുള്ള സഖ്യകക്ഷികളും",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_097",
+      "question": "Kerala Legislative Assembly term length?",
+      "options": [
+        "4 വർഷം",
+        "6 years",
+        "5 വർഷം",
+        "3 വർഷം"
+      ],
+      "answer": "5 വർഷം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_098",
+      "question": "Minimum age to vote in India?",
+      "options": [
+        "21",
+        "25",
+        "16",
+        "18"
+      ],
+      "answer": "18",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pok_099",
+      "question": "കേരളത്തിൽ MLA ആകാനുള്ള കുറഞ്ഞ പ്രായം?",
+      "options": [
+        "18",
+        "25",
+        "21",
+        "30"
+      ],
+      "answer": "25",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pok_100",
+      "question": "Kerala High Court bench cities include?",
+      "options": [
+        "Kochi, Thiruvananthapuram, Kozhikode",
+        "Delhi only",
+        "Mumbai only",
+        "Chennai only"
+      ],
+      "answer": "Kochi, Thiruvananthapuram, Kozhikode",
+      "difficulty": "hard"
     }
   ]
 }

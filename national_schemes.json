@@ -479,6 +479,726 @@
       ],
       "answer": "2020",
       "difficulty": "medium"
+    },
+    {
+      "id": "ns_041",
+      "question": "PM Vishwakarma പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2024",
+        "2022",
+        "2023",
+        "2021"
+      ],
+      "answer": "2023",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_042",
+      "question": "PM SVANidhi പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2020",
+        "2021",
+        "2018",
+        "2019"
+      ],
+      "answer": "2020",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_043",
+      "question": "PM FME (Formalisation of Micro Food Processing) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2019",
+        "2020",
+        "2022",
+        "2018"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_044",
+      "question": "PM Matsya Sampada Yojana പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2019",
+        "2022",
+        "2018",
+        "2020"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_045",
+      "question": "PM Garib Kalyan Anna Yojana പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2019",
+        "2022",
+        "2020",
+        "2018"
+      ],
+      "answer": "2020",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_046",
+      "question": "PM CARES Fund പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2019",
+        "2020",
+        "2022",
+        "2018"
+      ],
+      "answer": "2020",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_047",
+      "question": "Har Ghar Jal (Jal Jeevan Mission) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2020",
+        "2018",
+        "2017",
+        "2019"
+      ],
+      "answer": "2019",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_048",
+      "question": "BharatNet പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2010",
+        "2011",
+        "2009",
+        "2012"
+      ],
+      "answer": "2011",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_049",
+      "question": "Skill India Mission പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2013",
+        "2016",
+        "2014",
+        "2015"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_050",
+      "question": "Sukanya Samriddhi Yojana പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2016",
+        "2015",
+        "2013",
+        "2014"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_051",
+      "question": "Atal Pension Yojana പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2016",
+        "2014",
+        "2015",
+        "2013"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_052",
+      "question": "PM Suraksha Bima Yojana പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2015",
+        "2016",
+        "2014",
+        "2013"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_053",
+      "question": "PM Jeevan Jyoti Bima Yojana പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2015",
+        "2014",
+        "2013",
+        "2016"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_054",
+      "question": "HRIDAY scheme (heritage cities) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2016",
+        "2015",
+        "2014",
+        "2013"
+      ],
+      "answer": "2015",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_055",
+      "question": "AMRUT scheme പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ],
+      "answer": "2015",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_056",
+      "question": "SAUBHAGYA (electricity for all) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2017",
+        "2015",
+        "2018",
+        "2016"
+      ],
+      "answer": "2017",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_057",
+      "question": "Ujjwala 2.0 പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2020",
+        "2021",
+        "2022",
+        "2019"
+      ],
+      "answer": "2021",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_058",
+      "question": "PM-KUSUM (solar for farmers) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2018",
+        "2019",
+        "2017",
+        "2020"
+      ],
+      "answer": "2019",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_059",
+      "question": "National Nutrition Mission (POSHAN Abhiyaan) പദ്ധതി ആരംഭിച്ച വർഷം ഏത്?",
+      "options": [
+        "2018",
+        "2019",
+        "2017",
+        "2016"
+      ],
+      "answer": "2018",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_060",
+      "question": "PM-JAY-ൽ ഒരു കുടുംബത്തിന് വാർഷിക ആരോഗ്യ പരിരക്ഷ എത്ര?",
+      "options": [
+        "₹5 ലക്ഷം",
+        "₹1 ലക്ഷം",
+        "₹2 ലക്ഷം",
+        "₹10 ലക്ഷം"
+      ],
+      "answer": "₹5 ലക്ഷം",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ns_061",
+      "question": "MGNREGA-യിൽ ഉറപ്പുനൽകിയ തൊഴിൽ ദിവസങ്ങൾ?",
+      "options": [
+        "100 ദിവസം",
+        "200 ദിവസം",
+        "50 ദിവസം",
+        "150 ദിവസം"
+      ],
+      "answer": "100 ദിവസം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_062",
+      "question": "PM ആവാസ് യോജന-നഗര ലക്ഷ്യ വർഷം (യഥാർത്ഥത്തിൽ)?",
+      "options": [
+        "2022",
+        "2018",
+        "2025",
+        "2020"
+      ],
+      "answer": "2022",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_063",
+      "question": "Deen Dayal Upadhyaya Gram Jyoti Yojana ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2014",
+        "2013",
+        "2016",
+        "2015"
+      ],
+      "answer": "2015",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_064",
+      "question": "കിസാൻ ക്രെഡിറ്റ് കാർഡ് പദ്ധതി പ്രധാനമായും ആർക്ക്?",
+      "options": [
+        "MSME",
+        "Exporters",
+        "കർഷകരുടെ വായ്പാ ആവശ്യങ്ങൾ",
+        "Students"
+      ],
+      "answer": "കർഷകരുടെ വായ്പാ ആവശ്യങ്ങൾ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ns_065",
+      "question": "PM ഫസൽ ബീമാ യോജന ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2018",
+        "2016",
+        "2014",
+        "2015"
+      ],
+      "answer": "2016",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_066",
+      "question": "മണ്ണിന്റെ ആരോഗ്യ കാർഡ് പദ്ധതി ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2014",
+        "2013",
+        "2015",
+        "2016"
+      ],
+      "answer": "2015",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_067",
+      "question": "നാഷണൽ ഹെൽത്ത് മിഷൻ ഏത് മിഷനുകൾ ഉൾക്കൊണ്ടു?",
+      "options": [
+        "ആയുഷ്മാൻ മാത്രം",
+        "NUHM മാത്രം",
+        "NRHM മാത്രം",
+        "NRHM-ഉം NUHM-ഉം"
+      ],
+      "answer": "NRHM-ഉം NUHM-ഉം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_068",
+      "question": "PM ഇ-വിദ്യ എന്തിനാണ്?",
+      "options": [
+        "Agriculture",
+        "റെയിൽവേ",
+        "കോവിഡ് കാലത്തെ ഡിജിറ്റൽ വിദ്യാഭ്യാസം",
+        "പ്രതിരോധം"
+      ],
+      "answer": "കോവിഡ് കാലത്തെ ഡിജിറ്റൽ വിദ്യാഭ്യാസം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_069",
+      "question": "വൺ നേഷൻ വൺ റേഷൻ കാർഡ് ഏത് മന്ത്രിത്വത്തിന് കീഴിൽ?",
+      "options": [
+        "External Affairs",
+        "Home",
+        "ഉപഭോക്തൃ കാര്യങ്ങൾ/ഭക്ഷ്യവും പൊതുവിതരണവും",
+        "പ്രതിരോധം"
+      ],
+      "answer": "ഉപഭോക്തൃ കാര്യങ്ങൾ/ഭക്ഷ്യവും പൊതുവിതരണവും",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_070",
+      "question": "PM പോഷൺ ശക്തി നിർമ്മാണം എന്തുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "അംഗൻവാടി/പോഷകാഹാര അടിസ്ഥാന സൗകര്യങ്ങൾ",
+        "റോഡുകൾ",
+        "Ports",
+        "Airports"
+      ],
+      "answer": "അംഗൻവാടി/പോഷകാഹാര അടിസ്ഥാന സൗകര്യങ്ങൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_071",
+      "question": "PM ദക്ഷ് യോജന എന്തിനാണ്?",
+      "options": [
+        "Senior citizens",
+        "യുവാക്കളുടെ കഴിവ് വികസനം",
+        "Artisans only",
+        "Farmers"
+      ],
+      "answer": "യുവാക്കളുടെ കഴിവ് വികസനം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_072",
+      "question": "National Infrastructure Pipeline announced?",
+      "options": [
+        "2019",
+        "2015",
+        "2021",
+        "2017"
+      ],
+      "answer": "2019",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_073",
+      "question": "PM ഗതി ശക്തി മാസ്റ്റർ പ്ലാൻ എന്തുമായി ബന്ധപ്പെട്ടത്?",
+      "options": [
+        "സമഗ്ര അടിസ്ഥാന സൗകര്യ ആസൂത്രണം",
+        "Health",
+        "Education",
+        "പ്രതിരോധം"
+      ],
+      "answer": "സമഗ്ര അടിസ്ഥാന സൗകര്യ ആസൂത്രണം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_074",
+      "question": "Production Linked Incentive maximum sectors covered approx?",
+      "options": [
+        "5 sectors",
+        "20 sectors only",
+        "14+ sectors",
+        "3 sectors"
+      ],
+      "answer": "14+ sectors",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_075",
+      "question": "PM ശ്രീ സ്കൂൾ പദ്ധതി എന്തിനാണ്?",
+      "options": [
+        "Only IITs",
+        "Only medical colleges",
+        "സ്കൂളുകൾ മാതൃകാ സ്ഥിതിയിലേക്ക് ഉയർത്തൽ",
+        "സ്വകാര്യ സ്കൂളുകൾ മാത്രം"
+      ],
+      "answer": "സ്കൂളുകൾ മാതൃകാ സ്ഥിതിയിലേക്ക് ഉയർത്തൽ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_076",
+      "question": "National Edible Oil Mission-Oil Palm (NMEO-OP) ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2019",
+        "2020",
+        "2022",
+        "2021"
+      ],
+      "answer": "2021",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_077",
+      "question": "PM DevINE എന്തിനാണ്?",
+      "options": [
+        "Western Ghats",
+        "വടക്കുകിഴക്കൻ വികസനം",
+        "Desert areas",
+        "Islands only"
+      ],
+      "answer": "വടക്കുകിഴക്കൻ വികസനം",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_078",
+      "question": "Rashtriya Krishi Vikas Yojana is?",
+      "options": [
+        "കാർഷിക വികസന പദ്ധതി",
+        "Defence scheme",
+        "Health scheme",
+        "Space scheme"
+      ],
+      "answer": "കാർഷിക വികസന പദ്ധതി",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_079",
+      "question": "PM-KMY (കിസാൻ മാൻ ധൻ) എന്തിനാണ്?",
+      "options": [
+        "Crop insurance",
+        "ചെറുകിട കർഷകർക്ക് പെൻഷൻ",
+        "Seeds subsidy",
+        "Irrigation"
+      ],
+      "answer": "ചെറുകിട കർഷകർക്ക് പെൻഷൻ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_080",
+      "question": "SVAMITVA scheme for?",
+      "options": [
+        "Mining",
+        "Urban housing",
+        "Coastal fishing",
+        "ഗ്രാമീണ സ്വത്ത് ഉടമസ്ഥത രേഖകൾ"
+      ],
+      "answer": "ഗ്രാമീണ സ്വത്ത് ഉടമസ്ഥത രേഖകൾ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_081",
+      "question": "PM MITRA textile parks announced?",
+      "options": [
+        "2022",
+        "2019",
+        "2021",
+        "2020"
+      ],
+      "answer": "2021",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_082",
+      "question": "National Mission on Edible Oils-Oil Palm ministry?",
+      "options": [
+        "റെയിൽവേ",
+        "പ്രതിരോധം",
+        "Agriculture",
+        "External Affairs"
+      ],
+      "answer": "Agriculture",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_083",
+      "question": "PM Vishwakarma scheme for?",
+      "options": [
+        "Lawyers",
+        "IT professionals",
+        "Doctors",
+        "പരമ്പരാഗത കരകുശലികൾ"
+      ],
+      "answer": "പരമ്പരാഗത കരകുശലികൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_084",
+      "question": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi) for?",
+      "options": [
+        "Students only",
+        "തെരുവ് വ്യാപാരികൾ",
+        "Farmers only",
+        "Large corporates"
+      ],
+      "answer": "തെരുവ് വ്യാപാരികൾ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_085",
+      "question": "Jal Shakti Ministry formed in?",
+      "options": [
+        "2017",
+        "2019",
+        "2014",
+        "2021"
+      ],
+      "answer": "2019",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_086",
+      "question": "Ayushman Bharat Health Infrastructure Mission ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2019",
+        "2020",
+        "2021",
+        "2018"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_087",
+      "question": "PM CARES Fund tax exemption status?",
+      "options": [
+        "Only foreign",
+        "Not eligible",
+        "Only companies",
+        "Trust donations eligible for 80G"
+      ],
+      "answer": "Trust donations eligible for 80G",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_088",
+      "question": "PM Garib Kalyan package during COVID first announced?",
+      "options": [
+        "2019",
+        "2021",
+        "2020",
+        "2018"
+      ],
+      "answer": "2020",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ns_089",
+      "question": "National Digital Health Mission (ABDM) ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2021",
+        "2020",
+        "2018",
+        "2019"
+      ],
+      "answer": "2020",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_090",
+      "question": "PM WANI for?",
+      "options": [
+        "Water supply",
+        "റോഡുകൾ",
+        "റെയിൽവേ",
+        "Public Wi-Fi access"
+      ],
+      "answer": "Public Wi-Fi access",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_091",
+      "question": "Mission Karmayogi for?",
+      "options": [
+        "Judiciary only",
+        "പ്രതിരോധം",
+        "പോലീസ് മാത്രം",
+        "Civil services capacity building"
+      ],
+      "answer": "Civil services capacity building",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_092",
+      "question": "PM eBus Sewa for?",
+      "options": [
+        "Rural roads",
+        "Ports",
+        "Airports",
+        "Electric buses in cities"
+      ],
+      "answer": "Electric buses in cities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_093",
+      "question": "National Green Hydrogen Mission ആരംഭിച്ച വർഷം?",
+      "options": [
+        "2023",
+        "2024",
+        "2022",
+        "2021"
+      ],
+      "answer": "2023",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_094",
+      "question": "PM JANMAN for?",
+      "options": [
+        "PVTG welfare",
+        "Large farmers",
+        "Exporters",
+        "Urban poor"
+      ],
+      "answer": "PVTG welfare",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_095",
+      "question": "PM Surya Ghar Muft Bijli Yojana for?",
+      "options": [
+        "Wind only",
+        "Rooftop solar for households",
+        "Nuclear plants",
+        "കൽക്കരി ഖനനം"
+      ],
+      "answer": "Rooftop solar for households",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_096",
+      "question": "PM Internship Scheme announced budget year?",
+      "options": [
+        "2024",
+        "2020",
+        "2022",
+        "2023"
+      ],
+      "answer": "2024",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_097",
+      "question": "Vibrant Villages Programme for?",
+      "options": [
+        "Border villages development",
+        "Metro cities",
+        "Coastal only",
+        "Desert only"
+      ],
+      "answer": "Border villages development",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_098",
+      "question": "PM Vishwakarma minimum loan amount (approx)?",
+      "options": [
+        "₹10 lakh",
+        "₹50,000",
+        "₹5 lakh",
+        "₹1 lakh (without collateral)"
+      ],
+      "answer": "₹1 lakh (without collateral)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_099",
+      "question": "PM FME unit cost ceiling (approx)?",
+      "options": [
+        "₹50 lakh",
+        "₹25 lakh",
+        "₹1 crore",
+        "₹10 lakh"
+      ],
+      "answer": "₹10 lakh",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ns_100",
+      "question": "PM Matsya Sampada investment target period?",
+      "options": [
+        "2010-15",
+        "2020-25",
+        "2025-30",
+        "2015-20"
+      ],
+      "answer": "2020-25",
+      "difficulty": "hard"
     }
   ]
 }
