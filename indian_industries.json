@@ -484,7 +484,7 @@
       "id": "ii_001",
       "question": "BHEL PSU പ്രധാന മേഖല?",
       "options": [
-        "Space only",
+        "ബഹിരാകാശം മാത്രം",
         "പ്രതിരോധം മാത്രം",
         "Banking",
         "വിദ്യുത് ഉപകരണങ്ങൾ"
@@ -510,7 +510,7 @@
       "options": [
         "Software",
         "സഞ്ചാരം",
-        "Pharma only",
+        "Pharma മാത്രം",
         "ഉരുക്ക്"
       ],
       "answer": "ഉരുക്ക്",
@@ -606,7 +606,7 @@
       "options": [
         "ചലച്ചിത്രം",
         "Pharma",
-        "സഞ്ചാരം only",
+        "സഞ്ചാരം മാത്രം",
         "ഭാരമുള്ള ഉപകരണങ്ങൾ"
       ],
       "answer": "ഭാരമുള്ള ഉപകരണങ്ങൾ",
@@ -616,7 +616,7 @@
       "id": "ii_012",
       "question": "HMT PSU പ്രധാന മേഖല?",
       "options": [
-        "Insurance only",
+        "Insurance മാത്രം",
         "Banking",
         "ബഹിരാകാശ ദൗത്യം",
         "യന്ത്ര ഉപകരണങ്ങൾ (പാരമ്പര്യം)"
@@ -674,7 +674,7 @@
     },
     {
       "id": "ii_017",
-      "question": "Delhi-Mumbai Industrial Corridor (DMIC) length approx?",
+      "question": "ഡൽഹി-മുംബൈ വ്യാവസായിക കോറിഡോർ (DMIC) ഏതാണ്ട് നീളമുള്ളതാണ്?",
       "options": [
         "500 km",
         "200 km",
@@ -686,9 +686,9 @@
     },
     {
       "id": "ii_018",
-      "question": "Chennai-Bengaluru Industrial Corridor part of?",
+      "question": "ചെന്നൈ-ബെംഗളൂരു വ്യാവസായിക കോറിഡോർ ഏതിന്റെ ഭാഗമാണ്?",
       "options": [
-        "DMIC only",
+        "DMIC മാത്രം",
         "Himalayan corridor",
         "East Coast Economic Corridor",
         "ഒന്നുമില്ല"
@@ -698,11 +698,11 @@
     },
     {
       "id": "ii_019",
-      "question": "Amritsar-Kolkata Industrial Corridor aligned along?",
+      "question": "അമൃത്സർ-കൊൽക്കത്ത വ്യാവസായിക കോറിഡോർ ഏതിനൊപ്പം സമാന്തരമായി വ്യാപിക്കുന്നു?",
       "options": [
         "ഒന്നുമില്ല",
-        "Coastal road only",
-        "Western DFC only",
+        "Coastal road മാത്രം",
+        "Western DFC മാത്രം",
         "Eastern Dedicated Freight Corridor"
       ],
       "answer": "Eastern Dedicated Freight Corridor",
@@ -710,7 +710,7 @@
     },
     {
       "id": "ii_020",
-      "question": "Visakhapatnam-Chennai Industrial Corridor in which state mostly?",
+      "question": "വിശാഖപട്ടണം-ചെന്നൈ വ്യാവസായിക കോറിഡോർ പ്രധാനമായും ഏത് സംസ്ഥാനത്തിലാണ്?",
       "options": [
         "ആന്ധ്രപ്രദേശ്",
         "പഞ്ചാബ്",
@@ -722,11 +722,11 @@
     },
     {
       "id": "ii_021",
-      "question": "Bengaluru-Mumbai Industrial Corridor states include?",
+      "question": "ബെംഗളൂരു-മുംബൈ വ്യാവസായിക കോറിഡോറിൽ ഉൾപ്പെടുന്ന സംസ്ഥാനങ്ങൾ ഏതൊക്കെ?",
       "options": [
         "കർണാടകയും മഹാരാഷ്ട്രയും",
-        "Assam only",
-        "Punjab only",
+        "അസം മാത്രം",
+        "പഞ്ചാബ് മാത്രം",
         "കേരളം മാത്രം"
       ],
       "answer": "കർണാടകയും മഹാരാഷ്ട്രയും",
@@ -734,7 +734,7 @@
     },
     {
       "id": "ii_022",
-      "question": "National Manufacturing Policy target share of GDP?",
+      "question": "ദേശീയ നിർമ്മാണ നയത്തിന്റെ ജിഡിപിയിൽ ലക്ഷ്യമിട്ടുള്ള വിഹിതം എത്ര?",
       "options": [
         "25%",
         "5%",
@@ -784,7 +784,7 @@
       "id": "ii_026",
       "question": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ റിഫൈനറി (ജാംനഗർ) ഉടമസ്ഥൻ?",
       "options": [
-        "ONGC only",
+        "ONGC മാത്രം",
         "HAL",
         "റിലയൻസ്",
         "SAIL"
@@ -821,7 +821,7 @@
       "question": "DRDO ആസ്ഥാനം?",
       "options": [
         "Guwahati",
-        "Pune only",
+        "Pune മാത്രം",
         "ന്യൂഡൽഹി",
         "കൊച്ചി"
       ],
@@ -881,9 +881,9 @@
       "question": "മാരുതി സുസുക്കി നിർമ്മാണം പ്രധാനമായും എവിടെ?",
       "options": [
         "കേരളം",
-        "Goa only",
+        "ഗോവ മാത്രം",
         "ഹരിയാന/ഗുജറാത്ത്",
-        "Assam only"
+        "അസം മാത്രം"
       ],
       "answer": "ഹരിയാന/ഗുജറാത്ത്",
       "difficulty": "medium"
@@ -902,7 +902,7 @@
     },
     {
       "id": "ii_036",
-      "question": "Indian Oil refineries count (approx)?",
+      "question": "ഇന്ത്യൻ ഓയിലിന്റെ ശുദ്ധീകരണശാലകളുടെ എണ്ണം (ഏതാണ്ട്) എത്ര?",
       "options": [
         "2",
         "50",
@@ -914,7 +914,7 @@
     },
     {
       "id": "ii_037",
-      "question": "Textile industry major cluster Tiruppur known for?",
+      "question": "ടെക്സ്റ്റൈൽ വ്യവസായ കേന്ദ്രമായ തിരുപ്പൂര് എന്തിന് പ്രസിദ്ധമാണ്?",
       "options": [
         "Coal",
         "നിറ്റ്വെയർ കയറ്റുമതി",
@@ -926,11 +926,11 @@
     },
     {
       "id": "ii_038",
-      "question": "Diamond cutting hub in India?",
+      "question": "ഇന്ത്യയിലെ വജ്രം മുറിക്കുന്ന പ്രധാന കേന്ദ്രം ഏതാണ്?",
       "options": [
         "Surat",
         "Shimla",
-        "Jaipur only",
+        "ജയ്പ്പൂർ മാത്രം",
         "Panaji"
       ],
       "answer": "Surat",
@@ -938,7 +938,7 @@
     },
     {
       "id": "ii_039",
-      "question": "Leather industry hub?",
+      "question": "ചർമ്മ വ്യവസായത്തിന്റെ പ്രധാന കേന്ദ്രം ഏതാണ്?",
       "options": [
         "Shimla",
         "Kanpur/Chennai",
@@ -950,7 +950,7 @@
     },
     {
       "id": "ii_040",
-      "question": "Software Technology Parks of India (STPI) established?",
+      "question": "സോഫ്റ്റ്‌വെയർ ടെക്നോളജി പാർക്സ് ഓഫ് ഇന്ത്യ (STPI) സ്ഥാപിതമായ വർഷം?",
       "options": [
         "2015",
         "1980",
@@ -962,7 +962,7 @@
     },
     {
       "id": "ii_041",
-      "question": "SEZ policy in India announced?",
+      "question": "ഇന്ത്യയിൽ SEZ നയം പ്രഖ്യാപിച്ച വർഷം?",
       "options": [
         "1985",
         "1990",
@@ -974,7 +974,7 @@
     },
     {
       "id": "ii_042",
-      "question": "Production Linked Incentive first sector?",
+      "question": "പ്രൊഡക്ഷൻ ലിങ്ക്ഡ് ഇൻസെന്റിവിന്റെ ആദ്യ മേഖല ഏതാണ്?",
       "options": [
         "മത്സ്യബന്ധനം",
         "Coal",
@@ -986,7 +986,7 @@
     },
     {
       "id": "ii_043",
-      "question": "National Industrial Corridor Development Programme nodal?",
+      "question": "ദേശീയ വ്യാവസായിക കോറിഡോർ വികസന പരിപാടിയുടെ നോഡൽ ഏജൻസി ഏതാണ്?",
       "options": [
         "Home",
         "Defence Ministry",
@@ -998,7 +998,7 @@
     },
     {
       "id": "ii_044",
-      "question": "MSME definition micro enterprise investment limit (manufacturing approx)?",
+      "question": "MSME-യിൽ സൂക്ഷ്മ സംരംഭത്തിന്റെ നിക്ഷേപ പരിധി (നിർമ്മാണം, ഏതാണ്ട്) എത്ര?",
       "options": [
         "₹1000 crore",
         "₹2.5 crore",
@@ -1082,11 +1082,11 @@
     },
     {
       "id": "ii_051",
-      "question": "Handicrafts sector major export item?",
+      "question": "കൈവേല വ്യവസായ മേഖലയിലെ പ്രധാന കയറ്റുമതി വസ്തു ഏതാണ്?",
       "options": [
-        "Iron ore only",
+        "Iron ore മാത്രം",
         "Coal",
-        "Oil only",
+        "Oil മാത്രം",
         "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ"
       ],
       "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
@@ -1109,16 +1109,16 @@
       "question": "ഭാരത് ഹെവി ഇലക്ട്രിക്കൽസിന്റെ പ്രധാന ഉൽപ്പന്നം?",
       "options": [
         "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
-        "Cars only",
-        "Mobile phones only",
-        "Aircraft carriers only"
+        "Cars മാത്രം",
+        "Mobile phones മാത്രം",
+        "Aircraft carriers മാത്രം"
       ],
       "answer": "വിദ്യുത് നിലയ ഉപകരണങ്ങൾ",
       "difficulty": "medium"
     },
     {
       "id": "ii_054",
-      "question": "National Investment and Manufacturing Zones (NIMZ) policy year?",
+      "question": "ദേശീയ നിക്ഷേപ-നിർമ്മാണ മേഖലാ സോണുകൾ (NIMZ) നയം പ്രഖ്യാപിച്ച വർഷം?",
       "options": [
         "2011",
         "2015",
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "ii_055",
-      "question": "Industrial Development Bank of India now known as?",
+      "question": "ഇന്ത്യാ വ്യാവസായിക വികസന ബാങ്ക് ഇപ്പോൾ എന്ത് പേരിലാണ് അറിയപ്പെടുന്നത്?",
       "options": [
         "HDFC",
         "IDBI Bank",
@@ -1147,7 +1147,7 @@
         "എം.എസ്.എം.ഇ ധനസഹായം",
         "ചലച്ചിത്രം മാത്രം",
         "പ്രതിരോധം മാത്രം",
-        "Space only"
+        "ബഹിരാകാശം മാത്രം"
       ],
       "answer": "എം.എസ്.എം.ഇ ധനസഹായം",
       "difficulty": "medium"
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "ii_058",
-      "question": "Petrochemical hub Panipat in?",
+      "question": "പെട്രോകെമിക്കൽ ഹബ് പാനിപട്ട് ഏത് സംസ്ഥാനത്തിലാണ്?",
       "options": [
         "കേരളം",
         "Tamil Nadu",
@@ -1180,8 +1180,8 @@
       "id": "ii_059",
       "question": "പൂണെ/ചെന്നൈ ഓട്ടോമൊബൈൽ ക്ലസ്റ്റർ ബന്ധപ്പെട്ട വ്യവസായം?",
       "options": [
-        "Tea only",
-        "Spices only",
+        "Tea മാത്രം",
+        "Spices മാത്രം",
         "Coir",
         "ഓട്ടോമൊബൈൽ നിർമ്മാണം"
       ],

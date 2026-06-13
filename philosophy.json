@@ -31,9 +31,9 @@
         "ജൈന അഹിംസാ സിദ്ധാന്തം",
         "അദ്വൈത വേദാന്തം",
         "അഷ്ടാംഗ മാർഗം",
-        "Forms സിദ്ധാന്തം"
+        "ആദർശ രൂപ സിദ്ധാന്തം"
       ],
-      "answer": "Forms സിദ്ധാന്തം",
+      "answer": "ആദർശ രൂപ സിദ്ധാന്തം",
       "difficulty": "medium"
     },
     {
@@ -54,10 +54,10 @@
       "options": [
         "ബ്രഹ്മത്തിൽ വ്യത്യസ്തതയോടുകൂടിയ ഐക്യം",
         "അനിത്യതയും ദുഃഖസത്യവും",
-        "I think, therefore I am",
+        "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
         "അനേകാന്തവാദവും അഹിംസയും"
       ],
-      "answer": "I think, therefore I am",
+      "answer": "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
       "difficulty": "medium"
     },
     {
@@ -67,9 +67,9 @@
         "ഭൗതികത പ്രാഥമികത",
         "മത-രാജ്യ വേർതിരിവ്",
         "മനുഷ്യ മൂല്യങ്ങൾക്ക് കേന്ദ്രീകാരം",
-        "Categorical Imperative"
+        "വിഭാഗീക ആജ്ഞ"
       ],
-      "answer": "Categorical Imperative",
+      "answer": "വിഭാഗീക ആജ്ഞ",
       "difficulty": "medium"
     },
     {
@@ -100,12 +100,12 @@
       "id": "phi_009",
       "question": "ഫ്രീഡ്രിക് നീഷെ പ്രധാനമായി ഏത് ആശയവുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "ബുദ്ധിയെ പ്രധാന ജ്ഞാനസ്രോതസ്സാക്കൽ",
-        "സ്ഥിര അർത്ഥങ്ങളെ നിഷേധിക്കുന്ന സമീപനം",
-        "Will to Power",
-        "അനുഭവത്തിന്റെ ഘടന പഠനം"
+        "അനുഭവവാദം",
+        "അഹിംസ",
+        "ശക്തിയുടെ ഇച്ഛ",
+        "സാമൂഹിക കരാർ"
       ],
-      "answer": "Will to Power",
+      "answer": "ശക്തിയുടെ ഇച്ഛ",
       "difficulty": "medium"
     },
     {
@@ -292,12 +292,12 @@
       "id": "phi_025",
       "question": "ബാദരായണൻ പ്രധാനമായി ഏത് ആശയവുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "ഉത്തര മീമാംസ/വേദാന്തം",
-        "I think, therefore I am",
-        "സാമൂഹിക കരാർ ആശയം",
-        "Categorical Imperative"
+        "ബ്രഹ്മത്തിൽ വ്യത്യസ്തതയോടുകൂടിയ ഐക്യം",
+        "അനിത്യതയും ദുഃഖസത്യവും",
+        "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
+        "അനേകാന്തവാദവും അഹിംസയും"
       ],
-      "answer": "ഉത്തര മീമാംസ/വേദാന്തം",
+      "answer": "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
       "difficulty": "medium"
     },
     {
@@ -496,24 +496,24 @@
       "id": "phi_042",
       "question": "ഫീനോമെനോളജി എന്ന തത്വശാഖയുടെ പ്രധാന ആശയം എന്താണ്?",
       "options": [
-        "I think, therefore I am",
-        "തർക്കശാസ്ത്രത്തിന്റെ ക്രമബദ്ധത",
-        "അനുഭവത്തിന്റെ ഘടന പഠനം",
-        "Forms സിദ്ധാന്തം"
+        "ജൈന അഹിംസാ സിദ്ധാന്തം",
+        "ആദർശ രൂപ സിദ്ധാന്തം",
+        "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
+        "അഷ്ടാംഗ മാർഗം"
       ],
-      "answer": "അനുഭവത്തിന്റെ ഘടന പഠനം",
+      "answer": "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
       "difficulty": "medium"
     },
     {
       "id": "phi_043",
       "question": "നിഹിലിസം എന്ന തത്വശാഖയുടെ പ്രധാന ആശയം എന്താണ്?",
       "options": [
-        "സ്ഥിര അർത്ഥങ്ങളെ നിഷേധിക്കുന്ന സമീപനം",
-        "I think, therefore I am",
-        "Forms സിദ്ധാന്തം",
-        "തർക്കശാസ്ത്രത്തിന്റെ ക്രമബദ്ധത"
+        "ജൈന അഹിംസാ സിദ്ധാന്തം",
+        "ആദർശ രൂപ സിദ്ധാന്തം",
+        "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
+        "അഷ്ടാംഗ മാർഗം"
       ],
-      "answer": "സ്ഥിര അർത്ഥങ്ങളെ നിഷേധിക്കുന്ന സമീപനം",
+      "answer": "ആദർശ രൂപ സിദ്ധാന്തം",
       "difficulty": "medium"
     },
     {
@@ -544,12 +544,12 @@
       "id": "phi_046",
       "question": "ഐഡിയലിസം എന്ന തത്വശാഖയുടെ പ്രധാന ആശയം എന്താണ്?",
       "options": [
-        "ചിന്ത/മനസ്സ് പ്രാഥമികത",
-        "Forms സിദ്ധാന്തം",
-        "തർക്കശാസ്ത്രത്തിന്റെ ക്രമബദ്ധത",
-        "ധാർമ്മിക വിചാരണയും ചോദ്യംചെയ്യൽ രീതിയും"
+        "ജൈന അഹിംസാ സിദ്ധാന്തം",
+        "അദ്വൈത വേദാന്തം",
+        "അഷ്ടാംഗ മാർഗം",
+        "ആദർശ രൂപ സിദ്ധാന്തം"
       ],
-      "answer": "ചിന്ത/മനസ്സ് പ്രാഥമികത",
+      "answer": "ആദർശ രൂപ സിദ്ധാന്തം",
       "difficulty": "medium"
     },
     {
@@ -734,139 +734,139 @@
     },
     {
       "id": "phi_062",
-      "question": "സോക്രatis-ന്റെ ശിഷ്യൻ?",
+      "question": "സോക്രട്ടീസിന്റെ ശിഷ്യൻ ആരാണ്?",
       "options": [
-        "Heraclitus",
-        "അറിസ്റ്റോട്ടil",
-        "പ്ലato",
+        "ഹെറാക്ലിറ്റസ്",
+        "അറിസ്റ്റോട്ടിൽ",
+        "പ്ലേറ്റോ",
         "ഡമോക്രിതസ്"
       ],
-      "answer": "പ്ലato",
+      "answer": "പ്ലേറ്റോ",
       "difficulty": "easy"
     },
     {
       "id": "phi_063",
-      "question": "പ്ലato-യുടെ ശിഷ്യൻ?",
+      "question": "പ്ലേറ്റോയുടെ ശിഷ്യൻ ആരാണ്?",
       "options": [
-        "Socrates",
-        "Kant",
-        "സോക്രatis",
-        "അറിസ്റ്റോട്ടil"
+        "സോക്രട്ടീസ്",
+        "കാന്റ്",
+        "ഹെറാക്ലിറ്റസ്",
+        "അറിസ്റ്റോട്ടിൽ"
       ],
-      "answer": "അറിസ്റ്റോട്ടil",
+      "answer": "അറിസ്റ്റോട്ടിൽ",
       "difficulty": "easy"
     },
     {
       "id": "phi_064",
-      "question": "അറിസ്റ്റോട്ടil-ന്റെ ഗുരു?",
+      "question": "അറിസ്റ്റോട്ടിലിന്റെ ഗുരു ആരാണ്?",
       "options": [
-        "പ്ലato",
-        "സോക്രatis",
-        "Descartes",
-        "Kant"
+        "പ്ലേറ്റോ",
+        "സോക്രട്ടീസ്",
+        "ഡെസ്കാർട്ട്",
+        "കാന്റ്"
       ],
-      "answer": "പ്ലato",
+      "answer": "പ്ലേറ്റോ",
       "difficulty": "medium"
     },
     {
       "id": "phi_065",
-      "question": "Descartes-ന്റെ പ്രശസ്ത statement?",
+      "question": "ഡെസ്കാർട്ടിന്റെ പ്രസിദ്ധ വാചകം ഏതാണ്?",
       "options": [
-        "Will to power",
-        "Cogito ergo sum",
-        "Tabula rasa",
-        "Forms exist"
+        "ശക്തിയുടെ ഇച്ഛ",
+        "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
+        "ശൂന്യ മനസ്സ്",
+        "രൂപങ്ങൾ നിലനിൽക്കുന്നു"
       ],
-      "answer": "Cogito ergo sum",
+      "answer": "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
       "difficulty": "medium"
     },
     {
       "id": "phi_066",
-      "question": "John Locke പ്രതിപാദിച്ച ആശയം?",
+      "question": "ജോൺ ലോക്ക് പ്രതിപാദിച്ച ആശയം ഏതാണ്?",
       "options": [
-        "Categorical imperative",
-        "Forms",
-        "Will to power",
-        "Tabula rasa / social contract"
+        "വിഭാഗീക ആജ്ഞ",
+        "ആദർശ രൂപങ്ങൾ",
+        "ശക്തിയുടെ ഇച്ഛ",
+        "ശൂന്യ മനസ്സും സാമൂഹിക കരാറും"
       ],
-      "answer": "Tabula rasa / social contract",
+      "answer": "ശൂന്യ മനസ്സും സാമൂഹിക കരാറും",
       "difficulty": "hard"
     },
     {
       "id": "phi_067",
-      "question": "Immanuel Kant-ന്റെ ethics concept?",
+      "question": "ഇമ്മാനുവൽ കാന്റിന്റെ നീതിശാസ്ത്ര ആശയം ഏതാണ്?",
       "options": [
-        "Utilitarianism",
-        "Dharma only",
-        "Categorical Imperative",
-        "Eudaimonia"
+        "ഫലപ്രാപ്തിവാദം",
+        "ധർമ്മം മാത്രം",
+        "വിഭാഗീക ആജ്ഞ",
+        "സുഖം"
       ],
-      "answer": "Categorical Imperative",
+      "answer": "വിഭാഗീക ആജ്ഞ",
       "difficulty": "medium"
     },
     {
       "id": "phi_068",
-      "question": "Utilitarianism ബന്ധപ്പെട്ടത്?",
+      "question": "ഫലപ്രാപ്തിവാദം ആരുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Buddha only",
-        "Shankaracharya",
-        "Plato only",
-        "Bentham and Mill"
+        "ബുദ്ധൻ മാത്രം",
+        "ശങ്കരാചാര്യൻ",
+        "പ്ലേറ്റോ മാത്രം",
+        "ബെന്തം, മിൽ"
       ],
-      "answer": "Bentham and Mill",
+      "answer": "ബെന്തം, മിൽ",
       "difficulty": "hard"
     },
     {
       "id": "phi_069",
-      "question": "Nietzsche concept?",
+      "question": "നീറ്റ്ഷെയുടെ പ്രധാന ആശയം ഏതാണ്?",
       "options": [
-        "Will to power",
-        "Forms",
-        "Cogito",
-        "Tabula rasa"
+        "ശക്തിയുടെ ഇച്ഛ",
+        "ആദർശ രൂപങ്ങൾ",
+        "ചിന്തിക്കുന്നു; അതിനാൽ ഞാൻ ഉണ്ട്",
+        "ശൂന്യ മനസ്സ്"
       ],
-      "answer": "Will to power",
+      "answer": "ശക്തിയുടെ ഇച്ഛ",
       "difficulty": "hard"
     },
     {
       "id": "phi_070",
-      "question": "Karl Marx philosophy branch?",
+      "question": "കാർൾ മാർക്സിന്റെ തത്ത്വശാസ്ത്ര ശാഖ ഏതാണ്?",
       "options": [
-        "Dialectical materialism",
-        "Vedanta",
-        "Yoga",
-        "Idealism only"
+        "വൈരുദ്ധ്യാത്മക ഭൗതികവാദം",
+        "വേദാന്തം",
+        "യോഗ",
+        "ആദർശവാദം മാത്രം"
       ],
-      "answer": "Dialectical materialism",
+      "answer": "വൈരുദ്ധ്യാത്മക ഭൗതികവാദം",
       "difficulty": "medium"
     },
     {
       "id": "phi_071",
-      "question": "Sartre ബന്ധപ്പെട്ടത്?",
+      "question": "സാർത്രെ എന്തുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Existentialism",
-        "Nyaya",
-        "Vedanta",
-        "Stoicism"
+        "അസ്തിത്വവാദം",
+        "ന്യായ",
+        "വേദാന്തം",
+        "സ്റ്റോയിസിസം"
       ],
-      "answer": "Existentialism",
+      "answer": "അസ്തിത്വവാദം",
       "difficulty": "hard"
     },
     {
       "id": "phi_072",
-      "question": "Stoicism ബന്ധപ്പെട്ടത്?",
+      "question": "സ്റ്റോയിസിസം ആരുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Plato",
-        "Buddha",
-        "Shankara",
-        "Zeno of Citium"
+        "പ്ലേറ്റോ",
+        "ബുദ്ധൻ",
+        "ശങ്കരാചാര്യൻ",
+        "സിറ്റിയത്തിലെ സീനോ"
       ],
-      "answer": "Zeno of Citium",
+      "answer": "സിറ്റിയത്തിലെ സീനോ",
       "difficulty": "hard"
     },
     {
       "id": "phi_073",
-      "question": "Upanishads primarily ചർച്ച ചെയ്ത?",
+      "question": "ഉപനിഷത്തുകൾ പ്രധാനമായും എന്ത് ചർച്ച ചെയ്യുന്നു?",
       "options": [
         "രാജ്യം മാത്രം",
         "വ്യാകരണം മാത്രം",
@@ -880,36 +880,36 @@
       "id": "phi_074",
       "question": "ഗീത ഏതിന്റെ ഭാഗമാണ്?",
       "options": [
-        "Vedas",
-        "Mahabharata",
-        "Ramayana",
-        "Upanishads only"
+        "വേദങ്ങൾ",
+        "മഹാഭാരതം",
+        "രാമായണം",
+        "ഉപനിഷത്തുകൾ മാത്രം"
       ],
-      "answer": "Mahabharata",
+      "answer": "മഹാഭാരതം",
       "difficulty": "easy"
     },
     {
       "id": "phi_075",
-      "question": "Purva Mimamsa focuses on?",
+      "question": "പൂർവ മീംാംസ എന്തിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കുന്നു?",
       "options": [
-        "Metaphysics only",
-        "Art only",
-        "Vedic rituals/karma",
-        "Logic only"
+        "അധികാരശാസ്ത്രം മാത്രം",
+        "കല മാത്രം",
+        "വൈദിക ചടങ്ങുകളും കർമ്മവും",
+        "തർക്കശാസ്ത്രം മാത്രം"
       ],
-      "answer": "Vedic rituals/karma",
+      "answer": "വൈദിക ചടങ്ങുകളും കർമ്മവും",
       "difficulty": "hard"
     },
     {
       "id": "phi_076",
-      "question": "Uttara Mimamsa is another name for?",
+      "question": "ഉത്തര മീംാംസയുടെ മറ്റൊരു പേര് ഏതാണ്?",
       "options": [
-        "Charvaka",
-        "Yoga",
-        "Nyaya",
-        "Vedanta"
+        "ചാർവാക",
+        "യോഗ",
+        "ന്യായ",
+        "വേദാന്തം"
       ],
-      "answer": "Vedanta",
+      "answer": "വേദാന്തം",
       "difficulty": "medium"
     },
     {
@@ -926,43 +926,43 @@
     },
     {
       "id": "phi_078",
-      "question": "Vaikom Satyagraha നടത്തer association with Narayana Guru ideals?",
+      "question": "വൈക്കം സത്യാഗ്രഹം നാരായണഗുരുവിന്റെ ആദർശങ്ങളുമായി എന്തിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
         "ഒന്നുമില്ല",
-        "Colonial വിപുലീകരണം",
+        "കോളനി വിപുലീകരണം",
         "സാമൂഹിക സമത്വം",
-        "War"
+        "യുദ്ധം"
       ],
       "answer": "സാമൂഹിക സമത്വം",
       "difficulty": "hard"
     },
     {
       "id": "phi_079",
-      "question": "Chattampi Swamikal contributed to?",
+      "question": "ചട്ടമ്പി സ്വാമികൾ എന്തിനാണ് സംഭാവന നൽകിയത്?",
       "options": [
-        "Kerala renaissance/spiritual reform",
-        "Colonial army",
+        "കേരള നവോത്ഥാനവും ആധ്യാത്മിക സംസ്കരണവും",
+        "ബ്രിട്ടീഷ് സൈന്യം",
         "ചലച്ചിത്രം",
-        "Sports only"
+        "കായികം മാത്രം"
       ],
-      "answer": "Kerala renaissance/spiritual reform",
+      "answer": "കേരള നവോത്ഥാനവും ആധ്യാത്മിക സംസ്കരണവും",
       "difficulty": "hard"
     },
     {
       "id": "phi_080",
-      "question": "Vagbhatananda Kerala philosopher ബന്ധപ്പെട്ടത്?",
+      "question": "വാഗ്ഭടാനന്ദൻ എന്തുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Muslim League only",
-        "Atmavidya Sangham",
+        "മുസ്ലിം ലീഗ് മാത്രം",
+        "ആത്മവിദ്യാ സംഘം",
         "ഒന്നുമില്ല",
-        "Congress only"
+        "കോൺഗ്രസ് മാത്രം"
       ],
-      "answer": "Atmavidya Sangham",
+      "answer": "ആത്മവിദ്യാ സംഘം",
       "difficulty": "hard"
     },
     {
       "id": "phi_081",
-      "question": "Plato's famous work?",
+      "question": "പ്ലേറ്റോയുടെ പ്രസിദ്ധ ഗ്രന്ഥം ഏതാണ്?",
       "options": [
         "Republic",
         "Leviathan",
@@ -974,7 +974,7 @@
     },
     {
       "id": "phi_082",
-      "question": "Aristotle's ethics work?",
+      "question": "അറിസ്റ്റോട്ടിലിന്റെ നീതിശാസ്ത്ര ഗ്രന്ഥം ഏതാണ്?",
       "options": [
         "Nicomachean Ethics",
         "Republic",
@@ -986,7 +986,7 @@
     },
     {
       "id": "phi_083",
-      "question": "Kant's major work?",
+      "question": "കാന്റിന്റെ പ്രധാന ഗ്രന്ഥം ഏതാണ്?",
       "options": [
         "Republic",
         "Das Kapital",
@@ -1010,26 +1010,26 @@
     },
     {
       "id": "phi_085",
-      "question": "Taoism ബന്ധപ്പെട്ടത്?",
+      "question": "താവോവാദം ആരുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Confucius only",
-        "Buddha",
-        "Shankara",
-        "Lao Tzu"
+        "കൺഫ്യൂഷ്യസ് മാത്രം",
+        "ബുദ്ധൻ",
+        "ശങ്കരാചാര്യൻ",
+        "ലാവോ ഡ്സു"
       ],
-      "answer": "Lao Tzu",
+      "answer": "ലാവോ ഡ്സു",
       "difficulty": "hard"
     },
     {
       "id": "phi_086",
-      "question": "Zen Buddhism origin linked to?",
+      "question": "സെൻ ബുദ്ധമതത്തിന്റെ ഉത്ഭവം ഏതുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Theravada Sri Lanka only",
-        "Mahayana/China-Japan",
+        "തെരവാദ ശ്രീലങ്ക മാത്രം",
+        "മഹായാന/ചൈന-ജപ്പാൻ",
         "ഗ്രീസ്",
         "ഈജിപ്ത്"
       ],
-      "answer": "Mahayana/China-Japan",
+      "answer": "മഹായാന/ചൈന-ജപ്പാൻ",
       "difficulty": "hard"
     },
     {
@@ -1046,14 +1046,14 @@
     },
     {
       "id": "phi_088",
-      "question": "Middle Way ബന്ധപ്പെട്ടത്?",
+      "question": "മധ്യമാർഗ്ഗം ആരുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Shankara",
-        "Nagarjuna",
-        "Kant",
-        "Plato"
+        "ശങ്കരാചാര്യൻ",
+        "നാഗാർജുനൻ",
+        "കാന്റ്",
+        "പ്ലേറ്റോ"
       ],
-      "answer": "Nagarjuna",
+      "answer": "നാഗാർജുനൻ",
       "difficulty": "hard"
     },
     {
@@ -1082,14 +1082,14 @@
     },
     {
       "id": "phi_091",
-      "question": "Maya concept in Advaita refers to?",
+      "question": "അദ്വൈതത്തിലെ മായാ സങ്കല്പം എന്തിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
-        "Physical matter only",
-        "Absolute truth only",
-        "Illusory appearance of world",
+        "ഭൗതിക പദാർത്ഥം മാത്രം",
+        "പരമ സത്യം മാത്രം",
+        "ലോകത്തിന്റെ മായിക ദൃശ്യം",
         "ഒന്നുമില്ല"
       ],
-      "answer": "Illusory appearance of world",
+      "answer": "ലോകത്തിന്റെ മായിക ദൃശ്യം",
       "difficulty": "hard"
     },
     {
@@ -1108,10 +1108,10 @@
       "id": "phi_093",
       "question": "കർമ്മ സിദ്ധാന്തം സൂചിപ്പിക്കുന്നത്?",
       "options": [
-        "Predestination only",
+        "പൂർവനിശ്ചയം മാത്രം",
         "കർമ്മവും പരിണാമവും",
-        "Random events only",
-        "No causality"
+        "ക്രമരഹിത സംഭവങ്ങൾ മാത്രം",
+        "കാരണബന്ധമില്ല"
       ],
       "answer": "കർമ്മവും പരിണാമവും",
       "difficulty": "easy"
@@ -1120,10 +1120,10 @@
       "id": "phi_094",
       "question": "സോക്രട്ടിക് രീതി എന്താണ്?",
       "options": [
-        "Meditation only",
+        "ധ്യാനം മാത്രം",
         "വാദവിവാദ പരിശോധന",
-        "War strategy",
-        "Ritual only"
+        "യുദ്ധ തന്ത്രം",
+        "ചടങ്ങുകൾ മാത്രം"
       ],
       "answer": "വാദവിവാദ പരിശോധന",
       "difficulty": "medium"
@@ -1132,10 +1132,10 @@
       "id": "phi_095",
       "question": "അനുഭവവാദം എന്തിനെ ഊന്നിപ്പറയുന്നു?",
       "options": [
-        "Revelation only",
+        "വെളിപാട് മാത്രം",
         "അനുഭവം അറിവിന്റെ ഉറവിടം",
-        "Authority only",
-        "Reason only"
+        "അധികാരം മാത്രം",
+        "യുക്തി മാത്രം"
       ],
       "answer": "അനുഭവം അറിവിന്റെ ഉറവിടം",
       "difficulty": "medium"
@@ -1144,9 +1144,9 @@
       "id": "phi_096",
       "question": "യുക്തിവാദം എന്തിനെ ഊന്നിപ്പറയുന്നു?",
       "options": [
-        "Luck",
-        "Senses only",
-        "Tradition only",
+        "ഭാഗ്യം",
+        "ഇന്ദ്രിയങ്ങൾ മാത്രം",
+        "പാരമ്പര്യം മാത്രം",
         "യുക്തി പ്രാഥമിക അറിവിന്റെ ഉറവിടം"
       ],
       "answer": "യുക്തി പ്രാഥമിക അറിവിന്റെ ഉറവിടം",
@@ -1154,50 +1154,50 @@
     },
     {
       "id": "phi_097",
-      "question": "Hegel ബന്ധപ്പെട്ടത്?",
+      "question": "ഹെഗൽ എന്തുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
       "options": [
-        "Charvaka",
-        "Nyaya",
-        "Dialectical idealism",
-        "Yoga"
+        "ചാർവാക",
+        "ന്യായ",
+        "വൈരുദ്ധ്യാത്മക ആദർശവാദം",
+        "യോഗ"
       ],
-      "answer": "Dialectical idealism",
+      "answer": "വൈരുദ്ധ്യാത്മക ആദർശവാദം",
       "difficulty": "hard"
     },
     {
       "id": "phi_098",
-      "question": "Schopenhauer known for?",
+      "question": "ഷോപ്പൻഹോവറിന് എന്തിനാണ് പ്രസിദ്ധി?",
       "options": [
-        "Mimamsa",
-        "Philosophy of will/pessimism",
-        "Utilitarianism",
-        "Vedanta"
+        "മീമാംസ",
+        "ഇച്ഛയും നിരാശാവാദവും",
+        "ഫലപ്രാപ്തിവാദം",
+        "വേദാന്തം"
       ],
-      "answer": "Philosophy of will/pessimism",
+      "answer": "ഇച്ഛയും നിരാശാവാദവും",
       "difficulty": "hard"
     },
     {
       "id": "phi_099",
-      "question": "Bertrand Russell contributed to?",
+      "question": "ബർട്രാൻഡ് റസ്സൽ എന്തിനാണ് സംഭാവന നൽകിയത്?",
       "options": [
-        "Yoga",
-        "Vedanta",
-        "Mimamsa",
-        "Analytic philosophy/logic"
+        "യോഗ",
+        "വേദാന്തം",
+        "മീമാംസ",
+        "വിശകലന ദർശനവും തർക്കശാസ്ത്രവും"
       ],
-      "answer": "Analytic philosophy/logic",
+      "answer": "വിശകലന ദർശനവും തർക്കശാസ്ത്രവും",
       "difficulty": "hard"
     },
     {
       "id": "phi_100",
-      "question": "Wittgenstein known for?",
+      "question": "വിറ്റ്ജൻസ്റ്റൈന് എന്തിനാണ് പ്രസിദ്ധി?",
       "options": [
-        "Caste system",
-        "Yoga",
-        "Rituals",
-        "Language philosophy"
+        "വർണ്ണവ്യവസ്ഥ",
+        "യോഗ",
+        "ചടങ്ങുകൾ",
+        "ഭാഷാശാസ്ത്ര ദർശനം"
       ],
-      "answer": "Language philosophy",
+      "answer": "ഭാഷാശാസ്ത്ര ദർശനം",
       "difficulty": "hard"
     }
   ]

@@ -1,0 +1,102 @@
+QUESTION BANK GENERATION TARGETS
+========================================================================
+Generated: 2026-06-13
+
+GOAL: 1,01,000 total questions (1 lakh 1000)
+       Counted categories only — current affairs EXCLUDED from this milestone.
+
+CURRENT (milestone categories): 14,340
+CURRENT (current affairs only):   41  — not counted toward goal
+CURRENT (entire repo):            14,381
+STILL TO ADD (milestone):         86,660
+PROGRESS:                         14.2%
+
+HOW TO USE
+------------------------------------------------------------------------
+1. Expand MEGA categories first — they have the most unique facts.
+2. Indian history (91 now) is severely underfilled vs Kerala history (~1,818 combined).
+3. Current affairs: add separately as needed; not part of the 1,01,000 target.
+4. Never pad with template filler (see .cursor/rules/malayalam-questions.mdc).
+5. After bulk edits: python3 validate_questions.py && apply_malayalam_rules.py
+
+TIER GUIDE (topic breadth)
+------------------------------------------------------------------------
+MEGA   target 44,453  |  have 2,584  |  add 41,869
+       Huge fact space — main growth engine (geography, Indian/world history, sciences, maths)
+
+LARGE  target  9,002  |  have 5,049  |  add  3,953
+       Big but narrower (astronomy, economics)
+
+MED+   target 25,882  |  have 3,705  |  add 22,177
+       Good depth, not infinite (arts, constitution, cinema, sports, Kerala history, etc.)
+
+MED    target 14,913  |  have 1,327  |  add 13,586
+       Moderate — schemes, institutions, languages, IT
+
+SMALL  target  6,750  |  have 1,675  |  add  5,075
+       Finite / niche — Kerala districts, monuments, philosophy (avoid filler past cap)
+
+PER-CATEGORY TARGETS (sorted by "still add" — work top to bottom)
+------------------------------------------------------------------------
+File                                         Have  Target     Add  Tier
+------------------------------------------------------------------------
+geography.json                                541   8,441   7,900  MEGA
+indian_history.json                            91   6,752   6,661  MEGA
+mathematics.json                              997   6,752   5,755  MEGA
+biology.json                                  169   5,627   5,458  MEGA
+physics.json                                  184   5,627   5,443  MEGA
+world_history.json                            301   5,627   5,326  MEGA
+chemistry.json                                301   5,627   5,326  MEGA
+economics.json                              1,049   4,501   3,452  LARGE
+literature.json                                92   2,813   2,721  MED+
+sports.json                                   100   2,813   2,713  MED+
+constitution_of_india.json                    185   2,813   2,628  MED+
+cinema.json                                   185   2,813   2,628  MED+
+modern_india.json                             100   2,251   2,151  MED+
+natural_science.json                          121   2,251   2,130  MED+
+arts.json                                     899   2,813   1,914  MED+
+history_of_kerala.json                        417   2,251   1,834  MED+
+awards.json                                 1,001   2,813   1,812  MED+
+education.json                                605   2,251   1,646  MED+
+malayalam.json                                100   1,688   1,588  MED
+english_language.json                         137   1,688   1,551  MED
+kerala_renaissance.json                       211   1,688   1,477  MED
+social_welfare_schemes.json                   100   1,407   1,307  MED
+national_schemes.json                         100   1,407   1,307  MED
+international_organizations.json              100   1,407   1,307  MED
+indian_industries.json                        100   1,407   1,307  MED
+information_technology.json                   110   1,407   1,297  MED
+important_institutions.json                   184   1,407   1,223  MED
+continents_of_the_world.json                  185   1,407   1,222  MED
+kerala_through_districts.json                  90   1,125   1,035  SMALL
+politics_of_kerala.json                       100   1,125   1,025  SMALL
+philosophy.json                               100   1,125   1,025  SMALL
+communication_journalism.json                 185   1,125     940  SMALL
+basic_general_knowledge.json                  200   1,125     925  SMALL
+astronomy.json                              4,000   4,501     501  LARGE
+historical_monuments_of_kerala.json         1,000   1,125     125  SMALL
+------------------------------------------------------------------------
+TOTAL (milestone)                          14,340 101,000  86,660
+
+EXCLUDED FROM MILESTONE
+------------------------------------------------------------------------
+current_affairs_YYYY_MM.json (all monthly files)   have 41   target —   add —
+  Grow current affairs on its own schedule; not included in 1,01,000.
+
+KERALA vs INDIAN HISTORY (combined buckets)
+------------------------------------------------------------------------
+Kerala-focused (5 files):  have 1,818  →  target 7,314  →  add 5,496
+Indian/world history (3):  have 492  →  target 14,630  →  add 14,138
+
+TOP 10 PRIORITIES (largest gaps)
+------------------------------------------------------------------------
+ 1. geography.json                           add 7,900  (have 541 / target 8,441)
+ 2. indian_history.json                      add 6,661  (have 91 / target 6,752)
+ 3. mathematics.json                         add 5,755  (have 997 / target 6,752)
+ 4. biology.json                             add 5,458  (have 169 / target 5,627)
+ 5. physics.json                             add 5,443  (have 184 / target 5,627)
+ 6. world_history.json                       add 5,326  (have 301 / target 5,627)
+ 7. chemistry.json                           add 5,326  (have 301 / target 5,627)
+ 8. economics.json                           add 3,452  (have 1,049 / target 4,501)
+ 9. literature.json                          add 2,721  (have 92 / target 2,813)
+10. sports.json                              add 2,713  (have 100 / target 2,813)

@@ -12,6 +12,11 @@ from malayalamize_questions import (
     malayalamize_text,
 )
 
+try:
+    from english_only_overrides import ID_OVERRIDES as ENGLISH_ONLY_OVERRIDES
+except ImportError:
+    ENGLISH_ONLY_OVERRIDES = {}
+
 BASE = Path(__file__).parent
 SKIP_FILES = {"english_language.json", "current_affairs_manifest.json"}
 MALAYALAM = re.compile(r"[\u0D00-\u0D7F]")
@@ -23,7 +28,102 @@ STEM_ACRONYMS = re.compile(
     r"PM-JAY|PM-KISAN|ICDS|NSAP|NRHM|ABDM|KFON|IMEC|HAL|BHEL|ONGC|NTPC|"
     r"IOCL|SIDBI|KVIC|NALCO|BEL|BEML|DPIIT|ILO|FAO|IAEA|UNICEF|UNHCR|GATT|"
     r"USA|UAE|AYUSH|LPG|SEZ|STPI|MSME|NATO|OPEC|ASEAN|SAARC|BRICS|ICRC|"
-    r"NITI|NGT|PWD|PLI|IMD|WANI|IN-SPACe|UNFCCC|ECI)\b",
+    r"NITI|NGT|PWD|PLI|IMD|WANI|IN-SPACe|UNFCCC|ECI|PSLV|GSLV|SSLV|ASLV|"
+    r"SLV|LVM|IRS|IRNSS|INSAT|NGC|LIGO|ALMA|TESS|EMISAT|XPoSat|WWII|"
+    r"IOC|SAIL|GAIL|NHPC|HMT|DMIC|DFC|IDI|PSU|MITRA|NMEO|FME|SVANidhi|"
+    r"PVTG|HRIDAY|AMRUT|SAUBHAGYA|POSHAN|DAY-NRLM|DAY-NULM|NUHM|PMMVY|"
+    r"SEBI|SWIFT|UEFA|ANOVA|DMIC|NIMZ|STPI|SEZ|MSME|PLI|NSAP|ICDS|"
+    r"PM-JAY|PM SVANidhi|MITRA|WANI|NRLM|NULM|RBI|GDP|FDI|FII|IPO|"
+    r"ATM|OTP|PIN|LAN|WAN|VPN|DNS|URL|HTTP|HTTPS|TCP|UDP|IP|API|"
+    r"CPU|GPU|RAM|ROM|SSD|HDD|USB|PDF|JPEG|PNG|GIF|XML|JSON|"
+    r"ODI|T20|Test|ICC|FIFA|BCCI|AIFF|IOA|DIKSHA|SWAYAM|NISHTHA|AICTE|"
+    r"CBSE|ICSE|NIOS|NEET|SCERT|CUET|JEE|UGC|NCERT|IGNOU|IIT|NIT|IIM|"
+    r"IISER|ISI|BITS|VIT|JNU|DU|BHU|AMU|KSEB|NAAC|NBA|NCTE|NTA|"
+    r"Kerala State Education Board|Kerala State Board)\b",
+    re.I,
+)
+
+# Government scheme / mission names kept in English in PSC papers
+SCHEME_NAMES = re.compile(
+    r"(?:PMAY(?:-Urban|-Gramin)?|PM-KISAN|PM-JAY|PM SVANidhi|PM MITRA|PM FME|"
+    r"PM Vishwakarma|PM WANI|PM eBus|PM JANMAN|PM Surya Ghar|"
+    r"Swachh Bharat(?: Mission)?|"
+    r"Pradhan Mantri [A-Za-z][A-Za-z '-]*|"
+    r"Rashtriya [A-Za-z][A-Za-z '-]*|"
+    r"National [A-Za-z][A-Za-z '-]*|"
+    r"Mission [A-Za-z][A-Za-z '-]*|"
+    r"Soil Health Card|Stand Up India|Startup India|Digital India|"
+    r"Make in India|Skill India|Ayushman Bharat|Jal Jeevan(?: Mission)?|Atal Pension Yojana|Sukanya Samriddhi Yojana|Beti Bachao Beti Padhao|PM Mudra Yojana|Skill India(?: Mission)?|"
+    r"Karunya(?: Plus| Benevolent)?|"
+    r"One Stop Centre|Sakhi|She-Box|Ujjawala|DAY-NRLM|DAY-NULM|"
+    r"Kerala State Education Board|Kerala State Board)",
+    re.I,
+)
+
+KNOWN_ENGLISH_PHRASES = re.compile(
+    r"(?:Make in India|Startup India|Digital India|Skill India|Stand Up India|"
+    r"Indian Oil Corporation|Bharat Petroleum|Hindustan Petroleum|"
+    r"Power Grid Corporation|Life Insurance Corporation|General Insurance Corporation|"
+    r"Reserve Bank of India|Securities and Exchange Board|"
+    r"United Nations|World Bank|World Trade Organization|"
+    r"Whirlpool|Prometheus|Cassini|Hubble|Gemini|Ceres|Pallas|Juno|Vesta|"
+    r"Messier|Minor Planet|Leo Triplet|Andromeda|Triangulum|"
+    r"Recording Academy|Club World Cup|World Cup|Grand Slam|Powerplay|"
+    r"Wicketkeeper|Offside|Duckworth-Lewis-Stern|"
+    r"Reduce, Reuse, Recycle|Campbell's Soup Cans|"
+    r"Heraclitus|Socrates|Plato|Descartes|Kant|Democritus|"
+    r"Henry VIII|Ferdinand|Hundred Years War|"
+    r"JavaScript|TypeScript|CoffeeScript|Objective-C|C\+\+|C#|F#|"
+    r"Python|Java|Ruby|Rust|Perl|Go|Kotlin|Swift|PHP|HTML|CSS|SQL|"
+    r"Scala|Haskell|Lisp|Dart|MATLAB|Delphi|Pascal|Fortran|Assembly|"
+    r"Node|React|Angular|Vue|Django|Flask|Laravel|"
+    r"Production Linked Incentive|Software Technology Parks|"
+    r"National Infrastructure Pipeline|Street Vendor|"
+    r"Delhi-Mumbai Industrial Corridor|Chennai-Bengaluru|"
+    r"Amritsar-Kolkata|Visakhapatnam-Chennai|Bengaluru-Mumbai)",
+    re.I,
+)
+
+TECH_PROPER = re.compile(
+    r"\b(?:Rust|Linux|Windows|Ubuntu|Android|iOS|macOS|PostgreSQL|MySQL|"
+    r"MongoDB|Redis|Docker|Kubernetes|JetBrains|Kotlin|Ubuntu|Debian|"
+    r"Bluetooth|WiFi|Wi-Fi|Ethernet|Intranet|Internet|Cloud|Server|"
+    r"Compiler|Debugger|Algorithm|Database|Firewall|Malware|Phishing|"
+    r"Encryption|Blockchain|Bitcoin|Ethereum|TensorFlow|PyTorch|OpenAI|"
+    r"ChatGPT|Gemini|Copilot|Azure|AWS|Google|Microsoft|Apple|Oracle|"
+    r"SAP|Salesforce|Adobe|Cisco|Intel|AMD|Nvidia|Samsung|Sony|"
+    r"Bluetooth|USB|HTTP|HTTPS|FTP|SMTP|DNS|VPN|LAN|WAN|"
+    r"Spreadsheet|Worksheet|Workbook|PowerPoint|Excel|Word|Outlook)\b",
+    re.I,
+)
+
+PHILOSOPHER_NAMES = re.compile(
+    r"\b(?:Nietzsche|Marx|Kant|Plato|Aristotle|Socrates|Descartes|Hegel|"
+    r"Schopenhauer|Wittgenstein|Russell|Confucius|Buddha|Shankara|"
+    r"Ramanuja|Madhva|Chattampi|Narayana|Guru|Vivekananda|Aurobindo|"
+    r"Heraclitus|Democritus|Epicurus|Zeno|Locke|Hume|Bentham|Mill|"
+    r"Rousseau|Voltaire|Spinoza|Leibniz|Berkeley|Hobbes|Machiavelli)\b",
+    re.I,
+)
+
+SATELLITE_AND_CATALOG = re.compile(
+    r"(?:NGC-\d+|M\d+|IRNSS-\d+[A-Z]?|INSAT-\d+[A-Z]?|IRS-[A-Z]\d+|"
+    r"PSLV-[A-Z]?|GSLV-[A-Z]?|SSLV|ASLV|SLV-\d+|LVM\d+|XPoSat|EMISAT|"
+    r"WASP-\d+b|OGLE-\d+-BLG-\d+Lb|\d+-(?:foot|inch))",
+    re.I,
+)
+
+# PSU / scheme acronyms glued directly to Malayalam suffixes (ONGCയുടെ, BHELയിൽ)
+ACRONYM_GLUE = re.compile(
+    r"(?:ONGC|BHEL|SAIL|NTPC|NALCO|HPCL|BPCL|NMDC|GAIL|BEML|HAL|IOCL|SIDBI|"
+    r"KVIC|BEL|DMIC|SEBI|SWIFT|FIFA|ICC|GST|ISRO|DRDO|NASA|IMF|WHO|WTO|"
+    r"STPI|SEZ|MSME|PLI|NSAP|ICDS|NRLM|NULM|RBI|GDP|FDI|IPO|ATM|CPU|GPU|"
+    r"RAM|ROM|SSD|HDD|USB|PDF|JPEG|PNG|GIF|XML|JSON|ODI|T20|BCCI|AIFF|IOA|"
+    r"PM-JAY|PM|SVANidhi|MITRA|WANI|UEFA|ANOVA|DMIC|NIMZ|HPCL|BPCL|LIC|"
+    r"GIC|SEBI|NPCI|UPI|NEP|ECI|IMD|NGT|NITI|PWD|PLI|ECI|SDSS|IRIS|WASP|"
+    r"DIKSHA|SWAYAM|NISHTHA|AICTE|CBSE|ICSE|NIOS|NEET|SCERT|CUET|JEE|"
+    r"UGC|NCERT|IGNOU|IIT|NIT|IIM|IISER|ISI|BITS|VIT|JNU|DU|BHU|AMU|"
+    r"NAAC|NBA|NCTE|NTA)(?=[\u0D00-\u0D7F])",
     re.I,
 )
 
@@ -118,6 +218,32 @@ CORRUPTION_FIXES: list[tuple[str, str]] = [
     ("എത്തanol", "എthalcohol"),
     ("ഓzone", "ഓzone"),
     ("മാഗ്രitte", "മാഗ്രitte"),
+    # Astronomy partial-script corruption
+    ("വ्हirlpool ഗാലക്സി", "Whirlpool ഗാലക്സി"),
+    ("വ्हirlpool", "Whirlpool"),
+    ("കാർൾ ഗുസ്റ്റാവ് വttes", "കാർൾ ഗുസ്റ്റാവ് വിറ്റസ്"),
+    ("വttes", "വിറ്റസ്"),
+    ("ഇൻഫ്രARED", "ഇൻഫ്രാ-റെഡ്"),
+    ("മ MathfILD", "മഥ്ഫ്ലാഡ്"),
+    ("MathfILD", "മഥ്ഫ്ലാഡ്"),
+    ("മംഗൾ=graha", "മംഗൾ ഗ്രഹം"),
+    ("=graha", " ഗ്രഹം"),
+    ("നടത്തer", "നടത്തിയ"),
+    ("നടത്തer association", "നടത്തിയത് ബന്ധപ്പെട്ടത്"),
+    ("സ്റ്റarduസ്റ്റ്", "സ്റ്റാർഡസ്റ്റ്"),
+    ("astronomical unit", "ഖഗോളീയ യൂണിറ്റ്"),
+    ("പ്രോമetheus", "Prometheus"),
+    ("prometheus", "Prometheus"),
+    ("polaരിമെട്രി", "പോളാരിമെട്രി"),
+    ("എക്സ്-റേ polaരിമെട്രി", "എക്സ്-റേ പോളാരിമെട്രി"),
+    ("IRNSS-1എ", "IRNSS-1A"),
+    ("INSAT-2എ", "INSAT-2A"),
+    ("ഹundred Years War", "നൂറുവർഷ യുദ്ധം"),
+    ("ഫerdinand", "ഫെർഡിനാൻഡ്"),
+    ("WWII", "രണ്ടാം ലോകമഹായുദ്ധം"),
+    ("WWII കാലം", "രണ്ടാം ലോകമഹായുദ്ധ കാലം"),
+    ("സാzburg", "സാൽസ്ബർഗ്"),
+    ("ഈiffel", "ഈഫൽ"),
 ]
 
 # Manual fixes for corrupted entries
@@ -181,19 +307,19 @@ MANUAL_FIXES: dict[str, dict] = {
         "answer": "കൃഷി",
     },
     "phi_062": {
-        "question": "സോക്രatis-ന്റെ ശിഷ്യൻ?",
-        "options": ["Heraclitus", "അറിസ്റ്റോട്ടil", "പ്ലato", "ഡമോക്രിതസ്"],
-        "answer": "പ്ലato",
+        "question": "സോക്രട്ടീസിന്റെ ശിഷ്യൻ ആരാണ്?",
+        "options": ["ഹെറാക്ലിറ്റസ്", "അറിസ്റ്റോട്ടിൽ", "പ്ലേറ്റോ", "ഡമോക്രിതസ്"],
+        "answer": "പ്ലേറ്റോ",
     },
     "phi_063": {
-        "question": "പ്ലato-യുടെ ശിഷ്യൻ?",
-        "options": ["Socrates", "Kant", "സോക്രatis", "അറിസ്റ്റോട്ടil"],
-        "answer": "അറിസ്റ്റോട്ടil",
+        "question": "പ്ലേറ്റോയുടെ ശിഷ്യൻ ആരാണ്?",
+        "options": ["സോക്രട്ടീസ്", "കാന്റ്", "ഹെറാക്ലിറ്റസ്", "അറിസ്റ്റോട്ടിൽ"],
+        "answer": "അറിസ്റ്റോട്ടിൽ",
     },
     "phi_064": {
-        "question": "അറിസ്റ്റോട്ടil-ന്റെ ഗുരു?",
-        "options": ["പ്ലato", "സോക്രatis", "Descartes", "Kant"],
-        "answer": "പ്ലato",
+        "question": "അറിസ്റ്റോട്ടിലിന്റെ ഗുരു ആരാണ്?",
+        "options": ["പ്ലേറ്റോ", "സോക്രട്ടീസ്", "ഡെസ്കാർട്ട്", "കാന്റ്"],
+        "answer": "പ്ലേറ്റോ",
     },
 }
 
@@ -233,9 +359,38 @@ def fix_corruptions(text: str) -> str:
     return text
 
 
+def fix_maatraam_options(text: str) -> str:
+    """Convert 'English മാത്രം' distractor pattern to Malayalam."""
+    import re
+
+    from malayalamize_questions import malayalamize_text
+
+    m = re.match(r"^([A-Za-z][A-Za-z0-9 /()-]*) മാത്രം$", text.strip())
+    if not m:
+        return text
+    head = malayalamize_text(m.group(1).strip())
+    return f"{head} മാത്രം"
+
+
+def fix_only_options(text: str) -> str:
+    """Convert 'English only' distractor pattern to Malayalam."""
+    m = re.match(r"^([A-Za-z][A-Za-z0-9 /()-]*)\s+only$", text.strip(), re.I)
+    if m:
+        head = malayalamize_text(m.group(1).strip())
+        if head != m.group(1).strip():
+            return f"{head} മാത്രം"
+        # fallback: keep head transliterated loosely
+        return f"{m.group(1).strip()} മാത്രം"
+    if text.endswith(" only"):
+        return text[:-5].strip() + " മാത്രം"
+    return text
+
+
 def clean_text(text: str) -> str:
     text = fix_corruptions(text)
     text = malayalamize_text(text)
+    text = fix_only_options(text)
+    text = fix_maatraam_options(text)
     text = strip_redundant_english_parens(text)
     text = fix_hyphen_glued(text)
     text = re.sub(r"  +", " ", text).strip()
@@ -253,7 +408,7 @@ def closest_option(answer: str, options: list[str]) -> str | None:
 
 def apply_manual_fix(q: dict) -> bool:
     qid = q.get("id", "")
-    fix = MANUAL_FIXES.get(qid)
+    fix = MANUAL_FIXES.get(qid) or ENGLISH_ONLY_OVERRIDES.get(qid)
     if not fix:
         return False
     changed = False
@@ -339,12 +494,31 @@ def process_file(filename: str) -> dict:
     }
 
 
-def strip_allowed_stem_english(text: str) -> str:
-    """Remove allowed acronyms/years so we can detect stray English in Malayalam stems."""
-    result = STEM_ACRONYMS.sub("", text)
+def strip_for_validation(text: str) -> str:
+    """Strip allowed Latin segments before mixed-language / leak checks."""
+    result = re.sub(r"'[^']*'", "", text)
+    result = re.sub(r'"[^"]*"', "", result)
+    # Kerala/central scheme names before Malayalam പദ്ധതി
+    result = re.sub(r"^[A-Z][A-Za-z-]{2,30}\s+(?=പദ്ധതി)", "", result)
+    result = re.sub(r"കേരള\s+[A-Z][A-Za-z]{2,20}\s+", "കേരള ", result)
+    result = SATELLITE_AND_CATALOG.sub("", result)
+    result = ACRONYM_GLUE.sub("", result)
+    result = TECH_PROPER.sub("", result)
+    result = PHILOSOPHER_NAMES.sub("", result)
+    result = SCHEME_NAMES.sub("", result)
+    result = KNOWN_ENGLISH_PHRASES.sub("", result)
+    result = STEM_ACRONYMS.sub("", result)
+    result = re.sub(r"^[A-Z]{2,10}\s+(?=[\u0D00-\u0D7F])", "", result)
+    result = re.sub(r"\s+[A-Z]{2,10}(?=\s+[\u0D00-\u0D7F]|\s*\?|$)", "", result)
     result = re.sub(r"\b(?:19|20)\d{2}\b", "", result)
     result = PAREN_ENGLISH.sub("", result)
+    result = fix_corruptions(result)
     return result
+
+
+def strip_allowed_stem_english(text: str) -> str:
+    """Remove allowed acronyms/years so we can detect stray English in Malayalam stems."""
+    return strip_for_validation(text)
 
 
 def validate_file(filename: str) -> list[tuple]:
@@ -384,12 +558,10 @@ def validate_file(filename: str) -> list[tuple]:
                     issues.append((qid, "mixed_language_options", opt[:100]))
 
         for text in [question, *opts, ans]:
-            cleaned = PRESERVE.sub("", text)
-            if re.search(r"[a-zA-Z]{4,}", cleaned) and not re.search(
-                r"^[\u0D00-\u0D7F\s\d\W]+$", text
-            ):
-                if MALAYALAM.search(text):
-                    issues.append((qid, "english_leak", text[:100]))
+            cleaned = strip_for_validation(text)
+            cleaned = PRESERVE.sub("", cleaned)
+            if re.search(r"[a-zA-Z]{4,}", cleaned) and MALAYALAM.search(text):
+                issues.append((qid, "english_leak", text[:100]))
     return issues
 
 

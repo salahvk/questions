@@ -1,0 +1,82 @@
+---
+description: Mandatory fact verification and post-generation validation for quiz questions
+globs: "*.json,*.py,fill_*.py,refill_*.py"
+alwaysApply: false
+---
+
+# Question Fact Validation (mandatory)
+
+Bulk generation causes **silent factual errors** when facts are copied from the wrong award/event or never verified. Example: Ranveer Singh + *83* is a **Filmfare** Best Actor win (2022), not a **National Film Award** — template loops attached Filmfare winners to National Film Award stems.
+
+## Root causes to avoid
+
+1. **Award family mix-up** — National Film Award ≠ Filmfare ≠ Oscar ≠ Dadasaheb Phalke ≠ Padma awards.
+2. **Template without verification** — `for name, film, year in LIST: add_q(...)` when LIST rows were never checked.
+3. **Year confusion** — film release year vs ceremony year vs CBFC certification year.
+4. **Similar names** — `അജയ് ദേവ്ഗൺ` (National 2022 *Tanhaji*) vs `സർദാർ` (different film, no National Best Actor).
+5. **Inference from fame** — famous actor + famous film ≠ correct award mapping.
+
+## Before saving any generated question
+
+For **each** new row:
+
+1. **Identify the exact fact** — award name, category, year (ceremony), winner, work.
+2. **Verify online** — Malayalam Wikipedia first; cross-check official list (e.g. [DFF National Awards](https://www.dff.gov.in), Filmfare winners, Nobel, Padma announcements).
+3. **Match stem to award body** — if stem says `നാഷണൽ ഫിലിം അവാർഡ്`, answer must be from that body's winner list only.
+4. **Separate data lists** — e.g. `NATIONAL_FILM_BEST_ACTOR` and `FILMFARE_BEST_ACTOR` in `awards_facts.py`; never merge.
+5. **Read-aloud** — would a PSC aspirant spot a wrong award name in the stem?
+
+### Award disambiguation (awards / cinema)
+
+| Stem mentions | Answer must be from | Never use as answer |
+|---------------|---------------------|---------------------|
+| നാഷണൽ ഫിലിം അവാർഡ് മികച്ച നടൻ | DFF National Best Actor list | Filmfare-only wins (e.g. രണ്വീർ/*83*, *Lagaan* acting, *Chak De! India* acting) |
+| ഫിലിംഫെയർ മികച്ച നടൻ | Filmfare official winners | National Film Award winners unless they also won Filmfare that year |
+| ദാദാസാഹേബ് ഫാൽക്കെ | MoI lifetime award list | National Best Actor / Filmfare |
+| ഭാരതരത്ന | Official Bharat Ratna list | Padma Shri/Bhushan |
+
+```text
+❌ നാഷണൽ ഫിലിം അവാർഡ് … → രണ്വീർ സിംഗ് / 83
+✅ ഫിലിംഫെയർ അവാർഡ് … → രണ്വീർ സിംഗ് / 83
+
+❌ നാഷണൽ ഫിലിം അവാർഡ് 2023 → അജയ് ദേവ്ഗൺ / സർദാർ
+✅ നാഷണൽ ഫിലിം അവാർഡ് 2023 → അല്ലു അർജുൻ / Pushpa: The Rise
+```
+
+## After bulk edits — run all validators
+
+```bash
+# 1. Structural, filler, award traps, Malayalam leaks
+python3 validate_questions.py
+
+# 2. Single file detail
+python3 validate_questions.py awards.json
+
+# 3. Malayalam language — all banks (no args) or single file
+python3 apply_malayalam_rules.py
+python3 apply_malayalam_rules.py awards.json
+```
+
+**Do not commit** if `validate_questions.py` exits non-zero (run without args for full-repo check).
+
+## Generator scripts must
+
+- Load facts from verified `*_facts.py` modules, not inline guesses.
+- Reject rows in `is_bad_kept()` / `is_filler()` / `fact_trap` guards before write.
+- **Fail loudly** if target count not reached with verified facts — never pad with unverified templates.
+- Call validation at end of `main()` or document that user must run `validate_questions.py`.
+
+## Fixing errors found in audit
+
+1. Fix the **source fact row** in `*_facts.py` (not only JSON).
+2. Patch affected questions in JSON or re-run the category `refill_*_unique.py` from git HEAD.
+3. Re-run `python3 validate_questions.py` until clean.
+
+## Checklist (every bulk session)
+
+- [ ] Each new fact verified on Malayalam Wikipedia or official site
+- [ ] Award/event in stem matches answer's award/event
+- [ ] `answer` exactly equals one option; four distinct options
+- [ ] `python3 validate_questions.py` → exit 0 (all files)
+- [ ] `python3 apply_malayalam_rules.py` → 0 remaining issues (all files, or touched file)
+- [ ] No `പ്രദേശം-N` / template filler grep hits

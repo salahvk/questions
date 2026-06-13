@@ -7,6 +7,12 @@ from pathlib import Path
 
 from malayalam_translations import EXACT_MAP, ID_OVERRIDES, PHRASE_SUBS
 
+try:
+    from english_only_overrides import ID_OVERRIDES as ENGLISH_ONLY_OVERRIDES
+    ID_OVERRIDES = {**ENGLISH_ONLY_OVERRIDES, **ID_OVERRIDES}
+except ImportError:
+    pass
+
 BASE = Path(__file__).parent
 
 SKIP_FILES = {"english_language.json", "current_affairs_manifest.json"}
@@ -64,9 +70,12 @@ def malayalamize_question(q: dict) -> tuple[dict, bool]:
     if qid in ID_OVERRIDES:
         new_q = dict(q)
         override = ID_OVERRIDES[qid]
-        new_q["question"] = override["question"]
-        new_q["options"] = list(override["options"])
-        new_q["answer"] = override["answer"]
+        if "question" in override:
+            new_q["question"] = override["question"]
+        if "options" in override:
+            new_q["options"] = list(override["options"])
+        if "answer" in override:
+            new_q["answer"] = override["answer"]
         changed = (
             new_q["question"] != q["question"]
             or new_q["options"] != q["options"]

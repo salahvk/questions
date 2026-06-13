@@ -846,7 +846,7 @@
       "options": [
         "Senior citizens",
         "യുവാക്കളുടെ കഴിവ് വികസനം",
-        "Artisans only",
+        "Artisans മാത്രം",
         "Farmers"
       ],
       "answer": "യുവാക്കളുടെ കഴിവ് വികസനം",
@@ -854,7 +854,7 @@
     },
     {
       "id": "ns_072",
-      "question": "National Infrastructure Pipeline announced?",
+      "question": "ദേശീയ അടിസ്ഥാനസൗകര്യ പൈപ്പ്‌ലൈൻ പ്രഖ്യാപിച്ച വർഷം?",
       "options": [
         "2019",
         "2015",
@@ -878,10 +878,10 @@
     },
     {
       "id": "ns_074",
-      "question": "Production Linked Incentive maximum sectors covered approx?",
+      "question": "പ്രൊഡക്ഷൻ ലിങ്ക്ഡ് ഇൻസെന്റിവിൽ ഉൾപ്പെടുത്തിയിരിക്കുന്ന പരമാവധി മേഖലകളുടെ എണ്ണം (ഏതാണ്ട്)?",
       "options": [
         "5 sectors",
-        "20 sectors only",
+        "20 sectors മാത്രം",
         "14+ sectors",
         "3 sectors"
       ],
@@ -919,14 +919,14 @@
         "Western Ghats",
         "വടക്കുകിഴക്കൻ വികസനം",
         "Desert areas",
-        "Islands only"
+        "Islands മാത്രം"
       ],
       "answer": "വടക്കുകിഴക്കൻ വികസനം",
       "difficulty": "hard"
     },
     {
       "id": "ns_078",
-      "question": "Rashtriya Krishi Vikas Yojana is?",
+      "question": "രാഷ്ട്രീയ കൃഷി വികാസ യോജന എന്താണ്?",
       "options": [
         "കാർഷിക വികസന പദ്ധതി",
         "Defence scheme",
@@ -950,7 +950,7 @@
     },
     {
       "id": "ns_080",
-      "question": "SVAMITVA scheme for?",
+      "question": "സ്വാമിത്വ പദ്ധതി എന്തിനാണ്?",
       "options": [
         "Mining",
         "Urban housing",
@@ -962,7 +962,7 @@
     },
     {
       "id": "ns_081",
-      "question": "PM MITRA textile parks announced?",
+      "question": "PM MITRA ടെക്സ്റ്റൈൽ പാർക്കുകൾ പ്രഖ്യാപിച്ച വർഷം?",
       "options": [
         "2022",
         "2019",
@@ -974,7 +974,7 @@
     },
     {
       "id": "ns_082",
-      "question": "National Mission on Edible Oils-Oil Palm ministry?",
+      "question": "ദേശീയ ഭക്ഷ്യ എണ്ണ-എണ്ണപ്പനം ദൗത്യത്തിന്റെ ഭരണ മന്ത്രാലയം ഏതാണ്?",
       "options": [
         "റെയിൽവേ",
         "പ്രതിരോധം",
@@ -986,7 +986,7 @@
     },
     {
       "id": "ns_083",
-      "question": "PM Vishwakarma scheme for?",
+      "question": "PM വിശ്വകർമ്മ പദ്ധതി എന്തിനാണ്?",
       "options": [
         "Lawyers",
         "IT professionals",
@@ -998,11 +998,11 @@
     },
     {
       "id": "ns_084",
-      "question": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi) for?",
+      "question": "PM സ്ട്രീറ്റ് വെണ്ടർസ് ആത്മനിർഭർ നിധി (PM SVANidhi) എന്തിനാണ്?",
       "options": [
-        "Students only",
+        "Students മാത്രം",
         "തെരുവ് വ്യാപാരികൾ",
-        "Farmers only",
+        "Farmers മാത്രം",
         "Large corporates"
       ],
       "answer": "തെരുവ് വ്യാപാരികൾ",
@@ -1010,7 +1010,7 @@
     },
     {
       "id": "ns_085",
-      "question": "Jal Shakti Ministry formed in?",
+      "question": "ജല ശക്തി മന്ത്രാലയം രൂപീകരിച്ച വർഷം?",
       "options": [
         "2017",
         "2019",
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "ns_087",
-      "question": "PM CARES Fund tax exemption status?",
+      "question": "PM CARES ഫണ്ടിന്റെ നികുതി ഒഴിവാക്കൽ നില?",
       "options": [
         "Only foreign",
         "Not eligible",
@@ -1046,7 +1046,7 @@
     },
     {
       "id": "ns_088",
-      "question": "PM Garib Kalyan package during COVID first announced?",
+      "question": "കോവിഡ് കാലത്ത് PM ഗരീബ് കല്യാൺ പാക്കേജ് ആദ്യം പ്രഖ്യാപിച്ച വർഷം?",
       "options": [
         "2019",
         "2021",
@@ -1070,7 +1070,7 @@
     },
     {
       "id": "ns_090",
-      "question": "PM WANI for?",
+      "question": "PM WANI എന്തിനാണ്?",
       "options": [
         "Water supply",
         "റോഡുകൾ",
@@ -1082,9 +1082,9 @@
     },
     {
       "id": "ns_091",
-      "question": "Mission Karmayogi for?",
+      "question": "മിഷൻ കർമയോഗി എന്തിനാണ്?",
       "options": [
-        "Judiciary only",
+        "Judiciary മാത്രം",
         "പ്രതിരോധം",
         "പോലീസ് മാത്രം",
         "Civil services capacity building"
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "ns_092",
-      "question": "PM eBus Sewa for?",
+      "question": "PM eBus സേവ എന്തിനാണ്?",
       "options": [
         "Rural roads",
         "Ports",
@@ -1118,7 +1118,7 @@
     },
     {
       "id": "ns_094",
-      "question": "PM JANMAN for?",
+      "question": "PM JANMAN എന്തിനാണ്?",
       "options": [
         "PVTG welfare",
         "Large farmers",
@@ -1130,9 +1130,9 @@
     },
     {
       "id": "ns_095",
-      "question": "PM Surya Ghar Muft Bijli Yojana for?",
+      "question": "PM സൂര്യ ഘർ മുഫ്ത് ബിജ്ലി യോജന എന്തിനാണ്?",
       "options": [
-        "Wind only",
+        "Wind മാത്രം",
         "Rooftop solar for households",
         "Nuclear plants",
         "കൽക്കരി ഖനനം"
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "ns_096",
-      "question": "PM Internship Scheme announced budget year?",
+      "question": "PM ഇന്റേൺഷിപ്പ് പദ്ധതി പ്രഖ്യാപിച്ച ബജറ്റ് വർഷം?",
       "options": [
         "2024",
         "2020",
@@ -1154,19 +1154,19 @@
     },
     {
       "id": "ns_097",
-      "question": "Vibrant Villages Programme for?",
+      "question": "വൈബ്രന്റ് വില്ലേജസ് പരിപാടി എന്തിനാണ്?",
       "options": [
         "Border villages development",
         "Metro cities",
-        "Coastal only",
-        "Desert only"
+        "Coastal മാത്രം",
+        "Desert മാത്രം"
       ],
       "answer": "Border villages development",
       "difficulty": "hard"
     },
     {
       "id": "ns_098",
-      "question": "PM Vishwakarma minimum loan amount (approx)?",
+      "question": "PM വിശ്വകർമ്മ പദ്ധതിയിലെ കുറഞ്ഞ വായ്പ തുക (ഏതാണ്ട്)?",
       "options": [
         "₹10 lakh",
         "₹50,000",
@@ -1178,7 +1178,7 @@
     },
     {
       "id": "ns_099",
-      "question": "PM FME unit cost ceiling (approx)?",
+      "question": "PM FME യൂണിറ്റ് ചെലവ് പരിധി (ഏതാണ്ട്)?",
       "options": [
         "₹50 lakh",
         "₹25 lakh",
@@ -1190,7 +1190,7 @@
     },
     {
       "id": "ns_100",
-      "question": "PM Matsya Sampada investment target period?",
+      "question": "PM മത്സ്യ സമ്പാദ പദ്ധതിയുടെ നിക്ഷേപ ലക്ഷ്യ കാലയളവ്?",
       "options": [
         "2010-15",
         "2020-25",
