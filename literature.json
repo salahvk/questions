@@ -766,7 +766,7 @@
       ],
       "answer": "ഹാംലെറ്റ്",
       "difficulty": "easy",
-      "id": "lit_066"
+      "id": "lit_064"
     },
     {
       "question": "രവീന്ദ്രനാഥ ടാഗോർക്ക് നോബൽ സാഹിത്യ പുരസ്കാരം ലഭിച്ച കൃതി ഏത്?",
@@ -778,7 +778,7 @@
       ],
       "answer": "ഗീതാഞ്ജലി",
       "difficulty": "medium",
-      "id": "lit_072"
+      "id": "lit_065"
     },
     {
       "question": "മുൻഷി പ്രേംചന്ദ് രചിച്ച പ്രസിദ്ധ ഹിന്ദി കൃതി ഏത്?",
@@ -790,7 +790,7 @@
       ],
       "answer": "ഗോദാൻ",
       "difficulty": "hard",
-      "id": "lit_073"
+      "id": "lit_066"
     },
     {
       "question": "ആർ.കെ. നാരായണൻ സൃഷ്ടിച്ച കൽപിത നഗരം ഏത്?",
@@ -802,7 +802,7 @@
       ],
       "answer": "Malgudi",
       "difficulty": "medium",
-      "id": "lit_074"
+      "id": "lit_067"
     },
     {
       "question": "'Midnight's Children' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -814,7 +814,7 @@
       ],
       "answer": "സൽമാൻ റുഷ്ദി",
       "difficulty": "hard",
-      "id": "lit_075"
+      "id": "lit_068"
     },
     {
       "question": "'Alice in Wonderland' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -826,7 +826,7 @@
       ],
       "answer": "ലൂയിസ് കാരോൾ",
       "difficulty": "medium",
-      "id": "lit_076"
+      "id": "lit_069"
     },
     {
       "question": "'Pride and Prejudice' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -838,7 +838,7 @@
       ],
       "answer": "ജെയ്ൻ ഓസ്റ്റിൻ",
       "difficulty": "medium",
-      "id": "lit_077"
+      "id": "lit_070"
     },
     {
       "question": "'Wuthering Heights' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -850,7 +850,7 @@
       ],
       "answer": "എമിലി ബ്രോണ്ടെ",
       "difficulty": "hard",
-      "id": "lit_078"
+      "id": "lit_071"
     },
     {
       "question": "'Great Expectations' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -862,7 +862,7 @@
       ],
       "answer": "ചാൾസ് ഡിക്കൻസ്",
       "difficulty": "medium",
-      "id": "lit_079"
+      "id": "lit_072"
     },
     {
       "question": "'The Old Man and the Sea' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -874,7 +874,7 @@
       ],
       "answer": "എർണസ്റ്റ് ഹെമിംഗ്വേ",
       "difficulty": "medium",
-      "id": "lit_080"
+      "id": "lit_073"
     },
     {
       "question": "'1984' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -886,7 +886,7 @@
       ],
       "answer": "ജോർജ് ഓർവെൽ",
       "difficulty": "medium",
-      "id": "lit_082"
+      "id": "lit_074"
     },
     {
       "question": "'Animal Farm' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -898,7 +898,7 @@
       ],
       "answer": "ജോർജ് ഓർവെൽ",
       "difficulty": "medium",
-      "id": "lit_083"
+      "id": "lit_075"
     },
     {
       "question": "'Brave New World' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -910,7 +910,7 @@
       ],
       "answer": "ഔൾഡസ് ഹക്സ്ലി",
       "difficulty": "hard",
-      "id": "lit_084"
+      "id": "lit_076"
     },
     {
       "question": "'The Lord of the Rings' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -922,7 +922,7 @@
       ],
       "answer": "ജെ.ആർ.ആർ. റ്റോൾകീൻ",
       "difficulty": "medium",
-      "id": "lit_085"
+      "id": "lit_077"
     },
     {
       "question": "'Harry Potter' എന്ന കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -934,7 +934,7 @@
       ],
       "answer": "ജെ.കെ. റോലിംഗ്",
       "difficulty": "easy",
-      "id": "lit_086"
+      "id": "lit_078"
     },
     {
       "question": "പാരമ്പര്യമായി രാമായണം രചിച്ചത് ആരാണ്?",
@@ -946,7 +946,7 @@
       ],
       "answer": "വാല്മീകി",
       "difficulty": "easy",
-      "id": "lit_087"
+      "id": "lit_079"
     },
     {
       "question": "പാരമ്പര്യമായി മഹാഭാരതം രചിച്ചത് ആരാണ്?",
@@ -958,7 +958,7 @@
       ],
       "answer": "വ്യാസൻ",
       "difficulty": "easy",
-      "id": "lit_088"
+      "id": "lit_080"
     },
     {
       "question": "കാലിദാസൻ രചിച്ച പ്രസിദ്ധ നാടകം ഏത്?",
@@ -970,7 +970,7 @@
       ],
       "answer": "Abhijnanasakuntalam",
       "difficulty": "medium",
-      "id": "lit_089"
+      "id": "lit_081"
     },
     {
       "question": "'Meghaduta' എന്ന ഇന്ത്യൻ കൃതിയുടെ രചയിതാവ് ആരാണ്?",
@@ -982,7 +982,7 @@
       ],
       "answer": "കാലിദാസൻ",
       "difficulty": "hard",
-      "id": "lit_090"
+      "id": "lit_082"
     },
     {
       "question": "തുലസിദാസ് രചിച്ച 'രാമചരിതമാനസ്' ഏത് ഭാഷയിലാണ്?",
@@ -994,7 +994,7 @@
       ],
       "answer": "അവധി/ഹിന്ദി",
       "difficulty": "hard",
-      "id": "lit_091"
+      "id": "lit_083"
     },
     {
       "question": "കബീറിന്റെ ദോഹകൾ പ്രധാനമായും ഏത് ഭാഷയിലാണ് രചിച്ചത്?",
@@ -1006,7 +1006,7 @@
       ],
       "answer": "ഖഡി ബോലി/ഹിന്ദി മിശ്രണം",
       "difficulty": "hard",
-      "id": "lit_092"
+      "id": "lit_084"
     },
     {
       "question": "സൂർദാസ് രചിച്ച ഭക്തികവിതകൾ ഏതിനെ കുറിച്ചുള്ളവയാണ്?",
@@ -1018,7 +1018,7 @@
       ],
       "answer": "ശ്രീകൃഷ്ണനെ",
       "difficulty": "hard",
-      "id": "lit_093"
+      "id": "lit_085"
     },
     {
       "question": "മിര്സാ ഗാലിബിന്റെ ഭാഷ എത്?",
@@ -1030,7 +1030,7 @@
       ],
       "answer": "ഉർദു/പേർഷ്യൻ",
       "difficulty": "hard",
-      "id": "lit_094"
+      "id": "lit_086"
     },
     {
       "question": "സാദത് ഹസൻ മാന്റോ ഏതിനാണ് പ്രശസ്തൻ?",
@@ -1042,7 +1042,7 @@
       ],
       "answer": "വിഭജന കഥകൾ (ഉർദു)",
       "difficulty": "hard",
-      "id": "lit_095"
+      "id": "lit_087"
     },
     {
       "question": "ഒ.എൻ.വി. കുരുപ്പിന് ജ്ഞാനപീഠ പുരസ്കാരം ലഭിച്ചത് എന്തിനാണ്?",
@@ -1054,7 +1054,7 @@
       ],
       "answer": "മലയാള കവിതാ സംഭാവനകൾ",
       "difficulty": "hard",
-      "id": "lit_096"
+      "id": "lit_088"
     },
     {
       "question": "സുഗതകുമാരി ഏതിനാണ് പ്രശസ്ത?",
@@ -1066,7 +1066,7 @@
       ],
       "answer": "കവിതയും പരിസ്ഥിതി പ്രവർത്തനവും",
       "difficulty": "medium",
-      "id": "lit_097"
+      "id": "lit_089"
     },
     {
       "question": "കമലാ സുരയ്യ മുൻപ് ഏത് പേരിൽ അറിയപ്പെട്ടിരുന്നു?",
@@ -1078,7 +1078,7 @@
       ],
       "answer": "കമലാ ദാസ്",
       "difficulty": "medium",
-      "id": "lit_098"
+      "id": "lit_090"
     },
     {
       "question": "കേന്ദ്ര സാഹിത്യ അക്കാദമി സ്ഥാപിതമായ വർഷം ഏത്?",
@@ -1090,7 +1090,7 @@
       ],
       "answer": "1954",
       "difficulty": "hard",
-      "id": "lit_099"
+      "id": "lit_091"
     },
     {
       "question": "യുനെസ്കോ ലോക സാഹിത്യ ദിനം ആചരിക്കുന്നത് എപ്പോഴാണ്?",
@@ -1102,7 +1102,7 @@
       ],
       "answer": "ഏപ്രിൽ 23",
       "difficulty": "hard",
-      "id": "lit_100"
+      "id": "lit_092"
     }
   ]
 }

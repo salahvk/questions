@@ -15,6 +15,8 @@ BASE = Path(__file__).parent
 SKIP = {"english_language.json", "current_affairs_manifest.json"}
 
 FILLER_PATTERNS = [
+    re.compile(r"ഏത് ചോദ്യത്തിന്റെ ഉത്തരമാണ്"),
+    re.compile(r"ഉത്തരമുള്ള ചോദ്യം"),
     re.compile(r"പ്രദേശം-\d+"),
     re.compile(r"വസ്തുത-\d+"),
     re.compile(r"വസ്തു-\d+"),
@@ -88,6 +90,54 @@ def fact_trap_issues(q: dict, qid: str) -> list[tuple[str, str]]:
     return out
 
 
+def english_language_issues(q: dict, qid: str, filename: str) -> list[tuple[str, str]]:
+    if filename != "english_language.json":
+        return []
+    out: list[tuple[str, str]] = []
+    stem = q.get("question", "")
+    if re.search(r"[\u0D00-\u0D7F]", stem):
+        out.append((qid, "malayalam_in_english_bank"))
+    return out
+
+
+def file_consecutive_template_issues(questions: list[dict]) -> list[tuple[str, str, str]]:
+    from refill_common import max_consecutive_template_run, stem_template
+
+    out: list[tuple[str, str, str]] = []
+    run, key = max_consecutive_template_run(questions)
+    if run >= 3 and key:
+        # flag each question in the longest run starting from first occurrence
+        if not questions:
+            return out
+        best_start = 0
+        best_len = 1
+        cur_key = stem_template(questions[0].get("question", ""))
+        cur_start = 0
+        cur_len = 1
+        for i, q in enumerate(questions[1:], start=1):
+            k = stem_template(q.get("question", ""))
+            if k == cur_key:
+                cur_len += 1
+            else:
+                if cur_len > best_len:
+                    best_len = cur_len
+                    best_start = cur_start
+                cur_key = k
+                cur_start = i
+                cur_len = 1
+        if cur_len > best_len:
+            best_len = cur_len
+            best_start = cur_start
+        if best_len >= 3:
+            for q in questions[best_start : best_start + best_len]:
+                out.append((
+                    q.get("id", "?"),
+                    "consecutive_template_run",
+                    f"{best_len}x:{key[:40]}",
+                ))
+    return out
+
+
 def validate_json_file(path: Path, global_stems: Counter[str]) -> dict:
     issues: list[tuple[str, str, str]] = []
     questions = load_questions(path)
@@ -104,6 +154,7 @@ def validate_json_file(path: Path, global_stems: Counter[str]) -> dict:
             structural_issues(q, qid)
             + filler_issues(q, qid)
             + fact_trap_issues(q, qid)
+            + english_language_issues(q, qid, path.name)
         ):
             issues.append((qid, code, detail))
 
@@ -112,6 +163,9 @@ def validate_json_file(path: Path, global_stems: Counter[str]) -> dict:
 
     for qid, code, detail in malayalam_issues(path.name):
         issues.append((qid, f"malayalam:{code}", detail[:120]))
+
+    for qid, code, detail in file_consecutive_template_issues(questions):
+        issues.append((qid, code, detail))
 
     return {
         "file": path.name,

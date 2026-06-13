@@ -155,6 +155,36 @@ More patterns:
 ✅ ഹിരോഷിമയിൽ ആണ്ബോം വർഷിച്ച വർഷം ഏത്?
 ```
 
+### Reverse-meta question anti-pattern (all categories)
+
+Never generate or keep questions where the **answer text is the stem** and options are other question texts. These are not real exam items.
+
+**Banned question stems** (reject in code, validation, and refill):
+
+- `'ANSWER' ഏത് ചോദ്യത്തിന്റെ ഉത്തരമാണ്?`
+- `ലോക ചരിത്രത്തിൽ 'ANSWER' ഉത്തരമുള്ള ചോദ്യം?`
+- Any variant that asks “which question has this answer?” with full question sentences as options
+
+**Why banned**: Options become other questions, not facts; duplicates knowledge; poor UX for PSC apps.
+
+**Correct pattern**: ask the fact directly.
+
+```text
+❌ 'ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്' ഏത് ചോദ്യത്തin's ഉത്തരമാണ്?
+   → options are other question sentences
+
+✅ കേരളത്തിലെ വിദ്യാഭ്യാസ വിപ്ലവത്തിന്റെ പിതാവ് ആരാണ്?
+   → ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട് (with plausible person distractors)
+```
+
+**Enforcement**: `validate_questions.py` / `refill_common.is_filler_text()` reject these; `cleanup_reverse_meta.py` strips existing rows; `wire_json_modules.py` must **not** emit `alt` reverse templates.
+
+### `english_language.json` — English only
+
+- Stems, options, and answers must be **English** (grammar, vocabulary, spelling, comprehension).
+- No Malayalam reverse-meta questions; no Malayalam grammar glosses (`ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Noun എന്നത് എന്താണ്?`).
+- Exempt from Malayalam script rules in §1–2, but still subject to reverse-meta ban and global stem uniqueness.
+
 ### Bulk filler and definition-template anti-patterns
 
 Bulk-generated economics/banking questions often reuse English-to-Malayalam **definition wrappers** and **recycled distractors**. These read like dictionary glosses, not Kerala PSC exam items. Reject and rewrite on sight.
@@ -252,8 +282,34 @@ Before adding or editing:
 4. **Non-trivial** — no duplicate concepts rephrased slightly.
 5. **Balanced options** — similar length and format; avoid obvious wrong answers.
 6. **ID discipline** — follow file prefix (see registry below); increment without gaps.
+7. **Play order** — never place **3 or more consecutive** questions with the same stem template (only the entity/name changes). Quiz apps show questions in file order; long identical runs bore users. Use `spread_consecutive_templates()` in `refill_common.py` (max **2** in a row).
 
 When bulk-editing, run **`python3 apply_malayalam_rules.py`** (all files) and **`python3 validate_questions.py`** (all files); fix validation hits before committing.
+
+### Consecutive same-template anti-pattern (play order)
+
+Bulk lists often arrive grouped by topic — e.g. 29 rows of `X സംസ്ഥാനത്തിന്റെ സ്കൂൾ ബോർഡ്?`, then 23 `IIT Y ഏത് നഗരത്തിലാണ്?`. Valid facts, but **bad play order**.
+
+**Rule**: In the saved JSON order, no more than **2 consecutive** questions may share the same stem template.
+
+**Banned play-order examples**:
+
+```text
+❌ edu_0566 … edu_0568 — three state school-board templates in a row
+❌ edu_0574 … edu_0596 — IIT city templates back-to-back for 20+ questions
+
+✅ Spread: school board → RTE year → Kerala literacy → next school board → …
+✅ Or rewrite as mixed stems: "MSBSHSE ഏത് സംസ്ഥാനത്തിന്റെ ബോർഡാണ്?" (not only "STATE സംസ്ഥാനത്തിന്റെ …")
+```
+
+**Enforcement**:
+
+- `refill_common.spread_consecutive_templates(questions, max_run=2)` before every refill save
+- `refill_common.interleave_candidates()` when emitting from `*_facts.py`
+- `validate_questions.py` → `consecutive_template_run` if ≥3 in a row
+- `python3 fix_education_order.py` for one-off reshuffle of `education.json`
+
+Also reject fake NCERT rows: `NCERT പുസ്തകം 'N' …` with answer `വിഷയം-N` — not real books.
 
 ### Repo-wide cleanup (all Malayalam `*.json`)
 
@@ -312,6 +368,8 @@ Reject any question matching these — they indicate bulk template padding, not 
 | Definition wrapper | `സാമ്പത്തികമായി X … സൂചിപ്പിക്കുന്ന പ്രവർത്തി` | Dictionary gloss, not exam item |
 | Recycled distractor tail | `… നടത്തുന്ന സേവനം` on unrelated options | Obvious bulk generation |
 | English-only / mixed stem | `RSP in Kerala allied mainly with?` | Violates §1–2 |
+| Reverse-meta question | `'X' ഏത് ചോദ്യത്തin's ഉത്തരമാണ്?` | Answer-as-stem; options are other questions |
+| Malayalam in `english_language.json` | `ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb …` | English-only file |
 | Same template ≥5× same answer | Any stem with only `N` changed | Not conceptually unique |
 
 Real numbered items with **distinct facts** are fine: `ചന്ദ്രയാൻ-3 വിക്ഷേപിച്ച വർഷം`, `GSAT-14`, `അപ്പോളോ 11`, `PSLV-C25` — each must have its own verifiable answer.
@@ -431,6 +489,7 @@ If filler grep returns hits or `validate_questions.py` exits non-zero, fix befor
 - [ ] No English-only questions; no mixed-language stems or options (`ഒന്നുമില്ല` + `BJP only`, etc.)
 - [ ] Question unique across repo; **conceptually** unique (not same template + same answer repeated)
 - [ ] No universal filler: `പ്രദേശം-N`, `വസ്തുത-N`, numbered fake entities, definition wrappers
+- [ ] Play order: no 3+ consecutive same stem template (`validate_questions.py` / `spread_consecutive_templates`)
 - [ ] Category-specific rules applied (astronomy / geography / economics sections above)
 - [ ] Four options, one correct answer, difficulty set; correct ID prefix for file
 - [ ] `python3 validate_questions.py` run on **all files** after bulk edits (exit 0 required)

@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "id": "io_001",
+      "id": "io_0001",
       "question": "ഐക്യരാഷ്ട്ര സംഘടനയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ന്യൂയോർക്ക്",
@@ -13,7 +13,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "io_002",
+      "id": "io_0002",
       "question": "UNയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "സിംഗപ്പൂർ സെക്രട്ടറിയറ്റ്",
@@ -25,7 +25,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_003",
+      "id": "io_0003",
       "question": "UN സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1945",
@@ -37,7 +37,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_004",
+      "id": "io_0004",
       "question": "UN പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "യൂറോപ്പിലെ സുരക്ഷ സഹകരണം",
@@ -49,7 +49,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_005",
+      "id": "io_0005",
       "question": "WHOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ആഫ്രിക്കൻ രാജ്യങ്ങളുടെ കൂട്ടായ്മ",
@@ -61,7 +61,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_006",
+      "id": "io_0006",
       "question": "WHO സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "മോണ്ടെവിഡിയോ",
@@ -73,7 +73,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_007",
+      "id": "io_0007",
       "question": "WHO പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "ദക്ഷിണ അമേരിക്കൻ വിപണി കൂട്ടായ്മ",
@@ -85,7 +85,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_008",
+      "id": "io_0008",
       "question": "UNESCOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ഏഷ്യൻ വികസന ധനസഹായം",
@@ -97,7 +97,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_009",
+      "id": "io_0009",
       "question": "UNESCO സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1945",
@@ -109,7 +109,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_010",
+      "id": "io_0010",
       "question": "UNESCO പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "വിദ്യാഭ്യാസം, ശാസ്ത്രം, സംസ്കാരം",
@@ -121,7 +121,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_011",
+      "id": "io_0011",
       "question": "UNICEFയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "യുദ്ധക്കുറ്റ വിചാരണ",
@@ -133,7 +133,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_012",
+      "id": "io_0012",
       "question": "UNICEF സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "സിംഗപ്പൂർ സെക്രട്ടറിയറ്റ്",
@@ -145,7 +145,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_013",
+      "id": "io_0013",
       "question": "UNICEF പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "1950",
@@ -157,7 +157,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_014",
+      "id": "io_0014",
       "question": "FAOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ലിയോൺ",
@@ -169,7 +169,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_015",
+      "id": "io_0015",
       "question": "FAO സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "2002",
@@ -181,7 +181,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_016",
+      "id": "io_0016",
       "question": "FAO പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "ജക്കാർത്ത",
@@ -193,7 +193,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_017",
+      "id": "io_0017",
       "question": "ILOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "സാമ്പത്തിക സഹകരണവും വികസനവും",
@@ -205,7 +205,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_018",
+      "id": "io_0018",
       "question": "ILO സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "ഹേഗ്",
@@ -217,7 +217,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_019",
+      "id": "io_0019",
       "question": "ILO പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "1894",
@@ -229,7 +229,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_020",
+      "id": "io_0020",
       "question": "IMFയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ആഫ്രിക്കൻ രാജ്യങ്ങളുടെ കൂട്ടായ്മ",
@@ -241,7 +241,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_021",
+      "id": "io_0021",
       "question": "IMF സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1949",
@@ -253,7 +253,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_022",
+      "id": "io_0022",
       "question": "IMF പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "1863",
@@ -265,7 +265,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_023",
+      "id": "io_0023",
       "question": "World Bankയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "സിംഗപ്പൂർ സെക്രട്ടറിയറ്റ്",
@@ -277,7 +277,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_024",
+      "id": "io_0024",
       "question": "World Bank സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "പരിസ്ഥിതി",
@@ -289,7 +289,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_025",
+      "id": "io_0025",
       "question": "World Bank പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "വികസന ധനസഹായം",
@@ -301,7 +301,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_026",
+      "id": "io_0026",
       "question": "WTOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ജിനീവ",
@@ -313,7 +313,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_027",
+      "id": "io_0027",
       "question": "WTO സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "യൂറോപ്യൻ രാഷ്ട്രീയ-സാമ്പത്തിക കൂട്ടായ്മ",
@@ -325,7 +325,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_028",
+      "id": "io_0028",
       "question": "WTO പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "കരീബിയൻ സമൂഹം",
@@ -337,7 +337,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_029",
+      "id": "io_0029",
       "question": "ASEANയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "1971",
@@ -349,7 +349,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_030",
+      "id": "io_0030",
       "question": "ASEAN സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1948",
@@ -361,7 +361,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_031",
+      "id": "io_0031",
       "question": "ASEAN പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "1972",
@@ -373,7 +373,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_032",
+      "id": "io_0032",
       "question": "SAARCയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ഷാങ്ഹായ്",
@@ -385,7 +385,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_033",
+      "id": "io_0033",
       "question": "SAARC സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1985",
@@ -397,7 +397,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_034",
+      "id": "io_0034",
       "question": "SAARC പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "1991",
@@ -409,7 +409,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_035",
+      "id": "io_0035",
       "question": "NATOയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "1949",
@@ -421,7 +421,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_036",
+      "id": "io_0036",
       "question": "NATO സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1863",
@@ -433,7 +433,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_037",
+      "id": "io_0037",
       "question": "NATO പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "സൈനിക കൂട്ടായ്മ",
@@ -445,7 +445,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_038",
+      "id": "io_0038",
       "question": "EUയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ഏഷ്യൻ വികസന ധനസഹായം",
@@ -457,7 +457,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_039",
+      "id": "io_0039",
       "question": "EU സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1894",
@@ -469,7 +469,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_040",
+      "id": "io_0040",
       "question": "EU പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "റോം",
@@ -481,7 +481,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_041",
+      "id": "io_0041",
       "question": "OPECയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "1991",
@@ -493,7 +493,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_042",
+      "id": "io_0042",
       "question": "OPEC സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1923",
@@ -505,7 +505,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_043",
+      "id": "io_0043",
       "question": "OPEC പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "നായ്റോബി",
@@ -517,7 +517,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_044",
+      "id": "io_0044",
       "question": "BRICSയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ഭക്ഷ്യവും കൃഷിയും",
@@ -529,7 +529,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_045",
+      "id": "io_0045",
       "question": "BRICS സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1989",
@@ -541,7 +541,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_046",
+      "id": "io_0046",
       "question": "BRICS പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "ലോസാൻ",
@@ -553,7 +553,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_047",
+      "id": "io_0047",
       "question": "African Unionയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ബ്രസ്സൽസ്",
@@ -565,7 +565,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_048",
+      "id": "io_0048",
       "question": "African Union സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "2002",
@@ -577,7 +577,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_049",
+      "id": "io_0049",
       "question": "African Union പ്രധാനമായി ഏത് മേഖലയിലാണ് പ്രവർത്തിക്കുന്നത്?",
       "options": [
         "1904",
@@ -589,7 +589,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_050",
+      "id": "io_0050",
       "question": "Commonwealthയുടെ ആസ്ഥാനം എവിടെയാണ്?",
       "options": [
         "ലണ്ടൻ",
@@ -601,7 +601,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_051",
+      "id": "io_0051",
       "question": "Commonwealth സ്ഥാപിതമായത് ഏത് വർഷത്തിലാണ്?",
       "options": [
         "1919",
@@ -613,7 +613,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_052",
+      "id": "io_0052",
       "question": "United Nations സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1950",
@@ -625,7 +625,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_053",
+      "id": "io_0053",
       "question": "United Nations ആസ്ഥാനം ഏത്?",
       "options": [
         "ന്യൂയോർക്ക്",
@@ -637,7 +637,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_054",
+      "id": "io_0054",
       "question": "UNESCO സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1950",
@@ -649,7 +649,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_055",
+      "id": "io_0055",
       "question": "UNESCO ആസ്ഥാനം ഏത്?",
       "options": [
         "ജനീവ",
@@ -661,7 +661,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_056",
+      "id": "io_0056",
       "question": "WHO സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1950",
@@ -673,7 +673,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_057",
+      "id": "io_0057",
       "question": "WHO ആസ്ഥാനം ഏത്?",
       "options": [
         "പാരീസ്",
@@ -685,7 +685,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_058",
+      "id": "io_0058",
       "question": "IMF സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1960",
@@ -697,7 +697,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_059",
+      "id": "io_0059",
       "question": "IMF ആസ്ഥാനം ഏത്?",
       "options": [
         "ലണ്ടൻ",
@@ -709,7 +709,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_060",
+      "id": "io_0060",
       "question": "World Bank സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1945",
@@ -721,7 +721,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_061",
+      "id": "io_0061",
       "question": "World Bank ആസ്ഥാനം ഏത്?",
       "options": [
         "റോം",
@@ -733,7 +733,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_062",
+      "id": "io_0062",
       "question": "WTO സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "2000",
@@ -745,7 +745,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_063",
+      "id": "io_0063",
       "question": "WTO ആസ്ഥാനം ഏത്?",
       "options": [
         "ജനീവ",
@@ -757,7 +757,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_064",
+      "id": "io_0064",
       "question": "ILO സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1919",
@@ -769,7 +769,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_065",
+      "id": "io_0065",
       "question": "ILO ആസ്ഥാനം ഏത്?",
       "options": [
         "റോം",
@@ -781,7 +781,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_066",
+      "id": "io_0066",
       "question": "FAO സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1944",
@@ -793,7 +793,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_067",
+      "id": "io_0067",
       "question": "FAO ആസ്ഥാനം ഏത്?",
       "options": [
         "റോം",
@@ -805,7 +805,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_068",
+      "id": "io_0068",
       "question": "IAEA സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1960",
@@ -817,7 +817,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_069",
+      "id": "io_0069",
       "question": "IAEA ആസ്ഥാനം ഏത്?",
       "options": [
         "ജനീവ",
@@ -829,7 +829,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_070",
+      "id": "io_0070",
       "question": "UNICEF സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1946",
@@ -841,7 +841,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_071",
+      "id": "io_0071",
       "question": "UNICEF ആസ്ഥാനം ഏത്?",
       "options": [
         "ജനീവ",
@@ -853,7 +853,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_072",
+      "id": "io_0072",
       "question": "UNHCR സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1945",
@@ -865,7 +865,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_073",
+      "id": "io_0073",
       "question": "UNHCR ആസ്ഥാനം ഏത്?",
       "options": [
         "ന്യൂയോർക്ക്",
@@ -877,7 +877,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_074",
+      "id": "io_0074",
       "question": "ASEAN സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1970",
@@ -889,7 +889,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_075",
+      "id": "io_0075",
       "question": "ASEAN ആസ്ഥാനം ഏത്?",
       "options": [
         "Manila",
@@ -901,7 +901,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_076",
+      "id": "io_0076",
       "question": "SAARC സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "2000",
@@ -913,7 +913,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_077",
+      "id": "io_0077",
       "question": "SAARC ആസ്ഥാനം ഏത്?",
       "options": [
         "കൊളംബോ",
@@ -925,7 +925,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_078",
+      "id": "io_0078",
       "question": "EU സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1993",
@@ -937,7 +937,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_079",
+      "id": "io_0079",
       "question": "EU ആസ്ഥാനം ഏത്?",
       "options": [
         "ലണ്ടൻ",
@@ -949,7 +949,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_080",
+      "id": "io_0080",
       "question": "NATO സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1949",
@@ -961,7 +961,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_081",
+      "id": "io_0081",
       "question": "NATO ആസ്ഥാനം ഏത്?",
       "options": [
         "Washington",
@@ -973,7 +973,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_082",
+      "id": "io_0082",
       "question": "OPEC സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1980",
@@ -985,7 +985,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_083",
+      "id": "io_0083",
       "question": "OPEC ആസ്ഥാനം ഏത്?",
       "options": [
         "റിയാദ്",
@@ -997,7 +997,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_084",
+      "id": "io_0084",
       "question": "BRICS സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "2000",
@@ -1009,7 +1009,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_085",
+      "id": "io_0085",
       "question": "G7 സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1990",
@@ -1021,7 +1021,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_086",
+      "id": "io_0086",
       "question": "G20 സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "2010",
@@ -1033,7 +1033,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_087",
+      "id": "io_0087",
       "question": "Commonwealth സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1950",
@@ -1045,7 +1045,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_088",
+      "id": "io_0088",
       "question": "Commonwealth ആസ്ഥാനം ഏത്?",
       "options": [
         "ജനീവ",
@@ -1057,7 +1057,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_089",
+      "id": "io_0089",
       "question": "African Union സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1990",
@@ -1069,7 +1069,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_090",
+      "id": "io_0090",
       "question": "African Union ആസ്ഥാനം ഏത്?",
       "options": [
         "കെയ്റോ",
@@ -1081,7 +1081,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_091",
+      "id": "io_0091",
       "question": "OIC സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "1969",
@@ -1093,7 +1093,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_092",
+      "id": "io_0092",
       "question": "OIC ആസ്ഥാനം ഏത്?",
       "options": [
         "ജിദ്ദ",
@@ -1105,7 +1105,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_093",
+      "id": "io_0093",
       "question": "Interpol സ്ഥാപിതമായ വർഷം ഏത്?",
       "options": [
         "2000",
@@ -1117,7 +1117,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_094",
+      "id": "io_0094",
       "question": "Interpol ആസ്ഥാനം ഏത്?",
       "options": [
         "ലയോൺ",
@@ -1129,7 +1129,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_095",
+      "id": "io_0095",
       "question": "റെഡ് ക്രോസ് (ICRC) ആസ്ഥാനം?",
       "options": [
         "റോം",
@@ -1141,7 +1141,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_096",
+      "id": "io_0096",
       "question": "UN സുരക്ഷാ കൗൺസിലിലെ സ്ഥിരം അംഗങ്ങളുടെ എണ്ണം?",
       "options": [
         "10",
@@ -1153,7 +1153,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "io_097",
+      "id": "io_0097",
       "question": "UN പൊതുസഭാ അധ്യക്ഷൻ തിരഞ്ഞെടുക്കുന്ന കാലാവധി?",
       "options": [
         "പത്ത് വർഷം",
@@ -1165,7 +1165,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "io_098",
+      "id": "io_0098",
       "question": "അന്താരാഷ്ട്ര നീതി ന്യായാധിപസഭ ആസ്ഥാനം?",
       "options": [
         "പാരീസ്",
@@ -1177,7 +1177,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "io_099",
+      "id": "io_0099",
       "question": "വേൾഡ് ട്രേഡ് ഓർഗനൈസേഷൻ പകരംവെച്ചത്?",
       "options": [
         "UNESCO",
@@ -1189,7 +1189,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "io_100",
+      "id": "io_0100",
       "question": "IMF അംഗങ്ങളുടെ എണ്ണം (ഏകദേശം)?",
       "options": [
         "300",
@@ -1198,6 +1198,150 @@
         "100"
       ],
       "answer": "190+",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0101",
+      "question": "World Health Organization regional office for South-East Asia in?",
+      "options": [
+        "ജനീവ",
+        "Manila",
+        "ന്യൂഡൽഹി",
+        "കെയ്റോ"
+      ],
+      "answer": "ന്യൂഡൽഹി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0102",
+      "question": "SAARC അംഗങ്ങളുടെ എണ്ണം?",
+      "options": [
+        "12",
+        "5",
+        "10",
+        "8"
+      ],
+      "answer": "8",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_0103",
+      "question": "Shanghai Cooperation Organisation HQ?",
+      "options": [
+        "മോസ്കോ",
+        "ബീജിംഗ്",
+        "ഇസ്ലാമാബാദ്",
+        "ഡൽഹി"
+      ],
+      "answer": "ബീജിംഗ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0104",
+      "question": "അന്താരാഷ്ട്ര അണുവിദ്യു ഏജൻസി നിരീക്ഷിക്കുന്നത്?",
+      "options": [
+        "സമാധാനപരമായ അണുവിദ്യു ഉപയോഗം",
+        "ബഹിരാകാശം മാത്രം",
+        "ആയുധങ്ങൾ മാത്രം",
+        "Only medical"
+      ],
+      "answer": "സമാധാനപരമായ അണുവിദ്യു ഉപയോഗം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_0105",
+      "question": "International Labour Organization Nobel Peace Prize year?",
+      "options": [
+        "1980",
+        "1945",
+        "2000",
+        "1969"
+      ],
+      "answer": "1969",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0106",
+      "question": "BRICS 2024 വിപുലീകരണ പുതിയ അംഗങ്ങൾ?",
+      "options": [
+        "Japan, Germany",
+        "Egypt, Ethiopia, Iran, UAE, Saudi Arabia",
+        "ഓസ്ട്രേലിയ മാത്രം",
+        "USA, UK"
+      ],
+      "answer": "Egypt, Ethiopia, Iran, UAE, Saudi Arabia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0107",
+      "question": "BRICS-ന്റെ യഥാർത്ഥ അംഗങ്ങൾ?",
+      "options": [
+        "ASEAN members",
+        "India മാത്രം",
+        "Brazil, Russia, India, China, South Africa",
+        "G7 members"
+      ],
+      "answer": "Brazil, Russia, India, China, South Africa",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_0108",
+      "question": "UNDP ആസ്ഥാനം?",
+      "options": [
+        "പാരീസ്",
+        "ന്യൂയോർക്ക്",
+        "റോം",
+        "ജനീവ"
+      ],
+      "answer": "ന്യൂയോർക്ക്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0109",
+      "question": "ASEAN അംഗങ്ങളുടെ എണ്ണം?",
+      "options": [
+        "12",
+        "8",
+        "15",
+        "10"
+      ],
+      "answer": "10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "io_0110",
+      "question": "UNEP ആസ്ഥാനം?",
+      "options": [
+        "ജനീവ",
+        "ന്യൂയോർക്ക്",
+        "നൈറോബി",
+        "പാരീസ്"
+      ],
+      "answer": "നൈറോബി",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0111",
+      "question": "ന്യൂ ഡെവലപ്മെന്റ് ബാങ്ക് ആസ്ഥാനം?",
+      "options": [
+        "ഷാങ്ഹായ്",
+        "ഡൽഹി",
+        "മോസ്കോ",
+        "ബ്രസീലിയ"
+      ],
+      "answer": "ഷാങ്ഹായ്",
+      "difficulty": "hard"
+    },
+    {
+      "id": "io_0112",
+      "question": "ഏഷ്യൻ ഡെവലപ്മെന്റ് ബാങ്ക് ആസ്ഥാനം?",
+      "options": [
+        "ബാങ്കോക്ക്",
+        "Manila",
+        "ടോക്കിയോ",
+        "ഡൽഹി"
+      ],
+      "answer": "Manila",
       "difficulty": "hard"
     }
   ]

@@ -688,7 +688,7 @@
       "id": "mal_058",
       "question": "മണിപ്രവാളം സംയോജിപ്പിക്കുന്നത്?",
       "options": [
-        "Tamil and Telugu only",
+        "Tamil and Telugu മാത്രം",
         "English and Hindi",
         "മലയാളവും സംസ്കൃതവും",
         "അറബി മാത്രം"
@@ -749,7 +749,7 @@
       "question": "മലയാളത്തിലെ സമാസം എന്താണ്?",
       "options": [
         "വിരാമചിഹ്നം മാത്രം",
-        "Letter only",
+        "Letter മാത്രം",
         "ക്രിയ മാത്രം",
         "സമാസ പദ നിർമ്മാണം"
       ],
@@ -787,7 +787,7 @@
         "അക്ഷര/അക്ഷര യൂണിറ്റ്",
         "പദം മാത്രം",
         "പുസ്തകം",
-        "Sentence only"
+        "Sentence മാത്രം"
       ],
       "answer": "അക്ഷര/അക്ഷര യൂണിറ്റ്",
       "difficulty": "easy"
@@ -991,7 +991,7 @@
         "O. Chandu Menon (Indulekha)",
         "Shakespeare",
         "ഒന്നുമില്ല",
-        "Ezhuthachan only"
+        "Ezhuthachan മാത്രം"
       ],
       "answer": "O. Chandu Menon (Indulekha)",
       "difficulty": "hard"
@@ -1048,9 +1048,9 @@
       "id": "mal_088",
       "question": "മലയാള വർഷ കലണ്ടർ സാധാരണയായി പിന്തുടരുന്നത്?",
       "options": [
-        "Gregorian only",
+        "Gregorian മാത്രം",
         "Kollavarsham",
-        "Islamic only",
+        "Islamic മാത്രം",
         "ഒന്നുമില്ല"
       ],
       "answer": "Kollavarsham",
