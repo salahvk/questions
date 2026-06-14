@@ -431,6 +431,20 @@ def _w4_add(
     add_candidate(out, existing, rng, q, ans, wrong, diff, pool)
 
 
+def _pair_fwd(
+    out: list[Candidate],
+    existing: set[str],
+    rng: random.Random,
+    rows: list[tuple[str, str]],
+    q_fwd: str,
+    pool_a: list[str],
+    pool_b: list[str],
+    diff: str = "medium",
+) -> None:
+    for a, b in rows:
+        _w4_add(out, existing, rng, q_fwd.format(a=a, b=b), b, _pool(pool_b, b)[:3], diff, pool_b)
+
+
 def _pair2(
     out: list[Candidate],
     existing: set[str],
@@ -443,7 +457,7 @@ def _pair2(
 ) -> None:
     for a, b in rows:
         _w4_add(out, existing, rng, q_fwd.format(a=a, b=b), b, _pool(pool_b, b)[:3], "medium", pool_b)
-        _w4_add(out, existing, rng, q_rev.format(a=a, b=b), a, _pool(pool_a, a)[:3], "hard", pool_a)
+        # Reverse yes/no stems omitted — answer would appear quoted in stem (giveaway).
 
 
 def _validate_rows(rows: list[tuple[str, ...]], name: str) -> None:
@@ -469,29 +483,24 @@ def generate_wave4_candidates(existing: set[str], rng: random.Random) -> list[Ca
     out: list[Candidate] = []
     crop_names = [c for c, _ in CROPS]
     crop_states = list({s for _, s in CROPS})
-    _pair2(out, existing, rng, CROPS,
+    _pair_fwd(out, existing, rng, CROPS,
         "'{a}' ഏറ്റവും കൂടുതൽ ഉത്പാദിക്കുന്ന ഇന്ത്യൻ സംസ്ഥാനം ഏത്?",
-        "'{b}' സംസ്ഥാനത്തിന്റെ പ്രധാന കാർഷിക ഉൽപ്പന്നം '{a}' — ശരിയോ?",
         crop_names, crop_states)
-    _pair2(out, existing, rng, CROPS,
+    _pair_fwd(out, existing, rng, CROPS,
         "'{a}' പ്രധാനമായി ഏത് സംസ്ഥാനത്തിൽ കൃഷി ചെയ്യുന്നു?",
-        "'{b}' സംസ്ഥാനത്ത് പ്രധാന കാർഷിക വിള '{a}' — ശരിയാണോ?",
         crop_names, crop_states)
     cities = [c for c, _ in CITY_RIVER]
     rivers = list({r for _, r in CITY_RIVER})
-    _pair2(out, existing, rng, CITY_RIVER,
+    _pair_fwd(out, existing, rng, CITY_RIVER,
         "'{a}' നഗരം ഏത് നദിയുടെ തീരത്താണ്?",
-        "'{b}' നദിയുടെ തീരത്തുള്ള പ്രധാന നഗരം '{a}' — ശരിയോ?",
         cities, rivers)
-    _pair2(out, existing, rng, CITY_RIVER,
+    _pair_fwd(out, existing, rng, CITY_RIVER,
         "'{a}' നഗരം സ്ഥിതി ചെയ്യുന്ന നദി ഏത്?",
-        "'{b}' നദിയുടെ തീരത്ത് '{a}' — ശരിയാണോ?",
         cities, rivers)
     hills = [h for h, _ in HILL_STATIONS]
     hill_states = list({s for _, s in HILL_STATIONS})
-    _pair2(out, existing, rng, HILL_STATIONS,
+    _pair_fwd(out, existing, rng, HILL_STATIONS,
         "'{a}' ഏത് സംസ്ഥാനത്തിലെ ഹിൽ സ്റ്റേഷൻ?",
-        "'{b}' സംസ്ഥാനത്തിലെ പ്രശസ്തമായ ഹിൽ സ്റ്റേഷൻ '{a}' — ശരിയോ?",
         hills, hill_states)
     strait_names = [s for s, _ in STRAITS]
     strait_conn = [c for _, c in STRAITS]
@@ -537,14 +546,10 @@ def generate_wave4_candidates(existing: set[str], rng: random.Random) -> list[Ca
         "'{b}' സംസ്ഥാനത്തിലെ ജൈവവൈവിധ്യ സംരക്ഷിത പ്രദേശം '{a}' — ശരിയോ?",
         bio_names, bio_states)
     dists = [d for d, _, _ in KL_LANDMARKS]
-    landmarks = [lm for _, lm, _ in KL_LANDMARKS]
     for district, landmark, _ in KL_LANDMARKS:
         _w4_add(out, existing, rng,
                 f"കേരളത്തിലെ '{landmark}' ഏത് ജില്ലയുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
                 district, _pool(dists, district)[:3], "medium", dists)
-        _w4_add(out, existing, rng,
-                f"കേരളത്തിലെ '{district}' ജില്ലയിലെ പ്രശസ്തമായ '{landmark}' — ഏത്?",
-                landmark, _pool(landmarks, landmark)[:3], "hard", landmarks)
     zones = [z for z, _ in RAILWAY_ZONES]
     hqs = list({h for _, h in RAILWAY_ZONES})
     _pair2(out, existing, rng, RAILWAY_ZONES,
@@ -652,11 +657,11 @@ def generate_wave4_candidates(existing: set[str], rng: random.Random) -> list[Ca
         for park in uniq:
             _w4_add(
                 out, existing, rng,
-                f"{state} സംസ്ഥാനത്തിലെ '{park}' ദേശീയോദ്യാനം ഏതാണ്?",
-                park,
-                [p for p in uniq if p != park],
+                f"'{park}' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനത്താണ്?",
+                st,
+                [s for s in parks_states if s != st],
                 "medium",
-                uniq,
+                parks_states,
             )
     for port, state in INDIA_PORTS:
         st = _norm_state(state)
@@ -765,11 +770,11 @@ def generate_wave4_candidates(existing: set[str], rng: random.Random) -> list[Ca
     for trib, main in TRIBUTARIES:
         _w4_add(
             out, existing, rng,
-            f"'{main}' നദിയുടെ പോഷക നദി '{trib}' — ശരിയോ?",
-            "ശരി",
-            ["തെറ്റ്", "പ്രധാന നദിയാണ്", "സമുദ്രത്തിലേക്ക് പതിക്കുന്നു"],
+            f"'{trib}' ഏത് പ്രധാന നദിയുടെ പോഷക നദിയാണ്?",
+            main,
+            [m for m in mains if m != main],
             "hard",
-            ["ശരി", "തെറ്റ്", "പ്രധാന നദിയാണ്", "സമുദ്രത്തിലേക്ക് പതിക്കുന്നു"],
+            mains,
         )
 
 

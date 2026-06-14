@@ -78,6 +78,15 @@ def filler_issues(q: dict, qid: str) -> list[tuple[str, str]]:
     for pat in FILLER_PATTERNS:
         if pat.search(text):
             out.append((qid, f"filler:{pat.pattern[:40]}"))
+    stem = q.get("question", "").strip()
+    ans = q.get("answer", "")
+    if stem and ans:
+        from giveaway_utils import is_answer_in_stem_giveaway, is_banned_giveaway_stem
+
+        if is_answer_in_stem_giveaway(stem, ans):
+            out.append((qid, "giveaway:answer_quoted_in_stem"))
+        elif is_banned_giveaway_stem(stem):
+            out.append((qid, "giveaway:banned_stem_template"))
     return out
 
 

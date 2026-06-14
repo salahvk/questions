@@ -227,6 +227,51 @@ More patterns:
 ✅ ഹിരോഷിമയിൽ ആണ്ബോം വർഷിച്ച വർഷം ഏത്?
 ```
 
+### Answer-in-stem giveaway anti-pattern (all categories)
+
+Never generate or keep questions where **the correct answer text appears inside single quotes in the question stem**. The quoted span becomes a free hint — the item is not a real exam question.
+
+**Banned question stems** (reject in `add_candidate()`, validation, and bulk generators):
+
+- `{state} സംസ്ഥാനത്തിലെ '{name}' ദേശീയോദ്യാനം ഏതാണ്?` when answer is `{name}`
+- `{river} നദിയിലെ '{dam}' അണക്കെട്ട് ഏതാണ്?` when answer is `{dam}`
+- `{range} പർവതനിരയിലെ '{peak}' ശിഖരം ഏതാണ്?` when answer is `{peak}`
+- `'{capital}' തലസ്ഥാനമുള്ള '{country}'-ന്റെ തലസ്ഥാനം?` when answer is `{capital}`
+- `'{continent}' ഭൂഖണ്ഡത്തിലെ '{country}'?` when answer is `{country}`
+- `ദൈർഘ്യം X ആയ പ്രധാന നദി '{river}'?` when answer is `{river}`
+- Any stem where `'ANSWER'` (quoted) equals the correct option
+
+**Why banned**: PSC items must test recall or inference — not reading the quoted label back from the stem.
+
+**Correct pattern**: ask for the **missing fact** (location, river, range, state) — never the entity already named in quotes.
+
+```text
+❌ കർണാടക സംസ്ഥാനത്തിലെ 'നഗർഹോളെ' ദേശീയോദ്യാനം ഏതാണ്?
+   → answer: നഗർഹോളെ (quoted in stem)
+
+✅ 'നഗർഹോളെ' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനത്താണ്?
+   → answer: കർണാടക (with ബന്നർഘട്ട, കട്രെ, … as distractors)
+
+❌ കാവേരി നദിയിലെ 'മെട്ടൂർ' അണക്കെട്ട് ഏതാണ്?
+   → answer: മെട്ടൂർ
+
+✅ 'മെട്ടൂർ' അണക്കെട്ട് ഏത് നദിയിൽ സ്ഥിതി ചെയ്യുന്നു?
+   → answer: കാവേരി
+
+❌ ഹിമാലയ പർവതനിരയിലെ 'ഗ്യാച്ചെൻകംഗ്' ശിഖരം ഏതാണ്?
+   → answer: ഗ്യാച്ചെൻകംഗ്
+
+✅ 'ഗ്യാച്ചെൻകംഗ്' ശിഖരം ഏത് പർവതനിരയിൽ സ്ഥിതി ചെയ്യുന്നു?
+   → answer: ഹിമാലയ
+```
+
+**Also banned** — yes/no confirmation stems that embed the answer entity in quotes:
+
+- `'{state}' … '{crop}' — ശരിയാണോ?` when answer is `{crop}` or `ശരി`
+- Any `— ശരിയോ?` / `— ശരിയാണോ?` geography fact template (use direct `ഏത്?` MCQ instead)
+
+**Enforcement**: `giveaway_utils.is_answer_in_stem_giveaway()`; `refill_common.add_candidate()` rejects at generation; `validate_questions.py` → `giveaway:answer_quoted_in_stem`; `fix_geography_giveaway.py` rewrites existing rows.
+
 ### Reverse-meta question anti-pattern (all categories)
 
 Never generate or keep questions where the **answer text is the stem** and options are other question texts. These are not real exam items.
@@ -497,6 +542,7 @@ Reject any question matching these — they indicate bulk template padding, not 
 | Recycled distractor tail | `… നടത്തുന്ന സേവനം` on unrelated options | Obvious bulk generation |
 | English-only / mixed stem | `RSP in Kerala allied mainly with?` | Violates §1–2 |
 | Reverse-meta question | `'X' ഏത് ചോദ്യത്തin's ഉത്തരമാണ്?` | Answer-as-stem; options are other questions |
+| Answer quoted in stem | `{state}-ile '{name}' … ഏതാണ്?` when answer is `{name}` | Free hint — answer visible in quotes |
 | Malayalam in `english_language.json` | `ഇംഗ്ലീഷ് വ്യാകരണത്തിൽ Verb …` | English-only file |
 | Same template ≥5× same answer | Any stem with only `N` changed | Not conceptually unique |
 
@@ -623,7 +669,7 @@ If filler grep returns hits or `validate_questions.py` exits non-zero, fix befor
 - [ ] Book/literary titles in their source language (English books in English, Malayalam in Malayalam)
 - [ ] No Manglish or English sentence fragments
 - [ ] No English-only questions; no mixed-language stems or options (`ഒന്നുമില്ല` + `BJP only`, etc.)
-- [ ] Question unique across repo; **conceptually** unique (not same template + same answer repeated)
+- [ ] No answer-in-stem giveaway: quoted text in question must not equal the correct answer
 - [ ] No universal filler: `പ്രദേശം-N`, `വസ്തുത-N`, numbered fake entities, definition wrappers
 - [ ] Play order: no 3+ consecutive same stem template (`validate_questions.py` / `spread_consecutive_templates`)
 - [ ] Category-specific rules applied (astronomy / geography / economics sections above)

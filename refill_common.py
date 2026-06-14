@@ -19,7 +19,8 @@ BANNED_STEM_PATTERNS = [
     re.compile(r"^വർഷം .+ ഏത് നൂറ്റാണ്ടിലാണ്\?$"),
     re.compile(r"ഏത് ചോദ്യത്തിന്റെ ഉത്തരമാണ്"),
     re.compile(r"ഉത്തരമുള്ള ചോദ്യം"),
-    re.compile(r"^'[^']+' ബാങ്കിംഗ് സേവനങ്ങളിൽ പ്രധാനമായി എന്തിനാണ്"),
+    re.compile(r"^'[^']+' — ശരിയ(?:ാണോ|ോ)\?$"),
+    re.compile(r"^'[^']+' .+ '[^']+' — ശരിയ(?:ാണോ|ോ)\?$"),
     re.compile(r"^ബാങ്കിംഗ് സേവനങ്ങളിൽ '[^']+'-യുടെ പ്രധാന പ്രയോജനം"),
     re.compile(r"^'[^']+' സാമ്പത്തിക ശാസ്ത്രത്തിൽ പ്രധാനമായി"),
     re.compile(r"^ആകാശ വസ്തു '.+' ഏത് (തരത്തിൽ പെടുന്നു|നക്ഷത്രസമൂഹം/പ്രദേശത്താണ്)"),
@@ -162,6 +163,12 @@ def is_filler_text(text: str) -> bool:
     return False
 
 
+def is_answer_in_stem_giveaway(stem: str, answer: str) -> bool:
+    from giveaway_utils import is_answer_in_stem_giveaway as _giveaway
+
+    return _giveaway(stem, answer)
+
+
 def is_filler_question(q: dict) -> bool:
     text = (
         q.get("question", "")
@@ -236,6 +243,8 @@ def add_candidate(
 ) -> None:
     q = q.strip()
     if not q or q in existing or is_filler_text(q):
+        return
+    if is_answer_in_stem_giveaway(q, ans):
         return
     opts = pick3(pool or wrong + [ans], ans, rng)
     if len(set(opts)) != 4 or ans not in opts:

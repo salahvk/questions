@@ -1046,24 +1046,25 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
             continue
         for dam in uniq:
             add(
-                f"{river} നദിയിലെ '{dam}' അണക്കെട്ട് ഏതാണ്?",
-                dam,
-                [d for d in uniq if d != dam],
+                f"'{dam}' അണക്കെട്ട് ഏത് നദിയിൽ സ്ഥിതി ചെയ്യുന്നു?",
+                river,
+                [r for r in by_river if r != river],
                 "hard",
             )
 
     by_state_parks: dict[str, list[str]] = defaultdict(list)
     for park, state in INDIAN_NATIONAL_PARKS:
         by_state_parks[state].append(park)
+    park_states = list(by_state_parks.keys())
     for state, parks in by_state_parks.items():
         uniq = list(dict.fromkeys(parks))
         if len(uniq) < 2:
             continue
         for park in uniq:
             add(
-                f"{state} സംസ്ഥാനത്തിലെ '{park}' ദേശീയോദ്യാനം ഏതാണ്?",
-                park,
-                [p for p in uniq if p != park],
+                f"'{park}' ദേശീയോദ്യാനം ഏത് സംസ്ഥാനത്താണ്?",
+                state,
+                [s for s in park_states if s != state],
                 "medium",
             )
 
@@ -1076,15 +1077,14 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
             "medium",
         )
 
+    ranges = list({r for _, r, _ in MOUNTAIN_PEAKS})
     for peak, rng_name, _height in MOUNTAIN_PEAKS:
-        same_range = [p for p, r, _ in MOUNTAIN_PEAKS if r == rng_name and p != peak]
-        if len(same_range) >= 3:
-            add(
-                f"{rng_name} പർവതനിരയിലെ '{peak}' ശിഖരം ഏതാണ്?",
-                peak,
-                same_range[:3],
-                "hard",
-            )
+        add(
+            f"'{peak}' ശിഖരം ഏത് പർവതനിരയിൽ സ്ഥിതി ചെയ്യുന്നു?",
+            rng_name,
+            [r for r in ranges if r != rng_name],
+            "hard",
+        )
 
     flow_groups: dict[str, list[str]] = defaultdict(list)
     for river, flows in RIVERS:
@@ -1111,7 +1111,6 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
     for country, continent in COUNTRY_CONTINENT:
         countries = [c for c, _ in COUNTRY_CONTINENT]
         add(f"'{country}' ഏത് ഭൂഖണ്ഡത്തിലാണ്?", continent, [c for c in continents if c != continent], "easy")
-        add(f"'{continent}' ഭൂഖണ്ഡത്തിലെ '{country}'?", country, [c for c in countries if c != country][:3], "medium")
 
 
     areas = [a for _, a in INDIAN_STATE_AREA]
@@ -1138,7 +1137,7 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
     for river, length in INDIAN_RIVER_LENGTH:
         add(f"'{river}' നദിയുടെ ദൈർഘ്യം (ഏകദേശം)?", length,
             [l for l in lengths if l != length], "hard")
-        add(f"ദൈർഘ്യം {length} ആയ പ്രധാന നദി '{river}'?", river,
+        add(f"ദൈർഘ്യം {length} ആയ പ്രധാന നദി ഏത്?", river,
             [r for r in rivers_l if r != river], "hard")
 
     pops = [p for _, p in INDIAN_STATE_POPULATION]
@@ -1152,8 +1151,12 @@ def generate_candidates(existing: set[str], rng: random.Random) -> list[tuple[st
             [s for s in states_p if s != state], "hard")
 
     for country, capital in CAPITALS:
-        add(f"'{capital}' തലസ്ഥാനമുള്ള '{country}'-ന്റെ തലസ്ഥാനം?", capital,
-            [c for _, c in CAPITALS if c != capital][:3], "easy")
+        add(
+            f"'{country}' രാജ്യത്തിന്റെ തലസ്ഥാനം ഏതാണ്?",
+            capital,
+            [c for _, c in CAPITALS if c != capital][:3],
+            "easy",
+        )
         add(
             f"'{country}'-ന്റെ തലസ്ഥാന നഗരം?",
             capital,
