@@ -12,6 +12,8 @@ For **`awards.json`**, also enforce **option type coherence** and **recycled fil
 
 For **`astronomy.json`**, also enforce **mission goal/type/name option types** and **no measurement distractors on descriptive stems** — see `astronomy-questions.mdc`.
 
+For **`sports.json`**, also enforce **Indian vs international governing-body scope** and **person/event answer direction** — see `sports-questions.mdc`.
+
 ## Root causes to avoid
 
 1. **Award family mix-up** — National Film Award ≠ Filmfare ≠ Oscar ≠ Dadasaheb Phalke ≠ Padma awards.

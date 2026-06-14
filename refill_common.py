@@ -189,6 +189,8 @@ def load_global_stems(exclude_file: str | None = None) -> set[str]:
             data = json.loads(path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
             continue
+        if not isinstance(data, dict):
+            continue
         for q in data.get("questions", []):
             stem = q.get("question", "").strip()
             if stem:

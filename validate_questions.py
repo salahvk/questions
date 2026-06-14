@@ -100,7 +100,7 @@ def option_mismatch_issues(q: dict, qid: str) -> list[tuple[str, str]]:
     return []
 
 
-def fact_trap_issues(q: dict, qid: str) -> list[tuple[str, str]]:
+def fact_trap_issues(q: dict, qid: str, filename: str = "") -> list[tuple[str, str]]:
     stem = q.get("question", "")
     ans = q.get("answer", "")
     out: list[tuple[str, str]] = []
@@ -109,6 +109,12 @@ def fact_trap_issues(q: dict, qid: str) -> list[tuple[str, str]]:
     for stem_pat, forbidden in AWARD_STEM_PAIRS:
         if stem_pat.search(stem) and forbidden.search(ans):
             out.append((qid, f"award_mixup:wrong_body:{ans}"))
+    if filename == "sports.json":
+        from sports_gov_utils import sports_gov_body_issue
+
+        gov_issue = sports_gov_body_issue(stem, ans)
+        if gov_issue:
+            out.append((qid, gov_issue))
     return out
 
 
@@ -176,7 +182,7 @@ def validate_json_file(path: Path, global_stems: Counter[str]) -> dict:
             structural_issues(q, qid)
             + filler_issues(q, qid)
             + option_mismatch_issues(q, qid)
-            + fact_trap_issues(q, qid)
+            + fact_trap_issues(q, qid, path.name)
             + english_language_issues(q, qid, path.name)
         ):
             issues.append((qid, code, detail))

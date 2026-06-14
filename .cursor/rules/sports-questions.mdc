@@ -1,0 +1,53 @@
+---
+description: Sports quiz generation — governing-body scope, person/event facts, mandatory validation
+globs: "sports.json,build_sports*.py,sports_*.py,refill_sports_unique.py,sports_gov_utils.py"
+alwaysApply: false
+---
+
+# Sports Question Generation (strict)
+
+Bulk sports generation must **never** mix Indian vs international governing-body scope in stem and answer.
+
+## Governing bodies — scope must match stem
+
+| Stem wording | Answer must be | Never use |
+|--------------|----------------|-----------|
+| `ഭാരതീയ അധികാര സംഘടന` / `ഭാരതീയ സംഘടന` | Indian body: BCCI, AIFF, BAI, IOA, NADA, SAI, PCI, PKFI, ഹോക്കി ഇന്ത്യ | ICC, FIFA, FIH, FIDE, BWF, ITTF, ISSF, UWW, IBA, FIVB, FIBA, IWF, WADA, IHF, ലോക അത്ലറ്റിക്സ് ഫെഡറേഷൻ, ലോക വില്ലുവെട്ട് ഫെഡറേഷൻ |
+| `അന്താരാഷ്ട്ര സംഘടന` | International federation from above list | BCCI, AIFF, BAI, IOA, NADA, SAI, PCI, PKFI, ഹോക്കി ഇന്ത്യ |
+| Neutral (`നിയന്ത്രണ സംഘടന`, `നിയന്ത്രിക്കുന്ന സംഘടന`) | Either scope — org must match the `(org, sport)` data row | Do not attach Indian-only or intl-only templates to the wrong org set |
+
+```text
+❌ ക്രിക്കറ്റ് ലോകകപ്പ് … ഭാരതീയ അധികാര സംഘടന ഏത്? → ICC
+✅ … ഭാരതീയ അധികാര സംഘടന ഏത്? → BCCI
+✅ ക്രിക്കറ്റ് ലോകകപ്പ് നിയന്ത്രിക്കുന്ന സംഘടന ഏത്? → ICC
+```
+
+**Generator rule:** split `GOV_BODY_SPORT` rows by `sports_gov_utils.is_indian_gov_org()`; use `PAIR_BA_INDIAN` / `PAIR_BA_INTL` only on the matching subset. Shared lists live in `sports_gov_utils.py`.
+
+## Person / event triples
+
+Rows are `(person, event, detail)`. Use `_emit_person_event`, not `_emit_triples`, when templates ask **ആരാണ്?** — answer must be **person**, not year/event string.
+
+Never cartesian-expand person↔event lists (wrong pairings like every cricketer × every World Cup year).
+
+## Data expansion
+
+Do not prefix `ദേശീയ` / `അന്താരാഷ്ട്ര` onto sport labels that already start with those words (`ദേശീയ ദേശീയ …` stems).
+
+## After every sports bulk edit
+
+```bash
+python3 build_sports_wave20_module.py
+python3 refill_sports_unique.py
+python3 apply_malayalam_rules.py sports.json
+python3 validate_questions.py sports.json
+```
+
+**Do not commit** if `validate_questions.py sports.json` exits non-zero. `sports_gov_utils.sports_gov_body_issue()` must return no hits on the final bank.
+
+## Checklist
+
+- [ ] Indian/intl templates split by org type in `build_sports_wave20_module.py`
+- [ ] Person questions answer with person names only
+- [ ] No double-prefix stems (`ദേശീയ ദേശീയ`)
+- [ ] `python3 validate_questions.py sports.json` → exit 0

@@ -52,7 +52,7 @@ natural_science.json                          127   2,251   2,124  MED+
 economics.json                              2,532   4,501   1,969  LARGE
 arts.json                                     902   2,813   1,911  MED+
 history_of_kerala.json                        418   2,251   1,833  MED+
-awards.json                                 1,002   2,813   1,811  MED+
+awards.json                                 1,002   3,202   2,200  MED+
 education.json                                595   2,251   1,656  MED+
 malayalam.json                                111   1,688   1,577  MED
 kerala_renaissance.json                       213   1,688   1,475  MED

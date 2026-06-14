@@ -30,9 +30,11 @@ from awards_facts import (
     RAMON_MAGSAYSAY,
     SAHITYA_AKADEMI_MALAYALAM,
 )
+from awards_wave20_facts import generate_wave20_candidates
+from refill_common import id_width, interleave_candidates, spread_consecutive_templates
 
 BASE = Path(__file__).parent
-TARGET = 2813
+TARGET = 3202  # 1002 existing + 2200 wave20 categories
 PREFIX = "aca_"
 
 FILLER_PATTERNS = [
@@ -59,6 +61,9 @@ def is_bad_kept(question: str, options: list[str], answer: str) -> bool:
     if any("Sveriges Riksbank" in o for o in options) or "Sveriges Riksbank" in answer:
         return True
     if re.search(r"സൂചിപ്പിക്കുന്ന|Sveriges", question + answer):
+        return True
+    blob = question + " " + answer + " " + " ".join(options)
+    if "Bharat Ratna scientists" in question or re.search(r"\bPritzker\b", blob):
         return True
     return False
 
@@ -91,10 +96,16 @@ def git_head_questions() -> list[dict]:
         return []
 
 
-def make_entry(num: int, q: str, opts: list[str], ans: str, diff: str) -> dict:
+def make_entry(num: int, q: str, opts: list[str], ans: str, diff: str, *, width: int = 4) -> dict:
     shuffled = list(opts)
     random.shuffle(shuffled)
-    return {"id": f"{PREFIX}{num:03d}", "question": q, "options": shuffled, "answer": ans, "difficulty": diff}
+    return {
+        "id": f"{PREFIX}{num:0{width}d}",
+        "question": q,
+        "options": shuffled,
+        "answer": ans,
+        "difficulty": diff,
+    }
 
 
 def pick3(pool: list[str], correct: str) -> list[str]:
@@ -509,7 +520,7 @@ def build_unique_candidates(existing: set[str]) -> list[tuple[str, list[str], st
         ("അന്താരാഷ്ട്ര തലത്തിൽ പരിസ്ഥിതി സൗഹൃദ ബീച്ചുകൾക്കുള്ള സർട്ടിഫിക്കേഷൻ ഏതാണ്?", ["ബ്ലൂ ഫ്ലാഗ്", "ഗ്രീൻ ലീഫ്", "ഇക്കോ മാർക്ക്", "വൈറ്റ് ഫ്ലാഗ്"], "ബ്ലൂ ഫ്ലാഗ്", "easy"),
         ("വന്യജീവി സംരക്ഷണത്തിനുള്ള പ്രശസ്ത അന്താരാഷ്ട്ര പുരസ്കാരം ഏതാണ്?", ["ഗെറ്റി പ്രൈസ്", "ഗോൾഡ്മാൻ പ്രൈസ്", "ജാപ്പനീസ് പ്രൈസ്", "ഇന്ദിരാഗാന്ധി പര്യവരൺ പുരസ്കാർ"], "ഗെറ്റി പ്രൈസ്", "hard"),
         ("പരിസ്ഥിതി ശാസ്ത്രത്തിനുള്ള ടൈലർ പ്രൈസ് ഏർപ്പെടുത്തിയ രാജ്യം ഏതാണ്?", ["അമേരിക്ക (USA)", "സ്വീഡൻ", "നോർവേ", "യുകെ"], "അമേരിക്ക (USA)", "hard"),
-        ("ആർക്കിടെക്ചർ രംഗത്തെ നോബൽ സമ്മാനം എന്നറിയപ്പെടുന്ന പുരസ്കാരം ഏതാണ്?", ["Pritzker പ്രൈസ്", "ഏബൽ പ്രൈസ്", "ഫീൽഡ്സ് മെഡൽ", "ട്യൂറിംഗ് അവാർഡ്"], "Pritzker പ്രൈസ്", "medium"),
+        ("ആർക്കിടെക്ചർ രംഗത്തെ നോബൽ സമ്മാനം എന്നറിയപ്പെടുന്ന പുരസ്കാരം ഏതാണ്?", ["പ്രിറ്റ്സ്കർ പ്രൈസ്", "ഏബൽ പ്രൈസ്", "ഫീൽഡ്സ് മെഡൽ", "ട്യൂറിംഗ് അവാർഡ്"], "പ്രിറ്റ്സ്കർ പ്രൈസ്", "medium"),
         ("തിയേറ്റർ രംഗത്തെ മികച്ച നേട്ടങ്ങൾക്കുള്ള അന്താരാഷ്ട്ര പുരസ്കാരം ഏതാണ്?", ["ടോണി അവാർഡ്", "എമ്മി അവാർഡ്", "ബാഫ്റ്റ അവാർഡ്", "കാൻ പുരസ്കാരം"], "ടോണി അവാർഡ്", "hard"),
         ("ടെലിവിഷൻ രംഗത്തെ മികച്ച നേട്ടങ്ങൾക്കുള്ള അന്താരാഷ്ട്ര പുരസ്കാരം ഏതാണ്?", ["എമ്മി അവാർഡ്", "ടോണി അവാർഡ്", "ഗ്രാമി അവാർഡ്", "ഓസ്കാർ അവാർഡ്"], "എമ്മി അവാർഡ്", "medium"),
         ("ഭാരതത്തിൽ സാഹിത്യകാർന്മാർക്ക് രണ്ടാമത്തെ ഉയർന്ന പുരസ്കാരം ഏതാണ്?", ["കേന്ദ്ര സാഹിത്യ അക്കാദമി അവാർഡ്", "ജ്ഞാനപീഠ പുരസ്കാരം", "വ്യാസ് സമ്മാൻ", "സരസ്വതി സമ്മാൻ"], "കേന്ദ്ര സാഹിത്യ അക്കാദമി അവാർഡ്", "medium"),
@@ -540,15 +551,17 @@ def build_unique_candidates(existing: set[str]) -> list[tuple[str, list[str], st
 
 
 def main() -> None:
-    random.seed(42)
+    rng = random.Random(42)
     path = BASE / "awards.json"
     global_existing = load_global_existing()
+    width = id_width(TARGET)
 
-    # Keep existing quality questions from current file
     data = json.loads(path.read_text(encoding="utf-8"))
+    head_qs = git_head_questions()
+    source_qs = head_qs if head_qs else data.get("questions", [])
     kept: list[dict] = []
     kept_stems: set[str] = set()
-    for q in data.get("questions", []):
+    for q in source_qs:
         stem = q.get("question", "").strip()
         opts = q.get("options", [])
         ans = q.get("answer", "")
@@ -557,40 +570,81 @@ def main() -> None:
             kept_stems.add(stem)
 
     existing = global_existing | kept_stems
-    candidates = build_unique_candidates(existing)
+    legacy = build_unique_candidates(existing)
+    wave20 = generate_wave20_candidates(existing, rng)
+    candidates = interleave_candidates(legacy + wave20, rng)
 
-    questions = list(kept)
+    combined: list[dict] = list(kept)
     for q, opts, ans, diff in candidates:
-        if len(questions) >= TARGET:
+        if len(combined) >= TARGET:
             break
-        if q in kept_stems:
+        if q in kept_stems or is_bad_kept(q, opts, ans):
             continue
-        questions.append(make_entry(len(questions) + 1, q, opts, ans, diff))
+        combined.append(make_entry(len(combined) + 1, q, opts, ans, diff, width=width))
         kept_stems.add(q)
 
-    if len(questions) < TARGET:
+    if len(combined) < TARGET:
+        extra_existing = kept_stems | {q.get("question", "").strip() for q in combined}
+        extra = interleave_candidates(
+            generate_wave20_candidates(extra_existing, random.Random(rng.randint(0, 10**9))),
+            rng,
+        )
+        for q, opts, ans, diff in extra:
+            if len(combined) >= TARGET:
+                break
+            if q in kept_stems or is_bad_kept(q, opts, ans):
+                continue
+            combined.append(make_entry(len(combined) + 1, q, opts, ans, diff, width=width))
+            kept_stems.add(q)
+
+    combined = spread_consecutive_templates(combined, rng, max_run=2)
+
+    final: list[dict] = []
+    seen: set[str] = set()
+    for q in combined:
+        if len(final) >= TARGET:
+            break
+        stem = q.get("question", "").strip()
+        if not stem or stem in seen or is_bad_kept(stem, q.get("options", []), q.get("answer", "")):
+            continue
+        seen.add(stem)
+        entry = dict(q)
+        entry["id"] = f"{PREFIX}{len(final) + 1:0{width}d}"
+        final.append(entry)
+
+    if len(final) < TARGET:
+        backfill_existing = seen | global_existing
+        backfill = interleave_candidates(
+            generate_wave20_candidates(backfill_existing, random.Random(rng.randint(0, 10**9))),
+            rng,
+        )
+        for q, opts, ans, diff in backfill:
+            if len(final) >= TARGET:
+                break
+            if q in seen or is_bad_kept(q, opts, ans):
+                continue
+            seen.add(q)
+            final.append(make_entry(len(final) + 1, q, opts, ans, diff, width=width))
+
+    if len(final) < TARGET:
         raise SystemExit(
-            f"Only {len(questions)} unique questions available (need {TARGET}). "
-            "Add more facts to awards_facts.py."
+            f"Only {len(final)} unique questions available (need {TARGET}). "
+            "Add more facts to awards_wave20_facts.py."
         )
 
-    for i, q in enumerate(questions, 1):
-        q["id"] = f"{PREFIX}{i:03d}"
-
     path.write_text(
-        json.dumps({"questions": questions[:TARGET]}, ensure_ascii=False, indent=2) + "\n",
+        json.dumps({"questions": final[:TARGET]}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
-    filler_left = sum(1 for q in questions[:TARGET] if is_filler(q["question"]))
-    dupes = len(questions[:TARGET]) - len({q["question"] for q in questions[:TARGET]})
-    print(f"awards.json: {len(questions[:TARGET])} questions")
+    filler_left = sum(1 for q in final[:TARGET] if is_filler(q["question"]))
+    dupes = len(final[:TARGET]) - len({q["question"] for q in final[:TARGET]})
+    print(f"awards.json: {len(final[:TARGET])} questions (target {TARGET})")
     print(f"kept from original: {len(kept)}")
-    print(f"new candidates used: {len(questions[:TARGET]) - len(kept)}")
+    print(f"new candidates used: {max(0, len(final[:TARGET]) - len(kept))}")
     print(f"filler patterns: {filler_left}")
     print(f"duplicate stems: {dupes}")
 
-    import subprocess
     result = subprocess.run(
         [sys.executable, str(BASE / "validate_questions.py"), "awards.json"],
         cwd=BASE,

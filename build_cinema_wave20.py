@@ -1,0 +1,1343 @@
+#!/usr/bin/env python3
+"""Build cinema_wave20_facts.py — 20 cinema topic categories for PSC-style MCQs."""
+
+from __future__ import annotations
+
+import pprint
+import textwrap
+from pathlib import Path
+
+OUT = Path(__file__).parent / "cinema_wave20_facts.py"
+
+HEADER = textwrap.dedent('''\
+    #!/usr/bin/env python3
+    """Wave 20 cinema facts — 20 Malayalam PSC topic categories."""
+
+    from __future__ import annotations
+
+    import random
+
+    from cinema_wave20_craft_pairs import CRAFT_ML
+    from refill_common import Candidate, add_candidate
+
+    Fact = tuple[str, str, list[str], str]
+
+
+    def _pool(items: list[str], correct: str) -> list[str]:
+        return [x for x in items if x != correct]
+
+
+    def _emit_term(
+        out: list[Candidate],
+        existing: set[str],
+        rng: random.Random,
+        prefix: str,
+        facts: list[Fact],
+    ) -> None:
+        answers = list(dict.fromkeys(a for _, a, _, _ in facts))
+        for term, ans, wrong, diff in facts:
+            add_candidate(
+                out, existing, rng,
+                f"{prefix} '{term}' എന്താണ്?",
+                ans, wrong, diff, pool=answers,
+            )
+
+
+    def _emit_pairs(
+        out: list[Candidate],
+        existing: set[str],
+        rng: random.Random,
+        prefix: str,
+        rows: list[tuple[str, str]],
+        templates_ab: list[str],
+        templates_ba: list[str] | None = None,
+        diff: str = "medium",
+    ) -> None:
+        bs = list(dict.fromkeys(b for _, b in rows))
+        as_ = list(dict.fromkeys(a for a, _ in rows))
+        for a, b in rows:
+            for tmpl in templates_ab:
+                add_candidate(
+                    out, existing, rng,
+                    prefix + tmpl.format(a=a, b=b),
+                    b, _pool(bs, b)[:3], diff, pool=bs,
+                )
+            if templates_ba:
+                for tmpl in templates_ba:
+                    add_candidate(
+                        out, existing, rng,
+                        prefix + tmpl.format(a=a, b=b),
+                        a, _pool(as_, a)[:3], diff, pool=as_,
+                    )
+
+
+    def _emit_triple(
+        out: list[Candidate],
+        existing: set[str],
+        rng: random.Random,
+        prefix: str,
+        rows: list[tuple[str, str, str]],
+        templates: list[str],
+        diff: str = "medium",
+    ) -> None:
+        """rows: (film/show, character, actor)"""
+        actors = list(dict.fromkeys(c for _, _, c in rows))
+        chars = list(dict.fromkeys(b for _, b, _ in rows))
+        for film, char, actor in rows:
+            for tmpl in templates:
+                add_candidate(
+                    out, existing, rng,
+                    prefix + tmpl.format(film=film, char=char, actor=actor),
+                    actor, _pool(actors, actor)[:3], diff, pool=actors,
+                )
+
+
+''')
+
+FOOTER = textwrap.dedent('''\
+
+
+    def generate_wave20_candidates(existing: set[str], rng: random.Random) -> list[Candidate]:
+        from cinema_ml_check import passes_malayalam_qc
+
+        raw: list[Candidate] = []
+        _emit_all(raw, existing, rng)
+        out: list[Candidate] = []
+        for q, opts, ans, diff in raw:
+            if passes_malayalam_qc(q, opts, ans):
+                out.append((q, opts, ans, diff))
+        return out
+
+
+    if __name__ == "__main__":
+        import random as _r
+        print(len(generate_wave20_candidates(set(), _r.Random(42))))
+''')
+
+# ---------------------------------------------------------------------------
+# Category data
+# ---------------------------------------------------------------------------
+
+TECH_PIONEERS: list[tuple[str, str]] = [
+    ("സിനിമാട്ടോഗ്രാഫ്", "ലൂമിയർ സഹോദരന്മാർ"),
+    ("കിനറ്റോസ്കോപ്പ്", "Thomas Edison"),
+    ("സിനിമാ പ്രോജക്ഷൻ (1895)", "ലൂമിയർ സഹോദരന്മാർ"),
+    ("A Trip to the Moon (1902)", "ജോർജ് മേലിസ്"),
+    ("Birth of a Nation (1915)", "D.W. Griffith"),
+    ("Battleship Potemkin (1925)", "Sergei Eisenstein"),
+    ("Citizen Kane (1941)", "Orson Welles"),
+    ("The Jazz Singer (1927)", "Warner Bros."),
+    ("Alam Ara (1931)", "Ardeshir Irani"),
+    ("Kisan Kanya (1937)", "Ardeshir Irani"),
+    ("Raja Harishchandra (1913)", "Dadasaheb Phalke"),
+    ("Pather Panchali (1955)", "Satyajit Ray"),
+    ("Apu Trilogy", "Satyajit Ray"),
+    ("Meghe Dhaka Tara (1960)", "Ritwik Ghatak"),
+    ("Meghe Dhaka Tara movement", "Ritwik Ghatak"),
+    ("Do Bigha Zamin (1953)", "Bimal Roy"),
+    ("Mother India (1957)", "Mehboob Khan"),
+    ("Neecha Nagar (1946)", "Chetan Anand"),
+    ("Gandhi (1982)", "Richard Attenborough"),
+    ("Lumière first public screening (1895)", "Paris"),
+    ("India first film screening (1896)", "Mumbai Watson Hotel"),
+    ("India first feature film (1913)", "Raja Harishchandra"),
+    ("India first talkie (1931)", "Alam Ara"),
+    ("India first colour film (1937)", "Kisan Kanya"),
+    ("India first 3D film (1984)", "My Dear Kuttichathan"),
+    ("Malayalam first film (1930)", "Vigathakumaran"),
+    ("Malayalam first talkie (1938)", "Balan"),
+    ("Malayalam first colour (1961)", "Kandam Becha Kottu"),
+    ("Malayalam first 70mm (1984)", "Padayottam"),
+    ("India first Cinemascope Hindi", "Kagaz Ke Phool"),
+    ("India first IMAX film", "Dhoom 3"),
+    ("First Academy Awards ceremony", "1929"),
+    ("First Cannes Film Festival", "1946"),
+    ("First Venice Film Festival", "1932"),
+    ("First Berlin Film Festival", "1951"),
+    ("First IFFI India", "1952"),
+    ("First IFFK Kerala", "1996"),
+    ("Motion Picture Patents Company", "Thomas Edison"),
+    ("Hollywood sign origin", "Hollywoodland"),
+    ("Studio system peak era", "1930s–1940s"),
+    ("Paramount Decree impact", "1948"),
+    ("India Cinematograph Act", "1952"),
+    ("NFDC founded", "1975"),
+    ("FTII Pune founded", "1960"),
+    ("SRFTI Kolkata founded", "1995"),
+    ("Film and Television Institute of India", "Pune"),
+    ("Satyajit Film Institute", "Kolkata"),
+    ("National Film Archive of India", "Pune"),
+    ("Children's Film Society India", "1955"),
+    ("Directorate of Film Festivals", "1973"),
+]
+
+SILENT_TALKIE: list[tuple[str, str]] = [
+    ("The Jazz Singer", "1927 — ആദ്യ ടോക്കി"),
+    ("Alam Ara", "1931 — ഇന്ത്യയിലെ ആദ്യ ടോക്കി"),
+    ("Balan", "1938 — മലയാളത്തിലെ ആദ്യ ടോക്കി"),
+    ("Vigathakumaran", "1930 — മലയാളത്തിലെ ആദ്യ നിശ്ശബ്ദ ചിത്രം"),
+    ("Raja Harishchandra", "1913 — ഇന്ത്യയിലെ ആദ്യ പൂർണ്ണനീള"),
+    ("The General", "1926 — ബാപ്സ്റ്റൺ ക്ലാസിക്"),
+    ("Metropolis", "1927 — ഫritz Lang sci-fi"),
+    ("Sunrise", "1927 — F.W. Murnau"),
+    ("The Gold Rush", "1925 — Charlie Chaplin"),
+    ("City Lights", "1931 — Charlie Chaplin"),
+    ("Modern Times", "1936 — Charlie Chaplin"),
+    ("Nosferatu", "1922 — German Expressionism"),
+    ("The Cabinet of Dr. Caligari", "1920 — German Expressionism"),
+    ("Battleship Potemkin", "1925 — Soviet silent"),
+    ("Intolerance", "1916 — D.W. Griffith"),
+    ("Safety Last!", "1923 — Harold Lloyd"),
+    ("Steamboat Bill Jr.", "1928 — Buster Keaton"),
+    ("The Passion of Joan of Arc", "1928 — Carl Dreyer"),
+    ("Pandora's Box", "1929 — Louise Brooks"),
+    ("A Throw of Dice", "1929 — Franz Osten India"),
+    ("Marthanda Varma", "1933 — early Malayalam silent"),
+    ("Newspaper Boy", "1955 — Malayalam neo-realist"),
+    ("Neelakuyil", "1954 — Malayalam social"),
+    ("Chemmeen", "1965 — Malayalam classic"),
+    ("Devdas (1935)", "1935 — PC Barua Hindi"),
+    ("Achhut Kanya", "1936 — Bombay Talkies"),
+    ("Sant Tukaram", "1936 — Prabhat Marathi"),
+    ("Sant Dnyaneshwar", "1940 — Prabhat Marathi"),
+    ("Shree 420", "1955 — Raj Kapoor"),
+    ("Awara", "1951 — Raj Kapoor"),
+    ("Mughal-e-Azam", "1960 — K Asif"),
+    ("Guide", "1965 — Vijay Anand"),
+    ("Pyaasa", "1957 — Guru Dutt"),
+    ("Kaagaz Ke Phool", "1959 — Guru Dutt"),
+    ("Meghe Dhaka Tara", "1960 — Ritwik Ghatak"),
+    ("Ajantrik", "1958 — Ritwik Ghatak"),
+    ("Subarnarekha", "1965 — Ritwik Ghatak"),
+    ("Bhuvan Shome", "1969 — Mrinal Sen"),
+    ("Interview", "1971 — Mrinal Sen"),
+    ("Calcutta 71", "1972 — Mrinal Sen"),
+]
+
+FORMATS: list[tuple[str, str]] = [
+    ("Padayottam", "70mm"),
+    ("My Dear Kuttichathan", "3D"),
+    ("Baahubali 2", "IMAX"),
+    ("Dhoom 3", "IMAX"),
+    ("Padayottam", "70mm — മലയാളത്തിലെ ആദ്യം"),
+    ("Sholay", "70mm re-release"),
+    ("Lawrence of Arabia", "70mm"),
+    ("2001: A Space Odyssey", "70mm Cinerama"),
+    ("Ben-Hur", "70mm"),
+    ("The Sound of Music", "70mm Todd-AO"),
+    ("Gone with the Wind", "Technicolor"),
+    ("Wizard of Oz", "Technicolor"),
+    ("Singin' in the Rain", "Technicolor"),
+    ("Avatar", "3D digital"),
+    ("Gravity", "IMAX 3D"),
+    ("Interstellar", "IMAX 70mm"),
+    ("Dunkirk", "IMAX 70mm"),
+    ("Oppenheimer", "IMAX 70mm"),
+    ("The Lion King (2019)", "photoreal CGI"),
+    ("Baahubali", "VFX-heavy epic"),
+    ("Robot", "motion capture"),
+    ("Kochadaiiyaan", "motion capture"),
+    ("Mantrikku", "full-length 3D animation Malayalam"),
+    ("O Fabby", "CG animation Malayalam"),
+    ("Hanuman", "2D animation Indian"),
+    ("Ramayana: The Legend of Prince Rama", "anime India-Japan"),
+    ("Arjun: The Warrior Prince", "animation"),
+    ("Chhota Bheem", "TV animation India"),
+    ("Motu Patlu", "TV animation India"),
+    ("Widescreen CinemaScope", "anamorphic lens"),
+    ("VistaVision", "high-resolution format"),
+    ("IMAX", "large-format exhibition"),
+    ("Dolby Atmos", "immersive sound"),
+    ("Dolby Vision", "HDR colour"),
+    ("4K digital projection", "digital cinema"),
+    ("Celluloid 35mm", "standard film gauge"),
+    ("16mm film", "indie/documentary gauge"),
+    ("8mm film", "home movie gauge"),
+    ("Cinemascope Hindi debut", "Kagaz Ke Phool"),
+    ("Digital intermediate workflow", "post-production"),
+    ("Moondram Pirai", "Tamil classic"),
+    ("Nayakan", "Mani Ratnam"),
+    ("Roja", "Mani Ratnam debut Tamil"),
+]
+
+COLOR_PROCESS: list[tuple[str, str]] = [
+    ("Kisan Kanya", "Technicolor — India first colour"),
+    ("Kandam Becha Kottu", "Eastmancolor — Malayalam first"),
+    ("Gone with the Wind", "Technicolor"),
+    ("Wizard of Oz", "Technicolor"),
+    ("Mughal-e-Azam", "colour re-release"),
+    ("Sangam", "Eastmancolor"),
+    ("Guide", "Eastmancolor"),
+    ("Chemmeen", "Eastmancolor"),
+    ("Neelakuyil", "black and white"),
+    ("Mayabazar", "Telugu colour classic"),
+    ("Jhanak Jhanak Payal Baje", "Technicolor Hindi"),
+    ("Aan", "Technicolor Hindi"),
+    ("Jungle Book (1967)", "xerography Disney"),
+    ("Snow White (1937)", "Technicolor Disney"),
+    ("Sleeping Beauty", "Technicolor"),
+    ("Ben-Hur", "Technicolor"),
+    ("Lawrence of Arabia", "Technicolor"),
+    ("Vertigo", "Technicolor"),
+    ("Rear Window", "Technicolor"),
+    ("Singin' in the Rain", "Technicolor"),
+    ("West Side Story", "Technicolor"),
+    ("The Godfather", "desaturated colour"),
+    ("Schindler's List", "black and white"),
+    ("Roma", "black and white modern"),
+    ("The Artist", "black and white silent homage"),
+    ("Neelakuyil", "black and white Malayalam"),
+    ("Newspaper Boy", "black and white"),
+    ("Vigathakumaran", "black and white silent"),
+    ("Rashomon", "black and white"),
+    ("Seven Samurai", "black and white"),
+    ("Psycho", "black and white"),
+    ("Citizen Kane", "black and white"),
+    ("Metropolis", "black and white"),
+    ("Agantuk", "colour Satyajit Ray"),
+    ("Charulata", "black and white Satyajit Ray"),
+    ("Apur Sansar", "black and white"),
+    ("Two-colour Technicolor", "early colour process"),
+    ("Three-strip Technicolor", "1930s colour"),
+    ("Eastmancolor", "single-strip colour"),
+    ("Technirama", " widescreen colour"),
+    ("DeLuxe Color", "alternative colour process"),
+]
+
+MOVEMENTS: list[tuple[str, str]] = [
+    ("German Expressionism", "The Cabinet of Dr. Caligari"),
+    ("Italian Neorealism", "Bicycle Thieves"),
+    ("French New Wave", "Breathless"),
+    ("Soviet Montage", "Battleship Potemkin"),
+    ("Parallel Cinema India", "Bhuvan Shome"),
+    ("Indian New Wave", "Bhuvan Shome"),
+    ("Malayalam New Wave", "Newspaper Boy"),
+    ("Dogme 95", "The Celebration"),
+    ("Cinema Novo Brazil", "Black God White Devil"),
+    ("Third Cinema", "La Hora de los Hornos"),
+    ("British Kitchen Sink", "Look Back in Anger"),
+    ("Film Noir", "Double Indemnity"),
+    ("Spaghetti Western", "A Fistful of Dollars"),
+    ("Hong Kong action wave", "Hard Boiled"),
+    ("Korean New Wave", "Oldboy"),
+    ("Iranian art cinema", "Taste of Cherry"),
+    ("Japanese J-horror", "Ringu"),
+    ("Mumblecore", "Funny Ha Ha"),
+    ("Martial arts wuxia", "Crouching Tiger Hidden Dragon"),
+    ("Bollywood masala era", "Sholay"),
+    ("Tamil parallel cinema", "16 Vayathinile"),
+    ("Bengali art cinema", "Pather Panchali"),
+    ("Kannada parallel", "Samskara"),
+    ("Marathi social cinema", "Shyamchi Aai"),
+    ("Odessa Film Society Kerala", "John Abraham"),
+    ("Arthouse Malayalam", "Adoor Gopalakrishnan"),
+    ("Adoor Gopalakrishnan school", "Elippathayam"),
+    ("G. Aravindan films", "Thampu"),
+    ("John Abraham films", "Amma Ariyan"),
+    ("Shaji N. Karun", "Piravi"),
+    ("M.T. Vasudevan Nair scripts", "Nirmalyam"),
+    ("Padmarajan romantic realism", "Thoovanathumbikal"),
+    ("Bharat Gopi acting school", "Oru Vadakkan Veeragatha"),
+    ("Mammootty-Mohanlal era", "1980s Malayalam"),
+    ("Fazil commercial wave", "Manichitrathazhu"),
+    ("Priyardarshan comedy", "Poochakkoru Mookkuthi"),
+    ("Siddique-Lal comedy", "In Harihar Nagar"),
+    ("Lohithadas social drama", "Kasthooriman"),
+    ("Blessy humanist cinema", "Kaazhcha"),
+    ("Dileesh Pothan realism", "Maheshinte Prathikaaram"),
+    ("Mahesh Narayanan thrillers", "Take Off"),
+    ("Lijo Jose Pellissery", "Jallikattu"),
+]
+
+MONTAGE: list[tuple[str, str]] = [
+    ("Montage theory", "Sergei Eisenstein"),
+    ("Kuleshov effect", "Lev Kuleshov"),
+    ("Battleship Potemkin Odessa Steps", "Sergei Eisenstein"),
+    ("Continuity editing", "Hollywood classical style"),
+    ("Cross-cutting", "parallel action editing"),
+    ("Match cut", "visual continuity"),
+    ("Jump cut", "French New Wave"),
+    ("Fade in/out", "temporal transition"),
+    ("Dissolve", "overlap transition"),
+    ("Wipe transition", "Star Wars homage"),
+    ("180-degree rule", "screen direction"),
+    ("Eyeline match", "continuity editing"),
+    ("Shot-reverse-shot", "dialogue editing"),
+    ("Establishing shot", "scene geography"),
+    ("Insert shot", "detail emphasis"),
+    ("Cutaway", "reaction or detail"),
+    ("Parallel montage", "D.W. Griffith"),
+    ("Intellectual montage", "Eisenstein"),
+    ("Metric montage", "Eisenstein"),
+    ("Rhythmic montage", "Eisenstein"),
+    ("Tonal montage", "Eisenstein"),
+    ("Overtonal montage", "Eisenstein"),
+    ("Long take", "Orson Welles / Tarkovsky"),
+    ("Deep focus", "Citizen Kane"),
+    ("Rack focus", "shift attention"),
+    ("Slow motion", "emotional emphasis"),
+    ("Fast motion", "comic/time lapse"),
+    ("Freeze frame", "narrative pause"),
+    ("Split screen", "simultaneous action"),
+    ("Non-linear editing", "Pulp Fiction style"),
+    ("Flashback montage", "narrative device"),
+    ("Dream sequence cut", "subjective cinema"),
+    ("Match on action", "seamless cut"),
+    ("L-cut", "ശബ്ദം കാണുന്ന ദൃശ്യത്തിന് മുൻപ് തുടരുന്നു"),
+    ("J-cut", "ശബ്ദം അടുത്ത ദൃശ്യത്തിന് മുൻപ് കേൾക്കുന്നു"),
+    ("Smash cut", "abrupt transition"),
+    ("Invisible cut", "seamless illusion"),
+    ("Cross dissolve romance", "time passage"),
+    ("Montage sequence training", "Rocky style"),
+    ("Kuleshov experiment", "Moscow Film School"),
+]
+
+GENRES: list[tuple[str, str]] = [
+    ("Psycho", "psychological thriller"),
+    ("The Exorcist", "horror"),
+    ("Jaws", "creature thriller"),
+    ("Star Wars", "space opera"),
+    ("Blade Runner", "sci-fi noir"),
+    ("The Matrix", "sci-fi action"),
+    ("Mad Max Fury Road", "post-apocalyptic action"),
+    ("Sholay", "masala western"),
+    ("Dilwale Dulhania Le Jayenge", "romantic drama"),
+    ("Lagaan", "sports drama"),
+    ("3 Idiots", "campus comedy-drama"),
+    ("Drishyam", "crime thriller"),
+    ("Manichitrathazhu", "psychological horror"),
+    ("Bhargavi Nilayam", "horror Malayalam"),
+    ("Traffic", "hyperlink thriller Malayalam"),
+    ("Premam", "romantic coming-of-age"),
+    ("Bangalore Days", "youth drama"),
+    ("Kumbalangi Nights", "drama"),
+    ("Spirited Away", "anime fantasy"),
+    ("My Neighbor Totoro", "anime family"),
+    ("Toy Story", "CGI animation"),
+    ("Finding Nemo", "Pixar adventure"),
+    ("The Lion King", "animated musical"),
+    ("Singin' in the Rain", "musical"),
+    ("La La Land", "modern musical"),
+    ("Rocky", "sports drama"),
+    ("Raging Bull", "biographical sports"),
+    ("Goodfellas", "crime biopic"),
+    ("The Godfather", "crime epic"),
+    ("Pulp Fiction", "neo-noir"),
+    ("No Country for Old Men", "neo-western thriller"),
+    ("Unforgiven", "revisionist western"),
+    ("Django Unchained", "spaghetti western homage"),
+    ("Crouching Tiger", "wuxia"),
+    ("RRR", "action epic"),
+    ("Baahubali", "historical fantasy"),
+    ("KGF", "action crime"),
+    ("Pushpa", "action drama"),
+    ("Documentary — An Inconvenient Truth", "environment documentary"),
+    ("March of the Penguins", "nature documentary"),
+    ("Michael Moore documentaries", "political documentary"),
+    ("Nanook of the North", "early documentary"),
+    ("Man with a Movie Camera", "experimental documentary"),
+]
+
+GENRE_ML: dict[str, str] = {
+    "psychological thriller": "മനശ്ശാസ്ത്ര ത്രില്ലർ",
+    "horror": "ഭീഷണി ചിത്രം",
+    "creature thriller": "_creature ത്രില്ലർ",
+    "space opera": "സ്പേസ് ഓപ്പറ",
+    "sci-fi noir": "ശാസ്ത്രീയ കാല്പനിക നോയർ",
+    "sci-fi action": "ശാസ്ത്രീയ കാല്പനിക 액션",
+    "post-apocalyptic action": "post-apocalyptic 액션",
+    "masala western": "മസാല വെസ്റ്റേൺ",
+    "romantic drama": "പ്രണയ നാടകം",
+    "sports drama": "കായിക നാടകം",
+    "campus comedy-drama": "campus comedy-drama",
+    "crime thriller": "ക്രൈം ത്രില്ലർ",
+    "psychological horror": "മനശ്ശാസ്ത്ര ഭീഷണി",
+    "horror Malayalam": "മലയാള ഭീഷണി ചിത്രം",
+    "hyperlink thriller Malayalam": "hyperlink ത്രില്ലർ",
+    "romantic coming-of-age": "പ്രണയ coming-of-age",
+    "youth drama": "യുവ നാടകം",
+    "drama": "നാടകം",
+    "anime fantasy": "anime fantasy",
+    "anime family": "anime family",
+    "CGI animation": "CGI animation",
+    "Pixar adventure": "Pixar adventure",
+    "animated musical": "animated musical",
+    "musical": "സംഗീത നാടകം",
+    "modern musical": "modern musical",
+    "biographical sports": "biographical sports",
+    "crime biopic": "crime biopic",
+    "crime epic": "ക്രൈം epic",
+    "neo-noir": "neo-noir",
+    "neo-western thriller": "neo-western thriller",
+    "revisionist western": "revisionist western",
+    "spaghetti western homage": "spaghetti western homage",
+    "wuxia": "wuxia",
+    "action epic": "action epic",
+    "historical fantasy": "historical fantasy",
+    "action crime": "action crime",
+    "action drama": "action drama",
+    "environment documentary": "environment documentary",
+    "nature documentary": "nature documentary",
+    "political documentary": "political documentary",
+    "early documentary": "early documentary",
+    "experimental documentary": "experimental documentary",
+}
+
+GENRES_ML: list[tuple[str, str]] = [(a, GENRE_ML.get(b, b)) for a, b in GENRES]
+
+CINEMATOGRAPHY: list[Fact] = [
+    ("ഡോളി ഷോട്ട്", "ക്യാമറ ട്രാക്കിൽ നീങ്ങി എടുക്കുന്ന ദൃശ്യം", ["സ്ഥിര ഷോട്ട്", "ഹാൻഡ് ഹെൽഡ്", "ഏരിയൽ ഷോട്ട്"], "medium"),
+    ("ട്രാക്കിംഗ് ഷോട്ട്", "വസ്തുവിനൊപ്പം ക്യാമറ നീങ്ങുന്ന ദൃശ്യം", ["സ്ഥിര ഷോട്ട്", "ടിൽട്ട്", "സൂം"], "medium"),
+    ("പാൻ ഷോട്ട്", "ക്യാമറ തിരശ്ചീനമായി നീങ്ങൽ", ["ടിൽട്ട്", "സൂം", "ഡോളി"], "easy"),
+    ("ടിൽട്ട് ഷോട്ട്", "ക്യാമറ ലംബമായി നീങ്ങൽ", ["പാൻ", "സൂം", "ഡോളി"], "easy"),
+    ("സൂം ഷോട്ട്", "ലെൻസ് ദൂരം മാറ്റി എടുക്കുന്ന ദൃശ്യം", ["ഡോളി", "ട്രാക്കിംഗ്", "പാൻ"], "easy"),
+    ("ക്ലോസ്-അപ്പ്", "വസ്തുവിന്റെ സമീപദൃശ്യം", ["വൈഡ് ഷോട്ട്", "ഏരിയൽ", "ഇൻസേർട്ട്"], "easy"),
+    ("വൈഡ് ഷോട്ട്", "വിസ്തൃത പശ്ചാത്തലമുള്ള ദൃശ്യം", ["ക്ലോസ്-അപ്പ്", "മാക്രോ", "ടു-ഷോട്ട്"], "easy"),
+    ("ഓവർ-ദ-ഷോൾഡർ", "സംഭാഷണത്തിനുള്ള ദൃശ്യരീതി", ["ക്ലോസ്-അപ്പ്", "വൈഡ്", "ഏരിയൽ"], "medium"),
+    ("ഡീപ് ഫോക്കസ്", "മുന്നും പിന്നും വ്യക്തമായി കാണുന്ന ഷോട്ട്", ["ഷalow ഫോക്കസ്", "മാക്രോ", "ടെലിഫോട്ടോ"], "hard"),
+    ("ഷalow ഫോക്കസ്", "പശ്ചാത്തലം മങ്ങിയ ഷോട്ട്", ["ഡീപ് ഫോക്കസ്", "വൈഡ്", "ഏരിയൽ"], "medium"),
+    ("ഹൈ-കീ ലൈറ്റിംഗ്", "പ്രകാശമേറിയ illumination", ["ലോ-കേ", "silhouette", "flat"], "medium"),
+    ("ലോ-കേ ലൈറ്റിംഗ്", "കടുത്ത നിഴലുകളുള്ള illumination", ["ഹൈ-കേ", "flat", "natural only"], "medium"),
+    ("chiaroscuro", "പ്രകാശ-ഇരுள contrast", ["high-key", "flat", "overexposed"], "hard"),
+    ("three-point lighting", "key, fill, back light", ["natural only", "single source", "silhouette only"], "hard"),
+    ("golden hour", "സൂര്യോദയ/അസ്തമയ soft light", ["midday harsh", "night shoot", "studio only"], "medium"),
+    ("handheld camera", "natural instability feel", ["steadicam smooth", "tripod static", "crane"], "medium"),
+    ("steadicam", "smooth moving shots", ["handheld shake", "static tripod", "zoom only"], "medium"),
+    ("crane shot", "vertical camera movement", ["dolly only", "pan only", "static"], "medium"),
+    ("Dutch angle", "tilted horizon tension", ["level horizon", "aerial only", "macro"], "hard"),
+    ("aspect ratio 2.39:1", "anamorphic widescreen", ["4:3 academy", "1:1 square", "vertical video"], "hard"),
+    ("aspect ratio 4:3", "classic academy ratio", ["2.39:1 scope", "IMAX 1.43", "vertical 9:16"], "hard"),
+    ("24 fps", "standard cinema frame rate", ["30 fps TV", "60 fps sports", "12 fps"], "medium"),
+    ("frame rate 48 fps HFR", "The Hobbit style", ["24 fps standard", "12 fps", "100 fps"], "hard"),
+    ("bokeh", "out-of-focus blur aesthetic", ["deep focus", "sharp throughout", "noise grain"], "hard"),
+    ("long lens telephoto", "compressed perspective", ["wide angle distortion", "fisheye", "macro"], "hard"),
+    ("wide angle lens", "expanded field of view", ["telephoto compression", "macro only", "portrait lens"], "medium"),
+    ("fisheye lens", "extreme wide distortion", ["telephoto", "normal lens", "macro"], "hard"),
+    ("macro lens", "extreme close detail", ["wide angle", "telephoto", "fisheye"], "medium"),
+    ("anamorphic lens", "cinematic widescreen flares", ["spherical only", "macro", "pinhole"], "hard"),
+    ("colour grading", "post-production colour look", ["on-set only", "sound mix", "casting"], "medium"),
+    ("LUT", "look-up table colour", ["dialogue edit", "foley", "casting"], "hard"),
+    ("exposure", "light hitting sensor/film", ["sound level", "frame rate", "aspect ratio"], "easy"),
+    ("ISO sensitivity", "low-light capture", ["frame rate", "shutter angle only", "focal length only"], "hard"),
+    ("shutter angle 180°", "standard motion blur", ["360° staccato", "90° only", "variable only"], "hard"),
+    ("Director of Photography", "ചിത്രീകരണം നിയന്ത്രിക്കുന്നവർ", ["editor", "sound designer", "costume only"], "easy"),
+    ("gaffer", "lighting chief", ["editor", "script supervisor", "composer"], "hard"),
+    ("key grip", "camera support/rigging", ["composer", "writer", "actor coach"], "hard"),
+]
+
+MISE_EN_SCENE: list[Fact] = [
+    ("mise-en-scène", "ഫ്രെയിമിലെ ദൃശ്യ ഘടകങ്ങൾ", ["എഡിറ്റിംഗ് മാത്രം", "sound mix only", "box office"], "medium"),
+    ("set design", "ചിത്രീകരണ സets", ["sound design", "subtitle font", "ticket price"], "easy"),
+    ("props", "കഥാപാത്രങ്ങൾ ഉപയോഗിക്കുന്ന വസ്തുക്കൾ", ["camera lens", "frame rate", "box office"], "easy"),
+    ("costume design", "വേഷഭൂഷണം", ["sound editing", "VFX render", "censor board"], "easy"),
+    ("lighting design", "ദൃശ്യ mood സൃഷ്ടിക്കൽ", ["dialogue writing", "casting", "distribution"], "easy"),
+    ("blocking", "നടന്മാരുടെ സ്ഥാന-choreography", ["colour grading", "sound mix", "subtitle"], "medium"),
+    ("composition", "ഫ്രെയിമിലെ ഘടക arrangement", ["sound design", "music score only", "marketing"], "medium"),
+    ("production design", "visual world building", ["sound foley", "editing pace", "casting couch"], "medium"),
+    ("art direction", "visual style supervision", ["sound mixing", "stunt coordination only", "ticket sales"], "medium"),
+    ("colour palette", "film's dominant colours", ["frame rate", "aspect ratio only", "runtime only"], "medium"),
+    ("diegetic space", "story world interior", ["non-diegetic only", "box office", "festival"], "hard"),
+    ("practical effects", "on-set physical effects", ["CGI only", "subtitle", "trailer"], "medium"),
+    ("makeup prosthetics", "character transformation", ["lens choice", "frame rate", "aspect ratio"], "medium"),
+    ("location scouting", "shooting place selection", ["sound recording", "editing", "marketing"], "medium"),
+    ("storyboard", "visual plan before shoot", ["final script only", "poster design", "ticket"], "easy"),
+    ("shot list", "planned shots per scene", ["box office chart", "review score", "runtime"], "medium"),
+    ("wardrobe continuity", "costume consistency", ["sound continuity", "ticket pricing", "festival date"], "hard"),
+    ("set dressing", "detailed environment fill", ["ADR recording", "colour grade LUT", "IMDB rating"], "hard"),
+    ("practical lighting", "visible sources in frame", ["CGI light only", "no lighting", "subtitle"], "hard"),
+    ("symbolic colour red", "passion/danger often", ["always comedy", "always documentary", "no meaning"], "hard"),
+    ("depth staging", "foreground/background layers", ["single flat plane only", "audio only", "text only"], "hard"),
+    ("negative space", "empty area composition", ["crowded frame only", "no composition", "sound only"], "hard"),
+    ("symmetrical framing", "Wes Anderson style", ["handheld only always", "no framing", "only documentary"], "hard"),
+    ("silhouette", "backlit outline figure", ["high-key flat", "no contrast", "only animation"], "medium"),
+    ("production value", "visual richness/budget feel", ["runtime length", "subtitle count", "ticket price"], "medium"),
+]
+
+SOUND: list[Fact] = [
+    ("diegetic sound", "story world-ൽ ഉത്ഭവിക്കുന്ന ശബ്ദം", ["non-diegetic only", "subtitle", "poster"], "medium"),
+    ("non-diegetic sound", "story world-ൽ ഇല്ലാത്ത ശബ്ദം", ["dialogue in scene", "footsteps on screen", "door in frame"], "medium"),
+    ("film score", "background music", ["production design", "costume only", "casting"], "easy"),
+    ("foley", "post-recorded sound effects", ["on-set dialogue only", "costume", "lighting"], "medium"),
+    ("ADR", "dubbed dialogue in post", ["live on-set only always", "costume", "props only"], "hard"),
+    ("sound mixing", "final audio balance", ["colour grading", "casting", "marketing"], "medium"),
+    ("sound editing", "audio assembly", ["video editing same thing always", "costume", "poster"], "medium"),
+    ("ambient sound", "environment background", ["solo music only", "no sound film", "subtitle"], "medium"),
+    ("voice-over narration", "non-diegetic narration", ["always diegetic", "always silent", "always subtitle"], "easy"),
+    ("silence as technique", "tension through absence", ["always loud", "no meaning", "always music"], "hard"),
+    (" Dolby Atmos", "object-based surround sound", ["mono only", "silent film", "subtitle file"], "hard"),
+    ("5.1 surround", "six-channel mix", ["mono only", "no channels", "text only"], "medium"),
+    ("mono sound era", "early talkies", ["Atmos always", "7.1 always", "silent always 2020"], "medium"),
+    ("stereo sound", "two-channel", ["mono only forever", "no channels", "text only"], "easy"),
+    ("lip sync", "dialogue matching mouth", ["no dialogue films only", "always ADR bad", "subtitle only"], "easy"),
+    ("playback singing Hindi classic", "actor lip-sync to singer", ["always live singing on set", "no music", "no sound"], "medium"),
+    ("background score composer", "original music writer", ["costume designer", "gaffer", "prop master"], "easy"),
+    ("theme song", "recurring musical motif", ["always diegetic", "always silent", "always foley"], "easy"),
+    ("leitmotif", "character-linked music theme", ["random noise", "no music ever", "subtitle"], "hard"),
+    ("sound bridge", "audio links scenes", ["always cut silence", "no audio edit", "only visual"], "hard"),
+    ("J-cut", "hear next scene early", ["always L-cut opposite never", "no edit", "only colour"], "hard"),
+    ("L-cut", "see next while audio prev", ["always J-cut never", "no edit", "only VFX"], "hard"),
+    ("subjective sound", "character's mental perspective", ["always objective", "always silent", "always mono"], "hard"),
+    ("sound perspective", "distance simulation", ["no perspective ever", "always mono flat", "only colour"], "hard"),
+    ("MOS shot", "without sound recording", ["always recorded", "always ADR bad", "never used"], "hard"),
+    ("room tone", "location audio bed", ["always silent", "always music", "always dialogue"], "hard"),
+    ("walla", "crowd murmur loop", ["solo dialogue only", "always silent", "always music"], "hard"),
+]
+
+PLAYBACK: list[tuple[str, str]] = [
+    ("Dhoop Chhaon (1935)", "India first playback song film"),
+    ("Balan (1938)", "Malayalam early playback era"),
+    ("Neelakuyil (1954)", "Malayalam playback milestone"),
+    ("Chemmeen songs", "Salil Chowdhury music"),
+    ("Shree 420 — Mera Joota Hai Japani", "Shankar-Jaikishan"),
+    ("Mughal-e-Azam — Pyar Kiya To Darna Kya", "Lata Mangeshkar playback"),
+    ("Guide — Aaj Phir Jeene Ki Tamanna", "Lata playback"),
+    ("Pyaasa — Yeh Duniya Agar Mil Bhi Jaye", "Mohammed Rafi playback"),
+    ("Aradhana — Roop Tera Mastana", "Kishore Kumar rise"),
+    ("Amar Akbar Anthony", "Kishore playback hit era"),
+    ("Dilwale Dulhania — Tujhe Dekha To", "Lata-Kumar Sanu era"),
+    ("Hum Aapke Hain Koun", "1990s playback peak"),
+    ("Roja — Chinni Chinni Aasha", "AR Rahman debut"),
+    ("Bombay — Urvasi Urvasi", "AR Rahman Tamil"),
+    ("Lagaan — Mitwa", "Udit Narayan playback"),
+    ("Devdas (2002) — Dola Re", "Shreya Ghoshal rise"),
+    ("Slumdog Millionaire — Jai Ho", "AR Rahman Oscar"),
+    ("Malayalam — Yesudas playback legend", "KJ Yesudas"),
+    ("Malayalam — Chithra playback awards", "KS Chithra"),
+    ("SP Balasubrahmanyam record", "most songs recorded"),
+    ("Malayalam — Vayalar-Devarajan era", "1960s songs"),
+    ("Malayalam — Raveendran melodies", "1980s-90s"),
+    ("Malayalam — Johnson compositions", "soft melodies"),
+    ("Malayalam — M Jayachandran", "national award composer"),
+    ("Hindi — Lata Mangeshkar", "playback legend"),
+    ("Hindi — Mohammed Rafi", "playback legend"),
+    ("Hindi — Asha Bhosle", "playback legend"),
+    ("Hindi — Kishore Kumar", "playback actor-singer"),
+    ("Tamil — TMS playback era", "T M Soundararajan"),
+    ("Tamil — Ilaiyaraaja", "composer-playback era"),
+    ("Tamil — SPB Tamil playback", "SP Balasubrahmanyam"),
+    ("PJ Cherian Malayalam", "early playback in Neelakuyil era"),
+    ("Playback vs live singing silent era", "live on set before 1935"),
+    ("First Indian film song on screen", "Alam Ara 1931"),
+    ("National Film Award Best Playback Singer", "category since 1968"),
+    ("Filmfare Best Playback Male", "1959 onwards"),
+    ("Grammy — Ravi Shankar", "Indian classical crossover"),
+    ("Oscar — Jai Ho", "AR Rahman"),
+    ("Oscar — Naatu Naatu", "RRR song"),
+    ("Malayalam — P Susheela songs", "classic playback"),
+    ("Malayalam — S Janaki songs", "South playback"),
+]
+
+PRODUCTION_ROLES: list[Fact] = [
+    ("director", "creative vision chief", ["only finance", "only marketing", "only ticket sale"], "easy"),
+    ("producer", "finance and logistics", ["only camera operate", "only act", "only edit only always"], "easy"),
+    ("screenwriter", "script author", ["only light gaffer", "only costume only always", "only ticket"], "easy"),
+    ("cinematographer", "camera and lighting head", ["only sound mix", "only costume", "only marketing"], "easy"),
+    ("editor", "post-production assembly", ["only on-set director always same", "only costume", "only actor"], "easy"),
+    ("production designer", "visual environment", ["only sound", "only marketing", "only box office"], "medium"),
+    ("costume designer", "wardrobe creation", ["only sound edit", "only VFX only", "only ticket"], "medium"),
+    ("makeup artist", "appearance transformation", ["only script", "only finance", "only distribution only"], "medium"),
+    ("sound designer", "audio landscape", ["only costume", "only props only", "only poster"], "medium"),
+    ("composer", "original score", ["only gaffer", "only casting director", "only usher"], "easy"),
+    ("casting director", "actor selection", ["only camera op", "only editor always same", "only composer always"], "medium"),
+    ("line producer", "day-to-day budget schedule", ["only actor", "only critic", "only audience"], "hard"),
+    ("assistant director", "schedule and set coordination", ["only composer", "only distributor", "only critic"], "medium"),
+    ("script supervisor", "continuity notes", ["only marketing", "only ticket", "only usher"], "hard"),
+    ("stunt coordinator", "action sequence safety", ["only costume", "only dialogue writer only", "only composer"], "medium"),
+    ("VFX supervisor", "visual effects", ["only costume only", "only casting only", "only ticket only"], "medium"),
+    ("colorist", "final colour grade", ["only sound mix", "only casting", "only stunt only"], "hard"),
+    ("distribution executive", "theatrical release", ["only on-set camera", "only costume sew", "only act only"], "hard"),
+    ("exhibitor", "theatre operator", ["only screenwriter", "only composer", "only director always same"], "hard"),
+    ("publicist", "media promotion", ["only gaffer", "only editor always", "only foley only"], "hard"),
+    ("choreographer", "dance sequences", ["only sound mix", "only VFX render", "only ticket print"], "medium"),
+    ("dialogue writer", "spoken lines craft", ["only camera lens", "only gaffer", "only poster"], "medium"),
+    ("lyricist", "song words", ["only camera op", "only stunt", "only ticket"], "easy"),
+    ("music director", "song composition direction", ["only costume", "only gaffer", "only poster only"], "easy"),
+    ("executive producer", "major funding oversight", ["only actor", "only extra", "only usher"], "hard"),
+    ("associate producer", "production support", ["only audience", "only critic only", "only ticket buyer only"], "hard"),
+    ("unit production manager", "logistics administration", ["only composer", "only actor star only", "only poster"], "hard"),
+    ("Boom operator", "dialogue microphone", ["only costume", "only poster", "only ticket"], "hard"),
+    ("focus puller", "camera focus assistant", ["only costume", "only lyricist only", "only usher"], "hard"),
+]
+
+PIPELINE: list[Fact] = [
+    ("pre-production", "shooting前 planning casting", ["theatrical release", "box office collection", "award ceremony"], "easy"),
+    ("production", "principal photography phase", ["only marketing", "only distribution", "only review"], "easy"),
+    ("post-production", "edit sound colour VFX", ["only casting", "only scouting", "only financing pitch"], "easy"),
+    ("development", "script financing initial", ["theatrical run", "ticket collection", "festival premiere only always done first"], "hard"),
+    ("principal photography", "main shooting schedule", ["only trailer release", "only award", "only dubbing foreign only first"], "medium"),
+    ("rough cut", "first editor assembly", ["final colour grade", "theatrical premiere", "ticket sale"], "hard"),
+    ("fine cut", "refined edit before sound", ["only development", "only casting", "only location scout"], "hard"),
+    ("colour grading stage", "final look creation", ["casting", "script development", "financing pitch"], "medium"),
+    ("sound mix final", "theatrical audio master", ["costume fitting", "location scout", "casting call"], "medium"),
+    ("VFX render pass", "CGI integration", ["costume stitch", "casting audition", "press tour"], "hard"),
+    ("marketing campaign", "promotion before release", ["principal photography", "script draft one", "casting only"], "easy"),
+    ("theatrical window", "cinema exclusive period", ["development", "rough cut", "casting"], "medium"),
+    ("OTT streaming release", "digital platform debut", ["only silent era", "only development", "only script pitch only always first"], "medium"),
+    ("censor certification", "CBFC board approval India", ["Oscar voting", "box office", "IMDB rating"], "easy"),
+    (" dubbing", "other language voice replace", ["only silent film", "only costume", "only poster"], "medium"),
+    ("subtitling", "text translation on screen", ["only costume", "only gaffer", "only ticket"], "easy"),
+    ("film festival premiere", "first public screening event", ["development finance", "casting call", "location scout"], "medium"),
+    ("world premiere", "first ever public show", ["always TV first", "always OTT first always", "always home video first"], "hard"),
+    ("trade screening", "industry early preview", ["public opening day always same", "always OTT", "always TV"], "hard"),
+    ("test screening", "audience preview feedback", ["always final release same", "always censor last", "always award first"], "hard"),
+    ("wrap party", "shoot completion celebration", ["premiere", "Oscar night", "OTT launch"], "hard"),
+    ("call sheet", "daily shoot schedule doc", ["ticket stub", "review article", "poster final"], "hard"),
+    ("daily rushes", "day's footage review", ["final theatrical print", "award trophy", "ticket collection"], "hard"),
+]
+
+REGIONAL_HUBS: list[tuple[str, str]] = [
+    ("Bollywood", "Mumbai"),
+    ("Tollywood (Telugu)", "Hyderabad"),
+    ("Kollywood", "Chennai"),
+    ("Mollywood", "Kochi"),
+    ("Sandalwood", "Bengaluru"),
+    ("Ollywood", "Bhubaneswar"),
+    ("Pollywood", "Chandigarh/Punjab"),
+    ("Hollywood", "Los Angeles"),
+    ("Nollywood", "Nigeria"),
+    ("Lollywood", "Lahore"),
+    ("Dhallywood", "Dhaka"),
+    ("Hallyu/Korean wave", "Seoul"),
+    ("J-cinema hub", "Tokyo"),
+    ("French cinema hub", "Paris"),
+    ("British cinema hub", "London"),
+    ("Iranian art cinema", "Tehran"),
+    ("Hong Kong action hub", "Hong Kong"),
+    ("Malayalam post-1980s hub shift", "Kochi"),
+    ("Early Malayalam studio era", "Alappuzha/Thiruvananthapuram"),
+    ("Tamil studio era historic", "Chennai Kodambakkam"),
+    (" Hindi studio era historic", "Mumbai"),
+    (" Bengali cinema hub", "Kolkata"),
+    (" Marathi cinema hub", "Mumbai/Pune"),
+    (" Assamese cinema hub", "Guwahati"),
+    (" Bhojpuri cinema", " Uttar Pradesh/Bihar"),
+    (" Tulu cinema hub", "Mangalore/Udupi"),
+    (" Konkani cinema", "Goa"),
+    (" Ladakhi cinema emerging", "Leh"),
+    (" Indian diaspora cinema UK", "London South Asian"),
+    (" Cannes market hub", "Cannes France"),
+]
+
+INSTITUTES: list[tuple[str, str]] = [
+    ("Film and Television Institute of India", "Pune"),
+    ("Satyajit Ray Film Institute", "Kolkata"),
+    ("SRFTI", "Kolkata"),
+    ("Whistling Woods International", "Mumbai"),
+    ("LV Prasad Film Academy", "Chennai"),
+    ("Mindscreen Film Institute", "Chennai"),
+    ("Kerala State Chalachitra Academy", "Thiruvananthapuram"),
+    ("Chitranjali Studio", "Thiruvananthapuram"),
+    ("KSFDC", "Kerala"),
+    ("NFDC", "Mumbai"),
+    ("NFAI National Film Archive", "Pune"),
+    ("CBFC headquarters", "Mumbai"),
+    ("Children's Film Society India", "Mumbai"),
+    ("Directorate of Film Festivals", "New Delhi"),
+    ("National School of Drama", "New Delhi"),
+    ("Asian Academy of Film & TV", "Noida"),
+    ("Film and Television Institute Chennai branch history", "Chennai"),
+    ("MGR Government Film Institute", "Chennai"),
+    ("Bengal Film Academy history", "Kolkata"),
+    ("Pune Film Institute landmark", "Law College Road Pune"),
+    ("International Film Festival of India HQ", "Goa/DFF"),
+    ("International Film Festival of Kerala", "Thiruvananthapuram"),
+    ("Mumbai Film Festival MAMI", "Mumbai"),
+    ("Chennai International Film Festival", "Chennai"),
+    ("Bangalore International Film Festival", "Bengaluru"),
+    ("Kolkata International Film Festival", "Kolkata"),
+    ("Jaipur Literature Festival film segment", "Jaipur"),
+    ("Film Heritage Foundation", "Mumbai"),
+    ("Oscar Academy AMPAS", "Los Angeles"),
+    ("British Film Institute BFI", "London"),
+    ("Cinémathèque Française", "Paris"),
+    ("Museum of Moving Image", "New York"),
+    ("Academy Museum of Motion Pictures", "Los Angeles"),
+    ("Kerala Chalachitra Museum", "Thiruvananthapuram"),
+    ("Odessa Film Society", "Kerala movement"),
+    ("Chitralekha Film Society", "Kerala"),
+    ("Calcutta Film Society", "Satyajit Ray association"),
+    ("Film Society of India", "1959"),
+    ("Federation of Film Societies of India", "1971"),
+]
+
+FESTIVAL_AWARDS: list[tuple[str, str]] = [
+    ("Palme d'Or", "Cannes"),
+    ("Golden Lion", "Venice"),
+    ("Golden Bear", "Berlin"),
+    ("Oscar Best Picture", "Academy Awards"),
+    ("BAFTA Best Film", "BAFTA"),
+    ("Golden Globe Best Picture", "Golden Globes"),
+    ("Silver Bear", "Berlin"),
+    ("Grand Prix Cannes", "Cannes"),
+    ("Best Actor Cannes", "Cannes"),
+    ("Volpi Cup Venice", "Venice"),
+    ("Golden Peacock IFFI", "International Film Festival of India"),
+    ("Best Feature IFFK", "International Film Festival of Kerala"),
+    ("Audience Award Sundance", "Sundance"),
+    ("Tiger Award Rotterdam", "Rotterdam"),
+    ("César Award", "France"),
+    ("Goya Award", "Spain"),
+    ("Filmfare Award", "India commercial"),
+    ("National Film Award Swarna Kamal", "India DFF"),
+    ("Dadasaheb Phalke Award", "India lifetime"),
+    ("J C Daniel Award", "Kerala lifetime"),
+    ("Kerala State Film Award", "Kerala government"),
+    ("Nandi Award", "Andhra Pradesh"),
+    ("Vijay Award", "Tamil TV/commercial"),
+    ("IIFA Award", "International Indian commercial"),
+    ("Screen Award", "India media"),
+    ("Asian Film Award", "Hong Kong based"),
+    ("Busan Award", "South Korea festival"),
+    ("Tokyo Sakura Grand Prix", "Tokyo festival"),
+    ("Montreal World Award", "Montreal festival"),
+    ("Karlovy Vary Crystal Globe", "Czech festival"),
+    ("Locarno Golden Leopard", "Locarno"),
+    ("San Sebastian Golden Shell", "San Sebastian"),
+    ("Moscow Silver St George", "Moscow festival"),
+    ("Cannes Camera d'Or debut", "Cannes first feature"),
+    ("Venice Queer Lion", "Venice"),
+    ("Berlin Teddy Award", "Berlin LGBTQ"),
+    ("Oscar Foreign Language Film", "Academy international"),
+    ("National Award Best Malayalam Film", "DFF India"),
+    ("Filmfare Best Malayalam Film", "Filmfare South"),
+    ("Kerala Critics Award", "FIPRESCI Kerala"),
+]
+
+PARALLEL_DOC: list[tuple[str, str]] = [
+    ("Pather Panchali", "Indian parallel cinema landmark"),
+    ("Bhuvan Shome", "Indian New Wave"),
+    ("Interview", "Mrinal Sen documentary style"),
+    ("Newspaper Boy", "Malayalam neo-realism"),
+    ("Elippathayam", "Adoor art cinema"),
+    ("Thampu", "G. Aravindan docu-fiction"),
+    ("Amma Ariyan", "John Abraham collective"),
+    ("Piravi", "Shaji N. Karun human rights"),
+    ("Kanchana Sita", "Aravindan mythic"),
+    ("Esthappan", "Aravindan mystic"),
+    ("Anantaram", "Adoor introspective"),
+    ("Mathilukal", "Adoor prison love"),
+    ("Vidheyan", "Adoor power slavery"),
+    ("Mukhamukham", "Adoor political"),
+    ("Nizhalkkuthu", "Adoor historical guilt"),
+    ("Samskara", "Kannada parallel"),
+    ("Chomana Dudi", "Kannada social"),
+    ("Kaadu", "Kannada Girish Karnad"),
+    ("Vamsha Vriksha", "Kannada B V Karanth"),
+    ("Ghatashraddha", "Kannada Girish Kasaravalli"),
+    ("Tabarana Kathe", "Kannada Kasaravalli"),
+    ("Meghe Dhaka Tara", "Bengali partition"),
+    ("Ajantrik", "Bengali Ritwik"),
+    ("Subarnarekha", "Bengali Ritwik"),
+    ("Akaler Sandhane", "Mrinal Sen meta"),
+    ("Man with a Movie Camera", "Dziga Vertov documentary"),
+    ("Nanook of the North", "Robert Flaherty doc"),
+    ("Night Mail", "British documentary"),
+    ("Louis Malle India docs", "Calcutta documentary"),
+    ("Salaam Bombay", "Mira Nair docu-drama"),
+    ("Born into Brothels", "Oscar documentary"),
+    ("An Inconvenient Truth", "climate documentary"),
+    ("March of the Penguins", "nature documentary"),
+    ("Free Solo", "sports documentary Oscar"),
+    ("Amy Winehouse doc Amy", "music documentary"),
+    ("Malayalam — Sreebhadra doc", "regional doc"),
+    ("Writings on the Wall Kerala doc", "social doc"),
+    ("Climbing Kilimanjaro Malayalam doc", "travel doc"),
+    ("Krishnanum Radhayum doc style", "experimental"),
+    ("John Abraham Odessa films", "collective cinema"),
+    ("G. Aravindan Kummatty", "children fable art"),
+    ("Adoor Swayamvaram", "auteur debut"),
+]
+
+ANIMATION: list[tuple[str, str]] = [
+    ("Toy Story", "CGI 3D feature first"),
+    ("Snow White", "hand-drawn feature first"),
+    ("Spirited Away", "anime Oscar"),
+    ("My Neighbor Totoro", "Studio Ghibli"),
+    ("Akira", "anime cyberpunk"),
+    ("Ghost in the Shell", "anime philosophical"),
+    ("Your Name", "anime romance hit"),
+    ("Mantrikku", "Malayalam 3D animation"),
+    ("O Fabby", "Malayalam CG"),
+    ("Hanuman", "Indian 2D mythological"),
+    ("Ramayana Prince Rama", "Indo-Japan anime"),
+    ("Arjun Warrior Prince", "Indian animation"),
+    ("Chhota Bheem", "Indian TV animation"),
+    ("Motu Patlu", "Indian TV comedy animation"),
+    ("Bal Ganesh", "Indian myth animation"),
+    ("Krishna aur Kans", "Indian myth animation"),
+    ("Roadside Romeo", "Indian Yash Raj animation"),
+    ("Delhi Safari", "Indian environmental animation"),
+    ("Chaar Sahibzaade", "Punjabi animation"),
+    ("Eega/Rajamouli", "live-action VFX hybrid"),
+    ("Baahubali", "motion VFX epic"),
+    ("Kochadaiiyaan", "motion capture Tamil"),
+    ("Stop-motion Coraline", "Laika stop-motion"),
+    ("Wallace and Gromit", "clay stop-motion"),
+    ("Chicken Run", "stop-motion Aardman"),
+    ("Isle of Dogs", "stop-motion Wes Anderson"),
+    ("Fantastic Mr Fox", "stop-motion"),
+    ("Pinocchio Disney", "hand-drawn classic"),
+    ("The Lion King 1994", "hand-drawn musical"),
+    ("Finding Nemo", "Pixar underwater CGI"),
+    ("Shrek", "DreamWorks CGI fairy tale"),
+    ("Frozen", "Disney CGI musical"),
+    ("Moana", "Disney CGI Pacific"),
+    ("Spider-Verse", "comic-style animation"),
+    ("Persepolis", "2D adult animation"),
+    ("Waltz with Bashir", "animated documentary"),
+    ("Persopolis style", "rotoscope hybrid"),
+    ("A Scanner Darkly", "rotoscope"),
+    ("cut-out animation", "South Park style"),
+    ("claymation", "clay figure animation"),
+    ("motion capture", "performance capture CGI"),
+]
+
+CENSORSHIP: list[tuple[str, str]] = [
+    ("U certificate India", "unrestricted public"),
+    ("UA certificate India", "parental guidance under 12"),
+    ("A certificate India", "adults only 18+"),
+    ("S certificate India", "special class restricted"),
+    ("Cinematograph Act India", "1952"),
+    ("CBFC board", "Central Board of Film Certification"),
+    ("Film Certification Appellate Tribunal", "appeal body India"),
+    ("Production Code Hollywood", "1930 Hays Code"),
+    ("MPAA rating PG-13", "USA parental caution"),
+    ("MPAA rating R", "USA restricted"),
+    ("BBFC UK ratings", "British certification"),
+    ("Marthanda Varma ban", "copyright court Malayalam"),
+    ("Bandit Queen controversy", "censor cuts India"),
+    ("Fire 1996 India", "censor controversy"),
+    ("Udta Punjab 2016", "censor battle India"),
+    ("Padmaavat 2018", "release controversy"),
+    ("Kiss in cinema India history", "cultural censorship debates"),
+    ("Regional ban Kerala films", "state politics occasional"),
+    ("Pornography prohibition India", "IT Act and IPC"),
+    ("Smoking disclaimer India", "statutory warning on screen"),
+    ("Animal welfare CBFC", "no animal cruelty uncertified"),
+    ("Anti-tobacco spot India", "theatrical mandatory"),
+    ("Dual audio censor", "language certification"),
+    ("Foreign film import censor", "India import rules"),
+    ("Documentary censor India", "non-fiction also certified"),
+    ("Online content IT Rules 2021", "OTT self-regulation India"),
+    ("Film piracy IPC", "copyright enforcement"),
+    ("Watermark anti-piracy", "theatrical security"),
+    ("Censor scissors metaphor", "mandatory cuts"),
+    ("Revised certificate after cuts", "re-certification process"),
+    ("Uncut version festival", "sometimes differs from theatrical"),
+    ("Director's cut", "alternate edit post-release"),
+    ("NC-17 USA", "no one 17 and under"),
+    ("X rating history USA", "adult formerly"),
+    ("18+ OTT badge", "streaming age label"),
+    ("Parental lock OTT", "PIN restriction"),
+    ("Kerala Censor Board history", "state pre-1970s"),
+    ("Pre-shoot script approval old India", "historical practice"),
+    ("Film denial certificate", "refusal to certify"),
+]
+
+CHARACTER_ACTOR: list[tuple[str, str, str]] = [
+    ("Sholay", "Gabbar Singh", "Amjad Khan"),
+    ("Sholay", "Jai", "Amitabh Bachchan"),
+    ("Sholay", "Veeru", "Dharmendra"),
+    ("Deewar", "Vijay", "Amitabh Bachchan"),
+    ("Agneepath", "Vijay Deenanath Chauhan", "Amitabh Bachchan"),
+    ("Mughal-e-Azam", "Salim", "Dilip Kumar"),
+    ("Mughal-e-Azam", "Anarkali", "Madhubala"),
+    ("Guide", "Raju Guide", "Dev Anand"),
+    ("Pyaasa", "Vijay", "Guru Dutt"),
+    ("Mother India", "Radha", "Nargis"),
+    ("Shree 420", "Raj", "Raj Kapoor"),
+    ("Awara", "Raj", "Raj Kapoor"),
+    ("Anand", "Anand", "Rajesh Khanna"),
+    ("Zanjeer", "Vijay", "Amitabh Bachchan"),
+    ("Don", "Don", "Amitabh Bachchan"),
+    ("Mr India", "Mogambo", "Amrish Puri"),
+    ("Mr India", "Arjun Singh", "Anil Kapoor"),
+    ("Nayakan", "Velu Nayakan", "Kamal Haasan"),
+    ("Indian", "Senapathy", "Kamal Haasan"),
+    ("Baasha", "Manickam", "Rajinikanth"),
+    ("Enthiran", "Chitti", "Rajinikanth"),
+    ("Manichitrathazhu", "Ganga/Nagavalli", "Shobhana"),
+    ("Drishyam", "Georgekutty", "Mohanlal"),
+    ("Pulimurugan", "Murugan", "Mohanlal"),
+    ("Lucifer", "Stephen Nedumpally", "Mohanlal"),
+    ("New Delhi", "Alexander", "Mammootty"),
+    ("Oru CBI Diarykurippu", "Sethurama Iyer", "Mammootty"),
+    ("Dr Babasaheb Ambedkar", "Ambedkar", "Mammootty"),
+    ("Vadakkunokkiyantram", "Dineshan", "Sreenivasan"),
+    ("Kireedam", "Sethumadhavan", "Mohanlal"),
+    ("Namukku Parkkan Munthirithoppukal", "Solomon", "Mohanlal"),
+    ("Thoovanathumbikal", "Jayakrishnan", "Mohanlal"),
+    ("Bangalore Days", "Arjun", "Fahadh Faasil"),
+    ("Premam", "George", "Nivin Pauly"),
+    ("Traffic", "Rizwan", "Rahman"),
+    ("Take Off", "Sameera", "Parvathy"),
+    ("The Godfather", "Vito Corleone", "Marlon Brando"),
+    ("The Godfather", "Michael Corleone", "Al Pacino"),
+    ("Scarface", "Tony Montana", "Al Pacino"),
+    ("Taxi Driver", "Travis Bickle", "Robert De Niro"),
+    ("Raging Bull", "Jake LaMotta", "Robert De Niro"),
+    ("Goodfellas", "Henry Hill", "Ray Liotta"),
+    ("Forrest Gump", "Forrest Gump", "Tom Hanks"),
+    ("Cast Away", "Chuck Noland", "Tom Hanks"),
+    ("Pirates Caribbean", "Jack Sparrow", "Johnny Depp"),
+    ("Edward Scissorhands", "Edward", "Johnny Depp"),
+    ("Joker", "Arthur Fleck", "Joaquin Phoenix"),
+    ("Dark Knight", "Joker", "Heath Ledger"),
+    ("Dark Knight", "Batman", "Christian Bale"),
+    ("Iron Man", "Tony Stark", "Robert Downey Jr"),
+    ("Harry Potter", "Harry Potter", "Daniel Radcliffe"),
+    ("Lord of the Rings", "Gandalf", "Ian McKellen"),
+    ("Lord of the Rings", "Frodo", "Elijah Wood"),
+    ("Star Wars", "Luke Skywalker", "Mark Hamill"),
+    ("Star Wars", "Darth Vader voice", "James Earl Jones"),
+    ("Terminator", "Terminator", "Arnold Schwarzenegger"),
+    ("Rocky", "Rocky Balboa", "Sylvester Stallone"),
+    ("Rambo", "John Rambo", "Sylvester Stallone"),
+    ("Mission Impossible", "Ethan Hunt", "Tom Cruise"),
+    ("James Bond", "James Bond", "Sean Connery"),
+    ("Psycho", "Norman Bates", "Anthony Perkins"),
+    ("The Shining", "Jack Torrance", "Jack Nicholson"),
+    ("One Flew Over Cuckoo's Nest", "McMurphy", "Jack Nicholson"),
+    ("Pulp Fiction", "Vincent Vega", "John Travolta"),
+    ("Kill Bill", "The Bride", "Uma Thurman"),
+    ("La La Land", "Sebastian", "Ryan Gosling"),
+    ("Casablanca", "Rick Blaine", "Humphrey Bogart"),
+    ("Gone with the Wind", "Scarlett O'Hara", "Vivien Leigh"),
+    ("Breakfast Tiffany's", "Holly Golightly", "Audrey Hepburn"),
+    ("Roman Holiday", "Princess Ann", "Audrey Hepburn"),
+    ("Cleopatra", "Cleopatra", "Elizabeth Taylor"),
+    ("Gandhi", "Gandhi", "Ben Kingsley"),
+    ("Lincoln", "Abraham Lincoln", "Daniel Day-Lewis"),
+    ("The Queen", "Elizabeth II", "Helen Mirren"),
+    ("Queen", "Freddie Mercury", "Rami Malek"),
+    ("Bohemian Rhapsody", "Freddie Mercury", "Rami Malek"),
+    ("RRR", "Komaram Bheem", "N T Rama Rao Jr"),
+    ("RRR", "Alluri Sitarama Raju", "Ram Charan"),
+    ("Baahubali", "Amarendra Baahubali", "Prabhas"),
+    ("KGF", "Rocky", "Yash"),
+    ("Pushpa", "Pushpa Raj", "Allu Arjun"),
+    ("Chemmeen", "Karuthamma", "Sheela"),
+    ("Chemmeen", "Pareekutty", "Madhu"),
+    ("Neelakuyil", "Neeli", "Miss Kumari"),
+    ("Bhargavi Nilayam", "Neelakutty", "Vijaya Nirmala"),
+    ("Kaliyattam", "Othello/Odaniyan", "Suresh Gopi"),
+    ("Commissioner", "Bharath Chandran IPS", "Suresh Gopi"),
+    ("Spadikam", "Aadu Thoma", "Mohanlal"),
+    ("Devasuram", "Neelakandan", "Mohanlal"),
+    ("Aaram Thamburan", "Jaganathan", "Mohanlal"),
+    ("Yavanika", "Jacob", "Bharath Gopi"),
+    ("Amma Ariyan", "Purushan", "Joy Mathew"),
+    ("Elippathayam", "Unni", "Karamana Janardanan"),
+    ("Swayamvaram", "Viswam", "Madhu"),
+    ("Nirmalyam", "Veluthampi", "PJ Antony"),
+    ("Olavum Theeravum", "Ravi", "Prem Nazir"),
+    ("Kallichellamma", "Chellamma", "Sheela"),
+    ("In Harihar Nagar", "Mahi", "Mukesh"),
+    ("Godfather Malayalam", "Anjooran", "Nedumudi Venu"),
+    ("Vellanakalude Nadu", "Raghavan", "Mohanlal"),
+    ("Munnariyippu", "Raghavan", "Mammootty"),
+    ("Pranchiyettan", "Pranchi", "Mohanlal"),
+    ("Katha Parayumpol", "Kunjan", "Mammootty"),
+    ("Pathemari", "Pallikkal Narayanan", "Mammootty"),
+    ("Sudani from Nigeria", "Majeed", "Soubin Shahir"),
+    ("Maheshinte Prathikaaram", "Mahesh", "Fahadh Faasil"),
+    ("Angamaly Diaries", "Pepe", "Antony Varghese"),
+    ("Jallikattu", "Kalan", "Antony Varghese"),
+    ("Minnale", "Rajesh", "Madhavan"),
+    ("Roja", "Roja", "Madhoo"),
+    ("Bombay", "Shekhar", "Arvind Swamy"),
+    ("Dil Se", "Amar", "Shah Rukh Khan"),
+    ("DDLJ", "Raj", "Shah Rukh Khan"),
+    ("Chak De India", "Kabir Khan", "Shah Rukh Khan"),
+    ("Swades", "Mohan Bhargava", "Shah Rukh Khan"),
+    ("Lagaan", "Bhuvan", "Aamir Khan"),
+    ("3 Idiots", "Rancho", "Aamir Khan"),
+    ("Dangal", "Mahavir Singh", "Aamir Khan"),
+    ("Andaz Apna Apna", "Amar", "Aamir Khan"),
+    ("Nayakan Kamal", "Velu", "Kamal Haasan"),
+    ("Thevar Magan", "Shakti", "Kamal Haasan"),
+    ("Micheal Madana Kamarajan", "Michael", "Kamal Haasan"),
+    ("Sivaji", "Sivaji", "Rajinikanth"),
+    ("Petta", "Petta Velan", "Rajinikanth"),
+    ("Kaala", "Kaali", "Rajinikanth"),
+    ("Kabali", "Kabaleeshwaran", "Rajinikanth"),
+    ("Vikram Vedha", "Vedha", "Vijay Sethupathi"),
+    ("Super Deluxe", "Shilpa", "Vijay Sethupathi"),
+    ("96", "Ram", "Vijay Sethupathi"),
+    ("Pariyerum Perumal", "Pariyan", "Kathir"),
+    ("Asuran", "Sivasamy", "Dhanush"),
+    ("Vada Chennai", "Anbu", "Dhanush"),
+    ("Kaithi", "Dilli", "Karthi"),
+    ("Master", "Bhavani", "Vijay Sethupathi"),
+    ("Leo", "Parthiban", "Vijay"),
+    ("Jawan", "Azad", "Shah Rukh Khan"),
+    ("Pathaan", "Pathaan", "Shah Rukh Khan"),
+    ("Animal", "Ranvijay", "Ranbir Kapoor"),
+    ("Barbie", "Barbie", "Margot Robbie"),
+    ("Oppenheimer", "Oppenheimer", "Cillian Murphy"),
+]
+
+# Malayalam translations for key pairs used in emit
+def ml_pairs(rows: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """Keep English film titles; translate labels where needed in emit templates."""
+    return rows
+
+
+EMIT_BODY = '''
+def _emit_all(out: list[Candidate], existing: set[str], rng: random.Random) -> None:
+    # 1. Film technology & pioneers
+    _emit_pairs(
+        out, existing, rng, "",
+        TECH_PIONEERS,
+        [
+            "'{a}' സംബന്ധിച്ച പ്രധാന വ്യക്തി/സ്ഥലം/സംഭവം?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട ശരിയായ വിവരം?",
+            "ചലച്ചിത്ര സാങ്കേതികവിദ്യ/ചരിത്രത്തിൽ '{a}'?",
+            "'{a}' — ചലച്ചിത്ര ചരിത്ര/സാങ്കേതികവിദ്യയുമായി ബന്ധപ്പെട്ട വിവരം?",
+        ],
+        [
+            "'{b}'-യുമായി ബന്ധപ്പെട്ട പ്രധാന സിനിമ/സംഭവം/സ്ഥലം?",
+        ],
+    )
+
+    # 2. Silent → talkie
+    _emit_pairs(
+        out, existing, rng, "",
+        SILENT_TALKIE,
+        [
+            "'{a}' ചിത്രത്തിന്റെ ചലച്ചിത്രപരമായ/ചരിത്രപരമായ സ്ഥാനം?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട ശരിയായ വിവരം?",
+        ],
+        [
+            "'{b}' എന്ന വിവരണവുമായി ബന്ധപ്പെട്ട ചിത്രം?",
+        ],
+    )
+
+    # 3. Formats
+    _emit_pairs(
+        out, existing, rng, "",
+        FORMATS,
+        [
+            "'{a}' ചിത്രം ഏത് ഫോർമാറ്റ്/സാങ്കേതികവിദ്യയിൽ പ്രശസ്തമാണ്?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട സിനിമാ ഫോർമാറ്റ്?",
+        ],
+        [
+            "'{b}' ഫോർമാറ്റിൽ/സാങ്കേതികവിദ്യയിൽ പ്രശസ്തമായ ചിത്രം?",
+        ],
+    )
+
+    # 4. Colour process
+    _emit_pairs(
+        out, existing, rng, "",
+        COLOR_PROCESS,
+        [
+            "'{a}' ചിത്രത്തിന്റെ നിറ/ചിത്രീകരണ പ്രക്രിയ?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട നിറ/കറുപ്പ്-വെളുപ്പ് വിവരം?",
+        ],
+        [
+            "'{b}' പ്രക്രിയ/വിവരണവുമായി ബന്ധപ്പെട്ട ചിത്രം?",
+        ],
+    )
+
+    # 5. Film movements
+    _emit_pairs(
+        out, existing, rng, "",
+        MOVEMENTS,
+        [
+            "'{a}' ചലച്ചിത്ര പ്രസ്ഥാനവുമായി ബന്ധപ്പെട്ട പ്രമുഖ ചിത്രം/പ്രവണത?",
+            "'{a}' പ്രസ്ഥാനത്തിന്റെ ഉദാഹരണം?",
+        ],
+        [
+            "'{b}' ഏത് ചലച്ചിത്ര പ്രസ്ഥാനവുമായി ബന്ധപ്പെട്ടാണ്?",
+        ],
+    )
+
+    # 6. Montage / editing
+    _emit_pairs(
+        out, existing, rng, "",
+        MONTAGE,
+        [
+            "ചലച്ചിത്ര എഡിറ്റിംഗ്/മോണ്ടേജിൽ '{a}'?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട എഡിറ്റിംഗ്/മോണ്ടേജ് സങ്കല്പം?",
+        ],
+        [
+            "'{b}'-യുമായി ബന്ധപ്പെട്ട എഡിറ്റിംഗ്/മോണ്ടേജ് സങ്കല്പം/സംവിധായകൻ?",
+        ],
+    )
+
+    # 7. Genre identification
+    _emit_pairs(
+        out, existing, rng, "",
+        GENRES_ML,
+        [
+            "'{a}' ഏത് ജാനർ/വിഭാഗത്തിലെ ചിത്രമാണ്?",
+            "'{a}' ചിത്രത്തിന്റെ ജാനർ?",
+        ],
+        [
+            "'{b}' ജാനർ/വിഭാഗത്തിലെ പ്രമുഖ ചിത്രം?",
+        ],
+        diff="easy",
+    )
+
+    # 8–13. Cinematography, mise-en-scène, sound, roles, pipeline (Malayalam craft pairs)
+    _emit_pairs(
+        out, existing, rng, "ചലച്ചിത്ര രംഗത്ത്",
+        CRAFT_ML,
+        [
+            "'{a}' എന്താണ്?",
+            "'{a}'-ന്റെ അർത്ഥം/വിവരണം?",
+            "ചലച്ചിത്ര പഠനത്തിൽ '{a}'?",
+        ],
+        [
+            "'{b}'-യുമായി ബന്ധപ്പെട്ട ചലച്ചിത്ര പദം?",
+            "'{b}' എന്നാൽ ചലച്ചിത്രത്തിൽ?",
+        ],
+    )
+
+    # 11. Playback singing
+    _emit_pairs(
+        out, existing, rng, "",
+        PLAYBACK,
+        [
+            "'{a}' — പ്ലേബാക്ക്/ഗാന ചരിത്രത്തിൽ?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട പ്ലേബാക്ക്/ഗാന വിവരം?",
+        ],
+        [
+            "'{b}'-യുമായി ബന്ധപ്പെട്ട ചിത്രം/സംഭവം?",
+        ],
+    )
+
+    # 12–13 covered in CRAFT_ML above
+
+    # 14. Regional hubs
+    _emit_pairs(
+        out, existing, rng, "",
+        REGIONAL_HUBS,
+        [
+            "'{a}' സിനിമാ വ്യവസായ/മേഖലയുടെ പ്രധാന കേന്ദ്രം?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട നഗരം/കേന്ദ്രം?",
+        ],
+        [
+            "'{b}' നഗരം/കേന്ദ്രവുമായി ബന്ധപ്പെട്ട സിനിമാ വ്യവസായം?",
+        ],
+        diff="easy",
+    )
+
+    # 15. Institutes
+    _emit_pairs(
+        out, existing, rng, "",
+        INSTITUTES,
+        [
+            "'{a}' എവിടെ സ്ഥിതി ചെയ്യുന്നു?",
+            "'{a}'-ന്റെ ആസ്ഥാനം/സ്ഥലം?",
+        ],
+        [
+            "'{b}'-ൽ സ്ഥിതി ചെയ്യുന്ന ചലച്ചിത്ര സ്ഥാപനം/മേള?",
+        ],
+    )
+
+    # 16. Festival awards
+    _emit_pairs(
+        out, existing, rng, "",
+        FESTIVAL_AWARDS,
+        [
+            "'{a}' പുരസ്കാരം ഏത് മേള/സ്ഥാപനവുമായി ബന്ധപ്പെട്ടത്?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട ചലച്ചിത്രമേള/ബഹുമതി?",
+        ],
+        [
+            "'{b}' മേള/സ്ഥാപനത്തിന്റെ പരമോന്നത/പ്രധാന പുരസ്കാരം?",
+        ],
+    )
+
+    # 17. Parallel / documentary
+    _emit_pairs(
+        out, existing, rng, "",
+        PARALLEL_DOC,
+        [
+            "'{a}' ചിത്രം ഏത് ചലച്ചിത്ര പരമ്പര/ശൈലിയുമായി ബന്ധപ്പെട്ടാണ്?",
+            "'{a}'-യുടെ ചലച്ചിത്രപരമായ സ്ഥാനം?",
+        ],
+        [
+            "'{b}' പരമ്പര/ശൈലിയുടെ ഉദാഹരണ ചിത്രം?",
+        ],
+    )
+
+    # 18. Animation types
+    _emit_pairs(
+        out, existing, rng, "",
+        ANIMATION,
+        [
+            "'{a}' ഏത് തരം ആനിമേഷൻ/വിഷ്വൽ സാങ്കേതികവിദ്യ?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട ആനിമേഷൻ/ദൃശ്യപ്രഭാവ വിവരം?",
+        ],
+        [
+            "'{b}' ആനിമേഷൻ/സാങ്കേതികവിദ്യയുടെ ഉദാഹരണ ചിത്രം?",
+        ],
+    )
+
+    # 19. Censorship
+    _emit_pairs(
+        out, existing, rng, "",
+        CENSORSHIP,
+        [
+            "ചലച്ചിത്ര സെൻസർഷിപ്പിൽ '{a}'?",
+            "'{a}'-യുമായി ബന്ധപ്പെട്ട സെൻസർ/നിയന്ത്രണ വിവരം?",
+        ],
+        [
+            "'{b}'-യുമായി ബന്ധപ്പെട്ട സെൻസർ/നിയമ/സർട്ടിഫിക്കറ്റ്?",
+        ],
+    )
+
+    # 20. Character ↔ actor
+    _emit_triple(
+        out, existing, rng, "",
+        CHARACTER_ACTOR,
+        [
+            "'{film}' എന്ന ചിത്രത്തിലെ '{char}' കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?",
+            "'{char}' — '{film}'-ിലെ കഥാപാത്രം; അഭിനയിച്ചത്?",
+        ],
+    )
+    chars = list(dict.fromkeys(c for _, c, _ in CHARACTER_ACTOR))
+    for film, char, actor in CHARACTER_ACTOR:
+        add_candidate(
+            out, existing, rng,
+            f"'{actor}' '{film}' എന്ന ചിത്രത്തിൽ അവതരിപ്പിച്ച വിഖ്യാത കഥാപാത്രം?",
+            char, _pool(chars, char)[:3], "medium", pool=chars,
+        )
+'''
+
+
+def main() -> None:
+    parts = [HEADER]
+    for name, val in [
+        ("TECH_PIONEERS", TECH_PIONEERS),
+        ("SILENT_TALKIE", SILENT_TALKIE),
+        ("FORMATS", FORMATS),
+        ("COLOR_PROCESS", COLOR_PROCESS),
+        ("MOVEMENTS", MOVEMENTS),
+        ("MONTAGE", MONTAGE),
+        ("GENRES", GENRES),
+        ("GENRES_ML", GENRES_ML),
+        ("CINEMATOGRAPHY", CINEMATOGRAPHY),
+        ("MISE_EN_SCENE", MISE_EN_SCENE),
+        ("SOUND", SOUND),
+        ("PLAYBACK", PLAYBACK),
+        ("PRODUCTION_ROLES", PRODUCTION_ROLES),
+        ("PIPELINE", PIPELINE),
+        ("REGIONAL_HUBS", REGIONAL_HUBS),
+        ("INSTITUTES", INSTITUTES),
+        ("FESTIVAL_AWARDS", FESTIVAL_AWARDS),
+        ("PARALLEL_DOC", PARALLEL_DOC),
+        ("ANIMATION", ANIMATION),
+        ("CENSORSHIP", CENSORSHIP),
+        ("CHARACTER_ACTOR", CHARACTER_ACTOR),
+    ]:
+        parts.append(f"{name} = {pprint.pformat(val, width=120)}\n")
+    parts.append(EMIT_BODY)
+    parts.append(FOOTER)
+    OUT.write_text("\n".join(parts), encoding="utf-8")
+    print(f"Wrote {OUT}")
+
+
+if __name__ == "__main__":
+    main()

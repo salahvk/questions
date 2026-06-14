@@ -1204,12 +1204,12 @@
       "id": "phy_0101",
       "question": "'Russell Ohl'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "semiനടത്തor diode",
+        "അർദ്ധചാലകor diode",
         "nuclear fission (interpretation)",
         "Brownian motion explanation",
         "Franck-Hertz experiment"
       ],
-      "answer": "semiനടത്തor diode",
+      "answer": "അർദ്ധചാലകor diode",
       "difficulty": "hard"
     },
     {
@@ -7814,7 +7814,7 @@
     },
     {
       "id": "phy_0652",
-      "question": "' superനടത്തing magnet' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
+      "question": "' അതി-ചാലകing magnet' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "strong stable magnetic field",
         "electric field മാത്രം",
@@ -7936,7 +7936,7 @@
       "id": "phy_0662",
       "question": "'Paul Dirac'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "superനടത്തivity",
+        "അതി-ചാലകivity",
         "Stark effect",
         "first atomic bomb test Trinity",
         "antimatter positron (prediction)"
@@ -28109,7 +28109,7 @@
       "question": "'Frederick Reines'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "alternating current system",
-        "superനടത്തivity",
+        "അതി-ചാലകivity",
         "Pound-Rebka experiment",
         "neutrino detection"
       ],
@@ -31422,10 +31422,10 @@
       "options": [
         "nuclear magnetic resonance",
         "conservation of mass (chemistry)",
-        "superനടത്തivity",
+        "അതി-ചാലകivity",
         "electron charge measurement"
       ],
-      "answer": "superനടത്തivity",
+      "answer": "അതി-ചാലകivity",
       "difficulty": "hard"
     },
     {
@@ -34351,7 +34351,7 @@
         "antimatter positron (prediction)",
         "Voyager 1 launch",
         "electromagnetic spectrum (systematic)",
-        "superനടത്തivity"
+        "അതി-ചാലകivity"
       ],
       "answer": "Voyager 1 launch",
       "difficulty": "hard"
@@ -37946,7 +37946,7 @@
     },
     {
       "id": "phy_3165",
-      "question": "'superനടത്തivity'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'അതി-ചാലകivity'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Faraday",
         "Heike Kamerlingh Onnes",
@@ -39211,7 +39211,7 @@
         "graphene isolation",
         "MRI principle",
         "gravitational waves detection 2015",
-        "superനടത്തivity"
+        "അതി-ചാലകivity"
       ],
       "answer": "MRI principle",
       "difficulty": "hard"
@@ -57782,7 +57782,7 @@
     },
     {
       "id": "phy_4818",
-      "question": "'semiനടത്തor diode'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'അർദ്ധചാലകor diode'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Faraday",
         "Shockley",

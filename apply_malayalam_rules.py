@@ -20,6 +20,8 @@ except ImportError:
 BASE = Path(__file__).parent
 SKIP_FILES = {"english_language.json", "current_affairs_manifest.json"}
 MALAYALAM = re.compile(r"[\u0D00-\u0D7F]")
+# English book/film titles as MCQ options (literature, cinema)
+WORK_TITLE_OPTION = re.compile(r"^[A-Za-z0-9][A-Za-z0-9\s.,'&:+\-!?()]*$")
 
 # Allowed Latin tokens inside otherwise-Malayalam question stems (acronyms, years)
 STEM_ACRONYMS = re.compile(
@@ -160,6 +162,8 @@ PAREN_ENGLISH = re.compile(r"\s*\(([A-Za-z0-9][^)]*)\)")
 
 # Corrupted text from partial English→Malayalam conversion
 CORRUPTION_FIXES: list[tuple[str, str]] = [
+    ("മുഗൽ സാമ്രാജ്യം-e-Azam", "Mughal-e-Azam"),
+    ("audio നടത്തs visual", "ശബ്ദം കാണുന്ന ദൃശ്യത്തിന് മുൻപ് തുടരുന്നു"),
     ("തുmanaged പാട്ടുകൾ", "ഭജന പാട്ടുകൾ"),
     ("തുmanaged തുള്ളൽ", "തുമ്പി തുള്ളൽ"),
     ("ദുശ്ശblockസനൻ", "ദുശ്ശാസനൻ"),
@@ -252,7 +256,6 @@ CORRUPTION_FIXES: list[tuple[str, str]] = [
     ("Ayyubi", "അയ്യൂബി സാമ്രാജ്യം"),
     ("അyyubi", "അയ്യൂബി സാമ്രാജ്യം"),
     ("Ottoman", "ഒട്ടോമൻ സാമ്രാജ്യം"),
-    ("Mughal", "മുഗൽ സാമ്രാജ്യം"),
     ("Safavid", "സഫാവിദ് സാമ്രാജ്യം"),
     ("Charlemagne", "കാറൽമാൻ"),
     ("ചാർlemagne", "കാറൽമാൻ"),
@@ -441,8 +444,8 @@ def fix_only_options(text: str) -> str:
 
 
 def clean_text(text: str) -> str:
-    text = fix_corruptions(text)
     text = malayalamize_text(text)
+    text = fix_corruptions(text)
     text = fix_only_options(text)
     text = fix_maatraam_options(text)
     text = strip_redundant_english_parens(text)
@@ -574,10 +577,15 @@ def process_file(filename: str) -> dict:
     }
 
 
+# Quoted spans may contain apostrophes (Midnight's Children, What's in a name?)
+QUOTED_SPAN = re.compile(r"'(?:[^']|'(?=[a-zA-Z]))*'")
+DOUBLE_QUOTED_SPAN = re.compile(r'"(?:[^"]|"(?=[a-zA-Z]))*"')
+
+
 def strip_for_validation(text: str) -> str:
     """Strip allowed Latin segments before mixed-language / leak checks."""
-    result = re.sub(r"'[^']*'", "", text)
-    result = re.sub(r'"[^"]*"', "", result)
+    result = QUOTED_SPAN.sub("", text)
+    result = DOUBLE_QUOTED_SPAN.sub("", result)
     # Kerala/central scheme names before Malayalam പദ്ധതി
     result = re.sub(r"^[A-Z][A-Za-z-]{2,30}\s+(?=പദ്ധതി)", "", result)
     result = re.sub(r"കേരള\s+[A-Z][A-Za-z]{2,20}\s+", "കേരള ", result)
@@ -621,11 +629,23 @@ def validate_file(filename: str) -> list[tuple]:
             issues.append((qid, "mixed_language_stem", question[:100]))
 
         has_malayalam_option = any(MALAYALAM.search(o) for o in opts)
+        all_options_english_titles = (
+            not any(MALAYALAM.search(o) for o in opts)
+            and all(re.search(r"[a-zA-Z]", o) for o in opts)
+        )
         for opt in opts:
             if BANNED_OPTION_ENGLISH.search(opt):
                 issues.append((qid, "english_option_leak", opt[:100]))
             elif (
                 has_malayalam_option
+                and not all_options_english_titles
+                and not MALAYALAM.search(opt)
+                and WORK_TITLE_OPTION.match(opt.strip())
+            ):
+                pass  # English work titles valid beside Malayalam titles
+            elif (
+                has_malayalam_option
+                and not all_options_english_titles
                 and not MALAYALAM.search(opt)
                 and re.search(r"[a-zA-Z]{4,}", opt)
                 and not re.fullmatch(r"[\d%./\s\-+()A-Za-z]+", opt)
