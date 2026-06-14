@@ -473,6 +473,27 @@ def apply_manual_fix(q: dict) -> bool:
     return changed
 
 
+def dedupe_options(opts: list[str], answer: str) -> list[str]:
+    """Drop duplicate options after text normalization; pad if fewer than four."""
+    unique: list[str] = []
+    seen: set[str] = set()
+    for opt in opts:
+        if opt not in seen:
+            unique.append(opt)
+            seen.add(opt)
+    if answer and answer not in seen:
+        unique.insert(0, answer)
+        seen.add(answer)
+    pads = ("അപ്രസക്തം", "ബന്ധമില്ലാത്തത്", "വേറെ കാലഘട്ടം")
+    for pad in pads:
+        if len(unique) >= 4:
+            break
+        if pad not in seen:
+            unique.append(pad)
+            seen.add(pad)
+    return unique[:4]
+
+
 def process_question(q: dict) -> tuple[dict, bool]:
     new_q = dict(q)
     changed = apply_manual_fix(new_q)
@@ -491,6 +512,11 @@ def process_question(q: dict) -> tuple[dict, bool]:
             changed = True
         new_opts.append(new_opt)
     new_q["options"] = new_opts
+
+    deduped = dedupe_options(new_opts, new_q.get("answer", ""))
+    if deduped != new_opts:
+        new_q["options"] = deduped
+        changed = True
 
     mal_q, mal_changed = malayalamize_question(new_q)
     if mal_changed:

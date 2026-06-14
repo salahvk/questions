@@ -225,9 +225,17 @@ def make_entry(prefix: str, num: int, q: str, opts: list[str], ans: str, diff: s
 def pick3(pool: list[str], correct: str, rng: random.Random) -> list[str]:
     wrong = list(dict.fromkeys(x for x in pool if x != correct))
     rng.shuffle(wrong)
-    opts = [correct] + wrong[:3]
+    opts = list(dict.fromkeys([correct] + wrong[:3]))
     while len(opts) < 4:
-        opts.append("ഒന്നുമില്ല")
+        filler = "ഒന്നുമില്ല"
+        if filler not in opts:
+            opts.append(filler)
+        else:
+            extra = next((x for x in wrong[3:] if x not in opts), None)
+            if extra:
+                opts.append(extra)
+            else:
+                break
     return opts[:4]
 
 
