@@ -338,7 +338,7 @@
     },
     {
       "id": "phy_0029",
-      "question": "SI prefix ചിഹ്നം 'h'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'h'-ന്റെ പേര് ഏത്?",
       "options": [
         "സെന്റി",
         "ഹെക്ടോ",
@@ -364,12 +364,12 @@
       "id": "phy_0031",
       "question": "'galvanometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "voltage മാത്രം",
-        "small current കണ്ടെത്തുന്നു",
+        "വോൾട്ടേജ് മാത്രം",
+        "ചെറിയ കറന്റ് കണ്ടെത്തുന്നു",
         "frequency",
-        "resistance മാത്രം"
+        "പ്രതിരോധം മാത്രം"
       ],
-      "answer": "small current കണ്ടെത്തുന്നു",
+      "answer": "ചെറിയ കറന്റ് കണ്ടെത്തുന്നു",
       "difficulty": "medium"
     },
     {
@@ -412,9 +412,9 @@
       "id": "phy_0035",
       "question": "'resonance tube' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "light wavelength മാത്രം",
-        "pressure മാത്രം",
-        "mass മാത്രം",
+        "പ്രകാശ തരംഗദൈർഘ്യം മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "പിണ്ഡം മാത്രം",
         "sound wavelength/speed"
       ],
       "answer": "sound wavelength/speed",
@@ -425,9 +425,9 @@
       "question": "'spectrometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "light spectrum",
-        "mass മാത്രം",
-        "sound മാത്രം",
-        "pressure മാത്രം"
+        "പിണ്ഡം മാത്രം",
+        "ശബ്ദം മാത്രം",
+        "മർദ്ദം മാത്രം"
       ],
       "answer": "light spectrum",
       "difficulty": "medium"
@@ -557,7 +557,7 @@
       "question": "'CERN 2012' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Tyndall effect",
-        "charge സംരക്ഷണം",
+        "ചാർജ് സംരക്ഷണം",
         "RMS AC",
         "Higgs boson discovery"
       ],
@@ -724,10 +724,10 @@
       "id": "phy_0061",
       "question": "'speed gun' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature മാത്രം",
+        "താപനില മാത്രം",
         "vehicle speed",
-        "pressure മാത്രം",
-        "mass മാത്രം"
+        "മർദ്ദം മാത്രം",
+        "പിണ്ഡം മാത്രം"
       ],
       "answer": "vehicle speed",
       "difficulty": "medium"
@@ -748,7 +748,7 @@
       "id": "phy_0063",
       "question": "'temperature gradient thermoelectric EMF' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "momentum സംരക്ഷണം",
+        "മൊമെന്റം സംരക്ഷണം",
         "Seebeck effect",
         "പാസ്കൽ നിയമം",
         "ബർണോളി തത്ത്വം"
@@ -1181,7 +1181,7 @@
       "question": "'X-കിരണങ്ങൾ'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "റൂതർഫോർഡ്",
-        "മarie ക്യൂറി",
+        "മേരി ക്യൂറി",
         "ബോർ",
         "വിൽഹelm റോന്റ്ജൻ"
       ],
@@ -1204,12 +1204,12 @@
       "id": "phy_0101",
       "question": "'Russell Ohl'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "അർദ്ധചാലകor diode",
+        "അർദ്ധചാലക ഡയോഡ്",
         "nuclear fission (interpretation)",
         "Brownian motion explanation",
         "Franck-Hertz experiment"
       ],
-      "answer": "അർദ്ധചാലകor diode",
+      "answer": "അർദ്ധചാലക ഡയോഡ്",
       "difficulty": "hard"
     },
     {
@@ -1303,7 +1303,7 @@
         "block gravity",
         "block sound",
         "block external electric fields",
-        "block light always"
+        "പ്രകാശത്തെ പൂർണ്ണമായും തടയുന്നു"
       ],
       "answer": "block external electric fields",
       "difficulty": "medium"
@@ -1778,12 +1778,12 @@
     },
     {
       "id": "phy_0149",
-      "question": "'പ്ലാവനബലം = Displaced fluid weight' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'പ്ലാവനബലം = ആദേശം ചെയ്യപ്പെട്ട ദ്രാവകത്തിന്റെ ഭാരം' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ആർക്കിമിഡീസ് തത്ത്വം",
         "gravitational waves LIGO",
         "de Broglie matter waves",
-        "charge സംരക്ഷണം"
+        "ചാർജ് സംരക്ഷണം"
       ],
       "answer": "ആർക്കിമിഡീസ് തത്ത്വം",
       "difficulty": "medium"
@@ -1888,10 +1888,10 @@
       "id": "phy_0158",
       "question": "' electron paramagnetic resonance' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "paired മാത്രം",
-        "neutrons മാത്രം",
+        "ജോടിയാക്കിയത് മാത്രം",
+        "ന്യൂട്രോണുകൾ മാത്രം",
         "unpaired electrons",
-        "protons മാത്രം"
+        "പ്രോട്ടോണുകൾ മാത്രം"
       ],
       "answer": "unpaired electrons",
       "difficulty": "hard"
@@ -2035,7 +2035,7 @@
         "alternating current system",
         "Celsius scale",
         "Chandrasekhar limit",
-        "neutron discovery"
+        "ന്യൂട്രോൺ കണ്ടെത്തൽ"
       ],
       "answer": "Celsius scale",
       "difficulty": "easy"
@@ -2654,7 +2654,7 @@
     },
     {
       "id": "phy_0222",
-      "question": "SI prefix ചിഹ്നം 'M'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'M'-ന്റെ പേര് ഏത്?",
       "options": [
         "മെഗ",
         "യോക്ടോ",
@@ -3290,7 +3290,7 @@
     },
     {
       "id": "phy_0275",
-      "question": "'neutron discovery'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'ന്യൂട്രോൺ കണ്ടെത്തൽ'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Curie",
         "Bohr",
@@ -3509,20 +3509,20 @@
       "question": "'ലെൻസ് നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "V = IR",
-        "感应电流 flux മാറ്റത്തിനെ എതിർക്കുന്നു",
-        "flux മാറ്റത്തെ സഹായിക്കുന്നു",
+        "പ്രേരിത കറന്റ് ഫ്ലക്സ് മാറ്റത്തിനെ എതിർക്കുന്നു",
+        "ഫ്ലക്സ് മാറ്റത്തെ സഹായിക്കുന്നു",
         "F = ma"
       ],
-      "answer": "感应电流 flux മാറ്റത്തിനെ എതിർക്കുന്നു",
+      "answer": "പ്രേരിത കറന്റ് ഫ്ലക്സ് മാറ്റത്തിനെ എതിർക്കുന്നു",
       "difficulty": "hard"
     },
     {
       "id": "phy_0294",
       "question": "' Atwood machine' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "humidity മാത്രം",
-        "temperature മാത്രം",
-        "pressure മാത്രം",
+        "ഈർപ്പം മാത്രം",
+        "താപനില മാത്രം",
+        "മർദ്ദം മാത്രം",
         "acceleration demonstrate"
       ],
       "answer": "acceleration demonstrate",
@@ -3722,7 +3722,7 @@
     },
     {
       "id": "phy_0311",
-      "question": "SI prefix ചിഹ്നം 'P'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'P'-ന്റെ പേര് ഏത്?",
       "options": [
         "പികോ",
         "ആറ്റോ",
@@ -4338,8 +4338,8 @@
       "options": [
         "MRI മാത്രം",
         "X-ray tomography",
-        "visible മാത്രം",
-        "ultrasound മാത്രം"
+        "ദൃശ്യപ്രകാശം മാത്രം",
+        "അൾട്രാസൗണ്ട് മാത്രം"
       ],
       "answer": "X-ray tomography",
       "difficulty": "medium"
@@ -4912,10 +4912,10 @@
       "id": "phy_0410",
       "question": "'atomic force microscope' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "pressure മാത്രം",
-        "radio മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "റേഡിയോ തരംഗം മാത്രം",
         "surface at atomic scale",
-        "sound മാത്രം"
+        "ശബ്ദം മാത്രം"
       ],
       "answer": "surface at atomic scale",
       "difficulty": "hard"
@@ -4961,7 +4961,7 @@
       "question": "'Davisson-Germer'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "F = ma",
-        "photoelectric മാത്രം",
+        "ഫോട്ടോഇലക്ട്രിക് പ്രഭാവം മാത്രം",
         "electron diffraction",
         "PV = nRT"
       ],
@@ -5512,7 +5512,7 @@
       "id": "phy_0460",
       "question": "'CERN & Fermilab'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "Eötvös experiment (equivalence)",
+        "എട്വസ് പരീക്ഷണം (തുല്യത)",
         "Aditya-L1 solar mission launch",
         "planetary motion laws",
         "standard model particles (experimental)"
@@ -5752,12 +5752,12 @@
       "id": "phy_0480",
       "question": "'ബോയിലിന്റെ നിയമം'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "P/T=constant",
-        "V/T=constant",
-        "PV = constant",
-        "PV=nRT only at STP"
+        "P/T = സ്ഥിരാങ്കം",
+        "V/T = സ്ഥിരാങ്കം",
+        "PV = സ്ഥിരാങ്കം",
+        "STP-ൽ മാത്രം PV=nRT"
       ],
-      "answer": "PV = constant",
+      "answer": "PV = സ്ഥിരാങ്കം",
       "difficulty": "medium"
     },
     {
@@ -6737,11 +6737,11 @@
       "question": "'ആർക്കിമിഡീസ് തത്ത്വം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "F = ma",
-        "പ്ലാവനബലം = Displaced fluid weight",
+        "പ്ലാവനബലം = ആദേശം ചെയ്യപ്പെട്ട ദ്രാവകത്തിന്റെ ഭാരം",
         "V = IR",
         "PV = nRT"
       ],
-      "answer": "പ്ലാവനബലം = Displaced fluid weight",
+      "answer": "പ്ലാവനബലം = ആദേശം ചെയ്യപ്പെട്ട ദ്രാവകത്തിന്റെ ഭാരം",
       "difficulty": "medium"
     },
     {
@@ -6906,7 +6906,7 @@
       "options": [
         "ഫോട്ടോഇലക്ട്രിക് സമീകരണം",
         "intensity inverse square",
-        "ഫാരadays感应",
+        "ഫാരഡെയുടെ വിദ്യുത്കാന്തിക പ്രേരണം",
         "Kirchhoff current"
       ],
       "answer": "ഫോട്ടോഇലക്ട്രിക് സമീകരണം",
@@ -7302,10 +7302,10 @@
       "options": [
         "F=ma",
         "ലൂപ്പിൽ V sum=0",
-        "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_algebraic sum = 0",
+        "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_ബീജഗണിത തുക = 0",
         "PV=nRT"
       ],
-      "answer": "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_algebraic sum = 0",
+      "answer": "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_ബീജഗണിത തുക = 0",
       "difficulty": "hard"
     },
     {
@@ -7337,11 +7337,11 @@
       "question": "'Daniel Bernoulli'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "Planck radiation law",
-        "Bernoulli equation",
+        "ബെർണൂലി സമവാക്യം",
         "optical fiber communication",
         "electron charge measurement"
       ],
-      "answer": "Bernoulli equation",
+      "answer": "ബെർണൂലി സമവാക്യം",
       "difficulty": "hard"
     },
     {
@@ -7456,17 +7456,17 @@
       "id": "phy_0622",
       "question": "'ΔU = Q − W' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "thermodynamics ഒന്നാം നിയമം",
+        "താപഗതികത്തിലെ ഒന്നാം നിയമം",
         "Tyndall effect",
-        "momentum സംരക്ഷണം",
+        "മൊമെന്റം സംരക്ഷണം",
         "Michelson-Morley"
       ],
-      "answer": "thermodynamics ഒന്നാം നിയമം",
+      "answer": "താപഗതികത്തിലെ ഒന്നാം നിയമം",
       "difficulty": "hard"
     },
     {
       "id": "phy_0623",
-      "question": "SI prefix ചിഹ്നം 'da'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'da'-ന്റെ പേര് ഏത്?",
       "options": [
         "സെപ്ടോ",
         "കിലോ",
@@ -7710,8 +7710,8 @@
       "options": [
         "humidity",
         "particle tracks in liquid",
-        "sound മാത്രം",
-        "pressure മാത്രം"
+        "ശബ്ദം മാത്രം",
+        "മർദ്ദം മാത്രം"
       ],
       "answer": "particle tracks in liquid",
       "difficulty": "hard"
@@ -7781,7 +7781,7 @@
       "question": "'T² ∝ a³' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ഫോട്ടോഇലക്ട്രിക് സമീകരണം",
-        "Gauss electric",
+        "ഗോസ് നിയമം (വൈദ്യുതി)",
         "കെപ്ലർ മൂന്നാം നിയമം",
         "Kirchhoff voltage"
       ],
@@ -7817,8 +7817,8 @@
       "question": "' അതി-ചാലകing magnet' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "strong stable magnetic field",
-        "electric field മാത്രം",
-        "weak permanent മാത്രം",
+        "വൈദ്യുത മണ്ഡലം മാത്രം",
+        "ദുർബലമായ സ്ഥിര കാന്തം മാത്രം",
         "pressure field"
       ],
       "answer": "strong stable magnetic field",
@@ -7840,10 +7840,10 @@
       "id": "phy_0654",
       "question": "' power meter' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "mechanical power മാത്രം",
-        "thermal power മാത്രം",
+        "മെക്കാനിക്കൽ പവർ മാത്രം",
+        "താപ പവർ മാത്രം",
         "electrical power measure",
-        "pressure power മാത്രം"
+        "മർദ്ദ പവർ മാത്രം"
       ],
       "answer": "electrical power measure",
       "difficulty": "medium"
@@ -7936,7 +7936,7 @@
       "id": "phy_0662",
       "question": "'Paul Dirac'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "അതി-ചാലകivity",
+        "അതിചാലകത",
         "Stark effect",
         "first atomic bomb test Trinity",
         "antimatter positron (prediction)"
@@ -8308,9 +8308,9 @@
       "id": "phy_0693",
       "question": "' cathode ray tube' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "proton beam മാത്രം",
+        "പ്രോട്ടോൺ ബീം മാത്രം",
         "electron beam display",
-        "neutron മാത്രം",
+        "ന്യൂട്രോൺ മാത്രം",
         "sound beam"
       ],
       "answer": "electron beam display",
@@ -8584,7 +8584,7 @@
       "id": "phy_0716",
       "question": "'m = v/u' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Gauss electric",
+        "ഗോസ് നിയമം (വൈദ്യുതി)",
         "thin lens formula",
         "Tyndall effect",
         "magnification"
@@ -8798,7 +8798,7 @@
     },
     {
       "id": "phy_0734",
-      "question": "'മarie & Pierre Curie'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
+      "question": "'മേരി ക്യൂറി, പിയറി ക്യൂറി'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "റേഡിയം",
         "magnetic effect of current",
@@ -8887,9 +8887,9 @@
         "V = IR മാത്രം",
         "F = ma",
         "PV = nRT",
-        "junction-ൽ ΣI_in = ΣI_out"
+        "ജംഗ്ഷനിൽ ΣI_in = ΣI_out"
       ],
-      "answer": "junction-ൽ ΣI_in = ΣI_out",
+      "answer": "ജംഗ്ഷനിൽ ΣI_in = ΣI_out",
       "difficulty": "hard"
     },
     {
@@ -9230,7 +9230,7 @@
     },
     {
       "id": "phy_0770",
-      "question": "SI prefix ചിഹ്നം 'a'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'a'-ന്റെ പേര് ഏത്?",
       "options": [
         "ആറ്റോ",
         "പികോ",
@@ -10183,7 +10183,7 @@
         "V = IR",
         "particles have wavelength",
         "F = ma",
-        "only photons"
+        "ഫോട്ടോണുകൾ മാത്രം"
       ],
       "answer": "particles have wavelength",
       "difficulty": "hard"
@@ -10202,7 +10202,7 @@
     },
     {
       "id": "phy_0851",
-      "question": "SI prefix ചിഹ്നം 'Z'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'Z'-ന്റെ പേര് ഏത്?",
       "options": [
         "ഫെംടോ",
         "സെപ്ടോ",
@@ -10314,10 +10314,10 @@
       "options": [
         "ബെക്വറൽ",
         "ബോർ",
-        "മarie & Pierre Curie",
+        "മേരി ക്യൂറി, പിയറി ക്യൂറി",
         "റൂതർഫോർഡ്"
       ],
-      "answer": "മarie & Pierre Curie",
+      "answer": "മേരി ക്യൂറി, പിയറി ക്യൂറി",
       "difficulty": "medium"
     },
     {
@@ -10373,7 +10373,7 @@
       "question": "'ΔxΔp ≥ ℏ/2' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ഹൈസൻബർഗ് അനിശ്ചിതത്വം",
-        "thermodynamics ഒന്നാം നിയമം",
+        "താപഗതികത്തിലെ ഒന്നാം നിയമം",
         "ജൗൾ ചൂട് നിയമം",
         "സ്നെൽ നിയമം"
       ],
@@ -10406,7 +10406,7 @@
     },
     {
       "id": "phy_0868",
-      "question": "'magnetic field-ൽ spectral lines split' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'കാന്തിക മണ്ഡലത്തിൽ സ്പെക്ട്രൽ ലൈനുകൾ വിഭജിക്കുന്നത് (സീമാൻ പ്രഭാവം)' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "RMS AC",
         "Compton effect",
@@ -11030,14 +11030,14 @@
     },
     {
       "id": "phy_0920",
-      "question": "'energy സൃഷ്ടിയോ നശനമോ ഇല്ല' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ഊർജ്ജം സൃഷ്ടിക്കാനോ നശിപ്പിക്കാനോ കഴിയില്ല' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Franck-Hertz",
         "Kirchhoff current",
-        "energy സംരക്ഷണം",
+        "ഊർജ്ജ സംരക്ഷണം",
         "Schrodinger equation"
       ],
-      "answer": "energy സംരക്ഷണം",
+      "answer": "ഊർജ്ജ സംരക്ഷണം",
       "difficulty": "easy"
     },
     {
@@ -11225,7 +11225,7 @@
       "question": "'electromagnetic induction'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "ഓം",
-        "ഓersted",
+        "ഓസ്റ്റഡ്",
         "ആംപിയർ",
         "മൈക്കൽ ഫാരഡേ"
       ],
@@ -11546,7 +11546,7 @@
     },
     {
       "id": "phy_0963",
-      "question": "SI prefix ചിഹ്നം 'y'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'y'-ന്റെ പേര് ഏത്?",
       "options": [
         "ഫെംടോ",
         "ഡെക",
@@ -11860,10 +11860,10 @@
       "id": "phy_0989",
       "question": "' Kundt's tube' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "pressure മാത്രം",
+        "മർദ്ദം മാത്രം",
         "sound wavelength in air",
-        "mass മാത്രം",
-        "light wavelength മാത്രം"
+        "പിണ്ഡം മാത്രം",
+        "പ്രകാശ തരംഗദൈർഘ്യം മാത്രം"
       ],
       "answer": "sound wavelength in air",
       "difficulty": "hard"
@@ -12005,11 +12005,11 @@
       "question": "'Stark effect'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "V = IR",
-        "electric field-ൽ split",
+        "വൈദ്യുത മണ്ഡലത്തിൽ വിഭജിക്കുന്നത്",
         "F = ma",
-        "magnetic മാത്രം"
+        "കാന്തികത മാത്രം"
       ],
-      "answer": "electric field-ൽ split",
+      "answer": "വൈദ്യുത മണ്ഡലത്തിൽ വിഭജിക്കുന്നത്",
       "difficulty": "hard"
     },
     {
@@ -12470,14 +12470,14 @@
     },
     {
       "id": "phy_1040",
-      "question": "'Gauss electric'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'ഗോസ് നിയമം (വൈദ്യുതി)'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "V = IR",
-        "closed surface flux ∝ enclosed charge",
-        "magnetic monopole",
+        "ആകെ ഫ്ലക്സ് ∝ ആകെ ചാർജ്",
+        "കാന്തിക ഏകധ്രുവം",
         "F = ma"
       ],
-      "answer": "closed surface flux ∝ enclosed charge",
+      "answer": "ആകെ ഫ്ലക്സ് ∝ ആകെ ചാർജ്",
       "difficulty": "hard"
     },
     {
@@ -12568,8 +12568,8 @@
       "id": "phy_1048",
       "question": "'vacuum pump' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "measure mass മാത്രം",
-        "measure temperature മാത്രം",
+        "പിണ്ഡം അളക്കാൻ മാത്രം",
+        "താപനില അളക്കാൻ മാത്രം",
         "remove air",
         "add air മാത്രം"
       ],
@@ -13022,14 +13022,14 @@
     },
     {
       "id": "phy_1086",
-      "question": "'thermodynamics രണ്ടാം നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'താപഗതികത്തിലെ രണ്ടാം നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "F = ma",
-        "entropy കുറയുന്നു",
-        "isolated system entropy വർദ്ധിക്കുന്നു",
+        "എൻട്രോപ്പി കുറയുന്നു",
+        "ഒറ്റപ്പെട്ട വ്യൂഹത്തിന്റെ എൻട്രോപ്പി വർദ്ധിക്കുന്നു",
         "V = IR"
       ],
-      "answer": "isolated system entropy വർദ്ധിക്കുന്നു",
+      "answer": "ഒറ്റപ്പെട്ട വ്യൂഹത്തിന്റെ എൻട്രോപ്പി വർദ്ധിക്കുന്നു",
       "difficulty": "hard"
     },
     {
@@ -13110,7 +13110,7 @@
       "options": [
         "V = IR",
         "colloidal particles scatter light",
-        "refraction മാത്രം",
+        "അപവർത്തനം മാത്രം",
         "F = ma"
       ],
       "answer": "colloidal particles scatter light",
@@ -13183,7 +13183,7 @@
         "mass standard",
         "pressure standard",
         "time standard cesium/hydrogen",
-        "length standard മാത്രം"
+        "നീളം അളക്കാൻ മാത്രം"
       ],
       "answer": "time standard cesium/hydrogen",
       "difficulty": "hard"
@@ -13686,10 +13686,10 @@
       "options": [
         "PV=nRT",
         "ലൂപ്പിൽ V sum=0",
-        "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_algebraic sum = 0",
+        "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_ബീജഗണിത തുക = 0",
         "F=ma"
       ],
-      "answer": "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_algebraic sum = 0",
+      "answer": "ജംഗ്ഷനിൽ പ്രവാഹത്തിന്റെ_ബീജഗണിത തുക = 0",
       "difficulty": "hard"
     },
     {
@@ -13854,8 +13854,8 @@
       "options": [
         "NMR imaging body",
         "X-ray മാത്രം",
-        "ultrasound മാത്രം",
-        "visible മാത്രം"
+        "അൾട്രാസൗണ്ട് മാത്രം",
+        "ദൃശ്യപ്രകാശം മാത്രം"
       ],
       "answer": "NMR imaging body",
       "difficulty": "medium"
@@ -14057,7 +14057,7 @@
       "question": "'first controlled fusion'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "2000s മാത്രം",
-        "1970s only USA",
+        "1970-കളിൽ യു.എസ്.എ-യിൽ മാത്രം",
         "1950s USSR",
         "1890s"
       ],
@@ -14080,9 +14080,9 @@
       "id": "phy_1174",
       "question": "' X-ray diffractometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "liquid structure മാത്രം",
-        "gas structure മാത്രം",
-        "plasma structure മാത്രം",
+        "ദ്രാവക ഘടന മാത്രം",
+        "വാതക ഘടന മാത്രം",
+        "പ്ലാസ്മ ഘടന മാത്രം",
         "crystal structure"
       ],
       "answer": "crystal structure",
@@ -14642,14 +14642,14 @@
     },
     {
       "id": "phy_1222",
-      "question": "'external force ഇല്ലെങ്കിൽ momentum സ്ഥിരം' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ബാഹ്യബലം ഇല്ലെങ്കിൽ ആകെ മൊമെന്റം സ്ഥിരമായിരിക്കും' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ബോയിൽ നിയമം",
         "ഓം നിയമം",
-        "momentum സംരക്ഷണം",
+        "മൊമെന്റം സംരക്ഷണം",
         "കെപ്ലർ മൂന്നാം നിയമം"
       ],
-      "answer": "momentum സംരക്ഷണം",
+      "answer": "മൊമെന്റം സംരക്ഷണം",
       "difficulty": "medium"
     },
     {
@@ -15593,7 +15593,7 @@
       "question": "'FΔt = Δp' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "resonance",
-        "Bernoulli equation",
+        "ബെർണൂലി സമവാക്യം",
         "intensity inverse square",
         "impulse-momentum"
       ],
@@ -15758,7 +15758,7 @@
     },
     {
       "id": "phy_1315",
-      "question": "SI prefix ചിഹ്നം 'E'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'E'-ന്റെ പേര് ഏത്?",
       "options": [
         "മെഗ",
         "പെറ്റ",
@@ -15916,9 +15916,9 @@
       "id": "phy_1328",
       "question": "' atomic absorption spectrometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "pressure മാത്രം",
-        "molecule മാത്രം",
-        "temperature മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "തന്മാത്ര മാത്രം",
+        "താപനില മാത്രം",
         "element concentration"
       ],
       "answer": "element concentration",
@@ -16397,9 +16397,9 @@
       "question": "'eudiometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "gas volume change",
-        "liquid density മാത്രം",
+        "ദ്രാവക സാന്ദ്രത മാത്രം",
         "light spectrum",
-        "solid mass മാത്രം"
+        "ഖര പിണ്ഡം മാത്രം"
       ],
       "answer": "gas volume change",
       "difficulty": "hard"
@@ -16673,9 +16673,9 @@
       "question": "' Van de Graaff generator' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "pressure generator",
-        "high current മാത്രം",
+        "ഉയർന്ന കറന്റ് മാത്രം",
         "high voltage static",
-        "low voltage മാത്രം"
+        "കുറഞ്ഞ വോൾട്ടേജ് മാത്രം"
       ],
       "answer": "high voltage static",
       "difficulty": "medium"
@@ -16927,9 +16927,9 @@
         "E = hf മാത്രം",
         "V = IR",
         "F = ma",
-        "mass defect × c²"
+        "മാസ് ഡിഫെക്ട് × c²"
       ],
-      "answer": "mass defect × c²",
+      "answer": "മാസ് ഡിഫെക്ട് × c²",
       "difficulty": "hard"
     },
     {
@@ -16973,7 +16973,7 @@
       "question": "'Fraunhofer lines'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "solar absorption spectrum",
-        "emission മാത്രം",
+        "ഉദ്വമനം മാത്രം",
         "F = ma",
         "V = IR"
       ],
@@ -18052,10 +18052,10 @@
       "id": "phy_1506",
       "question": "' Newton's rings' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "polarization മാത്രം",
-        "absorption മാത്രം",
+        "ധ്രുവീകരണം മാത്രം",
+        "ശോഷണം മാത്രം",
         "interference demonstrate",
-        "diffraction only setup"
+        "ഡിഫ്രാക്ഷൻ മാത്രം ഉള്ള സെറ്റപ്പ്"
       ],
       "answer": "interference demonstrate",
       "difficulty": "hard"
@@ -18352,10 +18352,10 @@
       "id": "phy_1531",
       "question": "' inclined plane' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "pressure മാത്രം",
+        "മർദ്ദം മാത്രം",
         "component of gravity",
-        "humidity മാത്രം",
-        "temperature മാത്രം"
+        "ഈർപ്പം മാത്രം",
+        "താപനില മാത്രം"
       ],
       "answer": "component of gravity",
       "difficulty": "easy"
@@ -18882,7 +18882,7 @@
       "options": [
         "transformer",
         "Edison thermionic",
-        "momentum സംരക്ഷണം",
+        "മൊമെന്റം സംരക്ഷണം",
         "ഗേ-ലുസാക്ക് നിയമം"
       ],
       "answer": "transformer",
@@ -19254,7 +19254,7 @@
       "options": [
         "charge",
         "precise distance/wavelength",
-        "pressure മാത്രം",
+        "മർദ്ദം മാത്രം",
         "mass"
       ],
       "answer": "precise distance/wavelength",
@@ -19529,11 +19529,11 @@
       "question": "'റേഡിയോ ആക്ടിവിറ്റി'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "റൂതർഫോർഡ്",
-        "മarie ക്യൂറി",
-        "എൻriques ബെക്വറൽ",
+        "മേരി ക്യൂറി",
+        "ഹെൻറി ബെക്വറൽ",
         "ഫെർമി"
       ],
-      "answer": "എൻriques ബെക്വറൽ",
+      "answer": "ഹെൻറി ബെക്വറൽ",
       "difficulty": "medium"
     },
     {
@@ -19625,9 +19625,9 @@
       "question": "' Helmholtz resonator' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "specific frequency absorb",
-        "light മാത്രം",
+        "വെളിച്ചം മാത്രം",
         "all frequencies equally",
-        "pressure മാത്രം"
+        "മർദ്ദം മാത്രം"
       ],
       "answer": "specific frequency absorb",
       "difficulty": "hard"
@@ -20167,7 +20167,7 @@
         "W=F/d",
         "W=mv",
         "W = F·d cos θ",
-        "W=Fd always max"
+        "W=Fd എപ്പോഴും പരമാവധി"
       ],
       "answer": "W = F·d cos θ",
       "difficulty": "medium"
@@ -20344,7 +20344,7 @@
       "id": "phy_1697",
       "question": "'F = Gm₁m₂/r²' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "thermodynamics മൂന്നാം നിയമം",
+        "താപഗതികത്തിലെ മൂന്നാം നിയമം",
         "Kirchhoff voltage",
         "Compton effect",
         "ഗുരുത്വാകർഷണ നിയമം"
@@ -20514,7 +20514,7 @@
       "options": [
         "X-ray മാത്രം",
         "MRI മാത്രം",
-        "radio മാത്രം",
+        "റേഡിയോ തരംഗം മാത്രം",
         "echolocation imaging"
       ],
       "answer": "echolocation imaging",
@@ -20839,7 +20839,7 @@
         "F=ma",
         "E=mc²",
         "PV = nRT",
-        "PV=constant"
+        "PV = സ്ഥിരാങ്കം"
       ],
       "answer": "PV = nRT",
       "difficulty": "medium"
@@ -20990,7 +20990,7 @@
     },
     {
       "id": "phy_1751",
-      "question": "'activity പകുതിയാകാൻ വേണ്ട സമയം' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ആക്ടിവിറ്റി പകുതിയാകാൻ വേണ്ട സമയം' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Hall effect",
         "torque",
@@ -22060,7 +22060,7 @@
       "id": "phy_1840",
       "question": "'magnetometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "electric field മാത്രം",
+        "വൈദ്യുത മണ്ഡലം മാത്രം",
         "magnetic field",
         "temperature",
         "pressure"
@@ -22111,9 +22111,9 @@
         "F=ma",
         "Q=CV മാത്രം",
         "I sum=0",
-        "closed loop-ൽ V-യുടെ sum = 0"
+        "ക്ലോസ്ഡ് ലൂപ്പിലെ വോൾട്ടേജുകളുടെ തുക = 0"
       ],
-      "answer": "closed loop-ൽ V-യുടെ sum = 0",
+      "answer": "ക്ലോസ്ഡ് ലൂപ്പിലെ വോൾട്ടേജുകളുടെ തുക = 0",
       "difficulty": "hard"
     },
     {
@@ -22670,7 +22670,7 @@
     },
     {
       "id": "phy_1891",
-      "question": "SI prefix ചിഹ്നം 'z'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'z'-ന്റെ പേര് ഏത്?",
       "options": [
         "നാനോ",
         "സെപ്ടോ",
@@ -22687,7 +22687,7 @@
         "overpressure protection",
         "overmass protection",
         "resettable overcurrent protection",
-        "overtemperature protection മാത്രം"
+        "അമിത താപനില സംരക്ഷണം മാത്രം"
       ],
       "answer": "resettable overcurrent protection",
       "difficulty": "easy"
@@ -24136,10 +24136,10 @@
       "id": "phy_2013",
       "question": "'wheatstone bridge' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "voltage source മാത്രം",
+        "വോൾട്ടേജ് സ്രോതസ്സ് മാത്രം",
         "precise resistance measure",
-        "capacitance മാത്രം",
-        "frequency മാത്രം"
+        "കപ്പാസിറ്റൻസ് മാത്രം",
+        "ആवृत्ति മാത്രം"
       ],
       "answer": "precise resistance measure",
       "difficulty": "hard"
@@ -24782,7 +24782,7 @@
     },
     {
       "id": "phy_2067",
-      "question": "SI prefix ചിഹ്നം 'G'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'G'-ന്റെ പേര് ഏത്?",
       "options": [
         "മില്ലി",
         "പികോ",
@@ -24881,9 +24881,9 @@
       "question": "' energy meter' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "electrical energy consumed",
-        "mechanical energy മാത്രം",
-        "thermal energy മാത്രം",
-        "pressure energy മാത്രം"
+        "യാന്ത്രിക ഊർജ്ജം മാത്രം",
+        "താപ ഊർജ്ജം മാത്രം",
+        "മർദ്ദ ഊർജ്ജം മാത്രം"
       ],
       "answer": "electrical energy consumed",
       "difficulty": "easy"
@@ -25387,7 +25387,7 @@
         "F = ma",
         "indistinguishable bosons",
         "V = IR",
-        "fermions മാത്രം"
+        "ഫെർമിയോണുകൾ മാത്രം"
       ],
       "answer": "indistinguishable bosons",
       "difficulty": "hard"
@@ -25480,12 +25480,12 @@
       "id": "phy_2125",
       "question": "'ചാrlസ്-ന്റെ നിയമം'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "V/T=constant",
-        "P/T = constant (V fixed)",
-        "PV=constant",
-        "P=constant"
+        "V/T = സ്ഥിരാങ്കം",
+        "P/T (സ്ഥിരാങ്കം, V സ്ഥിരം)",
+        "PV = സ്ഥിരാങ്കം",
+        "P = സ്ഥിരാങ്കം"
       ],
-      "answer": "P/T = constant (V fixed)",
+      "answer": "P/T (സ്ഥിരാങ്കം, V സ്ഥിരം)",
       "difficulty": "medium"
     },
     {
@@ -25733,7 +25733,7 @@
       "question": "'photon wavelength increases' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Compton effect",
-        "Gauss electric",
+        "ഗോസ് നിയമം (വൈദ്യുതി)",
         "കെപ്ലർ മൂന്നാം നിയമം",
         "ഗേ-ലുസാക്ക് നിയമം"
       ],
@@ -26018,7 +26018,7 @@
     },
     {
       "id": "phy_2170",
-      "question": "'natural frequency-ൽ amplitude maximum' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'സ്വാഭാവിക ആവൃത്തിയിൽ ആയാമം പരമാവധി ആകുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ബോയിൽ നിയമം",
         "ഗേ-ലുസാക്ക് നിയമം",
@@ -26058,7 +26058,7 @@
       "options": [
         "pressure digital",
         "temperature digital",
-        "voltage digital മാത്രം",
+        "ഡിജിറ്റൽ വോൾട്ടേജ് മാത്രം",
         "mass digital precise"
       ],
       "answer": "mass digital precise",
@@ -26608,12 +26608,12 @@
       "id": "phy_2219",
       "question": "'half-life'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "activity പകുതിയാകാൻ വേണ്ട സമയം",
+        "ആക്ടിവിറ്റി പകുതിയാകാൻ വേണ്ട സമയം",
         "F = ma",
         "double",
         "quarter"
       ],
-      "answer": "activity പകുതിയാകാൻ വേണ്ട സമയം",
+      "answer": "ആക്ടിവിറ്റി പകുതിയാകാൻ വേണ്ട സമയം",
       "difficulty": "medium"
     },
     {
@@ -27074,14 +27074,14 @@
     },
     {
       "id": "phy_2258",
-      "question": "'isolated system entropy വർദ്ധിക്കുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ഒറ്റപ്പെട്ട വ്യൂഹത്തിന്റെ എൻട്രോപ്പി വർദ്ധിക്കുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ഗുരുത്വാകർഷണ നിയമം",
         "Bose-Einstein statistics",
         "Zeeman effect",
-        "thermodynamics രണ്ടാം നിയമം"
+        "താപഗതികത്തിലെ രണ്ടാം നിയമം"
       ],
-      "answer": "thermodynamics രണ്ടാം നിയമം",
+      "answer": "താപഗതികത്തിലെ രണ്ടാം നിയമം",
       "difficulty": "hard"
     },
     {
@@ -27100,7 +27100,7 @@
       "id": "phy_2260",
       "question": "'bolometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "visible മാത്രം",
+        "ദൃശ്യപ്രകാശം മാത്രം",
         "pressure",
         "sound",
         "infrared radiation power"
@@ -27365,11 +27365,11 @@
       "question": "'കിർchhoff-ന്റെ വോൾട്ടേജ് നിയമം'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
         "Q=CV മാത്രം",
-        "closed loop-ൽ V-യുടെ sum = 0",
+        "ക്ലോസ്ഡ് ലൂപ്പിലെ വോൾട്ടേജുകളുടെ തുക = 0",
         "I sum=0",
         "F=ma"
       ],
-      "answer": "closed loop-ൽ V-യുടെ sum = 0",
+      "answer": "ക്ലോസ്ഡ് ലൂപ്പിലെ വോൾട്ടേജുകളുടെ തുക = 0",
       "difficulty": "hard"
     },
     {
@@ -27662,7 +27662,7 @@
     },
     {
       "id": "phy_2307",
-      "question": "'high speed-ൽ length shortens' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ഉയർന്ന വേഗതയിൽ നീളം കുറയുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ബോയിൽ നിയമം",
         "Lorentz contraction",
@@ -28109,7 +28109,7 @@
       "question": "'Frederick Reines'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "alternating current system",
-        "അതി-ചാലകivity",
+        "അതിചാലകത",
         "Pound-Rebka experiment",
         "neutrino detection"
       ],
@@ -28202,7 +28202,7 @@
     },
     {
       "id": "phy_2352",
-      "question": "'thermodynamics മൂന്നാം നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'താപഗതികത്തിലെ മൂന്നാം നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "V = IR",
         "entropy ∞",
@@ -28216,7 +28216,7 @@
       "id": "phy_2353",
       "question": "' Mach-Zehnder interferometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature shift മാത്രം",
+        "താപനിലയിലെ മാറ്റം മാത്രം",
         "mass shift",
         "pressure shift",
         "phase shift measure"
@@ -28312,10 +28312,10 @@
       "id": "phy_2361",
       "question": "' drift chamber' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature timing മാത്രം",
+        "താപനില സമയം മാത്രം",
         "particle track timing",
-        "pressure timing മാത്രം",
-        "sound timing മാത്രം"
+        "മർദ്ദ സമയം മാത്രം",
+        "ശബ്ദ സമയം മാത്രം"
       ],
       "answer": "particle track timing",
       "difficulty": "hard"
@@ -28457,9 +28457,9 @@
       "question": "'interferometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "interference patterns",
-        "absorption മാത്രം",
-        "refraction മാത്രം",
-        "polarization മാത്രം"
+        "ശോഷണം മാത്രം",
+        "അപവർത്തനം മാത്രം",
+        "ധ്രുവീകരണം മാത്രം"
       ],
       "answer": "interference patterns",
       "difficulty": "hard"
@@ -29486,14 +29486,14 @@
     },
     {
       "id": "phy_2460",
-      "question": "'എർnest റൂതർഫോർഡ്'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
+      "question": "'ഏണസ്റ്റ് റൂതർഫോർഡ്'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "electromagnetic induction",
         "LED (practical red)",
-        "ആറ്റം nuclei model",
+        "ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് മോഡൽ",
         "graphene isolation"
       ],
-      "answer": "ആറ്റം nuclei model",
+      "answer": "ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് മോഡൽ",
       "difficulty": "medium"
     },
     {
@@ -29729,8 +29729,8 @@
       "question": "'cloud chamber' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "charged particle tracks",
-        "temperature മാത്രം",
-        "pressure മാത്രം",
+        "താപനില മാത്രം",
+        "മർദ്ദം മാത്രം",
         "sound"
       ],
       "answer": "charged particle tracks",
@@ -30592,12 +30592,12 @@
       "id": "phy_2552",
       "question": "'ammeter' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "current അളക്കുന്നു",
+        "കറന്റ് അളക്കുന്നു",
         "resistance",
         "capacitance",
         "voltage"
       ],
-      "answer": "current അളക്കുന്നു",
+      "answer": "കറന്റ് അളക്കുന്നു",
       "difficulty": "easy"
     },
     {
@@ -31123,7 +31123,7 @@
         "Lorentz contraction",
         "ഓം നിയമം",
         "inductor energy",
-        "thermodynamics ഒന്നാം നിയമം"
+        "താപഗതികത്തിലെ ഒന്നാം നിയമം"
       ],
       "answer": "inductor energy",
       "difficulty": "hard"
@@ -31422,10 +31422,10 @@
       "options": [
         "nuclear magnetic resonance",
         "conservation of mass (chemistry)",
-        "അതി-ചാലകivity",
+        "അതിചാലകത",
         "electron charge measurement"
       ],
-      "answer": "അതി-ചാലകivity",
+      "answer": "അതിചാലകത",
       "difficulty": "hard"
     },
     {
@@ -31768,7 +31768,7 @@
       "id": "phy_2650",
       "question": "'F = ma' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "momentum സംരക്ഷണം",
+        "മൊമെന്റം സംരക്ഷണം",
         "beat frequency",
         "ന്യൂട്ടന്റെ രണ്ടാം നിയമം",
         "ഓം നിയമം"
@@ -32105,11 +32105,11 @@
       "question": "'Roland Eötvös'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "nuclear fission (interpretation)",
-        "Eötvös experiment (equivalence)",
+        "എട്വസ് പരീക്ഷണം (തുല്യത)",
         "planetary motion laws",
         "first controlled fusion (tokamak milestone)"
       ],
-      "answer": "Eötvös experiment (equivalence)",
+      "answer": "എട്വസ് പരീക്ഷണം (തുല്യത)",
       "difficulty": "hard"
     },
     {
@@ -32454,7 +32454,7 @@
       "options": [
         "quantum state evolution",
         "V = IR",
-        "classical മാത്രം",
+        "ക്ലാസിക്കൽ മാത്രം",
         "F = ma"
       ],
       "answer": "quantum state evolution",
@@ -32570,7 +32570,7 @@
     },
     {
       "id": "phy_2717",
-      "question": "SI prefix ചിഹ്നം 'f'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'f'-ന്റെ പേര് ഏത്?",
       "options": [
         "ഡെക",
         "പെറ്റ",
@@ -32920,19 +32920,19 @@
       "id": "phy_2746",
       "question": "'T → 0 K entropy → 0' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "thermodynamics മൂന്നാം നിയമം",
-        "ഡോപpler effect",
+        "താപഗതികത്തിലെ മൂന്നാം നിയമം",
+        "ഡോപ്ലർ പ്രഭാവം",
         "impulse-momentum",
         "Poiseuille flow"
       ],
-      "answer": "thermodynamics മൂന്നാം നിയമം",
+      "answer": "താപഗതികത്തിലെ മൂന്നാം നിയമം",
       "difficulty": "hard"
     },
     {
       "id": "phy_2747",
       "question": "'Edison thermionic'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "photons മാത്രം",
+        "ഫോട്ടോണുകൾ മാത്രം",
         "V = IR",
         "heated filament emits electrons",
         "F = ma"
@@ -32978,14 +32978,14 @@
     },
     {
       "id": "phy_2751",
-      "question": "'isolated system-ൽ net charge സ്ഥിരം' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ഒറ്റപ്പെട്ട വ്യൂഹത്തിൽ ആകെ ചാർജ് സ്ഥിരമായിരിക്കും' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "blackbody peak Wien",
         "Stefan-Boltzmann",
-        "Bernoulli equation",
-        "charge സംരക്ഷണം"
+        "ബെർണൂലി സമവാക്യം",
+        "ചാർജ് സംരക്ഷണം"
       ],
-      "answer": "charge സംരക്ഷണം",
+      "answer": "ചാർജ് സംരക്ഷണം",
       "difficulty": "medium"
     },
     {
@@ -33053,7 +33053,7 @@
       "question": "'electroscope' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "static charge detect",
-        "magnetic field മാത്രം",
+        "കാന്തിക മണ്ഡലം മാത്രം",
         "pressure",
         "sound"
       ],
@@ -33064,7 +33064,7 @@
       "id": "phy_2758",
       "question": "'ആപതന കോൺ = പ്രതിഫലന കോൺ' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "momentum സംരക്ഷണം",
+        "മൊമെന്റം സംരക്ഷണം",
         "Cathode rays",
         "Tyndall effect",
         "പ്രതിഫലന നിയമം"
@@ -33907,7 +33907,7 @@
         "MRI മാത്രം",
         "CT മാത്രം",
         "positron emission tomography",
-        "visible മാത്രം"
+        "ദൃശ്യപ്രകാശം മാത്രം"
       ],
       "answer": "positron emission tomography",
       "difficulty": "hard"
@@ -34351,7 +34351,7 @@
         "antimatter positron (prediction)",
         "Voyager 1 launch",
         "electromagnetic spectrum (systematic)",
-        "അതി-ചാലകivity"
+        "അതിചാലകത"
       ],
       "answer": "Voyager 1 launch",
       "difficulty": "hard"
@@ -34420,7 +34420,7 @@
       "id": "phy_2871",
       "question": "'F = −kx' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "thermodynamics രണ്ടാം നിയമം",
+        "താപഗതികത്തിലെ രണ്ടാം നിയമം",
         "ഹുക്ക് നിയമം",
         "impulse-momentum",
         "LC oscillation"
@@ -34445,9 +34445,9 @@
       "question": "'torsion balance' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "weak force/torsion measure",
-        "sound മാത്രം",
-        "pressure മാത്രം",
-        "temperature മാത്രം"
+        "ശബ്ദം മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "താപനില മാത്രം"
       ],
       "answer": "weak force/torsion measure",
       "difficulty": "hard"
@@ -34481,7 +34481,7 @@
       "question": "'Charles K. Kao'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "planetary motion laws",
-        "ആറ്റം nuclei model",
+        "ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് മോഡൽ",
         "optical fiber communication",
         "Meissner effect"
       ],
@@ -34706,7 +34706,7 @@
     },
     {
       "id": "phy_2895",
-      "question": "'fermions same quantum state-ൽ രണ്ടും അല്ല' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ഫെർമിയോണുകൾ ഒരേ ക്വാണ്ടം അവസ്ഥയിൽ ഒരുമിച്ച് നിലനിൽക്കില്ല (പൗലി അപവർജന തത്വം)' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "mirror formula",
         "Pauli exclusion",
@@ -35534,7 +35534,7 @@
     },
     {
       "id": "phy_2964",
-      "question": "'感应电流 flux മാറ്റത്തിനെ എതിർക്കുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'പ്രേരിത കറന്റ് ഫ്ലക്സ് മാറ്റത്തിനെ എതിർക്കുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Schrodinger equation",
         "inductor energy",
@@ -35692,8 +35692,8 @@
       "id": "phy_2977",
       "question": "'Doppler effect'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "speed changes മാത്രം",
-        "amplitude മാത്രം",
+        "വേഗതയിലെ മാറ്റങ്ങൾ മാത്രം",
+        "ആയാമം മാത്രം",
         "F=ma",
         "frequency changes with relative motion"
       ],
@@ -35896,9 +35896,9 @@
       "id": "phy_2994",
       "question": "' insulation tester' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "capacitance മാത്രം",
-        "low resistance മാത്രം",
-        "inductance മാത്രം",
+        "കപ്പാസിറ്റൻസ് മാത്രം",
+        "കുറഞ്ഞ പ്രതിരോധം മാത്രം",
+        "ഇൻഡക്റ്റൻസ് മാത്രം",
         "high resistance insulation"
       ],
       "answer": "high resistance insulation",
@@ -36434,7 +36434,7 @@
     },
     {
       "id": "phy_3039",
-      "question": "'എൻriques ബെക്വറൽ'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
+      "question": "'ഹെൻറി ബെക്വറൽ'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
         "nuclear fission (interpretation)",
         "pressure-volume gas law",
@@ -37108,10 +37108,10 @@
       "id": "phy_3095",
       "question": "' dynamometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature measure മാത്രം",
-        "pressure measure മാത്രം",
+        "താപനില അളക്കാൻ മാത്രം",
+        "മർദ്ദം അളക്കാൻ മാത്രം",
         "force/torque measure",
-        "charge measure മാത്രം"
+        "ചാർജ് അളക്കാൻ മാത്രം"
       ],
       "answer": "force/torque measure",
       "difficulty": "medium"
@@ -37706,14 +37706,14 @@
     },
     {
       "id": "phy_3145",
-      "question": "' neutron detector' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
+      "question": "' ന്യൂട്രോൺ detector' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "neutron flux",
-        "proton flux മാത്രം",
-        "electron flux മാത്രം",
-        "photon flux മാത്രം"
+        "ന്യൂട്രോൺ ഫ്ലക്സ്",
+        "പ്രോട്ടോൺ ഫ്ലക്സ് മാത്രം",
+        "ഇലക്ട്രോൺ ഫ്ലക്സ് മാത്രം",
+        "ഫോട്ടോൺ ഫ്ലക്സ് മാത്രം"
       ],
-      "answer": "neutron flux",
+      "answer": "ന്യൂട്രോൺ ഫ്ലക്സ്",
       "difficulty": "hard"
     },
     {
@@ -37723,7 +37723,7 @@
         "pressure spin",
         "nuclear spin environment",
         "temperature spin",
-        "electron spin മാത്രം"
+        "ഇലക്ട്രോൺ സ്പിൻ മാത്രം"
       ],
       "answer": "nuclear spin environment",
       "difficulty": "hard"
@@ -37735,9 +37735,9 @@
         "absolute temperature scale",
         "LED (practical red)",
         "standard model particles (experimental)",
-        "neutron discovery"
+        "ന്യൂട്രോൺ കണ്ടെത്തൽ"
       ],
-      "answer": "neutron discovery",
+      "answer": "ന്യൂട്രോൺ കണ്ടെത്തൽ",
       "difficulty": "medium"
     },
     {
@@ -37850,14 +37850,14 @@
     },
     {
       "id": "phy_3157",
-      "question": "'ആറ്റം nuclei model'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് മോഡൽ'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Dalton",
         "ബോർ",
         "Thomson",
-        "എർnest റൂതർഫോർഡ്"
+        "ഏണസ്റ്റ് റൂതർഫോർഡ്"
       ],
-      "answer": "എർnest റൂതർഫോർഡ്",
+      "answer": "ഏണസ്റ്റ് റൂതർഫോർഡ്",
       "difficulty": "medium"
     },
     {
@@ -37946,7 +37946,7 @@
     },
     {
       "id": "phy_3165",
-      "question": "'അതി-ചാലകivity'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'അതിചാലകത'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Faraday",
         "Heike Kamerlingh Onnes",
@@ -38069,7 +38069,7 @@
       "question": "'stress/strain' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Bohr model",
-        "ഡോപpler effect",
+        "ഡോപ്ലർ പ്രഭാവം",
         "Young modulus",
         "binding energy"
       ],
@@ -38344,9 +38344,9 @@
       "id": "phy_3198",
       "question": "' silicon detector' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature position മാത്രം",
-        "sound position മാത്രം",
-        "pressure position മാത്രം",
+        "താപനില സ്ഥാനം മാത്രം",
+        "ശബ്ദ സ്ഥാനം മാത്രം",
+        "മർദ്ദ സ്ഥാനം മാത്രം",
         "particle hit position"
       ],
       "answer": "particle hit position",
@@ -38546,14 +38546,14 @@
     },
     {
       "id": "phy_3215",
-      "question": "'Bernoulli equation'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'ബെർണൂലി സമവാക്യം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "V = IR",
         "F = ma",
-        "P + ½ρv² + ρgh = constant",
-        "P = constant മാത്രം"
+        "P + ½ρv² + ρgh (സ്ഥിരാങ്കം)",
+        "P = സ്ഥിരാങ്കം മാത്രം"
       ],
-      "answer": "P + ½ρv² + ρgh = constant",
+      "answer": "P + ½ρv² + ρgh (സ്ഥിരാങ്കം)",
       "difficulty": "hard"
     },
     {
@@ -38966,14 +38966,14 @@
     },
     {
       "id": "phy_3250",
-      "question": "'ഫാരadays感应'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'ഫാരഡെയുടെ വിദ്യുത്കാന്തിക പ്രേരണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "F = ma",
         "V = IR",
         "PV = nRT",
-        "flux മാറ്റത്തിന്റെ നിരക്കിൽ EMF"
+        "ഫ്ലക്സ് മാറ്റത്തിന്റെ നിരക്കിൽ EMF ഉണ്ടാകുന്നു"
       ],
-      "answer": "flux മാറ്റത്തിന്റെ നിരക്കിൽ EMF",
+      "answer": "ഫ്ലക്സ് മാറ്റത്തിന്റെ നിരക്കിൽ EMF ഉണ്ടാകുന്നു",
       "difficulty": "hard"
     },
     {
@@ -39026,7 +39026,7 @@
     },
     {
       "id": "phy_3255",
-      "question": "SI prefix ചിഹ്നം 'p'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'p'-ന്റെ പേര് ഏത്?",
       "options": [
         "പികോ",
         "സെപ്റ്റ",
@@ -39043,7 +39043,7 @@
         "റൂതർഫോർഡ്",
         "നീൽസ് ബോർ",
         "Thomson",
-        "ഷródinger"
+        "ഷ്രോഡിഞ്ചർ"
       ],
       "answer": "നീൽസ് ബോർ",
       "difficulty": "medium"
@@ -39211,7 +39211,7 @@
         "graphene isolation",
         "MRI principle",
         "gravitational waves detection 2015",
-        "അതി-ചാലകivity"
+        "അതിചാലകത"
       ],
       "answer": "MRI principle",
       "difficulty": "hard"
@@ -39242,7 +39242,7 @@
     },
     {
       "id": "phy_3273",
-      "question": "'Bernoulli equation'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'ബെർണൂലി സമവാക്യം'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Pascal",
         "Archimedes",
@@ -39364,9 +39364,9 @@
       "id": "phy_3283",
       "question": "'multimeter' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature മാത്രം",
-        "mass മാത്രം",
-        "pressure മാത്രം",
+        "താപനില മാത്രം",
+        "പിണ്ഡം മാത്രം",
+        "മർദ്ദം മാത്രം",
         "V, I, R അളക്കുന്നു"
       ],
       "answer": "V, I, R അളക്കുന്നു",
@@ -39436,9 +39436,9 @@
       "id": "phy_3289",
       "question": "'radar' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "light മാത്രം",
+        "വെളിച്ചം മാത്രം",
         "gravity",
-        "sound മാത്രം",
+        "ശബ്ദം മാത്രം",
         "distant objects detect (radio)"
       ],
       "answer": "distant objects detect (radio)",
@@ -39580,10 +39580,10 @@
       "id": "phy_3301",
       "question": "' spark chamber' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "light tracks മാത്രം",
+        "പ്രകാശ പാതകൾ മാത്രം",
         "particle tracks in gas",
-        "liquid tracks മാത്രം",
-        "solid tracks മാത്രം"
+        "ദ്രാവക പാതകൾ മാത്രം",
+        "ഖര പാതകൾ മാത്രം"
       ],
       "answer": "particle tracks in gas",
       "difficulty": "hard"
@@ -39830,14 +39830,14 @@
     },
     {
       "id": "phy_3322",
-      "question": "'closed surface flux ∝ enclosed charge' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ആകെ ഫ്ലക്സ് ∝ ആകെ ചാർജ്' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "simple pendulum period",
         "angular momentum",
-        "Gauss electric",
+        "ഗോസ് നിയമം (വൈദ്യുതി)",
         "Hall effect"
       ],
-      "answer": "Gauss electric",
+      "answer": "ഗോസ് നിയമം (വൈദ്യുതി)",
       "difficulty": "hard"
     },
     {
@@ -40046,7 +40046,7 @@
     },
     {
       "id": "phy_3340",
-      "question": "SI prefix ചിഹ്നം 'μ'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'μ'-ന്റെ പേര് ഏത്?",
       "options": [
         "മൈക്രോ",
         "ഫെംടോ",
@@ -40154,14 +40154,14 @@
     },
     {
       "id": "phy_3349",
-      "question": "'ഡോപpler effect'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'ഡോപ്ലർ പ്രഭാവം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "relative motion-ൽ frequency shift",
+        "ആപേക്ഷിക ചലനത്തിൽ ആവൃത്തി വ്യത്യാസം ഉണ്ടാകുന്നു",
         "V = IR",
         "F = ma",
-        "frequency മാറില്ല"
+        "ആവൃത്തി മാറില്ല"
       ],
-      "answer": "relative motion-ൽ frequency shift",
+      "answer": "ആപേക്ഷിക ചലനത്തിൽ ആവൃത്തി വ്യത്യാസം ഉണ്ടാകുന്നു",
       "difficulty": "medium"
     },
     {
@@ -40624,7 +40624,7 @@
       "id": "phy_3388",
       "question": "'Wu experiment team'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "Eötvös experiment (equivalence)",
+        "എട്വസ് പരീക്ഷണം (തുല്യത)",
         "റേഡിയം",
         "Pauli exclusion principle",
         "parity violation (weak)"
@@ -41406,7 +41406,7 @@
       "options": [
         "temperature",
         "mass",
-        "density മാത്രം",
+        "സാന്ദ്രത മാത്രം",
         "gas pressure difference"
       ],
       "answer": "gas pressure difference",
@@ -41702,7 +41702,7 @@
     },
     {
       "id": "phy_3478",
-      "question": "SI prefix ചിഹ്നം 'c'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'c'-ന്റെ പേര് ഏത്?",
       "options": [
         "സെപ്റ്റ",
         "ഡെസി",
@@ -42364,9 +42364,9 @@
       "id": "phy_3533",
       "question": "'refractometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "pressure മാത്രം",
-        "density മാത്രം",
-        "mass മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "സാന്ദ്രത മാത്രം",
+        "പിണ്ഡം മാത്രം",
         "refractive index"
       ],
       "answer": "refractive index",
@@ -42400,7 +42400,7 @@
       "id": "phy_3536",
       "question": "'Jack Kilby & Robert Noyce'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "ആറ്റം nuclei model",
+        "ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് മോഡൽ",
         "integrated circuit",
         "Josephson junction",
         "Cavendish experiment (G)"
@@ -43744,12 +43744,12 @@
       "id": "phy_3648",
       "question": "'Kirchhoff voltage'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "loop-ൽ ΣV = 0",
+        "ലൂപ്പിൽ ΣV = 0",
         "PV = nRT",
         "ΣI = 0 മാത്രം",
         "F = ma"
       ],
-      "answer": "loop-ൽ ΣV = 0",
+      "answer": "ലൂപ്പിൽ ΣV = 0",
       "difficulty": "hard"
     },
     {
@@ -44018,14 +44018,14 @@
     },
     {
       "id": "phy_3671",
-      "question": "'relative motion-ൽ frequency shift' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ആപേക്ഷിക ചലനത്തിൽ ആവൃത്തി വ്യത്യാസം ഉണ്ടാകുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "ഡോപpler effect",
+        "ഡോപ്ലർ പ്രഭാവം",
         "Bohr model",
         "Ampere circuital",
         "beat frequency"
       ],
-      "answer": "ഡോപpler effect",
+      "answer": "ഡോപ്ലർ പ്രഭാവം",
       "difficulty": "medium"
     },
     {
@@ -44129,7 +44129,7 @@
       "question": "'H = I²Rt' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "ജൗൾ ചൂട് നിയമം",
-        "energy സംരക്ഷണം",
+        "ഊർജ്ജ സംരക്ഷണം",
         "magnification",
         "SHM acceleration"
       ],
@@ -44174,7 +44174,7 @@
     },
     {
       "id": "phy_3684",
-      "question": "SI prefix ചിഹ്നം 'd'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'd'-ന്റെ പേര് ഏത്?",
       "options": [
         "ആറ്റോ",
         "ഹെക്ടോ",
@@ -45018,7 +45018,7 @@
       "options": [
         "simple pendulum period",
         "Zeeman effect",
-        "thermodynamics ഒന്നാം നിയമം",
+        "താപഗതികത്തിലെ ഒന്നാം നിയമം",
         "Franck-Hertz"
       ],
       "answer": "Franck-Hertz",
@@ -45400,7 +45400,7 @@
       "id": "phy_3786",
       "question": "'microscope' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "X-rays മാത്രം",
+        "എക്സ്-റേകൾ മാത്രം",
         "radio waves",
         "small objects magnify",
         "gravity"
@@ -45509,8 +45509,8 @@
       "question": "'anemometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "earthquake",
-        "pressure മാത്രം",
-        "temperature മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "താപനില മാത്രം",
         "wind speed"
       ],
       "answer": "wind speed",
@@ -46086,7 +46086,7 @@
       "options": [
         "special relativity",
         "electron charge measurement",
-        "neutron discovery",
+        "ന്യൂട്രോൺ കണ്ടെത്തൽ",
         "Archimedes principle"
       ],
       "answer": "special relativity",
@@ -46710,7 +46710,7 @@
       "options": [
         "LIGO first detection year",
         "X-കിരണങ്ങൾ",
-        "ആറ്റം nuclei model",
+        "ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് മോഡൽ",
         "James Webb Space Telescope launch"
       ],
       "answer": "James Webb Space Telescope launch",
@@ -46961,9 +46961,9 @@
       "question": "'signal generator' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "known frequency signal",
-        "pressure മാത്രം",
+        "മർദ്ദം മാത്രം",
         "static mass",
-        "humidity മാത്രം"
+        "ഈർപ്പം മാത്രം"
       ],
       "answer": "known frequency signal",
       "difficulty": "hard"
@@ -47236,12 +47236,12 @@
       "id": "phy_3939",
       "question": "'Bernoulli principle'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "P=constant മാത്രം",
+        "P = സ്ഥിരാങ്കം മാത്രം",
         "F=ma",
-        "P + ½ρv² + ρgh = constant",
+        "P + ½ρv² + ρgh (സ്ഥിരാങ്കം)",
         "PV=nRT"
       ],
-      "answer": "P + ½ρv² + ρgh = constant",
+      "answer": "P + ½ρv² + ρgh (സ്ഥിരാങ്കം)",
       "difficulty": "hard"
     },
     {
@@ -47812,10 +47812,10 @@
       "id": "phy_3987",
       "question": "'സമാന സമയം സമാന വിസ്തീർണ്ണം' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Gauss electric",
+        "ഗോസ് നിയമം (വൈദ്യുതി)",
         "കെപ്ലർ രണ്ടാം നിയമം",
         "Kirchhoff voltage",
-        "thermodynamics മൂന്നാം നിയമം"
+        "താപഗതികത്തിലെ മൂന്നാം നിയമം"
       ],
       "answer": "കെപ്ലർ രണ്ടാം നിയമം",
       "difficulty": "hard"
@@ -47980,10 +47980,10 @@
       "id": "phy_4001",
       "question": "'synchrotron' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "sound മാത്രം",
-        "humidity മാത്രം",
+        "ശബ്ദം മാത്രം",
+        "ഈർപ്പം മാത്രം",
         "intense X-ray source",
-        "pressure മാത്രം"
+        "മർദ്ദം മാത്രം"
       ],
       "answer": "intense X-ray source",
       "difficulty": "hard"
@@ -48221,9 +48221,9 @@
       "question": "' Langmuir probe' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "plasma density/temperature",
-        "solid density മാത്രം",
-        "gas pressure മാത്രം",
-        "liquid density മാത്രം"
+        "ഖര സാന്ദ്രത മാത്രം",
+        "വാതക മർദ്ദം മാത്രം",
+        "ദ്രാവക സാന്ദ്രത മാത്രം"
       ],
       "answer": "plasma density/temperature",
       "difficulty": "hard"
@@ -48256,7 +48256,7 @@
       "id": "phy_4024",
       "question": "'oscilloscope' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature മാത്രം",
+        "താപനില മാത്രം",
         "pressure display",
         "voltage waveform display",
         "mass display"
@@ -49070,14 +49070,14 @@
     },
     {
       "id": "phy_4092",
-      "question": "'charge സംരക്ഷണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'ചാർജ് സംരക്ഷണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "charge സൃഷ്ടിക്കാം",
-        "isolated system-ൽ net charge സ്ഥിരം",
+        "ചാർജ് സൃഷ്ടിക്കാം",
+        "ഒറ്റപ്പെട്ട വ്യൂഹത്തിൽ ആകെ ചാർജ് സ്ഥിരമായിരിക്കും",
         "PV = nRT",
         "F = ma"
       ],
-      "answer": "isolated system-ൽ net charge സ്ഥിരം",
+      "answer": "ഒറ്റപ്പെട്ട വ്യൂഹത്തിൽ ആകെ ചാർജ് സ്ഥിരമായിരിക്കും",
       "difficulty": "medium"
     },
     {
@@ -49286,7 +49286,7 @@
     },
     {
       "id": "phy_4110",
-      "question": "'junction-ൽ ΣI_in = ΣI_out' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ജംഗ്ഷനിൽ ΣI_in = ΣI_out' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Kirchhoff current",
         "Zeeman effect",
@@ -49504,9 +49504,9 @@
       "id": "phy_4128",
       "question": "' FTIR spectrometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "radio മാത്രം",
-        "visible മാത്രം",
-        "pressure മാത്രം",
+        "റേഡിയോ തരംഗം മാത്രം",
+        "ദൃശ്യപ്രകാശം മാത്രം",
+        "മർദ്ദം മാത്രം",
         "infrared absorption spectrum"
       ],
       "answer": "infrared absorption spectrum",
@@ -49972,7 +49972,7 @@
       "id": "phy_4167",
       "question": "'I = I₀ cos²θ' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "charge സംരക്ഷണം",
+        "ചാർജ് സംരക്ഷണം",
         "Pauli exclusion",
         "Malus law",
         "Edison thermionic"
@@ -50202,7 +50202,7 @@
       "options": [
         "Stark effect",
         "Coulomb's law",
-        "Eötvös experiment (equivalence)",
+        "എട്വസ് പരീക്ഷണം (തുല്യത)",
         "Pound-Rebka experiment"
       ],
       "answer": "Pound-Rebka experiment",
@@ -50212,10 +50212,10 @@
       "id": "phy_4187",
       "question": "' bubble chamber' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "geology മാത്രം",
+        "ഭൂഗർഭശാസ്ത്രം മാത്രം",
         "particle physics 1950s",
-        "chemistry മാത്രം",
-        "biology മാത്രം"
+        "രസതന്ത്രം മാത്രം",
+        "ജീവശാസ്ത്രം മാത്രം"
       ],
       "answer": "particle physics 1950s",
       "difficulty": "hard"
@@ -50260,7 +50260,7 @@
       "id": "phy_4191",
       "question": "' variac' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "variable DC മാത്രം",
+        "വ്യതിയാനമുള്ള ഡി.സി. മാത്രം",
         "variable pressure",
         "variable temperature",
         "variable AC voltage"
@@ -50666,7 +50666,7 @@
     },
     {
       "id": "phy_4225",
-      "question": "SI prefix ചിഹ്നം 'k'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'k'-ന്റെ പേര് ഏത്?",
       "options": [
         "സെന്റി",
         "കിലോ",
@@ -50680,12 +50680,12 @@
       "id": "phy_4226",
       "question": "'Zeeman effect'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "magnetic field-ൽ spectral lines split",
+        "കാന്തിക മണ്ഡലത്തിൽ സ്പെക്ട്രൽ ലൈനുകൾ വിഭജിക്കുന്നത് (സീമാൻ പ്രഭാവം)",
         "V = IR",
         "F = ma",
         "merge"
       ],
-      "answer": "magnetic field-ൽ spectral lines split",
+      "answer": "കാന്തിക മണ്ഡലത്തിൽ സ്പെക്ട്രൽ ലൈനുകൾ വിഭജിക്കുന്നത് (സീമാൻ പ്രഭാവം)",
       "difficulty": "hard"
     },
     {
@@ -50908,8 +50908,8 @@
       "id": "phy_4245",
       "question": "'sonar' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "radio മാത്രം",
-        "light മാത്രം",
+        "റേഡിയോ തരംഗം മാത്രം",
+        "വെളിച്ചം മാത്രം",
         "X-ray",
         "underwater detection (sound)"
       ],
@@ -51162,7 +51162,7 @@
       "options": [
         "temperature change",
         "pressure change",
-        "huge mass മാത്രം",
+        "വലിയ പിണ്ഡം മാത്രം",
         "tiny mass change"
       ],
       "answer": "tiny mass change",
@@ -51868,12 +51868,12 @@
       "id": "phy_4325",
       "question": "'Pauli exclusion'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "bosons മാത്രം",
-        "fermions same quantum state-ൽ രണ്ടും അല്ല",
+        "ബോസോണുകൾ മാത്രം",
+        "ഫെർമിയോണുകൾ ഒരേ ക്വാണ്ടം അവസ്ഥയിൽ ഒരുമിച്ച് നിലനിൽക്കില്ല (പൗലി അപവർജന തത്വം)",
         "F = ma",
         "V = IR"
       ],
-      "answer": "fermions same quantum state-ൽ രണ്ടും അല്ല",
+      "answer": "ഫെർമിയോണുകൾ ഒരേ ക്വാണ്ടം അവസ്ഥയിൽ ഒരുമിച്ച് നിലനിൽക്കില്ല (പൗലി അപവർജന തത്വം)",
       "difficulty": "hard"
     },
     {
@@ -51881,7 +51881,7 @@
       "question": "'Cathode rays'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "electrons are particles",
-        "protons മാത്രം",
+        "പ്രോട്ടോണുകൾ മാത്രം",
         "F = ma",
         "PV = nRT"
       ],
@@ -51941,11 +51941,11 @@
       "question": "'Lorentz contraction'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "F = ma",
-        "high speed-ൽ length shortens",
+        "ഉയർന്ന വേഗതയിൽ നീളം കുറയുന്നു",
         "lengthens",
         "V = IR"
       ],
-      "answer": "high speed-ൽ length shortens",
+      "answer": "ഉയർന്ന വേഗതയിൽ നീളം കുറയുന്നു",
       "difficulty": "hard"
     },
     {
@@ -52565,9 +52565,9 @@
       "question": "'mass spectrometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "isotope mass ratio",
-        "pressure മാത്രം",
-        "temperature മാത്രം",
-        "voltage മാത്രം"
+        "മർദ്ദം മാത്രം",
+        "താപനില മാത്രം",
+        "വോൾട്ടേജ് മാത്രം"
       ],
       "answer": "isotope mass ratio",
       "difficulty": "hard"
@@ -52802,7 +52802,7 @@
     },
     {
       "id": "phy_4403",
-      "question": "'thermodynamics ഒന്നാം നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'താപഗതികത്തിലെ ഒന്നാം നിയമം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
         "V = IR",
         "F = ma",
@@ -55000,10 +55000,10 @@
       "id": "phy_4586",
       "question": "'LIGO' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "sound മാത്രം",
+        "ശബ്ദം മാത്രം",
         "gravitational waves detect",
-        "radio waves മാത്രം",
-        "light മാത്രം"
+        "റേഡിയോ തരംഗങ്ങൾ മാത്രം",
+        "വെളിച്ചം മാത്രം"
       ],
       "answer": "gravitational waves detect",
       "difficulty": "hard"
@@ -55022,7 +55022,7 @@
     },
     {
       "id": "phy_4588",
-      "question": "'mass defect × c²' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'മാസ് ഡിഫെക്ട് × c²' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "binding energy",
         "Tyndall effect",
@@ -55322,14 +55322,14 @@
     },
     {
       "id": "phy_4613",
-      "question": "'P + ½ρv² + ρgh = constant' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'P + ½ρv² + ρgh (സ്ഥിരാങ്കം)' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "Bernoulli equation",
+        "ബെർണൂലി സമവാക്യം",
         "ബർണോളി തത്ത്വം",
         "ഗുരുത്വാകർഷണ നിയമം",
         "power pure resistor AC"
       ],
-      "answer": "Bernoulli equation",
+      "answer": "ബെർണൂലി സമവാക്യം",
       "difficulty": "hard"
     },
     {
@@ -55408,9 +55408,9 @@
       "id": "phy_4620",
       "question": "' load cell' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "charge transducer മാത്രം",
-        "temperature transducer മാത്രം",
-        "pressure transducer മാത്രം",
+        "ചാർജ് ട്രാൻസ്ഡ്യൂസർ മാത്രം",
+        "താപനില ട്രാൻസ്ഡ്യൂസർ മാത്രം",
+        "മർദ്ദ ട്രാൻസ്ഡ്യൂസർ മാത്രം",
         "force/weight transducer"
       ],
       "answer": "force/weight transducer",
@@ -55516,10 +55516,10 @@
       "id": "phy_4629",
       "question": "' strain gauge' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "charge deformation മാത്രം",
+        "ചാർജ് രൂപമാറ്റം മാത്രം",
         "deformation measure",
-        "pressure deformation മാത്രം",
-        "temperature deformation മാത്രം"
+        "മർദ്ദ രൂപമാറ്റം മാത്രം",
+        "താപനില രൂപമാറ്റം മാത്രം"
       ],
       "answer": "deformation measure",
       "difficulty": "hard"
@@ -55841,7 +55841,7 @@
       "question": "'telescope' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "pressure",
-        "microscopic cells മാത്രം",
+        "സൂക്ഷ്മകോശങ്ങൾ മാത്രം",
         "distant objects observe",
         "current"
       ],
@@ -56106,7 +56106,7 @@
       "options": [
         "PV = nRT",
         "carrier density and sign measure",
-        "temperature മാത്രം",
+        "താപനില മാത്രം",
         "F = ma"
       ],
       "answer": "carrier density and sign measure",
@@ -56177,9 +56177,9 @@
       "question": "' Cavendish balance' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "gravitational constant G",
-        "pressure മാത്രം",
-        "electric constant മാത്രം",
-        "magnetic മാത്രം"
+        "മർദ്ദം മാത്രം",
+        "വൈദ്യുത സ്ഥിരാങ്കം മാത്രം",
+        "കാന്തികത മാത്രം"
       ],
       "answer": "gravitational constant G",
       "difficulty": "hard"
@@ -56774,7 +56774,7 @@
     },
     {
       "id": "phy_4734",
-      "question": "'electric field-ൽ split' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'വൈദ്യുത മണ്ഡലത്തിൽ വിഭജിക്കുന്നത്' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "impulse-momentum",
         "Stark effect",
@@ -56849,9 +56849,9 @@
       "question": "' Fabry-Perot interferometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "high resolution spectrum",
-        "temperature മാത്രം",
-        "mass spectrum മാത്രം",
-        "pressure മാത്രം"
+        "താപനില മാത്രം",
+        "മാസ് സ്പെക്ട്രം മാത്രം",
+        "മർദ്ദം മാത്രം"
       ],
       "answer": "high resolution spectrum",
       "difficulty": "hard"
@@ -57064,12 +57064,12 @@
       "id": "phy_4758",
       "question": "'ഗേ-lussac'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "P/T=constant",
-        "PV=constant",
-        "V/T = constant (P fixed)",
-        "V=constant"
+        "P/T = സ്ഥിരാങ്കം",
+        "PV = സ്ഥിരാങ്കം",
+        "V/T (സ്ഥിരാങ്കം, P സ്ഥിരം)",
+        "V സ്ഥിരാങ്കം"
       ],
-      "answer": "V/T = constant (P fixed)",
+      "answer": "V/T (സ്ഥിരാങ്കം, P സ്ഥിരം)",
       "difficulty": "medium"
     },
     {
@@ -57782,7 +57782,7 @@
     },
     {
       "id": "phy_4818",
-      "question": "'അർദ്ധചാലകor diode'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
+      "question": "'അർദ്ധചാലക ഡയോഡ്'-ന് ബന്ധപ്പെട്ട ശാസ്ത്രജ്ഞൻ ഏത്?",
       "options": [
         "Faraday",
         "Shockley",
@@ -57892,12 +57892,12 @@
       "id": "phy_4827",
       "question": "'ചാrlസിന്റെ നിയമം'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "P/T = constant (V fixed)",
-        "PV=constant",
-        "P=constant",
-        "V/T=constant"
+        "P/T (സ്ഥിരാങ്കം, V സ്ഥിരം)",
+        "PV = സ്ഥിരാങ്കം",
+        "P = സ്ഥിരാങ്കം",
+        "V/T = സ്ഥിരാങ്കം"
       ],
-      "answer": "P/T = constant (V fixed)",
+      "answer": "P/T (സ്ഥിരാങ്കം, V സ്ഥിരം)",
       "difficulty": "medium"
     },
     {
@@ -57930,7 +57930,7 @@
       "options": [
         "overpressure protection",
         "overmass protection",
-        "overtemperature protection മാത്രം",
+        "അമിത താപനില സംരക്ഷണം മാത്രം",
         "overcurrent protection"
       ],
       "answer": "overcurrent protection",
@@ -58434,7 +58434,7 @@
       "options": [
         "electron",
         "nuclear fission (interpretation)",
-        "Bernoulli equation",
+        "ബെർണൂലി സമവാക്യം",
         "Ampere's law (current)"
       ],
       "answer": "nuclear fission (interpretation)",
@@ -58639,7 +58639,7 @@
         "half-life",
         "Kirchhoff voltage",
         "Stefan-Boltzmann",
-        "ഡോപpler effect"
+        "ഡോപ്ലർ പ്രഭാവം"
       ],
       "answer": "Stefan-Boltzmann",
       "difficulty": "hard"
@@ -59285,8 +59285,8 @@
       "question": "'λ_max inversely proportional T' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Malus law",
-        "thermodynamics മൂന്നാം നിയമം",
-        "energy സംരക്ഷണം",
+        "താപഗതികത്തിലെ മൂന്നാം നിയമം",
+        "ഊർജ്ജ സംരക്ഷണം",
         "blackbody peak Wien"
       ],
       "answer": "blackbody peak Wien",
@@ -59356,12 +59356,12 @@
       "id": "phy_4949",
       "question": "'വoltmeter' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "വoltage അളക്കുന്നു",
+        "വോൾട്ടേജ് അളക്കുന്നു",
         "current",
         "power",
         "resistance"
       ],
-      "answer": "വoltage അളക്കുന്നു",
+      "answer": "വോൾട്ടേജ് അളക്കുന്നു",
       "difficulty": "easy"
     },
     {
@@ -60438,7 +60438,7 @@
       "options": [
         "temperature convert to pressure",
         "mass convert to pressure",
-        "voltage convert to pressure മാത്രം",
+        "വോൾട്ടേജിനെ മർദ്ദമാക്കി മാറ്റാൻ മാത്രം",
         "pressure/acceleration convert to voltage"
       ],
       "answer": "pressure/acceleration convert to voltage",
@@ -60520,10 +60520,10 @@
       "id": "phy_5046",
       "question": "' Raman spectrometer' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "temperature spectrum മാത്രം",
+        "താപനില സ്പെക്ട്രം മാത്രം",
         "molecular vibration spectrum",
-        "mass spectrum മാത്രം",
-        "pressure spectrum മാത്രം"
+        "മാസ് സ്പെക്ട്രം മാത്രം",
+        "മർദ്ദ സ്പെക്ട്രം മാത്രം"
       ],
       "answer": "molecular vibration spectrum",
       "difficulty": "hard"
@@ -60818,7 +60818,7 @@
     },
     {
       "id": "phy_5071",
-      "question": "'loop-ൽ ΣV = 0' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ലൂപ്പിൽ ΣV = 0' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "Kirchhoff voltage",
         "ഗേ-ലുസാക്ക് നിയമം",
@@ -60977,11 +60977,11 @@
       "question": "'ohmmeter' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
         "current",
-        "resistance അളക്കുന്നു",
+        "പ്രതിരോധം അളക്കുന്നു",
         "voltage",
         "power"
       ],
-      "answer": "resistance അളക്കുന്നു",
+      "answer": "പ്രതിരോധം അളക്കുന്നു",
       "difficulty": "easy"
     },
     {
@@ -61828,12 +61828,12 @@
       "id": "phy_5155",
       "question": "'Combined gas law'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "PV=constant മാത്രം",
+        "PV = സ്ഥിരാങ്കം മാത്രം",
         "P/T മാത്രം",
-        "PV/T = constant",
+        "PV/T = സ്ഥിരാങ്കം",
         "V/T മാത്രം"
       ],
-      "answer": "PV/T = constant",
+      "answer": "PV/T = സ്ഥിരാങ്കം",
       "difficulty": "medium"
     },
     {
@@ -61924,10 +61924,10 @@
       "id": "phy_5163",
       "question": "'cyclotron' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "optical മാത്രം",
-        "measure mass മാത്രം",
+        "ഒപ്റ്റിക്കൽ മാത്രം",
+        "പിണ്ഡം അളക്കാൻ മാത്രം",
         "accelerate charged particles",
-        "measure voltage മാത്രം"
+        "വോൾട്ടേജ് അളക്കാൻ മാത്രം"
       ],
       "answer": "accelerate charged particles",
       "difficulty": "hard"
@@ -62162,14 +62162,14 @@
     },
     {
       "id": "phy_5183",
-      "question": "'flux മാറ്റത്തിന്റെ നിരക്കിൽ EMF' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
+      "question": "'ഫ്ലക്സ് മാറ്റത്തിന്റെ നിരക്കിൽ EMF ഉണ്ടാകുന്നു' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
         "കെപ്ലർ ഒന്നാം നിയമം",
         "സ്നെൽ നിയമം",
         "Rutherford model",
-        "ഫാരadays感应"
+        "ഫാരഡെയുടെ വിദ്യുത്കാന്തിക പ്രേരണം"
       ],
-      "answer": "ഫാരadays感应",
+      "answer": "ഫാരഡെയുടെ വിദ്യുത്കാന്തിക പ്രേരണം",
       "difficulty": "hard"
     },
     {
@@ -62210,14 +62210,14 @@
     },
     {
       "id": "phy_5187",
-      "question": "'energy സംരക്ഷണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'ഊർജ്ജ സംരക്ഷണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "energy സൃഷ്ടിയോ നശനമോ ഇല്ല",
+        "ഊർജ്ജം സൃഷ്ടിക്കാനോ നശിപ്പിക്കാനോ കഴിയില്ല",
         "V = IR",
         "F = ma",
-        "energy സൃഷ്ടിക്കാം"
+        "ഊർജ്ജം സൃഷ്ടിക്കാം"
       ],
-      "answer": "energy സൃഷ്ടിയോ നശനമോ ഇല്ല",
+      "answer": "ഊർജ്ജം സൃഷ്ടിക്കാനോ നശിപ്പിക്കാനോ കഴിയില്ല",
       "difficulty": "easy"
     },
     {
@@ -62522,7 +62522,7 @@
     },
     {
       "id": "phy_5213",
-      "question": "SI prefix ചിഹ്നം 'T'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'T'-ന്റെ പേര് ഏത്?",
       "options": [
         "പെറ്റ",
         "സെപ്റ്റ",
@@ -62671,7 +62671,7 @@
         "high voltage pulses",
         "mass coil",
         "pressure coil",
-        "constant DC മാത്രം"
+        "സ്ഥിരമായ ഡി.സി. മാത്രം"
       ],
       "answer": "high voltage pulses",
       "difficulty": "hard"
@@ -62766,8 +62766,8 @@
       "options": [
         "measure mass",
         "change AC voltage",
-        "DC only device",
-        "optical മാത്രം"
+        "ഡി.സി. ഉപകരണം മാത്രം",
+        "ഒപ്റ്റിക്കൽ മാത്രം"
       ],
       "answer": "change AC voltage",
       "difficulty": "medium"
@@ -62834,7 +62834,7 @@
     },
     {
       "id": "phy_5239",
-      "question": "SI prefix ചിഹ്നം 'Y'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'Y'-ന്റെ പേര് ഏത്?",
       "options": [
         "യോട്ട",
         "കിലോ",
@@ -63712,10 +63712,10 @@
       "id": "phy_5312",
       "question": "'particle accelerator LHC' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "low energy മാത്രം",
-        "sound മാത്രം",
+        "കുറഞ്ഞ ഊർജ്ജം മാത്രം",
+        "ശബ്ദം മാത്രം",
         "high energy collisions",
-        "optical മാത്രം"
+        "ഒപ്റ്റിക്കൽ മാത്രം"
       ],
       "answer": "high energy collisions",
       "difficulty": "hard"
@@ -64252,7 +64252,7 @@
       "id": "phy_5357",
       "question": "'Franck-Hertz'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "continuous മാത്രം",
+        "തുടർച്ചയായത് മാത്രം",
         "F = ma",
         "discrete atomic energy levels",
         "V = IR"
@@ -64526,14 +64526,14 @@
     },
     {
       "id": "phy_5380",
-      "question": "'momentum സംരക്ഷണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
+      "question": "'മൊമെന്റം സംരക്ഷണം'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "momentum എപ്പോഴും വർദ്ധിക്കുന്നു",
+        "മൊമെന്റം എപ്പോഴും വർദ്ധിക്കുന്നു",
         "F = ma",
         "V = IR",
-        "external force ഇല്ലെങ്കിൽ momentum സ്ഥിരം"
+        "ബാഹ്യബലം ഇല്ലെങ്കിൽ ആകെ മൊമെന്റം സ്ഥിരമായിരിക്കും"
       ],
-      "answer": "external force ഇല്ലെങ്കിൽ momentum സ്ഥിരം",
+      "answer": "ബാഹ്യബലം ഇല്ലെങ്കിൽ ആകെ മൊമെന്റം സ്ഥിരമായിരിക്കും",
       "difficulty": "medium"
     },
     {
@@ -65248,7 +65248,7 @@
       "id": "phy_5440",
       "question": "'V = IR' ഏത് നിയമവുമായി ബന്ധപ്പെട്ടത്?",
       "options": [
-        "ഡോപpler effect",
+        "ഡോപ്ലർ പ്രഭാവം",
         "half-life",
         "ഓം നിയമം",
         "ആർക്കിമിഡീസ് തത്ത്വം"
@@ -65548,7 +65548,7 @@
       "id": "phy_5465",
       "question": "'Brewster angle'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "always unpolarized",
+        "എപ്പോഴും പോളറൈസ് ചെയ്യാത്തത്",
         "V = IR",
         "reflected light polarized",
         "F = ma"
@@ -65992,12 +65992,12 @@
       "id": "phy_5502",
       "question": "'ആർക്കിമീഡീസ് സിദ്ധാന്തം'-ന്റെ പ്രസ്താവന/സമീകരണം?",
       "options": [
-        "പ്ലവന ബലം = പി displacements fluid weight",
+        "പ്ലവന ബലം = പി ആദേശം ചെയ്യപ്പെട്ട ദ്രാവകത്തിന്റെ ഭാരം",
         "V=IR",
         "object weight",
         "F=ma"
       ],
-      "answer": "പ്ലവന ബലം = പി displacements fluid weight",
+      "answer": "പ്ലവന ബലം = പി ആദേശം ചെയ്യപ്പെട്ട ദ്രാവകത്തിന്റെ ഭാരം",
       "difficulty": "medium"
     },
     {
@@ -66196,9 +66196,9 @@
       "id": "phy_5519",
       "question": "'electron microscope' ഉപകരണം എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
       "options": [
-        "pressure മാത്രം",
-        "sound മാത്രം",
-        "radio waves മാത്രം",
+        "മർദ്ദം മാത്രം",
+        "ശബ്ദം മാത്രം",
+        "റേഡിയോ തരംഗങ്ങൾ മാത്രം",
         "very small structure"
       ],
       "answer": "very small structure",
@@ -66208,12 +66208,12 @@
       "id": "phy_5520",
       "question": "'resonance'-ന്റെ സൂത്രം/വിശേഷണം ഏത്?",
       "options": [
-        "natural frequency-ൽ amplitude maximum",
+        "സ്വാഭാവിക ആവൃത്തിയിൽ ആയാമം പരമാവധി ആകുന്നു",
         "V = IR",
         "minimum amplitude",
         "F = ma"
       ],
-      "answer": "natural frequency-ൽ amplitude maximum",
+      "answer": "സ്വാഭാവിക ആവൃത്തിയിൽ ആയാമം പരമാവധി ആകുന്നു",
       "difficulty": "medium"
     },
     {
@@ -66882,7 +66882,7 @@
       "options": [
         "humidity",
         "pressure",
-        "low temperature മാത്രം",
+        "കുറഞ്ഞ താപനില മാത്രം",
         "high temperature remote"
       ],
       "answer": "high temperature remote",
@@ -66914,7 +66914,7 @@
     },
     {
       "id": "phy_5579",
-      "question": "SI prefix ചിഹ്നം 'm'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'm'-ന്റെ പേര് ഏത്?",
       "options": [
         "സെപ്റ്റ",
         "മില്ലി",
@@ -66986,7 +66986,7 @@
     },
     {
       "id": "phy_5585",
-      "question": "SI prefix ചിഹ്നം 'n'-ന്റെ പേര് ഏത്?",
+      "question": "SI പ്രിഫിക്സ് ചിഹ്നം 'n'-ന്റെ പേര് ഏത്?",
       "options": [
         "നാനോ",
         "ഡെക",
@@ -67480,7 +67480,7 @@
       "id": "phy_5626",
       "question": "'Léon Foucault'-ന്റെ പ്രധാന സംഭാവന ഏത്?",
       "options": [
-        "Bernoulli equation",
+        "ബെർണൂലി സമവാക്യം",
         "Foucault pendulum (Earth rotation)",
         "first nuclear reactor",
         "World Wide Web"

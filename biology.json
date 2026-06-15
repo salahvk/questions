@@ -1578,7 +1578,7 @@
       "options": [
         "move mucus particles",
         "growth division",
-        "water നടത്തion",
+        "ജല ചാലനം",
         "support neurons"
       ],
       "answer": "support neurons",
@@ -4361,11 +4361,11 @@
       "question": "ഹൃദയശാസ്ത്രത്തിൽ 'ഹൃദയത്തിലെ Bundle of His'-ന്റെ ഉത്തരം ഏത്?",
       "options": [
         "reduced coronary blood flow",
-        "delay നടത്തion",
+        "വൈകിയുള്ള ചാലനം",
         "semilunar valves close",
-        "ventricles-ilēkku നടത്തion"
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം"
       ],
-      "answer": "ventricles-ilēkku നടത്തion",
+      "answer": "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
       "difficulty": "hard"
     },
     {
@@ -6306,7 +6306,7 @@
       "options": [
         "reduced coronary blood flow",
         "right AV valve",
-        "ventricles നടത്ത",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "pulmonary circulation pump"
       ],
       "answer": "right AV valve",
@@ -7866,7 +7866,7 @@
       "options": [
         "growth division",
         "support bind protect",
-        "impulse നടത്തion",
+        "ആവേഗ ചാലനം",
         "dead support cells"
       ],
       "answer": "dead support cells",
@@ -9089,7 +9089,7 @@
       "question": "'collenchyma plant tissue' — കലാശാസ്ത്രത്തിൽ — ഏത്?",
       "options": [
         "protection",
-        "impulse നടത്തion",
+        "ആവേഗ ചാലനം",
         "intervertebral disc",
         "support flexibility"
       ],
@@ -9712,12 +9712,12 @@
       "id": "bio_0816",
       "question": "'phloem tissue function' — കലാശാസ്ത്രത്തിൽ — ഏത്?",
       "options": [
-        "food നടത്തion",
+        "ഭക്ഷണ ചാലനം",
         "bone to bone",
         "protective bark",
         "move mucus particles"
       ],
-      "answer": "food നടത്തion",
+      "answer": "ഭക്ഷണ ചാലനം",
       "difficulty": "medium"
     },
     {
@@ -9762,7 +9762,7 @@
       "options": [
         "marine food chain harm",
         "biological oxygen demand water pollution",
-        "നടത്ത mercury cadmium",
+        "മെർക്കുറി, കാഡ്മിയം എന്നിവ",
         "Rachel Carson"
       ],
       "answer": "biological oxygen demand water pollution",
@@ -10075,7 +10075,7 @@
         "blood pumped per beat",
         "contraction phase",
         "72/min",
-        "delay നടത്തion"
+        "വൈകിയുള്ള ചാലനം"
       ],
       "answer": "blood pumped per beat",
       "difficulty": "medium"
@@ -12390,10 +12390,10 @@
       "options": [
         "left AV valve",
         "tricuspid and bicuspid",
-        "ventricles-ilēkku നടത്തion",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "increased afterload"
       ],
-      "answer": "ventricles-ilēkku നടത്തion",
+      "answer": "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
       "difficulty": "hard"
     },
     {
@@ -12750,10 +12750,10 @@
       "options": [
         "growth division",
         "contraction movement",
-        "water നടത്തion",
+        "ജല ചാലനം",
         "bone to bone"
       ],
-      "answer": "water നടത്തion",
+      "answer": "ജല ചാലനം",
       "difficulty": "medium"
     },
     {
@@ -20066,7 +20066,7 @@
     },
     {
       "id": "bio_1681",
-      "question": "കലാശാസ്ത്രത്തിൽ 'food നടത്തion' ഏതിനെ കுறിക്കുന്നു?",
+      "question": "കലാശാസ്ത്രത്തിൽ 'ഭക്ഷണ ചാലനം' ഏതിനെ കுறിക്കുന്നു?",
       "options": [
         "meristematic tissue plants",
         "phloem tissue function",
@@ -21746,7 +21746,7 @@
     },
     {
       "id": "bio_1823",
-      "question": "'water നടത്തion' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "question": "'ജല ചാലനം' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
         "കലാ തരം — പേശി",
         "xylem tissue function",
@@ -24484,7 +24484,7 @@
       "id": "bio_2052",
       "question": "'ഹൃദയത്തിലെ stroke volume' — ഹൃദയശാസ്ത്രത്തിൽ — ഏത്?",
       "options": [
-        "ventricles നടത്ത",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "relaxation phase",
         "atrial depolarization",
         "blood pumped per beat"
@@ -25586,7 +25586,7 @@
     },
     {
       "id": "bio_2144",
-      "question": "'impulse നടത്തion' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "question": "'ആവേഗ ചാലനം' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
         "epidermis plant tissue",
         "ligament",
@@ -25804,12 +25804,12 @@
       "id": "bio_2162",
       "question": "'xylem tissue function' — കലാശാസ്ത്രത്തിൽ — ഏത്?",
       "options": [
-        "water നടത്തion",
+        "ജല ചാലനം",
         "intervertebral disc",
         "protection",
         "fat storage"
       ],
-      "answer": "water നടത്തion",
+      "answer": "ജല ചാലനം",
       "difficulty": "medium"
     },
     {
@@ -25961,7 +25961,7 @@
       "question": "കലാശാസ്ത്രത്തിൽ 'elastic cartilage'?",
       "options": [
         "ear epiglottis",
-        "food നടത്തion",
+        "ഭക്ഷണ ചാലനം",
         "protective bark",
         "growth division"
       ],
@@ -26671,9 +26671,9 @@
         "aortic and pulmonary",
         "blood pumped per beat",
         "increased afterload",
-        "delay നടത്തion"
+        "വൈകിയുള്ള ചാലനം"
       ],
-      "answer": "delay നടത്തion",
+      "answer": "വൈകിയുള്ള ചാലനം",
       "difficulty": "hard"
     },
     {
@@ -28529,7 +28529,7 @@
       "question": "ഹൃദയശാസ്ത്രത്തിൽ 'ഹൃദയത്തിലെ diastole'?",
       "options": [
         "ventricular repolarization",
-        "ventricles നടത്ത",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "relaxation phase",
         "reduced coronary blood flow"
       ],
@@ -32104,7 +32104,7 @@
       "id": "bio_2692",
       "question": "ഹൃദയശാസ്ത്രത്തിൽ 'ഹൃദയത്തിലെ pulmonary valve'?",
       "options": [
-        "delay നടത്തion",
+        "വൈകിയുള്ള ചാലനം",
         "right ventricle to pulmonary artery",
         "relaxation phase",
         "AV valves close"
@@ -36113,7 +36113,7 @@
       "question": "ഹൃദയശാസ്ത്രത്തിൽ 'ഹൃദയത്തിലെ right ventricle'-ന്റെ ഉത്തരം ഏത്?",
       "options": [
         "SA node",
-        "delay നടത്തion",
+        "വൈകിയുള്ള ചാലനം",
         "ventricular contraction spread",
         "pulmonary circulation pump"
       ],
@@ -36354,7 +36354,7 @@
       "options": [
         "protection",
         "support bind protect",
-        "impulse നടത്തion",
+        "ആവേഗ ചാലനം",
         "move mucus particles"
       ],
       "answer": "support bind protect",
@@ -36438,7 +36438,7 @@
       "options": [
         "semilunar valves close",
         "diastole",
-        "delay നടത്തion",
+        "വൈകിയുള്ള ചാലനം",
         "AV valves close"
       ],
       "answer": "diastole",
@@ -38009,11 +38009,11 @@
       "question": "ഹൃദയശാസ്ത്രത്തിൽ 'ഹൃദയത്തിലെ Bundle of His'?",
       "options": [
         "reduced coronary blood flow",
-        "ventricles-ilēkku നടത്തion",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "semilunar valves close",
         "AV valves close"
       ],
-      "answer": "ventricles-ilēkku നടത്തion",
+      "answer": "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
       "difficulty": "hard"
     },
     {
@@ -38234,7 +38234,7 @@
     },
     {
       "id": "bio_3209",
-      "question": "'നടത്ത mercury cadmium' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "question": "'മെർക്കുറി, കാഡ്മിയം എന്നിവ' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
         "പാരിസ്ഥിതി മലിനീകരണത്തിൽ 'heavy metal pollution'",
         "പാരിസ്ഥിതി മലിനീകരണത്തിൽ 'noise pollution unit'",
@@ -38426,7 +38426,7 @@
     },
     {
       "id": "bio_3225",
-      "question": "'food നടത്തion' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "question": "'ഭക്ഷണ ചാലനം' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
         "blood tissue type",
         "phloem tissue function",
@@ -38695,7 +38695,7 @@
         "semilunar valves close",
         "diastole",
         "SA node",
-        "delay നടത്തion"
+        "വൈകിയുള്ള ചാലനം"
       ],
       "answer": "semilunar valves close",
       "difficulty": "medium"
@@ -42379,9 +42379,9 @@
         "systemic circulation pump",
         "blood pumped per beat",
         "SA node",
-        "delay നടത്തion"
+        "വൈകിയുള്ള ചാലനം"
       ],
-      "answer": "delay നടത്തion",
+      "answer": "വൈകിയുള്ള ചാലനം",
       "difficulty": "hard"
     },
     {
@@ -43386,7 +43386,7 @@
       "options": [
         "fat storage",
         "tendons ligaments",
-        "impulse നടത്തion",
+        "ആവേഗ ചാലനം",
         "fills space between organs"
       ],
       "answer": "fat storage",
@@ -43410,7 +43410,7 @@
       "options": [
         "left AV valve",
         "AV valves close",
-        "ventricles-ilēkku നടത്തion",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "blood pumped per beat"
       ],
       "answer": "AV valves close",
@@ -46214,7 +46214,7 @@
     },
     {
       "id": "bio_3878",
-      "question": "പാരിസ്ഥിതി മലിനീകരണത്തിൽ 'നടത്ത mercury cadmium' ഏതിനെ കுறിക്കുന്നു?",
+      "question": "പാരിസ്ഥിതി മലിനീകരണത്തിൽ 'മെർക്കുറി, കാഡ്മിയം എന്നിവ' ഏതിനെ കுறിക്കുന്നു?",
       "options": [
         "പാരിസ്ഥിതി മലിനീകരണത്തിൽ 'Kyoto Protocol'",
         "പാരിസ്ഥിതി മലിനീകരണത്തിൽ 'D DT effect'",
@@ -47227,7 +47227,7 @@
         "semilunar valves close",
         "ventricular repolarization",
         "ventricular systole",
-        "ventricles നടത്ത"
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം"
       ],
       "answer": "ventricular systole",
       "difficulty": "hard"
@@ -47956,12 +47956,12 @@
       "id": "bio_4025",
       "question": "'Bundle of His' — ഹൃദയശാസ്ത്രത്തിൽ — ഏത്?",
       "options": [
-        "ventricles നടത്ത",
+        "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
         "ventricular contraction spread",
         "ventricular repolarization",
         "SA node"
       ],
-      "answer": "ventricles നടത്ത",
+      "answer": "വെൻട്രിക്കിളുകളിലേക്കുള്ള ചാലനം",
       "difficulty": "hard"
     },
     {
@@ -51018,7 +51018,7 @@
       "options": [
         "dense outer bone",
         "fills space between organs",
-        "impulse നടത്തion",
+        "ആവേഗ ചാലനം",
         "bone to bone"
       ],
       "answer": "dense outer bone",
@@ -54943,7 +54943,7 @@
       "options": [
         "fills space between organs",
         "dense outer bone",
-        "water നടത്തion",
+        "ജല ചാലനം",
         "nose trachea"
       ],
       "answer": "fills space between organs",
@@ -55326,7 +55326,7 @@
       "question": "ഹൃദയശാസ്ത്രത്തിൽ 'ഹൃദയത്തിലെ pacemaker'?",
       "options": [
         "ventricular systole",
-        "delay നടത്തion",
+        "വൈകിയുള്ള ചാലനം",
         "SA node",
         "ventricular depolarization"
       ],
@@ -60906,11 +60906,11 @@
       "question": "കലാശാസ്ത്രത്തിൽ 'xylem tissue function'?",
       "options": [
         "tendons ligaments",
-        "water നടത്തion",
+        "ജല ചാലനം",
         "fat storage",
         "support flexibility"
       ],
-      "answer": "water നടത്തion",
+      "answer": "ജല ചാലനം",
       "difficulty": "medium"
     },
     {
@@ -60953,12 +60953,12 @@
       "id": "bio_5112",
       "question": "കലാശാസ്ത്രത്തിൽ 'കലാ തരം — നാഡീ'?",
       "options": [
-        "impulse നടത്തion",
+        "ആവേഗ ചാലനം",
         "ear epiglottis",
         "contraction movement",
         "intervertebral disc"
       ],
-      "answer": "impulse നടത്തion",
+      "answer": "ആവേഗ ചാലനം",
       "difficulty": "medium"
     },
     {
