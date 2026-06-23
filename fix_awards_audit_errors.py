@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fix confirmed factual errors in awards.json from audit (sections 15–30)."""
+"""Fix confirmed factual errors in awards.json from audit (sections 15–34)."""
 
 from __future__ import annotations
 
@@ -375,6 +375,158 @@ def fix_by_id(questions: dict[str, dict]) -> None:
     for qid, (answer, options) in phalke.items():
         if qid in questions:
             set_q(questions[qid], answer=answer, options=options)
+
+    # --- Lalit Kala Akademi: impossible / unverified pairings ---
+    if "aca_0306" in questions:
+        set_q(
+            questions["aca_0306"],
+            question="'ജാമിനി റോയ്' ലളിത കലാ അക്കാദമി ഫെലോഷിപ്പ് ലഭിച്ച വർഷം?",
+            options=["1955", "1973", "1988", "1967"],
+            answer="1955",
+        )
+
+    if "aca_1609" in questions:
+        set_q(
+            questions["aca_1609"],
+            question="ലളിത കലാ അക്കാദമി ഫെലോഷിപ്പിന്റെ ആദ്യ ഗ്രഹീത ആരാണ്?",
+            options=[
+                "ജാമിനി റോയ്",
+                "നന്ദലാൽ ബോസ്",
+                "എം.എഫ്. ഹുസൈൻ",
+                "കെ.ജി. സുബ്രമണ്യൻ",
+            ],
+            answer="ജാമിനി റോയ്",
+        )
+
+    if "aca_0503" in questions:
+        set_q(
+            questions["aca_0503"],
+            question="'ജെഹാംഗീർ സബാവാല' ലളിത കലാ രത്ന (ഫെലോഷിപ്പ്) ലഭിച്ച വർഷം?",
+            options=["2007", "1966", "1979", "1958"],
+            answer="2007",
+        )
+
+    if "aca_1388" in questions:
+        set_q(
+            questions["aca_1388"],
+            question="'ശാങ്കോ ചൗധുരി' ലളിത കലാ അവാർഡ് ലഭിച്ച വർഷം?",
+            options=["1956", "1966", "1983", "1964"],
+            answer="1956",
+        )
+
+    # aca_0270, aca_1278 (M.F. Husain 1966) verified — no change
+
+    # --- Sports: Dhyan Chand ≠ Khel Ratna winner ---
+    if "aca_2263" in questions:
+        set_q(
+            questions["aca_2263"],
+            question="'മേജർ ധ്യാൻചന്ദ് ഖേൽരത്ന' പേരിട്ടത് ഏത് കായിക മേഖലയിലെ ഇതിഹാസത്തെ ആദരിക്കാനാണ്?",
+            options=["ഫുട്ബോൾ", "ബോക്സിംഗ്", "ഹോക്കി", "ക്രിക്കറ്റ്"],
+            answer="ഹോക്കി",
+        )
+
+    # --- General / gallantry / Phalke / Magsaysay / ALMA ---
+    if "aca_2740" in questions:
+        set_q(
+            questions["aca_2740"],
+            question="'ലെഫ്റ്റനന്റ് അരുണ് കേത്രപാൾ' ലഭിച്ച യുദ്ധകാല വീരതാ ബഹുമതി ഏതാണ്?",
+            options=[
+                "കീർത്തി ചക്രം",
+                "മഹാവീര ചക്രം",
+                "അശോക ചക്രം",
+                "പരമവീര ചക്രം",
+            ],
+            answer="പരമവീര ചക്രം",
+        )
+
+    for qid in ("aca_2363", "aca_3037"):
+        if qid in questions:
+            replace_in_q(
+                questions[qid],
+                "ഫ്ലൈറ്റ് ലെഫ്റ്റനന്റ് നവീൻ നാഗ്പാൾ",
+                "ലെഫ്റ്റനന്റ് അരുണ് കേത്രപാൾ",
+            )
+
+    if "aca_2262" in questions:
+        set_q(
+            questions["aca_2262"],
+            question="'അശോക് കുമാർ' ലഭിച്ച ഇന്ത്യൻ ചലച്ചിത്രത്തിലെ പരമോന്നത ബഹുമതി ഏതാണ്?",
+            options=[
+                "ഐഎഫ്എ അവാർഡ്",
+                "ഫിലിംഫെയർ അവാർഡ്",
+                "ദാദാസാഹേബ് ഫാൽക്കെ അവാർഡ്",
+                "നാഷണൽ ഫിലിം അവാർഡ്",
+            ],
+            answer="ദാദാസാഹേബ് ഫാൽക്കെ അവാർഡ്",
+        )
+
+    if "aca_0749" in questions:
+        replace_in_q(questions["aca_0749"], "(ടെന്നീസ്)", "(ബോക്സിംഗ്)")
+
+    if "aca_2028" in questions:
+        set_q(
+            questions["aca_2028"],
+            question="'ഹരഗോബിംദ് ഖോരാൻ'-ന് ലഭിച്ച ശാസ്ത്ര പുരസ്കാരം?",
+            options=[
+                "ഇന്ത്യൻ സയൻസ്",
+                "ലാസ്കർ അവാർഡ്",
+                "നോബൽ വൈദ്യശാസ്ത്രം",
+                "ഫീൽഡ്സ് മെഡൽ",
+            ],
+            answer="നോബൽ വൈദ്യശാസ്ത്രം",
+        )
+
+    if "aca_3070" in questions:
+        set_q(
+            questions["aca_3070"],
+            question="1996-ൽ റാമോൺ മാഗ്സസെ അവാർഡ് (കമ്യൂണിറ്റി ലീഡർഷിപ്പ്) നേടിയ ഇന്ത്യൻ വ്യക്തി ആരാണ്?",
+            options=[
+                "വിനോബാ ഭാവെ",
+                "രവീന്ദ്രനാഥ ടാഗോർ",
+                "ദാദാ അഥവാലെ",
+                "അനു ആചാര്യ",
+            ],
+            answer="ദാദാ അഥവാലെ",
+        )
+
+    if "aca_0079" in questions:
+        set_q(
+            questions["aca_0079"],
+            question="1996-ൽ റാമോൺ മാഗ്സസെ അവാർഡ് (ഗവൺമെന്റ് സർവീസ്) നേടിയ ഇന്ത്യൻ വ്യക്തി ആരാണ്?",
+            options=[
+                "കൈലാഷ് സത്യാർഥി",
+                "ബാബാ അമ്തേ",
+                "ടി. എൻ. ശേഷൻ",
+                "കുൽന്ദർ കൗർ",
+            ],
+            answer="ടി. എൻ. ശേഷൻ",
+        )
+
+    if "aca_2203" in questions:
+        set_q(
+            questions["aca_2203"],
+            question="5 മില്യൺ സ്വീഡിഷ് ക്രോണർ സമ്മാന തുക നൽകുന്ന പ്രധാന സാഹിത്യ പുരസ്കാരം ഏതാണ്?",
+            options=[
+                "ആസ്ട്രഡ് ലിൻഡ്ഗ്രെൻ മെമ്മോറിയൽ അവാർഡ്",
+                "ബുക്കർ പ്രൈസ്",
+                "നോബൽ സമ്മാനം",
+                "പുലിറ്റ്സർ സമ്മാനം",
+            ],
+            answer="ആസ്ട്രഡ് ലിൻഡ്ഗ്രെൻ മെമ്മോറിയൽ അവാർഡ്",
+        )
+
+    if "aca_0755" in questions:
+        set_q(
+            questions["aca_0755"],
+            question="5 മില്യൺ സ്വീഡിഷ് ക്രോണർ സമ്മാന തുക നൽകുന്ന സാഹിത്യ പുരസ്കാരം ഏതാണ്?",
+            options=[
+                "പുലിറ്റ്സർ സമ്മാനം",
+                "ബുക്കർ പ്രൈസ്",
+                "നോബൽ സമ്മാനം",
+                "ആസ്ട്രഡ് ലിൻഡ്ഗ്രെൻ മെമ്മോറിയൽ അവാർഡ്",
+            ],
+            answer="ആസ്ട്രഡ് ലിൻഡ്ഗ്രെൻ മെമ്മോറിയൽ അവാർഡ്",
+        )
 
 
 def main() -> None:
