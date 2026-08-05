@@ -1,6 +1,13 @@
 {
   "editions": [
     {
+      "id": "2026-07",
+      "year": 2026,
+      "month": 7,
+      "label": "July 2026",
+      "slug": "current_affairs_2026_07"
+    },
+    {
       "id": "2026-06",
       "year": 2026,
       "month": 6,
