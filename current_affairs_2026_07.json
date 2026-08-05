@@ -59,6 +59,90 @@
       ],
       "answer": "100",
       "difficulty": "medium"
+    },
+    {
+      "id": "ca_2026_07_006",
+      "question": "2026 ജൂലൈയിൽ NEET-UG പരീക്ഷാ ചോർച്ചക്കെതിരെ രാജ്യവ്യാപക പ്രതിക്ഷോഭം നയിച്ച യുവജന പ്രസ്ഥാനത്തിന്റെ പേര് എന്താണ്?",
+      "options": [
+        "Cockroach Janta Party",
+        "അഖിൽ ഭാരതീയ വിദ്യാർത്ഥി പരിഷത്ത്",
+        "വിദ്യാർത്ഥി ഫെഡറേഷൻ ഓഫ് ഇന്ത്യ",
+        "നാഷണൽ വിദ്യാർത്ഥി യൂണിയൻ ഓഫ് ഇന്ത്യ"
+      ],
+      "answer": "Cockroach Janta Party",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca_2026_07_007",
+      "question": "2026 ജൂലൈ 29-ന് ലോകസഭ പാസാക്കിയ പരീക്ഷാ ചോർച്ച നിയമ പരിഷ്കാര ബില്ല് ഏത് നിയമത്തെ ശക്തിപ്പെടുത്തുന്നു?",
+      "options": [
+        "Public Examinations (Prevention of Unfair Means) Act, 2024",
+        "National Medical Commission Act, 2019",
+        "Right to Education Act, 2009",
+        "University Grants Commission Act, 1956"
+      ],
+      "answer": "Public Examinations (Prevention of Unfair Means) Act, 2024",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca_2026_07_008",
+      "question": "2026 ജൂലൈ 28-ന് NEET-UG 2026 പരീക്ഷാ ചോർച്ച വ്യവഹാരത്തിൽ CBI സമർപ്പിച്ച ചാർജ്ഷീറ്റിലെ പ്രതികളുടെ എണ്ണം എത്ര?",
+      "options": [
+        "13",
+        "47",
+        "360",
+        "22"
+      ],
+      "answer": "13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca_2026_07_009",
+      "question": "2026 ജൂലൈയിൽ ഇന്തോനേഷ്യയിൽ നടന്ന ദ്വിപക്ഷ ഉച്ചകോടിയിൽ ഇന്ത്യ ഇന്തോനേഷ്യക്ക് നൽകാൻ കരാർ ചെയ്ത സ്വദേശ നിർമിത വിക്ഷേപണി ഏതാണ്?",
+      "options": [
+        "Astra Mk-1",
+        "BrahMos",
+        "Akash",
+        "Nag"
+      ],
+      "answer": "Astra Mk-1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca_2026_07_010",
+      "question": "2026 ജൂലൈ 6-ന് ഇന്ത്യ ആതിഥ്യം വഹിച്ച അന്തർരാഷ്ട്ര ഉപാധിസമ്മേളൻ ഏതാണ്?",
+      "options": [
+        "BRICS 2026",
+        "G20 Summit 2026",
+        "SAARC Summit 2026",
+        "Commonwealth Summit 2026"
+      ],
+      "answer": "BRICS 2026",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca_2026_07_011",
+      "question": "2026 ജൂലൈ 9-ന് മെൽബൺ ഉച്ചകോടിയിൽ നടന്ന ഇന്ത്യ-ഓസ്ട്രേലിയ ഉച്ചകോടിയിൽ സാധാരണ ആണവ കരാർ അനുസരിച്ച് അന്തിമമാക്കിയ Administrative Arrangement പ്രകാരം ഓസ്ട്രേലിയ ഇന്ത്യയിലേക്ക് കയറ്റുമതി ചെയ്യാൻ അനുവദിച്ച ഖനിജം ഏതാണ്?",
+      "options": [
+        "യുറേനിയം",
+        "തോറിയം",
+        "ലിറ്റിയം",
+        "കോബാൾട്ട്"
+      ],
+      "answer": "യുറേനിയം",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca_2026_07_012",
+      "question": "2026 ജൂലൈ 31-ന് കേരളത്തിലെ യു.ഡി.എഫ്. സംയോജന സമിതി ഇടക്കാല അനുമതി നൽകിയ കേന്ദ്ര സർക്കാർ സ്കൂൾ പദ്ധതിയുടെ പേര് എന്താണ്?",
+      "options": [
+        "PM SHRI",
+        "Samagra Shiksha",
+        "RMSA",
+        "Sarva Shiksha Abhiyan"
+      ],
+      "answer": "PM SHRI",
+      "difficulty": "medium"
     }
   ]
 }

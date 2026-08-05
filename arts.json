@@ -1,16 +1,17 @@
 {
   "questions": [
     {
-      "id": "art_0001",
-      "question": "ഹോമായി വ്യാരവാല ഏത് മേഖല/സ്ഥാപനവുമായി ബന്ധപ്പെട്ട ഫോട്ടോഗ്രാഫർ?",
+      "id": "art_1787",
+      "question": "ലോകപ്രശസ്തമായ 'മോണാലിസ' എന്ന ചിത്രം വരച്ചത് ആരാണ്?",
       "options": [
-        "ഭാരതത്തിലെ ആദ്യ വനിതാ ഫോട്ടോഗ്രാഫർ",
-        "ഫോട്ടോ പുസ്തകം",
-        "ഫോട്ടോ ജേർണലിസം",
-        "മാഗ്നം ഫോട്ടോ ഏജൻസി"
+        "ലിയോനാർഡോ ഡാവിഞ്ചി",
+        "പാബ്ലോ പിക്കാസോ",
+        "വിൻസെന്റ് വാൻഗോഗ്",
+        "മൈക്കലാഞ്ചലോ"
       ],
-      "answer": "ഭാരതത്തിലെ ആദ്യ വനിതാ ഫോട്ടോഗ്രാഫർ",
-      "difficulty": "medium"
+      "answer": "ലിയോനാർഡോ ഡാവിഞ്ചി",
+      "difficulty": "easy",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/330px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
     },
     {
       "id": "art_0002",
@@ -21433,17 +21434,16 @@
       "difficulty": "medium"
     },
     {
-      "id": "art_1787",
-      "question": "ലോകപ്രശസ്തമായ 'മോണാലിസ' എന്ന ചിത്രം വരച്ചത് ആരാണ്?",
+      "id": "art_0001",
+      "question": "ഹോമായി വ്യാരവാല ഏത് മേഖല/സ്ഥാപനവുമായി ബന്ധപ്പെട്ട ഫോട്ടോഗ്രാഫർ?",
       "options": [
-        "ലിയോനാർഡോ ഡാവിഞ്ചി",
-        "പാബ്ലോ പിക്കാസോ",
-        "വിൻസെന്റ് വാൻഗോഗ്",
-        "മൈക്കലാഞ്ചലോ"
+        "ഭാരതത്തിലെ ആദ്യ വനിതാ ഫോട്ടോഗ്രാഫർ",
+        "ഫോട്ടോ പുസ്തകം",
+        "ഫോട്ടോ ജേർണലിസം",
+        "മാഗ്നം ഫോട്ടോ ഏജൻസി"
       ],
-      "answer": "ലിയോനാർഡോ ഡാവിഞ്ചി",
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/330px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+      "answer": "ഭാരതത്തിലെ ആദ്യ വനിതാ ഫോട്ടോഗ്രാഫർ",
+      "difficulty": "medium"
     },
     {
       "id": "art_1788",

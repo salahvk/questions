@@ -1,16 +1,17 @@
 {
   "questions": [
     {
-      "id": "bio_0001",
-      "question": "'എസ്ട്രജൻ' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
+      "id": "bio_4524",
+      "question": "സസ്യങ്ങളിൽ ഭക്ഷണം ഉൽപാദിപ്പിക്കുന്ന പ്രക്രിയ ഏതാണ്?",
       "options": [
-        "വൃഷണം",
-        "അണ്ഡാശയം",
-        "പൈനിയൽ",
-        "പിറ്റ്യൂട്ടറി"
+        "പ്രകാശസംശ്ലേഷണം",
+        "ശ്വസനം",
+        "പരാഗണം",
+        "വിത്തിടൽ"
       ],
-      "answer": "അണ്ഡാശയം",
-      "difficulty": "hard"
+      "answer": "പ്രകാശസംശ്ലേഷണം",
+      "difficulty": "easy",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg"
     },
     {
       "id": "bio_0002",
@@ -53927,17 +53928,16 @@
       "difficulty": "medium"
     },
     {
-      "id": "bio_4524",
-      "question": "സസ്യങ്ങളിൽ ഭക്ഷണം ഉൽപാദിപ്പിക്കുന്ന പ്രക്രിയ ഏതാണ്?",
+      "id": "bio_0001",
+      "question": "'എസ്ട്രജൻ' ഏതിനെ സൂചിപ്പിക്കുന്നു?",
       "options": [
-        "പ്രകാശസംശ്ലേഷണം",
-        "ശ്വസനം",
-        "പരാഗണം",
-        "വിത്തിടൽ"
+        "വൃഷണം",
+        "അണ്ഡാശയം",
+        "പൈനിയൽ",
+        "പിറ്റ്യൂട്ടറി"
       ],
-      "answer": "പ്രകാശസംശ്ലേഷണം",
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg"
+      "answer": "അണ്ഡാശയം",
+      "difficulty": "hard"
     },
     {
       "id": "bio_4525",
