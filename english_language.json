@@ -52,7 +52,7 @@
       "id": "eng_0005",
       "question": "Which is the correct spelling of 'pronunciation'?",
       "options": [
-        "ഒന്നുമില്ല",
+        "Pronunsiation",
         "Pronouncation",
         "Pronunciation",
         "Pronounciation"
@@ -677,7 +677,7 @@
       "question": "Choose the correct article: She bought ___ orange.",
       "options": [
         "an",
-        "ഒന്നുമില്ല",
+        "no article",
         "a",
         "the"
       ],
@@ -762,7 +762,7 @@
       "options": [
         "worst outcome",
         "enjoy two advantages",
-        "one choice മാത്രം",
+        "one choice only",
         "lose everything"
       ],
       "answer": "enjoy two advantages",
@@ -921,7 +921,7 @@
         "Journalist",
         "Correspondent"
       ],
-      "answer": "Journalist",
+      "answer": "Reporter",
       "difficulty": "easy"
     },
     {
@@ -1197,7 +1197,7 @@
         "Egoist",
         "Misanthropist"
       ],
-      "answer": "Altruist",
+      "answer": "Philanthropist",
       "difficulty": "hard"
     },
     {
@@ -1279,9 +1279,9 @@
         "Guide",
         "Enlighten",
         "Inform",
-        "Misനടത്ത"
+        "Mislead"
       ],
-      "answer": "Misനടത്ത",
+      "answer": "Mislead",
       "difficulty": "medium"
     },
     {
@@ -1673,7 +1673,7 @@
       "question": "Choose the correct plural of 'chief'.",
       "options": [
         "chiefs",
-        "ഒന്നുമില്ല",
+        "chiefe",
         "chiefss",
         "chiefes"
       ],
@@ -2371,7 +2371,7 @@
         "a",
         "the",
         "an",
-        "ഒന്നുമില്ല"
+        "no article"
       ],
       "answer": "an",
       "difficulty": "easy"
@@ -2753,7 +2753,7 @@
       "question": "Comparative/superlative of 'round' is?",
       "options": [
         "square / most square",
-        "ഒന്നുമില്ല",
+        "circular / most circular",
         "more round / most round",
         "rounder / roundest"
       ],
@@ -3499,7 +3499,7 @@
         "a",
         "the",
         "an",
-        "ഒന്നുമില്ല"
+        "no article"
       ],
       "answer": "an",
       "difficulty": "easy"
@@ -3702,7 +3702,7 @@
       "options": [
         "Dramatist",
         "Poet",
-        "Playwright",
+        "Essayist",
         "Novelist"
       ],
       "answer": "Dramatist",
@@ -3869,8 +3869,8 @@
       "question": "What does the idiom 'By hook or by crook' mean?",
       "options": [
         "fairly",
-        "honestly മാത്രം",
-        "legally മാത്രം",
+        "honestly",
+        "legally",
         "by any means"
       ],
       "answer": "by any means",
@@ -4000,12 +4000,12 @@
       "id": "eng_0334",
       "question": "Identify the correct sentence.",
       "options": [
-        "The director had the assistant തയ്യാറാക്ക the summary.",
-        "The director had the assistant തയ്യാറാക്കd the summary.",
+        "The director had the assistant prepare the summary.",
+        "The director had the assistant prepared the summary.",
         "The director had the assistant preparing the summary.",
-        "The director had the assistant to തയ്യാറാക്ക the summary."
+        "The director had the assistant to prepare the summary."
       ],
-      "answer": "The director had the assistant തയ്യാറാക്ക the summary.",
+      "answer": "The director had the assistant prepare the summary.",
       "difficulty": "medium"
     },
     {
@@ -4193,7 +4193,7 @@
       "question": "The antonym of 'Artificial' is?",
       "options": [
         "False",
-        "സിന്തറ്റിക്",
+        "Synthetic",
         "Natural",
         "Fake"
       ],
@@ -4293,7 +4293,7 @@
         "junior / most junior",
         "senior / most senior"
       ],
-      "answer": "junior / most junior",
+      "answer": "more junior / most junior",
       "difficulty": "medium"
     },
     {
@@ -4662,7 +4662,7 @@
       "options": [
         "Visibl",
         "Visable",
-        "ഒന്നുമില്ല",
+        "Vissible",
         "Visible"
       ],
       "answer": "Visible",
@@ -6244,7 +6244,7 @@
       "id": "eng_0521",
       "question": "Which is the correct spelling of 'residence'?",
       "options": [
-        "ഒന്നുമില്ല",
+        "Residenc",
         "Residense",
         "Residance",
         "Residence"
@@ -6573,7 +6573,7 @@
         "more junior / most junior",
         "senior / most senior"
       ],
-      "answer": "junior / most junior",
+      "answer": "more junior / most junior",
       "difficulty": "medium"
     },
     {
@@ -7948,10 +7948,10 @@
       "id": "eng_0663",
       "question": "Meaning of the idiom 'By hook or by crook' is?",
       "options": [
-        "legally മാത്രം",
+        "legally",
         "by any means",
         "fairly",
-        "honestly മാത്രം"
+        "honestly"
       ],
       "answer": "by any means",
       "difficulty": "hard"
@@ -8010,7 +8010,7 @@
       "options": [
         "the",
         "a",
-        "ഒന്നുമില്ല",
+        "no article",
         "an"
       ],
       "answer": "an",
@@ -8381,7 +8381,7 @@
       "question": "The antonym of 'Glory' is?",
       "options": [
         "Honour",
-        "പ്രശസ്തി",
+        "Fame",
         "Shame",
         "Prestige"
       ],
@@ -8453,11 +8453,11 @@
       "question": "Choose the one-word substitute for 'A person who cannot speak'.",
       "options": [
         "Silent",
-        "Dumb",
+        "Deaf-mute",
         "Mute",
         "Deaf"
       ],
-      "answer": "Dumb",
+      "answer": "Mute",
       "difficulty": "medium"
     },
     {
@@ -8995,7 +8995,7 @@
         "Sky",
         "Planet",
         "Stars",
-        "ചന്ദ്രൻ"
+        "Moon"
       ],
       "answer": "Stars",
       "difficulty": "medium"
@@ -9321,7 +9321,7 @@
         "Prosecutor",
         "Lawyer"
       ],
-      "answer": "Lawyer",
+      "answer": "Advocate",
       "difficulty": "easy"
     },
     {
@@ -9497,11 +9497,11 @@
       "question": "Which word is a material noun?",
       "options": [
         "Golden",
-        "സ്വർണ്ണം",
+        "Gold",
         "Gild",
         "Gilded"
       ],
-      "answer": "സ്വർണ്ണം",
+      "answer": "Gold",
       "difficulty": "medium"
     },
     {
@@ -9750,7 +9750,7 @@
       "options": [
         "give up",
         "win",
-        "തുടര fighting",
+        "continue fighting",
         "persist"
       ],
       "answer": "give up",
@@ -10253,7 +10253,7 @@
       "question": "Comparative/superlative of 'clean' is?",
       "options": [
         "more clean / most clean",
-        "ഒന്നുമില്ല",
+        "spotless / most spotless",
         "neat / neatest",
         "cleaner / cleanest"
       ],
@@ -10744,7 +10744,7 @@
       "id": "eng_0896",
       "question": "Which is a demonstrative adjective?",
       "options": [
-        "Those",
+        "Their",
         "There",
         "Then",
         "That"
@@ -10960,10 +10960,10 @@
       "id": "eng_0914",
       "question": "Which is an auxiliary verb?",
       "options": [
-        "Has",
-        "Had",
-        "Having",
-        "Have"
+        "Have",
+        "Run",
+        "Book",
+        "Quickly"
       ],
       "answer": "Have",
       "difficulty": "easy"
@@ -11095,7 +11095,7 @@
         "formulas",
         "formulae",
         "formulaes",
-        "ഒന്നുമില്ല"
+        "formulums"
       ],
       "answer": "formulae",
       "difficulty": "hard"
@@ -11884,12 +11884,12 @@
       "id": "eng_0991",
       "question": "Choose the synonym of 'Deceive'.",
       "options": [
-        "Misനടത്ത",
+        "Mislead",
         "Enlighten",
         "Guide",
         "Inform"
       ],
-      "answer": "Misനടത്ത",
+      "answer": "Mislead",
       "difficulty": "medium"
     },
     {
@@ -11930,7 +11930,7 @@
     },
     {
       "id": "eng_0995",
-      "question": "Choose the correct word to complete: 'Choose the correct word: ___'",
+      "question": "Fill in the blank: She gave me some useful ___.",
       "options": [
         "advice",
         "advices",
@@ -11985,7 +11985,7 @@
         "superior / most superior",
         "worse / worst"
       ],
-      "answer": "inferior / most inferior",
+      "answer": "more inferior / most inferior",
       "difficulty": "hard"
     },
     {
@@ -12206,14 +12206,14 @@
     },
     {
       "id": "eng_1018",
-      "question": "Find the error: He is asking to help.",
+      "question": "Find the error: He is asking with help.",
       "options": [
-        "to help → for help",
+        "with → for",
         "asking → asks",
         "He → Him",
         "help → helps"
       ],
-      "answer": "to help → for help",
+      "answer": "with → for",
       "difficulty": "easy"
     },
     {
@@ -12269,11 +12269,11 @@
       "question": "Choose the correct word with 'pre-'.",
       "options": [
         "viewer",
-        "pപരിശോധന",
+        "preview",
         "view",
         "viewing"
       ],
-      "answer": "pപരിശോധന",
+      "answer": "preview",
       "difficulty": "easy"
     },
     {
@@ -12329,7 +12329,7 @@
       "question": "Meaning of the phrasal verb 'give up' is?",
       "options": [
         "persist",
-        "തുടര",
+        "continue",
         "resume",
         "stop trying"
       ],
@@ -12798,7 +12798,7 @@
       "options": [
         "plan strictly",
         "improvise",
-        "തയ്യാറാക്ക fully",
+        "prepare fully",
         "follow rules"
       ],
       "answer": "improvise",
@@ -13014,7 +13014,7 @@
       "options": [
         "Fake",
         "Natural",
-        "സിന്തറ്റിക്",
+        "Synthetic",
         "False"
       ],
       "answer": "Natural",
@@ -13768,10 +13768,10 @@
       "id": "eng_1148",
       "question": "Which is a demonstrative pronoun?",
       "options": [
-        "These",
         "This",
-        "That",
-        "Those"
+        "He",
+        "Something",
+        "Myself"
       ],
       "answer": "This",
       "difficulty": "easy"
@@ -13781,7 +13781,7 @@
       "question": "The plural of 'veto' is?",
       "options": [
         "vetos",
-        "ഒന്നുമില്ല",
+        "vetoing",
         "vetoess",
         "vetoes"
       ],
@@ -13869,7 +13869,7 @@
         "Geriatrics",
         "Gerontology"
       ],
-      "answer": "Geriatrics",
+      "answer": "Gerontology",
       "difficulty": "hard"
     },
     {
@@ -14296,7 +14296,7 @@
       "id": "eng_1192",
       "question": "The plural of 'nebula' is?",
       "options": [
-        "ഒന്നുമില്ല",
+        "nebulums",
         "nebulas",
         "nebulaes",
         "nebulae"
@@ -14382,7 +14382,7 @@
       "options": [
         "False",
         "Natural",
-        "സിന്തറ്റിക്",
+        "Synthetic",
         "Fake"
       ],
       "answer": "Natural",
@@ -15091,7 +15091,7 @@
         "repeat mistakes",
         "make fresh start",
         "give up",
-        "തുടര bad habits"
+        "continue bad habits"
       ],
       "answer": "make fresh start",
       "difficulty": "medium"
@@ -15150,7 +15150,7 @@
       "options": [
         "Significent",
         "Significant",
-        "ഒന്നുമില്ല",
+        "Significaant",
         "Significante"
       ],
       "answer": "Significant",
@@ -15222,7 +15222,7 @@
       "options": [
         "an",
         "the",
-        "ഒന്നുമില്ല",
+        "no article",
         "a"
       ],
       "answer": "an",
@@ -15316,7 +15316,7 @@
       "id": "eng_1277",
       "question": "Choose the correct plural of 'hero'.",
       "options": [
-        "ഒന്നുമില്ല",
+        "heroe",
         "heroes",
         "heroess",
         "heros"
@@ -15546,7 +15546,7 @@
       "options": [
         "sweet / sweetest",
         "sourer / sourest",
-        "ഒന്നുമില്ല",
+        "acidic / most acidic",
         "more sour / most sour"
       ],
       "answer": "sourer / sourest",
@@ -15630,10 +15630,10 @@
       "options": [
         "confident → confidence",
         "win → winning",
-        "to → of",
+        "to win → of winning",
         "He → Him"
       ],
-      "answer": "to → of",
+      "answer": "to win → of winning",
       "difficulty": "medium"
     },
     {
@@ -15689,7 +15689,7 @@
       "question": "What does the idiom 'Black sheep' mean?",
       "options": [
         "hero",
-        "നടത്തിയ",
+        "family favourite",
         "disgrace to family",
         "best member"
       ],
@@ -15773,7 +15773,7 @@
       "question": "What does the idiom 'Back to the drawing board' mean?",
       "options": [
         "start over",
-        "തുടര",
+        "continue as is",
         "succeed",
         "finish work"
       ],
@@ -16338,7 +16338,7 @@
       "options": [
         "octopuses",
         "octopusess",
-        "ഒന്നുമില്ല",
+        "octopusses",
         "octopuss"
       ],
       "answer": "octopuses",
@@ -16567,7 +16567,7 @@
         "analyses",
         "analysises",
         "analysis",
-        "ഒന്നുമില്ല"
+        "analysi"
       ],
       "answer": "analyses",
       "difficulty": "hard"
@@ -16590,7 +16590,7 @@
       "options": [
         "humble / humblest",
         "prouder / proudest",
-        "ഒന്നുമില്ല",
+        "prideful / most prideful",
         "more proud / most proud"
       ],
       "answer": "prouder / proudest",
@@ -16638,7 +16638,7 @@
       "options": [
         "Pack",
         "Shoal",
-        "School",
+        "Litter",
         "Herd"
       ],
       "answer": "Shoal",
@@ -17045,7 +17045,7 @@
       "question": "Choose the correct plural of 'analysis'.",
       "options": [
         "analysises",
-        "ഒന്നുമില്ല",
+        "analysies",
         "analyses",
         "analysis"
       ],
@@ -17297,7 +17297,7 @@
       "question": "Choose the correct article: She bought ___ university.",
       "options": [
         "the",
-        "ഒന്നുമില്ല",
+        "no article",
         "an",
         "a"
       ],
@@ -17345,7 +17345,7 @@
       "question": "Which is a distributive adjective?",
       "options": [
         "All",
-        "Every",
+        "Many",
         "Both",
         "Each"
       ],
@@ -17371,7 +17371,7 @@
         "met",
         "meeted",
         "meets",
-        "യോഗം"
+        "meat"
       ],
       "answer": "met",
       "difficulty": "easy"
@@ -17501,7 +17501,7 @@
       "question": "Host : Guest :: Seller : ?",
       "options": [
         "Market",
-        "Customer",
+        "Vendor",
         "Buyer",
         "Shop"
       ],
