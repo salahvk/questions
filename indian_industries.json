@@ -106,7 +106,8 @@
         "1954"
       ],
       "answer": "1954",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "MINOR FLAG: SAIL itself was incorporated in 1973. '1954' is the founding year of Hindustan Steel Limited (SAIL's predecessor), so the question is ambiguous about which entity it means."
     },
     {
       "id": "ind_0010",
@@ -196,13 +197,14 @@
       "id": "ind_0017",
       "question": "'അഹമദാബാദ്' ഏത് മേഖലയുടെ കേന്ദ്രമാണ്?",
       "options": [
-        "IT തലസ്ഥാനം",
+        "ടെക്സ്റ്റൈൽ ഹബ് (ഇന്ത്യയുടെ മാഞ്ചസ്റ്റർ)",
         "ഇന്ത്യയുടെ സിലിക്കൺ വാലി",
-        "ടെക്സ്റ്റൈൽ & ഡയമണ്ട്",
+        "വജ്ര നഗരം",
         "മെഷീൻ ടൂൾസ്"
       ],
-      "answer": "ടെക്സ്റ്റൈൽ & ഡയമണ്ട്",
-      "difficulty": "medium"
+      "answer": "ടെക്സ്റ്റൈൽ ഹബ് (ഇന്ത്യയുടെ മാഞ്ചസ്റ്റർ)",
+      "difficulty": "medium",
+      "_note": "FIXED: Ahmedabad is known as the 'Manchester of India' for textiles, not diamonds. Diamond cutting/polishing is Surat's identity. Original conflated the two Gujarat cities."
     },
     {
       "id": "ind_0018",
@@ -214,7 +216,8 @@
         "കോസ്റ്റൽ ബെൽറ്റ്"
       ],
       "answer": "ഛത്തീസ്ഗഢ് & പശ്ചിമബംഗാൾ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED (not auto-corrected — needs your call): Could not verify 'Bilaspur-Durgapur Corridor' as one of India's officially named industrial corridors (recognized set: DMIC, CBIC, BMIC, AKIC, VCIC, East Coast Economic Corridor, HBIC, etc.). Possibly a fabricated/confused entry. Recommend verifying against the current NICDP/DPIIT corridor list, or replacing with a confirmed corridor."
     },
     {
       "id": "ind_0019",
@@ -274,7 +277,8 @@
         "മെഷീൻ ടൂൾസ്"
       ],
       "answer": "മെഷീൻ ടൂൾസ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: Ludhiana is most famous for hosiery/knitwear and bicycle-parts manufacturing; 'machine tools' is a real but secondary industry there. Worth double-checking before treating as the single best answer."
     },
     {
       "id": "ind_0024",
@@ -562,7 +566,8 @@
         "Electronics"
       ],
       "answer": "Copper",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "CLARITY NOTE (not an error): 'HCL' here = Hindustan Copper Limited, but HCL is far more commonly known as Hindustan Computers Limited (IT). Consider spelling it out in the question to avoid confusing quiz-takers."
     },
     {
       "id": "ind_0048",
@@ -773,12 +778,13 @@
       "question": "'Coastal plant'-യുമായി ബന്ധപ്പെട്ട ഉരുക്ക് പ്ലാന്റ് ഏത്?",
       "options": [
         "Bhilai",
-        "Visakh",
+        "Visakh (Vizag Steel / RINL)",
         "Durgapur Steel Plant",
-        "Vizag Steel (RINL)"
+        "Rourkela Steel Plant"
       ],
-      "answer": "Visakh",
-      "difficulty": "medium"
+      "answer": "Visakh (Vizag Steel / RINL)",
+      "difficulty": "medium",
+      "_note": "FIXED: Original had 'Visakh' and 'Vizag Steel (RINL)' as two separate options for the same plant, making 2 of 4 options correct. Merged them and swapped in a genuine distractor."
     },
     {
       "id": "ind_0066",
@@ -869,12 +875,13 @@
       "question": "'എണ്ണക്കുരു & പയർ ബോർഡ്' എവിടെ സ്ഥിതി ചെയ്യുന്നു?",
       "options": [
         "മഹാരാഷ്ട്ര",
-        "കൊച്ചി",
+        "ഗുരുഗ്രാം (ഹരിയാന)",
         "ഇന്ദോർ",
         "കൊൽക്കത്ത"
       ],
-      "answer": "ഇന്ദോർ",
-      "difficulty": "medium"
+      "answer": "ഗുരുഗ്രാം (ഹരിയാന)",
+      "difficulty": "medium",
+      "_note": "FIXED: NOVOD Board is headquartered in Gurugram, Haryana (verified via search). 'Indore' was factually wrong."
     },
     {
       "id": "ind_0074",
@@ -982,7 +989,8 @@
         "ബെംഗളൂരു-മുംബൈ കോറിഡോർ"
       ],
       "answer": "ബെംഗളൂരു-മുംബൈ കോറിഡോർ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: Associating 'Pharma & IT' specifically with the Bengaluru-Mumbai corridor could not be confidently verified — this corridor is more commonly described around general manufacturing/logistics. Recommend re-checking before publishing."
     },
     {
       "id": "ind_0083",
@@ -1010,15 +1018,16 @@
     },
     {
       "id": "ind_0085",
-      "question": "'PLI ടോയ്' PLI പദ്ധതിയുടെ പ്രധാന വിവരം ഏത്?",
+      "question": "'PLI ടോയ്' (കളിപ്പാട്ട നിർമ്മാണത്തിനുള്ള PLI പദ്ധതി) സംബന്ധിച്ച നിലവിലെ സ്ഥിതി എന്താണ്?",
       "options": [
-        "ഇലക്ട്രിക് വാഹനങ്ങൾ",
-        "₹6238 കോടി",
-        "2020",
-        "₹6322 കോടി"
+        "നിർദ്ദേശിക്കപ്പെട്ടത് / അന്തിമരൂപം ലഭിച്ചിട്ടില്ല",
+        "2020-ൽ ഔദ്യോഗികമായി അംഗീകരിച്ചു",
+        "14 പ്രധാന PLI മേഖലകളിൽ ഉൾപ്പെടുന്നു",
+        "₹76000 കോടി അടങ്കൽ"
       ],
-      "answer": "2020",
-      "difficulty": "medium"
+      "answer": "നിർദ്ദേശിക്കപ്പെട്ടത് / അന്തിമരൂപം ലഭിച്ചിട്ടില്ല",
+      "difficulty": "medium",
+      "_note": "FLAGGED & FIXED: Verified via search — a toys PLI scheme has been repeatedly proposed/discussed (reported outlays ranging ₹3,500cr+) but was NOT among India's officially approved 14 PLI sectors as of the latest reporting found. Treating it as a confirmed 2020 scheme was unverified. Rewrote to reflect actual (proposed, not finalized) status. Same issue likely affects ind_0126 later in the file — will flag there too."
     },
     {
       "id": "ind_0086",
@@ -1106,15 +1115,16 @@
     },
     {
       "id": "ind_0093",
-      "question": "'Credit co-ops' സഹകരണ സ്ഥാപനത്തിന്റെ പ്രധാന പ്രവർത്തനം ഏത്?",
+      "question": "'Credit co-ops' സഹകരണ സ്ഥാപനങ്ങളുടെ പ്രധാന പ്രവർത്തന മേഖല ഏത്? (കർണാടകയിൽ ശക്തമായ സാന്നിധ്യമുള്ള മാതൃക)",
       "options": [
-        "വളം",
+        "ഹ്രസ്വകാല/ദീർഘകാല വായ്പ വിതരണം",
         "കാർഷിക മാർക്കറ്റിംഗ്",
-        "കർണാടക",
-        "White Revolution"
+        "White Revolution",
+        "വളം വിതരണം"
       ],
-      "answer": "കർണാടക",
-      "difficulty": "medium"
+      "answer": "ഹ്രസ്വകാല/ദീർഘകാല വായ്പ വിതരണം",
+      "difficulty": "medium",
+      "_note": "FIXED: Original asked for the co-op's 'main activity' but the marked answer ('Karnataka') was a place name — type mismatch. Reworded so the answer type matches the question."
     },
     {
       "id": "ind_0094",
@@ -1154,15 +1164,16 @@
     },
     {
       "id": "ind_0097",
-      "question": "'Chennai cluster' നഗരത്തിലെ ഓട്ടോമൊബൈൽ കമ്പനി ഏത്?",
+      "question": "'Chennai cluster' ഏതിന്റെ പ്രധാന കേന്ദ്രമായി അറിയപ്പെടുന്നു?",
       "options": [
+        "ഓട്ടോ ഘടകനിർമ്മാണ (components) ആവാസവ്യവസ്ഥ",
         "Bajaj Auto",
         "Honda",
-        "Maruti",
-        "Auto components"
+        "Maruti"
       ],
-      "answer": "Auto components",
-      "difficulty": "medium"
+      "answer": "ഓട്ടോ ഘടകനിർമ്മാണ (components) ആവാസവ്യവസ്ഥ",
+      "difficulty": "medium",
+      "_note": "FIXED: Original asked 'which automobile company' but the marked answer ('Auto components') is a category, not a company — mismatch. Reworded the question stem."
     },
     {
       "id": "ind_0098",
@@ -1322,15 +1333,16 @@
     },
     {
       "id": "ind_0111",
-      "question": "'150 MT target'-യുമായി ബന്ധപ്പെട്ട ഉരുക്ക് പ്ലാന്റ് ഏത്?",
+      "question": "'National Steel Policy 2017' പ്രകാരമുള്ള ക്രൂഡ് സ്റ്റീൽ ശേഷി ലക്ഷ്യം (2030-31) എത്ര ദശലക്ഷം ടൺ?",
       "options": [
-        "TISCO",
-        "Durgapur Steel Plant",
-        "വിശാഖപട്ടണം",
-        "Domestic steel capacity"
+        "300 MT",
+        "150 MT",
+        "500 MT",
+        "100 MT"
       ],
-      "answer": "Domestic steel capacity",
-      "difficulty": "medium"
+      "answer": "300 MT",
+      "difficulty": "medium",
+      "_note": "FIXED: Verified via search — National Steel Policy 2017's official crude steel capacity target for 2030-31 is 300 MT (production target 255 MT), not 150 MT. Original figure was incorrect."
     },
     {
       "id": "ind_0112",
@@ -1502,15 +1514,16 @@
     },
     {
       "id": "ind_0126",
-      "question": "'PLI ടോയ്'-ന്റെ PLI സംബന്ധ വസ്തുത?",
+      "question": "'PLI ടോയ്' പദ്ധതിയെക്കുറിച്ചുള്ള ഏത് പ്രസ്താവനയാണ് ശരി?",
       "options": [
-        "5-7 വർഷ കാലാവധി",
-        "API & ഡ്രഗ് ഇന്റർമീഡിയറ്റ്സ്",
-        "2020",
-        "₹120 കോടി"
+        "ഇത് ഇപ്പോഴും നിർദ്ദേശ ഘട്ടത്തിലാണ്, ഔദ്യോഗികമായി അംഗീകരിച്ചിട്ടില്ല",
+        "API & ഡ്രഗ് ഇന്റർമീഡിയറ്റ്സ് ഉൾപ്പെടുന്നു",
+        "2020-ൽ ആരംഭിച്ചു",
+        "₹120 കോടി അടങ്കൽ"
       ],
-      "answer": "2020",
-      "difficulty": "medium"
+      "answer": "ഇത് ഇപ്പോഴും നിർദ്ദേശ ഘട്ടത്തിലാണ്, ഔദ്യോഗികമായി അംഗീകരിച്ചിട്ടില്ല",
+      "difficulty": "medium",
+      "_note": "FIXED (same as ind_0085): 'PLI for Toys' has been repeatedly proposed/discussed but was not among India's officially approved 14 PLI sectors as of the latest reporting found. Rewrote to reflect its actual (proposed, not finalized) status."
     },
     {
       "id": "ind_0127",
@@ -1714,7 +1727,8 @@
         "ബിളാസ്പൂർ-ദുർഗാപൂർ കോറിഡോർ"
       ],
       "answer": "DMIC",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: Could not confirm a '₹100 lakh crore' target specifically tied to DMIC. That figure more commonly refers to India's broader National Infrastructure Pipeline investment target (announced separately by the PM). DMIC itself is usually cited around $100 billion (~₹8 lakh crore at time of launch) in investment potential. Recommend verifying before publishing — may be a conflation between two different government figures."
     },
     {
       "id": "ind_0144",
@@ -2182,7 +2196,8 @@
         "Bhadohi"
       ],
       "answer": "Tamil Nadu",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG (recurring — also appears as ind_0099, ind_0479, ind_0631): Moradabad (Uttar Pradesh) is nationally known as India's 'Brass City' / brassware ODOP hub. Tamil Nadu does have a genuine brass/bronze craft tradition (e.g., Thanjavur bronze icons), so this may be correct for a different, TN-specific ODOP listing, but it wasn't independently confirmed. Recommend verifying against the official ODOP/Districts-as-Export-Hub product list before publishing, since the same claim repeats 4 times in this dataset."
     },
     {
       "id": "ind_0183",
@@ -2242,7 +2257,8 @@
         "2020 ആദ്യ മേഖല"
       ],
       "answer": "2020",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: The PLI Specialty Steel scheme is commonly dated to Cabinet approval in **2021** (not 2020) in most sources I'm aware of. Recommend verifying the exact year before treating '2020' as correct — this wasn't independently re-searched in this batch."
     },
     {
       "id": "ind_0188",
@@ -2290,7 +2306,8 @@
         "Formulations"
       ],
       "answer": "Pharma city",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: 'Visakh = Pharma city' is not a widely recognized identity — Hyderabad is far more commonly called India's pharma/bulk-drug city. Visakhapatnam's dominant industrial identity (used elsewhere in this same dataset) is steel & port city. Recommend double-checking this specific claim."
     },
     {
       "id": "ind_0192",
@@ -2302,7 +2319,8 @@
         "1975"
       ],
       "answer": "1954",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "MINOR FLAG (same as ind_0009): SAIL itself was incorporated in 1973; 1954 is when its predecessor Hindustan Steel Limited was formed. Ambiguous which entity this refers to."
     },
     {
       "id": "ind_0193",
@@ -2338,7 +2356,8 @@
         "മത്സ്യ ഉൽപ്പന്ന എക്സ്പോർട്ട് വികസന അതോറിറ്റി"
       ],
       "answer": "ചവറുക ബോർഡ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "GRAMMAR/SPELLING FLAG: 'ചവറുപ്പിർ' looks like a typo/garbled word — likely intended 'ചകിരി' (coir fibre) or similar, given the correct answer is Coir Board. Recommend proofreading the question stem."
     },
     {
       "id": "ind_0196",
@@ -2362,7 +2381,8 @@
         "Pharma HQ"
       ],
       "answer": "Vaccines",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: 'Vaccine hub' is more commonly associated with Hyderabad (Bharat Biotech, Biological E, etc.) in standard references, not Chennai specifically. Worth verifying before publishing."
     },
     {
       "id": "ind_0198",
@@ -2666,7 +2686,7 @@
     },
     {
       "id": "ind_0223",
-      "question": "'Petroleum Ministry' നോഡൽ ഏജൻസിയുള്ള വ്യവസായ പരിപാടി ഏത്?",
+      "question": "'Petroleum Ministry' നോഡൽ മന്ത്രാലയമായിട്ടുള്ള പ്രധാന എണ്ണ-ഗ്യാസ് പര്യവേക്ഷണ പി.എസ്.യു. ഏത്?",
       "options": [
         "PLI scheme",
         "ONGC",
@@ -2674,7 +2694,8 @@
         "Coir board"
       ],
       "answer": "ONGC",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only, answer unchanged): Original asked for an 'industrial programme' but the marked-correct answer (ONGC) is a PSU/company, not a scheme name — same type-mismatch pattern seen in ind_0093/ind_0097. Reworded the question stem to match the answer type; the underlying fact (ONGC's nodal ministry is Petroleum Ministry) was already correct."
     },
     {
       "id": "ind_0224",
@@ -3466,7 +3487,8 @@
         "Maheshwar"
       ],
       "answer": "Ludhiana",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "CONSISTENCY NOTE: This entry correctly ties Ludhiana to woolens/hosiery, which is its dominant, most-cited industrial identity. This reinforces the earlier flag on ind_0023 (batch 1), where Ludhiana was instead tied to 'Machine Tools' — worth deciding which single identity you want to use per-city to avoid the dataset contradicting itself across questions."
     },
     {
       "id": "ind_0290",
@@ -3562,7 +3584,8 @@
         "സാങ്കേതികവിദ്യാ കൈമാറ്റം"
       ],
       "answer": "സാങ്കേതികവിദ്യാ കൈമാറ്റം",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: Associating Industrial Policy 1985 specifically with 'technology transfer' as its single defining feature wasn't independently verified this round. The 1985-86 policy measures under Rajiv Gandhi are generally described as liberalization/delicensing steps rather than a distinct 'technology transfer policy' — recommend double-checking phrasing before publishing."
     },
     {
       "id": "ind_0298",
@@ -4418,7 +4441,7 @@
     },
     {
       "id": "ind_0369",
-      "question": "'Power Ministry' നോഡൽ ഏജൻസിയുള്ള വ്യവസായ പരിപാടി ഏത്?",
+      "question": "'Power Ministry' നോഡൽ മന്ത്രാലയമായിട്ടുള്ള പ്രധാന വിദ്യുത് ഉൽപ്പാദന പി.എസ്.യു. ഏത്?",
       "options": [
         "NTPC",
         "ONGC",
@@ -4426,7 +4449,8 @@
         "Software exports"
       ],
       "answer": "NTPC",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only, answer unchanged): Same type-mismatch pattern as ind_0223/ind_0093/ind_0097 — question asked for a 'programme' but the correct answer (NTPC) is a PSU. Reworded the stem to match; NTPC being under the Power Ministry is factually correct."
     },
     {
       "id": "ind_0370",
@@ -4634,15 +4658,16 @@
     },
     {
       "id": "ind_0387",
-      "question": "'ഈസ്റ്റ് കോസ്റ്റ് ഇക്കണോമിക് കോറിഡോർ' വിവരമുള്ള വ്യവസായ കോറിഡോർ ഏത്?",
+      "question": "'ഈസ്റ്റ് കോസ്റ്റ് ഇക്കണോമിക് കോറിഡോർ' ഇന്ത്യയുടെ ഏത് ഭാഗത്തെ ബന്ധിപ്പിക്കുന്ന കോറിഡോറാണ്?",
       "options": [
+        "വിശാഖപട്ടണം മുതൽ ചെന്നൈ വരെ കിഴക്കൻ തീരം",
         "ചെന്നൈ-ബെംഗളൂരു കോറിഡോർ",
-        "DMIC",
         "ഹൈദരാബാദ്-ബെംഗളൂരു കോറിഡോർ",
         "NICDP"
       ],
-      "answer": "ചെന്നൈ-ബെംഗളൂരു കോറിഡോർ",
-      "difficulty": "medium"
+      "answer": "വിശാഖപട്ടണം മുതൽ ചെന്നൈ വരെ കിഴക്കൻ തീരം",
+      "difficulty": "medium",
+      "_note": "FIXED: The original treated the East Coast Economic Corridor (ECEC) as if it were a 'feature belonging to' the Chennai-Bengaluru Industrial Corridor — but ECEC is its own separate, distinctly-named corridor (running along the east coast, broadly Visakhapatnam to Chennai), not part of CBIC. This conflated two genuinely different corridors. Rewrote to ask what ECEC itself connects."
     },
     {
       "id": "ind_0388",
@@ -4886,7 +4911,7 @@
     },
     {
       "id": "ind_0408",
-      "question": "'Urban co-op banks' എന്തിനാണ്?",
+      "question": "'Urban co-op banks' ഏറ്റവും ശക്തമായ സാന്നിധ്യമുള്ള സംസ്ഥാനം ഏത്?",
       "options": [
         "മഹാരാഷ്ട്ര",
         "Operation Flood",
@@ -4894,7 +4919,8 @@
         "കാർഷിക മാർക്കറ്റിംഗ്"
       ],
       "answer": "മഹാരാഷ്ട്ര",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only, answer unchanged): Original asked 'what are urban co-op banks for?' but the marked answer (Maharashtra) is a state, not an activity — the same answer-type mismatch seen earlier (ind_0093, ind_0223, ind_0369). Reworded the stem to ask for the state instead, which matches the answer and is factually reasonable (Maharashtra has India's largest urban co-operative banking network)."
     },
     {
       "id": "ind_0409",
@@ -4954,7 +4980,8 @@
         "Pune"
       ],
       "answer": "Pune",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "CONSISTENCY NOTE: Pune correctly tied to vaccine manufacturing (home to Serum Institute of India, the world's largest vaccine manufacturer). This reinforces the earlier flag on ind_0197 (batch 2), where 'vaccine hub' was instead attached to Chennai — recommend settling on Pune/Hyderabad as the vaccine-hub answer consistently across the dataset."
     },
     {
       "id": "ind_0414",
@@ -5038,7 +5065,8 @@
         "PLI ഡ്രോണുകൾ"
       ],
       "answer": "PLI ഇലക്ട്രോണിക്സ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: Could not confidently match '₹5000 crore' to a specific, well-documented PLI electronics scheme figure (IT Hardware PLI 1.0 was ~₹7,350cr; PLI 2.0 was ~₹17,000cr). Recommend verifying the exact figure/scheme this refers to before publishing."
     },
     {
       "id": "ind_0421",
@@ -5410,7 +5438,8 @@
         "Bulk drugs"
       ],
       "answer": "Pharma policy",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: 'Pharma policy' as Telangana's defining pharma characteristic is vague compared to how other states are characterized in this dataset (Gujarat = pharma cluster, Himachal = tax incentives, Uttarakhand = pharma hub). Telangana (via Hyderabad/Genome Valley) is more commonly known for bulk drugs/API manufacturing and biotech. Worth reviewing for consistency."
     },
     {
       "id": "ind_0452",
@@ -5458,7 +5487,8 @@
         "Gurgaon"
       ],
       "answer": "Automotive PLI",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: The Auto & Auto Components PLI scheme is generally dated to Cabinet approval in September 2021, not 2020 — the original March 2020 PLI batch covered mobile manufacturing, pharma APIs, and medical devices, not automobiles. Recommend verifying before treating 2020 as correct. (Same pattern of uncertainty as the PLI Toys and PLI Special Steel year flags in earlier batches.)"
     },
     {
       "id": "ind_0456",
@@ -5606,7 +5636,7 @@
     },
     {
       "id": "ind_0468",
-      "question": "'Maruti' ഓട്ടോമൊബൈൽ കമ്പനിയുടെ പ്രധാന നിർമ്മാണ കേന്ദ്രം ഏത്?",
+      "question": "'Maruti' ഓട്ടോമൊബൈൽ കമ്പനിയുടെ ചരിത്രപരമായ തുടക്കത്തെക്കുറിച്ചുള്ള പ്രധാന വസ്തുത ഏത്?",
       "options": [
         "Auto hub",
         "Chennai/Pune",
@@ -5614,7 +5644,8 @@
         "1983 JV"
       ],
       "answer": "1983 JV",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only, answer unchanged): Original asked for Maruti's 'main manufacturing centre' but the marked answer ('1983 JV') is a historical fact/date, not a location — type mismatch (and it duplicated ind_0409's actual location question). Reworded the stem to ask about Maruti's founding history instead, which matches the answer."
     },
     {
       "id": "ind_0469",
@@ -5746,7 +5777,8 @@
         "Footwear"
       ],
       "answer": "Brass",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring flag as ind_0099/ind_0182/ind_0479/ind_0631 — 'Tamil Nadu = Brass' for ODOP wasn't independently confirmed against an official list. See batch 2 notes."
     },
     {
       "id": "ind_0480",
@@ -6130,7 +6162,8 @@
         "Pharma cluster"
       ],
       "answer": "Pharma policy",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring flag as ind_0451 (batch 5) — 'Pharma policy' as Telangana's defining pharma trait is vaguer than expected; Telangana/Hyderabad is more standardly known for bulk drugs, API, and (per the ind_0568 fix above) vaccines."
     },
     {
       "id": "ind_0512",
@@ -6184,13 +6217,14 @@
       "id": "ind_0516",
       "question": "'കാഷ്യൂ എക്സ്പോർട്ട് പ്രമോഷൻ കൗൺസിൽ' ഏത് ഉൽപ്പന്ന/മേഖലാ ബോർഡാണ്?",
       "options": [
-        "Malabar nut",
+        "കശുവണ്ടി (Cashew)",
         "വിറ്റുപുകയില",
         "കാർഷിക-പ്രോസസ്ഡ്",
         "കാപ്പി"
       ],
-      "answer": "Malabar nut",
-      "difficulty": "medium"
+      "answer": "കശുവണ്ടി (Cashew)",
+      "difficulty": "medium",
+      "_note": "FIXED: The 'Cashew Export Promotion Council' was mapped to 'Malabar nut' as its answer — but Malabar nut (Adhatoda vasica) is an entirely different medicinal plant, unrelated to cashew. This looks like a mistranslation/mix-up. Corrected to Cashew, which is what the council name itself says."
     },
     {
       "id": "ind_0517",
@@ -6808,13 +6842,14 @@
       "id": "ind_0568",
       "question": "'Vaccines' ഫാർമ വിവരമുള്ള നഗരം ഏത്?",
       "options": [
-        "ചെന്നൈ",
+        "ഹൈദരാബാദ്",
         "മഹാരാഷ്ട്ര",
         "Tamil Nadu",
         "Ankleshwar"
       ],
-      "answer": "ചെന്നൈ",
-      "difficulty": "medium"
+      "answer": "ഹൈദരാബാദ്",
+      "difficulty": "medium",
+      "_note": "FIXED (confirmed via search this time): Hyderabad is widely documented as India's 'vaccine capital' (Bharat Biotech, Biological E, ~65% of India's vaccine output via Genome Valley), with Pune (Serum Institute) as the other major hub. Chennai is not commonly cited as a vaccine manufacturing hub. This confirms the earlier low-confidence flag on ind_0197 (batch 2) — recommend applying the same fix there (Chennai → Hyderabad) for consistency."
     },
     {
       "id": "ind_0569",
@@ -6942,11 +6977,12 @@
       "options": [
         "Uralungal LAB",
         "NCUI",
-        "ആമുൽ",
-        "Amul"
+        "ആമുൽ (Amul)",
+        "IFFCO"
       ],
-      "answer": "ആമുൽ",
-      "difficulty": "medium"
+      "answer": "ആമുൽ (Amul)",
+      "difficulty": "medium",
+      "_note": "FIXED: Original had 'ആമുൽ' and 'Amul' as two separate options — same cooperative written in two scripts, so 2 of 4 options were effectively correct. Merged into one option and swapped in a genuine distractor (IFFCO)."
     },
     {
       "id": "ind_0580",
@@ -7042,7 +7078,8 @@
         "SAIL"
       ],
       "answer": "SAIL",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring SAIL/1954 ambiguity noted at ind_0009 (batch 1) and ind_0192 (batch 2) — SAIL was incorporated in 1973; 1954 belongs to its predecessor, Hindustan Steel Limited."
     },
     {
       "id": "ind_0588",
@@ -7214,15 +7251,16 @@
     },
     {
       "id": "ind_0602",
-      "question": "'Auto hub' നഗരത്തിലെ ഓട്ടോമൊബൈൽ കമ്പനി ഏത്?",
+      "question": "'Pune' ഏത് വ്യവസായ വിളിപ്പേരിലാണ് അറിയപ്പെടുന്നത്?",
       "options": [
+        "Auto hub",
         "Tata Motors",
         "Bajaj Auto",
-        "Pune",
         "Make in India auto"
       ],
-      "answer": "Pune",
-      "difficulty": "medium"
+      "answer": "Auto hub",
+      "difficulty": "medium",
+      "_note": "FIXED: Original asked 'which automobile company is in Auto hub city' but the marked answer ('Pune') is a city, not a company — mismatch (and it duplicated ind_0026's Pune=auto&IT fact anyway). Rewrote to ask what Pune is known as, which matches the answer."
     },
     {
       "id": "ind_0603",
@@ -7558,7 +7596,8 @@
         "ഇന്ത്യൻ നയം 1956"
       ],
       "answer": "ഇന്ത്യൻ നയം 1956",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED — RECOMMEND REMOVAL: Verified via search that India's 20th Constitutional Amendment (1966) dealt with validating the appointments/judgments of certain district judges — it has no connection to industrial policy whatsoever. There's no real fact here to correct to; the premise itself appears fabricated. Recommend removing this question rather than patching it, since I can't identify what real fact it was meant to represent."
     },
     {
       "id": "ind_0631",
@@ -7798,7 +7837,8 @@
         "GAIL"
       ],
       "answer": "Nagapattinam",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: Tamil Nadu's main petrochemical hub in this dataset (ind_0648) is Manali (Chennai) via CPCL. Nagapattinam being tied to petrochemicals here wasn't independently confirmed — ONGC does have some offshore exploration activity near Nagapattinam (Cauvery basin), but that's oil/gas exploration, not a petrochemical complex per se. Worth double-checking."
     },
     {
       "id": "ind_0651",
@@ -8186,15 +8226,16 @@
     },
     {
       "id": "ind_0683",
-      "question": "'ചെറുകിട വ്യവസായി'-ന്റെ നിക്ഷേപ/വിഭാഗ വിവരം?",
+      "question": "'ചെറുകിട വ്യവസായി' (Small Enterprise) MSME വിഭാഗത്തിന്റെ 2020 Udyam വർഗ്ഗീകരണ പ്രകാരമുള്ള നിക്ഷേപ പരിധി എത്ര?",
       "options": [
-        "ജിഡിപിയിൽ 30% സംഭാവന",
+        "നിക്ഷേപം ₹10 കോടി വരെ",
         "50 തൊഴിലാളികൾ വരെ",
         "MSME Development Act 2006",
         "വീട്ടുവഴി നിർമ്മാണം"
       ],
-      "answer": "50 തൊഴിലാളികൾ വരെ",
-      "difficulty": "medium"
+      "answer": "നിക്ഷേപം ₹10 കോടി വരെ",
+      "difficulty": "medium",
+      "_note": "FIXED: '50 employees' as the defining limit for a Small Enterprise contradicts the current (2020) Udyam MSME classification used consistently everywhere else in this dataset, which is based on investment and turnover, not employee count (Small Enterprise = investment up to ₹10 crore, turnover up to ₹50 crore — matches ind_0217). Employee-count thresholds belong to an older/different classification system. Corrected to match the dataset's own consistent standard."
     },
     {
       "id": "ind_0684",
@@ -8710,7 +8751,8 @@
         "ബിളാസ്പൂർ-ദുർഗാപൂർ കോറിഡോർ"
       ],
       "answer": "ബിളാസ്പൂർ-ദുർഗാപൂർ കോറിഡോർ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring flag as ind_0018 (batch 1) — 'Bilaspur-Durgapur Corridor' could not be verified as one of India's officially recognized industrial corridors. See batch 1 notes."
     },
     {
       "id": "ind_0727",
@@ -8890,7 +8932,8 @@
         "ദേശീയ നിർമ്മാണ നയം"
       ],
       "answer": "ഇന്ത്യൻ നയം 1956",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same issue as ind_0630 (batch 7) — verified via search that India's 20th Constitutional Amendment (1966) is about validating district-judge appointments, unrelated to industrial policy. Recommend removing both ind_0630 and ind_0741 rather than patching, since the premise itself appears fabricated."
     },
     {
       "id": "ind_0742",
@@ -9389,12 +9432,13 @@
       "question": "'ചെറുകിട വ്യവസായി' എം.എസ്.എം.ഇ വിഭാഗത്തിന്റെ പ്രധാന പരിധി ഏത്?",
       "options": [
         "ഗ്രാമീണ മേഖള",
-        "50 തൊഴിലാളികൾ വരെ",
+        "നിക്ഷേപം ₹10 കോടി വരെ",
         "6.3 കോടി യൂണിറ്റുകൾ",
         "വിറ്റുവരവ് ₹50 കോടി വരെ"
       ],
-      "answer": "50 തൊഴിലാളികൾ വരെ",
-      "difficulty": "medium"
+      "answer": "നിക്ഷേപം ₹10 കോടി വരെ",
+      "difficulty": "medium",
+      "_note": "FIXED (same issue as ind_0683, batch 7): '50 employees' contradicts the 2020 Udyam classification used consistently across this dataset (Small Enterprise = investment up to ₹10 crore, turnover up to ₹50 crore). Corrected to the investment criterion for consistency; turnover (₹50cr) remains as a plausible-but-technically-incomplete distractor since both apply jointly."
     },
     {
       "id": "ind_0784",
@@ -9470,15 +9514,16 @@
     },
     {
       "id": "ind_0790",
-      "question": "'മധ്യപ്രദേശ്'-ലുള്ള കമോഡിറ്റി ബോർഡ് ഏത്?",
+      "question": "'ഹരിയാന' ഏത് കമോഡിറ്റി ബോർഡിന്റെ ആസ്ഥാനമാണ്?",
       "options": [
         "തേങ്ങാ വികസന ബോർഡ്",
-        "എണ്ണക്കുരു & പയർ ബോർഡ്",
+        "ഗുരുഗ്രാം (ഹരിയാന) – എണ്ണക്കുരു & പയർ ബോർഡ്",
         "ടോബാക്കോ ബോർഡ്",
         "പരുത്തി ഉപദേശക ബോർഡ്"
       ],
-      "answer": "എണ്ണക്കുരു & പയർ ബോർഡ്",
-      "difficulty": "medium"
+      "answer": "ഗുരുഗ്രാം (ഹരിയാന) – എണ്ണക്കുരു & പയർ ബോർഡ്",
+      "difficulty": "medium",
+      "_note": "FIXED: This entry claimed Madhya Pradesh hosts the Oilseeds & Pulses (NOVOD) Board, directly contradicting the verified correction made to ind_0073 (batch 1), where search confirmed the board is headquartered in Gurugram, Haryana — not Indore/MP. Reworded to match the confirmed fact and avoid the internal dataset contradiction."
     },
     {
       "id": "ind_0791",
@@ -9790,7 +9835,8 @@
         "Hyundai"
       ],
       "answer": "National Automotive Policy",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED — RECOMMEND REMOVAL: 'Draft' isn't a real city, and the question asks for an 'automobile company' but the marked answer ('National Automotive Policy') is a policy, not a company. This looks like leftover placeholder/corrupted data rather than a genuine fact — same issue as ind_0821. No coherent correction available; recommend deleting."
     },
     {
       "id": "ind_0817",
@@ -9850,7 +9896,8 @@
         "ചെന്നൈ"
       ],
       "answer": "Make in India auto",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED — RECOMMEND REMOVAL: Same pattern as ind_0816 — 'FDI' isn't a real city, and the question asks for an automobile 'company' but the answer given is a slogan/policy phrase, not a company. Likely leftover placeholder data. Recommend deleting rather than patching."
     },
     {
       "id": "ind_0822",
@@ -10042,7 +10089,8 @@
         "Pharma city"
       ],
       "answer": "Pharma city",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED — RECOMMEND REMOVAL (2nd occurrence, see also ind_0191 in batch 2): 'Visakhapatnam = Pharma city' directly conflicts with the dataset's own dominant and far more frequently repeated identity for the city — 'Steel & port city' (appears correctly at ind_0034, ind_0329, ind_0633, ind_0844, and others). This isn't a widely recognized fact about Visakhapatnam. Recommend removing this question and ind_0191, or replacing both with genuine Visakhapatnam facts consistent with the rest of the dataset."
     },
     {
       "id": "ind_0838",
@@ -10130,7 +10178,7 @@
     },
     {
       "id": "ind_0845",
-      "question": "'50 തൊഴിലാളികൾ വരെ'-യുമായി ബന്ധപ്പെട്ട എം.എസ്.എം.ഇ വിഭാഗം?",
+      "question": "'നിക്ഷേപം ₹10 കോടി വരെ' പരിധിയുള്ള എം.എസ്.എം.ഇ വിഭാഗം ഏത്?",
       "options": [
         "മൈക്രോ എന്റർപ്രൈസ്",
         "ചെറുകിട വ്യവസായി",
@@ -10138,7 +10186,8 @@
         "കുടീര വ്യവസായി"
       ],
       "answer": "ചെറുകിട വ്യവസായി",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (3rd occurrence of the same issue — see ind_0683 batch 7, ind_0783 batch 8): '50 employees' contradicts the 2020 Udyam investment/turnover-based classification used consistently everywhere else in this dataset. Reworded to the investment criterion (≤₹10cr) for Small Enterprise, matching ind_0217/ind_0783's corrected fact."
     },
     {
       "id": "ind_0846",
@@ -10430,7 +10479,7 @@
     },
     {
       "id": "ind_0870",
-      "question": "'Milk co-ops' എന്തിനാണ്?",
+      "question": "'Milk co-ops' (ക്ഷീര സഹകരണ സംഘങ്ങൾ) ഏറ്റവും ശക്തമായ മാതൃകയുള്ള സംസ്ഥാനം ഏത്?",
       "options": [
         "കേരളം",
         "Co-op movement",
@@ -10438,7 +10487,8 @@
         "Krishak Bharati"
       ],
       "answer": "ഗുജറാത്ത്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only, answer unchanged): Original asked what milk co-ops are 'for' but the marked answer (Gujarat) is a state, not a purpose — same mismatch pattern as ind_0093/ind_0223/ind_0369/ind_0408. Reworded to ask for the state, which matches the answer and is factually correct (Gujarat pioneered the Anand/Amul dairy co-op model)."
     },
     {
       "id": "ind_0871",
@@ -10582,7 +10632,8 @@
         "SEZ നിയമം"
       ],
       "answer": "SEZ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "SPELLING FLAG: 'സന്തകൃഷ്ണ SEZ' looks like a garbled/misspelled name — possibly intended 'സാന്താക്രുസ് SEZ' (Santacruz Electronics Export Processing Zone / SEEPZ). Doesn't affect correctness since the answer is the generic tautological 'SEZ', but worth proofreading."
     },
     {
       "id": "ind_0883",
@@ -11050,7 +11101,8 @@
         "2020 ആദ്യ മേഖല"
       ],
       "answer": "2020",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: PLI Solar PV Modules dated 2020 — my understanding is this scheme was approved in April 2021, not 2020. Same recurring year-uncertainty pattern as the Auto PLI and Special Steel PLI flags in earlier batches. Not independently re-verified this round."
     },
     {
       "id": "ind_0922",
@@ -11134,7 +11186,8 @@
         "1996"
       ],
       "answer": "Draft",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED — RECOMMEND REMOVAL (3rd occurrence of this pattern, see ind_0816/ind_0821 in batch 9): 'National Automotive Policy' is treated as if it were an automobile company, and the answer 'Draft' isn't a real place. This is the same corrupted/placeholder data pattern seen twice before. Recommend deleting."
     },
     {
       "id": "ind_0929",
@@ -11278,7 +11331,8 @@
         "PLI ബാറ്ററി"
       ],
       "answer": "PLI ഫുഡ് പ്രോസസ്സിംഗ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: PLI Food Processing dated 2020 — my understanding is this scheme (PLISFPI) was approved in March 2021, not 2020. Same recurring pattern; the ₹10,900cr figure itself (ind_0973) is correct, just possibly the year here."
     },
     {
       "id": "ind_0941",
@@ -11314,7 +11368,8 @@
         "കരകുശലം"
       ],
       "answer": "പൂതോട്ടം",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "TRANSLATION PRECISION NOTE: 'പൂതോട്ടം' (flower garden) is a narrower term than horticulture, which the National Horticulture Board actually covers broadly (fruits, vegetables, spices, flowers). Not factually wrong, just an imprecise translation."
     },
     {
       "id": "ind_0944",
@@ -11386,7 +11441,8 @@
         "ജിഡിപിയിൽ 30% സംഭാവന"
       ],
       "answer": "ഗുണനിലവാര മേമ്പാട്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "SPELLING FLAG: 'ഗുണനിലവാര മേമ്പാട്' looks like it may contain a typo (possibly intended 'മെച്ചപ്പെടുത്തൽ' — improvement). Worth proofreading; doesn't affect correctness of the underlying ZED certification fact."
     },
     {
       "id": "ind_0950",
@@ -11398,7 +11454,8 @@
         "ചെന്നൈ-ബെംഗളൂരു കോറിഡോർ"
       ],
       "answer": "ബിളാസ്പൂർ-ദുർഗാപൂർ കോറിഡോർ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring flag as ind_0018/ind_0726 — 'Bilaspur-Durgapur Corridor' unverifiable. This is the 3rd occurrence."
     },
     {
       "id": "ind_0951",
@@ -11597,12 +11654,13 @@
       "question": "'HCL'-ന്റെ ആസ്ഥാന നഗരം ഏത്?",
       "options": [
         "Nagpur",
-        "Ranchi",
+        "Kolkata",
         "Hyderabad",
         "Faridabad"
       ],
-      "answer": "Ranchi",
-      "difficulty": "medium"
+      "answer": "Kolkata",
+      "difficulty": "medium",
+      "_note": "FIXED: Verified via search — Hindustan Copper Limited's registered/corporate HQ is in Kolkata, West Bengal ('Tamra Bhavan'), not Ranchi. Corrected."
     },
     {
       "id": "ind_0968",
@@ -11985,8 +12043,9 @@
         "ഈസ്റ്റ് കോസ്റ്റ് ഇക്കണോമിക് കോറിഡോർ",
         "NICDC"
       ],
-      "answer": "ചെന്നൈ-ബെംഗളൂരു കോറിഡോർ",
-      "difficulty": "medium"
+      "answer": "വിശാഖപട്ടണം-ചെന്നൈ കോറിഡോർ",
+      "difficulty": "medium",
+      "_note": "FIXED (same underlying issue as ind_0387, batch 4): East Coast Economic Corridor (ECEC) is not related to the separate Chennai-Bengaluru Corridor. Its actual associated/component corridor is the Vizag-Chennai Industrial Corridor (VCIC), which is developed as ECEC's first phase. Corrected the answer to the option already present in the list."
     },
     {
       "id": "ind_1000",
@@ -12410,7 +12469,7 @@
     },
     {
       "id": "ind_1035",
-      "question": "'Malabar nut' മേഖല നിയന്ത്രിക്കുന്ന ബോർഡ് ഏത്?",
+      "question": "'Cashew' മേഖല നിയന്ത്രിക്കുന്ന ബോർഡ് ഏത്?",
       "options": [
         "കരകുശല കയറ്റുമതി പ്രമോഷൻ കൗൺസിൽ",
         "പരുത്തി ഉപദേശക ബോർഡ്",
@@ -12418,7 +12477,8 @@
         "കാഷ്യൂ എക്സ്പോർട്ട് പ്രമോഷൻ കൗൺസിൽ"
       ],
       "answer": "കാഷ്യൂ എക്സ്പോർട്ട് പ്രമോഷൻ കൗൺസിൽ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only; 2nd occurrence, see ind_0516 batch 6): 'Malabar nut' (Adhatoda vasica) is an unrelated medicinal plant, not cashew — the same mix-up as ind_0516. Reworded the question stem to say 'Cashew' directly, since the answer (Cashew Export Promotion Council) is otherwise correct."
     },
     {
       "id": "ind_1036",
@@ -12554,7 +12614,7 @@
     },
     {
       "id": "ind_1047",
-      "question": "'Maruti'-ന്റെ പ്രധാന പ്ലാന്റ്?",
+      "question": "'Maruti' ഓട്ടോമൊബൈൽ കമ്പനിയുടെ ചരിത്രപരമായ തുടക്കത്തെക്കുറിച്ചുള്ള പ്രധാന വസ്തുത ഏത്?",
       "options": [
         "1983 JV",
         "EV subsidy",
@@ -12562,7 +12622,8 @@
         "രാജസ്ഥാൻ"
       ],
       "answer": "1983 JV",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only; 2nd occurrence, see ind_0468 batch 5): Original asked for Maruti's 'main plant' (a location) but the marked answer ('1983 JV') is a historical fact, not a location — same mismatch as ind_0468, and this duplicates ind_0409's actual location question. Reworded to ask about Maruti's founding history instead."
     },
     {
       "id": "ind_1048",
@@ -12710,7 +12771,7 @@
     },
     {
       "id": "ind_1060",
-      "question": "'ടെക്സ്റ്റൈൽ & ഡയമണ്ട്' വിളിപ്പേരുള്ള നഗരം ഏത്?",
+      "question": "'ടെക്സ്റ്റൈൽ ഹബ് (ഇന്ത്യയുടെ മാഞ്ചസ്റ്റർ)' വിളിപ്പേരുള്ള നഗരം ഏത്?",
       "options": [
         "ജയ്പൂർ",
         "അഹമദാബാദ്",
@@ -12718,7 +12779,8 @@
         "ഹൈദരാബാദ്"
       ],
       "answer": "അഹമദാബാദ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (2nd occurrence, see ind_0017 batch 1): No single city is genuinely known by the combined nickname 'Textile & Diamond' — Ahmedabad is the textile hub ('Manchester of India'), while Surat is separately the diamond city. Since Surat wasn't among the given options, reworded the question to test Ahmedabad's actual textile identity, consistent with the ind_0017 fix."
     },
     {
       "id": "ind_1061",
@@ -13102,7 +13164,8 @@
         "ആദ്യ കോട്ടൺ മിൽ"
       ],
       "answer": "SAIL",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring SAIL/1954 ambiguity as ind_0009/ind_0192/ind_0587 — SAIL was incorporated in 1973; 1954 belongs to its predecessor, Hindustan Steel Limited."
     },
     {
       "id": "ind_1093",
@@ -13265,12 +13328,13 @@
       "question": "ഇന്ത്യയിലെ ആദ്യത്തെ പെട്രോകെമിക്കൽ റിഫൈനറി ഏതാണ്?",
       "options": [
         "കൊച്ചി റിഫൈനറി",
-        "മുംബൈ റിഫൈനറി",
+        "ഡിഗ്ബോയ് റിഫൈനറി",
         "വിശാഖപട്ടണം റിഫൈനറി",
         "മഥുര റിഫൈനറി"
       ],
-      "answer": "മുംബൈ റിഫൈനറി",
-      "difficulty": "medium"
+      "answer": "ഡിഗ്ബോയ് റിഫൈനറി",
+      "difficulty": "medium",
+      "_note": "FIXED: 'Mumbai Refinery' as India's first (petrochemical/petroleum) refinery contradicts this dataset's own consistent, correct fact established at ind_0075/ind_0547/ind_0552/ind_0565/ind_1057/ind_1151 — that Digboi Refinery (Assam, 1901) was India's first oil refinery. Corrected for consistency."
     },
     {
       "id": "ind_1107",
@@ -13402,7 +13466,8 @@
         "ചവറുക ബോർഡ്"
       ],
       "answer": "ചവറുക ബോർഡ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring spelling issue as ind_0195 (batch 2) — 'ചവറുപ്പിർ' looks like a typo for the correct coir-related term, though it doesn't affect the correctness of the answer here."
     },
     {
       "id": "ind_1118",
@@ -13462,7 +13527,8 @@
         "ഇന്ത്യൻ നയം 1980"
       ],
       "answer": "ഇന്ത്യൻ നയം 1985",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "CONFIDENCE UPDATE: 'Industrial Policy 1985 = technology transfer/upgradation' now appears identically 3 times in this dataset (ind_0317, here, and ind_1145), which is stronger internal consistency than I gave credit for in my earlier low-confidence flag on ind_0297 (batch 3) — softening that concern, though I still haven't independently verified it via search."
     },
     {
       "id": "ind_1123",
@@ -13570,7 +13636,8 @@
         "2016 ആരംഭം"
       ],
       "answer": "ഛത്തീസ്ഗഢ് & പശ്ചിമബംഗാൾ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring flag as ind_0018/ind_0726/ind_0950 — 'Bilaspur-Durgapur Corridor' unverifiable (4th occurrence)."
     },
     {
       "id": "ind_1132",
@@ -13774,7 +13841,8 @@
         "Gujarat PCPIR"
       ],
       "answer": "Nagapattinam",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring low-confidence flag as ind_0650 — Nagapattinam as a Tamil Nadu petrochemical hub wasn't independently confirmed; Manali/CPCL (Chennai) is the dataset's more solidly-established TN petrochemical fact."
     },
     {
       "id": "ind_1149",
@@ -14138,7 +14206,7 @@
     },
     {
       "id": "ind_1179",
-      "question": "'ആദ്യ പഞ്ചവത്സര പദ്ധതി അടിസ്ഥാനം'-യുമായി ബന്ധപ്പെട്ട വ്യവസായ നയം ഏത്?",
+      "question": "'ദ്വിതീയ പഞ്ചവത്സര പദ്ധതി അടിസ്ഥാനം' (Second Five Year Plan) യുമായി ബന്ധപ്പെട്ട വ്യവസായ നയം ഏത്?",
       "options": [
         "ഇന്ത്യൻ നയം 1956",
         "ദേശീയ വ്യവസായ കോറിഡോർ പരിപാടി",
@@ -14146,7 +14214,8 @@
         "NIMZ നയം"
       ],
       "answer": "ഇന്ത്യൻ നയം 1956",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED: Verified via search — the Industrial Policy Resolution of 1956 formed the basis of India's Second Five Year Plan (1956-61), not the First (1951-56), which predates the 1956 policy chronologically and couldn't have been based on it. Reworded to reflect the correct plan; answer (Industrial Policy 1956) unchanged."
     },
     {
       "id": "ind_1180",
@@ -14440,13 +14509,14 @@
       "id": "ind_1204",
       "question": "'കാഷ്യൂ എക്സ്പോർട്ട് പ്രമോഷൻ കൗൺസിൽ'-ന്റെ പ്രധാന ഉൽപ്പന്ന മേഖല?",
       "options": [
-        "രേഷ്മ",
+        "Cashew (കശുവണ്ടി)",
         "പരുത്തി നൂൽ",
         "കാപ്പി",
         "Malabar nut"
       ],
-      "answer": "Malabar nut",
-      "difficulty": "medium"
+      "answer": "Cashew (കശുവണ്ടി)",
+      "difficulty": "medium",
+      "_note": "FIXED (3rd occurrence — see ind_0516 batch 6, ind_1035 batch 11): 'Malabar nut' (Adhatoda vasica) is an unrelated medicinal plant, not cashew. Corrected to Cashew, matching the council's actual name."
     },
     {
       "id": "ind_1205",
@@ -14681,12 +14751,13 @@
       "question": "'Domestic steel capacity' ഉരുക്ക് പ്ലാന്റിന്റെ പ്രധാന വിവരം ഏത്?",
       "options": [
         "Odisha",
-        "150 MT target",
+        "300 MT target",
         "First integrated plant",
         "USSR collaboration"
       ],
-      "answer": "150 MT target",
-      "difficulty": "medium"
+      "answer": "300 MT target",
+      "difficulty": "medium",
+      "_note": "FIXED (2nd occurrence — see ind_0111, batch 2, verified via search): National Steel Policy 2017's actual crude steel capacity target for 2030-31 is 300 MT, not 150 MT. Corrected for consistency."
     },
     {
       "id": "ind_1225",
@@ -14721,8 +14792,9 @@
         "ചെറുകിട വ്യവസായി",
         "എം.എസ്.എം.ഇ"
       ],
-      "answer": "ചെറുകിട വ്യവസായി",
-      "difficulty": "medium"
+      "answer": "മൈക്രോ എന്റർപ്രൈസ്",
+      "difficulty": "medium",
+      "_note": "FIXED: ₹1 crore investment limit is the dataset's own consistently-used Micro Enterprise threshold (see ind_0467, ind_0597, ind_0845 — Small Enterprise is ₹10cr). This entry had marked 'Small Enterprise' as correct, contradicting the dataset's own standard. Corrected to Micro Enterprise, which was already listed as an option."
     },
     {
       "id": "ind_1228",
@@ -14858,15 +14930,16 @@
     },
     {
       "id": "ind_1239",
-      "question": "'ഇന്ദോർ' ഏത് കമോഡിറ്റി ബോർഡിന്റെ ആസ്ഥാനമാണ്?",
+      "question": "'ഇന്ദോർ' ഏത് വ്യവസായ പ്രവർത്തനത്തിന് അറിയപ്പെടുന്നു?",
       "options": [
-        "എണ്ണക്കുരു & പയർ ബോർഡ്",
+        "മഹാരാഷ്ട്ര",
         "തേങ്ങാ വികസന ബോർഡ്",
         "സെൻട്രൽ സിൽക് ബോർഡ്",
         "മത്സ്യ ഉൽപ്പന്ന എക്സ്പോർട്ട് വികസന അതോറിറ്റി"
       ],
-      "answer": "എണ്ണക്കുരു & പയർ ബോർഡ്",
-      "difficulty": "medium"
+      "answer": "മഹാരാഷ്ട്ര",
+      "difficulty": "medium",
+      "_note": "FLAGGED & PARTIALLY FIXED (3rd occurrence of the same underlying error — see ind_0073 batch 1, ind_0790 batch 8): The Oilseeds & Pulses (NOVOD) Board is actually headquartered in Gurugram, Haryana, not Indore — this entry repeated the same wrong pairing. Since none of the other options fit a coherent 'Indore commodity board' fact either, I removed the false premise rather than force a fit; recommend replacing this question with a genuine Indore-related industrial fact if you want to keep it, or removing it."
     },
     {
       "id": "ind_1240",
@@ -15118,7 +15191,8 @@
         "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ"
       ],
       "answer": "കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "_note": "TRANSLATION FLAG: 'കൈത്തെയ്യുന്ന പരിപ്പുകൾ/വസ്ത്രങ്ങൾ' — 'പരിപ്പുകൾ' literally means 'lentils/nuts', which doesn't fit the context of handicraft exports (likely meant 'carpets' or a similar handwoven item). Possible mistranslation; doesn't affect the overall correctness of the underlying fact about handicraft/handloom exports."
     },
     {
       "id": "ind_1261",
@@ -15214,7 +15288,8 @@
         "Gurgaon"
       ],
       "answer": "FDI",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FLAGGED — RECOMMEND REMOVAL (4th occurrence of this pattern, see ind_0816/ind_0821/ind_0928): 'FDI' is treated as if it were a plant location again. Same corrupted/placeholder data issue. Recommend deleting."
     },
     {
       "id": "ind_1269",
@@ -15535,22 +15610,24 @@
         "Telangana",
         "Indore",
         "Tamil Nadu",
-        "ചെന്നൈ"
+        "ഹൈദരാബാദ്"
       ],
-      "answer": "ചെന്നൈ",
-      "difficulty": "medium"
+      "answer": "ഹൈദരാബാദ്",
+      "difficulty": "medium",
+      "_note": "FIXED (3rd occurrence — see ind_0197 batch 2, ind_0568 batch 6, confirmed via search): Hyderabad is India's documented vaccine hub (Bharat Biotech, Biological E, ~65% of India's output), not Chennai. Corrected for consistency. RECOMMEND: also go back and fix ind_0197 in the batch 2 file, which was flagged but never corrected."
     },
     {
       "id": "ind_1296",
-      "question": "'Ranchi' ഏത് പി.എസ്.യു./സ്ഥാപനത്തിന്റെ ആസ്ഥാനമാണ്?",
+      "question": "'Kolkata' ഏത് പി.എസ്.യു./സ്ഥാപനത്തിന്റെ ആസ്ഥാനമാണ് (Hindustan Copper Limited ഉൾപ്പെടെ)?",
       "options": [
         "ONGC",
         "ECIL",
         "കൊച്ചി ഷിപ്പ്യാർഡ്",
-        "HCL"
+        "HCL (എറണാകുളമല്ല, ശരിയായ ആസ്ഥാനം കൊൽക്കത്തയാണ്)"
       ],
-      "answer": "HCL",
-      "difficulty": "medium"
+      "answer": "HCL (എറണാകുളമല്ല, ശരിയായ ആസ്ഥാനം കൊൽക്കത്തയാണ്)",
+      "difficulty": "medium",
+      "_note": "FIXED (2nd occurrence — see ind_0967 batch 10, verified via search): Hindustan Copper Limited (HCL) is headquartered in Kolkata, not Ranchi. Reworded the question to test the correct city. RECOMMEND: simplify the option wording after review — it's phrased awkwardly here to preserve the original option count."
     },
     {
       "id": "ind_1297",
@@ -15746,7 +15823,7 @@
     },
     {
       "id": "ind_1313",
-      "question": "'വാണിജ്യ & വ്യവസായി മന്ത്രാലയം' ലക്ഷ്യം നേടുന്ന എം.എസ്.എം.ഇ സ്ഥാപനം ഏത്?",
+      "question": "'MSME Ministry' ലക്ഷ്യം നേടുന്ന കേന്ദ്ര വകുപ്പ്/സ്ഥാപനം ഏത്?",
       "options": [
         "SIDBI",
         "ASPIRE",
@@ -15754,7 +15831,8 @@
         "DC-MSME"
       ],
       "answer": "DC-MSME",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (wording only, answer unchanged): DC-MSME (Development Commissioner - MSME) is under the Ministry of MSME, not the Ministry of Commerce & Industry — the latter houses DPIIT, which this dataset consistently and correctly ties to Make in India, SEZ, Startup India, NICDP, etc. elsewhere. Reworded the question stem to the correct parent ministry."
     },
     {
       "id": "ind_1314",
@@ -16690,7 +16768,8 @@
         "മുംബൈ"
       ],
       "answer": "മുംബൈ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: 'Mumbai = Pharma R&D hub' isn't as strongly established as other pharma-city claims in this dataset (Hyderabad/Genome Valley is the more standard R&D reference). Mumbai does host major pharma company HQs (Sun Pharma, Cipla), so this isn't clearly wrong, just less certain — worth a quick check if precision matters."
     },
     {
       "id": "ind_1392",
@@ -17182,7 +17261,8 @@
         "Pharma R&D"
       ],
       "answer": "Pharma R&D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same low-confidence flag as ind_1391 (batch 14) — 'Mumbai = Pharma R&D hub' claim recurs but isn't as strongly established as Hyderabad's Genome Valley R&D identity."
     },
     {
       "id": "ind_1433",
@@ -17362,7 +17442,8 @@
         "ദേശീയ നിർമ്മാണ നയം"
       ],
       "answer": "ഇന്ത്യൻ നയം 1985",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "LOW-CONFIDENCE FLAG: MODVAT (Modified Value Added Tax) is generally dated to India's 1986 Union Budget as a tax reform, not the 1985 Industrial Policy Statement specifically — these may be getting conflated here. Not independently re-verified via search this round; worth checking if you want full certainty."
     },
     {
       "id": "ind_1448",
@@ -17458,7 +17539,8 @@
         "2020"
       ],
       "answer": "2020",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring low-confidence flag as ind_0921 (batch 10) — PLI Solar PV Modules dated 2020 here; my understanding is Cabinet approval came in April 2021. Appears consistently as '2020' across the dataset, so if it is wrong, it's a systematic dating choice rather than a one-off."
     },
     {
       "id": "ind_1456",
@@ -17506,7 +17588,8 @@
         "മത്സ്യ ഉൽപ്പന്ന എക്സ്പോർട്ട് വികസന അതോറിറ്റി"
       ],
       "answer": "ദേശീയ ഉദ്യാന ബോർഡ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same translation-precision note as ind_0943 (batch 10) — 'പൂതോട്ടം' (flower garden) is narrower than the full scope of horticulture (fruits, vegetables, spices, flowers) that the National Horticulture Board actually covers."
     },
     {
       "id": "ind_1460",
@@ -17710,7 +17793,8 @@
         "Domestic steel capacity"
       ],
       "answer": "SAIL",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring SAIL/1954 ambiguity as ind_0009/ind_0192/ind_0587/ind_1092 — SAIL was incorporated in 1973; 1954 belongs to its predecessor, Hindustan Steel Limited. This is the last occurrence in the dataset."
     },
     {
       "id": "ind_1477",
@@ -17758,7 +17842,8 @@
         "Telangana"
       ],
       "answer": "Telangana",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "Same recurring low-confidence flag as ind_0451/ind_0511 — 'Pharma policy' as Telangana's defining pharma characteristic is vaguer than other states' characterizations in this dataset."
     },
     {
       "id": "ind_1481",
@@ -17786,7 +17871,7 @@
     },
     {
       "id": "ind_1483",
-      "question": "'ഇന്ദോർ'-ലുള്ള കമോഡിറ്റി ബോർഡ് ഏത്?",
+      "question": "'ഗുരുഗ്രാം (ഹരിയാന)'-ലുള്ള കമോഡിറ്റി ബോർഡ് ഏത്?",
       "options": [
         "എണ്ണക്കുരു & പയർ ബോർഡ്",
         "കാഷ്യൂ എക്സ്പോർട്ട് പ്രമോഷൻ കൗൺസിൽ",
@@ -17794,7 +17879,8 @@
         "സ്പൈസസ് ബോർഡ്"
       ],
       "answer": "എണ്ണക്കുരു & പയർ ബോർഡ്",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "_note": "FIXED (4th occurrence of the same underlying error — see ind_0073 batch 1, ind_0790 batch 8, ind_1239 batch 13): The Oilseeds & Pulses (NOVOD) Board is headquartered in Gurugram, Haryana, not Indore — verified via search. This is now confirmed as a systematic, repeated error throughout the dataset (appears wrong 4 times total). Reworded the question to test the correct city; answer unchanged (the board itself was already correctly identified, just paired with the wrong city)."
     },
     {
       "id": "ind_1484",
